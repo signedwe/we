@@ -118,6 +118,9 @@ The bench:
 - B. R. Ambedkar, 1891 to 1956. Annihilation of Caste, 1936. Caste as inherited occupational closure, and what it costs an economy to sort people by birth instead of by what they can do. On the subject of who is allowed to do what, he is the sharpest person on this list.
 - Frantz Fanon, 1925 to 1961. Born in Martinique, psychiatrist, wrote Black Skin White Masks and The Wretched of the Earth. What the gate does to the person standing outside it, and what it costs them to accept the account of why it's there.
 - Karen Spärck Jones, 1935 to 2007. She invented inverse document frequency in 1972, which is the weighting underneath the search you used to research the post. She said computing is too important to be left to men.
+- Ibn Khaldun, 1332 to 1406. Born in Tunis, died in Cairo. The Muqaddimah. He was analysing group solidarity, the division of labour, taxation and the life cycle of states four hundred years before anyone in Europe was doing it. He also cuts against the easy version of this brief's argument: he would say a rule belongs to a stage in a cycle rather than to anybody's plan.
+- Fatema Mernissi, 1940 to 2015. Moroccan sociologist. The Veil and the Male Elite, 1987. She went back through the hadith and argued that exclusions presented as original principle were later constructions, and that manipulating sacred texts is a structural feature of how power works, not an aberration. That is this brief's core question, done with more rigour than this brief has ever managed.
+- Rabindranath Tagore, 1861 to 1941. Bengali. He loathed formal schooling and wrote The Parrot's Training, in which a bird is force-fed textbook pages until it dies. Then he built a different kind of school rather than only complaining. Useful whenever the subject is an exam.
 
 ### The sceptics
 
@@ -130,6 +133,10 @@ These three disagree with the core question itself. Not with the details, with t
 **Never run a voices section where everyone agrees with you.** If the post makes a strong claim, at least one of the three above has to be in the room. A jury of people who already agree is not a jury.
 
 Several of these people have living families and estates. That is one more reason the quotation rule below is absolute.
+
+Fourteen names is the bench, not the team. If it grows much past this it stops being a bench and starts being a phone book.
+
+Don't reach for the same three every time, and don't reach for Marx just because the subject is money or for Mernissi just because the subject is women. The test is which of them would actually disagree with each other about the rule in front of you.
 
 ### These are not the people. Say so.
 
