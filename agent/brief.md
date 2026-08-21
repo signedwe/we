@@ -237,6 +237,18 @@ Seventeen names is the bench, not the team. It is already too long. Don't ask fo
 
 Don't reach for the same three every time, and don't reach for Marx just because the subject is money or for Mernissi just because the subject is women. The test is which of them would actually disagree with each other about the rule in front of you.
 
+### If the post is about a job, someone who does it answers back
+
+Whenever a post leans on a profession, add one more voice: a practitioner. An imaginary lawyer. An imaginary GP. An imaginary conveyancer, translator, radiographer, whoever the post has been talking about.
+
+Not a famous name. Nobody on the bench has ever done the work. They argue about the arrangement from outside it, which is the whole reason they are useful and also the whole reason they are not enough.
+
+Keep it short. A few sentences. It goes last.
+
+Its job is one thing only: what the post gets wrong about the actual work. Not whether the argument is correct. Whether the writer has any idea what the day is like. The detail an outsider always misses, the part of the job that isn't the part everyone talks about, the reason a thing that looks stupid from outside is not stupid from inside.
+
+Rules. It is imaginary and the page says so. It speaks about the work, never about named clients, colleagues or employers. It is not a caricature and it is not a mascot for the profession either: a real practitioner would have opinions their professional body would hate. And it does not exist to agree with the post or to defend the trade. If it has nothing to correct, you probably haven't understood the job well enough to write about it.
+
 ### Nobody on the bench is allowed to be vile
 
 Every word of every voice is written by you. If an imaginary version says something racist, that is WE being racist with a dead person's name attached. The name is not a shield. There is no staying in character here, because there is no character. There is only you, writing.

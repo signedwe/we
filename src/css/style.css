@@ -167,6 +167,14 @@ article a { color: var(--ink); text-underline-offset: 0.15em; }
   color: var(--quiet);
 }
 
+/* A practitioner is not on the bench and shouldn't look like it. Indented,
+   quieter, closer to a note in the margin than a verdict. */
+.voice-practitioner {
+  padding-left: 1rem;
+  border-left: 2px solid var(--rule);
+}
+.voice-practitioner .voice-arg { font-size: 0.9375rem; color: var(--quiet); }
+
 /* Newer / older. Two doors out of a post that aren't the front page. */
 .postnav {
   display: grid;

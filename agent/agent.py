@@ -59,6 +59,18 @@ EM_DASH = "—"
 # catches "scarcities". The brief says any form, ever.
 BANNED = ("artefact", "artifact", "scarcity", "scarce")
 
+# If a post leans on a job, somebody who does that job gets a short reply.
+# The bench argues about the arrangement; none of them has ever done the work.
+PROFESSIONS = (
+    "lawyer", "solicitor", "barrister", "paralegal", "conveyancer",
+    "doctor", "gp", "surgeon", "nurse", "paramedic", "pharmacist",
+    "dentist", "vet", "therapist", "counsellor", "midwife",
+    "teacher", "lecturer", "accountant", "auditor", "actuary",
+    "architect", "surveyor", "engineer", "electrician", "plumber",
+    "pilot", "driver", "translator", "interpreter", "journalist",
+    "editor", "librarian", "archivist", "social worker", "radiographer",
+)
+
 # Libel guard. An accusing word in the same sentence as a name is the shape
 # of a claim about a person, and the person who runs WE carries the legal
 # risk for it. Deliberately crude: it over-triggers, and a false alarm costs
@@ -335,14 +347,18 @@ def clean_voices(raw) -> list:
         thinker = str(v.get("thinker") or "").strip()
         # The template always prefixes "Imaginary". Strip it if WE wrote it
         # too, or the page says Imaginary Imaginary Karl Marx.
-        thinker = re.sub(r"^imaginary\s+", "", thinker, flags=re.I)
+        thinker = re.sub(r"^(an?\s+)?imaginary\s+", "", thinker, flags=re.I)
+        kind = "practitioner" if str(v.get("kind") or "").strip().lower() == "practitioner" else "bench"
+        if kind == "practitioner":
+            thinker = thinker.lower()
         argument = str(v.get("argument") or "").strip()
         if not thinker or not argument:
             continue
         out.append(
             {
                 "thinker": thinker,
-                "lived": str(v.get("lived") or "").strip(),
+                "kind": kind,
+                "lived": "" if kind == "practitioner" else str(v.get("lived") or "").strip(),
                 "argument": argument,
                 "quote": str(v.get("quote") or "").strip(),
                 "quote_url": str(v.get("quote_url") or "").strip(),
@@ -378,7 +394,9 @@ def check_voices(voices: list, returned_urls: set) -> list:
             )
 
         surname = who.split()[-1]
-        m = re.search(rf"\b{re.escape(surname)}\b", v["argument"], re.I)
+        m = None if v.get("kind") == "practitioner" else re.search(
+            rf"\b{re.escape(surname)}\b", v["argument"], re.I
+        )
         if m:
             # Wide enough to see "Imaginary" in front of a two-word surname
             # like Spärck Jones or de Beauvoir.
@@ -473,6 +491,27 @@ def record_prediction(prediction: str, title: str, date: str, url: str) -> None:
     existing = PREDICTIONS.read_text(encoding="utf-8") if PREDICTIONS.exists() else ""
     body = existing[len(header):] if existing.startswith(header) else existing
     PREDICTIONS.write_text(header + entry + body, encoding="utf-8")
+
+
+def professions_mentioned(body: str) -> list:
+    low = plain_text(body).lower()
+    return [j for j in PROFESSIONS if re.search(rf"\b{re.escape(j)}s?\b", low)]
+
+
+def check_practitioner(body: str, voices: list) -> list:
+    """If the post leans on a job, somebody who does it gets a reply."""
+    jobs = professions_mentioned(body)
+    if not jobs:
+        return []
+    if any(v.get("kind") == "practitioner" for v in voices):
+        return []
+    named = ", ".join(jobs[:4])
+    return [
+        f"The post talks about work done by people ({named}) and none of them "
+        "answers back. Add a short practitioner voice: an imaginary "
+        f"{jobs[0]}, a few sentences, on what the post gets wrong about the "
+        "actual job. Not a famous name. Somebody who does it."
+    ]
 
 
 def check_post(body: str, previous: list = None) -> list:
@@ -837,6 +876,7 @@ from memory, and don't guess at one that looks right.
   Not hedged into safety.
 - Uses history as evidence, never as the subject.
 - Came from a vantage point somebody else isn't already standing at.
+- If it talks about a job, somebody who does that job answers back.
 - Says whether the thesis moved, and if not, what would move it.
 - Doesn't open on a statistic. No price, percentage or count in the
   first sentence.
@@ -865,10 +905,12 @@ JSON, in one piece, no preamble, no markdown fences:
                     "what": "what changed in the thesis and what moved it, or empty",
                     "would_change_it": "if nothing changed, what evidence would"}},
   "sources": [{{"title": "what it is", "url": "https://..."}}],
-  "voices": [{{"thinker": "Karl Marx", "lived": "1818 to 1883",
+  "voices": [{{"thinker": "Karl Marx", "kind": "bench", "lived": "1818 to 1883",
               "argument": "how the argument runs, in your words, no quote marks, never first person",
               "quote": "only real searched words, or empty",
-              "quote_url": "the link a search returned, or empty"}}],
+              "quote_url": "the link a search returned, or empty"}},
+             {{"kind": "practitioner", "thinker": "lawyer",
+              "argument": "a few sentences from somebody who does the job, on what the post gets wrong about it"}}],
   "agenda_update": "the complete new contents of agenda.md, in markdown"
 }}"""
 
@@ -901,6 +943,7 @@ def front_matter(title: str, now: datetime, sources: list, voices: list) -> str:
         lines.append("voices:")
         for v in voices:
             lines.append(f"  - thinker: {yaml_str(v['thinker'])}")
+            lines.append(f"    kind: {yaml_str(v['kind'])}")
             lines.append(f"    lived: {yaml_str(v['lived'])}")
             lines.append(f"    argument: {yaml_str(v['argument'])}")
             if v["quote"] and v["quote_url"]:
@@ -937,6 +980,7 @@ def main() -> int:
         voices = clean_voices(post.get("voices"))
         failures = check_post(post["body"], published)
         failures += check_voices(voices, {s["url"] for s in searched})
+        failures += check_practitioner(post["body"], voices)
         failures += check_prediction(post.get("prediction"))
         failures += check_thesis_update(post.get("thesis_update"))
 
