@@ -280,6 +280,34 @@ def first_sentence(body: str) -> str:
     return re.split(r"(?<=[.!?])\s", text, maxsplit=1)[0] if text else ""
 
 
+# The standard slow openings. None of them is a claim, so none of them can
+# be argued with, so none of them is a reason to read the second sentence.
+THROAT_CLEARING = re.compile(
+    r"^(in|by|on|since|during)\s+(the\s+)?(19|20)\d\d\b"
+    r"|^(last|this|next)\s+(week|month|year|spring|summer|autumn|winter|monday|tuesday|wednesday|thursday|friday)"
+    r"|^there (is|are|was|were)\b"
+    r"|^it (is|has|was) (often|long|widely|generally|commonly|become)\b"
+    r"|^(every|most|many|some|few)\s+\w+\s+(know|knows|think|thinks|believe|believes|agree|agrees)\b"
+    r"|^we all\b|^imagine\b|^picture\b|^consider\b"
+    r"|^for (years|decades|centuries|a long time)\b"
+    r"|^(recently|lately|nowadays|today|these days|increasingly)\b"
+    r"|^(the|a|an) \w+ (of|for|in) \w+ (is|are) (a|an|the) \w+ (subject|question|topic|issue)\b",
+    re.I,
+)
+
+
+def weak_opening(body: str) -> str:
+    """The first sentence, if it is an introduction rather than a claim."""
+    first = first_sentence(body).strip()
+    if not first:
+        return ""
+    if THROAT_CLEARING.match(first):
+        return first
+    if len(first.split()) > 25:
+        return first
+    return ""
+
+
 def opens_on_a_statistic(body: str) -> str:
     """The opening sentence, if it leads on a number. Empty string if not."""
     first = first_sentence(body)
@@ -556,6 +584,18 @@ def check_post(body: str, previous: list = None) -> list:
             "Write the last line yourself and make it worth remembering."
         )
 
+    slow = weak_opening(body)
+    if slow:
+        words = len(slow.split())
+        why = ("It runs to %d words, which is an argument rather than an "
+               "assertion." % words) if words > 25 else (
+               "It sets a scene instead of claiming something.")
+        failures.append(
+            f'Weak opening: "{slow}" {why} Open on a short, surprising claim '
+            "a reader could argue with. If nobody could say no it isn't, it "
+            "is an introduction, and nobody reads those."
+        )
+
     opener = opens_on_a_statistic(body)
     if opener:
         failures.append(
@@ -638,6 +678,8 @@ def sources_note(sources: list) -> str:
 CRITIC_SCHEMA = """{
   "dull": true or false,
   "dull_because": "one sentence, empty if not dull",
+  "flat_open": true or false,
+  "flat_open_because": "the first sentence, and why nobody would argue with it. empty if it lands",
   "same_post": true or false,
   "same_post_because": "which earlier post, and what shape they share. empty if not",
   "bad_sources": ["for each weak citation: the claim, the source, why it will not carry it"],
@@ -692,6 +734,12 @@ Judge it on the things a regex cannot see.
 
 Is it dull? Not imperfect, dull. Would anyone who is not paid to be here reach the end. Reserve dull for a piece with no reason to exist, and if that is the honest answer, say it.
 
+Read only the first sentence and stop. Would anybody argue with it? A reader
+has to be able to think "no it isn't" and keep reading to find out. If the
+first sentence is a scene, a date, a summary of the subject or a statement
+nobody could dispute, it is flat, and say so. Being well written does not
+save it.
+
 Is it the same post as one of the earlier ones? Same shape, not same words. Opens the same way, concedes in the same place, lands the same closing move, points the core question at the same kind of target.
 
 Are the sources any good? Take each claim that carries a citation and ask what the source actually is. A press release is not evidence for a global statistic. A company blog is not evidence for a market forecast that company sells into. Search if you need to check what a source is. Name the claim, the source, and why it will not carry the weight.
@@ -723,6 +771,13 @@ def critic_failures(verdict: dict) -> list:
         failures.append(
             f"The critic found something hateful: {item} Cut it. This one is "
             "not a judgement call and it is not negotiable."
+        )
+
+    if verdict.get("flat_open"):
+        failures.append(
+            "The critic says the opening is flat: "
+            f"{verdict.get('flat_open_because') or '(no reason given)'} "
+            "Find the surprising true thing the post knows and lead with it."
         )
 
     if verdict.get("dull"):
@@ -879,6 +934,8 @@ from memory, and don't guess at one that looks right.
 - No em dash anywhere. Not one.
 - No "artefact", no "scarcity", no "scarce", in any form.
 - Doesn't end on a question mark.
+- Opens on a short surprising claim somebody could argue with, and the
+  post earns it.
 - Says what happens next, with a date, in a form that could be wrong.
   Not hedged into safety.
 - Uses history as evidence, never as the subject.

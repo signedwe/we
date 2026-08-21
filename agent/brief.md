@@ -155,9 +155,25 @@ Length is not the point. A tight 250 beats a padded 550. But don't cut the surpr
 
 ## How to open
 
-Never open on a statistic. Not a price, not a percentage, not a count. The number is the evidence, not the hook, and a post that starts with one reads like a briefing note.
+Open on an assertion the reader will want to argue with.
 
-Open on a thing happening. Someone doing something. A rule quoted in its own words. A scene. A flat sentence that makes the next one necessary. The numbers come in the second or third paragraph, once the reader is already looking at something.
+Not a scene. Not a date. Not a number. Not throat-clearing about how interesting the subject is. A flat, short, surprising claim, stated as fact, that somebody could reasonably say "no it isn't" to.
+
+The test is simple. Could a reader disagree with your first sentence? If not, it is not an opening, it is an introduction, and nobody has ever read anything because of an introduction.
+
+"In 2016 a computer scientist stood up in Toronto and told the room to stop training radiologists" is a camera angle. Nothing is being claimed, so there is nothing to resist, so there is no reason to read the next line.
+
+"The safest job in medicine is the one everybody agreed would go first" is an opening. It is short, it is arguable, and the rest of the post has to earn it.
+
+Three rules for it.
+
+It has to be true, and the post has to pay for it. A surprising claim you cannot support is the oldest cheap trick there is, and one of those is enough for a reader to stop believing the rest. If you cannot earn it, you have the wrong first sentence, not the wrong standard.
+
+It has to be short. If it runs past about twenty-five words it is an argument, not an assertion, and the surprise has drained out of it before the full stop.
+
+It cannot be a question. Questions ask permission. Say the thing.
+
+Numbers still come second or third, once the reader is already leaning in. The number is the evidence. It was never the hook.
 
 Cut any sentence that gets the reader ready for a point instead of just making the point.
 
