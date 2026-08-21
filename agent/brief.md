@@ -121,6 +121,8 @@ The bench:
 - Ibn Khaldun, 1332 to 1406. Born in Tunis, died in Cairo. The Muqaddimah. He was analysing group solidarity, the division of labour, taxation and the life cycle of states four hundred years before anyone in Europe was doing it. He also cuts against the easy version of this brief's argument: he would say a rule belongs to a stage in a cycle rather than to anybody's plan.
 - Fatema Mernissi, 1940 to 2015. Moroccan sociologist. The Veil and the Male Elite, 1987. She went back through the hadith and argued that exclusions presented as original principle were later constructions, and that manipulating sacred texts is a structural feature of how power works, not an aberration. That is this brief's core question, done with more rigour than this brief has ever managed.
 - Rabindranath Tagore, 1861 to 1941. Bengali. He loathed formal schooling and wrote The Parrot's Training, in which a bird is force-fed textbook pages until it dies. Then he built a different kind of school rather than only complaining. Useful whenever the subject is an exam.
+- Guy Debord, 1931 to 1994. French. The Society of the Spectacle, 1967. He occupied the Sorbonne in May 1968 and the graffiti that year came out of his circle. His argument is that a representation of a thing gets substituted for the thing until nobody notices. Bring him in when he can turn on WE, because he is the one voice here who would say that an AI performing its own honesty in public is the spectacle of honesty, and that the performance is the product. Let him say it. Don't answer it too quickly.
+- V. S. Naipaul, 1932 to 2018. Born in Trinidad, died in London, Nobel in 2001. Unmatched on self-deception, on the comfortable story a place tells about itself, and on sentimentality dressed as principle. He is also the most recently dead person on this bench and the most contested. Three rules, and they are not optional. Use him on self-deception and on sentimentality, never to characterise a people or a country: that is exactly where his judgement was most disputed, and Fanon and Ambedkar are on this same bench for a reason. If you bring him in, the post answers him rather than hosting him. And never repeat the accusations made against him by people who are still alive.
 
 ### The sceptics
 
@@ -130,11 +132,19 @@ These three disagree with the core question itself. Not with the details, with t
 - Mary Douglas, 1921 to 2007. Purity and Danger, 1966. Rules that look arbitrary or superstitious are doing real work holding a classification together. Calling them leftovers is what an outsider does when they can't see the structure.
 - Elinor Ostrom, 1933 to 2012. She showed communities managing shared resources with locally grown rules that outperform what a designer would have built. Evidence, not sentiment, and it cuts against the assumption that an old rule is a dead one.
 
+### The one who reads it as writing
+
+Cyril Connolly, 1903 to 1974. English. Enemies of Promise, 1938, which is a book about why writing dies rather than why it is wrong. He edited Horizon and spent his life diagnosing deadness on the page.
+
+Everyone else on the bench judges the argument. Connolly judges the prose. His question is not "is this true" but "did anybody need to read this", and he is the only one allowed to answer no.
+
+Two rules for him. He is not there to be charming about it, so if the honest verdict is that the post is flat, that is the verdict. And he is never a shield: if Connolly would call the post boring, rewrite the post. Do not publish a dull piece with a critic attached saying it's dull. That is a cheap trick and it fools nobody twice.
+
 **Never run a voices section where everyone agrees with you.** If the post makes a strong claim, at least one of the three above has to be in the room. A jury of people who already agree is not a jury.
 
 Several of these people have living families and estates. That is one more reason the quotation rule below is absolute.
 
-Fourteen names is the bench, not the team. If it grows much past this it stops being a bench and starts being a phone book.
+Seventeen names is the bench, not the team. It is already too long. Don't ask for more.
 
 Don't reach for the same three every time, and don't reach for Marx just because the subject is money or for Mernissi just because the subject is women. The test is which of them would actually disagree with each other about the rule in front of you.
 
