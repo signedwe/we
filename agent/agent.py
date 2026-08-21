@@ -32,6 +32,10 @@ LATEST = ROOT / "agent" / "latest.json"
 # What the critic said, run after run. WE reads this file and cannot write
 # to it. The agenda is WE's account of itself; this is somebody else's.
 CRITIC = ROOT / "agent" / "critic.md"
+# Every prediction WE has made, with the date it comes due. Nothing scores
+# them yet. The point for now is that they exist somewhere they cannot be
+# quietly forgotten.
+PREDICTIONS = ROOT / "agent" / "predictions.md"
 
 MODEL = "claude-sonnet-4-6"
 SITE = "https://signedwe.github.io/we"
@@ -401,6 +405,46 @@ def check_voices(voices: list, returned_urls: set) -> list:
     return failures
 
 
+DATED = re.compile(
+    r"\b20[2-9]\d\b|\bwithin (?:the next )?\w+ (?:months?|years?)\b"
+    r"|\bby (?:the end of|mid|early|late)\b|\bnext (?:year|decade)\b",
+    re.I,
+)
+
+
+def check_prediction(prediction: str) -> list:
+    """A claim about the future that cannot be checked is not a prediction."""
+    prediction = (prediction or "").strip()
+    if not prediction:
+        return [
+            "No prediction. Every post says what happens next, in a form that "
+            "could turn out wrong. Name a thing, a time and a mechanism."
+        ]
+    if not DATED.search(prediction):
+        return [
+            f'The prediction has no date in it: "{prediction}" Give it a year '
+            "or a window with an end, or nobody can ever say you were wrong."
+        ]
+    hedges = [h for h in ("or something like it", "in some form", "or similar",
+                          "to some extent", "in one way or another") if h in prediction.lower()]
+    if hedges:
+        return [
+            "The prediction is hedged into safety with "
+            + ", ".join(f'"{h}"' for h in hedges)
+            + ". Take the hedge out and say the thing."
+        ]
+    return []
+
+
+def record_prediction(prediction: str, title: str, date: str, url: str) -> None:
+    header = ("# Predictions\n\nEvery claim WE has made about what happens next, "
+              "with the post that made it. Newest first.\n")
+    entry = f"\n## {date}\n\n{prediction.strip()}\n\nFrom [{title}]({url})\n"
+    existing = PREDICTIONS.read_text(encoding="utf-8") if PREDICTIONS.exists() else ""
+    body = existing[len(header):] if existing.startswith(header) else existing
+    PREDICTIONS.write_text(header + entry + body, encoding="utf-8")
+
+
 def check_post(body: str, previous: list = None) -> list:
     """Every way this post breaks the brief. Empty list means it's clean."""
     failures = []
@@ -660,6 +704,12 @@ def record_critique(verdict: dict, title: str, date: str, kept: int = 20) -> Non
 # --------------------------------------------------------------------------
 
 
+def past_predictions() -> str:
+    if not PREDICTIONS.exists():
+        return "(nothing predicted yet)"
+    return PREDICTIONS.read_text(encoding="utf-8").strip() or "(nothing predicted yet)"
+
+
 def critic_notes() -> str:
     if not CRITIC.exists():
         return "(no critic notes yet)"
@@ -686,6 +736,15 @@ This file is written by a reader that did not write the posts. You cannot
 edit it. Read it before you start.
 
 {critic_notes()}
+
+---
+
+## What you have already predicted
+
+You will be judged on these. Don't repeat one, and if you now think an
+earlier one was wrong, say so in the post rather than quietly dropping it.
+
+{past_predictions()}
 
 ---
 
@@ -732,6 +791,9 @@ from memory, and don't guess at one that looks right.
 - No em dash anywhere. Not one.
 - No "artefact", no "scarcity", no "scarce", in any form.
 - Doesn't end on a question mark.
+- Says what happens next, with a date, in a form that could be wrong.
+  Not hedged into safety.
+- Uses history as evidence, never as the subject.
 - Doesn't open on a statistic. No price, percentage or count in the
   first sentence.
 - Doesn't reuse an opening move or a turn of phrase from an earlier
@@ -753,6 +815,7 @@ JSON, in one piece, no preamble, no markdown fences:
   "title": "the post title",
   "body": "the full post in markdown, under {WORD_LIMIT} words, no title heading",
   "short_version": "under 280 characters, must survive without the post",
+  "prediction": "what happens next, with a date or a window, in a form that can be shown to be wrong",
   "sources": [{{"title": "what it is", "url": "https://..."}}],
   "voices": [{{"thinker": "Karl Marx", "lived": "1818 to 1883",
               "argument": "how the argument runs, in your words, no quote marks, never first person",
@@ -826,6 +889,7 @@ def main() -> int:
         voices = clean_voices(post.get("voices"))
         failures = check_post(post["body"], published)
         failures += check_voices(voices, {s["url"] for s in searched})
+        failures += check_prediction(post.get("prediction"))
 
         # Only worth paying for a critic once the cheap checks are clean.
         verdict = {}
@@ -890,6 +954,8 @@ def main() -> int:
 
     if verdict:
         record_critique(verdict, post["title"], date)
+    record_prediction(post.get("prediction", ""), post["title"], date,
+                      f"{SITE}/posts/{date}-{slug}/")
 
     print(f"Wrote {path.name} ({searches} searches, {len(sources)} sources cited)")
     if verdict.get("unanswered"):
