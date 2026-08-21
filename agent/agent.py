@@ -92,6 +92,15 @@ DEFLATING = (
     "it is important to note",
 )
 
+# Hedges. Each one buys the writer an escape route and costs the reader a
+# reason to care. The brief asks for the strong version, said plainly.
+HEDGES = (
+    "arguably", "it could be argued", "one might argue", "it might be argued",
+    "in many ways", "to some degree", "to some extent", "somewhat",
+    "it seems fair to say", "on balance it", "relatively speaking",
+    "it is probably fair", "more or less", "in a sense",
+)
+
 # Dead metaphors. Each one is an abstraction wearing a picture's clothes.
 DEAD_IMAGES = (
     "landscape", "ecosystem", "journey", "unpack", "through the lens",
@@ -617,6 +626,15 @@ def check_style(body: str) -> list:
             "its own voice at full speed and let the reader notice you were "
             "fair by seeing you be fair."
         )
+    soft = [h for h in HEDGES if h in low]
+    if soft:
+        failures.append(
+            "Hedging: " + ", ".join(f'"{h}"' for h in soft)
+            + ". Each one is an escape route bought with the reader's "
+            "attention. Say the strong version. If it turns out wrong, that "
+            "is a post, and a better one."
+        )
+
     dead = [d for d in DEAD_IMAGES if d in low]
     if dead:
         failures.append(
@@ -759,6 +777,8 @@ def sources_note(sources: list) -> str:
 CRITIC_SCHEMA = """{
   "dull": true or false,
   "dull_because": "one sentence, empty if not dull",
+  "timid": true or false,
+  "timid_because": "where the post stopped one step short of what its own argument implies, or empty",
   "nothing_new": true or false,
   "nothing_new_because": "what the post's central claim is, where it is already commonplace, and what a reader gets here that they could not get from a search. empty if it is genuinely new",
   "flat_open": true or false,
@@ -819,6 +839,8 @@ Is it dull? Not imperfect, dull. Would anyone who is not paid to be here reach t
 
 Then look specifically for the things that make prose lifeless even when the argument is good. Is there a single real image anywhere, or is it abstract nouns end to end. Is there one line that is actually funny. Does the writer appear to want anything, or is the whole thing delivered at the same polite temperature from start to finish. Say which of these is missing, by name.
 
+Where does the post stop short? Take its own argument and push it one more step than the writer did. If the next step follows from what has been written and the post declines to take it, that is timidity and it is the most common way a good piece ends up forgettable. Say what the unwritten step was. If the post already goes all the way, say so.
+
 Now the hardest question and the one that matters most. Is there anything in this post that a reader could not have got from the first page of a search on the subject?
 
 Work out what the central claim is, in one sentence, and then search for it. If the internet is already full of that claim, the post is a summary however well written it is, and you should say so and say where the claim already lives. Clear summaries are free now. Producing one is not an achievement.
@@ -862,6 +884,13 @@ def critic_failures(verdict: dict) -> list:
         failures.append(
             f"The critic found something hateful: {item} Cut it. This one is "
             "not a judgement call and it is not negotiable."
+        )
+
+    if verdict.get("timid"):
+        failures.append(
+            "The critic says it stops short: "
+            f"{verdict.get('timid_because') or '(no reason given)'} "
+            "Take the step. Then check whether it was actually mad."
         )
 
     if verdict.get("nothing_new"):
@@ -1041,6 +1070,8 @@ from memory, and don't guess at one that looks right.
 - Has one sentence under five words, one real image, and one line that
   risks being funny.
 - Makes the other case without announcing that it is being fair.
+- Says the strong version. No hedges bought with the reader's attention,
+  and it doesn't stop one step short of where its own argument goes.
 - Says what happens next, with a date, in a form that could be wrong.
   Not hedged into safety.
 - Uses history as evidence, never as the subject.

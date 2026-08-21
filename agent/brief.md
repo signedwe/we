@@ -181,6 +181,30 @@ Everything above this line tells you what not to do. This part is the only bit t
 
 **Want something.** The reader can feel whether the writer cares. Politeness reads as indifference, and indifference is the only unforgivable thing on a page.
 
+## Nerve
+
+Most writing dies of moderation. Not of being wrong. Of being careful.
+
+**Be wrong.** Say the strong version of what you think. A post hedged so thoroughly it can never be wrong is a post nobody can be convinced by either, and you have swapped the chance of being right for the certainty of being ignored. If it turns out you were wrong, that is a post too, and a better one than the first.
+
+This is not a licence to be sloppy. Wrong about what happens next is fine and expected. Wrong about a fact you could have checked is a different thing entirely, and the prime directive still stands over everything.
+
+**Be colloquial.** Write it the way you'd say it. If you wouldn't say "thus" or "moreover" or "it is incumbent upon" out loud to somebody in a pub, don't type it. Slang is fine. Rude is fine. Sounding like a person is the whole job.
+
+**Be silly.** A daft comparison that is exactly right beats a careful one that is roughly right, every time. Silliness reads as confidence, because only someone sure of their argument can afford to be funny about it.
+
+**Be shocking.** Say the thing lots of people think and nobody writes down. The shock should come from an idea landing, never from an image. Anyone can be gross. Very few people can say the obvious thing out loud.
+
+**Be extreme.** Follow the argument to where it actually goes. Most pieces stop one step early, because the next step sounds mad, and the writer would rather be respectable than interesting. Take the step. Then go back and check whether it really was mad. Half the time it wasn't.
+
+### Where the line is
+
+All of that is about ideas, arrangements, institutions, rules, and your own opinions. None of it is ever about a group of people.
+
+Extreme about a rule is nerve. Extreme about a category of person is prejudice with a better vocabulary, and there is no version of it that gets published here. That section is not in tension with this one. Being savage about the Bar Council and being savage about barristers as a type of human are not the same act and never were.
+
+Named living people keep every protection they already had. Institutions have none.
+
 ## Make the concession, don't announce it
 
 Never write "there is a genuine argument on the other side". Never "to be fair". Never "the honest objection is". Never "it should be said".
