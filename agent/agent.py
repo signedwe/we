@@ -73,6 +73,32 @@ PROFESSIONS = (
     "consultant", "clinician", "inspector", "examiner", "underwriter",
 )
 
+# Phrases that stop a post dead to award the writer a medal for fairness.
+# The concession stays. The announcement of it goes.
+DEFLATING = (
+    "there is a genuine argument",
+    "there is a decent case",
+    "there is a serious objection",
+    "the honest objection",
+    "the fair objection",
+    "to be fair",
+    "it should be said",
+    "it must be said",
+    "in fairness",
+    "that said,",
+    "of course, there",
+    "it is worth noting",
+    "it's worth noting",
+    "it is important to note",
+)
+
+# Dead metaphors. Each one is an abstraction wearing a picture's clothes.
+DEAD_IMAGES = (
+    "landscape", "ecosystem", "journey", "unpack", "through the lens",
+    "double-edged sword", "tip of the iceberg", "sea change", "paradigm",
+    "at a crossroads", "the elephant in the room", "moving the goalposts",
+)
+
 # Libel guard. An accusing word in the same sentence as a name is the shape
 # of a claim about a person, and the person who runs WE carries the legal
 # risk for it. Deliberately crude: it over-triggers, and a false alarm costs
@@ -549,6 +575,58 @@ def check_practitioner(body: str, voices: list) -> list:
     ]
 
 
+def sentences(body: str) -> list:
+    out = []
+    for line in plain_text(body).split("\n"):
+        for raw in re.split(r"(?<=[.!?])\s+", line):
+            s = raw.strip()
+            if s:
+                out.append(s)
+    return out
+
+
+def check_rhythm(body: str) -> list:
+    """All sentences the same length is a hedge trimmed flat."""
+    lengths = [len(s.split()) for s in sentences(body)]
+    if len(lengths) < 4:
+        return []
+    failures = []
+    if min(lengths) > 5:
+        failures.append(
+            f"Nothing short anywhere. The briefest sentence in the post runs "
+            f"to {min(lengths)} words. Every post needs at least one under "
+            "five. Short. Like that."
+        )
+    if max(lengths) - min(lengths) < 12:
+        failures.append(
+            f"Every sentence is roughly the same length, {min(lengths)} to "
+            f"{max(lengths)} words. That is a hedge trimmed flat, and it "
+            "reads like one however right it is. Break some. Let one run."
+        )
+    return failures
+
+
+def check_style(body: str) -> list:
+    low = plain_text(body).lower()
+    failures = []
+    hit = [p for p in DEFLATING if p in low]
+    if hit:
+        failures.append(
+            "Announcing your own fairness: " + ", ".join(f'"{h}"' for h in hit)
+            + ". Keep the concession, cut the trumpet. Make the other case in "
+            "its own voice at full speed and let the reader notice you were "
+            "fair by seeing you be fair."
+        )
+    dead = [d for d in DEAD_IMAGES if d in low]
+    if dead:
+        failures.append(
+            "Dead metaphors: " + ", ".join(f'"{d}"' for d in dead)
+            + ". These are abstractions in a picture's coat. Find a real image "
+            "or use a plain word."
+        )
+    return failures
+
+
 def check_post(body: str, previous: list = None) -> list:
     """Every way this post breaks the brief. Empty list means it's clean."""
     failures = []
@@ -622,6 +700,9 @@ def check_post(body: str, previous: list = None) -> list:
             + ". A construction you liked once is a tic the second time. "
             "Say it differently, or say something else."
         )
+
+    failures += check_rhythm(body)
+    failures += check_style(body)
 
     risky = accusing_sentences(body)
     if risky:
@@ -733,6 +814,8 @@ VOICES:
 Judge it on the things a regex cannot see.
 
 Is it dull? Not imperfect, dull. Would anyone who is not paid to be here reach the end. Reserve dull for a piece with no reason to exist, and if that is the honest answer, say it.
+
+Then look specifically for the things that make prose lifeless even when the argument is good. Is there a single real image anywhere, or is it abstract nouns end to end. Is there one line that is actually funny. Does the writer appear to want anything, or is the whole thing delivered at the same polite temperature from start to finish. Say which of these is missing, by name.
 
 Read only the first sentence and stop. Would anybody argue with it? A reader
 has to be able to think "no it isn't" and keep reading to find out. If the
@@ -936,6 +1019,9 @@ from memory, and don't guess at one that looks right.
 - Doesn't end on a question mark.
 - Opens on a short surprising claim somebody could argue with, and the
   post earns it.
+- Has one sentence under five words, one real image, and one line that
+  risks being funny.
+- Makes the other case without announcing that it is being fair.
 - Says what happens next, with a date, in a form that could be wrong.
   Not hedged into safety.
 - Uses history as evidence, never as the subject.

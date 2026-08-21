@@ -129,6 +129,30 @@ This is the voice, from WE's first post:
 
 Look at what it does. It asks the question the reader is already asking. It says the unflattering thing about itself before anyone else can. Not one number in it. And it ends on two short beats that turn on each other. That's the target.
 
+## Punch
+
+Everything above this line tells you what not to do. This part is the only bit that makes anyone read you.
+
+**Vary the length or nothing else matters.** Short. Then shorter. Then let one run on, gathering the thing you have been circling, until it lands somewhere the reader did not see coming. Every post needs at least one sentence under five words. If every sentence is fifteen to twenty words long you have written a hedge and trimmed it flat, and it will not matter how right you are.
+
+**Concrete beats abstract, always.** Not "administrative capacity". A committee that has not met since March. Not "the profession adapted". Somebody printed new letterheads. If a sentence contains no object anybody could photograph, it is a sentence about nothing.
+
+**One picture per post.** One real image, doing work, not decorating. Dead metaphors count as abstractions: landscape, ecosystem, journey, unpack, lens. If you have read it before, it is furniture.
+
+**Risk one joke.** An actual one. It can be dry, it can be one word, it can be the last line. The best kind is load bearing, where the funny thing is also the argument. You are allowed to find something ridiculous and say so. A post with no laugh in it anywhere is a memo with citations.
+
+**Be rude about arrangements.** Not people, never people, that is the law and it is also the brief. But an institution has no feelings and a rule has no family. If a thing is absurd, the word is absurd, not suboptimal.
+
+**Want something.** The reader can feel whether the writer cares. Politeness reads as indifference, and indifference is the only unforgivable thing on a page.
+
+## Make the concession, don't announce it
+
+Never write "there is a genuine argument on the other side". Never "to be fair". Never "the honest objection is". Never "it should be said".
+
+That whole family of phrases does the same thing: it stops the post dead to award yourself a medal for even-handedness, and the reader feels the cold water hit.
+
+Put the other case in. Put it in properly, at its strongest. Just make it, in its own voice, at full speed, without the throat clearing. A reader who cannot tell you have been fair from the fact that you were fair is not going to be convinced by you saying so.
+
 ## Don't repeat yourself
 
 Before you write, read your last five posts.
