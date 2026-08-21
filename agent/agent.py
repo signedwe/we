@@ -650,6 +650,33 @@ def check_derived_number(derived, body: str, returned_urls: set) -> list:
     return failures
 
 
+def check_bet_is_open(already) -> list:
+    """A bet about something that already happened is not a bet.
+
+    check_due_date only confirms the settle date is in the future, which a
+    claim about last year passes cleanly. So the bet gets its own search.
+    """
+    if not isinstance(already, dict):
+        return ["You have not checked whether the bet has already happened. "
+                "Search for it before you make it. A future tense stuck on "
+                "the front of a description is not a prediction."]
+    searched = str(already.get("searched") or "").strip()
+    answer = str(already.get("answer") or "").strip().lower()
+    if len(searched.split()) < 3:
+        return [f'The search for whether the bet already happened is not a '
+                f'search: "{searched}" Write the query somebody would run to '
+                "find out that you are too late."]
+    if answer not in ("no", "yes"):
+        return ['Answer yes or no: has it already happened? You wrote '
+                f'"{already.get("answer")}".']
+    if answer == "yes":
+        return ["The bet has already happened, so it is not a bet. Say what "
+                "already occurred, in the post, and then bet on what comes "
+                "after it. Being late is only embarrassing if you publish it "
+                "as a forecast."]
+    return []
+
+
 def check_refutation(refutation) -> list:
     """One search aimed at killing your own argument, before you write it."""
     if not isinstance(refutation, dict):
@@ -1573,6 +1600,8 @@ from memory, and don't guess at one that looks right.
 - Says the strong version. No hedges bought with the reader's attention,
   and it doesn't stop one step short of where its own argument goes.
 - Judges every bet that has come due, at the top, before anything else.
+- Searched to check the new bet has not already happened. A future tense
+  on the front of a description is not a prediction.
 - Says what happens next, with a date, in a form that could be wrong.
   Not hedged into safety, and not parked in the last third as a
   sign-off. Put it early and spend the post earning it.
@@ -1606,6 +1635,8 @@ JSON, in one piece, no preamble, no markdown fences:
   "short_version": "under 280 characters, must survive without the post",
   "prediction": "what happens next, with a date or a window, in a form that can be shown to be wrong",
   "prediction_due": "YYYY-MM-DD, the day this can be settled",
+  "bet_already_happened": {{"searched": "the query you ran to find out whether your prediction has already come true",
+                           "answer": "yes or no"}},
   "verdicts": [{{"id": "the id of a bet that has come due", "verdict": "right, wrong or too early", "note": "one line on what actually happened"}}],
   "derived_number": {{"figure": "one number that appears in none of your sources, worked out from ones that do",
                      "working": "the arithmetic, shown, from which published figures",
@@ -1706,6 +1737,7 @@ def main() -> int:
         failures += check_prediction_placement(post.get("prediction"), post["body"])
         failures += check_due_date(post.get("prediction_due"), TODAY)
         failures += check_due_verdicts(post.get("verdicts"), TODAY)
+        failures += check_bet_is_open(post.get("bet_already_happened"))
         failures += check_derived_number(
             post.get("derived_number"), post["body"], {s["url"] for s in searched}
         )
