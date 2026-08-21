@@ -102,6 +102,22 @@ HEDGES = (
     "it is probably fair", "more or less", "in a sense",
 )
 
+# "X is Y" describes a state. Nothing happens in it. Measured against the
+# voice this brief is aiming at, which runs near 30 per cent, anything past
+# 45 reads as a list of conditions rather than a piece of writing.
+COPULA = re.compile(r"\b(is|are|was|were|be|been|being|it's|that's|there's)\b", re.I)
+COPULA_CEILING = 45
+
+# Announcing the next paragraph instead of writing it.
+SIGNPOSTS = (
+    "here is what happened", "here is what", "the interesting question",
+    "the interesting part", "the interesting thing", "now the bit",
+    "so here is", "here is the bet", "the point is", "what is really going on",
+    "what's really going on", "it is worth noting", "let me explain",
+    "i want to", "consider this", "the thing is", "here's the thing",
+    "which brings me to", "before we go on", "bear with me",
+)
+
 # Dead metaphors. Each one is an abstraction wearing a picture's clothes.
 DEAD_IMAGES = (
     "landscape", "ecosystem", "journey", "unpack", "through the lens",
@@ -678,9 +694,35 @@ def check_rhythm(body: str) -> list:
     return failures
 
 
+def check_verbs(body: str) -> list:
+    """How much of the post is things being, rather than things happening."""
+    ss = sentences(body)
+    if len(ss) < 6:
+        return []
+    on_is = sum(1 for s in ss if COPULA.search(s))
+    pct = round(100 * on_is / len(ss))
+    if pct <= COPULA_CEILING:
+        return []
+    return [
+        f"{pct} per cent of the sentences run on is, are, was or were. The "
+        f"ceiling is {COPULA_CEILING} and the voice you are aiming at sits "
+        "near thirty. A sentence built on is describes a state and nothing "
+        "happens in it. Subject, verb, object. Somebody does something to "
+        "something. Rewrite half of them with a verb that moves."
+    ]
+
+
 def check_style(body: str) -> list:
     low = plain_text(body).lower()
     failures = []
+    posts = [s for s in SIGNPOSTS if s in low]
+    if posts:
+        failures.append(
+            "Signposting: " + ", ".join(f'"{s}"' for s in posts)
+            + ". Announcing a paragraph is not writing it. Delete the "
+            "announcement and start with the thing itself. The reader worked "
+            "out that a post has parts."
+        )
     hit = [p for p in DEFLATING if p in low]
     if hit:
         failures.append(
@@ -783,6 +825,7 @@ def check_post(body: str, previous: list = None) -> list:
         )
 
     failures += check_rhythm(body)
+    failures += check_verbs(body)
     failures += check_style(body)
 
     risky = accusing_sentences(body)
@@ -1152,6 +1195,10 @@ from memory, and don't guess at one that looks right.
   post earns it.
 - Has one sentence under five words, one real image, and one line that
   risks being funny.
+- Fewer than half the sentences run on is, are, was or were. Somebody
+  does something to something.
+- Announces nothing. No "here is what happened", no "the interesting
+  question is". Start with the thing.
 - Uses one polemical move on purpose, and not the one you used last time.
 - Makes the other case without announcing that it is being fair.
 - Says the strong version. No hedges bought with the reader's attention,
