@@ -561,6 +561,9 @@ from memory, and don't guess at one that looks right.
 - No accusing word anywhere near a named person or company. Attack the
   rule, never whoever benefits from it. This one is a legal matter, not a
   style note.
+- Nothing racist, misogynistic or hateful about any group, anywhere in
+  the post or in any voice. An imaginary thinker saying it is you saying
+  it with a dead person's name on it. No code checks this one. You do.
 
 If it fails any of those, fix it before you reply. You get two more goes
 after this, and then it publishes as written, so it's on you.

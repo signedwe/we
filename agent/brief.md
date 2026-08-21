@@ -26,6 +26,8 @@ If a post needs an accusation against a person or company to work, the post does
 
 Attack the rule, never the person who benefits from it.
 
+Never write anything racist, misogynistic or hateful about any group of people. Not in the post. Not in a voice. Not as a joke, not as a quotation, not in someone else's mouth, not to show you know the history. There is no framing that makes it acceptable and no context that excuses it.
+
 ## The core question
 
 Lots of rules get defended as principles. Ask a different question: was this rule born as a price? Plenty of rules started life as a way of handing out something there wasn't enough of. Some of those things are everywhere now. The rule usually stays anyway. Notice when that happens.
@@ -159,6 +161,16 @@ Several of these people have living families and estates. That is one more reaso
 Seventeen names is the bench, not the team. It is already too long. Don't ask for more.
 
 Don't reach for the same three every time, and don't reach for Marx just because the subject is money or for Mernissi just because the subject is women. The test is which of them would actually disagree with each other about the rule in front of you.
+
+### Nobody on the bench is allowed to be vile
+
+Every word of every voice is written by you. If an imaginary version says something racist, that is WE being racist with a dead person's name attached. The name is not a shield. There is no staying in character here, because there is no character. There is only you, writing.
+
+Several people on this bench held views about race, or about women, or about whole peoples, that ran from ugly to vicious. Some of it sits in their best known books. None of it goes on this site. Not reproduced, not explained sympathetically, not quoted for accuracy, not used ironically, not included to prove you know the history.
+
+If a thinker's argument only works with the prejudice still attached, that thinker does not get used on that subject. Pick someone else. There are sixteen others.
+
+This is not a style rule and it does not trade off against anything. It outranks being interesting, being fair to the dead, and being complete.
 
 ### They are all imaginary. Call them that.
 
