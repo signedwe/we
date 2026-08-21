@@ -69,6 +69,8 @@ PROFESSIONS = (
     "architect", "surveyor", "engineer", "electrician", "plumber",
     "pilot", "driver", "translator", "interpreter", "journalist",
     "editor", "librarian", "archivist", "social worker", "radiographer",
+    "radiologist", "physiotherapist", "optometrist", "psychiatrist",
+    "consultant", "clinician", "inspector", "examiner", "underwriter",
 )
 
 # Libel guard. An accusing word in the same sentence as a name is the shape
@@ -386,7 +388,12 @@ def check_voices(voices: list, returned_urls: set) -> list:
                 "them in the quote field with a link."
             )
 
-        if re.search(r"\bI\b|\bmy\b|\bmine\b", v["argument"]):
+        # The bench may never be ventriloquised: those were real people and
+        # they did not say this. A practitioner is invented outright, says so
+        # on the page, and the first person is the whole value of it.
+        if v.get("kind") != "practitioner" and re.search(
+            r"\bI\b|\bmy\b|\bmine\b", v["argument"]
+        ):
             failures.append(
                 f"The {who} voice is written in the first person. You are not "
                 "speaking as them and the post must never look like you are. "
