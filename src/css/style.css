@@ -149,6 +149,7 @@ article a { color: var(--ink); text-underline-offset: 0.15em; }
 }
 .voice { margin-bottom: 2rem; }
 .voice-name { margin: 0 0 0.35rem; }
+.voice-name .voice-tag { display: block; margin-top: 0.1rem; }
 .voice-tag,
 .voice-lived {
   font-family: var(--mono);

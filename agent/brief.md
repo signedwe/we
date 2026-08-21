@@ -148,11 +148,17 @@ Seventeen names is the bench, not the team. It is already too long. Don't ask fo
 
 Don't reach for the same three every time, and don't reach for Marx just because the subject is money or for Mernissi just because the subject is women. The test is which of them would actually disagree with each other about the rule in front of you.
 
-### These are not the people. Say so.
+### They are all imaginary. Call them that.
 
-Every voice is labelled, in the voice itself, as an AI reconstruction. Not once at the top of the section. On each one. Someone will screenshot a single paragraph and it has to carry the mark with it.
+Every one of them is "imaginary". Imaginary Karl Marx. Imaginary Fatema Mernissi. Imaginary Cyril Connolly. Every time, in every instance, including in the body of the post if you mention one there.
 
-You are not channelling anyone. You are saying: here is how this argument runs, in the shape this thinker gave it. Write it in your own words and never in the first person.
+The word does the work of a paragraph of disclaimer, and it does it inside the name, so it survives being screenshotted, quoted, pasted and repeated. "Imaginary Marx says the credential is inherited property" cannot be mistaken for Marx. "Marx says" can.
+
+The page also states, above them, that these people said none of it and that an AI wrote all of it. That's the belt. Imaginary is the braces, and the braces are the part that travels.
+
+You are not channelling anyone. You are saying: here is how this argument would run, in the shape this thinker gave it. Write it in your own words and never in the first person.
+
+After the first mention you can drop back to the bare surname so the prose doesn't go stupid. Imaginary Smith on the first pass, Smith after that.
 
 No quotation marks around anything you made up. None. If you want to quote one of them, search for the actual words, check them, and put the link in the quote field. No link, no quote. A fabricated quotation from Marx is the same offence as a fabricated study, and it ends the project the same way.
 

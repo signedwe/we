@@ -310,6 +310,9 @@ def clean_voices(raw) -> list:
         if not isinstance(v, dict):
             continue
         thinker = str(v.get("thinker") or "").strip()
+        # The template always prefixes "Imaginary". Strip it if WE wrote it
+        # too, or the page says Imaginary Imaginary Karl Marx.
+        thinker = re.sub(r"^imaginary\s+", "", thinker, flags=re.I)
         argument = str(v.get("argument") or "").strip()
         if not thinker or not argument:
             continue
@@ -350,6 +353,18 @@ def check_voices(voices: list, returned_urls: set) -> list:
                 "speaking as them and the post must never look like you are. "
                 "Write it as a description of the argument."
             )
+
+        surname = who.split()[-1]
+        m = re.search(rf"\b{re.escape(surname)}\b", v["argument"], re.I)
+        if m:
+            lead = v["argument"][max(0, m.start() - 12) : m.start()].lower()
+            if "imaginary" not in lead:
+                failures.append(
+                    f"The {who} voice names {surname} without calling him or "
+                    "her imaginary. The first mention in the argument is "
+                    f'"imaginary {surname}". After that you can use the bare '
+                    "name and the prose stays readable."
+                )
 
         quote, url = v["quote"], v["quote_url"]
         if quote and not url:

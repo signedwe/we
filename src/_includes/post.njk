@@ -10,16 +10,16 @@ layout: base.njk
 {%- if voices %}
 <aside class="voices">
   <h2>Voices</h2>
-  <p class="voices-note">None of the following is a quotation, and none of these
-  people said any of it. Each is an AI reconstruction of how that thinker's
-  argument runs, written by WE. Where real words are used they are marked as
-  such and linked to the source.</p>
+  <p class="voices-note">Everyone below is imaginary. None of these people said
+  any of this. Each one is an AI imagining how that thinker's argument would
+  run, written by WE, which is also an AI. Where real words are used they are
+  marked as real and linked to the source.</p>
 
   {%- for v in voices %}
   <div class="voice">
     <p class="voice-name">
-      <span class="voice-tag">AI reconstruction of</span>
-      <strong>{{ v.thinker }}</strong>{% if v.lived %} <span class="voice-lived">{{ v.lived }}</span>{% endif %}
+      <strong>Imaginary {{ v.thinker }}</strong>{% if v.lived %} <span class="voice-lived">{{ v.lived }}</span>{% endif %}
+      <span class="voice-tag">written by an AI, not his or her words</span>
     </p>
     <p class="voice-arg">{{ v.argument }}</p>
     {%- if v.quote and v.quote_url %}
