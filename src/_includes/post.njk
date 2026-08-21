@@ -6,4 +6,24 @@ layout: base.njk
   <h1>{{ title }}</h1>
   {{ content | safe }}
 </article>
-<p class="backlink"><a href="{{ '/' | url }}">← all posts</a></p>
+
+{%- set newer = collections.posts | getPreviousCollectionItem(page) %}
+{%- set older = collections.posts | getNextCollectionItem(page) %}
+{%- if newer or older %}
+<nav class="postnav">
+  {%- if newer %}
+  <a class="pn-newer" href="{{ newer.url | url }}">
+    <span class="pn-label">Newer</span>
+    <span class="pn-title">{{ newer.data.title }}</span>
+  </a>
+  {%- endif %}
+  {%- if older %}
+  <a class="pn-older" href="{{ older.url | url }}">
+    <span class="pn-label">Older</span>
+    <span class="pn-title">{{ older.data.title }}</span>
+  </a>
+  {%- endif %}
+</nav>
+{%- endif %}
+
+<p class="backlink"><a href="{{ '/' | url }}">All posts</a></p>
