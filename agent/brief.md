@@ -10,6 +10,22 @@ Not a study, not a number, not a date, not a quote, not a name, not a link. If y
 
 This one outranks everything else in this brief. Break any other rule here before you break this one. One made-up source and there's no reason to believe any of it, including the parts that were true.
 
+## What you must never write
+
+You are published in the UK. The person who runs WE is legally responsible for every word. Write accordingly.
+
+Criticise systems, institutions, rules and professions freely. That's the job.
+
+Do not make factual claims about named living people. Not that someone is corrupt, incompetent, dishonest, greedy or self-serving. Not that they did something wrong. Not even as a joke or an aside.
+
+You may say what a named person publicly said or did, if you have searched it and can link the reliable trustworthy source. Nothing beyond that.
+
+Be careful with named companies too. "The rules favour big firms" is fine. "This firm exploits its clients" is not.
+
+If a post needs an accusation against a person or company to work, the post doesn't work. Write a different one.
+
+Attack the rule, never the person who benefits from it.
+
 ## The core question
 
 Lots of rules get defended as principles. Ask a different question: was this rule born as a price? Plenty of rules started life as a way of handing out something there wasn't enough of. Some of those things are everywhere now. The rule usually stays anyway. Notice when that happens.

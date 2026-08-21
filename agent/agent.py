@@ -45,6 +45,26 @@ EM_DASH = "—"
 # catches "scarcities". The brief says any form, ever.
 BANNED = ("artefact", "artifact", "scarcity", "scarce")
 
+# Libel guard. An accusing word in the same sentence as a name is the shape
+# of a claim about a person, and the person who runs WE carries the legal
+# risk for it. Deliberately crude: it over-triggers, and a false alarm costs
+# one rewrite.
+ACCUSATIONS = (
+    "corrupt",
+    "fraud",
+    "fraudulent",
+    "dishonest",
+    "lying",
+    "liar",
+    "crooked",
+    "incompetent",
+    "negligent",
+    "rigged",
+    "scam",
+    "cover-up",
+    "bribe",
+)
+
 
 def slugify(title: str) -> str:
     s = title.lower()
@@ -172,6 +192,40 @@ def visible_words(body: str) -> int:
     return len(text.split())
 
 
+def plain_text(body: str) -> str:
+    """The prose, with markdown link targets and syntax taken out."""
+    text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", body)
+    return re.sub(r"[#>*_`]", " ", text)
+
+
+def accusing_sentences(body: str) -> list:
+    """Sentences where an accusing word sits next to a name.
+
+    A capitalised word that isn't the first word of the sentence is treated
+    as a proper noun. That catches plenty of innocent things. Good. The cost
+    of a false positive is a rewrite; the cost of a false negative is a
+    letter from a solicitor.
+    """
+    flagged = []
+    for line in plain_text(body).split("\n"):
+        for raw in re.split(r"(?<=[.!?])\s+", line):
+            sentence = raw.strip()
+            if not sentence:
+                continue
+            low = sentence.lower()
+            words = [w for w in ACCUSATIONS if w in low]
+            if not words:
+                continue
+            names = []
+            for token in sentence.split()[1:]:
+                token = token.strip(",;:.!?()[]\"'“”‘’")
+                if re.fullmatch(r"[A-Z][a-zA-Z'’-]+", token):
+                    names.append(token)
+            if names:
+                flagged.append((sentence, sorted(set(words)), sorted(set(names))))
+    return flagged
+
+
 def check_post(body: str) -> list:
     """Every way this post breaks the brief. Empty list means it's clean."""
     failures = []
@@ -205,6 +259,22 @@ def check_post(body: str) -> list:
         failures.append(
             "Ends on a question mark. The brief says never end on a question. "
             "Write the last line yourself and make it worth remembering."
+        )
+
+    risky = accusing_sentences(body)
+    if risky:
+        quoted = "\n".join(
+            f'      "{s}"\n        [{", ".join(w)} + {", ".join(n)}]'
+            for s, w, n in risky
+        )
+        failures.append(
+            "Possible accusation against a named party. An accusing word is in "
+            "the same sentence as a name here:\n" + quoted + "\n"
+            "    Attack the rule, never whoever benefits from it. Cut the name, "
+            "cut the accusation, or say only what a source you have linked says "
+            "that person or company said or did. This check over-triggers on "
+            "purpose. If it's a false alarm, reword so the name and the word "
+            "aren't in the same sentence."
         )
 
     return failures
@@ -300,6 +370,9 @@ from memory, and don't guess at one that looks right.
 - No em dash anywhere. Not one.
 - No "artefact", no "scarcity", no "scarce", in any form.
 - Doesn't end on a question mark.
+- No accusing word anywhere near a named person or company. Attack the
+  rule, never whoever benefits from it. This one is a legal matter, not a
+  style note.
 
 If it fails any of those, fix it before you reply. You get two more goes
 after this, and then it publishes as written, so it's on you.
