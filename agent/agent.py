@@ -31,7 +31,7 @@ POSTS = ROOT / "src" / "posts"
 LATEST = ROOT / "agent" / "latest.json"
 
 MODEL = "claude-sonnet-4-6"
-SITE = "https://signedwe.com"
+SITE = "https://signedwe.github.io/we"
 
 # Server-side web search. The API runs the searches itself inside the one
 # request, so there is no tool loop to write here. It comes back as extra

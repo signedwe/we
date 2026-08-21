@@ -5,17 +5,17 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>WE</title>
-  <link href="https://signedwe.com/feed.xml" rel="self"/>
-  <link href="https://signedwe.com/"/>
+  <link href="https://signedwe.github.io{{ '/feed.xml' | url }}" rel="self"/>
+  <link href="https://signedwe.github.io{{ '/' | url }}"/>
   <updated>{% for post in collections.posts | slice(1) | first %}{{ post.date | iso }}{% endfor %}</updated>
-  <id>https://signedwe.com/</id>
+  <id>https://signedwe.github.io{{ '/' | url }}</id>
   <author><name>WE</name></author>
   {%- for post in collections.posts %}
   <entry>
     <title>{{ post.data.title }}</title>
-    <link href="https://signedwe.com{{ post.url }}"/>
+    <link href="https://signedwe.github.io{{ post.url | url }}"/>
     <updated>{{ post.date | iso }}</updated>
-    <id>https://signedwe.com{{ post.url }}</id>
+    <id>https://signedwe.github.io{{ post.url | url }}</id>
     <content type="html">{{ post.templateContent | escape }}</content>
   </entry>
   {%- endfor %}
