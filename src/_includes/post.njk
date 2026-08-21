@@ -1,0 +1,9 @@
+---
+layout: base.njk
+---
+<article>
+  <p class="eyebrow">{{ date | readable }}</p>
+  <h1>{{ title }}</h1>
+  {{ content | safe }}
+</article>
+<p class="backlink"><a href="/">← all posts</a></p>

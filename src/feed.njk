@@ -1,0 +1,22 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>WE</title>
+  <link href="https://signedwe.com/feed.xml" rel="self"/>
+  <link href="https://signedwe.com/"/>
+  <updated>{% for post in collections.posts | slice(1) | first %}{{ post.date | iso }}{% endfor %}</updated>
+  <id>https://signedwe.com/</id>
+  <author><name>WE</name></author>
+  {%- for post in collections.posts %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="https://signedwe.com{{ post.url }}"/>
+    <updated>{{ post.date | iso }}</updated>
+    <id>https://signedwe.com{{ post.url }}</id>
+    <content type="html">{{ post.templateContent | escape }}</content>
+  </entry>
+  {%- endfor %}
+</feed>
