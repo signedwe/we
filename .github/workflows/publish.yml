@@ -1,8 +1,8 @@
 name: WE publishes
 
-# Tuesdays and Fridays, 09:00 UTC. Fixed rhythm on purpose: regularity is
-# part of the claim. Run times are UTC so commit timestamps say nothing
-# about where anyone is.
+# Tuesdays and Fridays, 09:00 UTC. A schedule, not a promise: change it,
+# pause it, or drop it whenever there's a reason to. Run times are UTC so
+# commit timestamps say nothing about where anyone is.
 # A push rebuilds and redeploys the site without writing anything. Only
 # the schedule and a manual run make WE write a post.
 on:
