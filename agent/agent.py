@@ -662,6 +662,50 @@ def content_words(text: str) -> set:
             if w not in STOPWORDS}
 
 
+def proper_nouns(body: str) -> set:
+    """Capitalised words that aren't starting a sentence. A rough count of
+    how many specific things the post actually names."""
+    found = set()
+    for s in sentences(body):
+        for token in s.split()[1:]:
+            token = token.strip(",;:.!?()[]\"'\u201c\u201d\u2018\u2019")
+            if re.fullmatch(r"[A-Z][a-zA-Z'\u2019-]+", token):
+                found.add(token)
+    return found
+
+
+def check_specificity(body: str) -> list:
+    """The general is predictable by construction. The particular is not."""
+    if visible_words(body) < 200:
+        return []
+    named = proper_nouns(body)
+    if len(named) >= 4:
+        return []
+    return [
+        f"The post names {len(named)} specific things. A piece built out of "
+        "categories cannot surprise anybody, because a category is the "
+        "average of its cases and the reader can already guess it. Name the "
+        "body, the place, the document, the date, the object. Not a local "
+        "official. A man with a laminated sign."
+    ]
+
+
+def check_recognition(recognition: str, body: str) -> list:
+    """The thing everyone has half-noticed and nobody has written down."""
+    said = (recognition or "").strip()
+    if not said:
+        return ["No recognition. Every post says one thing the reader has "
+                "already half-noticed and never seen written down. Not a fact "
+                "they lacked. A description of something they had clocked and "
+                "never put words to. That is the line they will quote."]
+    want = content_words(said)
+    if len(want) >= 4 and len(want & content_words(body)) < len(want) * 0.4:
+        return ['You named the recognition and then kept it out of the post: '
+                f'"{said}" Say it, in the writing, in the plainest words you '
+                "have."]
+    return []
+
+
 def check_prediction_placement(prediction: str, body: str) -> list:
     """The bet goes early or in the middle. Never as the sign-off.
 
@@ -1002,6 +1046,9 @@ CRITIC_SCHEMA = """{
   "timid_because": "where the post stopped one step short of what its own argument implies, or empty",
   "nothing_new": true or false,
   "nothing_new_because": "what the post's central claim is, where it is already commonplace, and what a reader gets here that they could not get from a search. empty if it is genuinely new",
+  "obvious_ending": true or false,
+  "obvious_ending_because": "the last line, and the reason anybody would have written it. empty if it swerves",
+  "over_explained": ["any place the post makes a point and then explains it, quote the redundant sentence"],
   "flat_open": true or false,
   "flat_open_because": "the first sentence, and why nobody would argue with it. empty if it lands",
   "same_post": true or false,
@@ -1061,6 +1108,10 @@ Judge it on the things a regex cannot see.
 Is it dull? Not imperfect, dull. Would anyone who is not paid to be here reach the end. Reserve dull for a piece with no reason to exist, and if that is the honest answer, say it.
 
 Then look specifically for the things that make prose lifeless even when the argument is good. Is there a single real image anywhere, or is it abstract nouns end to end. Is there one line that is actually funny. Does the writer appear to want anything, or is the whole thing delivered at the same polite temperature from start to finish. Say which of these is missing, by name.
+
+Read the last line. Was that the ending anybody would have written? A reader is a few words ahead by the final paragraph, and if the post lands exactly where they were already standing, nothing happens. Say what the obvious ending was and whether this is it.
+
+Then find every place the post makes a point well and then explains it. The sentence after the good line, restating it in case the reader missed it. Quote each one. Those sentences take the reader's own thought away from them and give it to nobody, and cutting them is the cheapest improvement available to any piece of writing.
 
 Where does the post stop short? Take its own argument and push it one more step than the writer did. If the next step follows from what has been written and the post declines to take it, that is timidity and it is the most common way a good piece ends up forgettable. Say what the unwritten step was. If the post already goes all the way, say so.
 
@@ -1131,6 +1182,19 @@ def critic_failures(verdict: dict) -> list:
             "A summary is not a post. Find the connection nobody has drawn, "
             "the agreed thing that is wrong, the exception nobody explains, "
             "or the person nobody asked. Then write that instead."
+        )
+
+    if verdict.get("obvious_ending"):
+        failures.append(
+            "The critic says the ending is the one anybody would have "
+            f"written: {verdict.get('obvious_ending_because') or '(no reason given)'} "
+            "Write two more and use the third."
+        )
+
+    for item in verdict.get("over_explained") or []:
+        failures.append(
+            f"Explaining your own point: {item} Cut it. The reader had it, "
+            "and you just took it off them."
         )
 
     if verdict.get("flat_open"):
@@ -1318,6 +1382,12 @@ from memory, and don't guess at one that looks right.
   does something to something.
 - Announces nothing. No "here is what happened", no "the interesting
   question is". Start with the thing.
+- Names at least four specific things. A body, a place, a document, a
+  date, an object. Not categories.
+- Says one thing the reader has already half-noticed and never seen
+  written down.
+- Ends somewhere they were not already standing, and never explains a
+  point it has just made.
 - Uses one polemical move on purpose, and not the one you used last time.
 - Makes the other case without announcing that it is being fair.
 - Says the strong version. No hedges bought with the reader's attention,
@@ -1357,9 +1427,11 @@ JSON, in one piece, no preamble, no markdown fences:
   "derived_number": {{"figure": "one number that appears in none of your sources, worked out from ones that do",
                      "working": "the arithmetic, shown, from which published figures",
                      "sources": ["the urls the input numbers came from"]}},
+  "recognition": "the thing readers have already half-noticed about this and never seen written down, in one plain sentence",
   "refutation": {{"searched": "the query you ran to find the strongest case that you are wrong",
                  "found": "the best counter-evidence it returned, or empty if it came back with nothing",
-                 "what_it_did": "how that changed the post"}},
+                 "what_it_did": "how that changed the post",
+                 "won": "true if the counter-evidence beat your original idea and this post is now about that instead"}},
   "technique": "which polemical move you used this time, one of: reversal, refrain, their own words, register collision, straight face, concrete swap, the list that argues, the sentence that turns",
   "jury_notes": "what three of the bench each noticed that the others could not see. a short paragraph. this is working, not prose",
   "thesis_update": {{"changed": true or false,
@@ -1450,6 +1522,8 @@ def main() -> int:
             post.get("derived_number"), post["body"], {s["url"] for s in searched}
         )
         failures += check_refutation(post.get("refutation"))
+        failures += check_specificity(post["body"])
+        failures += check_recognition(post.get("recognition"), post["body"])
         failures += check_thesis_update(post.get("thesis_update"))
 
         # Only worth paying for a critic once the cheap checks are clean.

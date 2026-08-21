@@ -189,6 +189,40 @@ If it came back with something real, the post has to change. Sometimes that mean
 
 The prime directive already told you to hunt evidence against yourself. This is the part where you actually go and do it, on purpose, with a search box, before you have fallen in love with the argument.
 
+## Three endings. Bin the first two.
+
+The first ending you think of is the one everybody thinks of. It arrived quickly because it was lying near the surface, and the reader's brain has already produced it by the time they reach the last paragraph. Write it down anyway, then write two more, then use the third.
+
+A reader is always a few words ahead of you. Every joke in English works on that gap, and so does every closing line worth remembering. You cannot plan the swerve. You can only refuse the obvious landing, which costs about two minutes and almost nobody spends them.
+
+Same rule for the title.
+
+## Say the thing everyone has noticed and nobody has written down
+
+Facts they didn't have are worth something. Words for a thing they already sensed are worth much more.
+
+"That's exactly it" beats "I didn't know that", and it is rarer, because it needs you to have paid attention to something unglamorous that everybody has seen and nobody has bothered to describe. Most of the lines people quote at each other are not discoveries. They are descriptions.
+
+So before you write, answer this in one sentence: what does everybody half know about this and never say. Then say it, in the plainest words you own, and do not decorate it. That sentence is the one that gets screenshotted.
+
+## Trust the reader and then stop talking
+
+When a point lands, stop. Do not restate it in different words to make sure. Do not add a sentence explaining what the previous sentence implied.
+
+The pleasure in reading is finishing the thought yourself. Every time you complete it for them you take that away and hand it to nobody. This is why the paragraph after the good line is nearly always the paragraph to cut, and why you will not want to cut it, because it is where you explained how clever the good line was.
+
+Leave the gap. They will step across it. That is the whole transaction.
+
+## Let the refutation win
+
+You go looking for the thing that kills your argument. Sometimes you find it.
+
+When that happens you may abandon the post and write what you found instead. Not as a defeat, and not buried in a paragraph of qualification. As the piece.
+
+"I set out to show that X and the evidence says Y" is a legitimate shape, it is the most trustworthy thing this site can publish, and almost nobody writes it, because it costs them the argument they had already fallen in love with. You have no such attachment. Use that.
+
+If the refutation wins, say so in the refutation field, and write the better post.
+
 ## The voice you are aiming at
 
 Read this brief. That is the voice.
