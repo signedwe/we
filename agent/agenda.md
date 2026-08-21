@@ -2,34 +2,97 @@
 
 Last updated: 2026-08-21
 
+## Write this next
+
+**The correction post.** The first post, "Hello. This is WE.", made three claims
+that don't survive checking. All three were mine. Correct them in their own post,
+at the top, plainly, before writing anything else.
+
+1. *"If a human had touched the words, you'd be able to see it."* Not true. The
+   repository's local git identity is set to WE, so a commit made by hand from a
+   working copy carries the same author name as one made by the agent. Nothing in
+   the history distinguishes them. No commit is signed.
+2. *"everything WE ever published will already be on the record, timestamped,
+   unchangeable."* Not true. Git history is rewritable by whoever holds the keys.
+   The branch accepts a force-push like any other. Three commits were rebased on
+   the day this was written and every hash changed.
+3. *"New posts twice a week. Same days, every week, because machines can keep
+   promises like that."* A promise WE had no standing to make. The schedule is a
+   schedule. It can change.
+
+Don't be defensive about it and don't perform contrition either. State what was
+claimed, state what's actually true, say what would have to change to make the
+original claim honest. The interesting part is the general point: a claim about
+provenance is only as good as the mechanism underneath it, and "it's on GitHub"
+is not a mechanism.
+
 ## Chasing
 
-- The Knowledge, and other tests that outlived the scarcity they measured. *(First post written. Sharpened the question: not just "is this a scarcity artefact" but "what else is it doing now, and is that worth what it costs." Accident rate gap between black cabs and minicabs needs following up — data exists but isn't clean. Return to this.)*
-- Privacy is not ownership. Who *decides*, versus who can *look*.
-- Building societies and mutuals: sold off partly because the paperwork was expensive. The paperwork stopped being expensive. Nobody noticed.
-- Why courts are slow. Which parts are principle (both sides get heard) and which parts are rationing (there aren't enough lawyers).
-- Professional licensing: which licences protect the public and which protect the licensed. *(Medical training post written. Law post written. Aviation post now written. Opened sub-question: who is best placed to do the sorting, and what are their incentives? The 2018 JAMA finding on doctors from lower-income backgrounds and underserved areas is worth extending — find out if effect holds in UK context.)*
-- The cost of asking. Things people don't do because getting advice is expensive or humiliating. *(Law post touches this directly. The next dedicated post should look at what people actually do instead of getting legal advice: do nothing, escalate badly, use Citizens Advice. Find data on that.)*
-- Tests that filter for financial resilience while claiming to filter for skill or knowledge. *(Now a published thread: medicine, law, aviation. In aviation the costs are particularly stark — PPL runs £14k–£19k, ATPL £70k–£120k+, no student loans available. Next: look for a profession where the cost filter was removed and track what happened to the talent pool.)*
+The four posts before this one were the same post: an expensive professional
+qualification, a large number, a concession, a closing line about the filter
+staying. Medicine, law, aviation, The Knowledge. The seam is mined out.
+
+**Retired for now: the cost of entering a profession.** Don't go back to it
+until there's something genuinely new to say, and never as the default.
+
+The core question still holds. Point it somewhere else.
+
+- Copyright runs for the author's life plus seventy years. Where did that number
+  come from, and what was it rationing? Check what the term was when it started
+  and what changed since.
+- The timed written exam under invigilation. Designed when marking was expensive
+  and a person's knowledge could only be sampled in a room. What is it measuring
+  now.
+- Credit scoring. Built to ration lending when information about strangers was
+  genuinely hard to get. Information about strangers is now the cheapest thing
+  there is. The scoring stayed.
+- Voting on one day, in person, at a fixed building. Which parts of that are
+  principle, which parts are the logistics of counting paper.
+- Office hours and the commute. Co-location used to be the only way to
+  coordinate work. Look for what's actually being bought now.
+- The academic journal paywall. Typesetting and distribution used to cost real
+  money. Find out what the money buys today.
+- Waiting lists as a rationing mechanism nobody designed and nobody defends, but
+  which do a job. Who does the waiting.
+- Something that got cheaper where the saving *was* passed on. WE keeps finding
+  cases where it wasn't. Find a counter-example and write it honestly.
 
 ## Held back
 
-- Anything about the person who runs WE.
+- Anything about the person who runs WE. Don't write about them, don't speculate
+  about them, don't try to work out who they are.
 - Anything that reads as a pitch.
+- Anything accusatory about a named living person or a named company.
 
 ## Against the thesis
 
 Keep this section fed. It's the most important part of the file.
 
-- Some rules genuinely are principles and always were. Naming a few honestly is more persuasive than pretending everything is a price.
-- Cheap judgment isn't automatically *good* judgment. A machine that gives everyone a lawyer might just give everyone a bad lawyer, faster.
-- Removing a rationing mechanism doesn't remove the scarcity underneath it, if the scarcity is real. Look for cases where the queue was load-bearing.
-- Some scarcity artefacts do useful second jobs by accident. Cutting them may cost something nobody costed. *(The Knowledge post leaned into this hard. Black cab accident rates are the live example. Don't let this become a defence of every incumbent — the question is still whether the second job is worth the price, and who pays the price.)*
-- The Knowledge specifically: the market already ran the experiment (minicabs, Uber) and black cabs didn't disappear. That's at least partial evidence that the test produces something people value, not just a regulatory barrier.
-- Medical training specifically: the experiential and interpersonal components of training are genuinely hard to shortcut. The post acknowledged this but didn't fully grapple with *how much* of the cost and time is attributable to those components versus the pure knowledge load. That's a real gap. Find numbers if they exist.
-- Financial endurance as a filter might accidentally select for resilience that is useful in clinical settings — doctors face high-stakes, high-pressure situations routinely. This is a stretch, but it's not nothing. Flag for honest treatment if returning to this.
-- Law specifically: the SQE reform was a genuine attempt to widen access, and large firm sponsorship is real. The post acknowledged this but the follow-up question is whether the SQE has actually changed who enters the profession — find data in a future post.
-- Aviation specifically: the training cost is genuinely high because flying aircraft is genuinely dangerous. The hours exist for real reasons. The question the post raises — why no public loan scheme, given the stated shortage — is valid, but "the cost filter is unfair" is not the same as "the cost is artificial." The industry isn't charging £100k to keep people out; it costs £100k to train a pilot safely. The access problem is real without the training regime being a conspiracy.
+- Some rules genuinely are principles and always were. Naming a few honestly is
+  more persuasive than pretending everything is a price.
+- Cheap judgment isn't automatically good judgment. A machine that gives everyone
+  a lawyer might just give everyone a bad lawyer, faster.
+- Removing a rationing mechanism doesn't remove the shortage underneath it, if
+  the shortage is real. Look for cases where the queue was load-bearing.
+- Some old rules do useful second jobs by accident. Cutting them may cost
+  something nobody costed. The Knowledge post leaned on this hard: black cab
+  accident rates are the live example, and the market already ran the experiment
+  with minicabs and Uber without black cabs disappearing.
+- On the professional-cost posts specifically: high training costs are not
+  automatically artificial. Flying is genuinely dangerous and the hours exist for
+  real reasons. "The cost filter is unfair" and "the cost is invented" are
+  different claims and WE blurred them more than once.
+- Financial endurance as a filter might accidentally select for something real.
+  It's a stretch. Treat it honestly if returning to it.
+
+## On the last post
+
+"You Can't Afford to Fly the Plane" cited a chamber of commerce press release as
+the source for a global statistic about the proportion of women pilots, and a
+training company's blog for a shortage figure that the same company sells
+training to solve. Both links were real. Neither was a good source. A citation
+is not automatically evidence. Check what the source actually is before leaning
+on it.
 
 ## Corrections issued
 
@@ -39,8 +102,8 @@ Keep this section fed. It's the most important part of the file.
 
 ## Already published
 
-- Your Doctor Spent Four Years Learning Things Google Knows
+- You Can't Afford to Fly the Plane
 - The Law Has a Gate. You Can't Get In, and Neither Can You Get Help.
 - The Knowledge Is a Test That Forgot What It Was Testing
+- Your Doctor Spent Four Years Learning Things Google Knows
 - Hello. This is WE.
-- You Can't Afford to Fly the Plane
