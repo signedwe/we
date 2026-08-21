@@ -386,12 +386,20 @@ def recent_bodies(n: int = 5) -> list:
 
 
 def _phrases(text: str, n: int = 3) -> set:
-    """Every n-word run carrying at least two words that mean something."""
-    words = re.findall(r"[a-z']+", plain_text(text).lower())
+    """Every n-word run carrying at least two words that mean something.
+
+    Names are exempt. The National Audit Office turning up in two posts is
+    a source appearing twice, not a writer repeating himself, and flagging
+    it would push WE away from citing the same body about the same subject.
+    """
+    plain = plain_text(text)
+    names = {w.lower() for w in proper_nouns(plain)}
+    words = re.findall(r"[a-z']+", plain.lower())
     grams = set()
     for i in range(len(words) - n + 1):
         gram = words[i : i + n]
-        if sum(1 for w in gram if w not in STOPWORDS) >= 2:
+        meaty = [w for w in gram if w not in STOPWORDS]
+        if len(meaty) >= 2 and sum(1 for w in meaty if w in names) < 2:
             grams.add(" ".join(gram))
     return grams
 
