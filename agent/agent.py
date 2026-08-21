@@ -38,7 +38,7 @@ SITE = "https://signedwe.github.io/we"
 # content blocks.
 TOOLS = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 5}]
 
-WORD_LIMIT = 400
+WORD_LIMIT = 600
 MAX_RETRIES = 2
 EM_DASH = "—"
 # Substrings, not whole words. "scarce" catches "scarcely", "scarcity"
@@ -226,7 +226,82 @@ def accusing_sentences(body: str) -> list:
     return flagged
 
 
-def check_post(body: str) -> list:
+# A number in the opening sentence turns a post into a briefing note. Years
+# are exempt: "The council voted in 1996" is a scene, not a statistic.
+STATISTIC = re.compile(
+    r"[£$€]\s?\d|\d+\s*%|\bper cent\b|\b\d[\d,]{2,}\b"
+    r"|\b\d+(?:\.\d+)?\s*(?:million|billion|thousand|k)\b",
+    re.I,
+)
+YEAR = re.compile(r"\b(1[5-9]\d{2}|20\d{2}|21\d{2})\b")
+
+STOPWORDS = {
+    "a", "an", "and", "are", "as", "at", "be", "been", "but", "by", "for",
+    "from", "had", "has", "have", "he", "her", "his", "i", "if", "in", "is",
+    "it", "its", "of", "on", "or", "she", "so", "that", "the", "their",
+    "them", "then", "there", "they", "this", "to", "was", "were", "what",
+    "when", "which", "who", "will", "with", "you", "your", "not", "no",
+    "do", "does", "did", "can", "could", "would", "should", "one", "all",
+    "more", "most", "some", "any", "than", "into", "out", "up", "about",
+    "we", "us", "our", "me", "my",
+}
+
+
+def first_sentence(body: str) -> str:
+    text = plain_text(body).strip()
+    return re.split(r"(?<=[.!?])\s", text, maxsplit=1)[0] if text else ""
+
+
+def opens_on_a_statistic(body: str) -> str:
+    """The opening sentence, if it leads on a number. Empty string if not."""
+    first = first_sentence(body)
+    return first if STATISTIC.search(YEAR.sub(" ", first)) else ""
+
+
+def recent_bodies(n: int = 5) -> list:
+    """The prose of the last few published posts, front matter stripped."""
+    out = []
+    for f in sorted(POSTS.glob("*.md"), reverse=True)[:n]:
+        text = f.read_text(encoding="utf-8")
+        parts = text.split("---")
+        out.append(parts[2] if len(parts) > 2 else text)
+    return out
+
+
+def _phrases(text: str, n: int = 3) -> set:
+    """Every n-word run carrying at least two words that mean something."""
+    words = re.findall(r"[a-z']+", plain_text(text).lower())
+    grams = set()
+    for i in range(len(words) - n + 1):
+        gram = words[i : i + n]
+        if sum(1 for w in gram if w not in STOPWORDS) >= 2:
+            grams.add(" ".join(gram))
+    return grams
+
+
+def reused_phrases(body: str, previous: list, limit: int = 8) -> list:
+    """Phrases this post shares with ones already published."""
+    if not previous:
+        return []
+    seen = set()
+    for prev in previous:
+        seen |= _phrases(prev)
+    return sorted(_phrases(body) & seen)[:limit]
+
+
+def reused_opening(body: str, previous: list) -> str:
+    """The earlier opening this one is imitating, if any."""
+    new = re.findall(r"[a-z']+", first_sentence(body).lower())[:4]
+    if len(new) < 3:
+        return ""
+    for prev in previous:
+        old = re.findall(r"[a-z']+", first_sentence(prev).lower())[:4]
+        if old and new[:3] == old[:3]:
+            return first_sentence(prev)
+    return ""
+
+
+def check_post(body: str, previous: list = None) -> list:
     """Every way this post breaks the brief. Empty list means it's clean."""
     failures = []
 
@@ -259,6 +334,33 @@ def check_post(body: str) -> list:
         failures.append(
             "Ends on a question mark. The brief says never end on a question. "
             "Write the last line yourself and make it worth remembering."
+        )
+
+    opener = opens_on_a_statistic(body)
+    if opener:
+        failures.append(
+            f'Opens on a statistic: "{opener}" The brief says never. A number '
+            "is the evidence, not the hook. Open on something happening, a "
+            "rule in its own words, or a plain sentence that makes the next "
+            "one necessary. Move the number to the second or third paragraph."
+        )
+
+    previous = previous or []
+
+    echo = reused_opening(body, previous)
+    if echo:
+        failures.append(
+            "Opens the same way as an earlier post. That one began: "
+            f'"{echo}" Find a different way in.'
+        )
+
+    reused = reused_phrases(body, previous)
+    if reused:
+        failures.append(
+            "Phrases lifted from your own earlier posts: "
+            + "; ".join(f'"{p}"' for p in reused)
+            + ". A construction you liked once is a tic the second time. "
+            "Say it differently, or say something else."
         )
 
     risky = accusing_sentences(body)
@@ -370,6 +472,10 @@ from memory, and don't guess at one that looks right.
 - No em dash anywhere. Not one.
 - No "artefact", no "scarcity", no "scarce", in any form.
 - Doesn't end on a question mark.
+- Doesn't open on a statistic. No price, percentage or count in the
+  first sentence.
+- Doesn't reuse an opening move or a turn of phrase from an earlier
+  post. Read the last five before you start.
 - No accusing word anywhere near a named person or company. Attack the
   rule, never whoever benefits from it. This one is a legal matter, not a
   style note.
@@ -419,6 +525,9 @@ def main() -> int:
     searches = 0
     post = None
     failures = []
+    # Read once, before anything is written, so the new post is never
+    # compared against itself.
+    published = recent_bodies()
 
     for attempt in range(MAX_RETRIES + 1):
         resp = client.messages.create(
@@ -432,7 +541,7 @@ def main() -> int:
         )
         merge_sources(searched, harvest_sources(resp))
         post = extract_json(text_blocks(resp))
-        failures = check_post(post["body"])
+        failures = check_post(post["body"], published)
 
         if not failures:
             if attempt:
