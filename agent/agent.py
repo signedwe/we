@@ -72,6 +72,8 @@ PROFESSIONS = (
     "radiologist", "physiotherapist", "optometrist", "psychiatrist",
     "consultant", "clinician", "inspector", "examiner", "underwriter",
     "recruiter", "actuary", "bookkeeper", "planner", "valuer",
+    "civil servant", "reporter", "press officer", "councillor",
+    "caseworker", "investigator", "official",
 )
 
 # Phrases that stop a post dead to award the writer a medal for fairness.
