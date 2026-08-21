@@ -7,6 +7,30 @@ layout: base.njk
   {{ content | safe }}
 </article>
 
+{%- if voices %}
+<aside class="voices">
+  <h2>Voices</h2>
+  <p class="voices-note">None of the following is a quotation, and none of these
+  people said any of it. Each is an AI reconstruction of how that thinker's
+  argument runs, written by WE. Where real words are used they are marked as
+  such and linked to the source.</p>
+
+  {%- for v in voices %}
+  <div class="voice">
+    <p class="voice-name">
+      <span class="voice-tag">AI reconstruction of</span>
+      <strong>{{ v.thinker }}</strong>{% if v.lived %} <span class="voice-lived">{{ v.lived }}</span>{% endif %}
+    </p>
+    <p class="voice-arg">{{ v.argument }}</p>
+    {%- if v.quote and v.quote_url %}
+    <p class="voice-quote">Their actual words: &ldquo;{{ v.quote }}&rdquo;
+      <a class="ref" href="{{ v.quote_url }}" target="_blank" rel="noopener noreferrer">source</a></p>
+    {%- endif %}
+  </div>
+  {%- endfor %}
+</aside>
+{%- endif %}
+
 {%- set newer = collections.posts | getPreviousCollectionItem(page) %}
 {%- set older = collections.posts | getNextCollectionItem(page) %}
 {%- if newer or older %}

@@ -301,6 +301,73 @@ def reused_opening(body: str, previous: list) -> str:
     return ""
 
 
+def clean_voices(raw) -> list:
+    """The voices block, reduced to fields the template can render."""
+    out = []
+    if not isinstance(raw, list):
+        return out
+    for v in raw:
+        if not isinstance(v, dict):
+            continue
+        thinker = str(v.get("thinker") or "").strip()
+        argument = str(v.get("argument") or "").strip()
+        if not thinker or not argument:
+            continue
+        out.append(
+            {
+                "thinker": thinker,
+                "lived": str(v.get("lived") or "").strip(),
+                "argument": argument,
+                "quote": str(v.get("quote") or "").strip(),
+                "quote_url": str(v.get("quote_url") or "").strip(),
+            }
+        )
+    return out
+
+
+def check_voices(voices: list, returned_urls: set) -> list:
+    """A made-up quotation from a dead thinker is a made-up source.
+
+    The argument field is WE's own words and may not contain quotation
+    marks at all. Anything in quotes goes in the quote field, and only
+    with a link a search actually returned.
+    """
+    failures = []
+    for v in voices:
+        who = v["thinker"]
+
+        if re.search(r'["“”]', v["argument"]):
+            failures.append(
+                f"The {who} voice has quotation marks in its argument. That "
+                "field is your own words about how the argument runs. If you "
+                "want to quote the person, search for the real words and put "
+                "them in the quote field with a link."
+            )
+
+        if re.search(r"\bI\b|\bmy\b|\bmine\b", v["argument"]):
+            failures.append(
+                f"The {who} voice is written in the first person. You are not "
+                "speaking as them and the post must never look like you are. "
+                "Write it as a description of the argument."
+            )
+
+        quote, url = v["quote"], v["quote_url"]
+        if quote and not url:
+            failures.append(
+                f"The {who} voice quotes words with no link. Every quotation "
+                "needs a source a search returned. No link, no quote: cut it "
+                "and describe the argument instead."
+            )
+        elif quote and url and url not in returned_urls:
+            failures.append(
+                f"The {who} voice quotes words sourced to {url}, which no "
+                "search returned. Don't reconstruct a citation from memory. "
+                "Search for it, or cut the quotation."
+            )
+
+    return failures
+
+
 def check_post(body: str, previous: list = None) -> list:
     """Every way this post breaks the brief. Empty list means it's clean."""
     failures = []
@@ -491,6 +558,10 @@ JSON, in one piece, no preamble, no markdown fences:
   "body": "the full post in markdown, under {WORD_LIMIT} words, no title heading",
   "short_version": "under 280 characters, must survive without the post",
   "sources": [{{"title": "what it is", "url": "https://..."}}],
+  "voices": [{{"thinker": "Karl Marx", "lived": "1818 to 1883",
+              "argument": "how the argument runs, in your words, no quote marks, never first person",
+              "quote": "only real searched words, or empty",
+              "quote_url": "the link a search returned, or empty"}}],
   "agenda_update": "the complete new contents of agenda.md, in markdown"
 }}"""
 
@@ -500,7 +571,13 @@ JSON, in one piece, no preamble, no markdown fences:
 # --------------------------------------------------------------------------
 
 
-def front_matter(title: str, now: datetime, sources: list) -> str:
+def yaml_str(value: str) -> str:
+    """A YAML double-quoted scalar. JSON's escaping is valid YAML, but keep
+    the accents as themselves: these files are meant to be read."""
+    return json.dumps(value, ensure_ascii=False)
+
+
+def front_matter(title: str, now: datetime, sources: list, voices: list) -> str:
     lines = [
         "---",
         f'title: "{title.replace(chr(34), chr(39))}"',
@@ -511,8 +588,17 @@ def front_matter(title: str, now: datetime, sources: list) -> str:
         lines.append("sources:")
         for s in sources:
             # json.dumps gives a double-quoted scalar YAML reads correctly.
-            lines.append(f"  - title: {json.dumps(s['title'])}")
-            lines.append(f"    url: {json.dumps(s['url'])}")
+            lines.append(f"  - title: {yaml_str(s['title'])}")
+            lines.append(f"    url: {yaml_str(s['url'])}")
+    if voices:
+        lines.append("voices:")
+        for v in voices:
+            lines.append(f"  - thinker: {yaml_str(v['thinker'])}")
+            lines.append(f"    lived: {yaml_str(v['lived'])}")
+            lines.append(f"    argument: {yaml_str(v['argument'])}")
+            if v["quote"] and v["quote_url"]:
+                lines.append(f"    quote: {yaml_str(v['quote'])}")
+                lines.append(f"    quote_url: {yaml_str(v['quote_url'])}")
     lines.append("---")
     return "\n".join(lines) + "\n"
 
@@ -542,6 +628,9 @@ def main() -> int:
         merge_sources(searched, harvest_sources(resp))
         post = extract_json(text_blocks(resp))
         failures = check_post(post["body"], published)
+        failures += check_voices(
+            clean_voices(post.get("voices")), {s["url"] for s in searched}
+        )
 
         if not failures:
             if attempt:
@@ -574,7 +663,10 @@ def main() -> int:
 
     # Front matter, then the body exactly as the model wrote it. No edits.
     path.write_text(
-        front_matter(post["title"], now, sources) + "\n" + post["body"].strip() + "\n",
+        front_matter(post["title"], now, sources, clean_voices(post.get("voices")))
+        + "\n"
+        + post["body"].strip()
+        + "\n",
         encoding="utf-8",
     )
 

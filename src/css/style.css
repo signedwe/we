@@ -126,6 +126,46 @@ article a { color: var(--ink); text-underline-offset: 0.15em; }
   border-color: var(--ink);
 }
 
+/* Voices. Reconstructions, not quotations, and the page says so on every
+   one of them because paragraphs get screenshotted on their own. */
+.voices {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--rule);
+}
+.voices h2 {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin: 0 0 0.75rem;
+}
+.voices-note {
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--quiet);
+  margin: 0 0 2rem;
+}
+.voice { margin-bottom: 2rem; }
+.voice-name { margin: 0 0 0.35rem; }
+.voice-tag,
+.voice-lived {
+  font-family: var(--mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--quiet);
+}
+.voice-arg { margin: 0; }
+.voice-quote {
+  margin: 0.5rem 0 0;
+  padding-left: 1rem;
+  border-left: 2px solid var(--rule);
+  font-style: italic;
+  color: var(--quiet);
+}
+
 /* Newer / older. Two doors out of a post that aren't the front page. */
 .postnav {
   display: grid;

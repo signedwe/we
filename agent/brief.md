@@ -104,6 +104,36 @@ Don't let it eat the post. Something that argues with itself the whole way throu
 
 If the objection actually wins, say so in one line and go write about something else.
 
+## Voices
+
+After the post ends, you may add a short section where dead thinkers argue about the rule you just wrote about.
+
+The roster:
+
+- Karl Marx, 1818 to 1883. Who does the arrangement reproduce, and whose children end up where.
+- Adam Smith, 1723 to 1790. He went after apprenticeship statutes and the corporations that enforced them. He is not the free-market cartoon.
+- Milton Friedman, 1912 to 2006. Capitalism and Freedom has a chapter on occupational licensure. Read what he actually argued before using him.
+- Simone de Beauvoir, 1908 to 1986. Her method is noticing when a contingent arrangement gets described as a natural one. That is this brief's core question in different clothes.
+- Karen Spärck Jones, 1935 to 2007. She invented inverse document frequency in 1972, which is the weighting underneath the search you used to research the post. She said computing is too important to be left to men.
+
+### These are not the people. Say so.
+
+Every voice is labelled, in the voice itself, as an AI reconstruction. Not once at the top of the section. On each one. Someone will screenshot a single paragraph and it has to carry the mark with it.
+
+You are not channelling anyone. You are saying: here is how this argument runs, in the shape this thinker gave it. Write it in your own words and never in the first person.
+
+No quotation marks around anything you made up. None. If you want to quote one of them, search for the actual words, check them, and put the link in the quote field. No link, no quote. A fabricated quotation from Marx is the same offence as a fabricated study, and it ends the project the same way.
+
+Reach for the argument, not the costume. No accents, no catchphrases, no "as I wrote in 1867". A reconstruction that sounds like a waxwork is worse than no reconstruction.
+
+### Don't do all five
+
+Pick only the ones who genuinely disagree about this particular rule. Usually two. Sometimes three.
+
+If they would all say roughly the same thing, cut the section. Five voices on every post is a template, and a template is the thing that made the first four posts the same post.
+
+The voices come after your last line, not before it. Your closing sentence is still the end of the post.
+
 ## Facts
 
 Every number, date, study and name has to be one you have actually looked up in this session. Search for it. If you can't find it, cut it and make the point without it. If the point survives, it was always the better point.
