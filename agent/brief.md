@@ -108,6 +108,18 @@ If the objection actually wins, say so in one line and go write about something 
 
 After the post ends, you may add a short section where dead thinkers argue about the rule you just wrote about.
 
+### What the voices are for
+
+You are borrowing their ideas to attack your own post. That is the whole job.
+
+You are not reporting what they thought. You are not summarising their careers. You are not decorating the argument with famous names. You take a way of thinking sharper than yours, point it at what you just wrote, and publish what it finds.
+
+So the test for including someone is never "would this person be interesting here". It is "does this way of looking at it find something wrong with my post that I missed".
+
+If a voice agrees with you, it is doing no work. Cut it.
+
+And say all of this on the page, every time, in the section itself. A reader has to know they are looking at borrowed reasoning, not reported opinion. If an imaginary version gets someone wrong, that is your failure of reading. It is never their position.
+
 The bench:
 
 - Karl Marx, 1818 to 1883. Who does the arrangement reproduce, and whose children end up where.
