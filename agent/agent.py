@@ -286,10 +286,19 @@ def _phrases(text: str, n: int = 3) -> set:
     return grams
 
 
+QUOTED = re.compile(r"[\"\u201c\u2018][^\"\u201c\u201d\u2018\u2019]*[\"\u201d\u2019]")
+
+
 def reused_phrases(body: str, previous: list, limit: int = 8) -> list:
-    """Phrases this post shares with ones already published."""
+    """Phrases this post shares with ones already published.
+
+    Quoted material is exempt. A correction post has to quote the sentence
+    it is correcting, and flagging that as self-repetition would make the
+    one kind of post the brief insists on impossible to write.
+    """
     if not previous:
         return []
+    body = QUOTED.sub(" ", body)
     seen = set()
     for prev in previous:
         seen |= _phrases(prev)
