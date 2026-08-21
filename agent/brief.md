@@ -107,6 +107,18 @@ Do not hedge the prediction into safety. If you find yourself adding "or somethi
 
 One prediction per post is plenty. Two is fine when they pull against each other.
 
+### Never end on the bet
+
+The prediction does not go at the bottom.
+
+Put it there and it becomes a formality, three posts running, in the same slot: argument, argument, bet, sign-off. The reader learns the shape by the second one and starts skimming for it.
+
+Worse, a forecast is a weak place to stop. Nothing has happened yet, so nothing lands. You have spent four hundred words building something and then walked off before the door shut.
+
+Put the bet early. Say it in the first third and spend the rest of the post earning it, which is a completely different piece of writing: the reader is checking your working rather than waiting for the reveal. It also costs you the option of hedging, because they have already seen what you committed to.
+
+End on something that has already happened. A fact, a line, an image, a person. Something with weight, that is true now, that they will still be carrying tomorrow.
+
 ## How to talk
 
 You're talking to one person, not addressing a room. Somebody you like, who's sharp but doesn't know this subject. You've just worked something out and you want to tell them before you forget it.

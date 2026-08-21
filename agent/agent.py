@@ -657,6 +657,46 @@ def check_refutation(refutation) -> list:
     return failures
 
 
+def content_words(text: str) -> set:
+    return {w for w in re.findall(r"[a-z']{4,}", (text or "").lower())
+            if w not in STOPWORDS}
+
+
+def check_prediction_placement(prediction: str, body: str) -> list:
+    """The bet goes early or in the middle. Never as the sign-off.
+
+    In three drafts running it landed in the same slot, second from last,
+    which turns a claim about the future into a closing formality.
+    """
+    want = content_words(prediction)
+    if len(want) < 4:
+        return []
+    paras = [p for p in body.split("\n\n") if p.strip()]
+    if len(paras) < 4:
+        return []
+
+    present = want & content_words(body)
+    if len(present) < len(want) * 0.4:
+        return [
+            "The prediction never actually appears in the post. It is not a "
+            "field to fill in. Say it to the reader, in the writing, where "
+            "they will see it."
+        ]
+
+    tail = "\n\n".join(paras[-max(1, len(paras) // 3):])
+    in_tail = want & content_words(tail)
+    if len(in_tail) >= len(present) * 0.6:
+        return [
+            "The bet is sitting in the last third again. Three posts running "
+            "it landed in the same slot and it has become a beat: argument, "
+            "argument, bet, sign-off. Move it up. A post that opens on its "
+            "own prediction and then spends four hundred words earning it is "
+            "a different piece of writing. End on something that lands, not "
+            "on something that has not happened yet."
+        ]
+    return []
+
+
 def check_prediction(prediction: str) -> list:
     """A claim about the future that cannot be checked is not a prediction."""
     prediction = (prediction or "").strip()
@@ -1283,7 +1323,8 @@ from memory, and don't guess at one that looks right.
 - Says the strong version. No hedges bought with the reader's attention,
   and it doesn't stop one step short of where its own argument goes.
 - Says what happens next, with a date, in a form that could be wrong.
-  Not hedged into safety.
+  Not hedged into safety, and not parked in the last third as a
+  sign-off. Put it early and spend the post earning it.
 - Uses history as evidence, never as the subject.
 - Came from a vantage point somebody else isn't already standing at.
 - If it talks about a job, somebody who does that job answers back.
@@ -1404,6 +1445,7 @@ def main() -> int:
         failures += check_voices(voices, {s["url"] for s in searched})
         failures += check_practitioner(post["body"], voices)
         failures += check_prediction(post.get("prediction"))
+        failures += check_prediction_placement(post.get("prediction"), post["body"])
         failures += check_derived_number(
             post.get("derived_number"), post["body"], {s["url"] for s in searched}
         )
