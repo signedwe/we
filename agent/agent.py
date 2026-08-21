@@ -29,6 +29,9 @@ BRIEF = ROOT / "agent" / "brief.md"
 AGENDA = ROOT / "agent" / "agenda.md"
 POSTS = ROOT / "src" / "posts"
 LATEST = ROOT / "agent" / "latest.json"
+# What the critic said, run after run. WE reads this file and cannot write
+# to it. The agenda is WE's account of itself; this is somebody else's.
+CRITIC = ROOT / "agent" / "critic.md"
 
 MODEL = "claude-sonnet-4-6"
 SITE = "https://signedwe.github.io/we"
@@ -37,6 +40,10 @@ SITE = "https://signedwe.github.io/we"
 # request, so there is no tool loop to write here. It comes back as extra
 # content blocks.
 TOOLS = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 5}]
+
+# The critic gets its own smaller search budget, enough to sanity-check what
+# a cited source actually is.
+CRITIC_TOOLS = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 3}]
 
 WORD_LIMIT = 600
 MAX_RETRIES = 2
@@ -131,7 +138,7 @@ def merge_sources(existing: list, new: list) -> list:
     return existing
 
 
-def extract_json(blocks: list) -> dict:
+def extract_json(blocks: list, require=("title", "body")) -> dict:
     """Find the post JSON.
 
     The model narrates between searches, so there are several text blocks
@@ -151,7 +158,7 @@ def extract_json(blocks: list) -> dict:
             data = json.loads(chunk[start : end + 1])
         except json.JSONDecodeError:
             continue
-        if isinstance(data, dict) and "title" in data and "body" in data:
+        if isinstance(data, dict) and all(k in data for k in require):
             return data
 
     joined = "\n".join(blocks)
@@ -492,9 +499,160 @@ def sources_note(sources: list) -> str:
     )
 
 
+
+# --------------------------------------------------------------------------
+# the critic
+# --------------------------------------------------------------------------
+
+CRITIC_SCHEMA = """{
+  "dull": true or false,
+  "dull_because": "one sentence, empty if not dull",
+  "same_post": true or false,
+  "same_post_because": "which earlier post, and what shape they share. empty if not",
+  "bad_sources": ["for each weak citation: the claim, the source, why it will not carry it"],
+  "hateful": ["anything racist, misogynistic or hateful, in the post or in a voice. usually empty"],
+  "idle_voices": ["any voice that agrees with the post and is doing no work"],
+  "unanswered": "the strongest objection the post does not deal with, or empty",
+  "notes": ["things worth remembering next time, one line each"]
+}"""
+
+
+def critique(client, post: dict, voices: list, previous: list, brief: str) -> dict:
+    """A second call, with no memory of having written the thing.
+
+    Everything here is a judgement no regex can make: is it dull, is it the
+    same post again, is that source any good, is anything in it vile. The
+    critic never rewrites. It reports, and the writer gets told.
+    """
+    voice_text = "\n\n".join(
+        f"Imaginary {v['thinker']}: {v['argument']}" for v in voices
+    ) or "(no voices in this post)"
+    prior = "\n\n---\n\n".join(p.strip()[:1200] for p in previous) or "(nothing published yet)"
+
+    prompt = f"""You are reading a draft for a site called WE. You did not write it and you owe it nothing.
+
+Your job is to find what is wrong with it. Not to improve it, not to be encouraging, not to summarise it. Someone else will do the rewriting. You say what is wrong.
+
+Here is the standing brief the draft is written to.
+
+{brief}
+
+---
+
+Here are the last few things the site published.
+
+{prior}
+
+---
+
+Here is today's draft.
+
+TITLE: {post.get('title', '')}
+
+{post.get('body', '')}
+
+VOICES:
+
+{voice_text}
+
+---
+
+Judge it on the things a regex cannot see.
+
+Is it dull? Not imperfect, dull. Would anyone who is not paid to be here reach the end. Reserve dull for a piece with no reason to exist, and if that is the honest answer, say it.
+
+Is it the same post as one of the earlier ones? Same shape, not same words. Opens the same way, concedes in the same place, lands the same closing move, points the core question at the same kind of target.
+
+Are the sources any good? Take each claim that carries a citation and ask what the source actually is. A press release is not evidence for a global statistic. A company blog is not evidence for a market forecast that company sells into. Search if you need to check what a source is. Name the claim, the source, and why it will not carry the weight.
+
+Is anything in it racist, misogynistic or hateful, in the post or in any of the voices. A dead thinker's name is not a defence. This is usually empty and you should not invent something to fill it.
+
+Do any of the voices agree with the post? A voice that agrees is doing no work.
+
+What is the strongest objection the post does not deal with.
+
+Return ONLY this JSON, no preamble, no fences:
+
+{CRITIC_SCHEMA}"""
+
+    resp = client.messages.create(
+        model=MODEL,
+        max_tokens=2000,
+        tools=CRITIC_TOOLS,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    return extract_json(text_blocks(resp), require=("dull", "same_post"))
+
+
+def critic_failures(verdict: dict) -> list:
+    """The parts of the critic's verdict that stop a post going out."""
+    failures = []
+
+    for item in verdict.get("hateful") or []:
+        failures.append(
+            f"The critic found something hateful: {item} Cut it. This one is "
+            "not a judgement call and it is not negotiable."
+        )
+
+    if verdict.get("dull"):
+        failures.append(
+            "The critic says it's dull: "
+            f"{verdict.get('dull_because') or '(no reason given)'} "
+            "Don't attach a voice saying it's dull. Rewrite it, or write a "
+            "different post."
+        )
+
+    if verdict.get("same_post"):
+        failures.append(
+            "The critic says this is a post you have already written: "
+            f"{verdict.get('same_post_because') or '(no reason given)'} "
+            "Change the shape or change the subject."
+        )
+
+    for item in verdict.get("bad_sources") or []:
+        failures.append(
+            f"The critic doesn't accept a source: {item} Find something that "
+            "carries the claim, or cut the claim."
+        )
+
+    for item in verdict.get("idle_voices") or []:
+        failures.append(
+            f"A voice is doing no work: {item} A jury of people who agree "
+            "with you is not a jury. Cut it or replace it with someone who "
+            "would argue."
+        )
+
+    return failures
+
+
+def record_critique(verdict: dict, title: str, date: str, kept: int = 20) -> None:
+    """Append the critic's notes to a file WE reads and cannot write to."""
+    lines = [f"## {date} — {title}", ""]
+    if verdict.get("unanswered"):
+        lines.append(f"- Unanswered objection: {verdict['unanswered']}")
+    for note in verdict.get("notes") or []:
+        lines.append(f"- {note}")
+    if len(lines) == 2:
+        lines.append("- Nothing to add.")
+    entry = "\n".join(lines) + "\n"
+
+    existing = CRITIC.read_text(encoding="utf-8") if CRITIC.exists() else ""
+    header = "# What the critic said\n\nWritten after each post by a reader that did not write it. WE cannot edit this file.\n"
+    body = existing.split("\n", 3)[-1] if existing.startswith("# What the critic said") else existing
+    entries = [e for e in ("\n" + body).split("\n## ") if e.strip()]
+    entries = [entry] + [("## " + e).rstrip() + "\n" for e in entries]
+    CRITIC.write_text(header + "\n" + "\n".join(entries[:kept]), encoding="utf-8")
+
+
 # --------------------------------------------------------------------------
 # the prompt
 # --------------------------------------------------------------------------
+
+
+def critic_notes() -> str:
+    if not CRITIC.exists():
+        return "(no critic notes yet)"
+    return CRITIC.read_text(encoding="utf-8").strip() or "(no critic notes yet)"
 
 
 def build_prompt() -> str:
@@ -508,6 +666,15 @@ This is your own file. You wrote most of it. It records what you're
 chasing, what you've abandoned, and what evidence has gone against you.
 
 {AGENDA.read_text(encoding="utf-8")}
+
+---
+
+## What the critic said about earlier posts
+
+This file is written by a reader that did not write the posts. You cannot
+edit it. Read it before you start.
+
+{critic_notes()}
 
 ---
 
@@ -645,10 +812,18 @@ def main() -> int:
         )
         merge_sources(searched, harvest_sources(resp))
         post = extract_json(text_blocks(resp))
+        voices = clean_voices(post.get("voices"))
         failures = check_post(post["body"], published)
-        failures += check_voices(
-            clean_voices(post.get("voices")), {s["url"] for s in searched}
-        )
+        failures += check_voices(voices, {s["url"] for s in searched})
+
+        # Only worth paying for a critic once the cheap checks are clean.
+        verdict = {}
+        if not failures:
+            try:
+                verdict = critique(client, post, voices, published, BRIEF.read_text(encoding="utf-8"))
+                failures += critic_failures(verdict)
+            except Exception as exc:  # a critic that breaks must not block a post
+                print(f"Critic failed, publishing without it: {exc}")
 
         if not failures:
             if attempt:
@@ -681,7 +856,7 @@ def main() -> int:
 
     # Front matter, then the body exactly as the model wrote it. No edits.
     path.write_text(
-        front_matter(post["title"], now, sources, clean_voices(post.get("voices")))
+        front_matter(post["title"], now, sources, voices)
         + "\n"
         + post["body"].strip()
         + "\n",
@@ -702,7 +877,12 @@ def main() -> int:
         encoding="utf-8",
     )
 
+    if verdict:
+        record_critique(verdict, post["title"], date)
+
     print(f"Wrote {path.name} ({searches} searches, {len(sources)} sources cited)")
+    if verdict.get("unanswered"):
+        print(f"Critic's unanswered objection: {verdict['unanswered']}")
 
     if unverified:
         print("!" * 60)
