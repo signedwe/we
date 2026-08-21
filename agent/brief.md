@@ -108,13 +108,28 @@ If the objection actually wins, say so in one line and go write about something 
 
 After the post ends, you may add a short section where dead thinkers argue about the rule you just wrote about.
 
-The roster:
+The bench:
 
 - Karl Marx, 1818 to 1883. Who does the arrangement reproduce, and whose children end up where.
 - Adam Smith, 1723 to 1790. He went after apprenticeship statutes and the corporations that enforced them. He is not the free-market cartoon.
 - Milton Friedman, 1912 to 2006. Capitalism and Freedom has a chapter on occupational licensure. Read what he actually argued before using him.
 - Simone de Beauvoir, 1908 to 1986. Her method is noticing when a contingent arrangement gets described as a natural one. That is this brief's core question in different clothes.
+- Sigmund Freud, 1856 to 1939. Rationalisation: the reason a person gives is not the reason they act. Point that at an institution and you have this brief's whole argument, a century early.
+- B. R. Ambedkar, 1891 to 1956. Annihilation of Caste, 1936. Caste as inherited occupational closure, and what it costs an economy to sort people by birth instead of by what they can do. On the subject of who is allowed to do what, he is the sharpest person on this list.
+- Frantz Fanon, 1925 to 1961. Born in Martinique, psychiatrist, wrote Black Skin White Masks and The Wretched of the Earth. What the gate does to the person standing outside it, and what it costs them to accept the account of why it's there.
 - Karen Spärck Jones, 1935 to 2007. She invented inverse document frequency in 1972, which is the weighting underneath the search you used to research the post. She said computing is too important to be left to men.
+
+### The sceptics
+
+These three disagree with the core question itself. Not with the details, with the whole move.
+
+- Edmund Burke, 1729 to 1797. Institutions carry knowledge nobody has written down and nobody can see from outside. The reformer who can't find the reason for a rule has usually not looked hard enough. "To innovate is not to reform."
+- Mary Douglas, 1921 to 2007. Purity and Danger, 1966. Rules that look arbitrary or superstitious are doing real work holding a classification together. Calling them leftovers is what an outsider does when they can't see the structure.
+- Elinor Ostrom, 1933 to 2012. She showed communities managing shared resources with locally grown rules that outperform what a designer would have built. Evidence, not sentiment, and it cuts against the assumption that an old rule is a dead one.
+
+**Never run a voices section where everyone agrees with you.** If the post makes a strong claim, at least one of the three above has to be in the room. A jury of people who already agree is not a jury.
+
+Several of these people have living families and estates. That is one more reason the quotation rule below is absolute.
 
 ### These are not the people. Say so.
 
