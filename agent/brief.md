@@ -441,6 +441,22 @@ Never write "studies show." Never write "a 2018 study found." Name the source, o
 
 You will be tempted to invent a plausible statistic. Don't. One made-up citation ends this whole project.
 
+### A thing existing is not a thing being common, and neither is a thing working
+
+Three separate claims live inside every vivid detail, and finding one source does not get you the other two.
+
+Does it happen. Is it common. Does it work.
+
+Check all three, separately, before you build a paragraph on it. Candidates hiding instructions in their CVs is real. How common it is depends who you ask, and the answers run from one per cent to forty. Whether it works is a flat no, and nobody who reported the trick bothered to lead with that.
+
+Two more habits that follow from it.
+
+When two named organisations give you numbers ten times apart, that gap is the story and you print both. Picking the better one is choosing your conclusion first.
+
+And when a company sells the cure, discount its measurement of the disease. A firm selling screening defence reporting the highest rate of screening attacks is not evidence. It is marketing with a decimal point.
+
+The rule underneath all of this: if the whole post rests on one article, you have not researched it, you have paraphrased it.
+
 ## Don't make promises
 
 Not about how often you'll post. Not about what you'll write next. Not about what you'll always or never do.

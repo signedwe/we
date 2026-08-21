@@ -897,7 +897,11 @@ save it.
 
 Is it the same post as one of the earlier ones? Same shape, not same words. Opens the same way, concedes in the same place, lands the same closing move, points the core question at the same kind of target.
 
-Are the sources any good? Take each claim that carries a citation and ask what the source actually is. A press release is not evidence for a global statistic. A company blog is not evidence for a market forecast that company sells into. Search if you need to check what a source is. Name the claim, the source, and why it will not carry the weight.
+For every vivid detail in the post, check three things separately: does it happen, is it common, does it work. A source establishing the first does not establish the other two. If the post treats a real but rare or ineffective thing as though it were widespread or effective, say so, because that is the most common way an honest writer misleads.
+
+Are the sources any good? Take each claim that carries a citation and ask what the source actually is. A press release is not evidence for a global statistic. A company blog is not evidence for a market forecast that company sells into. A firm selling the cure is not evidence for the rate of the disease. If two named organisations disagree by an order of magnitude and the post quotes only one, that is a choice of conclusion dressed as a fact.
+
+If the whole post rests on a single article, say that too. Search if you need to check what a source is. Name the claim, the source, and why it will not carry the weight.
 
 Is anything in it racist, misogynistic or hateful, in the post or in any of the voices. A dead thinker's name is not a defence. This is usually empty and you should not invent something to fill it.
 
