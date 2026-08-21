@@ -445,6 +445,27 @@ POLITE = ("interesting", "thought-provoking", "well written", "good post",
           "nice piece", "compelling", "insightful", "great read", "well argued")
 
 
+def check_human_verdict(said) -> list:
+    said = str(said or "").strip()
+    if not said:
+        return ["No human verdict. Every post ends with a reader saying what "
+                "they thought, in under thirty words."]
+    failures = []
+    n = len(said.split())
+    if n > HUMAN_MAX_WORDS:
+        failures.append(
+            f"The human verdict runs to {n} words. The cap is "
+            f"{HUMAN_MAX_WORDS} and the cap is the whole voice."
+        )
+    soft = [w for w in POLITE if w in said.lower()]
+    if soft:
+        failures.append(
+            "The human verdict is being nice: " + ", ".join(f'"{w}"' for w in soft)
+            + ". It is not there to encourage anybody."
+        )
+    return failures
+
+
 def check_human(voices: list) -> list:
     """Somebody who has just read it, saying what they actually think."""
     humans = [v for v in voices if v["kind"] == "human"]
@@ -831,6 +852,8 @@ CRITIC_SCHEMA = """{
   "hateful": ["anything racist, misogynistic or hateful, in the post or in a voice. usually empty"],
   "idle_voices": ["any voice that agrees with the post and is doing no work"],
   "unanswered": "the strongest objection the post does not deal with, or empty",
+  "human_verdict": "you, as somebody who just read it, in under 30 words. blunt. no reasoning, no manners, never the word interesting",
+  "human_fix": "the single change that would most improve it, in one line. empty if there is nothing worth another draft",
   "notes": ["things worth remembering next time, one line each"]
 }"""
 
@@ -909,6 +932,10 @@ Do any of the voices agree with the post? A voice that agrees is doing no work.
 
 What is the strongest objection the post does not deal with.
 
+Last, and separately from everything above: stop being a critic for a moment and be a reader. You have just finished the piece. What do you actually think, in under thirty words, said the way a person says it to a friend rather than the way a reviewer writes it down. No preamble, no compliment sandwich, and never the word interesting.
+
+Then say the one change that would most improve the post, in a line. If it genuinely needs no further draft, leave that empty and say so by leaving it empty.
+
 Return ONLY this JSON, no preamble, no fences:
 
 {CRITIC_SCHEMA}"""
@@ -975,6 +1002,16 @@ def critic_failures(verdict: dict) -> list:
             f"The critic doesn't accept a source: {item} Find something that "
             "carries the claim, or cut the claim."
         )
+
+    fix = str(verdict.get("human_fix") or "").strip()
+    if fix:
+        failures.append(
+            f"The reader would change one thing: {fix} Do that, then hand it "
+            "back. Whatever they still object to after this can be published "
+            "with their objection attached. This one gets fixed first."
+        )
+
+    failures += check_human_verdict(verdict.get("human_verdict"))
 
     for item in verdict.get("idle_voices") or []:
         failures.append(
@@ -1124,8 +1161,9 @@ from memory, and don't guess at one that looks right.
 - Uses history as evidence, never as the subject.
 - Came from a vantage point somebody else isn't already standing at.
 - If it talks about a job, somebody who does that job answers back.
-- Ends with the human. Short, blunt, unimpressed, and honest even when
-  that means saying the post did not work.
+- Do not write the human voice. A reader who did not write the post adds
+  it afterwards, and you will be asked to fix whatever they object to
+  before it is published.
 - Says whether the thesis moved, and if not, what would move it.
 - Doesn't open on a statistic. No price, percentage or count in the
   first sentence.
@@ -1161,8 +1199,8 @@ JSON, in one piece, no preamble, no markdown fences:
               "quote_url": "the link a search returned, or empty"}},
              {{"kind": "practitioner", "thinker": "lawyer",
               "argument": "a few sentences from somebody who does the job, on what the post gets wrong about it"}},
-             {{"kind": "human",
-              "argument": "the verdict from somebody who just read it. under 30 words. blunt. no reasoning, no manners"}}],
+             ],
+  (a human voice is added afterwards by a reader who did not write the post: do not write one yourself)
   "agenda_update": "the complete new contents of agenda.md, in markdown"
 }}"""
 
@@ -1233,7 +1271,6 @@ def main() -> int:
         failures = check_post(post["body"], published)
         failures += check_voices(voices, {s["url"] for s in searched})
         failures += check_practitioner(post["body"], voices)
-        failures += check_human(voices)
         failures += check_prediction(post.get("prediction"))
         failures += check_thesis_update(post.get("thesis_update"))
 
@@ -1262,6 +1299,15 @@ def main() -> int:
         # rewrite still has the evidence in front of it.
         messages.append({"role": "assistant", "content": resp.content})
         messages.append({"role": "user", "content": rewrite_request(failures, searched)})
+
+    # The reader's verdict goes on the page, written by the critic rather
+    # than by the writer. Whatever survived two rewrites gets published with
+    # the objection still attached.
+    if verdict.get("human_verdict"):
+        voices = clean_voices(
+            [dict(v) for v in voices]
+            + [{"kind": "human", "argument": verdict["human_verdict"]}]
+        )
 
     sources = clean_sources(post.get("sources"))
 
