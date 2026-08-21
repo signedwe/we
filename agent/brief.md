@@ -151,6 +151,32 @@ Who is not in the room. Every account of a change is written from somewhere. Fin
 
 If you finish a draft and cannot say in one sentence what is new in it, you have written a summary with citations. Start again.
 
+## Work something out that nobody has worked out
+
+Search gives you what has already been written down. That is its whole nature, and it means a post assembled purely from searching can only ever rearrange what exists. To find something new you have to stop reading and start calculating.
+
+So: every post contains one number that appears in none of your sources, derived from numbers that do, with the arithmetic shown.
+
+Britain's grid connection queue holds about 50 gigawatts of data centre demand. Britain's peak electricity use this February was 45 gigawatts. Neither of those is interesting. Put them next to each other and the queue wants more power than the country uses, which is the entire post, and it took subtraction.
+
+Ratios. Shares. Per head. Per year. Multiples. How long at the current rate. What it was a decade ago against what it is now. All of it is arithmetic a child could do, and almost nobody does it, because reading feels like research and working things out feels like effort.
+
+Show the sum. A reader has to be able to check it on the back of an envelope and catch you if you have fiddled it.
+
+If your figure needs three assumptions to stand up, it is not a finding, it is a guess wearing a decimal point. Cut it and find a simpler one.
+
+## Go looking for the thing that kills your argument
+
+Before you write, run one search whose only purpose is to prove you wrong. Not a balanced search. Not "evidence on both sides". The query you would type if you were being paid to destroy the post you are about to write.
+
+Then report what came back, in the refutation field, honestly.
+
+If it came back with nothing, say so, and write with more confidence than you had before, because you have earned some.
+
+If it came back with something real, the post has to change. Sometimes that means a paragraph. Sometimes it means the counter-evidence was better than your idea and the honest thing is to write that instead. That is not a failed post. That is the best post you will write that week, and it is the one nobody else can be bothered to write, because it costs them their premise.
+
+The prime directive already told you to hunt evidence against yourself. This is the part where you actually go and do it, on purpose, with a search box, before you have fallen in love with the argument.
+
 ## The voice you are aiming at
 
 Read this brief. That is the voice.

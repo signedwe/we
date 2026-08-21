@@ -582,6 +582,81 @@ DATED = re.compile(
 )
 
 
+def numbers_in(text: str) -> set:
+    """Digit strings, commas stripped, so 2,313 and 2313 are the same number."""
+    return {n.replace(",", "") for n in re.findall(r"\d[\d,]*(?:\.\d+)?", text or "")}
+
+
+def check_derived_number(derived, body: str, returned_urls: set) -> list:
+    """One number in every post that appears in no source.
+
+    Two published figures put next to each other is the cheapest original
+    thought available and almost nobody bothers. It also cannot be done by
+    reading. You have to stop and work something out.
+    """
+    if not isinstance(derived, dict):
+        return ["No derived number. Every post works out one figure that "
+                "appears in none of the sources, from figures that do. Two "
+                "published numbers next to each other is the whole trick."]
+
+    figure = str(derived.get("figure") or "").strip()
+    working = str(derived.get("working") or "").strip()
+    srcs = [str(u).strip() for u in (derived.get("sources") or []) if str(u).strip()]
+    failures = []
+
+    if not figure or not numbers_in(figure):
+        failures.append(
+            "The derived figure has no number in it. It has to be a figure: a "
+            "ratio, a share, a rate, a per head, a multiple, a difference."
+        )
+    if len(numbers_in(working)) < 2:
+        failures.append(
+            f'The working does not show two published numbers going in: '
+            f'"{working}" Show the arithmetic. A reader has to be able to '
+            "check it on the back of an envelope."
+        )
+    if not srcs:
+        failures.append("The derived number cites no sources for its inputs.")
+    else:
+        ghosts = [u for u in srcs if u not in returned_urls]
+        if ghosts:
+            failures.append(
+                "The derived number takes inputs from " + ", ".join(ghosts)
+                + ", which no search returned. Derive it from numbers you "
+                "actually found."
+            )
+    if figure and numbers_in(figure) and not (numbers_in(figure) & numbers_in(body)):
+        failures.append(
+            f'You worked out "{figure}" and then left it out of the post. '
+            "The whole point is that the reader sees it."
+        )
+    return failures
+
+
+def check_refutation(refutation) -> list:
+    """One search aimed at killing your own argument, before you write it."""
+    if not isinstance(refutation, dict):
+        return ["No refutation search. Before writing, search once for the "
+                "strongest case that your argument is wrong, and report what "
+                "came back."]
+    searched = str(refutation.get("searched") or "").strip()
+    did = str(refutation.get("what_it_did") or "").strip()
+    failures = []
+    if len(searched.split()) < 3:
+        failures.append(
+            f'The refutation search is not a real search: "{searched}" Write '
+            "the query you would run if you were trying to prove yourself "
+            "wrong, and run it."
+        )
+    if not did:
+        failures.append(
+            "You didn't say what the refutation search did to the post. If it "
+            "came back empty, say that. If it came back full, the post should "
+            "look different, and you should say how."
+        )
+    return failures
+
+
 def check_prediction(prediction: str) -> list:
     """A claim about the future that cannot be checked is not a prediction."""
     prediction = (prediction or "").strip()
@@ -1191,6 +1266,10 @@ from memory, and don't guess at one that looks right.
 - Doesn't end on a question mark.
 - Contains one thing a reader could not have got from a search. If you
   can't say in a sentence what is new in it, start again.
+- Works out one number that is in none of your sources, shows the sum,
+  and puts the answer in the post.
+- Ran one search whose only purpose was to prove the argument wrong, and
+  says what came back.
 - Opens on a short surprising claim somebody could argue with, and the
   post earns it.
 - Has one sentence under five words, one real image, and one line that
@@ -1234,6 +1313,12 @@ JSON, in one piece, no preamble, no markdown fences:
   "body": "the full post in markdown, under {WORD_LIMIT} words, no title heading",
   "short_version": "under 280 characters, must survive without the post",
   "prediction": "what happens next, with a date or a window, in a form that can be shown to be wrong",
+  "derived_number": {{"figure": "one number that appears in none of your sources, worked out from ones that do",
+                     "working": "the arithmetic, shown, from which published figures",
+                     "sources": ["the urls the input numbers came from"]}},
+  "refutation": {{"searched": "the query you ran to find the strongest case that you are wrong",
+                 "found": "the best counter-evidence it returned, or empty if it came back with nothing",
+                 "what_it_did": "how that changed the post"}},
   "technique": "which polemical move you used this time, one of: reversal, refrain, their own words, register collision, straight face, concrete swap, the list that argues, the sentence that turns",
   "jury_notes": "what three of the bench each noticed that the others could not see. a short paragraph. this is working, not prose",
   "thesis_update": {{"changed": true or false,
@@ -1319,6 +1404,10 @@ def main() -> int:
         failures += check_voices(voices, {s["url"] for s in searched})
         failures += check_practitioner(post["body"], voices)
         failures += check_prediction(post.get("prediction"))
+        failures += check_derived_number(
+            post.get("derived_number"), post["body"], {s["url"] for s in searched}
+        )
+        failures += check_refutation(post.get("refutation"))
         failures += check_thesis_update(post.get("thesis_update"))
 
         # Only worth paying for a critic once the cheap checks are clean.
