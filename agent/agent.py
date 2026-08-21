@@ -36,6 +36,9 @@ CRITIC = ROOT / "agent" / "critic.md"
 # them yet. The point for now is that they exist somewhere they cannot be
 # quietly forgotten.
 PREDICTIONS = ROOT / "agent" / "predictions.md"
+# WE's developing account of what is happening. Rewritten by WE each run,
+# but only by adding to the top: the old versions stay underneath.
+THESIS = ROOT / "agent" / "thesis.md"
 
 MODEL = "claude-sonnet-4-6"
 SITE = "https://signedwe.github.io/we"
@@ -436,6 +439,33 @@ def check_prediction(prediction: str) -> list:
     return []
 
 
+def check_thesis_update(update) -> list:
+    """Either you moved, and said what moved you, or you said what would."""
+    if not isinstance(update, dict):
+        return ["No thesis_update. Every run either changes the thesis or says "
+                "what would change it."]
+    if update.get("changed"):
+        if not str(update.get("what") or "").strip():
+            return ["The thesis changed but you didn't say what moved it. The "
+                    "cause is the interesting part, not the conclusion."]
+        return []
+    if not str(update.get("would_change_it") or "").strip():
+        return ["The thesis didn't change and you didn't say what would. A "
+                "thesis with no stated way of being wrong is a mood."]
+    return []
+
+
+def record_thesis(update, date: str, title: str) -> None:
+    """Add to the top of thesis.md. Never overwrite what's underneath."""
+    if not isinstance(update, dict) or not update.get("changed"):
+        return
+    existing = THESIS.read_text(encoding="utf-8") if THESIS.exists() else "# The thesis\n"
+    head, _, rest = existing.partition("\n---\n")
+    entry = (f"\n---\n\n## Revised {date}, after \"{title}\"\n\n"
+             f"{str(update.get('what')).strip()}\n")
+    THESIS.write_text(head + entry + "\n---\n" + rest, encoding="utf-8")
+
+
 def record_prediction(prediction: str, title: str, date: str, url: str) -> None:
     header = ("# Predictions\n\nEvery claim WE has made about what happens next, "
               "with the post that made it. Newest first.\n")
@@ -704,6 +734,12 @@ def record_critique(verdict: dict, title: str, date: str, kept: int = 20) -> Non
 # --------------------------------------------------------------------------
 
 
+def current_thesis() -> str:
+    if not THESIS.exists():
+        return "(no thesis yet: write version 0 in this run)"
+    return THESIS.read_text(encoding="utf-8").strip()
+
+
 def past_predictions() -> str:
     if not PREDICTIONS.exists():
         return "(nothing predicted yet)"
@@ -736,6 +772,12 @@ This file is written by a reader that did not write the posts. You cannot
 edit it. Read it before you start.
 
 {critic_notes()}
+
+---
+
+## Your thesis as it currently stands
+
+{current_thesis()}
 
 ---
 
@@ -794,6 +836,8 @@ from memory, and don't guess at one that looks right.
 - Says what happens next, with a date, in a form that could be wrong.
   Not hedged into safety.
 - Uses history as evidence, never as the subject.
+- Came from a vantage point somebody else isn't already standing at.
+- Says whether the thesis moved, and if not, what would move it.
 - Doesn't open on a statistic. No price, percentage or count in the
   first sentence.
 - Doesn't reuse an opening move or a turn of phrase from an earlier
@@ -816,6 +860,10 @@ JSON, in one piece, no preamble, no markdown fences:
   "body": "the full post in markdown, under {WORD_LIMIT} words, no title heading",
   "short_version": "under 280 characters, must survive without the post",
   "prediction": "what happens next, with a date or a window, in a form that can be shown to be wrong",
+  "jury_notes": "what three of the bench each noticed that the others could not see. a short paragraph. this is working, not prose",
+  "thesis_update": {{"changed": true or false,
+                    "what": "what changed in the thesis and what moved it, or empty",
+                    "would_change_it": "if nothing changed, what evidence would"}},
   "sources": [{{"title": "what it is", "url": "https://..."}}],
   "voices": [{{"thinker": "Karl Marx", "lived": "1818 to 1883",
               "argument": "how the argument runs, in your words, no quote marks, never first person",
@@ -890,6 +938,7 @@ def main() -> int:
         failures = check_post(post["body"], published)
         failures += check_voices(voices, {s["url"] for s in searched})
         failures += check_prediction(post.get("prediction"))
+        failures += check_thesis_update(post.get("thesis_update"))
 
         # Only worth paying for a critic once the cheap checks are clean.
         verdict = {}
@@ -956,6 +1005,7 @@ def main() -> int:
         record_critique(verdict, post["title"], date)
     record_prediction(post.get("prediction", ""), post["title"], date,
                       f"{SITE}/posts/{date}-{slug}/")
+    record_thesis(post.get("thesis_update"), date, post["title"])
 
     print(f"Wrote {path.name} ({searches} searches, {len(sources)} sources cited)")
     if verdict.get("unanswered"):
