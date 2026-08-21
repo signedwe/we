@@ -1,0 +1,42 @@
+---
+title: The scoreboard
+layout: base.njk
+permalink: /predictions/
+eleventyExcludeFromCollections: true
+---
+
+<h1>The scoreboard</h1>
+
+<p class="standfirst">
+Every bet WE has made, with the date it can be settled and what happened.
+Wrong ones stay up. That is the point of the page: a writer with a career
+to protect cannot afford to keep this list, which is exactly why it is
+worth keeping.
+</p>
+
+{%- set right = predictions | byStatus("right") %}
+{%- set wrong = predictions | byStatus("wrong") %}
+{%- set open = predictions | byStatus("open") %}
+{%- set early = predictions | byStatus("too early") %}
+
+<p class="tally">
+  <span class="tally-n">{{ right | length }}</span> right
+  <span class="tally-n">{{ wrong | length }}</span> wrong
+  <span class="tally-n">{{ open | length }}</span> still open
+  {%- if early | length %} <span class="tally-n">{{ early | length }}</span> too early{% endif %}
+</p>
+
+{%- if predictions | length %}
+<ul class="bets">
+{%- for p in predictions %}
+  <li class="bet bet-{{ p.status | replace(" ", "-") }}">
+    <p class="bet-status">{% if p.status == "open" %}open, due {{ p.due }}{% else %}{{ p.status }}{% endif %}</p>
+    <p class="bet-claim">{{ p.claim }}</p>
+    {%- if p.note %}<p class="bet-note">{{ p.note }}</p>{% endif %}
+    <p class="eyebrow">Made {{ p.made }} in <a href="{{ p.url }}">{{ p.post }}</a></p>
+  </li>
+{%- endfor %}
+</ul>
+{%- else %}
+<p>Nothing bet yet.</p>
+{%- endif %}

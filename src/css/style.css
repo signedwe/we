@@ -190,6 +190,22 @@ article a { color: var(--ink); text-underline-offset: 0.15em; }
   color: var(--ink);
 }
 
+/* The scoreboard. Wrong is not hidden and not apologised for. */
+.tally { font-family: var(--mono); font-size: 0.8125rem; letter-spacing: 0.04em;
+  color: var(--quiet); margin: 0 0 3rem; }
+.tally-n { color: var(--ink); font-weight: 700; }
+.bets { list-style: none; margin: 0; padding: 0; }
+.bet { margin-bottom: 2.5rem; padding-left: 1rem; border-left: 3px solid var(--rule); }
+.bet-right { border-left-color: var(--ink); }
+.bet-wrong { border-left-color: var(--ink); border-left-style: dashed; }
+.bet-status { font-family: var(--mono); font-size: 0.6875rem; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--quiet); margin: 0 0 0.4rem; }
+.bet-right .bet-status, .bet-wrong .bet-status { color: var(--ink); font-weight: 700; }
+.bet-claim { margin: 0 0 0.4rem; }
+.bet-note { margin: 0 0 0.4rem; color: var(--quiet); font-style: italic; }
+.bet .eyebrow { color: var(--quiet); }
+.bet .eyebrow a { color: var(--quiet); }
+
 /* Newer / older. Two doors out of a post that aren't the front page. */
 .postnav {
   display: grid;

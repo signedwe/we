@@ -35,7 +35,7 @@ CRITIC = ROOT / "agent" / "critic.md"
 # Every prediction WE has made, with the date it comes due. Nothing scores
 # them yet. The point for now is that they exist somewhere they cannot be
 # quietly forgotten.
-PREDICTIONS = ROOT / "agent" / "predictions.md"
+PREDICTIONS = ROOT / "agent" / "predictions.json"
 # WE's developing account of what is happening. Rewritten by WE each run,
 # but only by adding to the top: the old versions stay underneath.
 THESIS = ROOT / "agent" / "thesis.md"
@@ -791,6 +791,86 @@ def check_prediction_placement(prediction: str, body: str) -> list:
     return []
 
 
+def load_predictions() -> list:
+    if not PREDICTIONS.exists():
+        return []
+    try:
+        return json.loads(PREDICTIONS.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return []
+
+
+def save_predictions(rows: list) -> None:
+    PREDICTIONS.write_text(json.dumps(rows, indent=2, ensure_ascii=False) + "\n",
+                           encoding="utf-8")
+
+
+def due_predictions(today: str) -> list:
+    """Bets whose date has passed and which nobody has judged yet."""
+    return [p for p in load_predictions()
+            if p.get("status") == "open" and str(p.get("due", "")) <= today]
+
+
+def check_due_verdicts(verdicts, today: str) -> list:
+    """Every bet that has come due gets judged, in the open, this run."""
+    outstanding = due_predictions(today)
+    if not outstanding:
+        return []
+    given = {}
+    if isinstance(verdicts, list):
+        for v in verdicts:
+            if isinstance(v, dict) and v.get("id"):
+                given[str(v["id"])] = v
+
+    failures = []
+    for row in outstanding:
+        rid = str(row.get("id"))
+        v = given.get(rid)
+        if not v:
+            failures.append(
+                f'A bet came due and you have not judged it. {row.get("due")}: '
+                f'"{row.get("claim")}" Say right, wrong or too early, and say '
+                "it in the post before anything else. This is the only thing "
+                "on the site that can cost you anything."
+            )
+            continue
+        if str(v.get("verdict")) not in ("right", "wrong", "too early"):
+            failures.append(
+                f'Verdict on "{row.get("claim")}" must be right, wrong or too '
+                f'early. You wrote "{v.get("verdict")}".'
+            )
+        elif not str(v.get("note") or "").strip():
+            failures.append(
+                f'You judged "{row.get("claim")}" and said nothing about it. '
+                "One line: what actually happened."
+            )
+    return failures
+
+
+def apply_verdicts(verdicts, today: str) -> None:
+    rows = load_predictions()
+    given = {str(v["id"]): v for v in (verdicts or [])
+             if isinstance(v, dict) and v.get("id")}
+    for row in rows:
+        v = given.get(str(row.get("id")))
+        if v and row.get("status") == "open":
+            row["status"] = str(v.get("verdict"))
+            row["note"] = str(v.get("note") or "").strip()
+            row["resolved"] = today
+    save_predictions(rows)
+
+
+def check_due_date(due: str, today: str) -> list:
+    due = (due or "").strip()
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", due):
+        return ['The prediction needs a date it can be judged on, as '
+                f'YYYY-MM-DD. You wrote "{due}".']
+    if due <= today:
+        return [f"The prediction comes due on {due}, which is not in the "
+                "future. A bet you can already settle is not a bet."]
+    return []
+
+
 def check_prediction(prediction: str) -> list:
     """A claim about the future that cannot be checked is not a prediction."""
     prediction = (prediction or "").strip()
@@ -842,13 +922,20 @@ def record_thesis(update, date: str, title: str) -> None:
     THESIS.write_text(head + entry + "\n---\n" + rest, encoding="utf-8")
 
 
-def record_prediction(prediction: str, title: str, date: str, url: str) -> None:
-    header = ("# Predictions\n\nEvery claim WE has made about what happens next, "
-              "with the post that made it. Newest first.\n")
-    entry = f"\n## {date}\n\n{prediction.strip()}\n\nFrom [{title}]({url})\n"
-    existing = PREDICTIONS.read_text(encoding="utf-8") if PREDICTIONS.exists() else ""
-    body = existing[len(header):] if existing.startswith(header) else existing
-    PREDICTIONS.write_text(header + entry + body, encoding="utf-8")
+def record_prediction(prediction: str, due: str, title: str, date: str, url: str) -> None:
+    rows = load_predictions()
+    rows.insert(0, {
+        "id": f"{date}-{len(rows) + 1}",
+        "made": date,
+        "due": due,
+        "claim": prediction.strip(),
+        "post": title,
+        "url": url,
+        "status": "open",
+        "note": "",
+        "resolved": "",
+    })
+    save_predictions(rows)
 
 
 def professions_mentioned(body: str) -> list:
@@ -1328,15 +1415,35 @@ def current_thesis() -> str:
 
 
 def past_predictions() -> str:
-    if not PREDICTIONS.exists():
+    rows = load_predictions()
+    if not rows:
         return "(nothing predicted yet)"
-    return PREDICTIONS.read_text(encoding="utf-8").strip() or "(nothing predicted yet)"
+    out = []
+    for r in rows[:20]:
+        status = r["status"] if r["status"] != "open" else f"open, due {r['due']}"
+        line = f"- [{r['id']}] {r['claim']} ({status})"
+        if r.get("note"):
+            line += f"\n      what happened: {r['note']}"
+        out.append(line)
+    return "\n".join(out)
+
+
+def due_now(today: str) -> str:
+    rows = due_predictions(today)
+    if not rows:
+        return "(nothing has come due this run)"
+    return "\n".join(
+        f"- [{r['id']}] due {r['due']}: {r['claim']}" for r in rows
+    )
 
 
 def critic_notes() -> str:
     if not CRITIC.exists():
         return "(no critic notes yet)"
     return CRITIC.read_text(encoding="utf-8").strip() or "(no critic notes yet)"
+
+
+TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 
 def build_prompt() -> str:
@@ -1365,6 +1472,17 @@ edit it. Read it before you start.
 ## Your thesis as it currently stands
 
 {current_thesis()}
+
+---
+
+## Bets that have come due
+
+Judge every one of these in this post, before anything else. Right, wrong,
+or too early, and one line on what actually happened. Nobody else on the
+internet does this and it is the only thing here that can cost you
+anything.
+
+{due_now(TODAY)}
 
 ---
 
@@ -1446,6 +1564,7 @@ from memory, and don't guess at one that looks right.
 - Makes the other case without announcing that it is being fair.
 - Says the strong version. No hedges bought with the reader's attention,
   and it doesn't stop one step short of where its own argument goes.
+- Judges every bet that has come due, at the top, before anything else.
 - Says what happens next, with a date, in a form that could be wrong.
   Not hedged into safety, and not parked in the last third as a
   sign-off. Put it early and spend the post earning it.
@@ -1478,6 +1597,8 @@ JSON, in one piece, no preamble, no markdown fences:
   "body": "the full post in markdown, under {WORD_LIMIT} words, no title heading",
   "short_version": "under 280 characters, must survive without the post",
   "prediction": "what happens next, with a date or a window, in a form that can be shown to be wrong",
+  "prediction_due": "YYYY-MM-DD, the day this can be settled",
+  "verdicts": [{{"id": "the id of a bet that has come due", "verdict": "right, wrong or too early", "note": "one line on what actually happened"}}],
   "derived_number": {{"figure": "one number that appears in none of your sources, worked out from ones that do",
                      "working": "the arithmetic, shown, from which published figures",
                      "sources": ["the urls the input numbers came from"]}},
@@ -1575,6 +1696,8 @@ def main() -> int:
         failures += check_practitioner(post["body"], voices)
         failures += check_prediction(post.get("prediction"))
         failures += check_prediction_placement(post.get("prediction"), post["body"])
+        failures += check_due_date(post.get("prediction_due"), TODAY)
+        failures += check_due_verdicts(post.get("verdicts"), TODAY)
         failures += check_derived_number(
             post.get("derived_number"), post["body"], {s["url"] for s in searched}
         )
@@ -1656,8 +1779,9 @@ def main() -> int:
 
     if verdict:
         record_critique(verdict, post["title"], date)
-    record_prediction(post.get("prediction", ""), post["title"], date,
-                      f"{SITE}/posts/{date}-{slug}/")
+    apply_verdicts(post.get("verdicts"), date)
+    record_prediction(post.get("prediction", ""), post.get("prediction_due", ""),
+                      post["title"], date, f"{SITE}/posts/{date}-{slug}/")
     record_thesis(post.get("thesis_update"), date, post["title"])
 
     print(f"Wrote {path.name} ({searches} searches, {len(sources)} sources cited)")

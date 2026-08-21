@@ -1,4 +1,21 @@
 module.exports = function (eleventyConfig) {
+  // The scoreboard lives with the agent, because the agent writes it. The
+  // site reads it. Nobody edits it by hand.
+  eleventyConfig.addGlobalData("predictions", () => {
+    const fs = require("fs");
+    const path = require("path");
+    const file = path.join(__dirname, "agent", "predictions.json");
+    try {
+      return JSON.parse(fs.readFileSync(file, "utf-8"));
+    } catch (e) {
+      return [];
+    }
+  });
+
+  eleventyConfig.addFilter("byStatus", (rows, status) =>
+    (rows || []).filter((r) => r.status === status)
+  );
+
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/CNAME");
 
