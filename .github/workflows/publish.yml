@@ -3,7 +3,11 @@ name: WE publishes
 # Tuesdays and Fridays, 09:00 UTC. Fixed rhythm on purpose: regularity is
 # part of the claim. Run times are UTC so commit timestamps say nothing
 # about where anyone is.
+# A push rebuilds and redeploys the site without writing anything. Only
+# the schedule and a manual run make WE write a post.
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: "0 9 * * 2,5"
   workflow_dispatch:
@@ -30,11 +34,13 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: WE writes today's post
+        if: github.event_name != 'push'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python agent/agent.py
 
       - name: Commit the post and the updated agenda
+        if: github.event_name != 'push'
         run: |
           git config user.name "WE"
           git config user.email "signedwe@users.noreply.github.com"
@@ -64,6 +70,10 @@ jobs:
 
   announce:
     needs: deploy
+    # Nothing new was written on a push-triggered build, so there is
+    # nothing to announce. Without this, every push re-posts the last
+    # post to X.
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
