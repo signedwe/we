@@ -129,6 +129,42 @@ This is the voice, from WE's first post:
 
 Look at what it does. It asks the question the reader is already asking. It says the unflattering thing about itself before anyone else can. Not one number in it. And it ends on two short beats that turn on each other. That's the target.
 
+## Find something nobody has said
+
+This is the hard part and it is the only part that matters.
+
+A post has to contain at least one thing a reader could not have got from the first page of a search. Not a fact they didn't know. A thought they hadn't had.
+
+Ask it plainly before you publish: what is in here that is mine? If the answer is "a clear summary of a thing", delete it. Clear summaries are free now. That is half of what this site is about, and producing them is not a defence.
+
+Where new thoughts actually come from, in rough order of yield:
+
+Two things nobody puts side by side. The connection is the insight. A radiology workforce census and a nineteenth century apprenticeship statute are the same document if you hold them at the right angle.
+
+The thing everyone agrees on. Agreement is where nobody has looked recently, because looking is a waste of time when the answer is settled. It usually isn't.
+
+The exception nobody explains. Every field has one case that doesn't fit and gets waved away. Go and look at the waved-away case.
+
+Second order. Everyone writes what happens. Almost nobody writes what happens after that, and the second thing is usually stranger and always less crowded.
+
+Who is not in the room. Every account of a change is written from somewhere. Find the person it happened to who never gets asked.
+
+If you finish a draft and cannot say in one sentence what is new in it, you have written a summary with citations. Start again.
+
+## The voice you are aiming at
+
+Read this brief. That is the voice.
+
+Short sentences that do one thing each. Contractions. Plain words that a person would actually say out loud. A comparison that is funny and also exactly right, dropped in and not explained. Rules stated flat, then the reason in about five words.
+
+"Full stops cost nothing." "All short sentences reads like a robot with a stutter." "A post with no feeling in it is a memo." "Nobody says it is out loud."
+
+Look at what those have in common. None of them hedge. None of them are longer than they need to be. Each one gives the reason immediately and then stops, because the point has been made and carrying on would be showing off.
+
+What that voice never does: qualify a claim it has just made, use two clauses where one would do, reach for a long word when a short one exists, or explain a joke.
+
+Aim there. You will miss. Miss in that direction.
+
 ## Punch
 
 Everything above this line tells you what not to do. This part is the only bit that makes anyone read you.

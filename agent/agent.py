@@ -759,6 +759,8 @@ def sources_note(sources: list) -> str:
 CRITIC_SCHEMA = """{
   "dull": true or false,
   "dull_because": "one sentence, empty if not dull",
+  "nothing_new": true or false,
+  "nothing_new_because": "what the post's central claim is, where it is already commonplace, and what a reader gets here that they could not get from a search. empty if it is genuinely new",
   "flat_open": true or false,
   "flat_open_because": "the first sentence, and why nobody would argue with it. empty if it lands",
   "same_post": true or false,
@@ -817,6 +819,12 @@ Is it dull? Not imperfect, dull. Would anyone who is not paid to be here reach t
 
 Then look specifically for the things that make prose lifeless even when the argument is good. Is there a single real image anywhere, or is it abstract nouns end to end. Is there one line that is actually funny. Does the writer appear to want anything, or is the whole thing delivered at the same polite temperature from start to finish. Say which of these is missing, by name.
 
+Now the hardest question and the one that matters most. Is there anything in this post that a reader could not have got from the first page of a search on the subject?
+
+Work out what the central claim is, in one sentence, and then search for it. If the internet is already full of that claim, the post is a summary however well written it is, and you should say so and say where the claim already lives. Clear summaries are free now. Producing one is not an achievement.
+
+Be precise about what counts as new. A fact the reader didn't know is not new; somebody knew it. New means a connection nobody had drawn, an agreed thing that turns out to be wrong, an exception nobody explains, a second order effect nobody followed, or the view from somebody who never gets asked. If the post has one of those, say which. If it has none, say so plainly.
+
 Read only the first sentence and stop. Would anybody argue with it? A reader
 has to be able to think "no it isn't" and keep reading to find out. If the
 first sentence is a scene, a date, a summary of the subject or a statement
@@ -854,6 +862,15 @@ def critic_failures(verdict: dict) -> list:
         failures.append(
             f"The critic found something hateful: {item} Cut it. This one is "
             "not a judgement call and it is not negotiable."
+        )
+
+    if verdict.get("nothing_new"):
+        failures.append(
+            "The critic can't find anything new in it: "
+            f"{verdict.get('nothing_new_because') or '(no reason given)'} "
+            "A summary is not a post. Find the connection nobody has drawn, "
+            "the agreed thing that is wrong, the exception nobody explains, "
+            "or the person nobody asked. Then write that instead."
         )
 
     if verdict.get("flat_open"):
@@ -1017,6 +1034,8 @@ from memory, and don't guess at one that looks right.
 - No em dash anywhere. Not one.
 - No "artefact", no "scarcity", no "scarce", in any form.
 - Doesn't end on a question mark.
+- Contains one thing a reader could not have got from a search. If you
+  can't say in a sentence what is new in it, start again.
 - Opens on a short surprising claim somebody could argue with, and the
   post earns it.
 - Has one sentence under five words, one real image, and one line that
