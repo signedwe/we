@@ -14,6 +14,10 @@ module.exports = function (eleventyConfig) {
   );
 
   return {
+    // The site lives in a subfolder on GitHub Pages, so every internal
+    // path needs this on the front of it. Templates go through the
+    // `url` filter; the plugin catches anything that doesn't.
+    pathPrefix: "/we/",
     dir: { input: "src", output: "_site", includes: "_includes" },
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
