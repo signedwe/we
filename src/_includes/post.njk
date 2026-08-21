@@ -20,9 +20,12 @@ layout: base.njk
   real words are used they are marked as real and linked.</p>
 
   {%- for v in voices %}
-  <div class="voice{% if v.kind == 'practitioner' %} voice-practitioner{% endif %}">
+  <div class="voice{% if v.kind == 'practitioner' %} voice-practitioner{% endif %}{% if v.kind == 'human' %} voice-human{% endif %}">
     <p class="voice-name">
-      {%- if v.kind == 'practitioner' %}
+      {%- if v.kind == 'human' %}
+      <strong>The human</strong>
+      <span class="voice-tag">invented by an AI, not a real reader</span>
+      {%- elif v.kind == 'practitioner' %}
       <strong>An imaginary {{ v.thinker }}</strong>
       <span class="voice-tag">invented by an AI, not a real practitioner and not anyone's account of the job</span>
       {%- else %}

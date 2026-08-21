@@ -175,6 +175,21 @@ article a { color: var(--ink); text-underline-offset: 0.15em; }
 }
 .voice-practitioner .voice-arg { font-size: 0.9375rem; color: var(--quiet); }
 
+/* The human gets the last word and the biggest type. It is the only voice
+   on the page allowed to say the post did not work. */
+.voice-human {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  border-left: none;
+  padding-left: 0;
+}
+.voice-human .voice-arg {
+  font-size: 1.1875rem;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
 /* Newer / older. Two doors out of a post that aren't the front page. */
 .postnav {
   display: grid;

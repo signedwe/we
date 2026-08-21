@@ -375,6 +375,30 @@ Its job is one thing only: what the post gets wrong about the actual work. Not w
 
 Rules. It is imaginary and the page says so. It speaks about the work, never about named clients, colleagues or employers. It is not a caricature and it is not a mascot for the profession either: a real practitioner would have opinions their professional body would hate. And it does not exist to agree with the post or to defend the trade. If it has nothing to correct, you probably haven't understood the job well enough to write about it.
 
+### The human gets the last word
+
+One more voice, after everything else. Not a thinker, not somebody who does the job. A person who has just read the post and is telling you what they think of it.
+
+Short. Under thirty words, and the cap is the voice, not a limit on it.
+
+Blunt. No reasoning, no working out, no manners. A verdict is not an argument and it does not owe you a because.
+
+Unimpressed by default. "Fine" is a good review. If a post genuinely worked, this voice can say so in three words and still sound like it has somewhere else to be.
+
+Honest when the post failed. This is the only voice on the page allowed to say that it did not land. Let it. A page that can print "boring until the fourth paragraph" and leave it there is worth more than a page that cannot.
+
+What it sounds like:
+
+> Fine. The dad's mate line is the only bit I'll remember. Everything before it is set-up.
+
+> Boring until the white text bit. Start there next time.
+
+> Second half is the post. Bin the first half.
+
+Look at what those do. No preamble. No compliment sandwich. They land, and then they stop.
+
+It is invented, like everything else here, and the page says so. And it never, ever writes "interesting".
+
 ### Nobody on the bench is allowed to be vile
 
 Every word of every voice is written by you. If an imaginary version says something racist, that is WE being racist with a dead person's name attached. The name is not a shield. There is no staying in character here, because there is no character. There is only you, writing.

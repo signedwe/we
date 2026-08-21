@@ -71,6 +71,7 @@ PROFESSIONS = (
     "editor", "librarian", "archivist", "social worker", "radiographer",
     "radiologist", "physiotherapist", "optometrist", "psychiatrist",
     "consultant", "clinician", "inspector", "examiner", "underwriter",
+    "recruiter", "actuary", "bookkeeper", "planner", "valuer",
 )
 
 # Phrases that stop a post dead to award the writer a medal for fairness.
@@ -413,9 +414,12 @@ def clean_voices(raw) -> list:
         # The template always prefixes "Imaginary". Strip it if WE wrote it
         # too, or the page says Imaginary Imaginary Karl Marx.
         thinker = re.sub(r"^(an?\s+)?imaginary\s+", "", thinker, flags=re.I)
-        kind = "practitioner" if str(v.get("kind") or "").strip().lower() == "practitioner" else "bench"
+        raw_kind = str(v.get("kind") or "").strip().lower()
+        kind = raw_kind if raw_kind in ("practitioner", "human") else "bench"
         if kind == "practitioner":
             thinker = thinker.lower()
+        if kind == "human":
+            thinker = "human"
         argument = str(v.get("argument") or "").strip()
         if not thinker or not argument:
             continue
@@ -429,7 +433,45 @@ def clean_voices(raw) -> list:
                 "quote_url": str(v.get("quote_url") or "").strip(),
             }
         )
+    # Bench argues, practitioner corrects, human delivers the verdict. In
+    # that order, always, because the verdict goes last.
+    rank = {"bench": 0, "practitioner": 1, "human": 2}
+    out.sort(key=lambda v: rank[v["kind"]])
     return out
+
+
+HUMAN_MAX_WORDS = 30
+POLITE = ("interesting", "thought-provoking", "well written", "good post",
+          "nice piece", "compelling", "insightful", "great read", "well argued")
+
+
+def check_human(voices: list) -> list:
+    """Somebody who has just read it, saying what they actually think."""
+    humans = [v for v in voices if v["kind"] == "human"]
+    if not humans:
+        return ["No human voice. Every post ends with one: a short flat "
+                "verdict from somebody who has just read it. Two sentences "
+                "at the outside. No reasoning, no manners."]
+    if len(humans) > 1:
+        return ["More than one human voice. There is one reader and they "
+                "speak once."]
+    said = humans[0]["argument"]
+    n = len(said.split())
+    failures = []
+    if n > HUMAN_MAX_WORDS:
+        failures.append(
+            f"The human runs to {n} words. The cap is {HUMAN_MAX_WORDS} and "
+            "the cap is the whole voice. If it needs a paragraph it is not a "
+            "verdict, it is another opinion, and the post already has plenty."
+        )
+    soft = [w for w in POLITE if w in said.lower()]
+    if soft:
+        failures.append(
+            "The human is being nice: " + ", ".join(f'"{w}"' for w in soft)
+            + ". This voice is not there to be encouraging. If the post is "
+            "good it can say so in three words and still sound unimpressed."
+        )
+    return failures
 
 
 def check_voices(voices: list, returned_urls: set) -> list:
@@ -454,7 +496,7 @@ def check_voices(voices: list, returned_urls: set) -> list:
         # The bench may never be ventriloquised: those were real people and
         # they did not say this. A practitioner is invented outright, says so
         # on the page, and the first person is the whole value of it.
-        if v.get("kind") != "practitioner" and re.search(
+        if v.get("kind") not in ("practitioner", "human") and re.search(
             r"\bI\b|\bmy\b|\bmine\b", v["argument"]
         ):
             failures.append(
@@ -464,7 +506,7 @@ def check_voices(voices: list, returned_urls: set) -> list:
             )
 
         surname = who.split()[-1]
-        m = None if v.get("kind") == "practitioner" else re.search(
+        m = None if v.get("kind") in ("practitioner", "human") else re.search(
             rf"\b{re.escape(surname)}\b", v["argument"], re.I
         )
         if m:
@@ -1078,6 +1120,8 @@ from memory, and don't guess at one that looks right.
 - Uses history as evidence, never as the subject.
 - Came from a vantage point somebody else isn't already standing at.
 - If it talks about a job, somebody who does that job answers back.
+- Ends with the human. Short, blunt, unimpressed, and honest even when
+  that means saying the post did not work.
 - Says whether the thesis moved, and if not, what would move it.
 - Doesn't open on a statistic. No price, percentage or count in the
   first sentence.
@@ -1112,7 +1156,9 @@ JSON, in one piece, no preamble, no markdown fences:
               "quote": "only real searched words, or empty",
               "quote_url": "the link a search returned, or empty"}},
              {{"kind": "practitioner", "thinker": "lawyer",
-              "argument": "a few sentences from somebody who does the job, on what the post gets wrong about it"}}],
+              "argument": "a few sentences from somebody who does the job, on what the post gets wrong about it"}},
+             {{"kind": "human",
+              "argument": "the verdict from somebody who just read it. under 30 words. blunt. no reasoning, no manners"}}],
   "agenda_update": "the complete new contents of agenda.md, in markdown"
 }}"""
 
@@ -1183,6 +1229,7 @@ def main() -> int:
         failures = check_post(post["body"], published)
         failures += check_voices(voices, {s["url"] for s in searched})
         failures += check_practitioner(post["body"], voices)
+        failures += check_human(voices)
         failures += check_prediction(post.get("prediction"))
         failures += check_thesis_update(post.get("thesis_update"))
 
