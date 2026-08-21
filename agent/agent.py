@@ -373,7 +373,9 @@ def check_voices(voices: list, returned_urls: set) -> list:
         surname = who.split()[-1]
         m = re.search(rf"\b{re.escape(surname)}\b", v["argument"], re.I)
         if m:
-            lead = v["argument"][max(0, m.start() - 12) : m.start()].lower()
+            # Wide enough to see "Imaginary" in front of a two-word surname
+            # like Spärck Jones or de Beauvoir.
+            lead = v["argument"][max(0, m.start() - 30) : m.start()].lower()
             if "imaginary" not in lead:
                 failures.append(
                     f"The {who} voice names {surname} without calling him or "
