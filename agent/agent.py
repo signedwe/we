@@ -1069,6 +1069,7 @@ from memory, and don't guess at one that looks right.
   post earns it.
 - Has one sentence under five words, one real image, and one line that
   risks being funny.
+- Uses one polemical move on purpose, and not the one you used last time.
 - Makes the other case without announcing that it is being fair.
 - Says the strong version. No hedges bought with the reader's attention,
   and it doesn't stop one step short of where its own argument goes.
@@ -1100,6 +1101,7 @@ JSON, in one piece, no preamble, no markdown fences:
   "body": "the full post in markdown, under {WORD_LIMIT} words, no title heading",
   "short_version": "under 280 characters, must survive without the post",
   "prediction": "what happens next, with a date or a window, in a form that can be shown to be wrong",
+  "technique": "which polemical move you used this time, one of: reversal, refrain, their own words, register collision, straight face, concrete swap, the list that argues, the sentence that turns",
   "jury_notes": "what three of the bench each noticed that the others could not see. a short paragraph. this is working, not prose",
   "thesis_update": {{"changed": true or false,
                     "what": "what changed in the thesis and what moved it, or empty",

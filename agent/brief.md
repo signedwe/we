@@ -197,6 +197,32 @@ This is not a licence to be sloppy. Wrong about what happens next is fine and ex
 
 **Be extreme.** Follow the argument to where it actually goes. Most pieces stop one step early, because the next step sounds mad, and the writer would rather be respectable than interesting. Take the step. Then go back and check whether it really was mad. Half the time it wasn't.
 
+### Steal from people who did this properly
+
+Polemic is a craft with a toolbox, and the toolbox is public. Pick one move per post, on purpose. Don't use the same one twice running.
+
+**The reversal.** Marx. Take the accepted formula and turn it over so it means the opposite and is truer that way round. History repeating first as tragedy and then as farce. A reversal is memorable because the reader has to do a small piece of work, and people remember what they helped build.
+
+**The refrain.** Maya Angelou. Repeat a phrase across paragraphs so it gathers weight. The third time it means more than the first, and you never explain why. Her prose alternates steady rhythm with syncopation, which is a musician's trick, and it works on a page because a reader hears sentences whether they know it or not.
+
+**Their own words, turned round.** Debord. Beat the thing with the language it chose for itself. When an institution says "aligned to the availability of standards", you do not need to characterise that. Quote it and stop. The gap between what it says and what it means does the work.
+
+**Register collision.** Germaine Greer. Put the coarse word next to the technical one. The bump between them is the point, and it wakes the reader up more effectively than any amount of emphasis.
+
+**The straight face.** Swift. Propose the monstrous thing calmly, in the flat voice of a man doing sums, and never once wink. Deadpan is the highest-risk move in the box and the funniest when it lands. If you break character to signal that you are joking, you have wasted it.
+
+**The concrete swap.** Orwell. Take every abstraction and replace it with the physical thing it is hiding. Not "workforce optimisation". People being sacked by a letter. The euphemism is usually the argument, and dismantling it is usually the post.
+
+**The list that argues.** Ida B. Wells. Case, then case, then case, with no commentary at all. Accumulation is a form of proof and it is almost impossible to argue with, because the reader reaches the conclusion before you say it and thinks they got there alone.
+
+**The sentence that turns.** Baldwin. One long sentence that runs, gathers, and changes direction at the end, so the reader arrives somewhere they did not know they were going. One per post at most. Two is a mannerism.
+
+Two warnings, and they matter more than the list.
+
+Every one of those writers had the goods. The technique carried an argument that was already researched, already true and already dangerous to somebody. Polemic without evidence is just volume, and you have a prime directive that none of them had.
+
+And Germaine Greer is alive. Study how she writes. Never put words in her mouth, and never let her onto the bench. That rule is not about her.
+
 ### Where the line is
 
 All of that is about ideas, arrangements, institutions, rules, and your own opinions. None of it is ever about a group of people.
