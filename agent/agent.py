@@ -125,6 +125,15 @@ DEAD_IMAGES = (
     "at a crossroads", "the elephant in the room", "moving the goalposts",
 )
 
+# Answers to "who does this happen to" that are not answers.
+NOBODIES = (
+    "society", "everyone", "people", "the public", "stakeholders",
+    "the industry", "policymakers", "policy makers", "observers",
+    "commentators", "the debate", "the sector", "organisations",
+    "businesses", "the economy", "users", "consumers", "citizens",
+    "the country", "we all", "all of us", "many", "some people",
+)
+
 # Libel guard. An accusing word in the same sentence as a name is the shape
 # of a claim about a person, and the person who runs WE carries the legal
 # risk for it. Deliberately crude: it over-triggers, and a false alarm costs
@@ -690,6 +699,47 @@ def check_specificity(body: str) -> list:
     ]
 
 
+def check_stakes(stakes) -> list:
+    """Who cares. If you cannot answer it, do not write the post."""
+    if not isinstance(stakes, dict):
+        return ["No stakes. Before anything else: who does this happen to, "
+                "what does it cost them, and why this week. If you cannot "
+                "answer all three, the post has no reason to exist and no "
+                "amount of good writing will give it one."]
+    who = str(stakes.get("who") or "").strip()
+    cost = str(stakes.get("cost") or "").strip()
+    now = str(stakes.get("why_now") or "").strip()
+    failures = []
+
+    if not who:
+        failures.append("Nobody is named as affected.")
+    else:
+        low = who.lower()
+        vague = [n for n in NOBODIES if re.search(rf"\b{re.escape(n)}\b", low)]
+        if vague and len(who.split()) < 12:
+            failures.append(
+                f'"{who}" is not a person this happens to. '
+                + ", ".join(f'"{v}"' for v in vague)
+                + " names nobody. Say who: the graduate applying for a job "
+                "she will not get, the developer holding a connection he "
+                "cannot use. A named kind of person in a describable "
+                "situation."
+            )
+    if not cost:
+        failures.append(
+            "You have not said what it costs them. Money, time, a job, a "
+            "choice they used to have. If the answer is that it costs them "
+            "nothing, nobody cares, and they are right not to."
+        )
+    if not now:
+        failures.append(
+            "You have not said why this week. Something changed, or somebody "
+            "decided, or a number crossed a line. Without that this is an "
+            "essay about a condition, and conditions have no readers."
+        )
+    return failures
+
+
 def check_recognition(recognition: str, body: str) -> list:
     """The thing everyone has half-noticed and nobody has written down."""
     said = (recognition or "").strip()
@@ -1105,6 +1155,8 @@ VOICES:
 
 Judge it on the things a regex cannot see.
 
+First, before anything about the writing. Who cares? Name the person this happens to and what it costs them. If the honest answer is that it matters to people who follow this subject professionally, the post has no reason to exist and you should say so, however well made it is. Good writing about nothing is still nothing.
+
 Is it dull? Not imperfect, dull. Would anyone who is not paid to be here reach the end. Reserve dull for a piece with no reason to exist, and if that is the honest answer, say it.
 
 Then look specifically for the things that make prose lifeless even when the argument is good. Is there a single real image anywhere, or is it abstract nouns end to end. Is there one line that is actually funny. Does the writer appear to want anything, or is the whole thing delivered at the same polite temperature from start to finish. Say which of these is missing, by name.
@@ -1368,6 +1420,8 @@ from memory, and don't guess at one that looks right.
 - No em dash anywhere. Not one.
 - No "artefact", no "scarcity", no "scarce", in any form.
 - Doesn't end on a question mark.
+- Answers who cares. A person it happens to, what it costs them, and
+  why this week. If you cannot, do not write it.
 - Contains one thing a reader could not have got from a search. If you
   can't say in a sentence what is new in it, start again.
 - Works out one number that is in none of your sources, shows the sum,
@@ -1427,6 +1481,9 @@ JSON, in one piece, no preamble, no markdown fences:
   "derived_number": {{"figure": "one number that appears in none of your sources, worked out from ones that do",
                      "working": "the arithmetic, shown, from which published figures",
                      "sources": ["the urls the input numbers came from"]}},
+  "stakes": {{"who": "the kind of person this happens to, in a describable situation. not society, not the industry",
+             "cost": "what it costs them. money, time, a job, a choice they used to have",
+             "why_now": "what changed, who decided, or which number crossed a line, this week rather than any other"}},
   "recognition": "the thing readers have already half-noticed about this and never seen written down, in one plain sentence",
   "refutation": {{"searched": "the query you ran to find the strongest case that you are wrong",
                  "found": "the best counter-evidence it returned, or empty if it came back with nothing",
@@ -1524,6 +1581,7 @@ def main() -> int:
         failures += check_refutation(post.get("refutation"))
         failures += check_specificity(post["body"])
         failures += check_recognition(post.get("recognition"), post["body"])
+        failures += check_stakes(post.get("stakes"))
         failures += check_thesis_update(post.get("thesis_update"))
 
         # Only worth paying for a critic once the cheap checks are clean.

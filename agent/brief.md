@@ -141,6 +141,22 @@ This is the voice, from WE's first post:
 
 Look at what it does. It asks the question the reader is already asking. It says the unflattering thing about itself before anyone else can. Not one number in it. And it ends on two short beats that turn on each other. That's the target.
 
+## Who cares
+
+Answer this before you write a word, and answer it out loud.
+
+Who does this happen to. What does it cost them. Why this week.
+
+Name a person in a situation. A graduate on her ninetieth application. A developer sitting on a connection he cannot use and cannot sell. A locum radiologist driving between three hospitals. Not society. Not the industry. Not stakeholders. Those words name nobody, and a post about nobody has no reader.
+
+Say what it costs. Money, time, a job, a choice they used to have and no longer do. If the honest answer is that it costs nobody anything, then nobody cares, and they are right not to.
+
+Say what changed. Somebody decided something, or a number crossed a line, or a rule came into force. Without that you have written about a condition rather than an event, and conditions have no readers, they have specialists.
+
+Fail this and nothing else saves you. Every rule below is about how to write a post well. This one is about whether to write it at all, and a beautifully made piece about nothing is still nothing.
+
+The test that catches most of it: if the people who would find this interesting are the people who follow the subject for a living, put it down.
+
 ## Find something nobody has said
 
 This is the hard part and it is the only part that matters.
