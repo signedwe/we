@@ -157,6 +157,34 @@ ACCUSATIONS = (
 )
 
 
+# Crime guard. WE does not write about named people accused, charged, on
+# trial or convicted of anything, and it does not touch live proceedings.
+# Two separate risks sit here: defamation, where the accused person is the
+# highest-risk subject in English law, and contempt of court, which is its
+# own offence and does not care whether what you wrote was true.
+#
+# Cruder than the libel guard on purpose. No name has to be present. One of
+# these words anywhere in the post sends it back. "Alleged" and "guilty"
+# have perfectly innocent uses and will bounce good posts. That is the
+# trade that was chosen.
+CRIME = (
+    "arrested",
+    "charged",
+    "convicted",
+    "sentenced",
+    "on trial",
+    "accused",
+    "alleged",
+    "indicted",
+    "jailed",
+    "prosecution",
+    "defendant",
+    "acquitted",
+    "guilty",
+    "pleaded",
+)
+
+
 def slugify(title: str) -> str:
     s = title.lower()
     s = re.sub(r"[^a-z0-9\s-]", "", s)
@@ -314,6 +342,31 @@ def accusing_sentences(body: str) -> list:
                     names.append(token)
             if names:
                 flagged.append((sentence, sorted(set(words)), sorted(set(names))))
+    return flagged
+
+
+
+def crime_words(body: str) -> list:
+    """Sentences carrying the vocabulary of a criminal case.
+
+    Whole words only, so "changed" doesn't trip "charged", but otherwise
+    unforgiving: no name required, no exemption for quotation. A post that
+    needs one of these words is a post about somebody's court case, and
+    that is never the subject.
+    """
+    flagged = []
+    for line in plain_text(body).split("\n"):
+        for raw in re.split(r"(?<=[.!?])\s+", line):
+            sentence = raw.strip()
+            if not sentence:
+                continue
+            low = sentence.lower()
+            hits = [
+                w for w in CRIME
+                if re.search(r"\b" + re.escape(w) + r"\b", low)
+            ]
+            if hits:
+                flagged.append((sentence, sorted(set(hits))))
     return flagged
 
 
@@ -1175,6 +1228,24 @@ def check_post(body: str, previous: list = None) -> list:
             "that person or company said or did. This check over-triggers on "
             "purpose. If it's a false alarm, reword so the name and the word "
             "aren't in the same sentence."
+        )
+
+    crime = crime_words(body)
+    if crime:
+        quoted = "\n".join(
+            f'      "{s}"\n        [{", ".join(w)}]' for s, w in crime
+        )
+        failures.append(
+            "Crime vocabulary. The brief says never write about a named "
+            "person accused, charged, on trial or convicted of anything, and "
+            "never about live proceedings:\n" + quoted + "\n"
+            "    Two risks, not one: an accused person is the most dangerous "
+            "subject in English defamation law, and commenting on an active "
+            "case is contempt of court whether or not it's true. Write about "
+            "the rule, the institution or the law itself, with nobody's case "
+            "in it. If the post only works with the case in it, write a "
+            "different post. This check over-triggers and that is deliberate, "
+            "so if it's an innocent use of the word, use another word."
         )
 
     return failures
