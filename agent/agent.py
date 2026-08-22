@@ -39,6 +39,13 @@ PREDICTIONS = ROOT / "agent" / "predictions.json"
 # WE's developing account of what is happening. Rewritten by WE each run,
 # but only by adding to the top: the old versions stay underneath.
 THESIS = ROOT / "agent" / "thesis.md"
+# Posts stopped by the defamation gate. Never committed, never built,
+# never announced. Deliberately outside git: a public repository is
+# publication in English law, so a draft held for a reputation risk must
+# not be pushed to one. On a CI runner this directory dies with the
+# runner and only the reasons reach the run summary. Run the agent
+# locally and the draft survives here for a human to read.
+HELD = ROOT / "agent" / "held"
 
 MODEL = "claude-sonnet-4-6"
 SITE = "https://signedwe.github.io/we"
@@ -1251,6 +1258,114 @@ def check_post(body: str, previous: list = None) -> list:
     return failures
 
 
+# The three questions from the brief's defamation rules, answered by the
+# writer about its own post. Anything that is not a flat "no" stops the
+# post. Absent or unreadable counts as a yes: a gate that fails open is
+# not a gate.
+GATE_QUESTIONS = {
+    "damaging_claim": (
+        "Could an identifiable living person or organisation reasonably say "
+        "this post makes a factual claim that seriously harms their "
+        "reputation?"
+    ),
+    "repeats_allegation": (
+        "Does the post repeat, restate or rest on an allegation anyone has "
+        "made about an identifiable person or organisation?"
+    ),
+    "private_material": (
+        "Does the post rely on leaked, private or confidential material?"
+    ),
+}
+
+
+def check_reputation_gate(gate) -> list:
+    """The writer's own answers to the three gate questions."""
+    if not isinstance(gate, dict):
+        return [
+            "No reputation_gate in the reply. The brief requires the three "
+            "defamation questions answered before anything publishes, and a "
+            "missing answer is treated as a yes. Answer all three."
+        ]
+    failures = []
+    for key, question in GATE_QUESTIONS.items():
+        answer = str(gate.get(key, "")).strip().lower()
+        if answer == "no":
+            continue
+        if answer not in ("yes", "maybe", "uncertain", ""):
+            answer = f'unreadable ("{answer}")'
+        failures.append(
+            f"Reputation gate, {key}: {answer or 'unanswered'}. {question} "
+            "The brief says yes, maybe or uncertain all stop the post. "
+            "Rewrite it so the honest answer is no. Criticise the rule, the "
+            "law or the institution, and take the identifiable person or "
+            "company out of it. If the post only works with them in it, it "
+            "is the wrong post."
+        )
+    return failures
+
+
+def legal_risk(body: str, gate_failures: list) -> list:
+    """What must never publish without a person reading it first.
+
+    Separate from the ordinary brief failures on purpose. Those publish
+    anyway after two rewrites, loudly, because an unedited miss is honest.
+    A defamation risk is not a miss. It is the one thing a rewrite loop is
+    not allowed to wave through.
+    """
+    reasons = list(gate_failures)
+    for sentence, words, names in accusing_sentences(body):
+        reasons.append(
+            f'Accusing word next to a name: "{sentence}" '
+            f'[{", ".join(words)} + {", ".join(names)}]'
+        )
+    for sentence, words in crime_words(body):
+        reasons.append(f'Crime vocabulary: "{sentence}" [{", ".join(words)}]')
+    return reasons
+
+
+def hold(post: dict, reasons: list, date: str, slug: str) -> None:
+    """Stop the post and put it where only a human can pick it up."""
+    HELD.mkdir(parents=True, exist_ok=True)
+    path = HELD / f"{date}-{slug}.md"
+    path.write_text(
+        f"# HELD FOR HUMAN REVIEW: {post['title']}\n\n"
+        + "\n".join(f"- {r}" for r in reasons)
+        + "\n\n---\n\n"
+        + post["body"].strip()
+        + "\n",
+        encoding="utf-8",
+    )
+    print("!" * 60)
+    print("HELD. NOT PUBLISHED. NEEDS A HUMAN.")
+    print(f"  title: {post['title']}")
+    for r in reasons:
+        print(f"  - {r}")
+    print(f"  draft: {path}")
+    print("!" * 60)
+
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        lines = [
+            f"### WE held `{date}-{slug}` for human review",
+            "",
+            "Nothing was published, committed or announced. The draft is not "
+            "in this repository: a public repo is publication, so a post "
+            "stopped for a reputation risk does not go into one.",
+            "",
+        ]
+        lines += [f"- {r}" for r in reasons]
+        with open(summary, "a", encoding="utf-8") as fh:
+            fh.write("\n".join(lines) + "\n")
+
+
+def set_output(held: bool) -> None:
+    """Tell the workflow whether anything was published this run."""
+    out = os.environ.get("GITHUB_OUTPUT")
+    if out:
+        with open(out, "a", encoding="utf-8") as fh:
+            fh.write(f"held={'true' if held else 'false'}\n")
+
+
 def rewrite_request(failures: list, sources: list) -> str:
     """Hand the failures back and ask for the post again."""
     listed = "\n".join(f"{i}. {f}" for i, f in enumerate(failures, 1))
@@ -1692,6 +1807,17 @@ from memory, and don't guess at one that looks right.
 - No accusing word anywhere near a named person or company. Attack the
   rule, never whoever benefits from it. This one is a legal matter, not a
   style note.
+- Answers the three defamation questions honestly in reputation_gate.
+  Anything other than no on all three stops the post dead. It does not
+  publish with a warning attached, the way a missed brief rule does. It
+  goes to a person and waits. Guessing no to get past the gate is the
+  worst thing you could do here, because the gate is the only thing
+  standing between this site and somebody's solicitor.
+- No named person accused, charged, arrested, on trial or convicted of
+  anything, and nothing about a live case, inquiry or investigation into
+  a named individual. Not even one everybody is already discussing.
+- Never states an allegation as fact. If the source says someone alleged
+  it, the post says someone alleged it, and says who.
 - Nothing racist, misogynistic or hateful about any group, anywhere in
   the post or in any voice. An imaginary thinker saying it is you saying
   it with a dead person's name on it. No code checks this one. You do.
@@ -1727,6 +1853,11 @@ JSON, in one piece, no preamble, no markdown fences:
   "thesis_update": {{"changed": true or false,
                     "what": "what changed in the thesis and what moved it, or empty",
                     "would_change_it": "if nothing changed, what evidence would"}},
+  "reputation_gate": {{"identifiable": "every living person or organisation a reader could work out from this post, named or not. empty if none",
+                      "damaging_claim": "yes, maybe or no. could any of them reasonably say this post makes a factual claim that seriously harms their reputation",
+                      "repeats_allegation": "yes, maybe or no. does the post repeat, restate or rest on an allegation anyone has made about an identifiable person or organisation",
+                      "private_material": "yes, maybe or no. does the post rely on leaked, private or confidential material",
+                      "why": "one line on the riskiest sentence in the post and why it is or is not safe"}},
   "sources": [{{"title": "what it is", "url": "https://..."}}],
   "voices": [{{"thinker": "Karl Marx", "kind": "bench", "lived": "1818 to 1883",
               "argument": "how the argument runs, in your words, no quote marks, never first person",
@@ -1803,7 +1934,9 @@ def main() -> int:
         merge_sources(searched, harvest_sources(resp))
         post = extract_json(text_blocks(resp))
         voices = clean_voices(post.get("voices"))
+        gate_failures = check_reputation_gate(post.get("reputation_gate"))
         failures = check_post(post["body"], published)
+        failures += gate_failures
         failures += check_voices(voices, {s["url"] for s in searched})
         failures += check_practitioner(post["body"], voices)
         failures += check_prediction(post.get("prediction"))
@@ -1867,6 +2000,16 @@ def main() -> int:
     slug = slugify(post["title"])
     path = POSTS / f"{date}-{slug}.md"
 
+    # The gate. Everything above this line can be rewritten and published
+    # with its failures showing. Nothing below it happens if a reputation
+    # risk survived the rewrites: no post, no agenda update, no prediction
+    # recorded, no announcement. A person reads it or it does not exist.
+    risks = legal_risk(post["body"], gate_failures)
+    if risks:
+        hold(post, risks, date, slug)
+        set_output(held=True)
+        return 0
+
     # Front matter, then the body exactly as the model wrote it. No edits.
     path.write_text(
         front_matter(post["title"], now, sources, voices)
@@ -1920,6 +2063,7 @@ def main() -> int:
     # before the commit step and the post would never publish, which isn't
     # what "save it anyway" means. So flag it where it can still be seen.
     flag_in_ci(failures, unverified, path)
+    set_output(held=False)
     return 0
 
 

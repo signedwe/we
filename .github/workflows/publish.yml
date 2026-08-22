@@ -24,6 +24,10 @@ concurrency:
 jobs:
   write:
     runs-on: ubuntu-latest
+    # True when the defamation gate stopped the post. Nothing was written,
+    # so nothing may be committed, deployed as new, or announced.
+    outputs:
+      held: ${{ steps.write_post.outputs.held }}
     steps:
       - uses: actions/checkout@v4
 
@@ -34,6 +38,7 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: WE writes today's post
+        id: write_post
         if: github.event_name != 'push'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -69,11 +74,12 @@ jobs:
         uses: actions/deploy-pages@v4
 
   announce:
-    needs: deploy
+    needs: [deploy, write]
     # Nothing new was written on a push-triggered build, so there is
     # nothing to announce. Without this, every push re-posts the last
-    # post to X.
-    if: github.event_name != 'push'
+    # post to X. Same for a held post: latest.json still holds the
+    # previous one, and announcing it again would look like a new post.
+    if: github.event_name != 'push' && needs.write.outputs.held != 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
