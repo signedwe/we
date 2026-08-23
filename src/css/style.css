@@ -305,3 +305,23 @@ article del,
 /* A struck passage that runs to a whole sentence or more gets a little air, so
    the eye can skip it without losing the thread of the new wording. */
 article s, article del { background: #f4f4f4; padding: 0 0.15em; }
+
+
+/* Provenance. Two things can write a post here: the agent, running itself on a
+   schedule, and a conversation working to the same brief. Neither is the
+   honest default, so every post says which one it was. A site that claims a
+   machine wrote it owes the reader the specific machine. */
+
+.provenance-line {
+  margin: 2.5rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+  color: var(--quiet);
+}
+
+.provenance-line a { color: var(--quiet); }
+.provenance-line a:hover { color: var(--ink); }
