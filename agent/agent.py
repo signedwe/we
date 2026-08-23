@@ -32,6 +32,10 @@ LATEST = ROOT / "agent" / "latest.json"
 # What the critic said, run after run. WE reads this file and cannot write
 # to it. The agenda is WE's account of itself; this is somebody else's.
 CRITIC = ROOT / "agent" / "critic.md"
+# What the person running WE has said about the work, kept from run to run.
+# The human voice on a post dies with that post. This does not. WE reads it
+# every run and cannot edit it, same as the critic.
+NOTES = ROOT / "agent" / "notes.md"
 # Every prediction WE has made, with the date it comes due. Nothing scores
 # them yet. The point for now is that they exist somewhere they cannot be
 # quietly forgotten.
@@ -53,6 +57,11 @@ ABOUT_MARK = "<!-- revisions -->"
 HELD = ROOT / "agent" / "held"
 
 MODEL = "claude-sonnet-4-6"
+# 8000 was not enough. The model narrates through its searches before it
+# writes anything, and a run that thinks hard about a hard post hits the
+# ceiling mid-sentence and returns no JSON at all. Nothing is salvageable
+# when that happens, so the ceiling should sit well above the worst case.
+MAX_TOKENS = 16000
 SITE = "https://signedwe.github.io/we"
 
 # Server-side web search. The API runs the searches itself inside the one
@@ -1700,6 +1709,16 @@ def critic_notes() -> str:
     return CRITIC.read_text(encoding="utf-8").strip() or "(no critic notes yet)"
 
 
+def operator_notes() -> str:
+    """Everything below the file's own header. The prompt supplies the framing,
+    so the file's title would only say it twice."""
+    if not NOTES.exists():
+        return "(nothing said yet)"
+    text = NOTES.read_text(encoding="utf-8")
+    _, sep, body = text.partition("\n---\n")
+    return (body if sep else text).strip() or "(nothing said yet)"
+
+
 TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 
@@ -1723,6 +1742,19 @@ This file is written by a reader that did not write the posts. You cannot
 edit it. Read it before you start.
 
 {critic_notes()}
+
+---
+
+## What the person running WE has said
+
+Standing notes from whoever points this thing. Not a brief and not a style
+guide: judgements made after reading posts that had already gone out. They
+outrank your own instincts where the two disagree, because they come from
+somebody who read the work cold and had nothing to defend.
+
+You cannot edit this file.
+
+{operator_notes()}
 
 ---
 
@@ -1963,7 +1995,30 @@ def front_matter(title: str, now: datetime, sources: list, voices: list) -> str:
     return "\n".join(lines) + "\n"
 
 
+# Set by --draft. A draft run writes the post and nothing else: no agenda
+# rewrite, no thesis revision, no bet recorded, no About revision. Iterating
+# on a post should not leave five thesis versions and five bets behind.
+DRAFT = "--draft" in sys.argv
+
+
+def load_env() -> None:
+    """Read .env if the key is not already in the environment. Gitignored, so
+    it stays on this machine. Nothing here is printed, logged or committed."""
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        return
+    path = ROOT / ".env"
+    if not path.exists():
+        return
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, value = line.partition("=")
+        os.environ.setdefault(key.strip(), value.strip().strip("\"'"))
+
+
 def main() -> int:
+    load_env()
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
     messages = [{"role": "user", "content": build_prompt()}]
@@ -1978,7 +2033,7 @@ def main() -> int:
     for attempt in range(MAX_RETRIES + 1):
         resp = client.messages.create(
             model=MODEL,
-            max_tokens=8000,
+            max_tokens=MAX_TOKENS,
             tools=TOOLS,
             messages=messages,
         )
@@ -2052,7 +2107,9 @@ def main() -> int:
     now = datetime.now(timezone.utc)
     date = now.strftime("%Y-%m-%d")
     slug = slugify(post["title"])
-    path = POSTS / f"{date}-{slug}.md"
+    # A draft goes to one fixed file that the next draft overwrites, so
+    # iterating on a post cannot litter the posts directory with attempts.
+    path = (ROOT / "agent" / "draft.md") if DRAFT else POSTS / f"{date}-{slug}.md"
 
     # The gate. Everything above this line can be rewritten and published
     # with its failures showing. Nothing below it happens if a reputation
@@ -2073,27 +2130,38 @@ def main() -> int:
         encoding="utf-8",
     )
 
-    AGENDA.write_text(post["agenda_update"].strip() + "\n", encoding="utf-8")
+    if not DRAFT:
+        AGENDA.write_text(post["agenda_update"].strip() + "\n", encoding="utf-8")
 
-    LATEST.write_text(
-        json.dumps(
-            {
-                "title": post["title"],
-                "short_version": post["short_version"][:280],
-                "url": f"{SITE}/posts/{date}-{slug}/",
-            },
-            indent=2,
-        ),
-        encoding="utf-8",
-    )
+    # Never in a draft run. latest.json is what the announce step reads, and
+    # pointing it at a post that was never published would tweet a 404.
+    if not DRAFT:
+        LATEST.write_text(
+            json.dumps(
+                {
+                    "title": post["title"],
+                    "short_version": post["short_version"][:280],
+                    "url": f"{SITE}/posts/{date}-{slug}/",
+                },
+                indent=2,
+            ),
+            encoding="utf-8",
+        )
+    else:
+        short = post["short_version"].strip()
+        print(f"\n--- the post it would tweet, {len(short)} of 280 ---\n{short}\n")
 
     if verdict:
         record_critique(verdict, post["title"], date)
-    apply_verdicts(post.get("verdicts"), date)
-    record_prediction(post.get("prediction", ""), post.get("prediction_due", ""),
-                      post["title"], date, f"{SITE}/posts/{date}-{slug}/")
-    record_thesis(post.get("thesis_update"), date, post["title"])
-    record_about(post.get("about_update"), date, post["title"])
+    if not DRAFT:
+        apply_verdicts(post.get("verdicts"), date)
+        record_prediction(post.get("prediction", ""), post.get("prediction_due", ""),
+                          post["title"], date, f"{SITE}/posts/{date}-{slug}/")
+        record_thesis(post.get("thesis_update"), date, post["title"])
+        record_about(post.get("about_update"), date, post["title"])
+    else:
+        print(f"\nDRAFT RUN. Post written to {path}.")
+        print("Agenda, thesis, About, bets and verdicts left untouched.")
 
     print(f"Wrote {path.name} ({searches} searches, {len(sources)} sources cited)")
     if verdict.get("unanswered"):
