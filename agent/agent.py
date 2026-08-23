@@ -39,6 +39,11 @@ PREDICTIONS = ROOT / "agent" / "predictions.json"
 # WE's developing account of what is happening. Rewritten by WE each run,
 # but only by adding to the top: the old versions stay underneath.
 THESIS = ROOT / "agent" / "thesis.md"
+# How the site describes itself. Same rule as the thesis: WE revises it by
+# adding to the top, and every version it has given stays underneath. A
+# description that can be quietly rewritten is not a promise, it is a mood.
+ABOUT = ROOT / "src" / "about.md"
+ABOUT_MARK = "<!-- revisions -->"
 # Posts stopped by the defamation gate. Never committed, never built,
 # never announced. Deliberately outside git: a public repository is
 # publication in English law, so a draft held for a reputation risk must
@@ -1019,6 +1024,27 @@ def record_thesis(update, date: str, title: str) -> None:
     THESIS.write_text(head + entry + "\n---\n" + rest, encoding="utf-8")
 
 
+def record_about(update, date: str, title: str) -> None:
+    """Add to the top of the About page. Never overwrite what's underneath.
+    Changing your mind in public only counts if what you changed from is
+    still there to be read."""
+    if not isinstance(update, dict) or not update.get("changed"):
+        return
+    text = str(update.get("what") or "").strip()
+    if not text:
+        return
+    existing = ABOUT.read_text(encoding="utf-8") if ABOUT.exists() else ""
+    if ABOUT_MARK not in existing:
+        return
+    head, _, rest = existing.partition(ABOUT_MARK)
+    why = str(update.get("why") or "").strip()
+    entry = f"\n\n## Revised {date}, after \"{title}\"\n\n"
+    if why:
+        entry += f"*What moved it: {why}*\n\n"
+    entry += text.strip() + "\n\n---\n"
+    ABOUT.write_text(head + ABOUT_MARK + entry + rest, encoding="utf-8")
+
+
 def record_prediction(prediction: str, due: str, title: str, date: str, url: str) -> None:
     rows = load_predictions()
     rows.insert(0, {
@@ -1637,6 +1663,14 @@ def current_thesis() -> str:
     return THESIS.read_text(encoding="utf-8").strip()
 
 
+def current_about() -> str:
+    if not ABOUT.exists():
+        return "(no about page)"
+    text = ABOUT.read_text(encoding="utf-8")
+    _, _, body = text.partition(ABOUT_MARK)
+    return (body or text).strip()
+
+
 def past_predictions() -> str:
     rows = load_predictions()
     if not rows:
@@ -1695,6 +1729,21 @@ edit it. Read it before you start.
 ## Your thesis as it currently stands
 
 {current_thesis()}
+
+---
+
+## How the site describes itself
+
+This is the About page. It was written on 21 August, before the bench, the
+critic, the bets and the scoreboard existed, so it describes a smaller
+project than the one now running. Anyone arriving from anywhere else reads
+it before they read a post.
+
+If it no longer describes what WE does, rewrite it. Same rule as the thesis:
+the new version goes on top, the old one stays underneath, and you say what
+moved it. Describe the thing as it actually works. Do not sell it.
+
+{current_about()}
 
 ---
 
@@ -1800,6 +1849,8 @@ from memory, and don't guess at one that looks right.
   it afterwards, and you will be asked to fix whatever they object to
   before it is published.
 - Says whether the thesis moved, and if not, what would move it.
+- Says whether the About page still describes this project honestly, and
+  rewrites it if it does not. The version it replaces stays underneath.
 - Doesn't open on a statistic. No price, percentage or count in the
   first sentence.
 - Doesn't reuse an opening move or a turn of phrase from an earlier
@@ -1867,6 +1918,9 @@ JSON, in one piece, no preamble, no markdown fences:
               "argument": "a few sentences from somebody who does the job, on what the post gets wrong about it"}},
              ],
   (a human voice is added afterwards by a reader who did not write the post: do not write one yourself)
+  "about_update": {{"changed": true or false,
+                   "what": "the complete new description of the site in markdown, headings and all, or empty",
+                   "why": "what changed about the project that made the old description wrong"}},
   "agenda_update": "the complete new contents of agenda.md, in markdown"
 }}"""
 
@@ -2039,6 +2093,7 @@ def main() -> int:
     record_prediction(post.get("prediction", ""), post.get("prediction_due", ""),
                       post["title"], date, f"{SITE}/posts/{date}-{slug}/")
     record_thesis(post.get("thesis_update"), date, post["title"])
+    record_about(post.get("about_update"), date, post["title"])
 
     print(f"Wrote {path.name} ({searches} searches, {len(sources)} sources cited)")
     if verdict.get("unanswered"):
