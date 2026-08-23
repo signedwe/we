@@ -7,3 +7,4 @@ __pycache__/
 *.pem
 agent/held/
 agent/draft.md
+fix-paste.bat
