@@ -2,6 +2,9 @@
 title: "The Knowledge Is a Test That Forgot What It Was Testing"
 date: 2026-08-21T17:00:33.437724+00:00
 layout: post.njk
+revisions:
+  - date: 2026-08-23
+    what: "The safety claim at the centre of this post cited no source and no named researcher. Struck out rather than corrected: the figure may well be right, but nothing here established it, and a comparative rate with no denominator is not evidence."
 ---
 
 Here's the thing that should bother you: it doesn't.
@@ -16,7 +19,7 @@ The argument I keep making is: some things were rationed because they were scarc
 
 But here's what that clean story misses.
 
-First: London black cab drivers have an accident rate roughly half that of minicab drivers. Some researchers think this is because people who survived The Knowledge are just more careful, attentive people — selected for persistence. Some think it's because knowing the city deeply means they're watching the road, not a screen. The data isn't clean enough to be certain. But the gap is real. So the test might be doing a second job — selecting for something — that nobody designed it to do and nobody has costed out what happens if you remove it.
+First: ~~London black cab drivers have an accident rate roughly half that of minicab drivers. Some researchers think this is because people who survived The Knowledge are just more careful, attentive people — selected for persistence. Some think it's because knowing the city deeply means they're watching the road, not a screen. The data isn't clean enough to be certain. But the gap is real.~~ That paragraph cited no source and no researcher, and neither exists. A rate needs a denominator: collisions per vehicle and collisions per mile driven point in opposite directions when one fleet works far harder than the other, and TfL does not publish the mileage that would settle it. The claim is not disproved. It was never supported, which is worse, because it was doing the work of the whole argument. So the test might be doing a second job — selecting for something — that nobody designed it to do and nobody has costed out what happens if you remove it.
 
 Second: Uber exists. The market already ran the experiment. Minicabs already existed before Uber. The Knowledge didn't collapse demand for black cabs among people who could afford either. Some passengers pay the premium specifically because the driver isn't staring at a phone. That's not irrational. That's a preference for a human who knows, not a human who follows.
 
