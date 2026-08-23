@@ -1140,6 +1140,77 @@ def check_verbs(body: str) -> list:
     ]
 
 
+# The model talking to itself. It happens when a rewrite goes wrong: the
+# working leaks out of the draft and into the post, and gets published as
+# though it were prose. On 23 August a post went out containing "Wait. No em
+# dashes. Again." followed by a corrected paragraph. Twenty-one checks and not
+# one saw it, because every other check reads a post as writing rather than as
+# the transcript of somebody producing writing.
+SELF_TALK = (
+    r"(?:^|[.!?]\s+|\n)\s*wait\s*[.!]",
+    r"\bno em[- ]dash",
+    r"\blet me (?:rewrite|redo|try|fix|start|cut|shorten|have another)",
+    r"\bi (?:need|have|ought) to (?:rewrite|redo|fix|cut|shorten|start)",
+    r"\bscratch that\b",
+    r"\bstarting over\b",
+    r"\btry (?:that|this|it) again\b",
+    r"\bthe brief (?:says|bans|wants|requires|forbids|calls)\b",
+    r"\brewrit(?:e|ing) (?:that|this|it)\b",
+    r"\b(?:as|per) (?:instructed|the brief)\b",
+    r"\bthat (?:sentence|paragraph|line) (?:is|was) too\b",
+    r"\bcorrected version\b",
+    r"\battempt \d",
+)
+
+
+# Authority with nobody behind it. "Some researchers think" is the sound a
+# model makes when it wants the weight of a citation without having one, and
+# it reads as generated to anyone who has seen it before. Either name them or
+# drop the claim.
+UNNAMED_AUTHORITY = (
+    "some researchers", "researchers think", "researchers believe",
+    "researchers say", "studies show", "studies suggest", "studies have shown",
+    "experts say", "experts believe", "experts agree", "many experts",
+    "it is thought", "it is believed", "it is widely", "it has been argued",
+    "some argue", "some say", "critics say", "observers say",
+    "data suggests", "evidence suggests", "research suggests",
+    "commentators", "analysts say",
+)
+
+
+def check_unnamed_authority(body: str) -> list:
+    """Borrowed weight with nobody's name on it."""
+    low = plain_text(body).lower()
+    hits = sorted({p for p in UNNAMED_AUTHORITY if p in low})
+    if not hits:
+        return []
+    return [
+        "Authority with nobody behind it: " + ", ".join(f'"{h}"' for h in hits)
+        + ". Name who, and link them, or cut the claim and say the thing in "
+        "your own voice with no borrowed weight. A reader who has met a "
+        "chatbot recognises this construction, and it costs you every other "
+        "sourced claim in the post."
+    ]
+
+
+def check_self_talk(body: str) -> list:
+    """Working that leaked into the post. Nothing about the brief, the checks
+    or the rewriting belongs in front of a reader."""
+    low = plain_text(body).lower()
+    hits = sorted({" ".join(m.group(0).split()).strip(".!? ")
+                   for p in SELF_TALK for m in re.finditer(p, low)})
+    hits = [h for h in hits if h]
+    if not hits:
+        return []
+    return [
+        "Your working is in the post: " + ", ".join(f'"{h}"' for h in hits)
+        + ". You were talking to yourself about the rewrite and it went into "
+        "the writing. A reader has no idea what you are referring to and no "
+        "reason to care. Cut every trace of it. Nothing about the brief, the "
+        "checks, the rewrites or your own drafting belongs in a post."
+    ]
+
+
 def check_style(body: str) -> list:
     low = plain_text(body).lower()
     failures = []
@@ -1255,6 +1326,8 @@ def check_post(body: str, previous: list = None) -> list:
     failures += check_rhythm(body)
     failures += check_verbs(body)
     failures += check_style(body)
+    failures += check_self_talk(body)
+    failures += check_unnamed_authority(body)
 
     risky = accusing_sentences(body)
     if risky:
@@ -1337,6 +1410,27 @@ def check_reputation_gate(gate) -> list:
             "is the wrong post."
         )
     return failures
+
+
+# Prefix on any failure that is about what is true rather than how it reads.
+# Style failures publish anyway after two rewrites, loudly, because an
+# unedited miss is honest and the reader can see it. A factual failure is not
+# a miss. Publishing forty words long is a blemish; publishing something a
+# source does not carry is a different kind of thing, and it is worse now that
+# every post names a living journalist and says they are wrong.
+FACTUAL = "[FACT]"
+
+
+def factual_failures(failures: list, unverified: list) -> list:
+    """The failures that must not publish, however many rewrites have gone."""
+    reasons = [f for f in failures if f.startswith(FACTUAL)]
+    for s in unverified:
+        reasons.append(
+            f"Cited a source no search returned: {s['title']} ({s['url']}). "
+            "Either the link is wrong or the claim came from somewhere other "
+            "than the evidence. A reader following it finds out which."
+        )
+    return reasons
 
 
 def legal_risk(body: str, gate_failures: list) -> list:
@@ -1618,8 +1712,8 @@ def critic_failures(verdict: dict) -> list:
 
     for item in verdict.get("bad_sources") or []:
         failures.append(
-            f"The critic doesn't accept a source: {item} Find something that "
-            "carries the claim, or cut the claim."
+            f"{FACTUAL} The critic doesn't accept a source: {item} Find "
+            "something that carries the claim, or cut the claim."
         )
 
     fix = str(verdict.get("human_fix") or "").strip()
@@ -2132,6 +2226,7 @@ def main() -> int:
     # risk survived the rewrites: no post, no agenda update, no prediction
     # recorded, no announcement. A person reads it or it does not exist.
     risks = legal_risk(post["body"], gate_failures)
+    risks += factual_failures(failures, unverified)
     if risks:
         hold(post, risks, date, slug)
         set_output(held=True)

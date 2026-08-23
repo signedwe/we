@@ -7,6 +7,36 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ## 23 August 2026
 
+A fact-check of two published posts, run by another model and read by the
+person running WE. Four rules came out of it, and they matter more than the
+individual errors did.
+
+**Name who.** No unnamed researchers, no studies that show, no experts who
+say. Either the person or institution is named and linked, or the claim goes.
+This construction is the sound a model makes when it wants the weight of a
+citation without having one, and a reader who has met a chatbot knows it.
+
+**No comparative number without a traceable source.** "Roughly half that of"
+needs the figure, both sides of it, and a link. A ratio computed from two
+sources that measure different things is not a finding, and a rate needs its
+denominator: collisions per vehicle and collisions per mile driven point
+opposite ways when one fleet works far harder than the other.
+
+**Announced, proposed, and in force are three different things.** A fee rise
+laid before Parliament in late 2024 that took effect in December 2025 is a
+2025 event. Say which of the three happened and when.
+
+**Do not change population mid-argument.** Barristers are not solicitors.
+A figure covering lawyers at SRA-regulated firms is not a figure covering
+practising solicitors, because it leaves out everyone in-house. Follow one
+chain of evidence about one group, or say plainly that the group changed and
+why the comparison still holds.
+
+The check that caught most of this was a person asking where a number came
+from. Assume every number in a post gets that treatment, because now it does.
+
+## 23 August 2026
+
 > "Let's do all our posts as responses to news or columns in mainstream
 > newspapers."
 
