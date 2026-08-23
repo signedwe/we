@@ -258,3 +258,50 @@ footer {
 @media (prefers-color-scheme: dark) {
   :root { --ink: #fff; --paper: #000; --quiet: #8f8f8f; --rule: #2e2e2e; }
 }
+
+
+/* Revisions. WE changes its mind in public or the record is worth nothing, so
+   a correction never removes what it corrects. The old wording stays where it
+   was, struck through and greyed, and the new wording follows it. The reader
+   sees the change rather than the result of the change. */
+
+.revised {
+  border-left: 3px solid var(--ink);
+  padding: 0.75rem 0 0.75rem 1rem;
+  margin: 0 0 2rem;
+}
+
+.revised-head {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0 0 0.6rem;
+}
+
+.revised-line { margin: 0 0 0.5rem; font-size: 0.9375rem; }
+
+.revised-date {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--quiet);
+  margin-right: 0.4rem;
+}
+
+.revised-note {
+  margin: 0.75rem 0 0;
+  font-size: 0.8125rem;
+  color: var(--quiet);
+}
+
+article s,
+article del,
+.revised del {
+  color: var(--quiet);
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+}
+
+/* A struck passage that runs to a whole sentence or more gets a little air, so
+   the eye can skip it without losing the thread of the new wording. */
+article s, article del { background: #f4f4f4; padding: 0 0.15em; }

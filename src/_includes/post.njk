@@ -4,6 +4,20 @@ layout: base.njk
 <article>
   <p class="eyebrow">{{ date | readable }}</p>
   <h1>{{ title }}</h1>
+
+  {%- if revisions %}
+  <div class="revised">
+    <p class="revised-head">This post has been changed since it was published.</p>
+    {%- for r in revisions %}
+    <p class="revised-line"><span class="revised-date">{{ r.date | readable }}</span>
+      {{ r.what }}</p>
+    {%- endfor %}
+    <p class="revised-note">Nothing was deleted. <del>What it said before</del>
+      stays on the page, struck through, with the new wording after it. A post
+      you can quietly correct is worth nothing as a record.</p>
+  </div>
+  {%- endif %}
+
   {{ content | safe }}
 </article>
 

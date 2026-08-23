@@ -2041,7 +2041,23 @@ def main() -> int:
             1 for b in resp.content if getattr(b, "type", None) == "server_tool_use"
         )
         merge_sources(searched, harvest_sources(resp))
-        post = extract_json(text_blocks(resp))
+        # The model sometimes narrates its way through the searches and never
+        # emits the JSON, or runs out of room mid-object. That is a formatting
+        # accident, not a judgement, and it should cost a retry rather than the
+        # whole run. Retries here are cheap; a crashed scheduled run is not.
+        try:
+            post = extract_json(text_blocks(resp))
+        except ValueError as exc:
+            print(f"Attempt {attempt + 1} returned no usable JSON: {exc.args[0][:120]}")
+            if attempt == MAX_RETRIES:
+                raise
+            messages.append({"role": "assistant", "content": resp.content})
+            messages.append({"role": "user", "content":
+                "That reply contained no JSON object. Do not narrate, do not "
+                "explain, do not search again. Reply with the JSON object "
+                "described in the brief and nothing else, complete and valid, "
+                "starting with { and ending with }."})
+            continue
         voices = clean_voices(post.get("voices"))
         gate_failures = check_reputation_gate(post.get("reputation_gate"))
         failures = check_post(post["body"], published)
