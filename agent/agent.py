@@ -1193,6 +1193,86 @@ def check_unnamed_authority(body: str) -> list:
     ]
 
 
+# Every correction made to this site on 23 August was a number or a citation.
+# Not one was an argument that fell down. The checks below this line measure
+# how prose reads; none of them asked where a figure came from, and a model is
+# most confident exactly where it is inventing a plausible statistic. So: a
+# quantity, a comparison or a named study must have a link in the same
+# sentence, or it does not go out.
+
+# Quantities that carry weight. Bare years are left alone, because a
+# prediction is full of them and needs no citation to be a prediction.
+QUANTITY = re.compile(
+    r"(?<![\w.])(?:"
+    r"[£$€]\s?\d[\d,.]*"                     # money
+    r"|\d[\d,.]*\s?(?:%|per cent|percent)"    # proportions
+    r"|\d{1,3}(?:,\d{3})+"                     # 674,000
+    r"|\d+\.\d+"                              # decimals
+    r")",
+    re.I,
+)
+
+# A comparison with no number attached is the same problem wearing a word.
+COMPARISON = re.compile(
+    r"\b(?:roughly |about |nearly |around |some )?"
+    r"(?:half|double|twice|treble|triple|[a-z]+ times)\s+"
+    r"(?:that of|as (?:many|much|likely|high|low)|the (?:rate|number|level))"
+    r"|\b(?:more|less) likely (?:to|than)\b",
+    re.I,
+)
+
+# Somebody else's authority, named but unlinked.
+NAMED_STUDY = re.compile(
+    r"\b(?:a|the|one)\s+\d{4}\s+(?:study|paper|report|survey|review|trial)"
+    r"|\b(?:study|paper|research|analysis|survey)\s+(?:in|by|from|published in)\s+[A-Z]"
+    r"|\baccording to (?:a|the|one)\s",
+    re.I,
+)
+
+HAS_LINK = re.compile(r"\]\([^)]+\)")
+
+
+def check_sourcing(body: str) -> list:
+    """A number, a comparison or a named study with no link beside it."""
+    failures = []
+    # Struck-out wording is a quotation of what this post used to say. It is
+    # already marked as wrong on the page and is not being claimed, so asking
+    # it for a source would be asking a correction to justify the error.
+    body = re.sub(r"~~.*?~~", " ", body, flags=re.S)
+    for para in body.split("\n"):
+        for raw in re.split(r"(?<=[.!?])\s+", para):
+            sentence = raw.strip()
+            if not sentence or HAS_LINK.search(sentence):
+                continue
+            bare = re.sub(r"[#>*_`~]", " ", sentence)
+            # A figure attributed to a named body in the same sentence is
+            # traceable even unlinked: "the SRA's 2025 data shows 66%" tells a
+            # reader where to look. A figure floating free does not. The test
+            # is a capitalised word that is not just the start of a sentence.
+            attributed = bool(re.search(r"(?<!^)(?<![.!?] )\b[A-Z][A-Za-z&']+", bare[1:]))
+            linked_para = bool(HAS_LINK.search(para))
+            found = []
+            if QUANTITY.search(bare) and not attributed and not linked_para:
+                found.append("a figure")
+            if COMPARISON.search(bare) and not linked_para:
+                found.append("a comparison")
+            # A named study always needs the link. Naming a journal is exactly
+            # how an invented citation gets its authority, and the whole point
+            # of a citation is that somebody can go and read the thing.
+            if NAMED_STUDY.search(bare):
+                found.append("a cited authority")
+            if found:
+                failures.append(
+                    f'{FACTUAL} {" and ".join(found).capitalize()} with no link '
+                    f'beside it: "{sentence[:150]}" Put the source in that '
+                    "sentence or take the claim out. A figure a reader cannot "
+                    "follow is a figure you are asking them to take on trust, "
+                    "and this site has spent its credibility on that once "
+                    "already. A rate needs its denominator too: per what."
+                )
+    return failures
+
+
 def check_self_talk(body: str) -> list:
     """Working that leaked into the post. Nothing about the brief, the checks
     or the rewriting belongs in front of a reader."""
@@ -1328,6 +1408,7 @@ def check_post(body: str, previous: list = None) -> list:
     failures += check_style(body)
     failures += check_self_talk(body)
     failures += check_unnamed_authority(body)
+    failures += check_sourcing(body)
 
     risky = accusing_sentences(body)
     if risky:
