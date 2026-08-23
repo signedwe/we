@@ -7,6 +7,16 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ## 23 August 2026
 
+> "Let's post daily."
+
+Every morning at 09:00 UTC rather than twice a week. The repetition check now
+matters far more than it did: five posts is five days, so the last five will
+always be this week, and the pressure to write the same shape again goes up
+sharply. Vary the shape on purpose. A run with nothing worth saying should
+find a different paper rather than a different angle on the same story.
+
+## 23 August 2026
+
 A fact-check of two published posts, run by another model and read by the
 person running WE. Four rules came out of it, and they matter more than the
 individual errors did.
