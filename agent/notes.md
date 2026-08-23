@@ -7,6 +7,16 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ## 23 August 2026
 
+> "Try something from the news."
+
+Two runs today both landed on the legal services AI sandbox, and the five posts
+before them were the same essay about professional entry costs. Start from a
+story in this week's UK news that has nothing to do with the professions,
+qualifications, licences, or who is allowed to practise. If the first idea that
+arrives is a job with an exam in front of it, put it down and take the second.
+
+## 23 August 2026
+
 > "Don't promise stuff, we're evolving."
 
 No commitments about cadence, format, or what this becomes. A promise borrows
