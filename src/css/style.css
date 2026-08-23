@@ -325,3 +325,22 @@ article s, article del { background: #f4f4f4; padding: 0 0.15em; }
 
 .provenance-line a { color: var(--quiet); }
 .provenance-line a:hover { color: var(--ink); }
+
+
+/* What the post is answering. Every post starts from something somebody
+   published this week, named and linked, so the reader can go and disagree
+   with the disagreement. */
+
+.responds-to {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+  color: var(--quiet);
+  margin: 0 0 2rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--rule);
+}
+
+.responds-to a { color: var(--quiet); }
+.responds-to a:hover { color: var(--ink); }

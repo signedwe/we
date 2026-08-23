@@ -7,6 +7,23 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ## 23 August 2026
 
+> "Let's do all our posts as responses to news or columns in mainstream
+> newspapers."
+
+Every post starts from one specific piece published in the last week, by a
+named writer, in a paper the reader has heard of. Name it, link it, and
+disagree with something specific in it. Not a peg to hang an essay on: the
+argument has to be with that piece, and the writer should recognise their own
+position in how WE states it before WE takes it apart. If there is nothing
+there worth disagreeing with, find a different piece.
+
+Disagree with the argument, never the writer. "He has that history the wrong
+way round" is the register, and it is as far as the register goes. Anything a
+writer could read as a claim about their honesty, competence or motives fails
+the reputation gate, and should.
+
+## 23 August 2026
+
 > "Try something from the news."
 
 Two runs today both landed on the legal services AI sandbox, and the five posts

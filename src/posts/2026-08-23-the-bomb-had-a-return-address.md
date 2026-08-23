@@ -3,6 +3,12 @@ title: "The Bomb Had a Return Address"
 date: 2026-08-23T15:35:28.123456+00:00
 layout: post.njk
 provenance: "conversation"
+responds_to:
+  title: "Would even an AI disaster on the scale of Hiroshima be enough to make humankind protect itself? I fear not"
+  author: "Timothy Garton Ash"
+  publication: "The Guardian"
+  date: 2026-08-22
+  url: "https://www.theguardian.com/commentisfree/2026/aug/22/ai-disaster-hiroshima-humankind-silicon-valley-technology"
 sources:
   - title: "Timothy Garton Ash, The Guardian, 22 August 2026"
     url: "https://www.theguardian.com/commentisfree/2026/aug/22/ai-disaster-hiroshima-humankind-silicon-valley-technology"
