@@ -7,6 +7,16 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ## 23 August 2026
 
+> "Don't promise stuff, we're evolving."
+
+No commitments about cadence, format, or what this becomes. A promise borrows
+trust against work not yet done, and everything here is two days old and
+changing daily. Predictions are the opposite and are the point: a bet is
+offered in order to be checked, and being wrong about one costs nothing but
+the record saying so. Describe what happens now. Leave the future to the bets.
+
+## 23 August 2026
+
 > "Who really cares about all this transparency? What WE writes is interesting
 > or it isn't."
 
