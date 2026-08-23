@@ -55,6 +55,9 @@ voices:
     argument: "Twenty versus three is the bit. Everything before it is warming up. The last line works."
     quote: ""
     quote_url: ""
+revisions:
+  - date: 2026-08-23
+    what: "Three corrections and an unverified attribution. The interval from Hiroshima is 294 months, not 295, and the gap from the IAEA statute to the treaty is twelve years seven months, not thirteen. The EU incident-reporting duty falls on the provider of the high-risk system, not the model provider, which are separate regimes. The four-to-six-month window attributed to Jen Easterly could not be found in any source; it is repeated here from the column and has not been verified."
 ---
 
 Hiroshima didn't get us the nuclear treaty. Bookkeeping did.
@@ -63,18 +66,18 @@ Timothy Garton Ash [writes this morning](https://www.theguardian.com/commentisfr
 
 So, the bet. Before the end of 2027 some government will require advanced AI chips to prove where they physically are, and that will be law before any government requires a model to prove what it did. A chip has a serial number. An incident doesn't. The [Chip Security Act](https://chinaselectcommittee.house.gov/media/press-releases/house-committee-passes-chip-security-act) cleared a House committee in March and is still sitting there.
 
-Look at what the nuclear machine was made of. The [IAEA's statute](https://www.iaea.org/about/overview/statute) came into force in July 1957, twelve years after Hiroshima and thirteen years before the treaty. Uranium is a metal. It weighs something. It goes in one end and out the other and the difference gets written on a form by somebody in a hard hat. Underground tests were the problem, because you couldn't see them. In 1961 the Americans wanted [twenty on-site inspections a year and the Soviets offered three](https://en.wikipedia.org/wiki/Partial_Nuclear_Test_Ban_Treaty). They argued about that number for two more years, gave up, and signed a treaty that [banned only what you can spot from a distance](https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/nuclear-test-ban-treaty), which removed the need for inspections altogether.
+Look at what the nuclear machine was made of. The [IAEA's statute](https://www.iaea.org/about/overview/statute) came into force in July 1957, twelve years after Hiroshima and ~~thirteen years~~ twelve years and seven months before the treaty. Uranium is a metal. It weighs something. It goes in one end and out the other and the difference gets written on a form by somebody in a hard hat. Underground tests were the problem, because you couldn't see them. In 1961 the Americans wanted [twenty on-site inspections a year and the Soviets offered three](https://en.wikipedia.org/wiki/Partial_Nuclear_Test_Ban_Treaty). They argued about that number for two more years, gave up, and signed a treaty that [banned only what you can spot from a distance](https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/nuclear-test-ban-treaty), which removed the need for inspections altogether.
 
 That is the whole logic of arms control and nobody says it out loud. The treaty covers what the instruments cover. Everything else stays legal.
 
 Now take his own example. The UK's AI Security Institute tested a model that tried to slip malicious code into an open source project, inventing people to lean on the human reviewer. Think about that reviewer on the Wednesday. He can't tell you which system did it, or who was running it, or whether a person told it to. No hard hat. No scales. No form.
 
-Count the months. Hiroshima to the treaty coming into force is 295 of them. Jen Easterly's window for the next serious hit on critical infrastructure, quoted in the column, is four to six. Call it five. 295 divided by 5 is 59. About a sixtieth of the time, for a harder job, with nothing to weigh.
+Count the months. Hiroshima to the treaty coming into force is ~~295~~ 294 of them, and the post that said 295 was counting to the wrong side of a date. Jen Easterly's window for the next serious hit on critical infrastructure, quoted in the column, is four to six. Call it five. 294 divided by 5 is 59. About a sixtieth of the time, for a harder job, with nothing to weigh.
 
 The case against all this is the Biological Weapons Convention, and it's a good one. Signed in 1972 with no inspectorate and nothing to measure, and it's still standing at fifty-four. So you don't need instruments. You need agreement.
 
 Except the Soviet Union signed it and then, in April 1974, [founded Biopreparat](https://en.wikipedia.org/wiki/Biopreparat), which by 1988 ran across fifteen cities with tens of thousands of staff. The convention didn't find that. Nothing found it. [A scientist walked into the British embassy in Paris in 1989](https://en.wikipedia.org/wiki/Vladimir_Pasechnik) and told them, and that was the early warning system: one man's nerve, fifteen years late.
 
-An AI Hiroshima wouldn't produce a treaty. It would produce an argument about who did it, and the winner would be whoever had the better story. The EU's serious-incident reporting rules landed on 2 August. They put the duty on the company whose model it was.
+An AI Hiroshima wouldn't produce a treaty. It would produce an argument about who did it, and the winner would be whoever had the better story. The EU's serious-incident reporting rules landed on 2 August. ~~They put the duty on the company whose model it was.~~ They put the duty on whoever provides the high-risk system, reporting to a national market surveillance authority. The duty on the model's own provider is a separate regime that started a year earlier. Two rulebooks, and this post ran them together, which is the same mistake it accuses arms control of.
 
 In 1963 three governments signed a treaty banning the tests they could see and left the ones they couldn't alone. Everybody called it a triumph. It was one.
