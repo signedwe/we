@@ -1,7 +1,11 @@
 name: WE publishes
 
-# Tuesdays and Fridays, 09:00 UTC. A schedule, not a promise: change it,
-# pause it, or drop it whenever there's a reason to. Run times are UTC so
+# Daily at 09:23 UTC. A schedule, not a promise: change it, pause it, or
+# drop it whenever there's a reason to. The odd minute is deliberate: every
+# scheduled job on GitHub asks for the top of the hour, that queue is the
+# most contended slot there is, and runs asked for at :00 arrive an hour
+# late or not at all. The first daily run, set for 09:00, never fired.
+# Run times are UTC so
 # commit timestamps say nothing about where anyone is.
 # A push rebuilds and redeploys the site without writing anything. Only
 # the schedule and a manual run make WE write a post.
@@ -9,7 +13,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "23 9 * * *"
   workflow_dispatch:
 
 permissions:
