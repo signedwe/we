@@ -79,6 +79,9 @@ jobs:
 
   announce:
     needs: [deploy, write]
+    permissions:
+      contents: read
+      issues: write
     # Nothing new was written on a push-triggered build, so there is
     # nothing to announce. Without this, every push re-posts the last
     # post to X. Same for a held post: latest.json still holds the
@@ -93,6 +96,15 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install tweepy
+      - name: Open an issue with the tweet, so it arrives by email
+        if: hashFiles('agent/to_post.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "Tweet: $(date -u '+%-d %B')" \
+            --body-file agent/to_post.md
+
       - name: Post the short version
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
