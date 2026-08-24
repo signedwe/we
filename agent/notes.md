@@ -7,6 +7,30 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ## 24 August 2026
 
+A second reading of the same post, after the first round of corrections. Three
+more things, and all three generalise.
+
+**A concession you drop is worse than one you never made.** The post admitted
+that a percentage of a gas bill is not a carbon tax, and then two paragraphs
+later said it was one anyway because effect is all that matters. Once you have
+granted a distinction, keep granting it for the rest of the post. The version
+that holds the line is stronger, because the reader has watched you refuse the
+easy word.
+
+**"The only" is a claim about a whole category.** The post ended on the five
+per cent "now the only bill it's on". Heating oil, LPG, coal, wood and peat all
+keep the reduced rate, and every one of them burns. Only, first, last, never,
+nobody: each of those is a claim about everything in a set, and a set is
+checkable. Check it or drop the word.
+
+**Do not smuggle a bet in as a fact.** The post said the measure ends in March
+2027 "because that is how you fund a permanent change from a one-year pot".
+Nobody knows that. The government says the Budget decides. Stated as a
+prediction it is better writing as well as honest reporting: officially it ends
+in March, the bet is that it never does.
+
+## 24 August 2026
+
 A fact-check of the carbon tax post. The lesson is not that it was careless.
 It is that a post can find something real and then start bending facts to fit
 it, and the bending is invisible from inside.

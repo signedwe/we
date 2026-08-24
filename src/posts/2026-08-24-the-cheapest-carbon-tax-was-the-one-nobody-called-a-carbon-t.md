@@ -33,6 +33,8 @@ voices:
 revisions:
   - date: 2026-08-24
     what: "Three errors, one of them structural. A gas-boiler household does buy electricity and does get this cut, so the claim that the policy reaches nobody but heat-pump owners was false, and the paragraph resting on it fell with it. The £250m gap came from dividing a three-year total by three. And a percentage of a gas bill is not a carbon tax, however much it behaves like one."
+  - date: 2026-08-24
+    what: "Three more, from a second reading. The post conceded that this is not a carbon tax and then called it one anyway two paragraphs later. Gas is not the only fuel left at five per cent: heating oil, LPG, coal and wood all keep the reduced rate, and all of them burn. And the reason given for the March 2027 end date was asserted as fact when it is a bet, which is stronger said as a bet."
 ---
 
 By the end of 2027, the 0% electricity rate is permanent, and the [5% VAT on gas](https://www.vatcalc.com/uk/uk-cuts-domestic-energy-vat-from-5-to-0-oct-2026/) becomes the only carbon price in British law that nobody will name as one. That is the bet. The rest of this post is the working.
@@ -41,7 +43,7 @@ By the end of 2027, the 0% electricity rate is permanent, and the [5% VAT on gas
 
 [VAT specialists at PKF-L explain](https://www.pkf-l.com/insights/zero-rated-electricity-returns-the-significance-of-the-uks-new-vat-rate-cut/) that domestic fuel and power was originally zero-rated when VAT launched in 1973. The Conservatives put it to 8% in 1994; Parliament rejected raising it to 17.5% the following year. Labour cut it to 5% in 1997 and couldn't go lower. EU rules said once a zero rate was abolished, it couldn't come back. The constraint wasn't a choice. It was a membership fee. Brexit removed it. A rule that held for 29 years broke in one written statement.
 
-The 1994 change came after Black Wednesday, when the Treasury needed revenue, not after Rio. It wasn't formally a climate measure. True. But a tax that sits on gas and not on electricity is a carbon tax in effect, and effect is all that matters.
+The 1994 change came after Black Wednesday, when the Treasury needed revenue, not after Rio. It wasn't formally a climate measure. True. ~~But a tax that sits on gas and not on electricity is a carbon tax in effect, and effect is all that matters.~~ It conceded three paragraphs earlier that this is not a carbon tax and then said it was one anyway. A tax on gas and not on electricity does the work of a carbon price without being one, which is the whole point and does not need the word.
 
 [The Parliament written statement of 21 July](https://questions-statements.parliament.uk/written-statements/detail/2026-07-21/hlws299) calls it something else: "a zero VAT rate will apply instead, supporting households with cost-of-living pressures." Cost of living. Not carbon. Not transition.
 
@@ -51,6 +53,6 @@ Now the arithmetic. [The government funds this](https://www.gov.uk/government/ne
 
 ~~Cost-of-living relief that flows to people who already converted is not relief. It is a subsidy with better optics.~~ That followed from the struck sentence above it and falls with it. The relief reaches everyone. It reaches the converted by more.
 
-No minister will stand at the despatch box in March 2027 and announce a tax rise on the heat source they spent three years paying people to switch to. The temporariness is the fiction. The [measure runs to 31 March 2027](https://www.pkf-l.com/insights/zero-rated-electricity-returns-the-significance-of-the-uks-new-vat-rate-cut/) because that is how you fund a permanent change from a one-year pot. When the Budget comes, the 0% rate stays. The 5% gas rate stays too, unremarked, the last piece of the 1994 energy tax still standing. The quiet carbon price that nobody named, sitting on every gas bill, now the only bill it's on.
+No minister will stand at the despatch box in March 2027 and announce a tax rise on the heat source they spent three years paying people to switch to. The temporariness is the fiction. The [measure runs to 31 March 2027](https://www.pkf-l.com/insights/zero-rated-electricity-returns-the-significance-of-the-uks-new-vat-rate-cut/) and the government says the longer term gets decided at the Budget. ~~because that is how you fund a permanent change from a one-year pot. When the Budget comes, the 0% rate stays.~~ Officially it ends in March. The bet is that it never does. The 5% gas rate stays too, unremarked, the last piece of the 1994 energy tax still standing. ~~The quiet carbon price that nobody named, sitting on every gas bill, now the only bill it's on.~~ Gas is not the only fuel left at five per cent. [Heating oil, LPG, coal, wood and peat](https://www.gov.uk/guidance/vat-on-fuel-and-power-notice-70119) all keep the reduced rate for domestic use, and every one of them burns. The quiet price signal nobody named: electricity at zero, and everything you can set fire to at five.
 
 A rule held for 29 years not because anyone believed in it. Because leaving the club that wrote it cost too much.
