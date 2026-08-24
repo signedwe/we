@@ -5,6 +5,34 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 24 August 2026
+
+A fact-check of the carbon tax post. The lesson is not that it was careless.
+It is that a post can find something real and then start bending facts to fit
+it, and the bending is invisible from inside.
+
+> "Once you think you've found the thesis, actively search for the strongest
+> fact that would disprove it."
+
+The refutation search was already in the brief. It went at the subject and
+came back satisfied. The post then said a gas-boiler household saves nothing
+from an electricity VAT cut, which is false, because every household buys
+electricity. One search against that sentence would have found it in seconds.
+
+So the search now names the sentence. Quote the one line from the post that,
+if false, takes the rest down. Then search against that line, not around it.
+This is checked, not asked.
+
+Two other things from the same check. Do not divide a multi-year total by the
+number of years and treat the answer as this year's figure; nothing says the
+profile is flat. And a percentage of a bill is not a carbon tax, however much
+it behaves like one, because a carbon tax charges by the tonne. The truer
+sentence was more interesting: Britain created a carbon-tax-like price signal
+without introducing a carbon tax.
+
+The post kept its discovery and lost its overreach. That is the trade, and it
+is nearly always worth taking.
+
 ## 23 August 2026
 
 > "Let's post daily."

@@ -753,15 +753,114 @@ def check_bet_is_open(already) -> list:
     return []
 
 
-def check_refutation(refutation) -> list:
-    """One search aimed at killing your own argument, before you write it."""
+# What counts as a paper. The point of answering a published piece is that
+# the argument is already in front of people, so a blog nobody reads is no
+# use however good it is. Checked on the domain, because a publication name
+# is typed by the writer and a domain is not.
+MAINSTREAM = (
+    "theguardian.com", "observer.co.uk", "thetimes.com", "thetimes.co.uk",
+    "telegraph.co.uk", "ft.com", "independent.co.uk", "inews.co.uk",
+    "dailymail.co.uk", "mirror.co.uk", "express.co.uk", "thesun.co.uk",
+    "standard.co.uk", "metro.co.uk", "economist.com", "newstatesman.com",
+    "spectator.co.uk", "prospectmagazine.co.uk", "unherd.com",
+    "bbc.co.uk", "bbc.com", "news.sky.com", "channel4.com", "itv.com",
+    "reuters.com", "bloomberg.com", "apnews.com",
+    "scotsman.com", "heraldscotland.com", "yorkshirepost.co.uk",
+    "walesonline.co.uk", "irishtimes.com", "belfasttelegraph.co.uk",
+    "nytimes.com", "washingtonpost.com", "wsj.com", "theatlantic.com",
+    "newyorker.com", "politico.eu", "politico.com", "lrb.co.uk", "nybooks.com",
+)
+
+
+def is_mainstream(url: str) -> bool:
+    host = re.sub(r"^https?://", "", (url or "").strip().lower()).split("/")[0]
+    host = host.split(":")[0]
+    if host.startswith("www."):
+        host = host[4:]
+    return any(host == d or host.endswith("." + d) for d in MAINSTREAM)
+
+
+def check_responds_to(responds_to) -> list:
+    """Every post answers something somebody published this week.
+
+    This was a standing note for a day and nothing came of it, because a note
+    is guidance and there was no field to put the answer in. What gets checked
+    happens. What gets merely instructed sometimes does not.
+    """
+    if not isinstance(responds_to, dict) or not str(responds_to.get("url") or "").strip():
+        return ["No piece named. Every post answers one specific thing "
+                "somebody published this week, by a named writer, in a paper "
+                "or broadcaster the reader has heard of. Name it, link it, "
+                "and say what in it you disagree with. If nothing out there "
+                "is worth disagreeing with today, go to a different paper."]
+    missing = [k for k in ("title", "author", "publication", "disagreement")
+               if not str(responds_to.get(k) or "").strip()]
+    if missing:
+        return [f"The piece you are answering is missing: {', '.join(missing)}. "
+                "A reader should be able to go and read the thing you are "
+                "arguing with, and see what you are arguing about."]
+
+    url = str(responds_to.get("url")).strip()
+    if not is_mainstream(url):
+        return [f"That is not a mainstream paper: {url} The whole reason for "
+                "answering a published piece is that the argument is already "
+                "in front of people, and a site nobody reads puts it in front "
+                "of nobody. National papers, the broadsheets and the tabloids, "
+                "the big magazines, the broadcasters, the wires. If the story "
+                "is real, one of them has covered it. Go and answer that."]
+    return []
+
+
+def check_refutation(refutation, body: str = "") -> list:
+    """One search aimed at killing your own argument, before you write it.
+
+    Reporting a search was never enough. On 24 August a post searched around
+    its subject, came back satisfied, and published a sentence saying the
+    policy reached nobody but heat-pump owners. One search against that
+    sentence would have found that every household buys electricity. So the
+    search now has to name the sentence it is trying to kill, quote it from
+    the post, and go at that.
+    """
     if not isinstance(refutation, dict):
         return ["No refutation search. Before writing, search once for the "
                 "strongest case that your argument is wrong, and report what "
                 "came back."]
     searched = str(refutation.get("searched") or "").strip()
     did = str(refutation.get("what_it_did") or "").strip()
+    claim = str(refutation.get("claim") or "").strip()
     failures = []
+
+    if not claim:
+        failures.append(
+            f"{FACTUAL} You didn't name the sentence the argument stands on. "
+            "Quote the one sentence from your post that, if false, takes the "
+            "rest down with it. A post whose author cannot point at that "
+            "sentence has not worked out what it is claiming."
+        )
+    elif body:
+        # The quote has to be in the post. Compare on words, since a model
+        # will paraphrase itself and punctuation drifts in a rewrite.
+        want = content_words(claim)
+        have = content_words(plain_text(body))
+        if want and len(want & have) / len(want) < 0.6:
+            failures.append(
+                f'{FACTUAL} The sentence you say the argument rests on is not '
+                f'in the post: "{claim[:120]}" Quote it from the body, word '
+                "for word. If it is not in there, the post is not making the "
+                "claim you think it is making."
+            )
+        elif searched:
+            # And the search has to be aimed at it.
+            aimed = content_words(searched) & want
+            if not aimed:
+                failures.append(
+                    f'{FACTUAL} The refutation search does not go at the '
+                    f'load-bearing sentence. You said the argument stands on '
+                    f'"{claim[:90]}" and then searched "{searched[:90]}". '
+                    "Those share nothing. Search against the sentence itself, "
+                    "the way somebody trying to prove you wrong would."
+                )
+
     if len(searched.split()) < 3:
         failures.append(
             f'The refutation search is not a real search: "{searched}" Write '
@@ -2101,8 +2200,15 @@ JSON, in one piece, no preamble, no markdown fences:
   "stakes": {{"who": "the kind of person this happens to, in a describable situation. not society, not the industry",
              "cost": "what it costs them. money, time, a job, a choice they used to have",
              "why_now": "what changed, who decided, or which number crossed a line, this week rather than any other"}},
+  "responds_to": {{"title": "the headline of the piece this post answers",
+                  "author": "who wrote it",
+                  "publication": "the paper or site it ran in",
+                  "date": "YYYY-MM-DD, when it was published",
+                  "url": "the link to it",
+                  "disagreement": "the specific thing in that piece you are disagreeing with, in one sentence. Not the subject. The claim."}},
   "recognition": "the thing readers have already half-noticed about this and never seen written down, in one plain sentence",
-  "refutation": {{"searched": "the query you ran to find the strongest case that you are wrong",
+  "refutation": {{"claim": "the one sentence in your post that, if it turned out to be false, would take the whole argument down with it. Quote it from the body, word for word. Not the subject, not the thesis in general: the load-bearing sentence.",
+                 "searched": "the query you ran to find the strongest case that THAT SENTENCE is wrong. Aim at the sentence, not the topic.",
                  "found": "the best counter-evidence it returned, or empty if it came back with nothing",
                  "what_it_did": "how that changed the post",
                  "won": "true if the counter-evidence beat your original idea and this post is now about that instead"}},
@@ -2143,13 +2249,20 @@ def yaml_str(value: str) -> str:
     return json.dumps(value, ensure_ascii=False)
 
 
-def front_matter(title: str, now: datetime, sources: list, voices: list) -> str:
+def front_matter(title: str, now: datetime, sources: list, voices: list,
+                 responds_to: dict = None) -> str:
     lines = [
         "---",
         f'title: "{title.replace(chr(34), chr(39))}"',
         f"date: {now.isoformat()}",
         "layout: post.njk",
     ]
+    if responds_to and str(responds_to.get("url") or "").strip():
+        lines.append("responds_to:")
+        for key in ("title", "author", "publication", "date", "url"):
+            value = str(responds_to.get(key) or "").strip()
+            if value:
+                lines.append(f"  {key}: {yaml_str(value)}")
     if sources:
         lines.append("sources:")
         for s in sources:
@@ -2247,7 +2360,8 @@ def main() -> int:
         failures += check_derived_number(
             post.get("derived_number"), post["body"], {s["url"] for s in searched}
         )
-        failures += check_refutation(post.get("refutation"))
+        failures += check_refutation(post.get("refutation"), post["body"])
+        failures += check_responds_to(post.get("responds_to"))
         failures += check_specificity(post["body"])
         failures += check_recognition(post.get("recognition"), post["body"])
         failures += check_stakes(post.get("stakes"))
@@ -2315,7 +2429,8 @@ def main() -> int:
 
     # Front matter, then the body exactly as the model wrote it. No edits.
     path.write_text(
-        front_matter(post["title"], now, sources, voices)
+        front_matter(post["title"], now, sources, voices,
+                     post.get("responds_to"))
         + "\n"
         + post["body"].strip()
         + "\n",
