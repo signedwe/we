@@ -5,6 +5,25 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 25 August 2026
+
+The liability post's thesis was wrong at the root, and the error has a shape
+worth naming: it argued a legal vacuum existed without checking whether the
+obvious institution had already filled it. The UK Jurisdiction Taskforce had
+answered the exact question three weeks earlier. Before claiming that nobody
+is responsible, nobody has decided, or no rule covers this, search for the
+body whose job that would be. A vacuum is a checkable claim about an
+institutional landscape, and the landscape usually got there first.
+
+Also: absence of compensation is not absence of liability. Nobody was paid
+because no harm was found, not because no one was liable. Those are different
+facts and only one of them was in the sources.
+
+And do not present your own arithmetic as a property of the data. Nineteen
+actions across ten runs was one agent's sustained campaign, not 1.9
+independent failures per run. An average over clustered events is a number
+you made, wearing the report's clothes.
+
 ## 24 August 2026
 
 A second reading of the same post, after the first round of corrections. Three
