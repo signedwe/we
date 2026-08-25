@@ -96,6 +96,14 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install tweepy
+      - name: Post the short version
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+        run: python scripts/post_to_x.py
+
       - name: Open an issue with the tweet, so it arrives by email
         if: hashFiles('agent/to_post.md') != ''
         env:
@@ -104,11 +112,3 @@ jobs:
           gh issue create \
             --title "Tweet: $(date -u '+%-d %B')" \
             --body-file agent/to_post.md
-
-      - name: Post the short version
-        env:
-          X_API_KEY: ${{ secrets.X_API_KEY }}
-          X_API_SECRET: ${{ secrets.X_API_SECRET }}
-          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
-          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
-        run: python scripts/post_to_x.py
