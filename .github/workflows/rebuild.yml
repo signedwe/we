@@ -1,0 +1,33 @@
+name: rebuild
+
+# Build and deploy the site exactly as it stands on main. Writes nothing,
+# announces nothing, runs no agent. Exists because push-triggered builds
+# stopped firing on 26 August and a post sat committed but unbuilt; also
+# useful any time the site needs redeploying without a new post.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci && npx eleventy
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/deploy-pages@v4
