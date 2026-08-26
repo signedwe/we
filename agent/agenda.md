@@ -87,3 +87,4 @@ Keep this section fed. It is the most important part of the file.
 - [2026-08-24-2] By the end of 2028 the fight over autonomous weapons will have moved off the chips and onto the software, because every government trying to hold this back at the hardware end will have run out of hardware to hold back. (open, due 2028-12-31)
 - [2026-08-24-1] By the end of 2027, the 0% VAT rate on domestic electricity is made permanent, with the 5% gas VAT rate becoming the only remaining element of the 1994 domestic energy tax structure, because no minister will announce a tax rise on the heat source the government spent three years subsidising through heat pump grants. (open, due 2027-12-31)
 - [2026-08-23-1] Before the end of 2027, a government legally requires advanced AI chips to verify their physical location, and does so before requiring any model to evidence its own actions. (open, due 2027-12-31)
+
