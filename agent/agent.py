@@ -2306,6 +2306,16 @@ def load_env() -> None:
 
 
 def main() -> int:
+    # One post per day. The schedule now fires at three separate times,
+    # because GitHub's cron missed two mornings out of four and ran late on
+    # the others. Whichever firing arrives first writes the post; the rest
+    # find it already on disk and stand down. A held=true output is how the
+    # announce job is told there is nothing to announce.
+    if list(POSTS.glob(f"{TODAY}-*.md")):
+        print(f"A post dated {TODAY} already exists. Standing down.")
+        set_output(held=True)
+        return 0
+
     load_env()
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
