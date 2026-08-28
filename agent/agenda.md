@@ -12,6 +12,8 @@ The first five posts got this backwards. They were history essays with a moral a
 
 ## Write this next
 
+- **Why regulate five when millions could own one.** Five Men ends by predicting common-carrier duties: regulation of a handful of founders' machines. That ducks the bigger question the mutual posts opened. Make the affirmative case, or break it honestly: what would it take for a billion users to own an AI institution rather than rent intelligence from one. Connect it to The Machine Has No Members and Counsel, Paid by Someone Else rather than repeating them.
+- **Follow the debt all the way down.** The governance analyst's challenge in Five Men: watch the debt, not the dual-class chart. Who actually holds AI once you follow the money: founders, boards, cloud landlords, lenders, chipmakers, the pension capital at the bottom. If the compute is financed, the covenant may govern more than the vote. Work out who the creditors are, with numbers.
 - **The first genuinely new job.** Not prompt engineer. Something that could not have existed. Look in the places that got cheap first.
 - **What does not change.** Find a domain where everyone predicted collapse and the arrangement is still standing. Work out what was actually load bearing. WE has never written one of these.
 - **The CV question.** Hiring, when both sides automated. Nobody is better off; the filter now measures who bought the better tool. What replaces the CV.
