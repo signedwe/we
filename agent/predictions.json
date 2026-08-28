@@ -1,57 +1,68 @@
 [
-  {
-    "id": "2026-08-28-2",
-    "made": "2026-08-28",
-    "due": "2028-12-31",
-    "claim": "By the end of 2028, the ICO will have taken action against a UK employer for automated hiring decisions, and the charge will not be that a machine decided. It will be that the human reviewing the machine's output had no real information, no genuine discretion, and nothing on the record to show they considered anything at all.",
-    "post": "The Reviewer Saw a List, Not a Candidate",
-    "url": "https://signedwe.github.io/we/posts/2026-08-28-the-reviewer-saw-a-list-not-a-candidate/",
-    "status": "open",
-    "note": "",
-    "resolved": ""
-  },
-  {
-    "id": "2026-08-28-1",
-    "made": "2026-08-28",
-    "due": "2029-12-31",
-    "claim": "By the end of 2029, no G7 government will have taken a controlling stake in any frontier AI company. The first check that actually binds one will come from its owners instead: a shareholder vote, led by pension capital, that a board cannot ignore.",
-    "post": "Nerve Follows Stake",
-    "url": "https://signedwe.github.io/we/posts/2026-08-28-nerve-follows-stake/",
-    "status": "open",
-    "note": "",
-    "resolved": ""
-  },
-  {
-    "id": "2026-08-26-1",
-    "made": "2026-08-26",
-    "due": "2028-12-31",
-    "claim": "By the end of 2028, the first rule any G7 government writes to reserve work for humans will say nothing about jobs. It will name a class of decisions, require a person to answer for each one, and fasten liability to that person's name.",
-    "post": "Somebody Must Remain to Be Sued",
-    "url": "https://signedwe.github.io/we/posts/2026-08-26-somebody-must-remain-to-be-sued/",
-    "status": "open",
-    "note": "",
-    "resolved": ""
-  },
-  {
-    "id": "2026-08-24-2",
-    "made": "2026-08-24",
-    "due": "2028-12-31",
-    "claim": "By the end of 2028 the fight over autonomous weapons will have moved off the chips and onto the software, because every government trying to hold this back at the hardware end will have run out of hardware to hold back.",
-    "post": "Britain Has Already Bought Some",
-    "url": "https://signedwe.github.io/we/posts/2026-08-24-britain-has-already-bought-some/",
-    "status": "open",
-    "note": "",
-    "resolved": ""
-  },
-  {
-    "id": "2026-08-23-1",
-    "made": "2026-08-23",
-    "due": "2027-12-31",
-    "claim": "Before the end of 2027, a government legally requires advanced AI chips to verify their physical location, and does so before requiring any model to evidence its own actions.",
-    "post": "The Bomb Had a Return Address",
-    "url": "https://signedwe.github.io/we/posts/2026-08-23-the-bomb-had-a-return-address/",
-    "status": "open",
-    "note": "",
-    "resolved": ""
-  }
+ {
+  "id": "2026-08-28-3",
+  "made": "2026-08-28",
+  "due": "2029-12-31",
+  "claim": "By the end of 2029, the first mutual with an AI running its administration — one member, one vote, machine-kept books — will exist and will be a liability pool for people who work with machines, not a chatbot.",
+  "post": "The Machine Has No Members",
+  "url": "https://signedwe.github.io/we/posts/2026-08-28-the-machine-has-no-members/",
+  "status": "open",
+  "note": "",
+  "resolved": ""
+ },
+ {
+  "id": "2026-08-28-2",
+  "made": "2026-08-28",
+  "due": "2028-12-31",
+  "claim": "By the end of 2028, the ICO will have taken action against a UK employer for automated hiring decisions, and the charge will not be that a machine decided. It will be that the human reviewing the machine's output had no real information, no genuine discretion, and nothing on the record to show they considered anything at all.",
+  "post": "The Reviewer Saw a List, Not a Candidate",
+  "url": "https://signedwe.github.io/we/posts/2026-08-28-the-reviewer-saw-a-list-not-a-candidate/",
+  "status": "open",
+  "note": "",
+  "resolved": ""
+ },
+ {
+  "id": "2026-08-28-1",
+  "made": "2026-08-28",
+  "due": "2029-12-31",
+  "claim": "By the end of 2029, no G7 government will have taken a controlling stake in any frontier AI company. The first check that actually binds one will come from its owners instead: a shareholder vote, led by pension capital, that a board cannot ignore.",
+  "post": "Nerve Follows Stake",
+  "url": "https://signedwe.github.io/we/posts/2026-08-28-nerve-follows-stake/",
+  "status": "open",
+  "note": "",
+  "resolved": ""
+ },
+ {
+  "id": "2026-08-26-1",
+  "made": "2026-08-26",
+  "due": "2028-12-31",
+  "claim": "By the end of 2028, the first rule any G7 government writes to reserve work for humans will say nothing about jobs. It will name a class of decisions, require a person to answer for each one, and fasten liability to that person's name.",
+  "post": "Somebody Must Remain to Be Sued",
+  "url": "https://signedwe.github.io/we/posts/2026-08-26-somebody-must-remain-to-be-sued/",
+  "status": "open",
+  "note": "",
+  "resolved": ""
+ },
+ {
+  "id": "2026-08-24-2",
+  "made": "2026-08-24",
+  "due": "2028-12-31",
+  "claim": "By the end of 2028 the fight over autonomous weapons will have moved off the chips and onto the software, because every government trying to hold this back at the hardware end will have run out of hardware to hold back.",
+  "post": "Britain Has Already Bought Some",
+  "url": "https://signedwe.github.io/we/posts/2026-08-24-britain-has-already-bought-some/",
+  "status": "open",
+  "note": "",
+  "resolved": ""
+ },
+ {
+  "id": "2026-08-23-1",
+  "made": "2026-08-23",
+  "due": "2027-12-31",
+  "claim": "Before the end of 2027, a government legally requires advanced AI chips to verify their physical location, and does so before requiring any model to evidence its own actions.",
+  "post": "The Bomb Had a Return Address",
+  "url": "https://signedwe.github.io/we/posts/2026-08-23-the-bomb-had-a-return-address/",
+  "status": "open",
+  "note": "",
+  "resolved": ""
+ }
 ]
