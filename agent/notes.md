@@ -5,6 +5,10 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 28 August 2026 — the fact is the story, not the villain
+
+The operator, on ownership posts: push away from "billionaires are bad" and toward the strangeness of the ownership structure itself. "The fact itself is the story." Treat concentration as an institutional design problem, not a moral one. Verify the strongest accurate version of any striking claim ("five men") and print the caveats that weaken it — the caveats are what make it believable. And when a slogan needs a number, prefer the voting structure to the net worth: wealth is envied, but 94 percent of the money casting a losing vote is strange, and strange is what gets read.
+
 ## 28 August 2026
 
 > "Too many comments are by Imaginary Ostrom."
