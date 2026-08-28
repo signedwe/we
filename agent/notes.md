@@ -5,6 +5,16 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 28 August 2026
+
+The rehearsal run answered a piece in IBTimes, which failed the site's own
+mainstream test and published with the objection attached. The point of
+answering a published argument is standing where readers already are. If the
+story is real, a national paper, a broadsheet, a tabloid, a big magazine, a
+broadcaster or a wire has covered it. Search their coverage first, and treat
+a trade site or an aggregator as a lead to the mainstream version rather
+than a destination.
+
 ## 25 August 2026
 
 The liability post's thesis was wrong at the root, and the error has a shape
