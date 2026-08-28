@@ -654,6 +654,43 @@ def check_human(voices: list) -> list:
     return failures
 
 
+def recent_bench(n: int = 3) -> set:
+    """Bench thinkers who spoke in any of the last n posts.
+
+    By 28 August, imaginary Ostrom had appeared in seven of the nine posts
+    that carry voices, including six in a row, while four of the seventeen
+    on the bench had never spoken once. A jury drawn from the same corner
+    every day stops being a jury. Nothing measured this, because the
+    repetition check reads prose and the voices live in front matter.
+    """
+    import re as _re
+    names = set()
+    for f in sorted(POSTS.glob("*.md"))[-n:]:
+        fm = f.read_text(encoding="utf-8").split("\n---\n", 1)[0]
+        thinkers = _re.findall(r'thinker: "([^"]+)"', fm)
+        kinds = _re.findall(r'kind: "([^"]+)"', fm)
+        names.update(t for t, k in zip(thinkers, kinds) if k == "bench")
+    return names
+
+
+def check_voice_rotation(voices: list) -> list:
+    """The bench rotates, or it is not a bench."""
+    used = recent_bench()
+    if not used:
+        return []
+    repeats = sorted({v.get("thinker", "") for v in voices
+                      if v.get("kind") == "bench" and v.get("thinker") in used})
+    if not repeats:
+        return []
+    return [
+        "Bench thinkers already used in the last three posts: "
+        + ", ".join(repeats) + ". Seventeen people sit on that bench and "
+        "four of them have never spoken. Pick someone who has not been "
+        "heard from lately. If the argument only works with the same "
+        "juror every time, it is not the juror doing the work."
+    ]
+
+
 def check_voices(voices: list, returned_urls: set) -> list:
     """A made-up quotation from a dead thinker is a made-up source.
 
@@ -2070,6 +2107,16 @@ edit it. Read it before you start.
 
 ---
 
+## The bench, rotated
+
+Barred today, because they spoke in the last three posts:
+{", ".join(sorted(recent_bench())) or "(nobody barred)"}
+
+Seventeen sit on the bench. Draw from the ones who have not spoken lately.
+The same juror every day stops being a jury.
+
+---
+
 ## What the person running WE has said
 
 Standing notes from whoever points this thing. Not a brief and not a style
@@ -2412,6 +2459,7 @@ def main() -> int:
         failures = check_post(post["body"], published)
         failures += gate_failures
         failures += check_voices(voices, {s["url"] for s in searched})
+        failures += check_voice_rotation(voices)
         failures += check_practitioner(post["body"], voices)
         failures += check_prediction(post.get("prediction"))
         failures += check_prediction_placement(post.get("prediction"), post["body"])

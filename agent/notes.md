@@ -7,6 +7,19 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ## 28 August 2026
 
+> "Too many comments are by Imaginary Ostrom."
+
+Seven of the nine posts with voices, six in a row. The bench holds seventeen
+thinkers and four of them have never spoken. Reaching for the same juror
+every day means the jury has stopped doing its job, which is to bring a way
+of seeing the post could not have produced itself. This is now checked:
+anyone who spoke in the last three posts is barred from today's, and the
+barred list arrives with the brief. Prefer the ones who have never been
+heard from. If an argument only works with one particular juror, the juror
+is doing the arguing, and that is the writer's job.
+
+## 28 August 2026
+
 The rehearsal run answered a piece in IBTimes, which failed the site's own
 mainstream test and published with the objection attached. The point of
 answering a published argument is standing where readers already are. If the
