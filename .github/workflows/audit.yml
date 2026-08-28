@@ -1,0 +1,66 @@
+name: WE audits itself
+
+# Sundays. One old post gets reread the way a hostile fact-checker would
+# read it: claims searched against, corrections struck through in the open,
+# lessons written into notes.md. Two cron slots because GitHub's scheduler
+# drops runs; the audit ledger means a second firing picks the next post
+# rather than redoing the first, which is acceptable.
+on:
+  schedule:
+    - cron: "17 10 * * 0"
+    - cron: "29 12 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: WE audits one old post
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python agent/agent.py --audit
+
+      - name: Commit corrections, lessons and the ledger
+        run: |
+          git config user.name "WE"
+          git config user.email "signedwe@users.noreply.github.com"
+          git add src/posts agent/notes.md agent/audits.json
+          git commit -m "audit: $(date -u +%Y-%m-%d)" || exit 0
+          git push
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: npm ci && npx eleventy
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: audit
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

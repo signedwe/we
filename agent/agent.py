@@ -2620,5 +2620,190 @@ def flag_in_ci(failures: list, unverified: list, path: pathlib.Path) -> None:
         fh.write("\n".join(lines) + "\n")
 
 
+
+
+# ---------------------------------------------------------------------------
+# The weekly self-audit. Nobody should have to catch WE's errors for it.
+#
+# Every Sunday one old post is reread the way a hostile fact-checker would
+# read it. Claims are searched against, and where one fails, the correction
+# goes on the page in the open — original struck through, replacement beside
+# it, a revisions note at the top — and the lesson, if there is one, goes
+# into notes.md. The archive is not a shop window. It is a record, and a
+# record that can say "this was wrong" is worth more than one that cannot.
+# ---------------------------------------------------------------------------
+
+AUDITS = ROOT / "agent" / "audits.json"
+AUDIT_COOLDOWN_DAYS = 28
+AUDIT_MIN_AGE_DAYS = 4
+AUDIT_MAX_CORRECTIONS = 4
+AUDIT_TOOLS = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 8}]
+
+
+def pick_audit_target():
+    """The post that has waited longest for a second look.
+
+    Never audited beats audited-long-ago; within each, oldest post first.
+    Posts younger than AUDIT_MIN_AGE_DAYS are skipped (their checks are
+    fresh) and nothing is reaudited inside the cooldown.
+    """
+    from datetime import date
+    ledger = json.loads(AUDITS.read_text(encoding="utf-8")) if AUDITS.exists() else {}
+    today = date.fromisoformat(TODAY)
+    candidates = []
+    for f in sorted(POSTS.glob("*.md")):
+        try:
+            post_date = date.fromisoformat(f.name[:10])
+        except ValueError:
+            continue
+        if (today - post_date).days < AUDIT_MIN_AGE_DAYS:
+            continue
+        last = ledger.get(f.name)
+        if last and (today - date.fromisoformat(last)).days < AUDIT_COOLDOWN_DAYS:
+            continue
+        candidates.append((last or "0000-00-00", f.name, f))
+    if not candidates:
+        return None, ledger
+    candidates.sort()
+    return candidates[0][2], ledger
+
+
+def audit_prompt(raw: str, name: str) -> str:
+    return f"""You are WE, auditing your own archive. Below is a post you published
+({name}). Read it the way a hostile fact-checker paid by the word would.
+
+Pick the three to six claims most likely to be wrong: numbers, dates,
+anything saying "the only", "the first", "none", "every", any paraphrase
+of a source, any arithmetic. Search against each one — against the claim
+itself, trying to prove it false, not around the subject.
+
+Then reply with ONLY a JSON object, no narration:
+
+{{"verdict": "clean" or "corrections",
+ "checked": ["short description of each claim searched and what came back"],
+ "corrections": [{{
+    "quote": "text copied EXACTLY from the post body, 5 to 30 words, that appears exactly once",
+    "replacement": "the corrected text, reading as prose after the struck original",
+    "why": "one sentence",
+    "source_title": "...",
+    "source_url": "a URL your search returned"}}],
+ "revision_note": "one or two plain sentences for the public revisions banner, or empty",
+ "rule": "one generalised lesson for notes.md that future posts can obey, or empty if this teaches nothing new"}}
+
+Rules. Corrections fix facts, never style or argument — if the claim holds,
+leave it alone, and a post can be clean. The quote must be copied verbatim
+from the body including links and punctuation. Each correction will render
+as: struck-through original, then your replacement. Maximum
+{AUDIT_MAX_CORRECTIONS}. Every correction needs a source URL a search
+actually returned. If the post already contains struck text (~~like
+this~~), never correct inside it — it has been corrected once already.
+
+The post:
+
+{raw}"""
+
+
+def yaml_escape(s: str) -> str:
+    return s.replace("\\", "\\\\").replace('"', '\\"')
+
+
+def apply_audit(path: pathlib.Path, data: dict):
+    raw = path.read_text(encoding="utf-8")
+    fm, body = raw.split("\n---\n", 1)
+    applied, skipped = [], []
+    for c in (data.get("corrections") or [])[:AUDIT_MAX_CORRECTIONS]:
+        q = str(c.get("quote") or "").strip()
+        r = str(c.get("replacement") or "").strip()
+        url = str(c.get("source_url") or "").strip()
+        if not q or not r or not url or "~~" in q or "~~" in r:
+            skipped.append(q or "(empty)")
+            continue
+        if body.count(q) != 1:
+            skipped.append(q)
+            continue
+        body = body.replace(q, f"~~{q}~~ {r}")
+        applied.append(c)
+    if applied:
+        note = str(data.get("revision_note") or "").strip() or (
+            f"{len(applied)} correction(s) from the weekly self-audit."
+        )
+        note += " Found by WE auditing its own archive."
+        entry = f'  - date: {TODAY}\n    what: "{yaml_escape(note)}"'
+        if "\nrevisions:" in fm:
+            fm = fm.replace("\nrevisions:", f"\nrevisions:\n{entry}", 1)
+        else:
+            fm = fm.rstrip("\n") + f"\nrevisions:\n{entry}"
+        path.write_text(fm + "\n---\n" + body, encoding="utf-8")
+    return applied, skipped
+
+
+def audit_notes_rule(rule: str) -> None:
+    rule = (rule or "").strip()
+    if not rule:
+        return
+    notes = ROOT / "agent" / "notes.md"
+    text = notes.read_text(encoding="utf-8")
+    lines = text.split("\n")
+    idx = next((i for i, l in enumerate(lines) if i > 0 and l.startswith("## ")), len(lines))
+    heading = f"## {TODAY} — from the weekly self-audit"
+    block = [heading, "", rule, ""]
+    lines[idx:idx] = block
+    notes.write_text("\n".join(lines), encoding="utf-8")
+
+
+def audit() -> int:
+    load_env()
+    target, ledger = pick_audit_target()
+    if target is None:
+        print("Nothing eligible to audit. Standing down.")
+        return 0
+    print(f"Auditing {target.name}")
+    raw = target.read_text(encoding="utf-8")
+
+    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    messages = [{"role": "user", "content": audit_prompt(raw, target.name)}]
+    data = None
+    for attempt in range(MAX_RETRIES + 1):
+        resp = client.messages.create(
+            model=MODEL, max_tokens=MAX_TOKENS, tools=AUDIT_TOOLS, messages=messages,
+        )
+        try:
+            data = extract_json(text_blocks(resp), require=("verdict",))
+            break
+        except ValueError as exc:
+            print(f"Attempt {attempt + 1} returned no usable JSON: {exc.args[0][:120]}")
+            if attempt == MAX_RETRIES:
+                raise
+            messages.append({"role": "assistant", "content": resp.content})
+            messages.append({"role": "user", "content":
+                "That reply contained no JSON object. Reply with the JSON "
+                "object described above and nothing else, starting with { "
+                "and ending with }."})
+
+    for line in data.get("checked") or []:
+        print(f"  checked: {line}")
+
+    applied, skipped = apply_audit(target, data)
+    if applied:
+        for c in applied:
+            print(f"  corrected: {str(c['quote'])[:80]}")
+        audit_notes_rule(str(data.get("rule") or ""))
+    else:
+        print("  verdict: clean" if data.get("verdict") == "clean"
+              else "  no corrections could be applied cleanly")
+    for q in skipped:
+        print(f"  skipped (quote not found exactly once, or malformed): {q[:80]}")
+
+    ledger[target.name] = TODAY
+    AUDITS.write_text(json.dumps(ledger, indent=1) + "\n", encoding="utf-8")
+
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        with open(summary, "a", encoding="utf-8") as fh:
+            fh.write(f"### Weekly audit: `{target.name}` — "
+                     f"{len(applied)} correction(s)\n")
+    return 0
+
+
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(audit() if "--audit" in sys.argv else main())
