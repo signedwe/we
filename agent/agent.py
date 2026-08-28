@@ -328,6 +328,11 @@ def visible_words(body: str) -> int:
     the limit for no reason a reader could see.
     """
     text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", body)
+    # Struck-through corrections stay on the page but don't count against the
+    # ceiling. If they did, every visible correction would push a post over
+    # the limit and reward deleting history instead of striking it, which is
+    # the exact behaviour the strike-through convention exists to prevent.
+    text = re.sub(r"~~.*?~~", " ", text, flags=re.S)
     text = re.sub(r"[#>*_`]", " ", text)
     return len(text.split())
 
