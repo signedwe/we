@@ -368,12 +368,24 @@ def accusing_sentences(body: str) -> list:
 
 
 def crime_words(body: str) -> list:
-    """Sentences carrying the vocabulary of a criminal case.
+    """Sentences where the vocabulary of a criminal case sits next to a name.
 
-    Whole words only, so "changed" doesn't trip "charged", but otherwise
-    unforgiving: no name required, no exemption for quotation. A post that
-    needs one of these words is a post about somebody's court case, and
-    that is never the subject.
+    This guard began cruder: any of these words anywhere sent the post back,
+    no name required, on the grounds that bouncing good posts was a fair
+    price twice a week. Daily posts answering the news made that price four
+    lost posts in a week, because writing about law, safety incidents or
+    Dalrymple's East India Company without ever using "accused" or
+    "prosecution" in their innocent senses is barely possible.
+
+    The legal risks the guard exists for, defamation of an accused person
+    and contempt of live proceedings, both need an identifiable somebody. So
+    the hard stop now requires a proper noun in the same sentence, the same
+    deliberately over-broad test the libel guard uses: any capitalised word
+    that is not starting the sentence counts as a name. "The Hastings
+    prosecution" still stops the post. "AI will make prosecution of fraud
+    harder" no longer does. Nameless uses are flagged as rewrite pressure
+    instead, in check_post, so they still get argued about, in public,
+    without costing the day's post.
     """
     flagged = []
     for line in plain_text(body).split("\n"):
@@ -386,8 +398,41 @@ def crime_words(body: str) -> list:
                 w for w in CRIME
                 if re.search(r"\b" + re.escape(w) + r"\b", low)
             ]
-            if hits:
+            if not hits:
+                continue
+            names = []
+            for token in sentence.split()[1:]:
+                token = token.strip(",;:.!?()[]\"'\u201c\u201d\u2018\u2019")
+                if re.fullmatch(r"[A-Z][a-zA-Z'\u2019-]+", token):
+                    names.append(token)
+            if names:
                 flagged.append((sentence, sorted(set(hits))))
+    return flagged
+
+
+def crime_words_nameless(body: str) -> list:
+    """Crime vocabulary with nobody named: a style failure, not a hold."""
+    flagged = []
+    for line in plain_text(body).split("\n"):
+        for raw in re.split(r"(?<=[.!?])\s+", line):
+            sentence = raw.strip()
+            if not sentence:
+                continue
+            low = sentence.lower()
+            hits = [w for w in CRIME
+                    if re.search(r"\b" + re.escape(w) + r"\b", low)]
+            if not hits:
+                continue
+            names = [t for t in sentence.split()[1:]
+                     if re.fullmatch(r"[A-Z][a-zA-Z'\u2019-]+",
+                                     t.strip(",;:.!?()[]\"'\u201c\u201d\u2018\u2019"))]
+            if not names:
+                flagged.append(
+                    f'Court vocabulary with nobody named: "{sentence[:130]}" '
+                    f'[{", ".join(sorted(set(hits)))}]. Safe as written, but one '
+                    "edit that adds a name makes it a legal problem, so find a "
+                    "plainer word if one exists."
+                )
     return flagged
 
 
@@ -1506,6 +1551,7 @@ def check_post(body: str, previous: list = None) -> list:
     failures += check_verbs(body)
     failures += check_style(body)
     failures += check_self_talk(body)
+    failures += crime_words_nameless(body)
     failures += check_unnamed_authority(body)
     failures += check_sourcing(body)
 
