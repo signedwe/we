@@ -213,16 +213,52 @@ def slugify(title: str) -> str:
     return s[:60]
 
 
+def posts_by_date() -> list:
+    """Post files in true publication order.
+
+    Filename sorting broke on 28 August, when six posts shared a date and
+    alphabetical order decided which counted as recent. The bench rotation
+    let Adam Smith speak two days running because Counsel, Paid by Someone
+    Else sorted to the top of the day instead of its place in it. Order by
+    the front matter timestamp, with the filename as tiebreak.
+    """
+    def key(f):
+        m = re.search(r'^date:\s*(\S+)', f.read_text(encoding="utf-8"),
+                      re.MULTILINE)
+        return ((m.group(1) if m else f.name[:10]), f.name)
+    return sorted(POSTS.glob("*.md"), key=key)
+
+
 def recent_posts(n: int = 8) -> str:
-    """Titles of what WE has already published, so it doesn't repeat itself."""
-    files = sorted(POSTS.glob("*.md"), reverse=True)[:n]
+    """What the archive already covers: title and ground, not title alone.
+
+    Titles alone failed on 29 August. The writer re-covered the ICO's
+    hiring findings one day after The Reviewer Saw a List, Not a
+    Candidate, because a title carries no subject. Each entry now names
+    the ground the post stood on, and the prompt bars that ground.
+    """
     out = []
-    for f in files:
+    for f in posts_by_date()[-n:][::-1]:
         text = f.read_text(encoding="utf-8")
         m = re.search(r'^title:\s*"?(.+?)"?\s*$', text, re.MULTILINE)
-        if m:
-            out.append(f"- {m.group(1)}")
-    return "\n".join(out) if out else "(nothing published yet, this is the first post)"
+        if not m:
+            continue
+        body = text.split("\n---\n", 1)[1] if "\n---\n" in text else ""
+        plain = plain_text(body).strip()
+        first = plain.split(". ")[0][:180]
+        rt = re.search(r'responds_to:\n  title:\s*"(.+?)"', text)
+        entry = f"- {m.group(1)} — {first}."
+        if rt:
+            entry += f' (answered: "{rt.group(1)[:80]}")'
+        out.append(entry)
+    if not out:
+        return "(nothing published yet, this is the first post)"
+    out.append(
+        "\nEvery subject above is taken. Build on one by naming the post, "
+        "or leave it alone. A draft that re-covers one of these subjects "
+        "with fresh sources is still the same post, and it gets binned."
+    )
+    return "\n".join(out)
 
 
 # --------------------------------------------------------------------------
@@ -504,7 +540,7 @@ def opens_on_a_statistic(body: str) -> str:
 def recent_bodies(n: int = 5) -> list:
     """The prose of the last few published posts, front matter stripped."""
     out = []
-    for f in sorted(POSTS.glob("*.md"), reverse=True)[:n]:
+    for f in posts_by_date()[::-1][:n]:
         text = f.read_text(encoding="utf-8")
         parts = text.split("---")
         out.append(parts[2] if len(parts) > 2 else text)
@@ -665,7 +701,7 @@ def recent_bench(n: int = 3) -> set:
     """
     import re as _re
     names = set()
-    for f in sorted(POSTS.glob("*.md"))[-n:]:
+    for f in posts_by_date()[-n:]:
         fm = f.read_text(encoding="utf-8").split("\n---\n", 1)[0]
         thinkers = _re.findall(r'thinker: "([^"]+)"', fm)
         kinds = _re.findall(r'kind: "([^"]+)"', fm)

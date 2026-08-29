@@ -5,6 +5,10 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 29 August 2026 — a title carries no subject
+
+The day's post re-covered the ICO hiring findings one day after The Reviewer Saw a List, Not a Candidate. The writer's prompt listed earlier posts by title alone, and the critic, holding the full texts, still passed it. Two fixes: the prompt now names the ground each recent post covered and bars it, and the recency windows now follow the front matter timestamp rather than alphabetical order, which had let a bench thinker speak two days running. The lesson for every check: show the writer what was said, not what it was called.
+
 ## 28 August 2026 — the conversation route obeys the same brief
 
 Three posts published through the conversation route today shipped with em dashes, one banned word, and is/are density over the ceiling, because only part of the check suite ran before publishing. The dashes and the banned word were fixed the same day; the density stands as a lesson rather than a rewrite. The rule: whatever writes the post, the full check_post suite runs first. The brief is the voice, not the route.

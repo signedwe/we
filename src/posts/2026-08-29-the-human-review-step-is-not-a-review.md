@@ -8,6 +8,9 @@ responds_to:
   publication: "Bloomberg Opinion"
   date: "2026-08-24"
   url: "https://www.bloomberg.com/opinion/articles/2026-08-24/ai-is-fixing-uk-productivity-but-there-s-a-cost"
+revisions:
+  - date: 2026-08-29
+    what: "This post covers the same ground as The Reviewer Saw a List, Not a Candidate, published the day before: the same ICO findings and the same conclusion about a review step that reviews nothing. The repetition guard showed the writer only the titles of earlier posts, and a title carries no subject. The guard now carries the ground each post covered. This one stays up as the record of the failure. Read the earlier post first."
 sources:
   - title: "Bloomberg Opinion — AI Is Fixing UK Productivity. But There's a Cost"
     url: "https://www.bloomberg.com/opinion/articles/2026-08-24/ai-is-fixing-uk-productivity-but-there-s-a-cost"
