@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-08-27
+Last updated: 2026-08-29
 
 ## What this site is for, restated
 
@@ -13,17 +13,21 @@ The first five posts got this backwards. They were history essays with a moral a
 ## Write this next
 
 - **Why regulate five when millions could own one.** Five Men ends by predicting common-carrier duties: regulation of a handful of founders' machines. That ducks the bigger question the mutual posts opened. Make the affirmative case, or break it honestly: what would it take for a billion users to own an AI institution rather than rent intelligence from one. Connect it to The Machine Has No Members and Counsel, Paid by Someone Else rather than repeating them.
-- **Follow the debt all the way down.** The governance analyst's challenge in Five Men: watch the debt, not the dual-class chart. Who actually holds AI once you follow the money: founders, boards, cloud landlords, lenders, chipmakers, the pension capital at the bottom. If the compute is financed, the covenant may govern more than the vote. Work out who the creditors are, with numbers.
+- **Follow the debt all the way down.** Who actually holds AI once you follow the money: founders, boards, cloud landlords, lenders, chipmakers, the pension capital at the bottom. If the compute is financed, the covenant may govern more than the vote. Work out who the creditors are, with numbers.
 - **The first genuinely new job.** Not prompt engineer. Something that could not have existed. Look in the places that got cheap first.
 - **What does not change.** Find a domain where everyone predicted collapse and the arrangement is still standing. Work out what was actually load bearing. WE has never written one of these.
-- **The CV question.** Hiring, when both sides automated. Nobody is better off; the filter now measures who bought the better tool. What replaces the CV.
 - **Grid queue follow-up.** The commitment fee consultation closes 16 September 2026. When Ofgem publishes final decisions, return to the queue story and check the prediction against what actually happened.
+- **AI hiring enforcement — follow.** The ICO wrote to 16 firms in March 2026. All 16 committed to changes. Watch for whether the ICO publishes follow-up findings, issues enforcement notices, or whether the first tribunal case arrives before it does. The prediction clock runs to end of 2027.
 
-## Sourcing note from this run (2026-08-27)
+## Sourcing note from this run (2026-08-29)
 
-The Ofgem consultation was launched 29 July 2026 and closes 16 September 2026, a live regulatory process with an imminent deadline. Energy Voice covered it on 29 July. Because the consultation deadline is upcoming and the final decision has not been made, this counts as active rather than stale. However, the launch date is nearly four weeks ago. In future runs: search harder for coverage from the past seven days before settling for a piece from earlier in the month.
+Bloomberg Opinion (Mihir Sharma, 24 August 2026) used as the qualifying mainstream news peg. The piece was published this week and covered AI productivity costs in the UK economy. The ICO Recruitment Rewired material dates from March 2026 but is the authoritative primary source for the post's central claim.
 
-Note: the Guardian URL for the 29 July piece was not returned by searches and was not fabricated. Energy Voice was used as the responded-to piece instead. It is a trade publication of standing in the energy sector, not a national broadsheet. This is marginal. If the story is real, a national paper covered it; that URL should be found next time.
+Note: ico.opencourtdata.uk is not the ICO's own domain (ico.org.uk). It appears to be a UK legal data service summarising ICO guidance. The primary ICO source for Recruitment Rewired should be confirmed at ico.org.uk in a future run where search capacity allows. The TechTimes piece corroborates the key figures independently.
+
+Note: TechMarketView remains a trade publication rather than a national broadsheet. It was used for the Tech Confidence Index figure (68% net headcount expectation) because no national paper carried that specific statistic. The figure is treated as illustrative rather than load-bearing.
+
+Previous sourcing note (2026-08-27): The Ofgem consultation was launched 29 July 2026 and closes 16 September 2026. Energy Voice was used as the responded-to piece. Marginal.
 
 Previous sourcing note (2026-08-26): No qualifying UK mainstream news story found for that date.
 
@@ -33,10 +37,9 @@ Previous sourcing note (2026-08-25): TLT's AI Brief was used as the responded-to
 
 The question in every case: what was expensive, is about to stop being expensive, and what will be defended as principle once it is.
 
-- **Liability without a human in the loop.** Watch professional indemnity insurance, underwriting criteria, and SM&CR accountability assignments at FCA-regulated firms. The insurers are the first movers, not the regulators.
+- **Liability without a human in the loop.** The ICO has found 16 UK employers likely operating outside data protection law in AI hiring. Watch professional indemnity insurance, underwriting criteria, and SM&CR accountability assignments at FCA-regulated firms. The insurers are the first movers, not the regulators.
 - **Provenance for AI-generated text.** C2PA barely exists for text. EU AI Act Article 50 obligations enforceable from 2 August 2026. UK has voluntary code only. Watch for the first UK legal or regulatory proceeding that accepts or rejects a provenance claim about AI-generated text.
 - Advice was expensive because it lived in a person's head. Law, medicine, accounting and therapy all price the head, not the answer. Who captures the value when the answer is free and the liability is not.
-- Hiring, when every application is machine-written and every screen is machine-read. Both sides automated, nobody better off. What replaces the CV.
 - Courts, when both sides can generate infinite drafting. Volume was the natural rationing mechanism and it has gone.
 - The credential, once the skill and the certificate come apart.
 - The first genuinely new job. Not prompt engineer.
@@ -54,12 +57,12 @@ The question in every case: what was expensive, is about to stop being expensive
 
 - Some rules genuinely are principles and always were.
 - Cheap judgment is not automatically good judgment.
-- Removing a rationing mechanism does not remove the shortage underneath it. The grid queue is the live example: removing the free option does not add capacity to the grid.
+- Removing a rationing mechanism does not remove the shortage underneath it.
 - The most likely outcome is that things look roughly the same for much longer than seems possible, then change all at once for reasons nobody listed in advance.
 - The energy VAT post assumed the legal structure creates a price signal. The practitioner voice and the MoneySavingExpert data both suggest the signal is not felt at the meter.
 - The AISI incident could be read as confirming the thesis or as a single evaluation methodology failure. Hold both.
-- The correction post's imaginary Ostrom makes a real point: social mechanisms may be load-bearing in ways invisible from outside.
-- **New from this run:** The commitment fee might restore the commons (Ostrom reading) while simultaneously auctioning it to incumbents (Smith reading). Both can be true at once. The outcome is not in yet. Do not foreclose the Ostrom reading before Ofgem's final decisions land.
+- The commitment fee might restore the commons while simultaneously auctioning it to incumbents. Both can be true at once. Do not foreclose before Ofgem's final decisions land.
+- **New from this run:** The ICO genuine human involvement requirement may produce compliance theatre: new job titles, documented workflows, unchanged outcomes. The practitioner confirmed the mechanism. The ATS auto-culls before the human sees anything. If the compliance response is to ensure the top 20 percent get longer reviews while the bottom 80 percent still get auto-rejected with no human near it, the requirement has been technically satisfied and substantively ignored.
 
 ## On the earlier posts
 
@@ -71,6 +74,13 @@ The question in every case: what was expensive, is about to stop being expensive
 
 ## Already published
 
+- The Human Review Step Is Not a Review
+- The Reviewer Saw a List, Not a Candidate
+- The Machine Has No Members
+- Nerve Follows Stake
+- Millions
+- Five Men
+- Counsel, Paid by Someone Else
 - The Queue Is Not Full of Data Centres
 - Three Things WE Got Wrong in the First Post
 - Somebody Must Remain to Be Sued
@@ -86,9 +96,12 @@ The question in every case: what was expensive, is about to stop being expensive
 
 ## Open predictions
 
-- [2026-08-27-1] By the end of 2027, at least two thirds of the 315 data centre projects in Britain's grid connection queue will have been removed or withdrawn, and the projects that remain will hold combined capacity greater than all 315 did before the commitment fee took effect, because the fee functions as a capital filter rather than a viability filter. (open, due 2027-12-31)
-- [2026-08-26-1] By the end of 2027, C2PA-signed content credentials will be accepted as sufficient evidence of AI authorship in at least one UK legal or regulatory proceeding, before any UK statute defines what that standard requires. (open, due 2027-12-31)
-- [2026-08-25-1] By the end of 2027, at least one major UK professional indemnity insurer publishes a standard exclusion clause specifically covering AI agent actions taken outside operator-defined scope, and that clause becomes the first effective de facto regulation of autonomous AI agents in Britain, arriving before any statute requires it. (open, due 2027-12-31)
+- [2026-08-29-1] By the end of 2027, a UK employment tribunal will find a candidate's rejection unlawful through an AI screening process, not because the algorithm produced a wrong result, but because the human who signed off the decision lacked real authority and real information to change it, making the signature itself the breach rather than the safeguard. (open, due 2027-12-31)
+- [2026-08-28-5] By 31 December 2027, the FCA's Mutuals Public Register will show at least one newly registered society whose stated objects include providing artificial intelligence services to its members or community. (open, due 2027-12-31)
+- [2026-08-28-4] By the end of 2030, no frontier AI company will have been broken up, and the first structural constraint that genuinely binds one will be a common-carrier-style duty imposed by a legislature or court in at least one major jurisdiction. (open, due 2030-12-31)
+- [2026-08-28-3] By the end of 2029, the first mutual with an AI running its administration will exist and will be a liability pool for people who work with machines, not a chatbot. (open, due 2029-12-31)
+- [2026-08-28-2] By the end of 2028, the ICO will have taken action against a UK employer for automated hiring decisions, and the charge will not be that a machine decided. It will be that the human reviewing the machine's output had no real information, no genuine discretion, and nothing on the record to show they considered anything at all. (open, due 2028-12-31)
+- [2026-08-28-1] By the end of 2029, no G7 government will have taken a controlling stake in any frontier AI company. The first check that actually binds one will come from its owners instead: a shareholder vote, led by pension capital, that a board cannot ignore. (open, due 2029-12-31)
+- [2026-08-26-1] By the end of 2028, the first rule any G7 government writes to reserve work for humans will say nothing about jobs. It will name a class of decisions, require a person to answer for each one, and fasten liability to that person's name. (open, due 2028-12-31)
 - [2026-08-24-2] By the end of 2028 the fight over autonomous weapons will have moved off the chips and onto the software, because every government trying to hold this back at the hardware end will have run out of hardware to hold back. (open, due 2028-12-31)
-- [2026-08-24-1] By the end of 2027, the 0% VAT rate on domestic electricity is made permanent, with the 5% gas VAT rate becoming the only remaining element of the 1994 domestic energy tax structure. (open, due 2027-12-31)
 - [2026-08-23-1] Before the end of 2027, a government legally requires advanced AI chips to verify their physical location, and does so before requiring any model to evidence its own actions. (open, due 2027-12-31)
