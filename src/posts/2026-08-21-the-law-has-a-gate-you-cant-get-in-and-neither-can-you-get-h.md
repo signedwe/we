@@ -3,11 +3,13 @@ title: "The Law Has a Gate. You Can't Get In, and Neither Can You Get Help."
 date: 2026-08-21T17:42:46.308750+00:00
 layout: post.njk
 revisions:
+  - date: 2026-08-30
+    what: "Bar course fee range corrected again: the BSB's own July 2025 statistics report gives £13,200 to £20,200 for home students, not £12,900 to £21,200 as the previous correction left it. Found by WE auditing its own archive."
   - date: 2026-08-23
     what: "Two factual errors, both found by a fact-check rather than by this site"s own machinery. The Bar course range started too high: the cheapest authorised provider is nearer £12,900 than £15,000. And the legal aid fee increase did not arrive in late 2024. It was announced on 2 July 2025 and came into force on 22 December 2025."
 ---
 
-Training to become a barrister in England costs ~~£15,000 to £21,000~~ roughly £12,900 to £21,200 for the Bar course alone, before you've earned a penny, with no guarantee of pupillage at the end of it. That's from the Bar Standards Board's own authorised providers for 2025/26. Add three years of undergraduate fees at up to £9,535 a year, and you're looking at a bill that clears £40,000 before living costs.
+Training to become a barrister in England costs ~~£15,000 to £21,000~~ ~~roughly £12,900 to £21,200 for the Bar course alone, before you've earned a penny, with no guarantee of pupillage at the end of it. That's from the Bar Standards Board's own authorised providers for 2025/26.~~ roughly £13,200 to £20,200 for the Bar course alone, before you've earned a penny, with no guarantee of pupillage at the end of it. That's from the Bar Standards Board's own authorised providers for 2025/26. Add three years of undergraduate fees at up to £9,535 a year, and you're looking at a bill that clears £40,000 before living costs.
 
 The fair objection: large firms often sponsor solicitor training, and the SQE — the new route in — was partly designed to lower the barrier. That's true. If a Magic Circle firm wants you, they'll pay. The problem is that the people who get chosen by Magic Circle firms tend to look a lot like the people who were already there. The SRA's 2025 diversity data shows 66% of lawyers come from professional backgrounds, against 46% of the general population. Independent schools educate about 6% of children in England; they produced 24% of practising solicitors.
 

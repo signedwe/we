@@ -7,6 +7,10 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ## 2026-08-30 — from the weekly self-audit
 
+When correcting a number, pull the primary source directly and record the exact figure and its page/table reference in notes — a corrected range that still misquotes both endpoints shows that secondary sources used in the original correction were themselves imprecise.
+
+## 2026-08-30 — from the weekly self-audit
+
 When citing a well-known range for a process duration, check whether an authoritative body has published a recent average that supersedes the traditional range — a floor figure can be technically true but actively misleading if the lived average has shifted.
 
 ## 30 August 2026 — from the first weekly review
