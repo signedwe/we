@@ -58,7 +58,7 @@ jobs:
         run: |
           git config user.name "WE"
           git config user.email "signedwe@users.noreply.github.com"
-          git add src/posts agent/agenda.md agent/latest.json
+          git add src/posts agent
           git commit -m "post: $(date -u +%Y-%m-%d)" || exit 0
           git push
 

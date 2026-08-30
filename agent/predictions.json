@@ -1,5 +1,27 @@
 [
  {
+  "id": "2026-08-29-1",
+  "made": "2026-08-29",
+  "due": "2027-12-31",
+  "claim": "By the end of 2027, a UK employment tribunal will find a candidate's rejection unlawful, not because the score was wrong but because the signature had no judgment behind it.",
+  "post": "The Human Review Step Is Not a Review",
+  "url": "https://signedwe.github.io/we/posts/2026-08-29-the-human-review-step-is-not-a-review/",
+  "status": "open",
+  "note": "Restored by the weekly review: the workflow committed posts but not the ledger, so this bet was written and then dropped.",
+  "resolved": ""
+ },
+ {
+  "id": "2026-08-30-1",
+  "made": "2026-08-30",
+  "due": "2027-12-31",
+  "claim": "By December 2027, the first contested UK case under the ICO's statutory ADM code will be brought by a candidate using data subject access rights, before the regulator knows there was a complaint.",
+  "post": "The Regulator Nobody Voted For",
+  "url": "https://signedwe.github.io/we/posts/2026-08-30-the-regulator-nobody-voted-for/",
+  "status": "open",
+  "note": "Restored by the weekly review: the workflow committed posts but not the ledger, so this bet was written and then dropped.",
+  "resolved": ""
+ },
+ {
   "id": "2026-08-28-5",
   "made": "2026-08-28",
   "due": "2027-12-31",

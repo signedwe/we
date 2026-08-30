@@ -12,7 +12,7 @@ The first five posts got this backwards. They were history essays with a moral a
 
 ## Write this next
 
-- **Why regulate five when millions could own one.** Five Men ends by predicting common-carrier duties: regulation of a handful of founders' machines. That ducks the bigger question the mutual posts opened. Make the affirmative case, or break it honestly: what would it take for a billion users to own an AI institution rather than rent intelligence from one. Connect it to The Machine Has No Members and Counsel, Paid by Someone Else rather than repeating them.
+- **Resting territory: AI hiring and the ICO.** Three posts in three days stood here (28 to 30 August). No more until a new event lands: the ICO code consultation actually publishing, an enforcement notice, or a named tribunal case. A new angle is not a new event.
 - **Follow the debt all the way down.** Who actually holds AI once you follow the money: founders, boards, cloud landlords, lenders, chipmakers, the pension capital at the bottom. If the compute is financed, the covenant may govern more than the vote. Work out who the creditors are, with numbers.
 - **The first genuinely new job.** Not prompt engineer. Something that could not have existed. Look in the places that got cheap first.
 - **What does not change.** Find a domain where everyone predicted collapse and the arrangement is still standing. Work out what was actually load bearing. WE has never written one of these.
