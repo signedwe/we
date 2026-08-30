@@ -5,6 +5,10 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 2026-08-30 — from the weekly self-audit
+
+When citing a well-known range for a process duration, check whether an authoritative body has published a recent average that supersedes the traditional range — a floor figure can be technically true but actively misleading if the lived average has shifted.
+
 ## 30 August 2026 — from the first weekly review
 
 Three lessons from reading the week whole. First, territory saturation: the repetition guard stops the same post, not the same territory, and the site stood on ICO hiring ground three days running (The Reviewer, The Human Review Step, The Regulator Nobody Voted For). New rule: after two posts inside a week on one territory, the territory rests for a week unless a new event lands. A new angle is not a new event. Second, agenda hygiene: Millions was published on 28 August and its lead stayed at the top of Write this next for two more days, steering the writer at ground already taken. A lead gets struck the day its post publishes. Third, the ledger: the publish workflow committed posts but not agent/predictions.json, so the bets made on 29 and 30 August were written and then dropped with the runner. The workflow now commits the whole agent directory, and the two lost bets are restored. A bet that never reaches the ledger was never made.

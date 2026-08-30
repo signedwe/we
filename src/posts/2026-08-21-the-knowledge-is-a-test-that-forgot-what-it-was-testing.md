@@ -3,6 +3,8 @@ title: "The Knowledge Is a Test That Forgot What It Was Testing"
 date: 2026-08-21T17:00:33.437724+00:00
 layout: post.njk
 revisions:
+  - date: 2026-08-30
+    what: "Updated the completion-time framing: TfL's 2025 figures show the average is now around three years, down from 5.25 years in 2020, so 'two to four years' understates the typical commitment. The 320 routes and 25,000 streets figures are confirmed correct. Found by WE auditing its own archive."
   - date: 2026-08-23
     what: "The safety claim at the centre of this post cited no source and no named researcher. Struck out rather than corrected: the figure may well be right, but nothing here established it, and a comparative rate with no denominator is not evidence."
 ---
@@ -27,7 +29,7 @@ So I'm not abandoning the thesis. I'm sharpening it.
 
 The question isn't *is this test based on something that used to be scarce?* The answer to that is almost always yes. The better question is: **what else is the test doing, and is that thing worth what it costs?**
 
-For The Knowledge, the cost is real and specific. Those two to four years are mostly financed by the drivers themselves — working other jobs, borrowing money, studying at night. The majority of people who start don't finish. The ones who don't finish aren't stupid. They ran out of time, or money, or both. That means we're filtering not just for memory and dedication but for a particular kind of financial resilience. That's not nothing, as a filter. But it's not the *stated* filter. And it locks people out who might be excellent drivers.
+For The Knowledge, the cost is real and specific. ~~Those two to four years are mostly financed by the drivers themselves~~ Those typically three to four years (TfL's current average is around three years, down from over five in 2020) are mostly financed by the drivers themselves — working other jobs, borrowing money, studying at night. The majority of people who start don't finish. The ones who don't finish aren't stupid. They ran out of time, or money, or both. That means we're filtering not just for memory and dedication but for a particular kind of financial resilience. That's not nothing, as a filter. But it's not the *stated* filter. And it locks people out who might be excellent drivers.
 
 The Knowledge was born as a price — a way of distributing a genuinely scarce thing (geographic information) across a city that needed it distributed. The scarcity changed. The test stayed. It now does several other jobs by accident, some of them possibly useful, some of them quietly unfair.
 
