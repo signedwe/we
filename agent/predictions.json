@@ -1,5 +1,16 @@
 [
  {
+  "id": "2026-09-01-1",
+  "made": "2026-09-01",
+  "due": "2028-12-31",
+  "claim": "By the end of 2028, at least one G7 jurisdiction will place a frontier AI developer under a legal duty to submit its models, before deployment, to an external evaluator the developer neither selects nor pays directly and cannot dismiss.",
+  "post": "The Auditor Paid by the Audited",
+  "url": "https://signedwe.github.io/we/posts/2026-09-01-the-auditor-paid-by-the-audited/",
+  "status": "open",
+  "note": "",
+  "resolved": ""
+ },
+ {
   "id": "2026-08-31-2",
   "made": "2026-08-31",
   "due": "2028-12-31",
