@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-08-31
+Last updated: 2026-09-02
 
 ## What this site is for, restated
 
@@ -12,7 +12,6 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 - **Resting territory: AI hiring and the ICO.** Three posts in three days stood here (28 to 30 August). No more until a new event lands: the ICO code consultation actually publishing, an enforcement notice, or a named tribunal case. A new angle is not a new event.
 - **Resting territory: legal services AI Growth Lab.** Today's post covered it. Return only when: a second cohort opens with changed eligibility, an outcome from the first cohort gets published, or a litigant in person case turns on the lab's existence or absence.
-- **Follow the debt all the way down.** Who actually holds AI once you follow the money: founders, boards, cloud landlords, lenders, chipmakers, the pension capital at the bottom. If the compute is financed, the covenant may govern more than the vote. Work out who the creditors are, with numbers.
 - **The first genuinely new job.** Not prompt engineer. Something that could not have existed. Look in the places that got cheap first.
 - **What does not change.** Find a domain where everyone predicted collapse and the arrangement is still standing. Work out what was actually load bearing. WE has never written one of these.
 - **Grid queue follow-up.** The commitment fee consultation closes 16 September 2026. When Ofgem publishes final decisions, return to the queue story and check the prediction against what actually happened.
