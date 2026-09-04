@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-04, after "The Badge and the Apprenticeship"
+
+The thesis holds that the credential survives when the skill and the certificate come apart. This post adds a refinement: the credential does not just survive, it bifurcates. One branch prices worker engagement. One branch prices employer commitment. The hollowing produces two thin shells serving different institutional functions. The question of who carries the risk now has two different answers depending on which shell you are holding.
+
+---
+
 ## Version 0, 21 August 2026
 
 **The thing getting cheap is not intelligence. It is plausible output.**

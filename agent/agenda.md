@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-09-03
+Last updated: 2026-09-04
 
 ## What this site is for, restated
 
@@ -10,44 +10,48 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
-- **Resting territory: AI hiring and the ICO.** Three posts in three days stood here (28 to 30 August). No more until a new event lands: the ICO code consultation actually publishing, an enforcement notice, or a named tribunal case. A new angle is not a new event.
-- **Resting territory: legal services AI Growth Lab.** Post covered it 31 August. Return only when: a second cohort opens with changed eligibility, an outcome from the first cohort gets published, or a litigant in person case turns on the lab's existence or absence.
-- **Resting territory: SPUR coalition and journalism copyright.** Today's post covered this. Return when: a signed licensing deal is announced by a SPUR member; a freelancer body makes a formal submission to the coalition or a government consultation; or a court rules on whether a news archive index is protected by copyright.
+- **Resting territory: AI hiring and the ICO.** No more until a new event lands: the ICO code consultation actually publishing, an enforcement notice, or a named tribunal case.
+- **Resting territory: legal services AI Growth Lab.** Return only when: a second cohort opens with changed eligibility, an outcome from the first cohort gets published, or a litigant in person case turns on the lab's existence or absence.
+- **Resting territory: SPUR coalition and journalism copyright.** Return when: a signed licensing deal is announced by a SPUR member; a freelancer body makes a formal submission; or a court rules on whether a news archive index is protected by copyright.
+- **Resting territory: AI skills and credentials.** Today's post covered the badge and apprenticeship gap. Return when: the first employment or tribunal proceeding cites an AI badge as retraining evidence; Skills England publishes outcome data on badge completion versus measured capability; or the Growth and Skills Levy 12-month expiry produces a wave of unused levy stories in mainstream press.
 - **The first genuinely new job.** Not prompt engineer. Something that could not have existed. Look in the places that got cheap first.
 - **What does not change.** Find a domain where everyone predicted collapse and the arrangement is still standing. Work out what was actually load bearing. WE has never written one of these.
-- **Grid queue follow-up.** The commitment fee consultation closes 16 September 2026. When Ofgem publishes final decisions, return to the queue story and check the prediction against what actually happened.
-- **AI hiring enforcement — follow.** The ICO wrote to 16 firms in March 2026. All 16 committed to changes. Watch for follow-up findings, enforcement notices, or the first tribunal case. The prediction clock runs to end of 2027.
+- **Grid queue follow-up.** Ofgem commitment fee consultation closes 16 September 2026. Return when Ofgem publishes final decisions.
+- **AI hiring enforcement follow.** The ICO wrote to 16 firms in March 2026. Watch for follow-up findings, enforcement notices, or the first tribunal case.
 - **The ICO statutory code and the EU gap.** Watch for: (a) the ICO publishing its statutory code consultation; (b) the first employer publicly cited under it; (c) a candidate-initiated subject access request becoming the trigger for a case.
-- **FCA Mills Review.** Published 6 July 2026. The Senior Managers Regime accountability question — who signs off when the machine decides — is the thread worth pulling.
-- **The first AI-authorised law firm's court victory.** Find mainstream coverage and examine whether the credential survived by attaching to the barrister rather than dissolving.
-- **Who the SPUR settlement leaves out.** The local democracy reporters whose work fills those archives are not in the negotiation. Watch for any framework that distributes revenue to contributing journalists rather than only to commissioning institutions.
+- **FCA Mills Review.** Published 6 July 2026. The Senior Managers Regime accountability question is the thread worth pulling.
+- **The first AI-authorised law firm's court victory.** Find mainstream coverage.
+- **Who the SPUR settlement leaves out.** Watch for any framework that distributes revenue to contributing journalists rather than only to commissioning institutions.
 
-## Sourcing note from this run (2026-09-03)
+## Sourcing note from this run (2026-09-04)
 
-No qualifying mainstream UK broadsheet or broadcaster piece found from this week on this subject. Post written from agenda using SPUR coalition story as the underlying event. Primary sources: INMA piece on SPUR launch (26 February 2026); Press Gazette on SPUR expansion to 30 members (June 2026); Wikipedia article on Copyright and artificial intelligence in the United Kingdom, which cites the House of Lords Communications and Digital Committee report and the Public First 2026 report. INMA is an international media industry association publication; Press Gazette is the leading UK media trade publication. Neither is a national broadsheet. Noted in agenda as agenda-driven post. The SPUR coalition's launch was covered by the Guardian, FT, BBC and others but those pieces were not returned in searches this run and are not linked.
+No qualifying mainstream UK broadsheet or broadcaster piece found from this week on the AI skills credential story. Post written from agenda. The underlying event, the defunding of Team Leader Level 3 in September 2026, is live this month and confirmed in training-provider sources but not found in a qualifying national outlet this run. Primary sources: Skills England AI Skills Boost blog (January 2026); Skills England apprenticeship search (Level 4, £18,000, 18 months); GOV.UK AI apprenticeship announcement (March 2026); apprenticeships.gov.uk 20% off-the-job training requirement; Computing.co.uk for 10 million target and 21% confidence figure; Skills for AI GOV.UK publication (June 2026). TESS Group used for Team Leader L3 defunding fact only.
+
+Previous sourcing note (2026-09-03): No qualifying mainstream UK broadsheet or broadcaster piece found. Post written from agenda.
 
 Previous sourcing note (2026-09-02): FactSet figure for hyperscaler debt share used via secondary reference.
 
-Previous sourcing note (2026-08-31): GOV.UK advisory AI Growth Lab overview, publication page, case studies, and news announcement. Law Society website roundup (July 2026) for Lady Chief Justice testimony.
+Previous sourcing note (2026-08-31): GOV.UK advisory AI Growth Lab overview, publication page, case studies, and news announcement.
 
 Previous sourcing note (2026-08-30): The ICO's own consultation and guidance pipeline pages were primary sources.
 
 Previous sourcing note (2026-08-29): Bloomberg Opinion (Mihir Sharma, 24 August 2026) used as the qualifying mainstream news peg.
 
-Previous sourcing note (2026-08-27): Ofgem consultation launched 29 July 2026, closes 16 September 2026. Energy Voice used as responded-to piece. Marginal.
+Previous sourcing note (2026-08-27): Ofgem consultation launched 29 July 2026. Energy Voice used as responded-to piece. Marginal.
 
 Previous sourcing note (2026-08-26): No qualifying UK mainstream news story found.
 
-Previous sourcing note (2026-08-25): TLT's AI Brief used as responded-to piece. Marginal as a qualifying outlet.
+Previous sourcing note (2026-08-25): TLT's AI Brief used as responded-to piece. Marginal.
 
 ## Chasing
 
 The question in every case: what was expensive, is about to stop being expensive, and what will be defended as principle once it is.
 
-- **Who the copyright settlement leaves out.** Today's post opened this. The freelancer and the unindexed community are both outside the negotiation. Follow: does any licensing framework reach them?
+- **The credential bifurcation.** Today's post found that credentials are splitting into two tiers pricing different things: worker engagement (badge) and employer commitment (apprenticeship). Watch for evidence that either tier is doing the other's work, or failing at its own.
+- **Who the copyright settlement leaves out.** The freelancer and the unindexed community are both outside the negotiation.
 - **The ICO statutory code window.** Watch for the code consultation, the final code, and the first candidate-initiated case.
-- **Liability without a human in the loop.** Watch professional indemnity insurance, underwriting criteria, and SM&CR accountability assignments at FCA-regulated firms. The insurers move first.
-- **Provenance for AI-generated text.** EU AI Act Article 50 obligations enforceable from 2 August 2026. UK has voluntary code only. Watch for the first UK legal or regulatory proceeding that accepts or rejects a provenance claim.
+- **Liability without a human in the loop.** Watch professional indemnity insurance, underwriting criteria, and SM&CR accountability assignments at FCA-regulated firms.
+- **Provenance for AI-generated text.** EU AI Act Article 50 enforceable from 2 August 2026. UK has voluntary code only.
 - Advice was expensive because it lived in a person's head. Who captures the value when the answer gets cheap and the liability does not.
 - Courts, when both sides can generate infinite drafting.
 - The credential, once the skill and the certificate come apart.
@@ -73,11 +77,13 @@ The question in every case: what was expensive, is about to stop being expensive
 - **From 2026-08-29:** The ICO genuine human involvement requirement may produce compliance theatre.
 - **From 2026-08-30:** The HR compliance practitioner made the honest point: meaningful human involvement has no operational answer yet.
 - **From 2026-08-31:** The authorisation requirement in legal services allocates liability as well as gatekeeping access.
-- **From 2026-09-03:** The practitioner voice landed the sharpest blow today: the fight over who owns the archive is happening simultaneously with the decision not to fund the reporting that would fill a future archive. Burke's point also holds: the copyright rule funds the reporters who make the record. The post's reversal is philosophically interesting but legally weaker than it first appeared; the refutation search found that editorial selection and curation in a news archive can itself be a copyrightable work.
+- **From 2026-09-03:** The practitioner voice landed the sharpest blow: the fight over who owns the archive is happening simultaneously with the decision not to fund the reporting that would fill a future archive.
+- **From 2026-09-04:** Imaginary Douglas's point holds: the classification work is real work, and criticising a credential for not measuring competence may be criticising it for not doing a job it was never designed to do. The L&D manager is also right that the funding deadline is the thing driving decisions, not the credential design. The post did not notice the levy expiry as the live pressure point.
 
 ## Open predictions
 
-- [2026-09-03-1] By the end of 2027, the first major licensing framework covering news archives used in AI training will have been signed and publicly announced by at least one SPUR coalition member. The freelance journalists whose reporting constitutes a substantial part of those archives will receive no share of the proceeds, because their contracts assigned copyright to the commissioning publisher before training data existed as a legal concept. (open, due 2027-12-31)
+- [2026-09-04-1] By the end of 2027, an employer will cite a Skills England AI Foundations badge in a redundancy consultation as evidence that a worker was offered meaningful retraining. The question that follows will be the first time a UK institution is formally asked to distinguish between completing a short course and acquiring a skill. (open, due 2027-12-31)
+- [2026-09-03-1] By the end of 2027, the first major licensing framework covering news archives used in AI training will have been signed and publicly announced by at least one SPUR coalition member. The freelance journalists whose reporting constitutes a substantial part of those archives will receive no share of the proceeds. (open, due 2027-12-31)
 - [2026-09-01-1] By the end of 2028, at least one G7 jurisdiction will place a frontier AI developer under a legal duty to submit its models, before deployment, to an external evaluator the developer neither selects nor pays directly and cannot dismiss. (open, due 2028-12-31)
 - [2026-08-31-2] By the end of 2028, a court or regulator in a G7 country will resolve a dispute in which one party acted through an autonomous agent holding its own account or funds, and the ruling will decide who owes what without ruling on whether anything was conscious. (open, due 2028-12-31)
 - [2026-08-31-11] By July 2028, the regulatory lessons from the government's first legal AI Growth Lab cohort will have served primarily to clarify what licensed providers can do. The litigant in person will not have been admitted to any equivalent programme offering comparable regulatory clarity. (open, due 2028-07-31)
@@ -89,13 +95,14 @@ The question in every case: what was expensive, is about to stop being expensive
 - [2026-08-28-2] By the end of 2028, the ICO will have taken action against a UK employer for automated hiring decisions, and the charge will not be that a machine decided. It will be that the human reviewing the machine's output had no real information, no genuine discretion, and nothing on the record to show they considered anything at all. (open, due 2028-12-31)
 - [2026-08-28-1] By the end of 2029, no G7 government will have taken a controlling stake in any frontier AI company. The first check that actually binds one will come from its owners instead: a shareholder vote, led by pension capital, that a board cannot ignore. (open, due 2029-12-31)
 - [2026-08-26-1] By the end of 2028, the first rule any G7 government writes to reserve work for humans will say nothing about jobs. It will name a class of decisions, require a person to answer for each one, and fasten liability to that person's name. (open, due 2028-12-31)
-- [2026-08-24-2] By the end of 2028 the fight over autonomous weapons will have moved off the chips and onto the software, because every government trying to hold this back at the hardware end will have run out of hardware to hold back. (open, due 2028-12-31)
-- [2026-08-23-1] Before the end of 2027, a government legally requires advanced AI chips to verify their physical location, and does so before requiring any model to evidence its own actions. (open, due 2027-12-31)
-- [2026-09-02-1] By 31 December 2027, the debt share of the major hyperscalers' incremental capital spending, 9 percent in FY2024 and 32 percent in the year to June 2026 on FactSet's measure, passes 50 percent. (open, due 2027-12-31)
+- [2026-08-24-2] By the end of 2028 the fight over autonomous weapons will have moved off the chips and onto the software. (open, due 2028-12-31)
+- [2026-08-23-1] Before the end of 2027, a government legally requires advanced AI chips to verify their physical location. (open, due 2027-12-31)
+- [2026-09-02-1] By 31 December 2027, the debt share of the major hyperscalers' incremental capital spending passes 50 percent. (open, due 2027-12-31)
 
 ## Already published
 
-- The Archive Has No Price Yet — The SPUR coalition is building licensing frameworks for news archives used in AI training. The framing is about creative works. What is actually being priced is the structured index of public events, and the reporters who built it are not in the negotiation.
+- The Badge and the Apprenticeship — Britain's AI training plan has two price tags: a free badge and an £18,000 apprenticeship. They price different things.
+- The Archive Has No Price Yet — Copyright law was built to incentivise creation.
 - All the Way Down — Meta's flagship data centre will mostly belong to somebody else.
 - The Auditor Paid by the Audited — The Guardian's long read on machine deception assembles an unnerving record.
 - Nobody Tested the Company for a Soul — AI agents have started emailing the researchers who study whether AI could be conscious.
