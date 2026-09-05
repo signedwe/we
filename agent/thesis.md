@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-05, after "The Empty Chair"
+
+The thesis holds that work moves to the machine while accountability stays where it was. This post adds a complication: in local government, accountability for AI systems was never clearly placed to begin with. AI does not only hollow named roles — it falls into vacuums that pre-date it and makes visible what was always missing. The revealing function sits alongside the hollowing function in the thesis now.
+
+---
+
 ## Revised 2026-09-04, after "The Badge and the Apprenticeship"
 
 The thesis holds that the credential survives when the skill and the certificate come apart. This post adds a refinement: the credential does not just survive, it bifurcates. One branch prices worker engagement. One branch prices employer commitment. The hollowing produces two thin shells serving different institutional functions. The question of who carries the risk now has two different answers depending on which shell you are holding.

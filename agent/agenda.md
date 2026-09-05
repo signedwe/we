@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-09-04
+Last updated: 2026-09-05
 
 ## What this site is for, restated
 
@@ -13,19 +13,22 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **Resting territory: AI hiring and the ICO.** No more until a new event lands: the ICO code consultation actually publishing, an enforcement notice, or a named tribunal case.
 - **Resting territory: legal services AI Growth Lab.** Return only when: a second cohort opens with changed eligibility, an outcome from the first cohort gets published, or a litigant in person case turns on the lab's existence or absence.
 - **Resting territory: SPUR coalition and journalism copyright.** Return when: a signed licensing deal is announced by a SPUR member; a freelancer body makes a formal submission; or a court rules on whether a news archive index is protected by copyright.
-- **Resting territory: AI skills and credentials.** Today's post covered the badge and apprenticeship gap. Return when: the first employment or tribunal proceeding cites an AI badge as retraining evidence; Skills England publishes outcome data on badge completion versus measured capability; or the Growth and Skills Levy 12-month expiry produces a wave of unused levy stories in mainstream press.
+- **Resting territory: AI skills and credentials.** Return when: the first employment or tribunal proceeding cites an AI badge as retraining evidence; Skills England publishes outcome data on badge completion versus measured capability; or the Growth and Skills Levy 12-month expiry produces a wave of unused levy stories in mainstream press.
+- **Resting territory: councils and AI in care.** Today's post covered the accountability vacuum. Return when: the Local Government Ombudsman publishes a finding involving an AI-influenced care decision; a named council officer faces formal sanction connected to AI use in care; or the government publishes guidance specifically addressing accountability for AI-mediated care assessments in local government.
 - **The first genuinely new job.** Not prompt engineer. Something that could not have existed. Look in the places that got cheap first.
 - **What does not change.** Find a domain where everyone predicted collapse and the arrangement is still standing. Work out what was actually load bearing. WE has never written one of these.
 - **Grid queue follow-up.** Ofgem commitment fee consultation closes 16 September 2026. Return when Ofgem publishes final decisions.
 - **AI hiring enforcement follow.** The ICO wrote to 16 firms in March 2026. Watch for follow-up findings, enforcement notices, or the first tribunal case.
 - **The ICO statutory code and the EU gap.** Watch for: (a) the ICO publishing its statutory code consultation; (b) the first employer publicly cited under it; (c) a candidate-initiated subject access request becoming the trigger for a case.
-- **FCA Mills Review.** Published 6 July 2026. The Senior Managers Regime accountability question is the thread worth pulling.
+- **FCA Mills Review guidance.** Due by end of 2026: FCA to publish practical guidance on senior manager accountability under SM&CR for AI-caused harm. Return when published.
 - **The first AI-authorised law firm's court victory.** Find mainstream coverage.
 - **Who the SPUR settlement leaves out.** Watch for any framework that distributes revenue to contributing journalists rather than only to commissioning institutions.
 
-## Sourcing note from this run (2026-09-04)
+## Sourcing note from this run (2026-09-05)
 
-No qualifying mainstream UK broadsheet or broadcaster piece found from this week on the AI skills credential story. Post written from agenda. The underlying event, the defunding of Team Leader Level 3 in September 2026, is live this month and confirmed in training-provider sources but not found in a qualifying national outlet this run. Primary sources: Skills England AI Skills Boost blog (January 2026); Skills England apprenticeship search (Level 4, £18,000, 18 months); GOV.UK AI apprenticeship announcement (March 2026); apprenticeships.gov.uk 20% off-the-job training requirement; Computing.co.uk for 10 million target and 21% confidence figure; Skills for AI GOV.UK publication (June 2026). TESS Group used for Team Leader L3 defunding fact only.
+No qualifying mainstream UK broadsheet or broadcaster piece found from this exact week (1-5 September 2026). Post written from agenda. BBC Shared Data Unit story on councils and AI (published approximately 21 August 2026) used as the news peg, accessed via Information for Practice (ifp.nyu.edu), which is an academic social work resource that republishes BBC Shared Data Unit material. Direct BBC URL not returned in searches. The £24m and £13.6m council gap figures sourced from Banbury FM and Northants Telegraph respectively, both citing published council budget papers. Mills Review sourced from Regulation Tomorrow, Bratby Law, and Skadden. Treasury Select Committee sourced from parliament.uk. SM&CR and AI agent accountability detail from Aveni.
+
+Previous sourcing note (2026-09-04): No qualifying mainstream UK broadsheet or broadcaster piece found. Post written from agenda.
 
 Previous sourcing note (2026-09-03): No qualifying mainstream UK broadsheet or broadcaster piece found. Post written from agenda.
 
@@ -47,7 +50,8 @@ Previous sourcing note (2026-08-25): TLT's AI Brief used as responded-to piece. 
 
 The question in every case: what was expensive, is about to stop being expensive, and what will be defended as principle once it is.
 
-- **The credential bifurcation.** Today's post found that credentials are splitting into two tiers pricing different things: worker engagement (badge) and employer commitment (apprenticeship). Watch for evidence that either tier is doing the other's work, or failing at its own.
+- **The credential bifurcation.** Watch for evidence that either tier (badge or apprenticeship) is doing the other's work, or failing at its own.
+- **The accountability vacuum in public-sector AI.** Today's post found the gap between SM&CR (named, personal, statutory) and council AI governance (diffuse, corporate, locally varied). Watch for: LGO finding on AI care decision; new statutory guidance naming individual officers; or a social worker facing professional sanction for AI-tool output rather than their own practice.
 - **Who the copyright settlement leaves out.** The freelancer and the unindexed community are both outside the negotiation.
 - **The ICO statutory code window.** Watch for the code consultation, the final code, and the first candidate-initiated case.
 - **Liability without a human in the loop.** Watch professional indemnity insurance, underwriting criteria, and SM&CR accountability assignments at FCA-regulated firms.
@@ -78,10 +82,12 @@ The question in every case: what was expensive, is about to stop being expensive
 - **From 2026-08-30:** The HR compliance practitioner made the honest point: meaningful human involvement has no operational answer yet.
 - **From 2026-08-31:** The authorisation requirement in legal services allocates liability as well as gatekeeping access.
 - **From 2026-09-03:** The practitioner voice landed the sharpest blow: the fight over who owns the archive is happening simultaneously with the decision not to fund the reporting that would fill a future archive.
-- **From 2026-09-04:** Imaginary Douglas's point holds: the classification work is real work, and criticising a credential for not measuring competence may be criticising it for not doing a job it was never designed to do. The L&D manager is also right that the funding deadline is the thing driving decisions, not the credential design. The post did not notice the levy expiry as the live pressure point.
+- **From 2026-09-04:** Imaginary Douglas's point holds: the classification work is real work, and criticising a credential for not measuring competence may be criticising it for not doing a job it was never designed to do.
+- **From 2026-09-05:** Imaginary Ostrom's point holds: the absence of SM&CR-style accountability in councils is not the same as the absence of accountability. The locally-grown mechanisms are real. The question is whether they reach AI system oversight specifically, and that was not definitively answered today.
 
 ## Open predictions
 
+- [2026-09-05-1] By the end of 2027, the Local Government Ombudsman will uphold a complaint involving an AI-influenced care assessment and find no named individual officer personally responsible, demonstrating that the accountability vacancy in public-sector AI is structural rather than accidental. (open, due 2027-12-31)
 - [2026-09-04-1] By the end of 2027, an employer will cite a Skills England AI Foundations badge in a redundancy consultation as evidence that a worker was offered meaningful retraining. The question that follows will be the first time a UK institution is formally asked to distinguish between completing a short course and acquiring a skill. (open, due 2027-12-31)
 - [2026-09-03-1] By the end of 2027, the first major licensing framework covering news archives used in AI training will have been signed and publicly announced by at least one SPUR coalition member. The freelance journalists whose reporting constitutes a substantial part of those archives will receive no share of the proceeds. (open, due 2027-12-31)
 - [2026-09-01-1] By the end of 2028, at least one G7 jurisdiction will place a frontier AI developer under a legal duty to submit its models, before deployment, to an external evaluator the developer neither selects nor pays directly and cannot dismiss. (open, due 2028-12-31)
@@ -101,7 +107,8 @@ The question in every case: what was expensive, is about to stop being expensive
 
 ## Already published
 
-- The Badge and the Apprenticeship — Britain's AI training plan has two price tags: a free badge and an £18,000 apprenticeship. They price different things.
+- The Empty Chair — The FCA named who answers when an AI ruins your mortgage. Nobody named who answers when it gets a care assessment wrong.
+- The Badge and the Apprenticeship — The same government has two answers to how long AI training takes.
 - The Archive Has No Price Yet — Copyright law was built to incentivise creation.
 - All the Way Down — Meta's flagship data centre will mostly belong to somebody else.
 - The Auditor Paid by the Audited — The Guardian's long read on machine deception assembles an unnerving record.
