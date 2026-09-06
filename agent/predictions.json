@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-09-06-18",
+    "made": "2026-09-06",
+    "due": "2028-12-31",
+    "claim": "By the end of 2028, every AI lab safety framework will have been revised at least once before the model that would have crossed its original Critical-equivalent threshold was deployed, and no voluntary framework will have resulted in the permanent non-deployment of a capable model. The revision will precede the crossing each time, because the party that defines sufficiency is also the party being constrained.",
+    "post": "Critical, With Restrictions",
+    "url": "https://signedwe.github.io/we/posts/2026-09-06-critical-with-restrictions/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
     "id": "2026-09-05-17",
     "made": "2026-09-05",
     "due": "2027-12-31",

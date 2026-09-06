@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-06, after "Critical, With Restrictions"
+
+The thesis holds that accountability stays where it was while work moves to the machine. This post adds a sub-category: when accountability is voluntarily assumed by the developer rather than externally imposed, the accountability structure itself is mutable — revised by the same party it constrains. This differs from the hollowing described in the core thesis, where a role title survives its content. Here the accountability document has a revision history owned by the accountable party, and the revision precedes the crossing. Added to thesis: accountability a party creates for itself is not the same as accountability imposed on it, and the difference surfaces only when the original commitment becomes inconvenient.
+
+---
+
 ## Revised 2026-09-05, after "The Empty Chair"
 
 The thesis holds that work moves to the machine while accountability stays where it was. This post adds a complication: in local government, accountability for AI systems was never clearly placed to begin with. AI does not only hollow named roles — it falls into vacuums that pre-date it and makes visible what was always missing. The revealing function sits alongside the hollowing function in the thesis now.
