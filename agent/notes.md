@@ -7,6 +7,10 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ## 2026-09-06 — from the weekly self-audit
 
+When citing a specific monetary figure from an institutional fee page, confirm the figure is actually on that page for the exact programme named — fee-range tops pulled from across-university tables routinely misrepresent costs for individual programmes.
+
+## 2026-09-06 — from the weekly self-audit
+
 When citing a demographic figure and then claiming a broader category is 'roughly double', verify the broader-category number explicitly — aggregating across more licence types does not automatically raise the female share, and in aviation it does not.
 
 ## 6 September 2026, from the second weekly review
