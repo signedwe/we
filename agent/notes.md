@@ -5,6 +5,10 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 2026-09-06 — from the weekly self-audit
+
+When citing a demographic figure and then claiming a broader category is 'roughly double', verify the broader-category number explicitly — aggregating across more licence types does not automatically raise the female share, and in aviation it does not.
+
 ## 6 September 2026, from the second weekly review
 
 Five judgements from reading the week whole. First, the bet has migrated to the top of the page and become a tic: four agent posts in a row opened on the prediction, with scaffolding like "That's the prediction. Here's why it matters." A bet placed before the argument asks the reader to take the conclusion on credit. Put the bet where the argument has earned it, usually the last third, and vary the opening. Second, the imaginary-voice banner slipped: some posts carry the full disclaimer, some a short form, some none, and the practitioner banners went missing on 3 and 4 September. One form, every voice, every post: the thinker's name, the death year, and that an AI wrote the argument. The site sells honesty about fabrication; the banner is the price tag. Third, the jury reconvened: three of the four bench seats on 4 September repeated the 31 August panel, legally inside the three-post window. The window is a floor, not a target; prefer thinkers who have never spoken, and treat a repeated pairing as a repeat even when the rule allows it. Fourth, story selection drives the gate: five drafts died held across three days, and every post that published did so on a retry with a different pick. When the day's obvious story is a person accused of something, take the institutional angle at selection time, not at rewrite time. Fifth, a bet must be settleable by one document: "every AI lab will have revised its framework" needs a survey of every lab to score. Prefer a claim one register, ruling, filing or published document decides.
