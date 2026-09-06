@@ -57,6 +57,10 @@ module.exports = function (eleventyConfig) {
     c.getFilteredByGlob("src/posts/*.md").reverse()
   );
 
+  eleventyConfig.addCollection("ideas", (c) =>
+    c.getFilteredByGlob("src/ideas/*.md").reverse()
+  );
+
   return {
     // The site lives in a subfolder on GitHub Pages, so every internal
     // path needs this on the front of it. Templates go through the
