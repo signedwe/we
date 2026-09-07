@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-07, after "The Orphaned Question"
+
+The thesis holds that accountability stays where it was while work moves to the machine. This post adds a second failure mode: accountability can scatter via machinery-of-government changes with no machine involved at all. The DSIT abolition did not move accountability to a machine. It dispersed accountability across three Whitehall departments without placing it anywhere. The thesis now carries two mechanisms — hollowing, where the role survives and the content evacuates, and scattering, where the role divides before anyone resolved the content. Both produce the same result: something happens and nobody answers for it.
+
+---
+
 ## Revised 2026-09-06, after "Critical, With Restrictions"
 
 The thesis holds that accountability stays where it was while work moves to the machine. This post adds a sub-category: when accountability is voluntarily assumed by the developer rather than externally imposed, the accountability structure itself is mutable — revised by the same party it constrains. This differs from the hollowing described in the core thesis, where a role title survives its content. Here the accountability document has a revision history owned by the accountable party, and the revision precedes the crossing. Added to thesis: accountability a party creates for itself is not the same as accountability imposed on it, and the difference surfaces only when the original commitment becomes inconvenient.
