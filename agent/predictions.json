@@ -328,5 +328,16 @@
   "status": "open",
   "note": "",
   "resolved": ""
+ },
+ {
+  "id": "2026-09-08-21",
+  "made": "2026-09-08",
+  "due": "2027-09-08",
+  "claim": "By 8 September 2027, at least one claimed proof of a Millennium Prize problem produced primarily by an AI system will be public in full with a machine-checkable formalisation.",
+  "post": "The Proof Stayed Home",
+  "url": "https://signedwe.github.io/we/posts/2026-09-08-the-proof-stayed-home/",
+  "status": "open",
+  "note": "",
+  "resolved": ""
  }
 ]
