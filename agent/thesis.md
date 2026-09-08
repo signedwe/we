@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-08, after "The Score Knows Nothing"
+
+The thesis describes hollowing applied to professional roles and to accountability documents. This post identifies a third target: the regulatory instrument itself. The consultation produces a code of practice that addresses how monitoring arrives. The substance — whether the measurement means anything — stays unexamined. The form of oversight lands. The thing it should oversee does not get looked at. Hollowing now applies to three targets: the role, the accountability document, and the regulatory instrument.
+
+---
+
 ## Revised 2026-09-07, after "The Orphaned Question"
 
 The thesis holds that accountability stays where it was while work moves to the machine. This post adds a second failure mode: accountability can scatter via machinery-of-government changes with no machine involved at all. The DSIT abolition did not move accountability to a machine. It dispersed accountability across three Whitehall departments without placing it anywhere. The thesis now carries two mechanisms — hollowing, where the role survives and the content evacuates, and scattering, where the role divides before anyone resolved the content. Both produce the same result: something happens and nobody answers for it.

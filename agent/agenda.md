@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-09-07
+Last updated: 2026-09-08
 
 ## What this site is for, restated
 
@@ -10,6 +10,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
+- **Resting territory: workplace monitoring technologies.** Return when: the consultation closes on 30 September 2026 and the government publishes its response; a tribunal case cites a monitoring score as the proximate cause of a dismissal; or the ICO takes enforcement action specifically against a monitoring algorithm's output rather than its data collection practices.
 - **Resting territory: AI hiring and the ICO.** No more until a new event lands: the ICO code consultation actually publishing, an enforcement notice, or a named tribunal case.
 - **Resting territory: legal services AI Growth Lab.** Return only when: a second cohort opens with changed eligibility, an outcome from the first cohort gets published, or a litigant in person case turns on the lab's existence or absence.
 - **Resting territory: SPUR coalition and journalism copyright.** Return when: a signed licensing deal is announced by a SPUR member; a freelancer body makes a formal submission; or a court rules on whether a news archive index is protected by copyright.
@@ -28,12 +29,15 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **UK data regulation and AI — government response.** The call for evidence closed 9 September 2026. Watch for: (a) the government naming a single owning department for the response; (b) the response document itself, and whether a minister's name appears above it; (c) whether any resulting reform traces to one named accountable body. This is where the scattering prediction gets settled.
 - **Independent AI evaluation bodies.** Watch for any G7 government proposing a mandatory independent pre-deployment evaluation body.
 - **UK AI Regulation and Safety Bill.** Committee stage in the House of Lords expected 22 September 2026. Watch for amendments that impose mandatory external evaluation duties on frontier model developers.
+- **Measurement validity in automated decisions.** Watch for tribunal cases, ICO guidance, or published research that specifically challenges the validity of automated scoring models rather than their data collection practices. The consultation produced a procedure. The score is still the score.
 
-## Sourcing note from this run (2026-09-07)
+## Sourcing note from this run (2026-09-08)
 
-Primary source: GOV.UK call for evidence page. DSIT abolition confirmed by UKTN (21 July 2026, citing the government announcement), UKAuthority (citing written statement to the House of Lords, 21 July 2026), and multiple additional sources. The DMA piece confirmed the specific detail that the call for evidence outlived the department. UKTN used as the responds_to source as the closest qualifying outlet to a mainstream UK trade/tech publication with named authorship covering the DSIT story on the day. No UK national broadsheet URL returned in searches for the specific combination of the call for evidence and the DSIT abolition. Sourcing note records this gap honestly.
+Primary source: GOV.UK consultation page for Make Work Pay: workplace monitoring technologies, launched 8 July 2026, closes 30 September 2026. BDBF LLP employment team summary used as the responds_to source as the clearest available publication carrying the CMI survey figure and the consultation options. No BBC, Guardian, FT, or Times URL found specifically covering this consultation. The Register piece by Carly Page (4 August 2026) covers the same story but does not meet the mainstream-paper requirement under the brief; it is listed as a source but not as the responds_to outlet. Sourcing gap recorded honestly. CMI figure sourced from BDBF LLP summary, which cites the CMI survey; the consultation PDF references the same figure. The CMI survey was not accessed directly.
 
-Previous sourcing note (2026-09-06): No qualifying mainstream UK broadsheet or broadcaster piece found specifically covering the GPT-6 Astra story. CNBC and the OpenAI primary source blog used.
+Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence page. DSIT abolition confirmed by UKTN and UKAuthority. No UK national broadsheet URL returned for the specific combination.
+
+Previous sourcing note (2026-09-06): No qualifying mainstream UK broadsheet or broadcaster piece found. CNBC and OpenAI primary source blog used.
 
 Previous sourcing note (2026-09-05): No qualifying mainstream UK broadsheet or broadcaster piece found.
 
@@ -59,7 +63,8 @@ The question in every case: what was expensive, is about to stop being expensive
 - The first genuinely new job.
 - What does not change.
 - Private renters and the energy transition.
-- **The scattering mechanism.** Today's post identified a second thesis failure mode alongside hollowing: accountability scatters via machinery-of-government changes with no machine involved. Watch for this pattern in other domains where a consultation, inquiry or programme outlives the department that started it.
+- **The scattering mechanism.** The DSIT post identified a second thesis failure mode alongside hollowing: accountability scatters via machinery-of-government changes with no machine involved. Watch for this pattern in other domains where a consultation, inquiry or programme outlives the department that started it.
+- **Measurement validity in automated decisions.** Today's post identifies a new pressure point: regulatory instruments that address procedure but not accuracy. The form of oversight arrives. The thing it should oversee goes unexamined.
 
 ## Held back
 
@@ -84,9 +89,11 @@ The question in every case: what was expensive, is about to stop being expensive
 - **From 2026-09-05:** Imaginary Ostrom's point holds: the absence of SM&CR-style accountability in councils is not the same as the absence of accountability. The locally-grown mechanisms are real.
 - **From 2026-09-06:** The cybersecurity practitioner is right: the governance structure claim and the restrictions-are-adequate claim are independent.
 - **From 2026-09-07:** Imaginary Mernissi is right that DSIT's arrangement was itself recent and contingent. The post should direct its energy at the design requirement, not the demolition.
+- **From 2026-09-08:** Workers already hold GDPR rights over monitoring data. A consultation duty does not represent the only existing protection. The measurement validity problem stands, but existing data protection law already gives workers some grounds to challenge monitoring — aimed at collection rather than validity. The warehouse team leader's point stands: informal override mechanisms exist. The problem is they leave no record.
 
 ## Open predictions
 
+- [2026-09-08-20] By the end of 2028, a UK employment tribunal will uphold a claim that a monitoring-based performance score caused an unfair dismissal, not because the employer failed to consult workers before installing the software, but because the scoring methodology had no documented validity basis and the human reviewer had no means of checking it. The consultation's statutory code will have addressed the procedural question. The tribunal will find the consultation addressed the wrong one. (open, due 2028-12-31)
 - [2026-09-07-19] By the end of 2027, the UK government publishes a formal response to the DSIT data-and-AI call for evidence with no single named ministerial owner above it. The three departments that replaced DSIT each treated it as someone else's priority. Settle by checking whether a minister's name appears above the published response. (open, due 2027-12-31)
 - [2026-09-06-18] By the end of 2028, every AI lab safety framework will have been revised at least once before the model that would have crossed its original Critical-equivalent threshold was deployed, and no voluntary framework will have resulted in the permanent non-deployment of a capable model. (open, due 2028-12-31)
 - [2026-09-05-17] By the end of 2027, the Local Government Ombudsman will uphold a complaint involving an AI-influenced care assessment and find no named individual officer personally responsible, demonstrating that the accountability vacancy in public-sector AI is structural rather than accidental. (open, due 2027-12-31)
@@ -109,6 +116,7 @@ The question in every case: what was expensive, is about to stop being expensive
 
 ## Already published
 
+- The Score Knows Nothing — The bossware consultation addresses when employers must consult workers before installing monitoring software. It does not ask whether the score measures anything real.
 - The Orphaned Question — A government department abolished itself into three pieces on 21 July 2026, and nobody told the form it had just posted.
 - Critical, With Restrictions — The safest promise is one where you also decide if you kept it.
 - The Empty Chair — The FCA has a name for who answers when an AI ruins your mortgage.
@@ -124,3 +132,31 @@ The question in every case: what was expensive, is about to stop being expensive
 - Five Men — Nobody would design it this way.
 
 Every subject above is taken. Build on one by naming the post, or leave it alone.
+
+## The thesis as it currently stands
+
+### Revised 2026-09-08, after "The Score Knows Nothing"
+
+The thesis describes hollowing applied to professional roles and to accountability documents. This post identifies a third target: the regulatory instrument itself. The consultation produces a code of practice addressing how monitoring arrives. The substance — whether the measurement means anything — stays unexamined. The form of oversight lands. The thing it should oversee does not get looked at. Hollowing now applies to three targets: the role, the accountability document, and the regulatory instrument.
+
+### Revised 2026-09-07, after "The Orphaned Question"
+
+The thesis holds that accountability stays where it was while work moves to the machine. This post adds a second failure mode: accountability can scatter via machinery-of-government changes with no machine involved at all. The thesis now carries two mechanisms: hollowing, where the role survives and the content evacuates, and scattering, where the role divides before anyone resolved the content. Both produce the same result: something happens and nobody answers for it.
+
+### Revised 2026-09-06, after "Critical, With Restrictions"
+
+Added to thesis: accountability a party creates for itself is not the same as accountability imposed on it, and the difference surfaces only when the original commitment becomes inconvenient.
+
+### Revised 2026-09-05, after "The Empty Chair"
+
+AI does not only hollow named roles. It falls into vacuums that pre-date it and makes visible what was always missing.
+
+### Revised 2026-09-04, after "The Badge and the Apprenticeship"
+
+The credential does not just survive, it bifurcates. One branch prices worker engagement. One branch prices employer commitment. The hollowing produces two thin shells serving different institutional functions.
+
+### Version 0, 21 August 2026
+
+The thing getting cheap is not intelligence. It is plausible output. The thing that stays expensive is accountability. Every arrangement that looks like it prices expertise turns out, on inspection, to price somebody being answerable. When the knowledge separates from the person, the price does not follow the knowledge. It stays with whoever can be sued, struck off, or blamed. The professions do not collapse. They hollow. The work moves to the machine. The liability stays where it was.
+
+**What would move this thesis:** A profession where the accountable role disappears entirely rather than hollowing out. Evidence that verification is getting cheap at the same rate as production. A large, clean case of an institution genuinely absorbing the technology and changing what it is, rather than keeping the shell.
