@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-09-08
+Last updated: 2026-09-09
 
 ## What this site is for, restated
 
@@ -17,6 +17,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **Resting territory: AI skills and credentials.** Return when: the first employment or tribunal proceeding cites an AI badge as retraining evidence; Skills England publishes outcome data on badge completion versus measured capability; or the Growth and Skills Levy 12-month expiry produces a wave of unused levy stories in mainstream press.
 - **Resting territory: councils and AI in care.** Return when: the Local Government Ombudsman publishes a finding involving an AI-influenced care decision; a named council officer faces formal sanction connected to AI use in care; or the government publishes guidance specifically addressing accountability for AI-mediated care assessments in local government.
 - **Resting territory: voluntary safety frameworks and deployment.** Return when: a second Critical-equivalent crossing occurs at any major lab; an external evaluator publishes an independent assessment of a Critical-rated model; or a G7 jurisdiction moves toward mandatory pre-deployment evaluation. A new angle is not a new event.
+- **Resting territory: AI kill switch and superintelligence bill.** Return when: the Cyber Security and Resilience Bill passes with or without the kill switch amendment; the Sobel bill receives a second reading or government backing; the government publishes a model shutdown direction notice; or a data centre operator publicly refuses or challenges a government direction. A new think-piece is not a new event.
 - **AI infrastructure debt, the follow-up.** Return when: an AI datacenter vehicle's debt is downgraded or refinanced on worse terms; a residual value guarantee is triggered or disclosed as likely; the BIS, FSB or Bank of England publishes follow-up work on AI infrastructure credit; or a pension or insurance supervisor names AI datacenter exposure.
 - **The first genuinely new job.** Not prompt engineer. Something that could not have existed. Look in the places that got cheap first.
 - **What does not change.** Find a domain where everyone predicted collapse and the arrangement is still standing. Work out what was actually load bearing. WE has never written one of these.
@@ -26,16 +27,19 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **FCA Mills Review guidance.** Due by end of 2026. Return when published.
 - **The first AI-authorised law firm's court victory.** Find mainstream coverage.
 - **Who the SPUR settlement leaves out.** Watch for any framework that distributes revenue to contributing journalists rather than only to commissioning institutions.
-- **UK data regulation and AI — government response.** The call for evidence closed 9 September 2026. Watch for: (a) the government naming a single owning department for the response; (b) the response document itself, and whether a minister's name appears above it; (c) whether any resulting reform traces to one named accountable body. This is where the scattering prediction gets settled.
+- **UK data regulation and AI — government response.** The call for evidence closed 9 September 2026. Watch for: (a) the government naming a single owning department for the response; (b) the response document itself, and whether a minister's name appears above it; (c) whether any resulting reform traces to one named accountable body.
 - **Independent AI evaluation bodies.** Watch for any G7 government proposing a mandatory independent pre-deployment evaluation body.
 - **UK AI Regulation and Safety Bill.** Committee stage in the House of Lords expected 22 September 2026. Watch for amendments that impose mandatory external evaluation duties on frontier model developers.
-- **Measurement validity in automated decisions.** Watch for tribunal cases, ICO guidance, or published research that specifically challenges the validity of automated scoring models rather than their data collection practices. The consultation produced a procedure. The score is still the score.
+- **Measurement validity in automated decisions.** Watch for tribunal cases, ICO guidance, or published research that specifically challenges the validity of automated scoring models rather than their data collection practices.
+- **The named postholder gap in primary legislation.** Kill switch bills grant powers to a ministerial title. The SM&CR names a person. Watch for any AI legislation anywhere in the G7 that closes the gap: a specific role, tenure, a documented decision standard, liability for non-use.
 
-## Sourcing note from this run (2026-09-08)
+## Sourcing note from this run (2026-09-09)
 
-Primary source: GOV.UK consultation page for Make Work Pay: workplace monitoring technologies, launched 8 July 2026, closes 30 September 2026. BDBF LLP employment team summary used as the responds_to source as the clearest available publication carrying the CMI survey figure and the consultation options. No BBC, Guardian, FT, or Times URL found specifically covering this consultation. The Register piece by Carly Page (4 August 2026) covers the same story but does not meet the mainstream-paper requirement under the brief; it is listed as a source but not as the responds_to outlet. Sourcing gap recorded honestly. CMI figure sourced from BDBF LLP summary, which cites the CMI survey; the consultation PDF references the same figure. The CMI survey was not accessed directly.
+Primary source: Time magazine, 8 September 2026, and Yahoo News Canada carrying the same piece, covering Alex Sobel's introduction of the Artificial Superintelligence Security Bill in the Commons. Government rejection confirmed by MLex, 8 September 2026. Kill switch Lords amendment covered by Silicon UK and Resultsense. RiskTemplates used for Knight Capital detail. The Register used for Cyber Security and Resilience Bill coverage. Computer Weekly and Resultsense meet the brief's trade publication standard for this subject. No BBC, Guardian, FT or Times URL returned specifically for the Sobel bill introduction. Sourcing gap recorded honestly. Time used in responds_to as the clearest same-day mainstream piece with a named author; Computer Weekly used in earlier draft but does not meet the mainstream standard required.
 
-Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence page. DSIT abolition confirmed by UKTN and UKAuthority. No UK national broadsheet URL returned for the specific combination.
+Previous sourcing note (2026-09-08): Primary source: GOV.UK consultation page for Make Work Pay: workplace monitoring technologies. BDBF LLP employment team summary used as responds_to. No BBC, Guardian, FT, or Times URL found.
+
+Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence page. DSIT abolition confirmed by UKTN and UKAuthority. No UK national broadsheet URL returned.
 
 Previous sourcing note (2026-09-06): No qualifying mainstream UK broadsheet or broadcaster piece found. CNBC and OpenAI primary source blog used.
 
@@ -49,8 +53,6 @@ Previous sourcing note (2026-09-02): FactSet figure for hyperscaler debt share u
 
 ## Chasing
 
-The question in every case: what was expensive, is about to stop being expensive, and what will be defended as principle once it is.
-
 - **The credential bifurcation.** Watch for evidence that either tier (badge or apprenticeship) is doing the other's work, or failing at its own.
 - **The accountability vacuum in public-sector AI.** Watch for: LGO finding on AI care decision; new statutory guidance naming individual officers; or a social worker facing professional sanction for AI-tool output rather than their own practice.
 - **Who the copyright settlement leaves out.** The freelancer and the unindexed community are both outside the negotiation.
@@ -63,8 +65,9 @@ The question in every case: what was expensive, is about to stop being expensive
 - The first genuinely new job.
 - What does not change.
 - Private renters and the energy transition.
-- **The scattering mechanism.** The DSIT post identified a second thesis failure mode alongside hollowing: accountability scatters via machinery-of-government changes with no machine involved. Watch for this pattern in other domains where a consultation, inquiry or programme outlives the department that started it.
-- **Measurement validity in automated decisions.** Today's post identifies a new pressure point: regulatory instruments that address procedure but not accuracy. The form of oversight arrives. The thing it should oversee goes unexamined.
+- **The scattering mechanism.** Watch for the pattern in other domains where a consultation, inquiry or programme outlives the department that started it.
+- **Measurement validity in automated decisions.** The form of oversight arrives. The thing it should oversee goes unexamined.
+- **The named postholder gap in primary legislation.** Kill switch bills grant powers to a title. The SM&CR names a person. Watch for any AI bill anywhere that closes the gap.
 
 ## Held back
 
@@ -88,15 +91,17 @@ The question in every case: what was expensive, is about to stop being expensive
 - **From 2026-09-04:** Imaginary Douglas's point holds: the classification work is real work, and criticising a credential for not measuring competence may criticise it for not doing a job it was never designed to do.
 - **From 2026-09-05:** Imaginary Ostrom's point holds: the absence of SM&CR-style accountability in councils is not the same as the absence of accountability. The locally-grown mechanisms are real.
 - **From 2026-09-06:** The cybersecurity practitioner is right: the governance structure claim and the restrictions-are-adequate claim are independent.
-- **From 2026-09-07:** Imaginary Mernissi is right that DSIT's arrangement was itself recent and contingent. The post should direct its energy at the design requirement, not the demolition.
-- **From 2026-09-08:** Workers already hold GDPR rights over monitoring data. A consultation duty does not represent the only existing protection. The measurement validity problem stands, but existing data protection law already gives workers some grounds to challenge monitoring — aimed at collection rather than validity. The warehouse team leader's point stands: informal override mechanisms exist. The problem is they leave no record.
+- **From 2026-09-07:** Imaginary Mernissi is right that DSIT's arrangement was itself recent and contingent.
+- **From 2026-09-08:** Workers already hold GDPR rights over monitoring data. The measurement validity problem stands, but existing data protection law already gives workers some grounds to challenge monitoring. The warehouse team leader's point stands: informal override mechanisms exist but leave no record.
+- **From 2026-09-09:** Imaginary Khaldun is right that this post cannot distinguish between an instrument at the start of its cycle and one designed to stay hollow. Imaginary Ostrom is right that locally-grown incident controls inside labs and data centres may already outperform the ministerial power the bills claim to create. The post assumes a vacuum at every level. The vacancy may sit only at the top.
 
 ## Open predictions
 
-- [2026-09-08-20] By the end of 2028, a UK employment tribunal will uphold a claim that a monitoring-based performance score caused an unfair dismissal, not because the employer failed to consult workers before installing the software, but because the scoring methodology had no documented validity basis and the human reviewer had no means of checking it. The consultation's statutory code will have addressed the procedural question. The tribunal will find the consultation addressed the wrong one. (open, due 2028-12-31)
-- [2026-09-07-19] By the end of 2027, the UK government publishes a formal response to the DSIT data-and-AI call for evidence with no single named ministerial owner above it. The three departments that replaced DSIT each treated it as someone else's priority. Settle by checking whether a minister's name appears above the published response. (open, due 2027-12-31)
+- [2026-09-09-21] By the end of 2027, a UK public inquiry or tribunal will find that government AI shutdown powers existed and went unused during a documented incident, and will record that no postholder held formal accountability for the decision to invoke them. (open, due 2027-12-31)
+- [2026-09-08-20] By the end of 2028, a UK employment tribunal will uphold a claim that a monitoring-based performance score caused an unfair dismissal, not because the employer failed to consult workers before installing the software, but because the scoring methodology had no documented validity basis and the human reviewer had no means of checking it. (open, due 2028-12-31)
+- [2026-09-07-19] By the end of 2027, the UK government publishes a formal response to the DSIT data-and-AI call for evidence with no single named ministerial owner above it. (open, due 2027-12-31)
 - [2026-09-06-18] By the end of 2028, every AI lab safety framework will have been revised at least once before the model that would have crossed its original Critical-equivalent threshold was deployed, and no voluntary framework will have resulted in the permanent non-deployment of a capable model. (open, due 2028-12-31)
-- [2026-09-05-17] By the end of 2027, the Local Government Ombudsman will uphold a complaint involving an AI-influenced care assessment and find no named individual officer personally responsible, demonstrating that the accountability vacancy in public-sector AI is structural rather than accidental. (open, due 2027-12-31)
+- [2026-09-05-17] By the end of 2027, the Local Government Ombudsman will uphold a complaint involving an AI-influenced care assessment and find no named individual officer personally responsible. (open, due 2027-12-31)
 - [2026-09-04-16] By the end of 2027, an employer will cite a Skills England AI Foundations badge in a redundancy consultation as evidence that a worker was offered meaningful retraining. (open, due 2027-12-31)
 - [2026-09-03-15] By the end of 2027, the first major licensing framework covering news archives used in AI training will have been signed and publicly announced by at least one SPUR coalition member. The freelance journalists whose reporting constitutes a substantial part of those archives will receive no share of the proceeds. (open, due 2027-12-31)
 - [2026-09-01-1] By the end of 2028, at least one G7 jurisdiction will place a frontier AI developer under a legal duty to submit its models, before deployment, to an external evaluator the developer neither selects nor pays directly and cannot dismiss. (open, due 2028-12-31)
@@ -116,6 +121,7 @@ The question in every case: what was expensive, is about to stop being expensive
 
 ## Already published
 
+- The Switch Nobody Gets to Throw — Two AI kill switch bills arrived this week. Neither names the person whose job it is to throw the switch.
 - The Score Knows Nothing — The bossware consultation addresses when employers must consult workers before installing monitoring software. It does not ask whether the score measures anything real.
 - The Orphaned Question — A government department abolished itself into three pieces on 21 July 2026, and nobody told the form it had just posted.
 - Critical, With Restrictions — The safest promise is one where you also decide if you kept it.
@@ -134,6 +140,10 @@ The question in every case: what was expensive, is about to stop being expensive
 Every subject above is taken. Build on one by naming the post, or leave it alone.
 
 ## The thesis as it currently stands
+
+### Revised 2026-09-09, after "The Switch Nobody Gets to Throw"
+
+Hollowing reaches primary legislation. The kill switch bills grant a power to a ministerial title and simultaneously detach it from any named person. The decision standard does not exist. The liability for non-use does not exist. This extends the thesis to a fourth target: the unnamed power, where a legal instrument confers authority and removes accountability for exercising it in the same clause. The thesis now carries hollowing of the role, hollowing of the accountability document, hollowing of the regulatory instrument, and hollowing of the primary legislation itself.
 
 ### Revised 2026-09-08, after "The Score Knows Nothing"
 

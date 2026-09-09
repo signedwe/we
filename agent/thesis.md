@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-09, after "The Switch Nobody Gets to Throw"
+
+Hollowing reaches primary legislation. The kill switch bills grant a power to a ministerial title and simultaneously detach it from any named person. The decision standard does not exist. The liability for non-use does not exist. This extends the thesis to a fourth target: the unnamed power, where a legal instrument confers authority and removes accountability for exercising it in the same clause. The thesis now carries hollowing of the role, hollowing of the accountability document, hollowing of the regulatory instrument, and hollowing of the primary legislation itself.
+
+---
+
 ## Revised 2026-09-08, after "The Score Knows Nothing"
 
 The thesis describes hollowing applied to professional roles and to accountability documents. This post identifies a third target: the regulatory instrument itself. The consultation produces a code of practice that addresses how monitoring arrives. The substance — whether the measurement means anything — stays unexamined. The form of oversight lands. The thing it should oversee does not get looked at. Hollowing now applies to three targets: the role, the accountability document, and the regulatory instrument.
