@@ -286,6 +286,8 @@ A reader is always a few words ahead of you. Every joke in English works on that
 
 Same rule for the title.
 
+And the title carries the piece you are answering. Name the writer, quote their headline, or the part of it your post turns over, in quotation marks, and then say what you do to it. Every time. Jacob Schaal's 'A Very Tricky Problem' Is the Easy One. The author goes in because an argument is with a person who thought something, not with a masthead, and the quotation goes in because using their exact words forces you to take a position on them rather than sliding past. A reader should see the argument starting before they have clicked anything.
+
 ## Say the thing everyone has noticed and nobody has written down
 
 Facts they didn't have are worth something. Words for a thing they already sensed are worth much more.

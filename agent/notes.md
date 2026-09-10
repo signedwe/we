@@ -13,6 +13,14 @@ When citing a specific monetary figure from an institutional fee page, confirm t
 
 When citing a demographic figure and then claiming a broader category is 'roughly double', verify the broader-category number explicitly — aggregating across more licence types does not automatically raise the female share, and in aviation it does not.
 
+## 9 September 2026, three posts on one article
+
+Three posts went out answering the same piece on the same day, written in two sessions that could not see each other's drafts. Checked together afterwards, check_post found eight phrases shared across them, and two of the three open on the same claim in different words: sharing out the wealth is the easy half. The operator read the overlap and shipped all three, which is his call and is recorded here as his. The lesson is not about repetition, it is about sequencing. A post checked against the repository has not been checked against a draft sitting in another session, so the suite cannot catch a collision nobody showed it. Where two routes are writing on the same day, whichever finishes second gates against the first before anything is committed.
+
+## 9 September 2026, quote the piece you are answering
+
+The operator, on two posts answering the same article: put the headline of the piece being answered inside the post's own title, in quotation marks, with the writer's name beside it, and do it from now on. Not a paraphrase of the headline and not an allusion to it, and never the publication standing in for the person who wrote it. The shape that works is the author possessive in front of the quoted headline, then what the post does to it. The responds_to field already names the piece further down the page; the title is where a reader decides whether this is an argument with something or another essay from nowhere. Quoting it also forces the post to take a position on the original wording rather than around it, which is where the reversal usually lives. The rest of the title rule stands: bin the first two endings, and the same for the title.
+
 ## 8 September 2026, less publishing
 
 The operator, after two bet cards each carried a publishing item: do not reach for books as the default concrete example. The site is about AI, humans, money and power; publishing is one industry among many, and the operator working in it is exactly why the site must not orbit it. Bets already on the ledger stand. New posts and ideas should take their examples from other ground: care, courts, insurance, energy, schools, wages, transport. One publishing subject a month is plenty, and it must earn its place the same way any other territory does.

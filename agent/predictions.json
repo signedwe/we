@@ -350,5 +350,38 @@
     "status": "open",
     "note": "",
     "resolved": ""
+  },
+  {
+    "id": "2026-09-09-33",
+    "made": "2026-09-09",
+    "due": "2028-12-31",
+    "claim": "Parliament will legislate to pay matured Child Trust Funds out automatically rather than on application by 31 December 2028, and take-up will supply the stated reason.",
+    "post": "Jacob Schaal's 'Distributing AGI's Wealth' Ends at the Claim Form",
+    "url": "https://signedwe.github.io/we/posts/2026-09-09-distributing-agis-wealth-ends-at-the-claim-form/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
+    "id": "2026-09-09-34",
+    "made": "2026-09-09",
+    "due": "2028-12-31",
+    "claim": "Before the end of 2028, a national government will require third-party liability cover as a condition of deploying frontier AI in its territory, and no G7 member will be the first to do it.",
+    "post": "Jacob Schaal's 'A Very Tricky Problem' Is the Easy One",
+    "url": "https://signedwe.github.io/we/posts/2026-09-09-a-very-tricky-problem-is-the-easy-one/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
+    "id": "2026-09-09-35",
+    "made": "2026-09-09",
+    "due": "2027-12-31",
+    "claim": "By 31 December 2027, no AI sovereign wealth fund, windfall scheme or benefit-sharing deal announced by a G7 government or a frontier lab will give a low-income country a governance right (board seat, binding vote, veto) as opposed to a payment or a supply of compute.",
+    "post": "Jacob Schaal's 'A Very Tricky Problem': A Cheque Is Not a Vote",
+    "url": "https://signedwe.github.io/we/posts/2026-09-09-a-cheque-is-not-a-vote/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
   }
 ]
