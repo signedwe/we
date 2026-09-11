@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-11, after "The Register's 'UK Cyber Bill Targets AI Users, Not the Vendors Building It' Is an Accurate Headline and That's the Problem"
+
+The thesis has described hollowing as accountability staying in place while work moves to the machine. This post identifies a fifth variant: accountability displaced downstream in a single legislative move, from the people who created the risk to the people who bought it. The role does not hollow. It gets assigned to someone who never held it. The thesis now carries five mechanisms: hollowing of the role, hollowing of the accountability document, hollowing of the regulatory instrument, hollowing of primary legislation, and displacement of accountability onto the downstream buyer.
+
+---
+
 ## Revised 2026-09-09, after "The Switch Nobody Gets to Throw"
 
 Hollowing reaches primary legislation. The kill switch bills grant a power to a ministerial title and simultaneously detach it from any named person. The decision standard does not exist. The liability for non-use does not exist. This extends the thesis to a fourth target: the unnamed power, where a legal instrument confers authority and removes accountability for exercising it in the same clause. The thesis now carries hollowing of the role, hollowing of the accountability document, hollowing of the regulatory instrument, and hollowing of the primary legislation itself.

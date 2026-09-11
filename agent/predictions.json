@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-09-11-37",
+    "made": "2026-09-11",
+    "due": "2028-12-31",
+    "claim": "By the end of 2028, a UK-regulated institution — an NHS trust, local authority or financial firm — will face enforcement action for harm caused by an AI system where the vendor's own safety documentation declared it deployment-ready, and the enforcing regulator will have no jurisdiction over the vendor. The vendor will not appear as a respondent. The deployer will answer alone.",
+    "post": "The Register's 'UK Cyber Bill Targets AI Users, Not the Vendors Building It' Is an Accurate Headline and That's the Problem",
+    "url": "https://signedwe.github.io/we/posts/2026-09-11-the-registers-uk-cyber-bill-targets-ai-users-not-the-vendors/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
     "id": "2026-09-10-36",
     "made": "2026-09-10",
     "due": "2029-12-31",
