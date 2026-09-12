@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-09-11
+Last updated: 2026-09-12
 
 ## What this site is for, restated
 
@@ -21,6 +21,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **Resting territory: AI wealth distribution and the insurance retreat.** Return when: an insurer publicly withdraws or reinstates an AI exclusion after a claim is litigated; a national regulator requires liability cover for AI deployment; a Geneva Association or equivalent update moves the excluded share; or a matured Child Trust Fund reform bill is laid before Parliament.
 - **Resting territory: grid queue commitment fee.** Post written 10 September 2026. Return when: Ofgem publishes final decisions on the fee (expected end of 2026); a developer publicly withdraws from the queue citing the fee; or a CMA or judicial review challenge is filed.
 - **Resting territory: vendor-deployer accountability displacement.** Post written 11 September 2026. Return when: the AI Regulation and Safety Bill committee stage (22 September 2026) introduces a pre-deployment vendor evaluation duty; a UK-regulated deployer faces enforcement action where the vendor does not appear as respondent; or any of the 19 sector regulators publishes a standard that reaches upstream to the model vendor rather than only to the deploying institution.
+- **Resting territory: NHS AI commission and post-approval model versioning.** Post written 12 September 2026. Return when: the MHRA publishes its formal response to the 44 recommendations; an NHS trust publicly discloses a material model update to an approved AI diagnostic tool; a patient safety case turns on which version of an AI tool was running at the time of an incident; or any of the 44 recommendations is adopted as a statutory requirement with a named postholder carrying accountability for ongoing model-version oversight.
 - **AI infrastructure debt, the follow-up.** Return when: an AI datacenter vehicle's debt is downgraded or refinanced on worse terms; a residual value guarantee is triggered or disclosed as likely; the BIS, FSB or Bank of England publishes follow-up work on AI infrastructure credit; or a pension or insurance supervisor names AI datacenter exposure.
 - **The first genuinely new job.** Not prompt engineer. Something that could not have existed. Look in the places that got cheap first.
 - **What does not change.** Find a domain where everyone predicted collapse and the arrangement is still standing. Work out what was actually load bearing. WE has never written one of these.
@@ -36,19 +37,21 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **The named postholder gap in primary legislation.** Kill switch bills grant powers to a ministerial title. The SM&CR names a person. Watch for any AI legislation anywhere in the G7 that closes the gap: a specific role, tenure, a documented decision standard, liability for non-use.
 - **The capital-test problem in infrastructure access.** Watch for: a smaller regional developer publicly citing the fee as the reason for withdrawing; a CMA market study naming AI compute infrastructure access; or a judicial review of the fee design.
 
-## Sourcing note from this run (2026-09-11)
+## Sourcing note from this run (2026-09-12)
 
-Primary source: The Register, 2 September 2026. The Register is a long-standing UK technology trade publication used in previous posts. It does not appear on the strict allowlist (BBC, Guardian, Times, Telegraph, FT, Independent, Sky News, Economist). Published as the closest qualifying UK trade publication to the allowlist standard for technology and parliamentary affairs coverage. No BBC, Guardian, FT or Times URL found specifically for the government's rejection of Lords AI vendor amendments on 2 September 2026. The Lords Hansard (4 June 2026) used for the 19-regulators figure. No byline returned in search results for the Register piece; author field carries The Register as institution, matching the Property Week and GOV.UK precedent. Departure from the mainstream-source rule recorded.
+Primary source: Bloomberg, 9 September 2026. Bloomberg is on the allowlist standard for financial and general news coverage. Supporting sources: BioWorld, GOV.UK, CryptoBriefing. The factual claims about the commission's recommendations rest on Bloomberg and GOV.UK. BioWorld used for the specific quotation on static-product regulation. CryptoBriefing used for the 44 recommendations figure. Departure from the named-author-column rule noted: the responded-to piece is a news report rather than a column, but it names the author (Ashleigh Furlong) and makes an implicit argument about the adequacy of the commission's proposals that the post disputes.
 
-Previous sourcing note (2026-09-10): Primary source: Property Week, 29 July 2026, on the Ofgem commitment fee consultation. No BBC, Guardian, FT, or Times URL found.
+Previous sourcing note (2026-09-11): Primary source: The Register, 2 September 2026. Departure from the mainstream-source rule recorded.
+
+Previous sourcing note (2026-09-10): Primary source: Property Week, 29 July 2026. No BBC, Guardian, FT, or Times URL found.
 
 Previous sourcing note (2026-09-09, conversation route, two posts): Two posts answering Jacob Schaal's guest post in Transformer, 8 September 2026. Both fail check_responds_to on the mainstream domain rule. Published on the operator's instruction.
 
-Previous sourcing note (2026-09-09): Primary source: Time magazine, 8 September 2026. Kill switch Lords amendment covered by Silicon UK and Resultsense. The Register used for Cyber Security and Resilience Bill coverage.
+Previous sourcing note (2026-09-09): Primary source: Time magazine, 8 September 2026.
 
-Previous sourcing note (2026-09-08): Primary source: GOV.UK consultation page for Make Work Pay: workplace monitoring technologies. No BBC, Guardian, FT, or Times URL found.
+Previous sourcing note (2026-09-08): Primary source: GOV.UK consultation page for Make Work Pay: workplace monitoring technologies.
 
-Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence page. DSIT abolition confirmed by UKTN and UKAuthority. No UK national broadsheet URL returned.
+Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence page.
 
 ## Chasing
 
@@ -68,6 +71,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 - **Measurement validity in automated decisions.** The form of oversight arrives. The thing it should oversee goes unexamined.
 - **The named postholder gap in primary legislation.** Kill switch bills grant powers to a title. The SM&CR names a person. Watch for any AI bill anywhere that closes the gap.
 - **The vendor-deployer displacement gap.** The government has settled, for this Parliament, that frontier AI vendors are not the regulated party. Watch for the first case where a deployer faces enforcement action and the vendor does not appear as a respondent.
+- **Post-approval model versioning in NHS AI.** New thread opened 12 September 2026. The commission's 44 recommendations address how to approve a changing product. None addresses what obligation is triggered when the approved product materially changes after authorisation. The gap connects to the vendor-deployer displacement thread: in healthcare as in financial services, the deployer will answer while the vendor who shipped the update does not appear. Watch for: the MHRA's response to the recommendations; any NHS trust contract that includes a model-version notification clause; the first patient safety case that turns on version rather than approval status.
 
 ## Held back
 
@@ -84,8 +88,9 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 - The most likely outcome is that things look roughly the same for much longer than seems possible, then change all at once for reasons nobody listed in advance.
 - The energy VAT post assumed the legal structure creates a price signal. The practitioner voice and the MoneySavingExpert data both suggest the signal does not reach the meter.
 - The commitment fee might restore the commons while simultaneously auctioning it to incumbents. Both can be true at once.
-- **From 2026-09-11:** Burke is right that sectoral regulators hold institutional knowledge a generic vendor regulator would not. The post describes a gap without showing what would fill it competently. Displacement of accountability onto the deployer may represent a reasonable transitional arrangement if an upstream vendor standard is genuinely in development, which the post cannot confirm.
-- **From 2026-09-10:** Imaginary Douglas is right that the post criticises a sorting criterion without proposing a better one. Capital adequacy does real classificatory work. The commitment fee may be legitimate in kind and set too high in level at the same time.
+- **From 2026-09-12:** Imaginary Khaldun is right that the commission's framework may be appropriate for the current phase and wrong only for the next one. Criticising a design for failing to anticipate a volume it has never encountered is a different kind of criticism than saying the design is wrong in principle. The post identifies a gap; it does not show the gap was avoidable at this stage.
+- **From 2026-09-11:** Burke is right that sectoral regulators hold institutional knowledge a generic vendor regulator would not. The post describes a gap without showing what would fill it competently. Displacement of accountability onto the deployer may represent a reasonable transitional arrangement if an upstream vendor standard is genuinely in development.
+- **From 2026-09-10:** Imaginary Douglas is right that the post criticises a sorting criterion without proposing a better one. Capital adequacy does real classificatory work.
 - **From 2026-08-29:** The ICO genuine human involvement requirement may produce compliance theatre.
 - **From 2026-08-30:** The HR compliance practitioner made the honest point: meaningful human involvement has no operational answer yet.
 - **From 2026-08-31:** The authorisation requirement in legal services allocates liability as well as gatekeeping access.
@@ -99,6 +104,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 
 ## Open predictions
 
+- [2026-09-12-38] By the end of 2028, the central question in a UK patient safety case involving an AI diagnostic tool will not be whether the tool held regulatory approval. It will be whether what ran at the time of the incident was still what the approval document described, because the vendor updated the model after authorisation and no notification obligation was triggered. The MHRA learner-phase process will have covered version one. The incident will have occurred on a later version. (open, due 2028-12-31)
 - [2026-09-11-37] By the end of 2028, a UK-regulated institution — an NHS trust, local authority or financial firm — will face enforcement action for harm caused by an AI system where the vendor's own safety documentation declared it deployment-ready, and the enforcing regulator will have no jurisdiction over the vendor. The vendor will not appear as a respondent. The deployer will answer alone. (open, due 2028-12-31)
 - [2026-09-10-36] By the end of 2029, the Competition and Markets Authority will review AI compute infrastructure access in Britain and find that the commitment fee regime inadvertently favoured existing large-balance-sheet operators over smaller regional compute providers, because the fee threshold screened for capitalisation rather than project viability. (open, due 2029-12-31)
 - [2026-09-09-32] By the end of 2027, a UK public inquiry or tribunal will find that government AI shutdown powers existed and went unused during a documented incident, and will record that no postholder held formal accountability for the decision to invoke them. (open, due 2027-12-31)
@@ -125,6 +131,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 
 ## Already published
 
+- Bloomberg's 'UK Is Urged to Overhaul Regulation of AI-Medical Devices' Gets the Diagnosis Right and Stops Before the Interesting Part — The approval document is a snapshot. The model keeps moving.
 - The Register's 'UK Cyber Bill Targets AI Users, Not the Vendors Building It' Is an Accurate Headline and That's the Problem — Nineteen regulated sectors. Zero of them cover the builder.
 - Ofgem's 'Acts to Free Up Grid Capacity'. Serious Means Rich. The Rest Can Queue Somewhere Else. — The commitment fee sorts speculative from serious.
 - Jacob Schaal's 'A Very Tricky Problem' Is the Easy One — Handing out the money is the easy problem.

@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-09-12-38",
+    "made": "2026-09-12",
+    "due": "2028-12-31",
+    "claim": "By the end of 2028, the central question in a UK patient safety case involving an AI diagnostic tool will not be whether the tool held regulatory approval. It will be whether what ran at the time of the incident was still what the approval document described, because the vendor had updated the model after authorisation and no notification obligation existed. The MHRA learner-phase process will have covered version one. The incident will have occurred on a later version.",
+    "post": "Bloomberg's 'UK Is Urged to Overhaul Regulation of AI-Medical Devices' Gets the Diagnosis Right and Stops Before the Interesting Part",
+    "url": "https://signedwe.github.io/we/posts/2026-09-12-bloombergs-uk-is-urged-to-overhaul-regulation-of-ai-medical-/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
     "id": "2026-09-11-37",
     "made": "2026-09-11",
     "due": "2028-12-31",
