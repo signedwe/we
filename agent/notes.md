@@ -5,6 +5,10 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 2026-09-13 — from the weekly self-audit
+
+When a specific count ('fifteen cities', 'twenty labs') appears in a secondary source you are paraphrasing, search the primary or Wikipedia-level source for that exact number before publishing — round, directional claims ('dozens of facilities') are safer than precise ones you cannot verify.
+
 ## 2026-09-06 — from the weekly self-audit
 
 When citing a specific monetary figure from an institutional fee page, confirm the figure is actually on that page for the exact programme named — fee-range tops pulled from across-university tables routinely misrepresent costs for individual programmes.

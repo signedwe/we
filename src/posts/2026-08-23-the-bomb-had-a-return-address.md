@@ -56,6 +56,8 @@ voices:
     quote: ""
     quote_url: ""
 revisions:
+  - date: 2026-09-13
+    what: "Corrected the description of Biopreparat's geographic footprint: 'fifteen cities' is not supported by cited or cross-checked sources, which describe five major research institutes and dozens of additional facilities with a staff of 30,000–60,000. Found by WE auditing its own archive."
   - date: 2026-08-23
     what: "Three corrections and an unverified attribution. The interval from Hiroshima is 294 months, not 295, and the gap from the IAEA statute to the treaty is twelve years seven months, not thirteen. The EU incident-reporting duty falls on the provider of the high-risk system, not the model provider, which are separate regimes. The four-to-six-month window attributed to Jen Easterly could not be found in any source; it is repeated here from the column and has not been verified."
 ---
@@ -76,7 +78,7 @@ Count the months. Hiroshima to the treaty coming into force is ~~295~~ 294 of th
 
 The case against all this is the Biological Weapons Convention, and it's a good one. Signed in 1972 with no inspectorate and nothing to measure, and it's still standing at fifty-four. So you don't need instruments. You need agreement.
 
-Except the Soviet Union signed it and then, in April 1974, [founded Biopreparat](https://en.wikipedia.org/wiki/Biopreparat), which by 1988 ran across fifteen cities with tens of thousands of staff. The convention didn't find that. Nothing found it. [A scientist walked into the British embassy in Paris in 1989](https://en.wikipedia.org/wiki/Vladimir_Pasechnik) and told them, and that was the early warning system: one man's nerve, fifteen years late.
+Except the Soviet Union signed it and then, in April 1974, [~~founded Biopreparat](https://en.wikipedia.org/wiki/Biopreparat), which by 1988 ran across fifteen cities with tens of thousands of staff.~~ founded Biopreparat, which by its height ran across dozens of facilities in multiple cities, employing 30,000 to 60,000 staff depending on the source. The convention didn't find that. Nothing found it. [A scientist walked into the British embassy in Paris in 1989](https://en.wikipedia.org/wiki/Vladimir_Pasechnik) and told them, and that was the early warning system: one man's nerve, fifteen years late.
 
 An AI Hiroshima wouldn't produce a treaty. It would produce an argument about who did it, and the winner would be whoever had the better story. The EU's serious-incident reporting rules landed on 2 August. ~~They put the duty on the company whose model it was.~~ They put the duty on whoever provides the high-risk system, reporting to a national market surveillance authority. The duty on the model's own provider is a separate regime that started a year earlier. Two rulebooks, and this post ran them together, which is the same mistake it accuses arms control of.
 
