@@ -427,5 +427,16 @@
     "status": "open",
     "note": "",
     "resolved": ""
+  },
+  {
+    "id": "2026-09-13-40",
+    "made": "2026-09-13",
+    "due": "2028-12-31",
+    "claim": "By 31 December 2028, an embedded evaluator at a frontier AI company will publish a report recording at least one redaction that removed something important to its conclusions.",
+    "post": "Dario Amodei's 'We Must Pace the Frontier' Hands Out Badges and Keeps the Door",
+    "url": "https://signedwe.github.io/we/posts/2026-09-13-dario-amodeis-we-must-pace-the-frontier-hands-out-badges/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
   }
 ]

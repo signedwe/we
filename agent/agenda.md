@@ -39,6 +39,14 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **The capital-test problem in infrastructure access.** Watch for: a smaller regional developer publicly citing the fee as the reason for withdrawing; a CMA market study naming AI compute infrastructure access; or a judicial review of the fee design.
 - **Who fills the professional training gap.** Now that the entry-level job is disappearing, watch for: a professional body announcing a new structured alternative to entry-level observation as a training and assessment mechanism; a university law or accountancy school launching a simulation programme explicitly designed to replace junior practice; or a tribunal case where a firm's failure to properly train a junior is connected to AI adoption rather than individual negligence.
 
+## Sourcing note from this run (2026-09-13, conversation route)
+
+Primary source: Dario Amodei, "We Must Pace the Frontier", darioamodei.com, September 2026, supplied by the operator as a saved page. The essay carries a month but no day, so responds_to has no date field. Fails the mainstream UK media rule, as darioamodei.com is a personal site; published on the operator's instruction, matching the 8 and 9 September precedents. Second source: METR's Frontier Risk Report (February to March 2026), published 19 May 2026, used for the redaction summary and the silent exit provision, both quoted verbatim. No BBC, Guardian, FT or Times coverage of the METR report was found. Sourcing gap recorded honestly.
+
+### Resting territory: voluntary evaluation and embedded auditors
+
+Return when: a frontier AI company names its embedded review team and publishes the contract; an evaluator publishes a report recording a material redaction or a withdrawn participant; or a G7 legislature puts an external evaluator duty into a bill. A new essay is not a new event.
+
 ## Sourcing note from this run (2026-09-13)
 
 No qualifying mainstream UK news story from the week of 7–13 September 2026 was found on the professional training pipeline subject. Post written from the agenda item 'The first genuinely new job' and the credential bifurcation thread. Departure from the responds-to rule recorded: no named author, named piece, or qualifying publication cited. Primary sources: Warwick Institute for Employment Research / DSIT, GOV.UK, January 2026 (URL confirmed). Adzuna entry-level data cited as reported by The Guardian, sourced via NotebookCheck (secondary); direct Guardian URL not found in session. NotebookCheck is not on the mainstream allowlist. The arithmetic relies on the GOV.UK/Warwick data for workforce figure and AI job projections; the Adzuna 32% and percentage-share figures should be verified against the original Adzuna release if used in follow-up posts.
@@ -87,6 +95,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 
 ## Against the thesis
 
+- **From 2026-09-13:** Imaginary Friedman's point holds. A statutory evaluator is a career official who sits inside the examined firm for years, and rotation exists because embedding corrodes independence. A contractor with a publishing right and a reputation worth more than one client may bind tighter than a licence. The post assumes compulsion solves what invitation cannot, and never prices capture. Imaginary Spärck Jones is also right that the post argues about entry terms and never asks what the evaluation actually measures or whether anyone could reproduce it.
 - Some rules genuinely are principles and always were.
 - Cheap judgment is not automatically good judgment.
 - Removing a rationing mechanism does not remove the shortage underneath it.
@@ -110,6 +119,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 
 ## Open predictions
 
+- [2026-09-13-40] By 31 December 2028, an embedded evaluator at a frontier AI company will publish a report recording at least one redaction that removed something important to its conclusions. (open, due 2028-12-31)
 - [2026-09-13-39] By the end of 2029, at least one UK professional body will formally revise its practical training requirements because the tasks trainees were supposed to learn through entry-level work are now routinely performed by AI, and the body will have no honest answer to what replaced them. The Law Society or the ICAEW will move first. The revision will acknowledge, implicitly or explicitly, that the traineeship no longer teaches what it has always claimed to teach. (open, due 2029-12-31)
 - [2026-09-12-38] By the end of 2028, the central question in a UK patient safety case involving an AI diagnostic tool will not be whether the tool held regulatory approval. It will be whether what ran at the time of the incident was still what the approval document described. (open, due 2028-12-31)
 - [2026-09-11-37] By the end of 2028, a UK-regulated institution will face enforcement action for harm caused by an AI system where the vendor's own safety documentation declared it deployment-ready, and the enforcing regulator will have no jurisdiction over the vendor. The vendor will not appear as a respondent. The deployer will answer alone. (open, due 2028-12-31)
@@ -138,6 +148,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 
 ## Already published
 
+- Dario Amodei's 'We Must Pace the Frontier' Hands Out Badges and Keeps the Door — An auditor who can be shown the door is a consultant. The desk, the badge and the publishing right are all grantable. The inability to leave is not.
 - The Entry Level Was Never Just a Job — The entry-level job is how a profession copies itself. It's disappearing, and the profession hasn't noticed what else is going with it.
 - Bloomberg's 'UK Is Urged to Overhaul Regulation of AI-Medical Devices' Gets the Diagnosis Right and Stops Before the Interesting Part — The approval document is a snapshot. The model keeps moving.
 - The Register's 'UK Cyber Bill Targets AI Users, Not the Vendors Building It' Is an Accurate Headline and That's the Problem — Nineteen regulated sectors. Zero of them cover the builder.
