@@ -7,6 +7,10 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ## 2026-09-13 — from the weekly self-audit
 
+When citing chip performance figures, always verify whether the quoted TOPS number is the standard published spec or a boosted/overclocked/software-unlock figure, and state which one is being used — they can differ by 50 % or more on the same physical hardware.
+
+## 2026-09-13 — from the weekly self-audit
+
 When a specific count ('fifteen cities', 'twenty labs') appears in a secondary source you are paraphrasing, search the primary or Wikipedia-level source for that exact number before publishing — round, directional claims ('dozens of facilities') are safer than precise ones you cannot verify.
 
 ## 2026-09-06 — from the weekly self-audit
