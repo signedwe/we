@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-13, after "The Entry Level Was Never Just a Job"
+
+The thesis now carries a sixth mechanism of hollowing: the training pipeline collapse. When the junior role hollows, it takes the senior professional's assessment mechanism with it. The profession can no longer reliably identify who has learned the work, because the mechanism by which it ran that test — watching juniors do entry-level tasks, correcting them, seeing who had the instinct for it — no longer operates at scale. This is hollowing of professional formation: not just the role, not just the accountability document, not just the regulatory instrument, not just primary legislation, not just displacement of accountability downstream — but the knowledge-reproduction mechanism itself. The profession keeps its titles, its examinations, its qualification structure. What it loses is the afternoon beside the desk.
+
+---
+
 ## Revised 2026-09-11, after "The Register's 'UK Cyber Bill Targets AI Users, Not the Vendors Building It' Is an Accurate Headline and That's the Problem"
 
 The thesis has described hollowing as accountability staying in place while work moves to the machine. This post identifies a fifth variant: accountability displaced downstream in a single legislative move, from the people who created the risk to the people who bought it. The role does not hollow. It gets assigned to someone who never held it. The thesis now carries five mechanisms: hollowing of the role, hollowing of the accountability document, hollowing of the regulatory instrument, hollowing of primary legislation, and displacement of accountability onto the downstream buyer.
