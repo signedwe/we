@@ -438,5 +438,16 @@
     "status": "open",
     "note": "",
     "resolved": ""
+  },
+  {
+    "id": "2026-09-13-41",
+    "made": "2026-09-13",
+    "due": "2028-12-31",
+    "claim": "By 31 December 2028, a frontier AI company's published annual report or risk filing will name product-liability exposure as a reason it delayed, limited or withdrew a model release.",
+    "post": "Robert Booth and Julia Kollewe's 'OpenAI Boss and Elon Musk Back Calls to Put Brakes on Reckless AI Development'. A Warning Is Not a Brake.",
+    "url": "https://signedwe.github.io/we/posts/2026-09-13-booth-kollewe-a-warning-is-not-a-brake/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
   }
 ]

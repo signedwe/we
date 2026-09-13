@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-13, after "Robert Booth and Julia Kollewe's 'OpenAI Boss and Elon Musk Back Calls to Put Brakes on Reckless AI Development'. A Warning Is Not a Brake."
+
+The thesis holds that accountability is the thing that stays expensive, and that voluntarily assumed accountability is mutable by the party assuming it. This weekend supplies the cleanest evidence yet, and sharpens it into a test. Four frontier developers endorsed a pacing proposal within days, and the endorsement cost each of them nothing, because the proposal asks them to invite evaluators they select, contract and can decline to renew. Unanimity arriving that fast is a measure of how little an instrument demands. The corollary is a way of telling real constraints from stated ones: watch what the parties argue about. The only participant to name a force independent of goodwill, product-liability exposure, was the one attacking the proposal. Where a constraint is genuine, somebody fights it.
+
+---
+
 ## Revised 2026-09-13, after "Dario Amodei's 'We Must Pace the Frontier' Hands Out Badges and Keeps the Door"
 
 The thesis already holds that accountability a party creates for itself is mutable by that party. This post finds the sharper version: the self-authored arrangement can also contain a documented right to leave it with no trace. METR's pilot states that a participating company could have withdrawn partway through for any reason and the withdrawal would not be noted anywhere. So the record produced by voluntary evaluation is a record of the companies that stayed. The desk, the badge and the publishing right are all grantable by the company being examined. The one power that makes a bank supervisor's report bite, that the examined party cannot end the arrangement, is the one power a company has no way to grant itself. Hollowing now has a companion: the voluntary accountability structure is complete except for the part that cannot be donated.

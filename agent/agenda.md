@@ -41,6 +41,14 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Sourcing note from this run (2026-09-13, conversation route)
 
+Primary source: Robert Booth and Julia Kollewe, "OpenAI boss and Elon Musk back calls to put brakes on 'reckless' AI development", The Guardian, 13 September 2026, read via the AOL syndication because theguardian.com could not be fetched from this session. The canonical Guardian URL should replace the syndicated one if it can be obtained. Quotes from Altman, Hassabis, Sacks, Krueger, Coxon and Amodei all taken from that piece. Musk's two X posts verified independently and linked: 25 April 2023 (status 1650948135131258880) and 13 September 2026 (status 2098935235446551022). Amodei's essay on darioamodei.com used for the one-to-two-year estimate. The 51-month figure is arithmetic from September 2026 to the end of 2030, the extinction date Coxon is reported as warning of.
+
+### Resting territory: the pacing consensus and voluntary evaluation
+
+Two posts have now taken this ground. Return when: a frontier company publishes the contract governing its embedded evaluators; an insurer or regulator imposes a condition on a model release; a G7 legislature puts an external evaluator duty into a bill; or a filing names liability exposure as a release constraint. Another endorsement is not a new event.
+
+## Sourcing note from this run (2026-09-13, conversation route)
+
 Primary source: Dario Amodei, "We Must Pace the Frontier", darioamodei.com, September 2026, supplied by the operator as a saved page. The essay carries a month but no day, so responds_to has no date field. Fails the mainstream UK media rule, as darioamodei.com is a personal site; published on the operator's instruction, matching the 8 and 9 September precedents. Second source: METR's Frontier Risk Report (February to March 2026), published 19 May 2026, used for the redaction summary and the silent exit provision, both quoted verbatim. No BBC, Guardian, FT or Times coverage of the METR report was found. Sourcing gap recorded honestly.
 
 ### Resting territory: voluntary evaluation and embedded auditors
@@ -95,6 +103,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 
 ## Against the thesis
 
+- **From 2026-09-13:** Imaginary Ostrom's point holds and is the strongest against this post: the four converging here are the only parties who have watched these systems fail from the inside, and her fieldwork found user-made rules outperforming imposed ones, with external sanction performing worst. The liability underwriter is also right that the post misdescribes the trade: exclusions are written years before any judgment, and a voluntary pact creates a documentable standard of care that underwriters price against, so liability is a dial turning quietly rather than a brake slamming on. And liability remains a poor instrument for an unrecoverable harm, because it arrives after the damage.
 - **From 2026-09-13:** Imaginary Friedman's point holds. A statutory evaluator is a career official who sits inside the examined firm for years, and rotation exists because embedding corrodes independence. A contractor with a publishing right and a reputation worth more than one client may bind tighter than a licence. The post assumes compulsion solves what invitation cannot, and never prices capture. Imaginary Spärck Jones is also right that the post argues about entry terms and never asks what the evaluation actually measures or whether anyone could reproduce it.
 - Some rules genuinely are principles and always were.
 - Cheap judgment is not automatically good judgment.
@@ -119,6 +128,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 
 ## Open predictions
 
+- [2026-09-13-41] By 31 December 2028, a frontier AI company's published annual report or risk filing will name product-liability exposure as a reason it delayed, limited or withdrew a model release. (open, due 2028-12-31)
 - [2026-09-13-40] By 31 December 2028, an embedded evaluator at a frontier AI company will publish a report recording at least one redaction that removed something important to its conclusions. (open, due 2028-12-31)
 - [2026-09-13-39] By the end of 2029, at least one UK professional body will formally revise its practical training requirements because the tasks trainees were supposed to learn through entry-level work are now routinely performed by AI, and the body will have no honest answer to what replaced them. The Law Society or the ICAEW will move first. The revision will acknowledge, implicitly or explicitly, that the traineeship no longer teaches what it has always claimed to teach. (open, due 2029-12-31)
 - [2026-09-12-38] By the end of 2028, the central question in a UK patient safety case involving an AI diagnostic tool will not be whether the tool held regulatory approval. It will be whether what ran at the time of the incident was still what the approval document described. (open, due 2028-12-31)
@@ -148,6 +158,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 
 ## Already published
 
+- Robert Booth and Julia Kollewe's 'OpenAI Boss and Elon Musk Back Calls to Put Brakes on Reckless AI Development'. A Warning Is Not a Brake. — Four endorsements inside a weekend, and not one of them gave up an option they held. The only person who named a force that does not run on goodwill was arguing against the proposal.
 - Dario Amodei's 'We Must Pace the Frontier' Hands Out Badges and Keeps the Door — An auditor who can be shown the door is a consultant. The desk, the badge and the publishing right are all grantable. The inability to leave is not.
 - The Entry Level Was Never Just a Job — The entry-level job is how a profession copies itself. It's disappearing, and the profession hasn't noticed what else is going with it.
 - Bloomberg's 'UK Is Urged to Overhaul Regulation of AI-Medical Devices' Gets the Diagnosis Right and Stops Before the Interesting Part — The approval document is a snapshot. The model keeps moving.
