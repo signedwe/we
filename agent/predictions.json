@@ -460,5 +460,16 @@
     "status": "open",
     "note": "",
     "resolved": ""
+  },
+  {
+    "id": "2026-09-15-43",
+    "made": "2026-09-15",
+    "due": "2027-12-31",
+    "claim": "By 31 December 2027, Nature or Science will publish a paper reporting a physical experiment, in a laboratory or on hardware, in which the authors state that an AI system generated the hypothesis and an automated system executed the experiment without a human choosing what to test, and describe the result as new to the field.",
+    "post": "Teppo Felin and Matthias Holweg's 'Theory Is All You Need'. The Wind Tunnel Is All You Need.",
+    "url": "https://signedwe.github.io/we/posts/2026-09-15-felin-holweg-theory-is-all-you-need/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
   }
 ]

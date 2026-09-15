@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-15, after "Teppo Felin and Matthias Holweg's 'Theory Is All You Need'. The Wind Tunnel Is All You Need."
+
+The theory-versus-data argument is a dispute over which cheap thing matters. Belief ahead of evidence is free: Langley had one, Kelvin had the opposite one, and neither cost them anything. The Wrights had two things the machines are only now acquiring and one they still lack. The two are the licence to run the experiment and the data it produces. The one is a person whose money and life were under the wing when it failed. So the thesis holds and gains a case: what stays scarce is not the theory and not the prediction. It is the right to intervene in the world and the name that carries the consequence. Watch who is allowed to crash.
+
+---
+
 ## Revised 2026-09-13, after "Robert Booth and Julia Kollewe's 'OpenAI Boss and Elon Musk Back Calls to Put Brakes on Reckless AI Development'. A Warning Is Not a Brake."
 
 The thesis holds that accountability is the thing that stays expensive, and that voluntarily assumed accountability is mutable by the party assuming it. This weekend supplies the cleanest evidence yet, and sharpens it into a test. Four frontier developers endorsed a pacing proposal within days, and the endorsement cost each of them nothing, because the proposal asks them to invite evaluators they select, contract and can decline to renew. Unanimity arriving that fast is a measure of how little an instrument demands. The corollary is a way of telling real constraints from stated ones: watch what the parties argue about. The only participant to name a force independent of goodwill, product-liability exposure, was the one attacking the proposal. Where a constraint is genuine, somebody fights it.

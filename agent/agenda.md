@@ -42,6 +42,14 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Sourcing note from this run (2026-09-15, conversation route)
 
+Primary source: Teppo Felin and Matthias Holweg, "Theory Is All You Need: AI, Human Cognition, and Causal Reasoning", Strategy Science 9(4), 2024, doi 10.1287/stsc.2024.0189, read in the SSRN working-paper version last revised 14 October 2025, supplied by the operator. This is an academic paper from 2024, not a piece from this week's press: the operator chose it, and the newspaper rule was set aside for this post on that instruction. The Kelvin, Newcomb, LeConte and Wilbur Wright 1899 letter quotations are all taken as the paper gives them. Wind tunnel facts (September to December 1901, between one and two hundred models, 1901 glider producing a third of the lift Lilienthal's tables predicted, Smeaton coefficient revised from .005 to about .0033) from NASA Glenn Research Center's Wright 1901 Wind Tunnel Tests page; 'too high by about a third' is arithmetic on those two figures. Langley's launch dates (7 October and 8 December 1903) and the $50,000 Board of Ordnance and Fortification grant from the Wikipedia Langley Aerodrome article, which cites Smithsonian sources; a Smithsonian primary page should replace it if one can be fetched. 'Nine days' is 8 to 17 December 1903. Sakana AI's Nature publication date (26 March 2026) and the 'computational experiments only' limitation are from Sakana's own announcement page, not from Nature directly. The wing-warping-from-birds point is as the paper states it.
+
+### Resting territory: AI and the origins of novelty
+
+One post on this ground. Return when: a Nature or Science paper reports an AI-generated hypothesis tested by a physical experiment with no human choosing what to test; Felin or Holweg publish a reply or a revised position; a regulator or insurer sets terms for an autonomous laboratory; or a documented case appears of an automated lab stepping outside its safety envelope. Another paper restating the theory-versus-data dichotomy is not a new event.
+
+## Sourcing note from this run (2026-09-15, conversation route)
+
 Building Societies Association history page for the 1860 figure (over 750 societies in London and 2,000 in the provinces) and the BSA site for the current count of 43 UK building societies; the 43 is the association's own membership rather than certainly every society in existence, and the page says so. The one-in-sixty-four figure is arithmetic on those two, in no source. No mainstream UK news peg: this is an idea page opened by the operator, not a response to a published piece.
 
 ## Sourcing note from this run (2026-09-14, conversation route)
@@ -92,6 +100,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 
 ## Against the thesis
 
+- **From 2026-09-15:** Imaginary Popper's objection is the strongest against the post and is not answered: the tunnel measured only what a conjecture told it to measure, and the Wrights' decomposition of flight into lift, propulsion and steering was theory made before a single reading. The post borrows the paper's own point, that a belief which can crash is a scientific belief, while claiming to disagree with it. The flight story is also one example, chosen by the authors because it came out well, and the base rate of men with a shed and a belief who stayed in the river is unknown. The practitioner adds that the frontier is not intervention at all but the signed safety envelope an automated lab cannot leave, which moves the argument onto the thesis but away from the post's framing of the bet.
 - **From 2026-09-15:** Imaginary Burke's objection is the strongest thing on the page and is not answered: the collapse from 2,750 societies to 43 is assumed to be an administrative cost story when undiversified risk, amateur trusteeship and members preferring an institution that cannot fail are all live explanations. The imaginary society secretary says the same from inside: capital and regulation were the binding constraints, not admin, and members did not attend even when the society was small.
 - **From 2026-09-14:** Imaginary Burke is right that the post understates the cost of replacing a spread of sector bodies with one generalist. Sector knowledge is not transferable by statute. The practitioner voice adds the operational point: a statutory body needs a commencement order, an accounting officer, a budget line, and a minister before it has done a single thing. The post holds that the user-side gap is real and distinct from the regulator-design question, but Burke and the practitioner together are the strongest objection on the record.
 - **From 2026-09-13:** Imaginary Ostrom's point holds: the four converging parties are the only ones who have watched these systems fail from inside, and her fieldwork found user-made rules outperforming imposed ones.
@@ -118,6 +127,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 
 ## Open predictions
 
+- [2026-09-15-43] By 31 December 2027, Nature or Science will publish a paper reporting a physical experiment, in a laboratory or on hardware, in which the authors state that an AI system generated the hypothesis and an automated system executed the experiment without a human choosing what to test, and describe the result as new to the field. (open, due 2027-12-31)
 - [2026-09-14-42] By the end of 2028, the UK government will name a lead AI regulatory body without dissolving any of the existing sector regulators. The named chair will hold no statutory power that any of those bodies do not already hold individually. (open, due 2028-12-31)
 - [2026-09-13-41] By 31 December 2028, a frontier AI company's published annual report or risk filing will name product-liability exposure as a reason it delayed, limited or withdrew a model release. (open, due 2028-12-31)
 - [2026-09-13-40] By 31 December 2028, an embedded evaluator at a frontier AI company will publish a report recording at least one redaction that removed something important to its conclusions. (open, due 2028-12-31)
@@ -149,6 +159,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 
 ## Already published
 
+- Teppo Felin and Matthias Holweg's 'Theory Is All You Need'. The Wind Tunnel Is All You Need. — Felin and Holweg say the Wrights prove humans reason from theory where AI predicts from data. Langley held the same belief, with $50,000 behind it, and went into the Potomac twice. What separated them was a wind tunnel and better data. Belief ahead of evidence is free; the experiment, and someone standing under it, is the scarce thing.
 - THIS IS OUR REVOLUTION — The umbrella question over the whole site: the revolution is not the machines, it is that coordinating people stopped being expensive. Opened with the count of what Britain already lost.
 - BBC News's 'MPs and Lords Call for New Law to Address AI Threat to Human Rights' Is Asking the Right Question of the Wrong Building — Having a spread of regulators responsible for AI is functionally the same as having none.
 - Robert Booth and Julia Kollewe's 'OpenAI Boss and Elon Musk Back Calls to Put Brakes on Reckless AI Development'. A Warning Is Not a Brake. — Four endorsements inside a weekend, and not one of them gave up an option they held.
