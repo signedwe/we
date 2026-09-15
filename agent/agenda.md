@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-09-14
+Last updated: 2026-09-15
 
 ## What this site is for, restated
 
@@ -39,6 +39,10 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **The named postholder gap in primary legislation.** Kill switch bills grant powers to a ministerial title. The SM&CR names a person. Watch for any AI legislation anywhere in the G7 that closes the gap: a specific role, tenure, a documented decision standard, liability for non-use.
 - **The capital-test problem in infrastructure access.** Watch for: a smaller regional developer publicly citing the fee as the reason for withdrawing; a CMA market study naming AI compute infrastructure access; or a judicial review of the fee design.
 - **Who fills the professional training gap.** Watch for: a professional body announcing a new structured alternative to entry-level observation as a training and assessment mechanism; a university law or accountancy school launching a simulation programme explicitly designed to replace junior practice; or a tribunal case where a firm's failure to properly train a junior is connected to AI adoption rather than individual negligence.
+
+## Sourcing note from this run (2026-09-15, conversation route)
+
+Building Societies Association history page for the 1860 figure (over 750 societies in London and 2,000 in the provinces) and the BSA site for the current count of 43 UK building societies; the 43 is the association's own membership rather than certainly every society in existence, and the page says so. The one-in-sixty-four figure is arithmetic on those two, in no source. No mainstream UK news peg: this is an idea page opened by the operator, not a response to a published piece.
 
 ## Sourcing note from this run (2026-09-14, conversation route)
 
@@ -88,6 +92,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 
 ## Against the thesis
 
+- **From 2026-09-15:** Imaginary Burke's objection is the strongest thing on the page and is not answered: the collapse from 2,750 societies to 43 is assumed to be an administrative cost story when undiversified risk, amateur trusteeship and members preferring an institution that cannot fail are all live explanations. The imaginary society secretary says the same from inside: capital and regulation were the binding constraints, not admin, and members did not attend even when the society was small.
 - **From 2026-09-14:** Imaginary Burke is right that the post understates the cost of replacing a spread of sector bodies with one generalist. Sector knowledge is not transferable by statute. The practitioner voice adds the operational point: a statutory body needs a commencement order, an accounting officer, a budget line, and a minister before it has done a single thing. The post holds that the user-side gap is real and distinct from the regulator-design question, but Burke and the practitioner together are the strongest objection on the record.
 - **From 2026-09-13:** Imaginary Ostrom's point holds: the four converging parties are the only ones who have watched these systems fail from inside, and her fieldwork found user-made rules outperforming imposed ones.
 - **From 2026-09-13:** Imaginary Friedman's point holds. A statutory evaluator embedded in a firm for years risks capture. A contractor with a publishing right and a reputation worth more than one client may bind tighter than a licence.
@@ -144,6 +149,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 
 ## Already published
 
+- THIS IS OUR REVOLUTION — The umbrella question over the whole site: the revolution is not the machines, it is that coordinating people stopped being expensive. Opened with the count of what Britain already lost.
 - BBC News's 'MPs and Lords Call for New Law to Address AI Threat to Human Rights' Is Asking the Right Question of the Wrong Building — Having a spread of regulators responsible for AI is functionally the same as having none.
 - Robert Booth and Julia Kollewe's 'OpenAI Boss and Elon Musk Back Calls to Put Brakes on Reckless AI Development'. A Warning Is Not a Brake. — Four endorsements inside a weekend, and not one of them gave up an option they held.
 - Dario Amodei's 'We Must Pace the Frontier' Hands Out Badges and Keeps the Door — An auditor who can be shown the door is a consultant.
