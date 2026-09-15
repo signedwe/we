@@ -471,5 +471,16 @@
     "status": "open",
     "note": "",
     "resolved": ""
+  },
+  {
+    "id": "2026-09-15-44",
+    "made": "2026-09-15",
+    "due": "2027-03-31",
+    "claim": "By 31 March 2027, Microsoft AI will have published the promised summary of the consultation and a revised code, and the revised code will still rank operator policies above user preferences in its chain of command.",
+    "post": "Microsoft AI's 'Humanist AI in Practice: A Public Consultation on Our Code of Conduct for MAI Models'. Humanist, With the Human Third.",
+    "url": "https://signedwe.github.io/we/posts/2026-09-15-microsoft-ai-humanist-code-of-conduct/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
   }
 ]

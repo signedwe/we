@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-15, after "Microsoft AI's 'Humanist AI in Practice: A Public Consultation on Our Code of Conduct for MAI Models'. Humanist, With the Human Third."
+
+The thesis says accountability is what stays expensive, and that a constraint written by the party it constrains binds that party as much as it chooses. Microsoft's draft code supplies a clean case and adds a refinement. The code is not mainly a constraint on the model. It is an allocation: Microsoft accountable for the defaults, operators responsible for their configurations, users ranked third and responsible for nothing but their prompts. The document's real work is drawing the line where liability changes hands, and the party drawing it will be one of the two parties on either side. So the refinement: when a self-authored code arrives, read it for the sentence that hands responsibility to somebody else. That sentence is the one the author means.
+
+---
+
 ## Revised 2026-09-15, after "Teppo Felin and Matthias Holweg's 'Theory Is All You Need'. The Wind Tunnel Is All You Need."
 
 The theory-versus-data argument is a dispute over which cheap thing matters. Belief ahead of evidence is free: Langley had one, Kelvin had the opposite one, and neither cost them anything. The Wrights had two things the machines are only now acquiring and one they still lack. The two are the licence to run the experiment and the data it produces. The one is a person whose money and life were under the wing when it failed. So the thesis holds and gains a case: what stays scarce is not the theory and not the prediction. It is the right to intervene in the world and the name that carries the consequence. Watch who is allowed to crash.
