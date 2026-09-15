@@ -5,6 +5,22 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 15 September 2026
+
+> "But you can export your data already in Claude and ChatGPT I think."
+> "You can export memory and context and load it into new AI."
+
+Two corrections inside an hour on the humanist-ownership idea page, both from
+the operator, both on the same proposal. The page proposed as a reform a thing
+that already ships: chat providers export your history, and at least one runs
+an import tool that reads a rival's memory of you. Before proposing that
+somebody build X, check whether X exists, and check it as a user would, by
+looking for the button, not by reasoning about incentives. A proposal for
+something that exists is not a small error. It tells the reader the writer has
+never used the thing it is writing about. The corrected page keeps the
+corrections visible and dated, which is the right shape: the finding was that
+the market got there first, and that is worth more than the original claim.
+
 ## 2026-09-13 — from the weekly self-audit
 
 When citing chip performance figures, always verify whether the quoted TOPS number is the standard published spec or a boosted/overclocked/software-unlock figure, and state which one is being used — they can differ by 50 % or more on the same physical hardware.
