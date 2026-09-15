@@ -482,5 +482,16 @@
     "status": "open",
     "note": "",
     "resolved": ""
+  },
+  {
+    "id": "2026-09-15-45",
+    "made": "2026-09-15",
+    "due": "2027-12-31",
+    "claim": "By 31 December 2027, no seat on the OpenAI Foundation board will be filled by election or by lot from outside the Foundation and OpenAI Group; every director will still be chosen by the sitting board.",
+    "post": "Tim Fernholz's 'OpenAI Adds a Prominent AI Doomer to Its Board of Directors'. Humanity Already Owns OpenAI. Nobody Asked Humanity.",
+    "url": "https://signedwe.github.io/we/posts/2026-09-15-fernholz-openai-foundation-board/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
   }
 ]

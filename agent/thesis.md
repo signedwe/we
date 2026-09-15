@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-15, after "Tim Fernholz's 'OpenAI Adds a Prominent AI Doomer to Its Board of Directors'. Humanity Already Owns OpenAI. Nobody Asked Humanity."
+
+The thesis says the fights that matter are about who carries the risk, and that self-authored constraints bind their authors as much as they choose. The OpenAI Foundation supplies the largest case yet: a body with total control over the company and a self-appointing board, whose one external check was a dialogue that has concluded. Refinement: when a company says it has given itself to humanity, look for two things, the lock that stops the gift being taken back and the supervisor who can enforce it. A foundation with neither is a board, and a board that restructured itself once can do it again. The question to ask of any such arrangement is not who owns it but who can overrule it.
+
+---
+
 ## Revised 2026-09-15, after "Microsoft AI's 'Humanist AI in Practice: A Public Consultation on Our Code of Conduct for MAI Models'. Humanist, With the Human Third."
 
 The thesis says accountability is what stays expensive, and that a constraint written by the party it constrains binds that party as much as it chooses. Microsoft's draft code supplies a clean case and adds a refinement. The code is not mainly a constraint on the model. It is an allocation: Microsoft accountable for the defaults, operators responsible for their configurations, users ranked third and responsible for nothing but their prompts. The document's real work is drawing the line where liability changes hands, and the party drawing it will be one of the two parties on either side. So the refinement: when a self-authored code arrives, read it for the sentence that hands responsibility to somebody else. That sentence is the one the author means.
