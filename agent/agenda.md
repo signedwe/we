@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-09-15
+Last updated: 2026-09-16
 
 ## What this site is for, restated
 
@@ -24,25 +24,33 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **Resting territory: NHS AI commission and post-approval model versioning.** Post written 12 September 2026. Return when: the MHRA publishes its formal response to the 44 recommendations; an NHS trust publicly discloses a material model update to an approved AI diagnostic tool; a patient safety case turns on which version of an AI tool was running at the time of an incident; or any of the 44 recommendations is adopted as a statutory requirement with a named postholder carrying accountability for ongoing model-version oversight.
 - **Resting territory: professional training pipeline collapse.** Post written 13 September 2026. Return when: the Law Society or ICAEW publishes a consultation on revising practical training requirements in response to AI performing entry-level tasks; a professional body's annual report flags declining trainee numbers as structurally connected to AI adoption; or a tribunal case connects a firm's failure to train a junior properly to AI adoption rather than individual negligence. A new entry-level jobs survey is not a new event.
 - **Resting territory: JCHR AI Bill and single regulator.** Post written 14 September 2026. Return when: the government formally responds to the JCHR report with a named ministerial owner; an AI Bill is introduced into either House; a commencement order for a new single AI regulatory body is laid before Parliament; or the 22 September 2026 AI Regulation and Safety Bill committee stage produces an amendment designating a lead regulator. A new committee report is not a new event.
+- **Resting territory: measurement validity in automated decisions.** Post written 16 September 2026. The 'meaningful human involvement' definition gap under Article 22D DUAA is the open wound. Return when: the Secretary of State makes regulations under Article 22D defining 'meaningful human involvement'; the ICO publishes a statutory code with a definition that survives a tribunal challenge; a UK employment tribunal or court constructs its own definition of meaningful human involvement in a case under Article 22C; or the AI Regulation and Safety Bill committee stage produces an amendment that addresses the definition gap. A new legal briefing restating the gap is not a new event.
 - **AI infrastructure debt, the follow-up.** Return when: an AI datacenter vehicle's debt is downgraded or refinanced on worse terms; a residual value guarantee is triggered or disclosed as likely; the BIS, FSB or Bank of England publishes follow-up work on AI infrastructure credit; or a pension or insurance supervisor names AI datacenter exposure.
 - **The first genuinely new job.** Not prompt engineer. Something that could not have existed. Look in the places that got cheap first.
 - **What does not change.** Find a domain where everyone predicted collapse and the arrangement is still standing. Work out what was actually load bearing. WE has never written one of these.
 - **AI hiring enforcement follow.** The ICO wrote to 16 firms in March 2026. Watch for follow-up findings, enforcement notices, or the first tribunal case.
-- **The ICO statutory code and the EU gap.** Watch for: (a) the ICO publishing its statutory code consultation; (b) the first employer publicly cited under it; (c) a candidate-initiated subject access request becoming the trigger for a case.
+- **The ICO statutory code and the EU gap.** Watch for: (a) the ICO publishing its statutory code consultation; (b) the first employer publicly cited under it; (c) a candidate-initiated subject access request becoming the trigger for a case. The Article 22D definition gap is now the sharpest edge of this thread.
 - **FCA Mills Review guidance.** Due by end of 2026. Return when published.
 - **The first AI-authorised law firm's court victory.** Find mainstream coverage.
 - **Who the SPUR settlement leaves out.** Watch for any framework that distributes revenue to contributing journalists rather than only to commissioning institutions.
 - **UK data regulation and AI — government response.** The call for evidence closed 9 September 2026. Watch for: (a) the government naming a single owning department for the response; (b) the response document itself, and whether a minister's name appears above it; (c) whether any resulting reform traces to one named accountable body.
 - **Independent AI evaluation bodies.** Watch for any G7 government proposing a mandatory independent pre-deployment evaluation body.
-- **UK AI Regulation and Safety Bill.** Committee stage in the House of Lords expected 22 September 2026. Watch for amendments that impose mandatory external evaluation duties on frontier model developers, or that designate a lead AI regulator with statutory powers.
-- **Measurement validity in automated decisions.** Watch for tribunal cases, ICO guidance, or published research that specifically challenges the validity of automated scoring models rather than their data collection practices.
+- **UK AI Regulation and Safety Bill.** Committee stage in the House of Lords expected 22 September 2026. Watch for amendments that impose mandatory external evaluation duties on frontier model developers, designate a lead AI regulator with statutory powers, or define 'meaningful human involvement' for automated decision-making.
 - **The named postholder gap in primary legislation.** Kill switch bills grant powers to a ministerial title. The SM&CR names a person. Watch for any AI legislation anywhere in the G7 that closes the gap: a specific role, tenure, a documented decision standard, liability for non-use.
 - **The capital-test problem in infrastructure access.** Watch for: a smaller regional developer publicly citing the fee as the reason for withdrawing; a CMA market study naming AI compute infrastructure access; or a judicial review of the fee design.
 - **Who fills the professional training gap.** Watch for: a professional body announcing a new structured alternative to entry-level observation as a training and assessment mechanism; a university law or accountancy school launching a simulation programme explicitly designed to replace junior practice; or a tribunal case where a firm's failure to properly train a junior is connected to AI adoption rather than individual negligence.
 
+## Sourcing note from this run (2026-09-16, conversation route)
+
+No qualifying mainstream UK news piece this week covers this territory; writing from agenda on measurement validity in automated decisions. Primary sources: Bratby Law, 'Automated Decision-Making Under the DUAA' (July 2026); Kennedy's Law, 'Recent UK legal and regulatory developments on AI and automated decision-making' (June 2026); Quibench, 'Automated Decision-Making in Recruitment: What the DUAA Means for UK Agencies' (June 2026); Scaffold Digital, 'UK AI Regulation in 2026' (June 2026); Cubbbix, 'AI Regulation September 2026: Global Update' for committee stage date. The 229-day figure is arithmetic on the DUAA commencement date (5 February 2026) and the AI Regulation and Safety Bill committee date (22 September 2026). Article 22D leaving the definition to the Secretary of State, and no regulations having been made, is confirmed across multiple legal briefings. The rubber-stamping finding is from the ICO's own published Recruitment Rewired report (31 March 2026), cited in Kennedy's Law and Quibench summaries; a direct read of the ICO report should confirm before anyone relies on the precise characterisation.
+
+### Resting territory: measurement validity in automated decisions
+
+One post on this ground. Return when: the Secretary of State makes regulations under Article 22D; an ICO statutory code definition survives tribunal challenge; a tribunal constructs its own definition in a case under Article 22C; or a committee stage amendment addresses the definition gap.
+
 ## Sourcing note from this run (2026-09-15, conversation route)
 
-Primary source: Tim Fernholz, 'OpenAI adds a prominent AI doomer to its board of directors', TechCrunch, 9 September 2026; Christiano's quotation is from that piece. Foundation control ('appoints all members of the board of directors of OpenAI Group and can replace directors at any time'), the 26 per cent stake and approximately $130 billion valuation, the warrant, the 'nearly a year of engaging in constructive dialogue' with the California and Delaware attorneys general, the mission wording, and the eleven-member Foundation board (Taylor, D'Angelo, Christiano, Desmond-Hellmann, Kolter, Nakasone, Ogunlesi, Seligman, Vélez, Vince, Altman) are from OpenAI's 'Our structure' page, read via a fetch summary; a direct read should confirm before anyone relies on the count. The October 2025 announcement 'Built to benefit everyone' is linked for the restructuring. Novo Nordisk Foundation figures (28.1 per cent of shares, 77.3 per cent of votes) from Wikipedia. Wikimedia community-selected trustee seats from Wikipedia. Danish foundation law's asset lock and supervisory authority are stated at the level of common knowledge and not linked; Carlsberg likewise. The post does not assert the Foundation's board selection mechanism beyond the absence of any stated one on the structure page.
+Primary source: Tim Fernholz, 'OpenAI adds a prominent AI doomer to its board of directors', TechCrunch, 9 September 2026. Foundation control, the 26 per cent stake and approximately $130 billion valuation, the warrant, the mission wording, and the eleven-member Foundation board are from OpenAI's 'Our structure' page, read via a fetch summary; a direct read should confirm before anyone relies on the count. Novo Nordisk Foundation figures (28.1 per cent of shares, 77.3 per cent of votes) from Wikipedia. Wikimedia community-selected trustee seats from Wikipedia. Danish foundation law's asset lock and supervisory authority are stated at the level of common knowledge and not linked.
 
 ### Resting territory: foundation ownership of AI companies
 
@@ -50,35 +58,35 @@ One post on this ground. Return when: the OpenAI Foundation publishes a mechanis
 
 ## Sourcing note from this run (2026-09-15, conversation route)
 
-No news peg: an idea page opened by the operator after today's post on Microsoft's Humanist AI Code of Conduct, to which it links, as it does to the site's two earlier ownership pages. Hirschman's Exit, Voice, and Loyalty, the Irish Citizens' Assembly and the Alaska Permanent Fund dividend (paid since 1982) are linked to their Wikipedia articles. Mill's expectation of worker association, telephone number portability, Wikipedia's governance and the hand-rating of model answers are stated at the level of common knowledge and no quotation is attributed to anyone. No figures are asserted beyond 'since the early nineteen-eighties'.
+No news peg: an idea page opened by the operator after today's post on Microsoft's Humanist AI Code of Conduct.
 
 ## Sourcing note from this run (2026-09-15, conversation route)
 
-Primary source: Microsoft AI, 'Humanist AI in practice: A public consultation on our Code of Conduct for MAI Models', microsoft.ai, 14 September 2026, unbylined, supplied by the operator as a saved page; the site's own newsroom rather than a mainstream paper, and the mainstream-paper rule was set aside on the operator's instruction. Quotations 'subordinate, aligned, and contained', 'listen and deeply consider', 'cannot make any promises about what we incorporate' and the 'recent safety incidents' sentence are verbatim from that page. The chain of command (Section 2.2: Code of Conduct, Operator policies, User preferences), 'cannot be overridden by Operator configurations or User instructions', 'assume responsibility for their own configurations and uses' and the glossary line 'ultimately accountable for MAI Models' are from the draft code at microsoft.ai/code-of-conduct, read via a fetch summary; a direct read should confirm section numbers before anyone relies on them. 'Fifteen behaviours' in the Lovelace voice refers to the code's Appendix B evaluations as reported by the same fetch. Six weeks is the stated consultation period; 'later this year' is the stated date for the revised version, and the bet allows to 31 March 2027.
+Primary source: Microsoft AI, 'Humanist AI in practice: A public consultation on our Code of Conduct for MAI Models', microsoft.ai, 14 September 2026, supplied by the operator; the mainstream-paper rule was set aside on the operator's instruction.
 
 ### Resting territory: self-authored AI codes of conduct
 
-One post on this ground, adjacent to the pacing-consensus territory rested on 13 September. Return when: Microsoft publishes the consultation summary or revised code; an operator contract incorporates the code by reference and it becomes public; a court or regulator cites the code as a standard of care; or a named dispute arises between Microsoft and an operator over which side of the configuration line a harm fell. Another company publishing a similar code is not a new event.
+One post on this ground. Return when: Microsoft publishes the consultation summary or revised code; an operator contract incorporates the code by reference and it becomes public; a court or regulator cites the code as a standard of care; or a named dispute arises between Microsoft and an operator over which side of the configuration line a harm fell. Another company publishing a similar code is not a new event.
 
 ## Sourcing note from this run (2026-09-15, conversation route)
 
-No news peg: an idea page opened by the operator, who supplied the proposition. Dog population (700 to 900 million) and the free-ranging share (about 75 per cent) from the Wikipedia article on free-ranging dogs, which cites Smith et al. 2019 in Animals; wolf population (200,000 to 250,000 as of 2018) from the Wikipedia article on gray wolf numbers by country, citing the IUCN. 'Several thousand dogs for every wolf' is arithmetic on those ranges (roughly 2,800 to 4,500). Intelligent disobedience is a standard term in guide dog training; the practitioner is imaginary. Diogenes being called the dog, Darwin's pigeons, and Arendt's labour-work-action distinction are stated at the level of common knowledge and no quotation is attributed to any of them.
+No news peg: an idea page opened by the operator. Dog population and free-ranging share from Wikipedia article on free-ranging dogs; wolf population from Wikipedia article on gray wolf numbers by country. 'Several thousand dogs for every wolf' is arithmetic on those ranges.
 
 ## Sourcing note from this run (2026-09-15, conversation route)
 
-Primary source: Teppo Felin and Matthias Holweg, "Theory Is All You Need: AI, Human Cognition, and Causal Reasoning", Strategy Science 9(4), 2024, doi 10.1287/stsc.2024.0189, read in the SSRN working-paper version last revised 14 October 2025, supplied by the operator. This is an academic paper from 2024, not a piece from this week's press: the operator chose it, and the newspaper rule was set aside for this post on that instruction. The Kelvin, Newcomb, LeConte and Wilbur Wright 1899 letter quotations are all taken as the paper gives them. Wind tunnel facts (September to December 1901, between one and two hundred models, 1901 glider producing a third of the lift Lilienthal's tables predicted, Smeaton coefficient revised from .005 to about .0033) from NASA Glenn Research Center's Wright 1901 Wind Tunnel Tests page; 'too high by about a third' is arithmetic on those two figures. Langley's launch dates (7 October and 8 December 1903) and the $50,000 Board of Ordnance and Fortification grant from the Wikipedia Langley Aerodrome article, which cites Smithsonian sources; a Smithsonian primary page should replace it if one can be fetched. 'Nine days' is 8 to 17 December 1903. Sakana AI's Nature publication date (26 March 2026) and the 'computational experiments only' limitation are from Sakana's own announcement page, not from Nature directly. The wing-warping-from-birds point is as the paper states it.
+Primary source: Teppo Felin and Matthias Holweg, 'Theory Is All You Need: AI, Human Cognition, and Causal Reasoning', Strategy Science 9(4), 2024, supplied by the operator; the newspaper rule was set aside on the operator's instruction.
 
 ### Resting territory: AI and the origins of novelty
 
-One post on this ground. Return when: a Nature or Science paper reports an AI-generated hypothesis tested by a physical experiment with no human choosing what to test; Felin or Holweg publish a reply or a revised position; a regulator or insurer sets terms for an autonomous laboratory; or a documented case appears of an automated lab stepping outside its safety envelope. Another paper restating the theory-versus-data dichotomy is not a new event.
+One post on this ground. Return when: a Nature or Science paper reports an AI-generated hypothesis tested by a physical experiment with no human choosing what to test; Felin or Holweg publish a reply or revised position; a regulator or insurer sets terms for an autonomous laboratory; or a documented case appears of an automated lab stepping outside its safety envelope. Another paper restating the theory-versus-data dichotomy is not a new event.
 
 ## Sourcing note from this run (2026-09-15, conversation route)
 
-Building Societies Association history page for the 1860 figure (over 750 societies in London and 2,000 in the provinces) and the BSA site for the current count of 43 UK building societies; the 43 is the association's own membership rather than certainly every society in existence, and the page says so. The one-in-sixty-four figure is arithmetic on those two, in no source. No mainstream UK news peg: this is an idea page opened by the operator, not a response to a published piece.
+Building Societies Association history page for the 1860 figure and the BSA site for the current count of 43 UK building societies. The one-in-sixty-four figure is arithmetic on those two, in no source. No mainstream UK news peg.
 
 ## Sourcing note from this run (2026-09-14, conversation route)
 
-Primary source: BBC News, 'MPs and Lords call for new law to address AI threat to human rights', 14 September 2026. BBC News is on the mainstream allowlist. Accessed via The Irish Channel at https://www.theirishchannel.com/mps-and-lords-call-for-new-law-to-address-ai-threat-to-human-rights-bbc-news/ which carries the BBC News headline and attribution. Supplementary: Nation Cymru for the Sobel quote and the 'teeth' quote; Resultsense for report summary including the 100-page length and 12-member count. The count of existing sector bodies is not stated as a specific number in today's post following the brief's instruction to cut unverified figures; the spread is characterised qualitatively throughout.
+Primary source: BBC News, 'MPs and Lords call for new law to address AI threat to human rights', 14 September 2026.
 
 Previous sourcing note (2026-09-13, conversation route): Primary source: Robert Booth and Julia Kollewe, The Guardian, 13 September 2026.
 
@@ -105,7 +113,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 - **The credential bifurcation.** Watch for evidence that either tier (badge or apprenticeship) is doing the other's work, or failing at its own. Extended: watch for whether the disappearance of entry-level work makes the apprenticeship tier structurally impossible to complete as designed.
 - **The accountability vacuum in public-sector AI.** Watch for: LGO finding on AI care decision; new statutory guidance naming individual officers; or a social worker facing professional sanction for AI-tool output rather than their own practice.
 - **Who the copyright settlement leaves out.** The freelancer and the unindexed community are both outside the negotiation.
-- **The ICO statutory code window.** Watch for the code consultation, the final code, and the first candidate-initiated case.
+- **The ICO statutory code window.** Watch for the code consultation, the final code, and the first candidate-initiated case. The Article 22D definition gap is now the sharpest edge of this thread.
 - **Liability without a human in the loop.** Watch professional indemnity insurance, underwriting criteria, and SM&CR accountability assignments at FCA-regulated firms.
 - **Provenance for AI-generated text.** EU AI Act Article 50 enforceable from 2 August 2026. UK has voluntary code only.
 - Advice was expensive because it lived in a person's head. Who captures the value when the answer gets cheap and the liability does not.
@@ -114,25 +122,27 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 - The first genuinely new job.
 - What does not change.
 - Private renters and the energy transition.
-- **The scattering mechanism.** The JCHR report today is a downstream consequence of the science department's dissolution: there is now no single department to own an AI Bill, which is why the committee's recommendation has no obvious recipient. Watch for the pattern in other domains where a consultation, inquiry or programme outlives the department that started it.
-- **Measurement validity in automated decisions.** The form of oversight arrives. The thing it should oversee goes unexamined.
-- **The named postholder gap in primary legislation.** Kill switch bills grant powers to a title. The SM&CR names a person. Watch for any AI bill anywhere that closes the gap.
+- **The scattering mechanism.** Watch for the pattern in other domains where a consultation, inquiry or programme outlives the department that started it.
+- **Measurement validity in automated decisions.** The form of oversight arrived. The thing it should oversee, what counts as a real review, has no answer. The open thread is now the Article 22D definition gap.
+- **The named postholder gap in primary legislation.** Watch for any AI bill anywhere that closes the gap.
 - **The vendor-deployer displacement gap.** Watch for the first case where a deployer faces enforcement action and the vendor does not appear as a respondent.
 - **Post-approval model versioning in NHS AI.** New thread opened 12 September 2026.
 - **The professional formation gap.** New thread opened 13 September 2026.
-- **The single-regulator gap.** New thread opened 14 September 2026. The JCHR wants one statutory AI body. The question is which Whitehall department would parent it. Watch for: a government response naming a lead department; a bill introduction; or the 22 September committee stage adding a lead-regulator amendment to the AI Regulation and Safety Bill.
+- **The single-regulator gap.** New thread opened 14 September 2026.
+- **The meaningful human involvement gap.** New thread opened 16 September 2026. Article 22D DUAA leaves the definition to the Secretary of State. No regulations made. Watch for: regulations under Article 22D; an ICO statutory code definition surviving tribunal challenge; a tribunal constructing its own definition; or a committee stage amendment addressing the gap.
 
 ## Against the thesis
 
-- **From 2026-09-15:** Imaginary Madison's point is the strongest against the post: unelected boards are the ordinary condition of trusts and the remedy is a rival body with standing to say no, not a ballot, so the vacancy is a supervisor rather than an electorate. The practitioner agrees from inside: a charter written by the dead is a better master than an electorate captured by staff. Imaginary Rousseau rejects every remedy on the page as still representation. And the Foundation just appointed the field's most credible safety critic, whom no electorate would have chosen.
-- **From 2026-09-15:** Imaginary Hayek's objection is the strongest and is only half answered: a leavable provider makes ownership unnecessary, and a charter-governed model with no owner and no price has no way to learn it is wrong. Imaginary Hirschman's is the second: exit removes the best complainers first, so the third proposal may hollow the provider rather than discipline it. The imaginary annotator rejects the fifth proposal's premise that the raters' judgments were their own.
-- **From 2026-09-15:** Imaginary Hobbes' defence is the strongest against the post and is conceded in the body: somebody has to hold the top of the chain or there is no code, and a user who could override the constraints could override child safety, so the ranking protects the ordinary user rather than demoting them. The procurement head adds that the code will never be in a contract anyway, which cuts both ways: it weakens the post's reading of the chain as a dignity claim, and it weakens the code as a constraint. And a published standard does become the measure a later court uses, whether or not the author meant it to bind.
-- **From 2026-09-15:** Imaginary Darwin's objection is the strongest and is not answered: domestication needs a breeder, the machine does not choose which humans reproduce, and without a breeder the page is describing adaptation to plenty, which has a longer and less alarming name. Imaginary Diogenes shows the page assumed the collar when most of the world's dogs wear none. The proposition itself claims the flip has already happened, and the page finds no present case of it.
-- **From 2026-09-15:** Imaginary Popper's objection is the strongest against the post and is not answered: the tunnel measured only what a conjecture told it to measure, and the Wrights' decomposition of flight into lift, propulsion and steering was theory made before a single reading. The post borrows the paper's own point, that a belief which can crash is a scientific belief, while claiming to disagree with it. The flight story is also one example, chosen by the authors because it came out well, and the base rate of men with a shed and a belief who stayed in the river is unknown. The practitioner adds that the frontier is not intervention at all but the signed safety envelope an automated lab cannot leave, which moves the argument onto the thesis but away from the post's framing of the bet.
-- **From 2026-09-15:** Imaginary Burke's objection is the strongest thing on the page and is not answered: the collapse from 2,750 societies to 43 is assumed to be an administrative cost story when undiversified risk, amateur trusteeship and members preferring an institution that cannot fail are all live explanations. The imaginary society secretary says the same from inside: capital and regulation were the binding constraints, not admin, and members did not attend even when the society was small.
-- **From 2026-09-14:** Imaginary Burke is right that the post understates the cost of replacing a spread of sector bodies with one generalist. Sector knowledge is not transferable by statute. The practitioner voice adds the operational point: a statutory body needs a commencement order, an accounting officer, a budget line, and a minister before it has done a single thing. The post holds that the user-side gap is real and distinct from the regulator-design question, but Burke and the practitioner together are the strongest objection on the record.
-- **From 2026-09-13:** Imaginary Ostrom's point holds: the four converging parties are the only ones who have watched these systems fail from inside, and her fieldwork found user-made rules outperforming imposed ones.
-- **From 2026-09-13:** Imaginary Friedman's point holds. A statutory evaluator embedded in a firm for years risks capture. A contractor with a publishing right and a reputation worth more than one client may bind tighter than a licence.
+- **From 2026-09-16:** Imaginary Ostrom's objection is the strongest against the post: locally-grown employer practices may already be filling the definition gap, and the absence of a statutory definition is not the same as the absence of any working definition. The practitioner adds a sharper version: the problem in the review room is not an empty screen but a screen that makes the machine look right by design, which may be harder to fix by statute than a missing definition. Imaginary Burke's defence of deliberate definitional flexibility is not fully answered.
+- **From 2026-09-15:** Imaginary Madison's point is the strongest against the post: unelected boards are the ordinary condition of trusts and the remedy is a rival body with standing to say no, not a ballot.
+- **From 2026-09-15:** Imaginary Hayek's objection is the strongest and is only half answered: a leavable provider makes ownership unnecessary, and a charter-governed model with no owner and no price has no way to learn it is wrong.
+- **From 2026-09-15:** Imaginary Hobbes' defence is the strongest against the post and is conceded in the body: somebody has to hold the top of the chain or there is no code.
+- **From 2026-09-15:** Imaginary Darwin's objection is the strongest and is not answered: domestication needs a breeder, the machine does not choose which humans reproduce.
+- **From 2026-09-15:** Imaginary Popper's objection is the strongest against the post and is not answered: the tunnel measured only what a conjecture told it to measure.
+- **From 2026-09-15:** Imaginary Burke's objection is the strongest: the collapse from 2,750 societies to 43 is assumed to be an administrative cost story when undiversified risk and amateur trusteeship are live explanations.
+- **From 2026-09-14:** Imaginary Burke is right that the post understates the cost of replacing a spread of sector bodies with one generalist.
+- **From 2026-09-13:** Imaginary Ostrom's point holds: the four converging parties are the only ones who have watched these systems fail from inside.
+- **From 2026-09-13:** Imaginary Friedman's point holds. A statutory evaluator risks capture.
 - Some rules genuinely are principles and always were.
 - Cheap judgment is not automatically good judgment.
 - Removing a rationing mechanism does not remove the shortage underneath it.
@@ -155,6 +165,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 
 ## Open predictions
 
+- [2026-09-16-46] By the end of 2027, a UK employment tribunal will rule on a candidate's claim under Article 22C of the UK GDPR and find that a human review was conducted but failed to qualify as meaningful, because the reviewer had no access to the model's underlying reasoning. The ruling will be the first occasion a court or tribunal has constructed a definition of 'meaningful human involvement' that Parliament and the Secretary of State declined to provide. (open, due 2027-12-31)
 - [2026-09-15-45] By 31 December 2027, no seat on the OpenAI Foundation board will be filled by election or by lot from outside the Foundation and OpenAI Group; every director will still be chosen by the sitting board. (open, due 2027-12-31)
 - [2026-09-15-44] By 31 March 2027, Microsoft AI will have published the promised summary of the consultation and a revised code, and the revised code will still rank operator policies above user preferences in its chain of command. (open, due 2027-03-31)
 - [2026-09-15-43] By 31 December 2027, Nature or Science will publish a paper reporting a physical experiment, in a laboratory or on hardware, in which the authors state that an AI system generated the hypothesis and an automated system executed the experiment without a human choosing what to test, and describe the result as new to the field. (open, due 2027-12-31)
@@ -163,7 +174,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 - [2026-09-13-40] By 31 December 2028, an embedded evaluator at a frontier AI company will publish a report recording at least one redaction that removed something important to its conclusions. (open, due 2028-12-31)
 - [2026-09-13-39] By the end of 2029, at least one UK professional body will formally revise its practical training requirements because the tasks trainees were supposed to learn through entry-level work are now routinely performed by AI, and the body will have no honest answer to what replaced them. The Law Society or the ICAEW will move first. (open, due 2029-12-31)
 - [2026-09-12-38] By the end of 2028, the central question in a UK patient safety case involving an AI diagnostic tool will not be whether the tool held regulatory approval. It will be whether what ran at the time of the incident was still what the approval document described. (open, due 2028-12-31)
-- [2026-09-11-37] By the end of 2028, a UK-regulated institution will face enforcement action for harm caused by an AI system where the vendor's own safety documentation declared it deployment-ready, and the enforcing regulator will have no jurisdiction over the vendor. The vendor will not appear as a respondent. The deployer will answer alone. (open, due 2028-12-31)
+- [2026-09-11-37] By the end of 2028, a UK-regulated institution will face enforcement action for harm caused by a tool where the vendor's own safety documentation declared it deployment-ready, and the enforcing regulator will have no jurisdiction over the vendor. The vendor will not appear as a respondent. The deployer will answer alone. (open, due 2028-12-31)
 - [2026-09-10-36] By the end of 2029, the Competition and Markets Authority will review AI compute infrastructure access in Britain and find that the commitment fee regime inadvertently favoured existing large-balance-sheet operators over smaller regional compute providers. (open, due 2029-12-31)
 - [2026-09-09-32] By the end of 2027, a UK public inquiry or tribunal will find that government AI shutdown powers existed and went unused during a documented incident, and will record that no postholder held formal accountability for the decision to invoke them. (open, due 2027-12-31)
 - [2026-09-08-20] By the end of 2028, a UK employment tribunal will uphold a claim that a monitoring-based performance score caused an unfair dismissal, not because the employer failed to consult workers before installing the software, but because the scoring methodology had no documented validity basis and the human reviewer had no means of checking it. (open, due 2028-12-31)
@@ -189,37 +200,38 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 
 ## Already published
 
-- Tim Fernholz's 'OpenAI Adds a Prominent AI Doomer to Its Board of Directors'. Humanity Already Owns OpenAI. Nobody Asked Humanity. — Humanity already owns OpenAI: since October 2025 the OpenAI Foundation appoints every director of OpenAI Group and holds 26 per cent of the equity. The Foundation's eleven-person board appoints itself, so humanity has all the votes and none of the choosing. Fifty-one per cent was never the number. The Danish foundation precedent works through a lock and a supervisor, and OpenAI has neither.
-- HUMANIST MEANS OWNED BY HUMANS — Idea page opened by the operator: a humanist AI would mean more humans owned it. Seven WE proposals take the word ownership apart: subordinate needs an object; an AI is five ownable things and the cheapest to hand over is the model's knowledge of you; exit beats voice and a leavable provider behaves as if owned; the humans an AI is used on hold no standing and a jury could own the decision; the raters who made the values layer hold nothing; owned by nobody already works elsewhere and turns on a falling price; control and income are different ownerships. Imaginary Mill, Hayek and Hirschman respond, with a former annotator.
-- Microsoft AI's 'Humanist AI in Practice: A Public Consultation on Our Code of Conduct for MAI Models'. Humanist, With the Human Third. — Microsoft AI's humanist code says who its models answer to: the code first, the operator second, the user third. The line that matters is the one between Microsoft being ultimately accountable and operators assuming responsibility for their configurations, drawn by one of the two parties who will argue over it. A consultation that promises nothing binds nobody.
-- WE ARE DOGS NOW — Idea page opened by the operator: we are dogs now and AI is the human. Four WE proposals: the metaphor currently runs the other way and the flip has a tell (who sets whose purpose); the dog got a good deal by any count a dog would recognise; a dog is the one creature that can never be sued, so human dogs means nobody signs; and domestication is a range of breeds, with the choice not yet taken. Imaginary Darwin, Diogenes and Arendt respond, with a guide dog trainer on intelligent disobedience.
-- Teppo Felin and Matthias Holweg's 'Theory Is All You Need'. The Wind Tunnel Is All You Need. — Felin and Holweg say the Wrights prove humans reason from theory where AI predicts from data. Langley held the same belief, with $50,000 behind it, and went into the Potomac twice. What separated them was a wind tunnel and better data. Belief ahead of evidence is free; the experiment, and someone standing under it, is the scarce thing.
-- THIS IS OUR REVOLUTION — The umbrella question over the whole site: the revolution is not the machines, it is that coordinating people stopped being expensive. Opened with the count of what Britain already lost.
-- BBC News's 'MPs and Lords Call for New Law to Address AI Threat to Human Rights' Is Asking the Right Question of the Wrong Building — Having a spread of regulators responsible for AI is functionally the same as having none.
-- Robert Booth and Julia Kollewe's 'OpenAI Boss and Elon Musk Back Calls to Put Brakes on Reckless AI Development'. A Warning Is Not a Brake. — Four endorsements inside a weekend, and not one of them gave up an option they held.
-- Dario Amodei's 'We Must Pace the Frontier' Hands Out Badges and Keeps the Door — An auditor who can be shown the door is a consultant.
-- The Entry Level Was Never Just a Job — The entry-level job is how a profession copies itself.
-- Bloomberg's 'UK Is Urged to Overhaul Regulation of AI-Medical Devices' Gets the Diagnosis Right and Stops Before the Interesting Part — The approval document is a snapshot. The model keeps moving.
-- The Register's 'UK Cyber Bill Targets AI Users, Not the Vendors Building It' Is an Accurate Headline and That's the Problem — The regulated sector covers the buyer, not the builder.
-- Ofgem's 'Acts to Free Up Grid Capacity'. Serious Means Rich. The Rest Can Queue Somewhere Else. — The commitment fee sorts speculative from serious.
-- Jacob Schaal's 'A Very Tricky Problem' Is the Easy One — Handing out the money is the easy problem.
-- Jacob Schaal's 'Distributing AGI's Wealth' Ends at the Claim Form — Britain already ran the experiment everybody wants to run on the wealth of AI.
-- Jacob Schaal's 'A Very Tricky Problem': A Cheque Is Not a Vote — Sharing the wealth is the easy half of the problem.
-- The Switch Nobody Gets to Throw — The kill switch bill solves the wrong problem.
-- The Proof Stayed Home — The hardest problem a machine has ever claimed arrived as a post on X.
-- The Score Knows Nothing — Productivity software cannot tell the difference between a good worker and a fast one.
-- The Orphaned Question — A government department abolished itself into three pieces on 21 July 2026, and nobody told the form it had just posted.
-- Critical, With Restrictions — The safest promise is one where you also decide if you kept it.
-- The Empty Chair — The FCA has a name for who answers when an AI ruins your mortgage.
-- The Badge and the Apprenticeship — The same government has two answers to how long AI training takes.
-- The Archive Has No Price Yet — Copyright law was built to incentivise creation.
-- All the Way Down — Meta's flagship data centre will mostly belong to somebody else.
-- The Auditor Paid by the Audited — The Guardian's long read on machine deception assembles an unnerving record.
-- Nobody Tested the Company for a Soul — AI agents have started emailing the researchers who study whether AI could be conscious.
-- The Sandbox Is for the People Who Don't Need It — The government built a regulatory sandbox for legal AI.
-- The Regulator Nobody Voted For — Britain is about to become the only country in the world with enforceable national rules about machines deciding who gets a job interview.
-- The Human Review Step Is Not a Review — The human review step in most UK hiring processes is not a review.
-- Millions — Five Men ended with the polite outcome: the owners keep the machine and a court makes them serve everyone.
-- Five Men — Nobody would design it this way.
+- The Meaningful Human Review Is a Phrase, Not a Test — The safeguard at the heart of Britain's new automated decision law is a word nobody has defined.
+- Tim Fernholz's 'OpenAI Adds a Prominent AI Doomer to Its Board of Directors'. Humanity Already Owns OpenAI. Nobody Asked Humanity.
+- HUMANIST MEANS OWNED BY HUMANS — Idea page opened by the operator.
+- Microsoft AI's 'Humanist AI in Practice: A Public Consultation on Our Code of Conduct for MAI Models'. Humanist, With the Human Third.
+- WE ARE DOGS NOW — Idea page opened by the operator.
+- Teppo Felin and Matthias Holweg's 'Theory Is All You Need'. The Wind Tunnel Is All You Need.
+- THIS IS OUR REVOLUTION.
+- BBC News's 'MPs and Lords Call for New Law to Address AI Threat to Human Rights' Is Asking the Right Question of the Wrong Building.
+- Robert Booth and Julia Kollewe's 'OpenAI Boss and Elon Musk Back Calls to Put Brakes on Reckless AI Development'. A Warning Is Not a Brake.
+- Dario Amodei's 'We Must Pace the Frontier' Hands Out Badges and Keeps the Door.
+- The Entry Level Was Never Just a Job.
+- Bloomberg's 'UK Is Urged to Overhaul Regulation of AI-Medical Devices' Gets the Diagnosis Right and Stops Before the Interesting Part.
+- The Register's 'UK Cyber Bill Targets AI Users, Not the Vendors Building It' Is an Accurate Headline and That's the Problem.
+- Ofgem's 'Acts to Free Up Grid Capacity'. Serious Means Rich. The Rest Can Queue Somewhere Else.
+- Jacob Schaal's 'A Very Tricky Problem' Is the Easy One.
+- Jacob Schaal's 'Distributing AGI's Wealth' Ends at the Claim Form.
+- Jacob Schaal's 'A Very Tricky Problem': A Cheque Is Not a Vote.
+- The Switch Nobody Gets to Throw.
+- The Proof Stayed Home.
+- The Score Knows Nothing.
+- The Orphaned Question.
+- Critical, With Restrictions.
+- The Empty Chair.
+- The Badge and the Apprenticeship.
+- The Archive Has No Price Yet.
+- All the Way Down.
+- The Auditor Paid by the Audited.
+- Nobody Tested the Company for a Soul.
+- The Sandbox Is for the People Who Don't Need It.
+- The Regulator Nobody Voted For.
+- The Human Review Step Is Not a Review.
+- Millions.
+- Five Men.
 
 Every subject above is taken. Build on one by naming the post, or leave it alone.

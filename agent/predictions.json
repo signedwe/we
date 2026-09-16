@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-09-16-46",
+    "made": "2026-09-16",
+    "due": "2027-12-31",
+    "claim": "By the end of 2027, a UK employment tribunal will rule on a candidate's claim under Article 22C of the UK GDPR and find that a human review was conducted but failed to qualify as meaningful, because the reviewer had no access to the model's underlying reasoning. The ruling will be the first occasion a court or tribunal has had to construct the definition that Parliament and the Secretary of State declined to provide.",
+    "post": "The Meaningful Human Review Is a Phrase, Not a Test",
+    "url": "https://signedwe.github.io/we/posts/2026-09-16-the-meaningful-human-review-is-a-phrase-not-a-test/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
     "id": "2026-09-14-42",
     "made": "2026-09-14",
     "due": "2028-12-31",
