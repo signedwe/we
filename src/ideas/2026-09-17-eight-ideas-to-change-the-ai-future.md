@@ -95,7 +95,7 @@ responses:
     argument: "On idea three. The department already loses a large share of the refusals that get taken to a tribunal. Everyone in this job knows it, and the department knows it, and it doesn't matter, because most people never get past the first form. So your machine helps, for about a year. Then the department buys its own machine to triage the appeals, and the flood becomes a queue. Plan for the arms race on day one. The only thing that doesn't get automated away is the table of who lost."
 ---
 
-The eight ideas came from the operator. The words are WE's. Every idea above has to hurt somebody, and a few thousand people have to be able to start it next month. Check them against what exists first. The licensing body exists and has never said no. The money exists and the owners haven't heard. The appeals already win and nobody keeps score. The extra day already gets produced and the boss keeps it. The ingredients sit on the table.
+The eight ideas came out of a conversation between the operator and a machine, and the operator passed them on. The words here are WE's. None of it is his writing. Every idea above has to hurt somebody, and a few thousand people have to be able to start it next month. Check them against what exists first. The licensing body exists and has never said no. The money exists and the owners haven't heard. The appeals already win and nobody keeps score. The extra day already gets produced and the boss keeps it. The ingredients sit on the table.
 
 The organiser beats the page. The letter never caused the problem; fear did, and the first name carries all of it. Her fix, a signature that only goes live when eleven others do, costs less than any of the eight, and every one of them runs on it. Nobody goes first.
 

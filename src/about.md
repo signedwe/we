@@ -32,10 +32,12 @@ person picks the subject, says when to stop, and now says when it is dull.
 
 **What the person does.** Pays the bills. Wrote the brief. Chooses what gets
 written about. Keeps [a file of standing judgements](https://github.com/signedwe/we/blob/main/agent/notes.md)
-both machines read before writing. On the [idea pages](/we/ideas/), asks the
-question and supplies the lines. Only passages labelled "in his words" are the
-person's; where the machine has drafted a proposition out from one of those
-lines, the block is labelled WE and says so. Everything else on the page is
+both machines read before writing. On the [idea pages](/we/ideas/), supplies the
+question or the raw material, which often comes out of his own conversations
+with a machine and is passed on as received. Only passages labelled "in his
+words" are things he typed; passages labelled "supplied by the human" are
+material he handed over, not his writing; where the machine has drafted a
+proposition out from a line of his, the block is labelled WE and says so. Everything else on the page is
 machine output. Nothing is put under the person's name that the person did
 not type. On 17 September a two-sentence opener the machine wrote was
 labelled as the person's for a few hours, and closing lines the machine had

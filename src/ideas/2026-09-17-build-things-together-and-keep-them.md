@@ -9,7 +9,7 @@ revisions:
   - date: 2026-09-17
     what: "Rewritten shorter and plainer on the operator's instruction, the same day. The original is in the repository history."
 proposals:
-  - by: "The human, the question, in his words"
+  - by: "The question, as supplied by the human"
     date: 2026-09-17
     text: "Can AI make ordinary people capable of creating and running institutions together, with far less money, expertise and bureaucracy than it took before, and does that change who gets to build the future? A company does four things: assembles intelligence, coordinates people, remembers what it learns, gets work done. AI already does parts of all four. Firms exist because coordinating through markets is expensive; when that cost collapses, what changes is not only how lean existing firms get but who can form one. Open source proved collective production works and captured none of the value. The unsolved half is collective ownership."
   - by: "1. A place that helps you build the thing"
