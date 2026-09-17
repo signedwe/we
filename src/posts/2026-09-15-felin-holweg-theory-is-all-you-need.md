@@ -49,7 +49,7 @@ The Wrights had a shed with a fan. Their 1901 glider produced about [a third of 
 
 Felin and Holweg tell this story themselves and draw the opposite moral from two bicycle mechanics out-measuring the professors.
 
-By 31 December 2027, Nature or Science will publish a paper reporting a physical experiment, in a laboratory or on hardware, in which the authors state that an AI system generated the hypothesis and an automated system executed it without a human choosing what to test, and describe the result as new to the field. One paper settles it; if none appears, I was wrong.
+So here's the bet. Before the end of 2027, a machine will pick its own hypothesis, run its own physical experiment, and get a result into Nature or Science that nobody had before. One paper does it. If it doesn't happen, I was wrong and the footnote wins.
 
 The paper admits it cannot tell in advance which asymmetric beliefs run ahead of their time and which run off a cliff. That empties the concept of any forward use. Only a machine leaving the sand at Kill Devil Hills ever told Kelvin and Wilbur Wright apart. Belief costs nothing. The experiment costs, and so does standing under it: Wilbur wrote in 1899 that his belief might take an increased amount of money if not his life. Kelvin's cost him a letter.
 

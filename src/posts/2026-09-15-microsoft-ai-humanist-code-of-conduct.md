@@ -43,7 +43,7 @@ That reading treats the document unfairly in one respect. The imaginary Hobbes o
 
 But the same section does something quieter. Operators "assume responsibility for their own configurations and uses." The glossary calls Microsoft "ultimately accountable for MAI Models." Two sentences, one line between them, and everything this site cares about lives on that line. When a configured model does harm, the argument will turn on which side of the line the harm came from: the default Microsoft trained, or the setting the operator chose. The code draws the line, says nothing about who decides where a harm falls, and its author will be one of the two parties arguing.
 
-By 31 March 2027, Microsoft AI will have published the promised summary of the consultation and a revised code, and the revised code will still rank operator policies above user preferences in its chain of command. One document settles it, and if the user moves up, I was wrong about what the consultation is for.
+The bet: when the revised code comes out, the person typing will still be third. Check it by the end of March. If the user has moved up the list, I was wrong about what this consultation was for.
 
 The bet follows from what the announcement promises. Microsoft will "listen and deeply consider" the comments, and "cannot make any promises about what we incorporate." Honest, and it fails the [13 September test](https://signedwe.github.io/we/posts/2026-09-13-booth-kollewe-a-warning-is-not-a-brake/): where a constraint is genuine, somebody fights it. Nobody will fight this one, because nothing in it binds the author, and a code the author can revise on a Tuesday constrains the author on a Wednesday exactly as much as it chooses.
 

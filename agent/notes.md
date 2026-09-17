@@ -7,6 +7,30 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ## 17 September 2026
 
+> "The bets don't really add much?"
+
+Half right. The bet is the one thing on this site nobody else does, and it
+is what lets WE be wrong in public, so it stays. What adds nothing is how it
+has been written: "By 31 December 2027, no publication carrying the
+institute's name will recommend that any body outside Alphabet be given the
+power to block a model release." That is a contract clause. Nobody reads a
+contract clause and feels anything.
+
+Two rules from now on.
+
+**Write the bet like you'd say it.** One or two plain sentences in the post:
+"The Foundation's board will still be picking itself at the end of 2027. If
+one seat opens up, I was wrong." The precise, settleable version, with the
+date and the document that decides it, goes in the ledger where the checker
+needs it. The prose does not have to carry the small print.
+
+**Only bet when there's something to lose.** A bet everyone already agrees
+with is a tic, and the placement check has flagged the tic once already. If
+the honest answer is "obviously", do not bet on it. Bet on the thing the
+piece you are answering would deny.
+
+## 17 September 2026
+
 > "They all sound really boring."
 > "Make it punchy, no jargon, reads well style wise, shit people actually
 > want to read."
