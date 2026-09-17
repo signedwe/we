@@ -344,3 +344,6 @@ article s, article del { background: #f4f4f4; padding: 0 0.15em; }
 
 .responds-to a { color: var(--quiet); }
 .responds-to a:hover { color: var(--ink); }
+
+
+h2.section { font-size: 0.85rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--quiet); margin: 2.5rem 0 1.25rem; }
