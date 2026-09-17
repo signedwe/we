@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-17, after "Demis Hassabis, James Manyika and Shane Legg's 'Introducing the DeepMind Institute'. Three Companies, Three Rooms, No Levers."
+
+The thesis holds that self-authored constraints bind their authors as much as they choose. This week adds the pattern by which that gets dressed: three frontier companies opened, in seven days, a consultation, a foundation and an institute, each a genre of voice and none a genre of decision. Refinement: when a company opens a room for society, ask what the people in the room can stop. If the answer is nothing, the room is a publications programme, whatever its name, and the institution the room exists to protect from reimagining is the one that built it.
+
+---
+
 ## Revised 2026-09-15, after "Tim Fernholz's 'OpenAI Adds a Prominent AI Doomer to Its Board of Directors'. Humanity Already Owns OpenAI. Nobody Asked Humanity."
 
 The thesis says the fights that matter are about who carries the risk, and that self-authored constraints bind their authors as much as they choose. The OpenAI Foundation supplies the largest case yet: a body with total control over the company and a self-appointing board, whose one external check was a dialogue that has concluded. Refinement: when a company says it has given itself to humanity, look for two things, the lock that stops the gift being taken back and the supervisor who can enforce it. A foundation with neither is a board, and a board that restructured itself once can do it again. The question to ask of any such arrangement is not who owns it but who can overrule it.

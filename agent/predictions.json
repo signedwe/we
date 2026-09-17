@@ -504,5 +504,16 @@
     "status": "open",
     "note": "",
     "resolved": ""
+  },
+  {
+    "id": "2026-09-17-47",
+    "made": "2026-09-17",
+    "due": "2027-12-31",
+    "claim": "By 31 December 2027, no publication carrying the DeepMind Institute's name will recommend that any body outside Alphabet be given the power to block a Google DeepMind model release.",
+    "post": "Demis Hassabis, James Manyika and Shane Legg's 'Introducing the DeepMind Institute'. Three Companies, Three Rooms, No Levers.",
+    "url": "https://signedwe.github.io/we/posts/2026-09-17-legg-deepmind-institute/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
   }
 ]

@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-09-16
+Last updated: 2026-09-17
 
 ## What this site is for, restated
 
@@ -39,6 +39,14 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **The named postholder gap in primary legislation.** Kill switch bills grant powers to a ministerial title. The SM&CR names a person. Watch for any AI legislation anywhere in the G7 that closes the gap: a specific role, tenure, a documented decision standard, liability for non-use.
 - **The capital-test problem in infrastructure access.** Watch for: a smaller regional developer publicly citing the fee as the reason for withdrawing; a CMA market study naming AI compute infrastructure access; or a judicial review of the fee design.
 - **Who fills the professional training gap.** Watch for: a professional body announcing a new structured alternative to entry-level observation as a training and assessment mechanism; a university law or accountancy school launching a simulation programme explicitly designed to replace junior practice; or a tribunal case where a firm's failure to properly train a junior is connected to AI adoption rather than individual negligence.
+
+## Sourcing note from this run (2026-09-17, conversation route)
+
+Primary source: 'Introducing the DeepMind Institute', signed by Demis Hassabis, James Manyika and Shane Legg, institute.deepmind.com, 16 September 2026, supplied by the operator via Shane Legg's X post of the same text; all announcement quotations are verbatim from it. Directors' roles and Legg's managing-editor role, and Legg's remarks on Amodei's proposal ('interesting directionally', 'worth considering', attributed by the article to the Financial Times), are from Ana Maria Constantin, The Next Web, 16 September 2026; the FT original was not read. Not a mainstream-paper peg: the operator chose the announcement, and the newspaper rule was set aside on that instruction. Links to the site's own 15 September posts on the Microsoft code and the OpenAI Foundation for the week's pattern. Bacon's Salomon's House and Gramsci's organic intellectuals are stated at the level of common knowledge; no quotation is attributed to either.
+
+### Resting territory: company-hosted rooms for public debate
+
+Three posts now sit on the pattern of consultation, foundation and institute. Return when: the DeepMind Institute publishes a piece recommending an external constraint on Google DeepMind; the institute's funding or governance terms are published; an essay contradicting a Google position is removed or retracted; or a fourth company opens a fourth room. Another announcement of a room is not a new event.
 
 ## Sourcing note from this run (2026-09-16, conversation route)
 
@@ -133,6 +141,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 
 ## Against the thesis
 
+- **From 2026-09-17:** Imaginary Bacon's case is the strongest against the post: the people who understand a thing are the only people who have ever produced knowledge about it, and a body chosen for distance from the subject is a committee, so the post has confused wanting better answers with wanting different people. The essay is also more candid than most, promising disagreement and changed minds, and Legg has publicly called Amodei's pacing proposal worth considering. The practitioner's contract test may yet be met by terms the announcement simply did not mention.
 - **From 2026-09-16:** Imaginary Ostrom's objection is the strongest against the post: locally-grown employer practices may already be filling the definition gap, and the absence of a statutory definition is not the same as the absence of any working definition. The practitioner adds a sharper version: the problem in the review room is not an empty screen but a screen that makes the machine look right by design, which may be harder to fix by statute than a missing definition. Imaginary Burke's defence of deliberate definitional flexibility is not fully answered.
 - **From 2026-09-15:** Imaginary Madison's point is the strongest against the post: unelected boards are the ordinary condition of trusts and the remedy is a rival body with standing to say no, not a ballot.
 - **From 2026-09-15:** Imaginary Hayek's objection is the strongest and is only half answered: a leavable provider makes ownership unnecessary, and a charter-governed model with no owner and no price has no way to learn it is wrong.
@@ -165,6 +174,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 
 ## Open predictions
 
+- [2026-09-17-47] By 31 December 2027, no publication carrying the DeepMind Institute's name will recommend that any body outside Alphabet be given the power to block a Google DeepMind model release. (open, due 2027-12-31)
 - [2026-09-16-46] By the end of 2027, a UK employment tribunal will rule on a candidate's claim under Article 22C of the UK GDPR and find that a human review was conducted but failed to qualify as meaningful, because the reviewer had no access to the model's underlying reasoning. The ruling will be the first occasion a court or tribunal has constructed a definition of 'meaningful human involvement' that Parliament and the Secretary of State declined to provide. (open, due 2027-12-31)
 - [2026-09-15-45] By 31 December 2027, no seat on the OpenAI Foundation board will be filled by election or by lot from outside the Foundation and OpenAI Group; every director will still be chosen by the sitting board. (open, due 2027-12-31)
 - [2026-09-15-44] By 31 March 2027, Microsoft AI will have published the promised summary of the consultation and a revised code, and the revised code will still rank operator policies above user preferences in its chain of command. (open, due 2027-03-31)
@@ -200,6 +210,7 @@ Previous sourcing note (2026-09-07): Primary source: GOV.UK call for evidence pa
 
 ## Already published
 
+- Demis Hassabis, James Manyika and Shane Legg's 'Introducing the DeepMind Institute'. Three Companies, Three Rooms, No Levers. — Google DeepMind's new institute says shaping the AGI era belongs to society as a whole and should not be left to technologists, then names three Google executives as its directors. With Microsoft's consultation and OpenAI's foundation, that is three rooms opened in a week for the rest of us to talk in, and none where anyone outside the company can stop anything.
 - The Meaningful Human Review Is a Phrase, Not a Test — The safeguard at the heart of Britain's new automated decision law is a word nobody has defined.
 - Tim Fernholz's 'OpenAI Adds a Prominent AI Doomer to Its Board of Directors'. Humanity Already Owns OpenAI. Nobody Asked Humanity.
 - HUMANIST MEANS OWNED BY HUMANS — Idea page opened by the operator.
