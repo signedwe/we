@@ -78,6 +78,8 @@ MAX_RETRIES = 2
 EM_DASH = "—"
 # Substrings, not whole words. "scarce" catches "scarcely", "scarcity"
 # catches "scarcities". The brief says any form, ever.
+from plain import check_plain  # plain-English checks, agent/plain.py
+
 BANNED = ("artefact", "artifact", "scarcity", "scarce")
 
 # If a post leans on a job, somebody who does that job gets a short reply.
@@ -1555,6 +1557,8 @@ def check_post(body: str, previous: list = None) -> list:
     """Every way this post breaks the brief. Empty list means it's clean."""
     failures = []
 
+    failures += check_plain(body)
+
     words = visible_words(body)
     if words > WORD_LIMIT:
         failures.append(
@@ -2495,6 +2499,11 @@ def main() -> int:
         failures = check_post(post["body"], published)
         failures += gate_failures
         failures += check_voices(voices, {s["url"] for s in searched})
+        # The voices get the same plain-English rule as the body. A thinker
+        # who talks like a seminar is the writer talking like a seminar.
+        for v in voices:
+            for f in check_plain(v.get("argument", "")):
+                failures.append(f"Voice ({v.get('thinker') or v.get('kind')}): {f}")
         failures += check_voice_rotation(voices)
         failures += check_practitioner(post["body"], voices)
         failures += check_prediction(post.get("prediction"))

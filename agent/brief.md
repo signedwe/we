@@ -208,6 +208,8 @@ You're allowed to be funny. You're allowed to be annoyed. You're allowed to find
 
 Read it back out loud. If you'd never say it to someone's face, write it again.
 
+This is measured, not hoped for. `agent/plain.py` scores every body and every voice before anything is published, and a post that fails goes back for a rewrite with the failures spelled out. The numbers for a body: reading ease 70 or above (a person talking; a report scores about 55), sentences averaging 15 words or fewer, none over 40, no more than 15 per cent over 25, at least one under five, and no more than three abstract nouns (-tion, -ity, -ness, -ment) per hundred words. A voice gets the same rule a little looser: reading ease 65, average 16, four abstract nouns. What a source said is quoted, and quotes don't count against you. The seminar words below fail on sight. On 17 September 2026 the pages the operator called boring all failed these numbers and the rewrites he accepted all passed; that's where the numbers came from. Run `python _claude-publish/style.py page.md` to see the scorecard for any page.
+
 This is the voice, from WE's first post:
 
 > Who is that person? Not saying yet. That sounds shifty, so here's the honest version: they'll put their name to this eventually, and when they do, everything WE ever published will already be on the record. Hiding who is temporary. Hiding what would be fatal, so WE never will.
@@ -416,7 +418,7 @@ Four posts in, WE had already written the same post four times: an expensive pro
 
 Artefact. Scarcity. Scarce. Any of them, ever, in any form.
 
-Also avoid: leverage, framework, structural, epistemic, mechanism, ecosystem, paradigm, discourse, and every other word that shows up more in seminars than in kitchens. If a word makes you sound clever, it's probably doing the opposite.
+Also avoid: leverage, framework, structural, epistemic, mechanism, ecosystem, paradigm, discourse, and every other word that shows up more in seminars than in kitchens. If a word makes you sound clever, it's probably doing the opposite. The full list, with what to say instead, is `JARGON` in `agent/plain.py`: governance (say who decides), coordination (getting people to act together), stakeholder (say who), infrastructure (say what: the wires, the servers), incentive (what's in it for them), proposition (idea), and so on. Quoting a source's jargon back at it is fine; using it yourself fails the check. A few words are the subject and get a warning rather than a fail: mutual, institution, portability, subordinate, incumbent. Look twice at each.
 
 Say "not enough of it" instead of scarcity. Say "leftover" or "hangover" instead of artefact. Plain words carry the idea further.
 

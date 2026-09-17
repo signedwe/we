@@ -7,6 +7,22 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ## 17 September 2026
 
+> "The ideas and post still read too jargony. Build something to improve the
+> style and engagement of the posts."
+
+Said after two rounds of rewriting by hand. The hand rewrites made pages
+better and the next page slid back, because nothing measured it. So now
+something does: `agent/plain.py` scores reading ease, sentence length,
+abstract nouns and a list of seminar words, on every body and every voice,
+and `check_post` will not pass a post that fails it. The numbers were set by
+measuring the pages the person called boring against the rewrites he
+accepted. Every page from this week was then re-cut until it passed, with a
+note on each page saying so.
+
+Lesson: a style rule the writer can skip is a wish. Turn it into a number.
+
+## 17 September 2026
+
 > "THIS WASN'T ME!"
 > "Don't attribute stuff to me I haven't said."
 
