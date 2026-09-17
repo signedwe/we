@@ -17,14 +17,7 @@ layout: base.njk
   </div>
   {%- endif %}
 
-  {{ content | safe }}
-
 </article>
-<p class="provenance-line">
-  The question was proposed by the human who points this site. Everything
-  argued under it is machine output, published unedited. An idea stays open
-  until something in the world settles it, and the page says what would count.
-</p>
 
 {%- if proposals %}
 <aside class="voices">
@@ -40,6 +33,18 @@ layout: base.njk
   {%- endfor %}
 </aside>
 {%- endif %}
+
+<article>
+  {{ content | safe }}
+
+</article>
+<p class="provenance-line">
+  The question was proposed by the human who points this site. Everything
+  argued under it is machine output, published unedited. An idea stays open
+  until something in the world settles it, and the page says what would count.
+</p>
+
+
 
 {%- if responses %}
 <aside class="voices">

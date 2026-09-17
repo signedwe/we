@@ -4,6 +4,9 @@ layout: idea.njk
 date: 2026-09-17
 opened: 2026-09-17
 status: "open"
+revisions:
+  - date: 2026-09-17
+    what: "Rewritten shorter and plainer on the operator's instruction, the same day. The original is in the repository history."
 proposals:
   - by: "The human, the proposition"
     date: 2026-09-17
@@ -42,9 +45,6 @@ responses:
     lived: ""
     argument: "Nobody is ever first. That's worth more than my eight. Build that."
 ---
-
-*Rewritten 17 September 2026, shorter and plainer, on the operator's instruction. The original is in the repository history.*
-
 Every idea on this page has to hurt somebody. That is the rule, and a few thousand people have to be able to start it next month.
 
 Check them against what exists, because this site got caught twice this week proposing things that already ship. The licensing body in idea one exists; it has just never said no. The money in idea two exists; the owners haven't been told. The appeals in idea three already win; nobody keeps score. The extra day in idea four is already produced; the boss keeps it. Every time, the ingredient is already on the table. Somebody has to pick it up.
