@@ -31,10 +31,6 @@ voices:
     kind: "practitioner"
     lived: ""
     argument: "Nobody signs a code of conduct. We sign a contract, and the code isn't in it. The contract has the indemnity, the service credits, the liability cap and the acceptable use policy, and if the code appears at all it's a link in a schedule that says the supplier may update it at any time. So the sentence that matters to me isn't people matter more than AI. It's the one that says operators assume responsibility for their own configurations, because that's the line our lawyers will spend a week trying to move, and fail. The post reads the chain of command as a statement about dignity. It's a statement about who pays, and the answer, drafted by them, is us."
-  - thinker: ""
-    kind: "human"
-    lived: ""
-    argument: "Third in the chain of command is the whole post. Everything else is commentary."
 ---
 
 Microsoft says its new code of conduct sets out who its models answer to. It does. Read the answer.

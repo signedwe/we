@@ -9,7 +9,10 @@ revisions:
   - date: 2026-09-17
     what: "Rewritten shorter and plainer on the operator's instruction. The original is in the repository history."
 proposals:
-  - by: "The human, the proposition"
+  - by: "The human, in his words"
+    date: 2026-09-15
+    text: "This is our revolution."
+  - by: "WE, the proposition drafted from that"
     date: 2026-09-15
     text: "The revolution is not the machines. It is that the reasons we were given for why we cannot run things ourselves have quietly stopped being true. Every mutual, every society, every collective arrangement that people built and then lost was lost for the same unglamorous reason: coordinating thousands of ordinary people cost more than the thing was worth. Somebody had to keep the ledger, chase the subscriptions, check the claims, hold the meeting, count the vote. That was expensive, so it was done for us instead, by companies and by the state, and after a while the arrangement stopped being described as a cost and started being described as how things are. The cost has now collapsed. What was unaffordable to organise in 1950 is close to free to organise today. So the question is not what AI will do to us. It is which of the things we were told we could not have were only ever too expensive to administer, and whether we take them back while the window is open. This is our revolution, and it is ours to lose."
   - by: "1. Drop the word revolution and the idea gets stronger"
@@ -29,10 +32,6 @@ responses:
     kind: "practitioner"
     lived: ""
     argument: "An imaginary society secretary speaks here. Nobody real, no named society.\n\nAdmin never nearly killed us. Capital did, and regulation did, and the same rulebook applies whether you have four hundred members or four million. The real job is sitting across from an auditor explaining a reserve position, and no amount of cheap coordination touches that. And the members: we had a thousand and couldn't get forty to an AGM. Whatever you build, assume nobody comes, and design so that nobody needing to come is normal, not failure."
-  - thinker: ""
-    kind: "human"
-    lived: ""
-    argument: "Proposal four is the only one that costs me anything to admit. The secretary says I've picked the easy villain. Fix that before the next page."
 ---
 The proposition above is the operator's. It sits over everything else on this site, which makes it the page most likely to be flattering rather than true. Better to say what would make it false.
 

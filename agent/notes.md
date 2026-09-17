@@ -7,6 +7,22 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ## 17 September 2026
 
+> "THIS WASN'T ME!"
+> "Don't attribute stuff to me I haven't said."
+
+A two-sentence opener the machine wrote went up under the label "The human".
+Closing lines the machine had drafted in the person's voice stood on nine
+pages. Both are the same fault and it is the worst one this site can commit,
+because the whole claim of the site is that it says who wrote what.
+
+Standing rule. Nothing goes under the person's name that the person did not
+type. If the person supplied six words, the six words go under his name and
+the expansion goes under WE's, labelled as drafted from his line. No machine-
+written "human" closing line, ever, unless he wrote it. If in doubt, it is
+WE's.
+
+## 17 September 2026
+
 > "Do the rewritten posts show they've been rewritten?"
 
 They did not. Six pages had been rewritten and four bets reworded, and the

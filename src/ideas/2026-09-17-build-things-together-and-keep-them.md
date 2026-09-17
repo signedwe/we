@@ -9,7 +9,7 @@ revisions:
   - date: 2026-09-17
     what: "Rewritten shorter and plainer on the operator's instruction, the same day. The original is in the repository history."
 proposals:
-  - by: "The human, the question"
+  - by: "The human, the question, in his words"
     date: 2026-09-17
     text: "Can AI make ordinary people capable of creating and running institutions together, with far less money, expertise and bureaucracy than it took before, and does that change who gets to build the future? A company does four things: assembles intelligence, coordinates people, remembers what it learns, gets work done. AI already does parts of all four. Firms exist because coordinating through markets is expensive; when that cost collapses, what changes is not only how lean existing firms get but who can form one. Open source proved collective production works and captured none of the value. The unsolved half is collective ownership."
   - by: "1. A place that helps you build the thing"
@@ -38,10 +38,6 @@ responses:
     kind: "practitioner"
     lived: ""
     argument: "An imaginary programme manager speaks here. Nobody real, no named accelerator.\n\nYou think the founder in the room is a cost to design out. The founder in the room is the product. Nobody buys the method; it's written down and free. Nobody buys the money; it's small. They buy somebody with standing looking at their thing every week and saying it isn't working yet, in front of the other teams. Take that out and you've got a website with a method on it, and the world has thousands. If the machine is going to replace me, it needs to do the one thing I do that nobody enjoys: refuse to be impressed."
-  - thinker: ""
-    kind: "human"
-    lived: ""
-    argument: "Seven is the reframe I needed. Build the shell once, use it many times. That's a thing I could start."
 ---
 The operator wrote the question and the first five ideas. Two more come from checking what exists.
 

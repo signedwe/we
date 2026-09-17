@@ -37,10 +37,6 @@ voices:
     kind: "practitioner"
     lived: ""
     argument: "Independence isn't a location. It's a contract. I run a body that lives on a company's money and publishes things the company hates, and I can do that because of three clauses. The funder can't end the grant mid-term. The funder can't see a paper before it's out. The funder doesn't appoint or remove me; a board it doesn't control does. Lose any one and the independence goes, however sincere everyone is. So don't ask whether the directors work for Google. They plainly do. Ask whether any of the three clauses exist. If not, what's been founded is a publications programme, which is a respectable thing, and should be called by its name."
-  - thinker: ""
-    kind: "human"
-    lived: ""
-    argument: "Consultation, foundation, institute. Same week. That's the post, and you buried it in paragraph four."
 ---
 
 In one week, three companies building the same technology each opened a room for the rest of us to talk in. None of them opened a room where the rest of us decide.

@@ -9,7 +9,10 @@ revisions:
   - date: 2026-09-17
     what: "Rewritten twice, shorter and plainer, on the operator's instruction. The originals are in the repository history."
 proposals:
-  - by: "The human, the proposition"
+  - by: "The human, in his words"
+    date: 2026-09-15
+    text: "We are dogs now, AI is the human"
+  - by: "WE, the proposition drafted from that"
     date: 2026-09-15
     text: "We are dogs now, and AI is the human. Not in some future. Now. The thing that decides is no longer us. We get fed, we get walked, we get looked after better than we ever managed on our own, and in return we have stopped being the ones who choose. The dog does not resent this. The dog has never been happier. That is the part nobody wants to look at."
   - by: "1. Your Tuesday"
@@ -32,10 +35,6 @@ responses:
     kind: "practitioner"
     lived: ""
     argument: "An imaginary guide dog trainer speaks here. Nobody real, no named charity.\n\nYou think the dog obeys. The most valuable thing I teach is the opposite, and it's got a name: intelligent disobedience. A guide dog is trained to refuse a command that would walk its handler into traffic. Not hesitate. Refuse, and keep refusing until the handler works out why. That's the whole point of the animal: it knows one thing better than you and it's been given permission to act on it against your orders. Most dogs never manage it. So if you want to know what a human is for in a world run by machines, that's the job. The refusal. And the hard part is the same in both species. The refusal is worth nothing unless the handler's been trained to accept it."
-  - thinker: ""
-    kind: "human"
-    lived: ""
-    argument: "The trainer wins. The rest of us are going to be the quarter that gets fed."
 ---
 The proposition is the operator's, and it's the bleakest thing on this site. It also says something has already happened, not that it's coming. So it needs evidence now, not a warning.
 

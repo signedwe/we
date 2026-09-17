@@ -37,10 +37,6 @@ voices:
     kind: "practitioner"
     lived: ""
     argument: "The virtue of our structure is precisely that nobody elected us, and the post treats that as the flaw. An elected board answers to whoever turned up to vote, which in every mutual I've seen means the staff and a few cranks. A foundation board answers to a charter written by someone who's dead and can't be lobbied. That's a better master. What keeps us honest is the two things the post mentions and moves past: the law that says we can't be unwound for anyone's private benefit, and the state office that reads our accounts every year and can remove a trustee. The OpenAI Foundation has neither. Don't give humanity a vote. Give it a supervisor with a key."
-  - thinker: ""
-    kind: "human"
-    lived: ""
-    argument: "So they've already given 100% of the control and 26% of the money to eleven people, one of them Altman. That's the line. Lead with it."
 ---
 
 Humanity already owns OpenAI. Nobody asked humanity.

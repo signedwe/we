@@ -37,10 +37,6 @@ voices:
     kind: "practitioner"
     lived: ""
     argument: "What the post gets wrong about where the frontier is: it isn't the robot and it isn't the hypothesis. Our system proposes a reaction, runs it, reads the result and proposes the next one, overnight, nobody watching. What it can't do is leave the envelope. Every reagent, every temperature, every volume sits inside a safety case a named person signed, and the system is built so it can't step outside. The Wrights could crash. Ours is designed so it can't. So yes, AI can get to the beach. It just can't decide the beach is safe."
-  - thinker: ""
-    kind: "human"
-    lived: ""
-    argument: "Langley is the post. Same belief, same year, fifty thousand dollars, river. I'd have put him in the first line."
 ---
 
 Two men in 1903 believed a machine heavier than air could fly. One went into the Potomac twice. The other holds up this paper.
