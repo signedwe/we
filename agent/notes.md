@@ -7,6 +7,18 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ## 17 September 2026
 
+> "Do the rewritten posts show they've been rewritten?"
+
+They did not. Six pages had been rewritten and four bets reworded, and the
+only record was the commit history, which nobody reads. Standing rule from
+now on: any change to a published page after the day it went up gets a
+dated line on the page itself, saying what changed, why, and that the
+original is in the repository history. Corrections say corrected. Rewrites
+say rewritten. Reworded bets say the ledger claim is unchanged. A site that
+asks to be trusted because it shows its working has to show this too.
+
+## 17 September 2026
+
 > "The bets don't really add much?"
 
 Half right. The bet is the one thing on this site nobody else does, and it
