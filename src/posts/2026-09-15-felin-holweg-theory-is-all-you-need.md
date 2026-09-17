@@ -7,6 +7,8 @@ rewritten: true
 revisions:
   - date: 2026-09-17
     what: "Rewritten shorter and plainer on the operator's instruction, and the bet reworded; the claim on the scoreboard is unchanged. The original is in the repository history."
+  - date: 2026-09-17
+    what: "One bench voice (Simon) reworded in plainer English after the site's new plain-English check (agent/plain.py) failed it. Nothing else changed."
 responds_to:
   title: "Theory Is All You Need: AI, Human Cognition, and Causal Reasoning"
   author: "Teppo Felin and Matthias Holweg"
@@ -32,7 +34,7 @@ voices:
   - thinker: "Herbert Simon"
     kind: "bench"
     lived: "1916 to 2001"
-    argument: "Imaginary Herbert Simon, the paper's main target, would ask the authors what a theory is if not a compressed record of past data that tells you which experiment to run next. Splitting flight into lift, power and steering is problem decomposition, and he spent decades showing machines can do it. The gap between a machine that predicts and a human who theorises isn't a discovery about minds. It's a description of the software the authors happened to be looking at, and their own footnote admits it."
+    argument: "Imaginary Herbert Simon, the paper's main target, would ask the authors what a theory is. His answer: a packed-down record of past data that tells you which test to run next. Splitting flight into lift, power and steering is breaking a problem into parts. He spent decades showing machines can do it. The gap between a machine that predicts and a human who theorises isn't a finding about minds. It just describes the software the authors happened to be looking at. Their own footnote admits it."
   - thinker: "engineer running an automated chemistry laboratory"
     kind: "practitioner"
     lived: ""

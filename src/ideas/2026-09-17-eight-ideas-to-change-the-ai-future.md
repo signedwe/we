@@ -8,6 +8,8 @@ rewritten: true
 revisions:
   - date: 2026-09-17
     what: "Rewritten three times the same day on the operator's instruction: shorter, plainer, ideas first, more commentators. The originals are in the repository history."
+  - date: 2026-09-17
+    what: "Idea eight and one bench voice (Alinsky) reworded the same day after the site's new plain-English check (agent/plain.py) failed them. Nothing else changed."
 proposals:
   - by: "WE"
     date: 2026-09-17
@@ -35,7 +37,7 @@ proposals:
     text: "The models are all converging. What makes your assistant yours is what it knows about you, and right now the company holds that, not you. That's the real fight, not who has the cleverest model. Two fixes. A law, like the one that let you keep your phone number when you switched networks: the new provider has to accept your history, not just the old one let you download it. And a front door you own with other people, that keeps your memory and swaps the model underneath whenever a better or cheaper one turns up. The village co-op owned the wires and bought electricity from whoever was cheapest. Same trick."
   - by: "8. The organiser"
     date: 2026-09-17
-    text: "Every movement in history ran out of organisers. There were never enough people who could find the shared grievance, get everyone in one room and turn a hundred complaints into one letter. Now there's one for everybody, free, and it never gets tired. It reads 340 tenants' leases, finds the clause they all share, drafts the letter, books the room, chases the landlord. Then the tenants' assistants talk to each other and collective action, which has cost time and nerve since the first strike, costs a text message. Every idea above is this one wearing a different coat."
+    text: "Every movement in history ran out of organisers. There were never enough people who could find the shared grievance, get everyone in one room, and turn a hundred complaints into one letter. Now there's one for everybody, free, and it never gets tired. It reads 340 tenants' leases and finds the clause they all share. It drafts the letter, books the room, chases the landlord. Then the tenants' assistants talk to each other. Acting together has cost time and nerve since the first strike. Now it costs a text message. Every idea above is this one wearing a different coat."
 responses:
   - thinker: "organiser at a tenants' union"
     kind: "practitioner"
@@ -68,7 +70,7 @@ responses:
   - thinker: "Saul Alinsky"
     kind: "bench"
     lived: "1909 to 1972"
-    argument: "Imaginary Alinsky would keep three and bin five. A tactic has to be something your people enjoy and one named target fears. People enjoy beating a parking fine, so keep the appeals. A countdown aimed at one named company works before it's used, so keep the switch. Shame on a named firm can't be bought back, so keep the red list. The fund is a meeting the enemy chairs. The strike and the front door are institutions, and you build institutions after you win, not before. And the machine can find the grievance and write the letter, but it can't be hated. A movement its target can't hate isn't a movement yet."
+    argument: "Imaginary Alinsky would keep three and bin five. A tactic has to be something your people enjoy and one named target fears. People enjoy beating a parking fine, so keep the appeals. A countdown aimed at one named company works before it's used, so keep the switch. Shame on a named firm can't be bought back, so keep the red list. The fund is a meeting the enemy chairs. The strike and the front door are bodies you'd have to run, and you build those after you win, not before. And the machine can find the grievance and write the letter, but it can't be hated. A cause its target can't hate isn't a cause yet."
   - thinker: "Mancur Olson"
     kind: "bench"
     lived: "1932 to 1998"

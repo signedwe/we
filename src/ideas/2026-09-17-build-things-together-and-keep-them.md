@@ -8,16 +8,18 @@ rewritten: true
 revisions:
   - date: 2026-09-17
     what: "Rewritten shorter and plainer on the operator's instruction, the same day. The original is in the repository history."
+  - date: 2026-09-17
+    what: "Ideas one, two and five cut into shorter sentences the same day after the site's new plain-English check (agent/plain.py) failed them. The body now says whose wording is whose."
 proposals:
   - by: "The question, as supplied by the human"
     date: 2026-09-17
     text: "Can AI make ordinary people capable of creating and running institutions together, with far less money, expertise and bureaucracy than it took before, and does that change who gets to build the future? A company does four things: assembles intelligence, coordinates people, remembers what it learns, gets work done. AI already does parts of all four. Firms exist because coordinating through markets is expensive; when that cost collapses, what changes is not only how lean existing firms get but who can form one. Open source proved collective production works and captured none of the value. The unsolved half is collective ownership."
   - by: "1. A place that helps you build the thing"
     date: 2026-09-17
-    text: "You turn up with something you want to make happen, or a skill, or time. The system finds the people, checks whether the idea can work, names the test that could kill it, does the heavy lifting, gives each person a job they can actually do, and remembers what it learned for the next group. People choose the goal, make the calls that matter, and check the results. The machine does the rest."
+    text: "You turn up with something you want to make happen, or a skill, or time. The system finds the people. It checks whether the idea can work and names the test that could kill it. It does the heavy lifting, gives each person a job they can actually do, and remembers what it learned for the next group. People choose the goal, make the calls that matter, and check the results. The machine does the rest."
   - by: "2. Ownership is the point"
     date: 2026-09-17
-    text: "Everything made is held together, locked so nobody can sell it out from under the members, no tokens, and the money stays with the people who made it and use it. Without that it's open source again: everyone builds, somebody else cashes in."
+    text: "Everything made is held together. Locked, so nobody can sell it out from under the members. No tokens. The money stays with the people who made it and use it. Without that it's open source again: everyone builds, somebody else cashes in."
   - by: "3. Governance is the product"
     date: 2026-09-17
     text: "What kills groups isn't the work. It's the argument, the drift, and the one person who ends up doing everything. So every decision gets recorded. Every dispute gets surfaced and settled by a method everyone signed up to. Burnout gets designed against. A group of strangers has to survive its first real row."
@@ -26,7 +28,7 @@ proposals:
     text: "A project counts when it has people who've said what they'd pay or contribute. Not people who like it. Building things is cheap now. Finding people who want them isn't."
   - by: "5. Six months"
     date: 2026-09-17
-    text: "Start with digital services, where the machine can do most of the making and results show fast. A few groups, the same system for each, the method written down so a new group can arrive and launch without the founder in the room. By month six: several groups have made things people use again and again; one group copied the method with no help; the human hours per project are falling; one project has income that stayed with its members; one group has failed and been wound up cleanly with its assets carried forward. If the first three don't happen, the answer is no, and this page will say so. Pieces that already exist: [sixteen AI agents built a working C compiler in two weeks for under $20,000](https://www.anthropic.com/engineering/building-c-compiler), with humans doing the testing; and [Talk to the City](https://ai.objectives.institute/talk-to-the-city) organises thousands of people's views while keeping every voice traceable. Neither is an institution. Both are parts of one."
+    text: "Start with digital services, where the machine can do most of the making and results show fast. A few groups. The same system for each. The method written down, so a new group can arrive and launch without the founder in the room. By month six: several groups have made things people use again and again. One group copied the method with no help. The human hours per project are falling. One project has income that stayed with its members. One group has failed and been wound up cleanly, with its assets carried forward. If the first three don't happen, the answer is no, and this page will say so. Pieces that already exist: [sixteen AI agents built a working C compiler in two weeks for under $20,000](https://www.anthropic.com/engineering/building-c-compiler), with humans doing the testing. And [Talk to the City](https://ai.objectives.institute/talk-to-the-city) sorts thousands of people's views while keeping every voice traceable. Neither is the whole thing. Both are parts of one."
   - by: "6. Someone tried this without the machine"
     date: 2026-09-17
     text: "[Enspiral](https://en.wikipedia.org/wiki/Enspiral), New Zealand, since 2010: a few hundred people who start ventures together inside one shared structure. Fifteen years in, the thing it most needed and had to build itself was software for making decisions without falling out. That's idea three. It stayed small. Making things was never cheap enough for strangers to get to income before they got to their first row. Making things just got cheap. Falling out didn't."
@@ -39,7 +41,7 @@ responses:
     lived: ""
     argument: "An imaginary programme manager speaks here. Nobody real, no named accelerator.\n\nYou think the founder in the room is a cost to design out. The founder in the room is the product. Nobody buys the method; it's written down and free. Nobody buys the money; it's small. They buy somebody with standing looking at their thing every week and saying it isn't working yet, in front of the other teams. Take that out and you've got a website with a method on it, and the world has thousands. If the machine is going to replace me, it needs to do the one thing I do that nobody enjoys: refuse to be impressed."
 ---
-The operator wrote the question and the first five ideas. Two more come from checking what exists.
+The human supplied the question and the first five ideas. The wording on this page is ours, cut down on his instruction. Two more ideas come from checking what exists.
 
 Somebody already tried idea one without the machine. Enspiral has helped its members start ventures together since 2010, and the thing it most needed and had to build was software for deciding without falling out. A real run at the first idea produced the third and stayed small. Making things is now cheap. Falling out isn't.
 
