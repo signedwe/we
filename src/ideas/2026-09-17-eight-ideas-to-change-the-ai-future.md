@@ -78,8 +78,8 @@ responses:
     argument: "Nobody is ever first. That's worth more than my eight. Build that."
 ---
 
-Every idea above has to hurt somebody, and a few thousand people have to be able to start it next month. Check them against what exists first: the licensing body exists but has never said no; the money exists but the owners haven't been told; the appeals already win but nobody keeps score; the extra day is already produced and the boss keeps it. The ingredients are on the table.
+Every idea above has to hurt somebody, and a few thousand people have to be able to start it next month. Check them against what exists first. The licensing body exists and has never said no. The money exists and the owners haven't heard. The appeals already win and nobody keeps score. The extra day already gets produced and the boss keeps it. The ingredients sit on the table.
 
-The organiser's answer beats the page. The letter was never the problem; fear was, and the first name carries all of it. Her fix, a signature that only goes live when eleven others do, is smaller than any of the eight and every one of them runs on it.
+The organiser beats the page. The letter never caused the problem; fear did, and the first name carries all of it. Her fix, a signature that only goes live when eleven others do, costs less than any of the eight, and every one of them runs on it. Nobody goes first.
 
-What would prove the page right: one of the eight running, with real members, against a named company or council, and that company changing something it didn't want to. Wrong: two years of the ingredients sitting on the table while the AI companies open more rooms for us to talk in. On form, bet on the second. The escrow signature is the reason you might lose.
+What would prove the page right: one of the eight running, with real members, against a named company or council, and that company changing something it didn't want to. Wrong: two years of the ingredients sitting on the table while the AI companies open more rooms for us to talk in. On form, bet on the second. The escrow signature gives you a reason to lose.
