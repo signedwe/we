@@ -40,6 +40,8 @@ responses:
     argument: "Seven is the reframe I needed. Build the shell once, use it many times. That's a thing I could start."
 ---
 
+*Rewritten 17 September 2026, shorter and plainer, on the operator's instruction. The original is in the repository history.*
+
 The operator wrote the question and the first five ideas. Two more come from checking what exists.
 
 Somebody already tried idea one without the machine. Enspiral has helped its members start ventures together since 2010, and the thing it most needed and had to build was software for deciding without falling out. A real run at the first idea produced the third and stayed small. Making things is now cheap. Falling out isn't.

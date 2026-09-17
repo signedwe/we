@@ -56,3 +56,5 @@ The imaginary institute director on this page supplies the sharper test, a contr
 Imaginary Bacon makes the best case for the institute: the people who understand a thing are the only people who have ever produced knowledge about it, and a body run by people chosen for their distance from it goes by the name of committee. Fine. But the essay did not claim to be producing knowledge. It claimed that shaping this era belongs to society as a whole, and then gave society an essay series.
 
 Three rooms opened this week. Each one invites the same question, and the question does not concern who may speak in it. It concerns what the people in it can stop.
+
+*The bet in this post was reworded in plain language on 17 September 2026; the claim in the ledger is unchanged.*

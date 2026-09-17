@@ -50,3 +50,5 @@ The bet follows from what the announcement promises. Microsoft will "listen and 
 The document has a better case than that. Writing the rules down in public, in advance, with a list of things the models must never do, beats most of the industry, and a published standard becomes the thing the next lawsuit measures conduct against whether the author meant it to or not. The imaginary procurement head makes the sharper point: the code never reaches the contract, and the sentence that will matter hands responsibility down the chain.
 
 One absence. The announcement cites "recent safety incidents of large scale, highly coordinated, and persistent hacking campaigns of AI agents" as the reason there is no time to waste. It names none of them. A document about who answers for what opens with an event nobody answers for.
+
+*The bet in this post was reworded in plain language on 17 September 2026; the claim in the ledger is unchanged.*

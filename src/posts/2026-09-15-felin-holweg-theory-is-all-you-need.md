@@ -58,3 +58,5 @@ A footnote also allows that future AI might replicate the reasoning they call hu
 The paper has a better defence. Nobody points a fan at a wing before deciding that lift, propulsion and steering make three separate problems, and the Wrights decided that before taking a single reading. The flight story also stands alone, chosen, the authors admit, because it came out well. For every Wilbur, a thousand men with a shed and a belief stayed in the river.
 
 The Wrights reasoned from birds too, taking wing-warping from watching one bank. Same data, different question, then a tunnel to settle it. Theory Is All You Need names a paper about two men who needed a fan, a soft beach, and a winter of numbers nobody else had.
+
+*The bet in this post was reworded in plain language on 17 September 2026; the claim in the ledger is unchanged.*

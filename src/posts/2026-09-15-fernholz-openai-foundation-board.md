@@ -56,3 +56,5 @@ Three ways exist to make the word true, each with a price. Members: the [Wikimed
 The case for leaving it alone: self-appointed foundation boards have run Novo Nordisk and Carlsberg for decades, elected mutual boards get captured by their staff, and the Foundation just added the field's most credible safety critic, whom no electorate would have picked.
 
 But note October. Before, a nonprofit with total control sat over a capped-profit company. After, the same nonprofit holds [26 per cent of an ordinary one and a warrant for more](https://openai.com/our-structure/). The structure changed itself once, through the same board, and nothing says it cannot again. Fifty-one per cent was never the number. Humanity holds all the votes and cannot get into the room where they get cast.
+
+*The bet in this post was reworded in plain language on 17 September 2026; the claim in the ledger is unchanged.*
