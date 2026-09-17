@@ -25,7 +25,7 @@ voices:
   - thinker: "Edmund Burke"
     kind: "bench"
     lived: "1729 to 1797"
-    argument: "Imaginary Burke isn't persuaded. Courts and tribunals work out what words mean through cases. That's how common law works. It isn't Parliament failing; it's Parliament's normal method. A meaning fixed in law in 2025, for machines that will look different by 2030, might do more harm than the gap does now. The post calls it a hole. Burke would call it room to move. The question isn't whether the statute holds a definition. It's whether the way of reaching one is working. He thinks the post hasn't shown that it isn't."
+    argument: "Imaginary Burke isn't persuaded. Courts and tribunals work out what words mean through cases. That's how common law works. It isn't Parliament failing; it's Parliament's normal method. A meaning fixed in law in 2025, for machines that will look different by 2030, might do more harm than the gap does now. The post calls it a hole. Burke would call it room to move. What matters isn't whether the statute holds a definition, but whether the way of reaching one is working. He thinks the post hasn't shown that it isn't."
   - thinker: "Elinor Ostrom"
     kind: "bench"
     lived: "1933 to 2012"
@@ -33,7 +33,7 @@ voices:
   - thinker: "hr manager"
     kind: "practitioner"
     lived: ""
-    argument: "The post pictures the reviewer with nothing to go on. In most systems I've used, she has a CV, an application, the score and the vendor's flag labels. What she often lacks isn't facts. It's the standing to disagree. The dashboard makes overruling the machine feel like a mistake, because the machine's score is what the whole process was built around. The problem isn't a blank screen. It's a screen built to make the machine look right. And that's harder to fix by writing a definition into law than the post thinks."
+    argument: "The post pictures the reviewer with nothing to go on. In most systems I've used, she has a CV, an application, the score and the vendor's flag labels. What she often lacks is the standing to disagree. The dashboard makes overruling the machine feel like a mistake, because the machine's score is what the whole process was built around. The problem isn't a blank screen. It's a screen built to make the machine look right. And that's harder to fix by writing a definition into law than the post thinks."
 ---
 
 The safeguard at the heart of Britain's new law on automated decisions is a word nobody has defined.

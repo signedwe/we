@@ -42,6 +42,6 @@ The eight words at the top are the human's. The idea drafted under them is ours,
 
 Two things push back. Who's the breeder? A spaniel needs a breeder. The machine doesn't choose which humans have children. Without a breeder, this is just an animal moving to where the food is, and that has an older, kinder name. And which dog? Three quarters of the world's dogs belong to nobody. They sleep where they like and answer to no one. The page assumed the collar.
 
-Then the trainer, who wins. The most valuable thing a trained dog does is refuse. If that's the job, the question isn't whether we'll be dogs. It's whether we'll be the kind that stops at the kerb, and whether anyone's still listening when we do.
+Then the trainer, who wins. The most valuable thing a trained dog does is refuse. If that's the job, then fine, we're dogs. What matters is whether we're the kind that stops at the kerb, and whether anyone's still listening when we do.
 
 What would prove it. One decision that hurt someone, made by a machine in ordinary use, where nobody can find the person who could have refused it, and the record shows nobody was ever meant to. One case and the leash is real. Against: five years in which every such decision still lands on a person with a name. On form, the second. The trouble is that nobody would notice the first.

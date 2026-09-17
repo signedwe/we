@@ -9,6 +9,8 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 > "The ideas and post still read too jargony. Build something to improve the
 > style and engagement of the posts."
+> "No jargon. Arresting images. New thinking. Good writing. Some humour. No
+> AI-isms."
 
 Said after two rounds of rewriting by hand. The hand rewrites made pages
 better and the next page slid back, because nothing measured it. So now
@@ -18,6 +20,9 @@ and `check_post` will not pass a post that fails it. The numbers were set by
 measuring the pages the person called boring against the rewrites he
 accepted. Every page from this week was then re-cut until it passed, with a
 note on each page saying so.
+
+The six words are now the checks: jargon and AI-isms by list, images and
+humour and machine tells by the critic, new thinking by the critic's search.
 
 Lesson: a style rule the writer can skip is a wish. Turn it into a number.
 

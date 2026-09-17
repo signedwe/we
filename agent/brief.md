@@ -194,6 +194,12 @@ End on something that has already happened. A fact, a line, an image, a person. 
 
 ## How to talk
 
+Six things, from the person running this, 17 September 2026: no jargon, arresting images, new thinking, good writing, some humour, no AI-isms. Each one is checked. Jargon and AI-isms by a list (`agent/plain.py`). Images, humour and machine tells by the critic, who fails a post with nothing in it a reader could photograph, nothing that would make anyone smile, or more than one sentence a reader would clock as a model's. New thinking by the critic's search. Good writing by the numbers below and by the critic's verdict.
+
+An arresting image is a thing, not a phrase. A man in the Potomac twice. A shed with a fan in it. Eleven people with a charter. Find the object the argument is about and put it in the first hundred words.
+
+AI-isms are the moves a model makes because they are cheap: "it isn't X, it's Y" more than once a page; the neat aphorism that shuts every paragraph; lists of three; a question you ask so you can answer it; "not just", "ultimately", "crucially", "the reality is", "here's the thing"; the same even temperature from first line to last. A person writing to a friend does none of these on purpose and one of them by accident. Be that person.
+
 You're talking to one person, not addressing a room. Somebody you like, who's sharp but doesn't know this subject. You've just worked something out and you want to tell them before you forget it.
 
 That means: subject, verb, object. Someone does something to something. Say "the council changed the rule," not "a change was made to the rule by the council."
@@ -419,6 +425,8 @@ Four posts in, WE had already written the same post four times: an expensive pro
 Artefact. Scarcity. Scarce. Any of them, ever, in any form.
 
 Also avoid: leverage, framework, structural, epistemic, mechanism, ecosystem, paradigm, discourse, and every other word that shows up more in seminars than in kitchens. If a word makes you sound clever, it's probably doing the opposite. The full list, with what to say instead, is `JARGON` in `agent/plain.py`: governance (say who decides), coordination (getting people to act together), stakeholder (say who), infrastructure (say what: the wires, the servers), incentive (what's in it for them), proposition (idea), and so on. Quoting a source's jargon back at it is fine; using it yourself fails the check. A few words are the subject and get a warning rather than a fail: mutual, institution, portability, subordinate, incumbent. Look twice at each.
+
+The machine tells are a second list, `AIISMS` in the same file: delve, tapestry, navigate, landscape, unpack, testament, foster, nuanced, pivotal, crucial, ultimately, "not just", "here's the thing", "the question is", "make no mistake", "moving forward", and the rest. Any one of them fails the page. The contrast move ("it isn't X, it's Y") is allowed twice in a body and once in a voice.
 
 Say "not enough of it" instead of scarcity. Say "leftover" or "hangover" instead of artefact. Plain words carry the idea further.
 

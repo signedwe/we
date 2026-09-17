@@ -84,6 +84,44 @@ WATCH = {
     "incumbent": "the one already there",
 }
 
+# Machine tells. Words and moves that appear in machine-written prose far
+# more than in anything a person would say to a friend. Fail on sight.
+AIISMS = (
+    "delve", "delves", "delving", "tapestry", "navigate", "navigating",
+    "landscape", "unpack", "underscore", "underscores", "testament to",
+    "foster", "fosters", "fostering", "resonate", "resonates", "nuanced",
+    "multifaceted", "pivotal", "game-changer", "game changer", "seamless",
+    "seamlessly", "vibrant", "realm", "beacon", "journey", "elevate",
+    "harness", "unlock", "unlocks", "supercharge", "dive into", "deep dive",
+    "crucial", "crucially", "ultimately", "notably", "importantly",
+    "here's the thing", "here is the thing", "let's be clear", "let's be honest",
+    "make no mistake", "in a world where", "at the end of the day",
+    "the reality is", "simply put", "put simply", "to be clear",
+    "let that sink in", "read that again", "the takeaway", "key takeaway",
+    "food for thought", "a lot to unpack", "moving forward", "going forward",
+    "double down", "it's worth noting", "worth noting", "it bears repeating",
+    "in today's", "in an era", "in the age of", "as we move", "the bottom line",
+    "rich history", "stark reminder", "sobering", "chilling", "profound",
+    "paradigm shift", "sea change", "watershed", "existential",
+    "not just", "isn't just", "is not just", "more than just", "not only",
+    "boasts", "showcases", "spearhead", "myriad", "plethora", "utilize",
+    "additionally", "furthermore", "moreover", "in conclusion", "overall,",
+    "that said,", "having said that", "with that said", "needless to say",
+    "arguably", "it goes without saying", "ever-evolving", "ever-changing",
+    "cutting-edge", "state-of-the-art", "groundbreaking", "revolutionary",
+    "transformative", "innovative", "empower", "empowers", "empowering",
+    "the question is", "the real question", "the question isn't",
+    "spoiler:", "plot twist", "hot take", "unpopular opinion",
+)
+
+# The contrast move: "It isn't X. It's Y." Once a page, it lands. Three times,
+# the reader hears the machine.
+CONTRAST = re.compile(
+    r"\b(?:isn't|is not|wasn't|aren't|not)\b[^.!?\n]{1,60}[.!?]\s+"
+    r"(?:It's|It is|That's|That is|They're|It was)\b", re.I)
+CONTRAST_MAX = 2          # per body
+CONTRAST_MAX_SHORT = 1    # per voice or proposal
+
 # Short spans (a voice, a proposal) get the same jargon rule and a looser
 # version of the numbers: nobody can fit a five-word sentence and a spread
 # of lengths into eighty words without it sounding forced.
@@ -170,6 +208,12 @@ def metrics(text: str) -> dict:
         n = len(re.findall(r"\b" + re.escape(term) + r"\b", unquoted, re.I))
         if n:
             watch.append((term, n))
+    aiisms = []
+    for term in AIISMS:
+        n = len(re.findall(r"(?<![a-z])" + re.escape(term) + r"(?![a-z])", unquoted, re.I))
+        if n:
+            aiisms.append((term, n))
+    contrasts = len(CONTRAST.findall(unquoted))
     jargon = []
     for term in JARGON:
         n = len(re.findall(r"\b" + re.escape(term) + r"\b", unquoted, re.I))
@@ -186,6 +230,8 @@ def metrics(text: str) -> dict:
         "abstract_per_100": round(100 * len(abstract) / len(words), 1),
         "jargon": jargon,
         "watch": watch,
+        "aiisms": aiisms,
+        "contrasts": contrasts,
     }
 
 
@@ -207,9 +253,23 @@ def check_plain(text: str) -> list:
             "than in kitchens is doing the opposite of what you think. Say the "
             "plain thing, or name the actual body, person or object."
         )
+    if m["aiisms"]:
+        items = ", ".join(f'"{t}"' + (f" x{n}" if n > 1 else "") for t, n in m["aiisms"])
+        out.append(
+            f"Machine tells: {items}. Nobody says these to a friend; a model "
+            "says them to everyone. Cut the word or say the plain thing. If "
+            "the sentence dies without it, the sentence had nothing in it."
+        )
     if m["words"] < TINY_SPAN:
         return out
     short = m["words"] < SHORT_SPAN
+    cmax = CONTRAST_MAX_SHORT if short else CONTRAST_MAX
+    if m["contrasts"] > cmax:
+        out.append(
+            f"The contrast move ('It isn't X. It's Y.') {m['contrasts']} times; "
+            f"the most is {cmax}. Once it lands. Repeated, it is a tic the "
+            "reader can hear. Say the Y and drop the X."
+        )
     flesch_floor = SHORT_FLESCH_FLOOR if short else FLESCH_FLOOR
     avg_max = SHORT_AVG_SENTENCE_MAX if short else AVG_SENTENCE_MAX
     abstract_max = SHORT_ABSTRACT_PER_100_MAX if short else ABSTRACT_PER_100_MAX
@@ -259,10 +319,12 @@ def scorecard(text: str) -> str:
     jar = ", ".join(f"{t} x{n}" for t, n in m["jargon"]) or "none"
     watch = ", ".join(f"{t} x{n}" for t, n in m["watch"])
     watch = f" | watch: {watch}" if watch else ""
+    ai = ", ".join(f"{t} x{n}" for t, n in m["aiisms"])
+    ai = f" | machine tells: {ai}" if ai else ""
     return (
         f"words {m['words']} | sentences {m['sentences']} | avg {m['avg_sentence']} "
         f"(max {av}) | longest {m['longest']} (max {LONGEST_SENTENCE_MAX}) | "
         f"over-25 {m['long_share']}% | under-5 {m['under_five']} | "
         f"reading ease {m['flesch']} (min {fl}) | abstract/100 {m['abstract_per_100']} "
-        f"(max {ab}) | seminar words: {jar}{watch}"
+        f"(max {ab}) | contrast moves {m['contrasts']} | seminar words: {jar}{watch}{ai}"
     )

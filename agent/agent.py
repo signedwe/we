@@ -1846,6 +1846,11 @@ CRITIC_SCHEMA = """{
   "obvious_ending": true or false,
   "obvious_ending_because": "the last line, and the reason anybody would have written it. empty if it swerves",
   "over_explained": ["any place the post makes a point and then explains it, quote the redundant sentence"],
+  "no_image": true or false,
+  "no_image_because": "true if there is no picture in it a reader could see: no object, no room, no person doing a thing. say what the post is about instead of a picture. empty if there is one, and quote it",
+  "no_joke": true or false,
+  "no_joke_because": "true if nothing in it would make anyone smile. empty if one line does, and quote it",
+  "machine_tells": ["every sentence a reader would clock as written by a model: the tidy 'it isn't X, it's Y', the aphorism that shuts a paragraph, the three-beat list, the same even temperature throughout, a word nobody says out loud. quote each one"],
   "flat_open": true or false,
   "flat_open_because": "the first sentence, and why nobody would argue with it. empty if it lands",
   "same_post": true or false,
@@ -1906,7 +1911,9 @@ First, before anything about the writing. Who cares? Name the person this happen
 
 Is it dull? Not imperfect, dull. Would anyone who is not paid to be here reach the end. Reserve dull for a piece with no reason to exist, and if that is the honest answer, say it.
 
-Then look specifically for the things that make prose lifeless even when the argument is good. Is there a single real image anywhere, or is it abstract nouns end to end. Is there one line that is actually funny. Does the writer appear to want anything, or is the whole thing delivered at the same polite temperature from start to finish. Say which of these is missing, by name.
+Then look specifically for the things that make prose lifeless even when the argument is good. Is there a single real image anywhere, something a reader could photograph, or is it abstract nouns end to end. Is there one line that is actually funny. Does the writer appear to want anything, or is the whole thing delivered at the same polite temperature from start to finish. Say which of these is missing, by name, and answer no_image and no_joke separately.
+
+Then read it as somebody who has read a great deal of machine-written prose and is sick of it. Quote every sentence that gives the machine away: the tidy contrast (it isn't X, it's Y), the neat aphorism that shuts a paragraph, the list of three, the rhetorical question that sets up its own answer, the word no person says out loud. One of these can pass. A page built from them cannot, and the reader will stop trusting the site.
 
 Read the last line. Was that the ending anybody would have written? A reader is a few words ahead by the final paragraph, and if the post lands exactly where they were already standing, nothing happens. Say what the obvious ending was and whether this is it.
 
@@ -1995,6 +2002,29 @@ def critic_failures(verdict: dict) -> list:
             f"Explaining your own point: {item} Cut it. The reader had it, "
             "and you just took it off them."
         )
+
+    if verdict.get("no_image"):
+        failures.append(
+            "The critic can't see anything in it: "
+            f"{verdict.get('no_image_because') or '(no reason given)'} "
+            "Put one thing in it a reader could photograph. A room, an "
+            "object, a person doing something. Then hang the argument on it."
+        )
+
+    if verdict.get("no_joke"):
+        failures.append(
+            "The critic didn't smile once. One line. Not a gag, a line that "
+            "sees the ridiculous thing and says so. If the subject has "
+            "nothing ridiculous in it, look harder; it does."
+        )
+
+    tells = verdict.get("machine_tells") or []
+    if len(tells) > 1:
+        for item in tells:
+            failures.append(
+                f"A reader would clock this as machine-written: {item} "
+                "Say it the way you'd say it across a table, or cut it."
+            )
 
     if verdict.get("flat_open"):
         failures.append(
