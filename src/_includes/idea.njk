@@ -12,8 +12,13 @@ layout: base.njk
     <p class="revised-line"><span class="revised-date">{{ r.date | readable }}</span>
       {{ r.what }}</p>
     {%- endfor %}
+    {%- if rewritten %}
+    <p class="revised-note">This page was rewritten. The earlier version is not
+      on the page; it is in the <a href="https://github.com/signedwe/we/commits/main/{{ page.inputPath | replace('./','') }}">repository history</a>, unchanged.</p>
+    {%- else %}
     <p class="revised-note">Nothing was deleted. <del>What it said before</del>
       stays on the page, struck through, with the new wording after it.</p>
+    {%- endif %}
   </div>
   {%- endif %}
 

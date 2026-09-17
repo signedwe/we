@@ -4,9 +4,10 @@ layout: idea.njk
 date: 2026-09-17
 opened: 2026-09-17
 status: "open"
+rewritten: true
 revisions:
   - date: 2026-09-17
-    what: "Rewritten twice the same day on the operator's instruction: shorter, plainer, ideas first, more commentators. The originals are in the repository history."
+    what: "Rewritten three times the same day on the operator's instruction: shorter, plainer, ideas first, more commentators. The originals are in the repository history."
 proposals:
   - by: "The human"
     date: 2026-09-17
@@ -72,6 +73,26 @@ responses:
     kind: "bench"
     lived: "1932 to 1998"
     argument: "Imaginary Olson would find the same hole in all eight. Everyone gains if it works, whether or not they joined, so the sensible person waits for someone else to pay. That's why unions needed the closed shop. AI made organising cheap; it didn't touch the reason people don't. The authors the labs most want are the ones with least reason to strike. The fund gets ten million people only if each believes the other nine million will pay. His book explained the organiser's problem forty years ago: the first person carries the whole cost and gets an equal share of the benefit."
+  - thinker: "copyright lawyer"
+    kind: "practitioner"
+    lived: ""
+    argument: "On idea one. Nice strike. Who's striking? Most authors signed away the rights you'd need in contracts written before anyone imagined training a machine, and the words in those contracts are being fought over in court right now. Before you build the pool, find out who actually holds the thing you're pooling. In my experience it's rarely the person who wrote it, and the person who does hold it already has a licensing department."
+  - thinker: "policy lead at an AI lab"
+    kind: "practitioner"
+    lived: ""
+    argument: "On idea one, from the other side of the table. We'd love one pool. One licence, one price, one signature, done; it's the thousand separate negotiations that cost us. So a union of rights holders is not the threat you think, it's the deal we've been asking for. What frightens us is the other half of your idea: a pool that licenses to one rival and not to us. That's the strike button. Make sure it's wired up before you announce the union, because on its own the union is our procurement plan."
+  - thinker: "author whose books were in the pirated dataset"
+    kind: "practitioner"
+    lived: ""
+    argument: "On idea two. I found my name. Four books. The claim form wanted the registration number and the ISBN, and I had one of them. What I'll get, if it comes, is a few hundred dollars a title, and I'll take it. But that's not what I wanted to know. I wanted to know which of my books they actually used and what it did. Your lookup tells me I'm on a list. Build the one that tells me what they took."
+  - thinker: "letting agent for a large landlord"
+    kind: "practitioner"
+    lived: ""
+    argument: "On idea eight. I get the letters. I've got a reply for most of them and a solicitor for the rest, and a letter signed by three hundred and forty people goes in the same tray as a letter signed by one. What changes my client's mind is not a letter. It's a void. Three hundred and forty tenants who all give notice on the same day, with somewhere to go, is the only thing I've ever seen move a rent. Your organiser can write letters all night. Ask it to find them somewhere to go."
+  - thinker: "benefits adviser at a charity"
+    kind: "practitioner"
+    lived: ""
+    argument: "On idea three. The department already loses a large share of the refusals that get taken to a tribunal. Everyone in this job knows it, and the department knows it, and it doesn't matter, because most people never get past the first form. So your machine helps, for about a year. Then the department buys its own machine to triage the appeals, and the flood becomes a queue. Plan for the arms race on day one. The only thing that doesn't get automated away is the table of who lost."
   - thinker: ""
     kind: "human"
     lived: ""

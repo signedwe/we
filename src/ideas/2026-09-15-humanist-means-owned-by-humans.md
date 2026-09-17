@@ -4,6 +4,7 @@ layout: idea.njk
 date: 2026-09-15
 opened: 2026-09-15
 status: "open"
+rewritten: true
 revisions:
   - date: 2026-09-15
     what: "Proposal two corrected twice on the day: chat providers already export your history, and at least one imports a rival's memory of you. Both corrections came from the operator."

@@ -4,6 +4,7 @@ layout: idea.njk
 date: 2026-09-15
 opened: 2026-09-15
 status: "open"
+rewritten: true
 revisions:
   - date: 2026-09-17
     what: "Rewritten shorter and plainer on the operator's instruction. The original is in the repository history."
