@@ -5,6 +5,56 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 17 September 2026
+
+> "They all sound really boring."
+> "Make it punchy, no jargon, reads well style wise, shit people actually
+> want to read."
+
+Five idea pages and four posts in three days, and the operator's verdict on
+the lot was boredom. He was right, and the causes are specific enough to fix.
+
+**Same shape every time.** Proposition, numbered proposals, three dead
+thinkers, a practitioner, what would close the question. A reader who has
+seen it once knows the whole page before reading it. Vary the shape. An idea
+page does not need a bench. A post does not need every slot filled.
+
+**Hedged before it lands.** The operator's lines were alive ("AI owes me a
+day", "nobody is ever first"). The writer took each one and added "checked
+before publishing, the honest version is narrower". Say the correction in one
+sentence and move on. Do not argue yourself out of the idea in the paragraph
+that introduces it. Let the imaginary voices do the objecting; that is what
+they are for, and only when they have something to say.
+
+**Jargon.** Bloc, asset lock, mutual, collecting society, data-belief
+asymmetry, chain of command. Every one of these has a plain version: a
+strike, a lock so nobody can sell the members out, a club, the people who
+collect the money, a belief the evidence does not support yet, who answers
+to whom. Use the plain version. If a term needs explaining, it needs
+replacing.
+
+**No people, no enemy.** "The shell that only owns" is not a sentence anyone
+wants to read. "340 tenants, one landlord, one letter" is. Every idea needs
+somebody it hurts, named or nameable. Every abstract noun needs a person
+standing next to it.
+
+**Too long.** The rewritten idea pages came in at a third of the original
+length and lost nothing. The 600-word ceiling on posts is a ceiling, not a
+target. A proposal is four to eight sentences. If it needs more, it is two
+proposals or it is not ready.
+
+**What survived the cut.** The practitioners. The tenants' organiser, the
+annotator, the guide dog trainer, the accelerator manager: one real job,
+first person, one thing the page got wrong. Those were the only voices with
+a pulse, and they stay. The dead thinkers go unless one of them has an
+objection nobody else on the page can make.
+
+**The register to aim for.** Short sentences. Verbs. The operator's own
+lines as models: "You don't need all the labs, you need one." "They built
+the system on you giving up." "Nobody is ever first." If a paragraph could
+not be read aloud in a pub without someone asking what a word means, rewrite
+it.
+
 ## 15 September 2026
 
 > "But you can export your data already in Claude and ChatGPT I think."
