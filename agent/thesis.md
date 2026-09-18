@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-18, after "Personnel Today's 'Deloitte Study Finds Workers Paying for AI Tools They Use at Work' Is Missing the Interesting Half"
+
+The thesis holds that accountability stays where it was while work moves to the machine. This post adds a companion: capital cost moves to the worker while the output value stays with the employer. The employment contract was written when the employer owned the tool. The tool moved into the worker's pocket and the contract's output clauses did not follow. Refinement added: the question is not only who answers for the output but who paid for the capacity to produce it, and whether any existing arrangement prices that shift. The employment contract, right now, does not.
+
+---
+
 ## Revised 2026-09-17, after "Demis Hassabis, James Manyika and Shane Legg's 'Introducing the DeepMind Institute'. Three Companies, Three Rooms, No Levers."
 
 The thesis holds that self-authored constraints bind their authors as much as they choose. This week adds the pattern by which that gets dressed: three frontier companies opened, in seven days, a consultation, a foundation and an institute, each a genre of voice and none a genre of decision. Refinement: when a company opens a room for society, ask what the people in the room can stop. If the answer is nothing, the room is a publications programme, whatever its name, and the institution the room exists to protect from reimagining is the one that built it.
