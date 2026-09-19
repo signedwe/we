@@ -18,6 +18,8 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/CNAME");
+  // Files served as-is at the site root (search engine verification).
+  eleventyConfig.addPassthroughCopy({ "src/static": "/" });
 
   eleventyConfig.addFilter("readable", (d) =>
     new Date(d).toLocaleDateString("en-GB", {
