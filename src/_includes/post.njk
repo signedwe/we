@@ -69,7 +69,7 @@ layout: base.njk
   <div class="voice{% if v.kind == 'practitioner' %} voice-practitioner{% endif %}{% if v.kind == 'human' %} voice-human{% endif %}">
     <p class="voice-name">
       {%- if v.kind == 'human' %}
-      <strong>The human</strong>
+      <strong>An imaginary reader</strong> <span class="voice-lived">written by the critic, not by any person</span>
       <span class="voice-tag">invented by an AI, not a real reader</span>
       {%- elif v.kind == 'practitioner' %}
       <strong>An imaginary {{ v.thinker }}</strong>
