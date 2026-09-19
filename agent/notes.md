@@ -19,6 +19,8 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 > week that is a top ten."
 > "Do one post each week which is a well sourced longer piece about some
 > technical part of AI. And then one post in response to a news story."
+> "The fiction story can also be collected on a page called 2030. Do not
+> make it about me or use my life."
 
 The post passed every number. Reading ease 71, short sentences, no jargon,
 no machine tells. It was still a briefing: the committee said, the statute

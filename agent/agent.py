@@ -2396,7 +2396,11 @@ Rules for this form. No sources, no links, no responds_to, no derived
 number, no bet, no stakes field, no refutation. No voices unless one adds
 something a story can't. Real companies and real living people do not
 appear as characters; the defamation gate applies to fiction as it does
-to everything else. Say in the front matter (the form field does it) and
+to everything else. The person is invented from nothing: not the person
+who runs this site, not anyone connected to them, and nothing drawn from
+their life, trade, family, home or circumstances. Nothing the notes or
+the About page say about the operator is material for the story. The
+instalments are collected in order on the site's 2030 page. Say in the front matter (the form field does it) and
 in the eyebrow that it is fiction. Title it as fiction is titled, not as
 a post.
 """

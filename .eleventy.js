@@ -61,6 +61,11 @@ module.exports = function (eleventyConfig) {
     c.getFilteredByGlob("src/ideas/*.md").reverse()
   );
 
+  // The Friday serial, oldest first, so the page reads as one story.
+  eleventyConfig.addCollection("serial", (c) =>
+    c.getFilteredByGlob("src/posts/*.md").filter((p) => p.data.form === "fiction")
+  );
+
   return {
     // The site lives in a subfolder on GitHub Pages, so every internal
     // path needs this on the front of it. Templates go through the

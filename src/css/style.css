@@ -344,3 +344,8 @@ article s, article del { background: #f4f4f4; padding: 0 0.15em; }
 
 .responds-to a { color: var(--quiet); }
 .responds-to a:hover { color: var(--ink); }
+
+/* The 2030 page: one instalment after another, read as one story. */
+.instalment { margin: 3rem 0; padding-top: 2rem; border-top: 1px solid var(--rule, #ddd); }
+.instalment:first-of-type { border-top: 0; padding-top: 0; }
+.instalment h2 a { text-decoration: none; }
