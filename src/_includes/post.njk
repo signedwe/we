@@ -9,8 +9,11 @@ layout: base.njk
 {%- endif %}
 
 <article>
-  <p class="eyebrow">{{ date | readable }}</p>
+  <p class="eyebrow">{{ date | readable }}{% if form_label %} · {{ form_label }}{% endif %}</p>
   <h1>{{ title }}</h1>
+{%- if form == "fiction" %}
+  <p class="voices-note">Fiction. The people and the places in it are invented; the arrangements they live inside are the ones this site argues about. One instalment a week, and the story carries on.</p>
+{%- endif %}
 
   {%- if revisions %}
   <div class="revised">

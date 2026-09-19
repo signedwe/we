@@ -15,7 +15,7 @@ layout: base.njk
 {%- for post in collections.posts %}
   <li>
     <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-    <span class="eyebrow">{{ post.date | readable }}</span>
+    <span class="eyebrow">{{ post.date | readable }}{% if post.data.form_label %} · {{ post.data.form_label }}{% endif %}</span>
   </li>
 {%- endfor %}
 </ul>

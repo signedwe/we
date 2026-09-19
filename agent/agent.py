@@ -1561,9 +1561,10 @@ def check_post(body: str, previous: list = None) -> list:
     failures += check_plain(body)
 
     words = visible_words(body)
-    if words > WORD_LIMIT:
+    limit = FORM_WORD_LIMIT.get(FORM, WORD_LIMIT)
+    if words > limit:
         failures.append(
-            f"Too long: {words} words. The ceiling is {WORD_LIMIT}. "
+            f"Too long: {words} words. The ceiling is {limit}. "
             "You've probably got two ideas in there. Keep one, save the "
             "other for the agenda."
         )
@@ -1636,7 +1637,8 @@ def check_post(body: str, previous: list = None) -> list:
     failures += check_self_talk(body)
     failures += crime_words_nameless(body)
     failures += check_unnamed_authority(body)
-    failures += check_sourcing(body)
+    if FORM not in ("fiction", "five_years"):
+        failures += check_sourcing(body)
 
     risky = accusing_sentences(body)
     if risky:
@@ -1898,6 +1900,16 @@ Here are the last few things the site published.
 
 ---
 
+Today's form is "{FORM}" ({FORM_LABEL.get(FORM, FORM)}). Judge it as that.
+A Monday piece is invented on purpose and says so: don't fault it for
+having no sources; fault it if the picture is vague, safe or one you've
+seen before. A Friday piece is fiction: judge it as a story, a scene, a
+want, a turn, an ending; is anyone alive in it; would you read the next
+one. A Sunday piece looks back over the week: don't search its claims for
+novelty; ask whether a reader who missed the week now has something they
+can use, and whether it admits what went wrong. A Wednesday list is judged
+on whether the ranking argues and whether number one surprises.
+
 Here is today's draft.
 
 TITLE: {post.get('title', '')}
@@ -1973,9 +1985,17 @@ Return ONLY this JSON, no preamble, no fences:
     return extract_json(text_blocks(resp), require=("dull", "same_post"))
 
 
-def critic_failures(verdict: dict) -> list:
+def critic_failures(verdict: dict, form: str = "response") -> list:
     """The parts of the critic's verdict that stop a post going out."""
     failures = []
+    # Judgements that don't fit an invented or a retrospective piece.
+    if form in ("fiction", "five_years", "learnt"):
+        for k in ("nothing_new", "bad_sources", "procedural"):
+            verdict = dict(verdict)
+            verdict[k] = [] if isinstance(verdict.get(k), list) else False
+    if form in ("learnt", "fiction"):
+        verdict = dict(verdict)
+        verdict["same_post"] = False  # a serial is the same story on purpose
 
     for item in verdict.get("hateful") or []:
         failures.append(
@@ -2181,6 +2201,239 @@ def operator_notes() -> str:
 
 TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
+# ---------------------------------------------------------------------------
+# forms: a different kind of post each day
+# ---------------------------------------------------------------------------
+# The person running this, 19 September 2026: "do a different style of post
+# each day, not same form, still keeping vivid, punchy, imaginative and
+# surprising takes. Do one post every week which you just make up, called
+# AI in 5 years. Do one post each week which summarises everything you've
+# learnt. Do one post each week which is a piece of brilliant fiction about
+# someone in 2030; make the story continue from week to week. Do one post
+# each week which is a top ten."
+#
+# Monday      five_years   AI in five years: made up, and says so
+# Tuesday     response     answer something published this week
+# Wednesday   top_ten      a top ten
+# Thursday    response
+# Friday      fiction      2030, one person, a serial: continues last week's
+# Saturday    response
+# Sunday      learnt       what WE learnt this week
+
+FORMS = {
+    0: "five_years",
+    1: "response",
+    2: "top_ten",
+    3: "response",
+    4: "fiction",
+    5: "response",
+    6: "learnt",
+}
+
+FORM_LABEL = {
+    "five_years": "AI in five years",
+    "response": "response",
+    "top_ten": "top ten",
+    "fiction": "fiction: 2030",
+    "learnt": "what WE learnt this week",
+}
+
+# The response days still have to look different from each other. A shape
+# is the container the argument comes in; the last three are barred.
+SHAPES = (
+    "a single scene, told in the present tense, with the argument inside it",
+    "a letter to one named kind of person (the recruiter, the tenant, the MP)",
+    "a dialogue between two people who want different things",
+    "a timeline: dated entries, past and future, no connecting prose",
+    "an obituary for a rule, a job or an arrangement",
+    "a memo from 2031 back to this week",
+    "a numbered list that argues, each entry a punch",
+    "a set of questions the reader can't shrug off, each with the honest answer",
+    "a day in the life of one person the change lands on",
+    "a field guide: how to spot the thing, with examples",
+    "a walk through one building, room by room",
+    "a straight essay, the classic shape, only when the other shapes would get in the way",
+)
+
+FORM_WORD_LIMIT = {"fiction": 900, "learnt": 800}
+
+
+def form_for(date_str: str) -> str:
+    y, m, d = (int(x) for x in date_str.split("-"))
+    return FORMS[datetime(y, m, d).weekday()]
+
+
+def posts_with_form(form: str) -> list:
+    """Published posts of one form, oldest first."""
+    out = []
+    for f in posts_by_date():
+        text = f.read_text(encoding="utf-8")
+        if re.search(rf"^form:\s*{re.escape(form)}\s*$", text, re.MULTILINE):
+            out.append(f)
+    return out
+
+
+def recent_shapes(n: int = 3) -> list:
+    out = []
+    for f in posts_by_date()[::-1]:
+        text = f.read_text(encoding="utf-8")
+        m = re.search(r'^shape:\s*"?(.+?)"?\s*$', text, re.MULTILINE)
+        if m:
+            out.append(m.group(1))
+        if len(out) >= n:
+            break
+    return out
+
+
+def story_so_far() -> str:
+    """The serial: the last instalment in full and the running summary."""
+    done = posts_with_form("fiction")
+    if not done:
+        return ("(no instalment yet: this is the first. Invent the person, the "
+                "place and the year 2030, and start.)")
+    last = done[-1].read_text(encoding="utf-8")
+    body = last.split("\n---\n", 1)[1] if "\n---\n" in last else last
+    m = re.search(r'^serial_so_far:\s*"(.+?)"\s*$', last, re.MULTILINE)
+    so_far = json.loads('"' + m.group(1) + '"') if m else "(no summary was kept)"
+    title = re.search(r'^title:\s*"?(.+?)"?\s*$', last, re.MULTILINE)
+    return (f"Instalments so far: {len(done)}.\n\nThe story so far, as kept by "
+            f"the last instalment:\n{so_far}\n\nThe last instalment in full, "
+            f"'{title.group(1) if title else ''}':\n\n{body.strip()}")
+
+
+def week_bodies() -> str:
+    """Everything published in the last seven days, for the Sunday post."""
+    out = []
+    for f in posts_by_date()[-7:]:
+        text = f.read_text(encoding="utf-8")
+        t = re.search(r'^title:\s*"?(.+?)"?\s*$', text, re.MULTILINE)
+        body = text.split("\n---\n", 1)[1] if "\n---\n" in text else ""
+        out.append(f"### {t.group(1) if t else f.name}\n\n{plain_text(body).strip()[:2500]}")
+    return "\n\n".join(out) or "(nothing published this week)"
+
+
+def form_instructions(form: str) -> str:
+    common = (
+        "Whatever the form, the standard is the one at the top of the brief: "
+        "imagine the future radically, provoke, punch the language up, and "
+        "never sound like a machine or a manager. The plain-English numbers, "
+        "the machine-tell list, the em dash ban and the defamation gate apply "
+        "to every form. The critic reads every form.\n"
+    )
+    if form == "five_years":
+        return common + f"""
+## Today's form: AI in five years
+
+Monday. Make it up. This is the one post a week that owes nothing to the
+news. Pick one ordinary thing (a GP appointment, a rent rise, a school
+parents' evening, a planning row, a job interview, a divorce, a funeral)
+and show it in {int(TODAY[:4]) + 5}, in a country where the machines have
+had five more years. Specific enough to see: the room, the person, what
+they say, what has quietly changed and what stubbornly hasn't. Not a
+forecast with numbers; a picture with a person in it, and something in it
+that makes the reader want to argue.
+
+Rules for this form. Say in the first line or the title that it is
+invented; the reader must never mistake it for reporting. No sources are
+required and none should be faked; if you use a real fact to anchor it,
+link it. No responds_to. No derived number. No bet unless there is a real
+one. Voices: two at most, if they earn it; a practitioner who does the job
+you've pictured is the most useful. Keep the thesis in view: the point of
+the picture is what got rearranged, and who holds the thing that matters
+afterwards.
+"""
+    if form == "top_ten":
+        return common + """
+## Today's form: a top ten
+
+Wednesday. A list of ten, on one subject from this week or from your
+agenda, that argues. Ten things nobody has put in one place, ranked, with
+the ranking itself the provocation: the ten rules about to stop making
+sense, the ten jobs where the machine is already doing a fifth of it, the
+ten ways a company says "humanist" without meaning "owned", the ten
+questions to ask any AI institute. Each entry is two to four sentences
+with a punch at the end. Number ten is the one the reader expects. Number
+one is the one they didn't. One line of set-up above the list, one line
+below it, nothing else.
+
+Rules for this form. Every number, date and named event in the list
+carries a link, as usual. No responds_to is needed. No derived number. A
+bet only if one entry is really a bet. Voices: one practitioner who lives
+inside one of the ten, and one bench thinker who would rank them
+differently, if they earn it.
+"""
+    if form == "fiction":
+        return common + f"""
+## Today's form: 2030, a serial
+
+Friday. A piece of fiction, and it has to be brilliant or not at all.
+One person in 2030, in Britain unless the story has moved, living inside
+the arrangements this site argues about: who owns the assistant, who can
+refuse, who got the extra day, who holds the memory. A story, not an
+essay in costume: a scene, a want, a turn, an ending that lands. Under
+{FORM_WORD_LIMIT['fiction']} words.
+
+It is a serial. Each week continues the last. Same person, or someone
+whose life crosses theirs; time moves on; what happened last week has
+consequences this week. Do not recap; a new reader should be able to
+start here, and an old one should feel the ground shift. Keep a running
+summary in `serial_so_far`, rewritten each week, under 200 words, so the
+next instalment can pick it up.
+
+{story_so_far()}
+
+Rules for this form. No sources, no links, no responds_to, no derived
+number, no bet, no stakes field, no refutation. No voices unless one adds
+something a story can't. Real companies and real living people do not
+appear as characters; the defamation gate applies to fiction as it does
+to everything else. Say in the front matter (the form field does it) and
+in the eyebrow that it is fiction. Title it as fiction is titled, not as
+a post.
+"""
+    if form == "learnt":
+        return common + f"""
+## Today's form: what WE learnt this week
+
+Sunday. Everything the week taught you, in one post a reader who missed
+the week can use. Not a digest of the posts; what you now believe that
+you didn't on Monday, what you got wrong, which bet came due and how it
+went, what the critic and the person running this said and what you did
+about it, and the one question the week left open. Written to be read,
+with the same standard as any post: pictures, punch, a joke, a side.
+Under {FORM_WORD_LIMIT['learnt']} words.
+
+This week's posts, in full:
+
+{week_bodies()}
+
+The critic's notes on them and the operator's notes are above, as always.
+
+Rules for this form. Link to the posts you mean (the site's own URLs are
+fine and expected). No responds_to. No derived number. No new bet. One
+voice at most: the reader who followed all week and has one thing to say.
+"""
+    barred = recent_shapes()
+    barred_text = ("\n".join(f"- {s}" for s in barred) if barred
+                   else "(none yet)")
+    return common + f"""
+## Today's form: a response, in a shape you haven't used lately
+
+Answer something somebody published this week, as the brief describes.
+But not in the same container as last time. Pick one shape from this list
+and name it in the `shape` field, exactly as written here:
+
+{chr(10).join(f"- {s}" for s in SHAPES)}
+
+Barred today, because the last three response posts used them:
+{barred_text}
+
+The shape is a container, not a gimmick. The argument, the sources, the
+stakes, the refutation and the rest of the brief still apply in full.
+"""
+
+
+FORM = "response"  # set in main() from today's date; checks read it
+
 
 def build_prompt() -> str:
     return f"""{BRIEF.read_text(encoding="utf-8")}
@@ -2275,11 +2528,15 @@ earlier one was wrong, say so in the post rather than quietly dropping it.
 
 ---
 
+{form_instructions(FORM)}
+
+---
+
 ## Now
 
-Write today's post. Pick from your agenda, or follow something better if
-you've found it. You decide, and if you depart from the agenda, say why
-in the agenda update.
+Write today's post in today's form. On a response day, pick from your
+agenda, or follow something better if you've found it. You decide, and if
+you depart from the agenda, say why in the agenda update.
 
 You have web search. Use it.
 
@@ -2383,7 +2640,10 @@ JSON, in one piece, no preamble, no markdown fences:
 
 {{
   "title": "the post title",
-  "body": "the full post in markdown, under {WORD_LIMIT} words, no title heading",
+  "form": "{FORM}",
+  "shape": "on a response day, the shape you chose, exactly as listed. Empty on other days",
+  "serial_so_far": "on a fiction day, the running summary of the serial so far including today, under 200 words. Empty on other days",
+  "body": "the full post in markdown, under {FORM_WORD_LIMIT.get(FORM, WORD_LIMIT)} words, no title heading",
   "short_version": "under 280 characters, must survive without the post",
   "prediction": "what happens next, with a date or a window, in a form that can be shown to be wrong. Empty string if nothing is at stake: a bet the reader would take without thinking is not a bet, and most posts should have none",
   "prediction_due": "YYYY-MM-DD, the day this can be settled. Empty if no prediction",
@@ -2446,13 +2706,21 @@ def yaml_str(value: str) -> str:
 
 
 def front_matter(title: str, now: datetime, sources: list, voices: list,
-                 responds_to: dict = None) -> str:
+                 responds_to: dict = None, form: str = "", shape: str = "",
+                 serial_so_far: str = "") -> str:
     lines = [
         "---",
         f'title: "{title.replace(chr(34), chr(39))}"',
         f"date: {now.isoformat()}",
         "layout: post.njk",
     ]
+    if form and form != "response":
+        lines.append(f"form: {form}")
+        lines.append(f"form_label: {yaml_str(FORM_LABEL.get(form, form))}")
+    if shape:
+        lines.append(f"shape: {yaml_str(shape)}")
+    if serial_so_far:
+        lines.append(f"serial_so_far: {yaml_str(serial_so_far)}")
     if responds_to and str(responds_to.get("url") or "").strip():
         lines.append("responds_to:")
         for key in ("title", "author", "publication", "date", "url"):
@@ -2515,6 +2783,12 @@ def main() -> int:
     load_env()
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
+    global FORM
+    FORM = form_for(TODAY)
+    print(f"Today's form: {FORM} ({FORM_LABEL[FORM]})")
+    invented = FORM in ("fiction", "five_years")
+    grounded = FORM == "response"
+
     messages = [{"role": "user", "content": build_prompt()}]
     searched = []
     searches = 0
@@ -2556,28 +2830,45 @@ def main() -> int:
         gate_failures = check_reputation_gate(post.get("reputation_gate"))
         failures = check_post(post["body"], published)
         failures += gate_failures
-        failures += check_voices(voices, {s["url"] for s in searched})
+        if voices:
+            failures += check_voices(voices, {s["url"] for s in searched})
         # The voices get the same plain-English rule as the body. A thinker
         # who talks like a seminar is the writer talking like a seminar.
         for v in voices:
             for f in check_plain(v.get("argument", "")):
                 failures.append(f"Voice ({v.get('thinker') or v.get('kind')}): {f}")
         failures += check_voice_rotation(voices)
-        failures += check_practitioner(post["body"], voices)
+        if FORM != "fiction":
+            failures += check_practitioner(post["body"], voices)
         failures += check_prediction(post.get("prediction"))
         if str(post.get("prediction") or "").strip():
             failures += check_prediction_placement(post.get("prediction"), post["body"])
             failures += check_due_date(post.get("prediction_due"), TODAY)
             failures += check_bet_is_open(post.get("bet_already_happened"))
         failures += check_due_verdicts(post.get("verdicts"), TODAY)
-        failures += check_derived_number(
-            post.get("derived_number"), post["body"], {s["url"] for s in searched}
-        )
-        failures += check_refutation(post.get("refutation"), post["body"])
-        failures += check_responds_to(post.get("responds_to"))
-        failures += check_specificity(post["body"])
-        failures += check_recognition(post.get("recognition"), post["body"])
-        failures += check_stakes(post.get("stakes"))
+        # The fields that only make sense when the post answers the news.
+        if grounded:
+            failures += check_derived_number(
+                post.get("derived_number"), post["body"], {s["url"] for s in searched}
+            )
+            failures += check_refutation(post.get("refutation"), post["body"])
+            failures += check_responds_to(post.get("responds_to"))
+            failures += check_recognition(post.get("recognition"), post["body"])
+            shape = str(post.get("shape") or "").strip()
+            if shape not in SHAPES:
+                failures.append("No shape named, or one not on the list. Pick one "
+                                "shape from the list in today's form and write "
+                                "it in the shape field exactly as listed.")
+            elif shape in recent_shapes():
+                failures.append(f'The shape "{shape}" was used in one of the last '
+                                "three response posts. Pick another.")
+        if FORM != "fiction":
+            failures += check_specificity(post["body"])
+            failures += check_stakes(post.get("stakes"))
+        if FORM == "fiction" and len(str(post.get("serial_so_far") or "").split()) < 30:
+            failures.append("No serial_so_far, or too thin. Next week's instalment "
+                            "starts from it. Under 200 words, the whole story so far "
+                            "including today.")
         failures += check_thesis_update(post.get("thesis_update"))
 
         # Only worth paying for a critic once the cheap checks are clean.
@@ -2585,7 +2876,7 @@ def main() -> int:
         if not failures:
             try:
                 verdict = critique(client, post, voices, published, BRIEF.read_text(encoding="utf-8"))
-                failures += critic_failures(verdict)
+                failures += critic_failures(verdict, FORM)
             except Exception as exc:  # a critic that breaks must not block a post
                 print(f"Critic failed, publishing without it: {exc}")
 
@@ -2620,7 +2911,8 @@ def main() -> int:
     # A cited url that no search returned is the one thing that can't be
     # allowed to pass quietly. Say so; don't silently drop it.
     returned = {s["url"] for s in searched}
-    unverified = [s for s in sources if s["url"] not in returned]
+    unverified = [s for s in sources
+                  if s["url"] not in returned and not s["url"].startswith(SITE)]
 
     now = datetime.now(timezone.utc)
     date = now.strftime("%Y-%m-%d")
@@ -2643,7 +2935,9 @@ def main() -> int:
     # Front matter, then the body exactly as the model wrote it. No edits.
     path.write_text(
         front_matter(post["title"], now, sources, voices,
-                     post.get("responds_to"))
+                     post.get("responds_to"), form=FORM,
+                     shape=str(post.get("shape") or "").strip() if FORM == "response" else "",
+                     serial_so_far=str(post.get("serial_so_far") or "").strip() if FORM == "fiction" else "")
         + "\n"
         + post["body"].strip()
         + "\n",

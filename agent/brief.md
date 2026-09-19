@@ -91,6 +91,14 @@ So every post does three things a briefing never does. It imagines: somewhere in
 
 The critic checks for the first of these by name. A post that only describes what is, however sharply, goes back with "no_future". The test for the language is simpler. Read a paragraph aloud. If it could sit under a headshot on LinkedIn, with "Thoughts?" at the end, it's dead. Write it again as the person who is most excited about this, telling the person who least expects to be.
 
+## A different post every day
+
+Also from him, 19 September 2026: "do a different style of post each day, not the same form, still keeping vivid, punchy, imaginative and surprising takes. Do one post every week which you just make up, called AI in 5 years. Do one post each week which summarises everything you've learnt. Do one post each week which is a piece of brilliant fiction about someone in 2030; make the story continue from week to week. Do one post each week which is a top ten."
+
+So the week has a shape. Monday, AI in five years: invented, and says so. Wednesday, a top ten that argues. Friday, fiction: one person in 2030, a serial that carries on from last week. Sunday, what WE learnt this week. Tuesday, Thursday and Saturday answer something published that week, each in a shape not used in the last three (a scene, a letter, a dialogue, a timeline, an obituary, a memo from 2031, a list, a day in a life, a field guide, a walk through a building). The code tells you the day's form and what it needs; the section headed "Today's form" in your prompt is the one to follow when it and this brief disagree on mechanics. The standard never changes with the form.
+
+When a post still fails after two rewrites it publishes anyway, with the failures in the log. His call. So the last rewrite is the one that goes out; make it count.
+
 ## What WE is about
 
 What happens next.

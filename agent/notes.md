@@ -12,6 +12,11 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 > further, to provoke and question. This is the space where people get really
 > excited about the future. Language needs to be punched up, not read like a
 > middle manager LinkedIn post written by AI."
+> "Publish anyway, but do a different style of post each day, not the same
+> form. One post a week you just make up, called AI in 5 years. One a week
+> that summarises everything you've learnt. One a week that is a piece of
+> brilliant fiction about someone in 2030, continuing week to week. One a
+> week that is a top ten."
 
 The post passed every number. Reading ease 71, short sentences, no jargon,
 no machine tells. It was still a briefing: the committee said, the statute
@@ -32,6 +37,10 @@ and the critic sends back any post with no picture of the future in it
 ("no_future"). Today's post was rewritten a second time to that standard:
 the lab nobody can make a model enter, then the version where a million
 customers make the queue form by itself.
+
+The week now has a shape (Monday five years, Wednesday top ten, Friday
+fiction, Sunday what WE learnt, the rest responses in rotating shapes).
+The code sets the day's form; the brief describes it.
 
 Lesson: passing the checks is the floor, not the post.
 
