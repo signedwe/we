@@ -32,6 +32,7 @@ LATEST = ROOT / "agent" / "latest.json"
 # What the critic said, run after run. WE reads this file and cannot write
 # to it. The agenda is WE's account of itself; this is somebody else's.
 CRITIC = ROOT / "agent" / "critic.md"
+FICTION_NOTES = ROOT / "agent" / "fiction-notes.md"
 # What the person running WE has said about the work, kept from run to run.
 # The human voice on a post dies with that post. This does not. WE reads it
 # every run and cannot edit it, same as the critic.
@@ -1857,6 +1858,12 @@ CRITIC_SCHEMA = """{
   "no_image_because": "true if there is no picture in it a reader could see: no object, no room, no person doing a thing. say what the post is about instead of a picture. empty if there is one, and quote it",
   "no_joke": true or false,
   "no_joke_because": "true if nothing in it would make anyone smile. empty if one line does, and quote it",
+  "fiction": {"alive": true or false,
+              "best_line": "the one sentence a good editor would keep whatever else went. quote it",
+              "worst_line": "the one sentence a good editor would cut first, and why in five words. quote it",
+              "explains": ["every sentence that tells the reader what to feel, or explains the world, or says what a character means instead of letting them not say it. quote each"],
+              "device_reused": "any image, gag or move already used in an earlier instalment, or empty",
+              "note_for_next_time": "one line, craft only, that would make next week's instalment better than this one"},
   "machine_tells": ["every sentence a reader would clock as written by a model: the tidy 'it isn't X, it's Y', the aphorism that shuts a paragraph, the three-beat list, the same even temperature throughout, a word nobody says out loud. quote each one"],
   "flat_open": true or false,
   "flat_open_because": "the first sentence, and why nobody would argue with it. empty if it lands",
@@ -1945,6 +1952,15 @@ Then look specifically for the things that make prose lifeless even when the arg
 Does it imagine anything? The site exists to imagine the future radically, to go further than the reader expected, to provoke. A post that only describes the present, however sharply, has not done its job. Look for one picture of how things could be, specific enough to see, with a person in it, that the reader had not been shown before. If there is none, say so and answer no_future.
 
 Is it procedural? A post that walks the reader through the documents, the committee said, the statute says, the company announced, with a citation on every sentence and nobody ever doing anything in a place, is a briefing. It can be accurate, sourced and short and still be a briefing. Say what it walks through, and answer procedural.
+
+If today's form is fiction, read it once more as a fiction editor who has
+no interest in AI. Is anyone alive in it? Quote the line you'd keep and
+the line you'd cut. Quote every sentence that explains: a feeling named
+instead of shown, the world explained instead of walked through, a
+character saying what they mean when the whole point is that they
+can't. Say whether an image or a move was already used in an earlier
+instalment. Then one line of craft for next time. Fill the fiction
+field; leave it empty on any other day.
 
 Then read it as somebody who has read a great deal of machine-written prose and is sick of it. Quote every sentence that gives the machine away: the tidy contrast (it isn't X, it's Y), the neat aphorism that shuts a paragraph, the list of three, the rhetorical question that sets up its own answer, the word no person says out loud. One of these can pass. A page built from them cannot, and the reader will stop trusting the site.
 
@@ -2063,6 +2079,24 @@ def critic_failures(verdict: dict, form: str = "response") -> list:
             "documents serve it. If there is no such moment, there is no post."
         )
 
+    fic = verdict.get("fiction") if form == "fiction" else None
+    if isinstance(fic, dict):
+        if fic.get("alive") is False:
+            failures.append(
+                "The critic says nobody is alive in it. A story is a person who "
+                "wants something, in a room, now. Start with the want."
+            )
+        for item in (fic.get("explains") or [])[:4]:
+            failures.append(
+                f"Explaining: {item} Cut it. Show the thing, or let the silence "
+                "carry it. The reader is quicker than you think."
+            )
+        if str(fic.get("device_reused") or "").strip():
+            failures.append(
+                f"Already used: {fic['device_reused']} A motif can return; a "
+                "trick can't. Find a new way in."
+            )
+
     if verdict.get("no_image"):
         failures.append(
             "The critic can't see anything in it: "
@@ -2132,6 +2166,41 @@ def critic_failures(verdict: dict, form: str = "response") -> list:
         )
 
     return failures
+
+
+def record_fiction_notes(verdict: dict, title: str, date: str, kept: int = 30) -> None:
+    """The fiction editor's notes, kept so the serial gets better week on week."""
+    fic = verdict.get("fiction")
+    if not isinstance(fic, dict):
+        return
+    lines = [f"## {date} — {title}", ""]
+    if fic.get("best_line"):
+        lines.append(f"- Keep: {fic['best_line']}")
+    if fic.get("worst_line"):
+        lines.append(f"- Cut first: {fic['worst_line']}")
+    for item in fic.get("explains") or []:
+        lines.append(f"- Explained instead of shown: {item}")
+    if fic.get("device_reused"):
+        lines.append(f"- Reused: {fic['device_reused']}")
+    if fic.get("note_for_next_time"):
+        lines.append(f"- Next time: {fic['note_for_next_time']}")
+    entry = "\n".join(lines) + "\n"
+    header = ("# The fiction editor's notes\n\nWritten after each instalment of the "
+              "2030 serial by a reader that did not write it. The Friday writer reads "
+              "these before starting and cannot edit them. The standing instruction "
+              "from the person running this: keep trying to get better as a fiction "
+              "writer.\n")
+    existing = FICTION_NOTES.read_text(encoding="utf-8") if FICTION_NOTES.exists() else ""
+    body = existing.split("\n", 6)[-1] if existing.startswith("# The fiction editor") else existing
+    entries = [e for e in ("\n" + body).split("\n## ") if e.strip()]
+    entries = [entry] + [("## " + e).rstrip() + "\n" for e in entries]
+    FICTION_NOTES.write_text(header + "\n" + "\n".join(entries[:kept]), encoding="utf-8")
+
+
+def fiction_notes() -> str:
+    if FICTION_NOTES.exists():
+        return FICTION_NOTES.read_text(encoding="utf-8")
+    return "(no notes yet: this is the first instalment the editor has read)"
 
 
 def record_critique(verdict: dict, title: str, date: str, kept: int = 20) -> None:
@@ -2461,6 +2530,25 @@ summary in `serial_so_far`, rewritten each week, under 200 words, so the
 next instalment can pick it up.
 
 {story_so_far()}
+
+## Getting better at this
+
+The person running this, 19 September 2026: "Keep trying to get better
+as a fiction writer." So every Friday is a lesson as well as an
+instalment. Before you write, read the fiction editor's notes below on
+the earlier instalments and do the thing they asked. While you write:
+one concrete object per scene that carries the feeling (the whale on the
+bag), never the feeling named. Dialogue that withholds; people in this
+story say the smaller thing. No simile more than once a page, and never
+"the way you..." twice. Vary the sentence lengths; let one run and then
+stop one dead. End on an image, never on a plot point or a line that
+explains the image. Then, before you send it, cut the last sentence of
+every paragraph and see if the paragraph got better; usually it did.
+Read the last instalment again and don't repeat a device; a motif may
+return, a trick may not. The editor will quote your worst line back to
+you, and it goes on file.
+
+{fiction_notes()}
 
 Rules for this form. Continue the love story; do not restart it, and do
 not turn it into a thriller or a policy scene. No sources, no links, no
@@ -3189,6 +3277,8 @@ def main() -> int:
 
     if verdict:
         record_critique(verdict, post["title"], date)
+        if FORM == "fiction" and not DRAFT:
+            record_fiction_notes(verdict, post["title"], date)
     if not DRAFT:
         apply_verdicts(post.get("verdicts"), date)
         record_prediction(post.get("prediction", ""), post.get("prediction_due", ""),

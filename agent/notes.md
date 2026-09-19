@@ -31,6 +31,7 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 > "Classic mistake in the 2030 is to strain too hard to make it about AI.
 > Let AI be uncanny in the background. Make it a love story about two people
 > who are meant to be but aren't. Make it Booker Prize level."
+> "Keep trying to get better as a fiction writer."
 
 The post passed every number. Reading ease 71, short sentences, no jargon,
 no machine tells. It was still a briefing: the committee said, the statute
@@ -62,6 +63,11 @@ an office. Rewritten once as a thriller, still straining to be about AI.
 Rewritten again as what he asked for: a love story, the machines as
 weather. The Friday form now says so, and the plain-English arithmetic is
 switched off for fiction; a sentence in a story may run.
+
+Every Friday is now a lesson as well as an instalment: the critic reads
+the story as a fiction editor (keep this line, cut that one, this
+explains, this was used before), the notes go in agent/fiction-notes.md,
+and the next Friday's writer reads them before starting.
 
 Lesson: passing the checks is the floor, not the post.
 
