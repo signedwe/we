@@ -23,6 +23,8 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 > make it about me or use my life."
 > "Add the obituary." (Saturday: a death notice for a rule, a job or an
 > arrangement that stopped making sense this week.)
+> "But also do the try this. Put a disclaimer on the try this that we are
+> not saying it will work, and add not responsible."
 
 The post passed every number. Reading ease 71, short sentences, no jargon,
 no machine tells. It was still a briefing: the committee said, the statute
@@ -46,7 +48,7 @@ customers make the queue form by itself.
 
 The week now has a shape (Monday five years, Tuesday news response,
 Wednesday top ten, Thursday the long technical piece, Friday fiction,
-Saturday an obituary, Sunday what WE learnt).
+Saturday try this and then an obituary, two posts, Sunday what WE learnt).
 The code sets the day's form; the brief describes it.
 
 Lesson: passing the checks is the floor, not the post.

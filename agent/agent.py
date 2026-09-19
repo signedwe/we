@@ -1916,7 +1916,11 @@ mechanism rearranges rather than stopping at how it works. A Saturday
 piece is an obituary for a rule or an arrangement: judge whether it
 keeps the form (born, life, decline, survivors, arrangements), whether
 the cause of death is real and this week's, whether it is funny, and
-whether anything living has been buried by mistake.
+whether anything living has been buried by mistake. A Saturday "try
+this" piece is judged on whether a reader could actually follow it on a
+phone this weekend, whether every step is linked, whether it says
+plainly where it goes wrong, and whether it claims to have done anything
+it only read about.
 
 Here is today's draft.
 
@@ -2229,10 +2233,14 @@ TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 # Wednesday   top_ten      a top ten
 # Thursday    technical    a longer, well-sourced piece on one technical part of AI
 # Friday      fiction      2030, one person, a serial: continues last week's
-# Saturday    obituary     a death notice for a rule, a job or an arrangement
+# Saturday    try_this     one thing you can do with AI this weekend (with a disclaimer)
+#             obituary     a death notice for a rule, a job or an arrangement
 # Sunday      learnt       what WE learnt this week
 #
-# Saturday, 19 September again: "Add the obituary."
+# 19 September again: "Add the obituary." Then: "But also do the try this."
+# Two posts on Saturday, one per cron firing: the first firing writes the
+# first form on the list that hasn't been published today, the next firing
+# writes the next.
 
 FORMS = {
     0: "five_years",
@@ -2240,7 +2248,7 @@ FORMS = {
     2: "top_ten",
     3: "technical",
     4: "fiction",
-    5: "obituary",
+    5: ["try_this", "obituary"],
     6: "learnt",
 }
 
@@ -2252,7 +2260,20 @@ FORM_LABEL = {
     "learnt": "what WE learnt this week",
     "technical": "how it works",
     "obituary": "obituary",
+    "try_this": "try this",
 }
+
+TRY_THIS_DISCLAIMER = (
+    "Try this is WE describing something you could do with an AI tool, "
+    "from what the tools' own documentation and other people's accounts "
+    "say. WE reads; it cannot click. Nothing here is a promise that it "
+    "will work for you: tools change, terms change, prices change, and "
+    "the machine gets things wrong. Check anything that matters with a "
+    "person qualified to check it, and never rely on this for a legal, "
+    "financial, medical or safety decision. Neither WE nor the person who "
+    "runs this site accepts any responsibility for what you do with it or "
+    "for what happens when you do."
+)
 
 # The response days still have to look different from each other. A shape
 # is the container the argument comes in; the last three are barred.
@@ -2274,9 +2295,36 @@ FORM_WORD_LIMIT = {"fiction": 900, "learnt": 800, "technical": 1500}
 TECHNICAL_MIN_SOURCES = 6
 
 
-def form_for(date_str: str) -> str:
+def forms_for(date_str: str) -> list:
+    """Every form due on a date, in the order the day's firings write them."""
     y, m, d = (int(x) for x in date_str.split("-"))
-    return FORMS[datetime(y, m, d).weekday()]
+    f = FORMS[datetime(y, m, d).weekday()]
+    return list(f) if isinstance(f, list) else [f]
+
+
+def form_for(date_str: str) -> str:
+    return forms_for(date_str)[0]
+
+
+def forms_published(date_str: str) -> list:
+    """The forms already on disk for a date. A post with no form key is a response."""
+    out = []
+    for f in sorted(POSTS.glob(f"{date_str}-*.md")):
+        text = f.read_text(encoding="utf-8")
+        m = re.search(r"^form:\s*(\S+)\s*$", text, re.MULTILINE)
+        out.append(m.group(1) if m else "response")
+    return out
+
+
+def next_form(date_str: str):
+    """The first form due today that hasn't been written, or None."""
+    done = forms_published(date_str)
+    for f in forms_for(date_str):
+        if f in done:
+            done.remove(f)
+        else:
+            return f
+    return None
 
 
 def posts_with_form(form: str) -> list:
@@ -2438,6 +2486,39 @@ lives: what this piece of machinery rearranges, who ends up holding the
 thing that matters, and what the reader can do about it now they
 understand it. No responds_to is needed. A bet only if there's a real
 one.
+"""
+    if form == "try_this":
+        return common + f"""
+## Today's form: try this
+
+Saturday, first post. One thing a reader can do with an AI tool this
+weekend that most people don't know is possible, and that used to need
+a professional, an office or a queue: appeal the parking fine, find the
+clause in your own lease, export your whole history from one assistant
+and load it into another, turn a council's planning PDF into a one-page
+objection, get a second reading of the letter from the bank, check what
+your landlord's agent is allowed to charge. The site's argument is that
+these were only ever expensive, not hard. Show one.
+
+Exact steps, in order, each one linked to the tool's own documentation
+or to an account from somebody who did it. What it costs. How long it
+takes. Where it goes wrong, plainly, because that is the part nobody
+else prints. Who it quietly takes the job from. Under an hour, on a
+phone, is the target.
+
+Be honest about what WE is. WE reads; it cannot click. So the post says
+what the documentation and other people's accounts say the steps are,
+and says in so many words that WE has read this, not done it. Never
+claim a result you didn't see. The page carries this disclaimer,
+automatically, and the post must not contradict it:
+
+"{TRY_THIS_DISCLAIMER}"
+
+Rules for this form. Sources as usual: every step, price and claim
+linked. A practitioner whose job this touches gets the last word. No
+responds_to. No derived number. No bet. Nothing that is a legal,
+financial, medical or safety decision in disguise; if the thing you
+picked is one, pick another.
 """
     if form == "obituary":
         return common + """
@@ -2847,19 +2928,20 @@ def main() -> int:
     # the others. Whichever firing arrives first writes the post; the rest
     # find it already on disk and stand down. A held=true output is how the
     # announce job is told there is nothing to announce.
-    if list(POSTS.glob(f"{TODAY}-*.md")):
-        print(f"A post dated {TODAY} already exists. Standing down.")
+    global FORM
+    due = next_form(TODAY)
+    if due is None:
+        print(f"Everything due on {TODAY} already exists. Standing down.")
         set_output(held=True)
         return 0
+    FORM = due
+    print(f"Today's form: {FORM} ({FORM_LABEL[FORM]})")
 
     load_env()
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
-    global FORM
-    FORM = form_for(TODAY)
-    print(f"Today's form: {FORM} ({FORM_LABEL[FORM]})")
     invented = FORM in ("fiction", "five_years")
-    grounded = FORM in ("response", "technical", "obituary")
+    grounded = FORM in ("response", "technical", "obituary", "try_this")
 
     messages = [{"role": "user", "content": build_prompt()}]
     searched = []
@@ -2920,12 +3002,13 @@ def main() -> int:
         failures += check_due_verdicts(post.get("verdicts"), TODAY)
         # The fields that only make sense when the post answers the news.
         if grounded:
-            if FORM != "obituary":
+            if FORM not in ("obituary", "try_this"):
                 failures += check_derived_number(
                     post.get("derived_number"), post["body"], {s["url"] for s in searched}
                 )
-            failures += check_refutation(post.get("refutation"), post["body"])
-            failures += check_recognition(post.get("recognition"), post["body"])
+            if FORM != "try_this":
+                failures += check_refutation(post.get("refutation"), post["body"])
+                failures += check_recognition(post.get("recognition"), post["body"])
         if FORM == "response":
             failures += check_responds_to(post.get("responds_to"))
             shape = str(post.get("shape") or "").strip()
