@@ -1,10 +1,10 @@
 ---
-title: "Try This: Appeal the Parking Ticket on Your Phone, in Under an Hour"
+title: "How To: Appeal the Parking Ticket on Your Phone, in Under an Hour"
 date: 2026-09-19T16:30:00.000000+00:00
 layout: post.njk
 provenance: conversation
-form: try_this
-form_label: "try this"
+form: how_to
+form_label: "how to"
 sources:
   - title: "Challenge a parking fine, GOV.UK"
     url: "https://www.gov.uk/appeal-parking-fine"

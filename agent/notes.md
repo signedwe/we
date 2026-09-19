@@ -25,6 +25,7 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 > arrangement that stopped making sense this week.)
 > "But also do the try this. Put a disclaimer on the try this that we are
 > not saying it will work, and add not responsible."
+> "Change try this to how to."
 > "The story is terrible. Boring. Make it better."
 > "Don't make up full names that could inadvertently be real. Just give
 > people initials. Hard rule."
@@ -55,7 +56,7 @@ customers make the queue form by itself.
 
 The week now has a shape (Monday five years, Tuesday news response,
 Wednesday top ten, Thursday the long technical piece, Friday fiction,
-Saturday try this and then an obituary, two posts, Sunday what WE learnt).
+Saturday how to and then an obituary, two posts, Sunday what WE learnt).
 The code sets the day's form; the brief describes it.
 
 The first fiction instalment passed every check and was a policy scene in

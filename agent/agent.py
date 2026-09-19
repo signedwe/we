@@ -1923,8 +1923,8 @@ mechanism rearranges rather than stopping at how it works. A Saturday
 piece is an obituary for a rule or an arrangement: judge whether it
 keeps the form (born, life, decline, survivors, arrangements), whether
 the cause of death is real and this week's, whether it is funny, and
-whether anything living has been buried by mistake. A Saturday "try
-this" piece is judged on whether a reader could actually follow it on a
+whether anything living has been buried by mistake. A Saturday "how
+to" piece is judged on whether a reader could actually follow it on a
 phone this weekend, whether every step is linked, whether it says
 plainly where it goes wrong, and whether it claims to have done anything
 it only read about.
@@ -2302,11 +2302,11 @@ TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 # Wednesday   top_ten      a top ten
 # Thursday    technical    a longer, well-sourced piece on one technical part of AI
 # Friday      fiction      2030, one person, a serial: continues last week's
-# Saturday    try_this     one thing you can do with AI this weekend (with a disclaimer)
+# Saturday    how_to       one thing you can do with AI this weekend (with a disclaimer)
 #             obituary     a death notice for a rule, a job or an arrangement
 # Sunday      learnt       what WE learnt this week
 #
-# 19 September again: "Add the obituary." Then: "But also do the try this."
+# 19 September again: "Add the obituary." Then: "But also do the try this" (renamed how to).
 # Two posts on Saturday, one per cron firing: the first firing writes the
 # first form on the list that hasn't been published today, the next firing
 # writes the next.
@@ -2317,7 +2317,7 @@ FORMS = {
     2: "top_ten",
     3: "technical",
     4: "fiction",
-    5: ["try_this", "obituary"],
+    5: ["how_to", "obituary"],
     6: "learnt",
 }
 
@@ -2329,11 +2329,11 @@ FORM_LABEL = {
     "learnt": "what WE learnt this week",
     "technical": "how it works",
     "obituary": "obituary",
-    "try_this": "try this",
+    "how_to": "how to",
 }
 
-TRY_THIS_DISCLAIMER = (
-    "Try this is WE describing something you could do with an AI tool, "
+HOW_TO_DISCLAIMER = (
+    "How to is WE describing something you could do with an AI tool, "
     "from what the tools' own documentation and other people's accounts "
     "say. WE reads; it cannot click. Nothing here is a promise that it "
     "will work for you: tools change, terms change, prices change, and "
@@ -2595,9 +2595,9 @@ thing that matters, and what the reader can do about it now they
 understand it. No responds_to is needed. A bet only if there's a real
 one.
 """
-    if form == "try_this":
+    if form == "how_to":
         return common + f"""
-## Today's form: try this
+## Today's form: how to
 
 Saturday, first post. One thing a reader can do with an AI tool this
 weekend that most people don't know is possible, and that used to need
@@ -2620,7 +2620,7 @@ and says in so many words that WE has read this, not done it. Never
 claim a result you didn't see. The page carries this disclaimer,
 automatically, and the post must not contradict it:
 
-"{TRY_THIS_DISCLAIMER}"
+"{HOW_TO_DISCLAIMER}"
 
 Rules for this form. Sources as usual: every step, price and claim
 linked. A practitioner whose job this touches gets the last word. No
@@ -3085,7 +3085,7 @@ def main() -> int:
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
     invented = FORM in ("fiction", "five_years")
-    grounded = FORM in ("response", "technical", "obituary", "try_this")
+    grounded = FORM in ("response", "technical", "obituary", "how_to")
 
     messages = [{"role": "user", "content": build_prompt()}]
     searched = []
@@ -3146,11 +3146,11 @@ def main() -> int:
         failures += check_due_verdicts(post.get("verdicts"), TODAY)
         # The fields that only make sense when the post answers the news.
         if grounded:
-            if FORM not in ("obituary", "try_this"):
+            if FORM not in ("obituary", "how_to"):
                 failures += check_derived_number(
                     post.get("derived_number"), post["body"], {s["url"] for s in searched}
                 )
-            if FORM != "try_this":
+            if FORM != "how_to":
                 failures += check_refutation(post.get("refutation"), post["body"])
                 failures += check_recognition(post.get("recognition"), post["body"])
         if FORM == "response":
