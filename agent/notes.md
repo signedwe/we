@@ -26,6 +26,8 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 > "But also do the try this. Put a disclaimer on the try this that we are
 > not saying it will work, and add not responsible."
 > "The story is terrible. Boring. Make it better."
+> "Don't make up full names that could inadvertently be real. Just give
+> people initials. Hard rule."
 
 The post passed every number. Reading ease 71, short sentences, no jargon,
 no machine tells. It was still a briefing: the committee said, the statute

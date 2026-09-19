@@ -2398,7 +2398,10 @@ forecast with numbers; a picture with a person in it, and something in it
 that makes the reader want to argue.
 
 Rules for this form. Say in the first line or the title that it is
-invented; the reader must never mistake it for reporting. No sources are
+invented; the reader must never mistake it for reporting. Invented
+people get initials only (P., Mr O., her son A.), never a full name,
+because a made-up name can belong to somebody real; the code checks.
+Invented companies get a letter or a plain description, never a name. No sources are
 required and none should be faked; if you use a real fact to anchor it,
 link it. No responds_to. No derived number. No bet unless there is a real
 one. Voices: two at most, if they earn it; a practitioner who does the job
@@ -2462,7 +2465,10 @@ Rules for this form. No sources, no links, no responds_to, no derived
 number, no bet, no stakes field, no refutation. No voices unless one adds
 something a story can't. Real companies and real living people do not
 appear as characters; the defamation gate applies to fiction as it does
-to everything else. The person is invented from nothing: not the person
+to everything else. Invented people get initials only (N., Mr O., her
+father), never a full name, because a made-up name can belong to
+somebody real; the code checks. Invented companies get a letter (F.) or
+a plain description, never a name. The person is invented from nothing: not the person
 who runs this site, not anyone connected to them, and nothing drawn from
 their life, trade, family, home or circumstances. Nothing the notes or
 the About page say about the operator is material for the story. The
@@ -2598,6 +2604,42 @@ stakes, the refutation and the rest of the brief still apply in full.
 
 
 FORM = "response"  # set in main() from today's date; checks read it
+
+# Invented people get initials, never a full name. The person running this,
+# 19 September 2026: "don't make up full names that could inadvertently be
+# real. Just give people initials. Hard rule." Two capitalised words in a
+# row look like a name unless one of them is on this list.
+NOT_A_NAME = {
+    "mr", "mrs", "ms", "dr", "the", "and", "of", "a", "an", "in", "on", "at",
+    "council", "street", "road", "lane", "estate", "park", "hospital", "school",
+    "station", "house", "hall", "court", "tower", "square", "bridge", "north",
+    "south", "east", "west", "new", "old", "saint", "st", "great", "little",
+    "upper", "lower", "high", "low", "monday", "tuesday", "wednesday",
+    "thursday", "friday", "saturday", "sunday", "january", "february", "march",
+    "april", "may", "june", "july", "august", "september", "october",
+    "november", "december", "tribunal", "institute", "foundation", "union",
+    "office", "department", "committee", "bank", "group", "systems", "ltd",
+    "avenue", "gardens", "close", "way", "leather", "imperial", "year",
+    "christmas", "easter", "ai", "uk", "britain", "london", "england",
+}
+
+
+def check_invented_names(body: str) -> list:
+    """Fiction and Monday pieces: nobody invented gets a full name."""
+    hits = []
+    for a, b in re.findall(r"\b([A-Z][a-z]+) ([A-Z][a-z]+)\b", plain_text(body)):
+        if a.lower() in NOT_A_NAME or b.lower() in NOT_A_NAME:
+            continue
+        hits.append(f"{a} {b}")
+    hits = sorted(set(hits))
+    if not hits:
+        return []
+    return [
+        "Invented people get initials, never a full name, because a made-up "
+        "name can belong to somebody real: " + ", ".join(hits) + ". Write N., "
+        "or Mr O., or her father. If one of these is a place or a brand, "
+        "rephrase it so it doesn't read as a name."
+    ]
 
 
 def build_prompt() -> str:
@@ -3041,6 +3083,8 @@ def main() -> int:
         if FORM != "fiction":
             failures += check_specificity(post["body"])
             failures += check_stakes(post.get("stakes"))
+        if FORM in ("fiction", "five_years"):
+            failures += check_invented_names(post["body"])
         if FORM == "fiction" and len(str(post.get("serial_so_far") or "").split()) < 30:
             failures.append("No serial_so_far, or too thin. Next week's instalment "
                             "starts from it. Under 200 words, the whole story so far "
