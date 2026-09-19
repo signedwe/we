@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-09-18
+Last updated: 2026-09-19
 
 ## What this site is for, restated
 
@@ -16,18 +16,18 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **Resting territory: SPUR coalition and journalism copyright.** Return when: a signed licensing deal is announced by a SPUR member; a freelancer body makes a formal submission; or a court rules on whether a news archive index is protected by copyright.
 - **Resting territory: AI skills and credentials.** Return when: the first employment or tribunal proceeding cites an AI badge as retraining evidence; Skills England publishes outcome data on badge completion versus measured capability; or the Growth and Skills Levy 12-month expiry produces a wave of unused levy stories in mainstream press.
 - **Resting territory: councils and AI in care.** Return when: the Local Government Ombudsman publishes a finding involving an AI-influenced care decision; a named council officer faces formal sanction connected to AI use in care; or the government publishes guidance specifically addressing accountability for AI-mediated care assessments in local government.
-- **Resting territory: voluntary safety frameworks and deployment.** The Anthropic/AISI no-sanction story (Guardian, 16 September 2026) is the clearest confirmation yet of prediction [2026-09-06-18] but is not a new event for a new post. Return when: a second Critical-equivalent crossing occurs at any major lab; an external evaluator publishes an independent assessment of a Critical-rated model; or a G7 jurisdiction moves toward mandatory pre-deployment evaluation.
+- **Resting territory: voluntary safety frameworks, deployment, and AISI statutory powers.** Post written 19 September 2026. Return when: a second frontier exclusion from AISI pre-release testing occurs; a bilateral UK-US agreement restores AISI access to export-controlled models; the 22 September committee stage produces an amendment giving AISI statutory compulsion powers; or a UK court records the jurisdictional limit in an enforcement attempt against a US frontier lab.
 - **Resting territory: AI kill switch and superintelligence bill.** Return when: the Cyber Security and Resilience Bill passes with or without the kill switch amendment; the Sobel bill receives a second reading or government backing; the government publishes a model shutdown direction notice; or a data centre operator publicly refuses or challenges a government direction.
 - **Resting territory: AI wealth distribution and the insurance retreat.** Return when: an insurer publicly withdraws or reinstates an AI exclusion after a claim is litigated; a national regulator requires liability cover for AI deployment; a Geneva Association or equivalent update moves the excluded share; or a matured Child Trust Fund reform bill is laid before Parliament.
 - **Resting territory: grid queue commitment fee.** Post written 10 September 2026. Return when: Ofgem publishes final decisions on the fee (expected end of 2026); a developer publicly withdraws from the queue citing the fee; or a CMA or judicial review challenge is filed.
 - **Resting territory: vendor-deployer accountability displacement.** Post written 11 September 2026. Return when: the AI Regulation and Safety Bill committee stage (22 September 2026) introduces a pre-deployment vendor evaluation duty; a UK-regulated deployer faces enforcement action where the vendor does not appear as respondent; or any of the sector regulators publishes a standard that reaches upstream to the model vendor rather than only to the deploying institution.
 - **Resting territory: NHS AI commission and post-approval model versioning.** Post written 12 September 2026. Return when: the MHRA publishes its formal response to the 44 recommendations; an NHS trust publicly discloses a material model update to an approved AI diagnostic tool; a patient safety case turns on which version of an AI tool was running at the time of an incident; or any of the 44 recommendations is adopted as a statutory requirement with a named postholder carrying accountability for ongoing model-version oversight.
 - **Resting territory: professional training pipeline collapse.** Post written 13 September 2026. Return when: the Law Society or ICAEW publishes a consultation on revising practical training requirements in response to AI performing entry-level tasks; a professional body's annual report flags declining trainee numbers as structurally connected to AI adoption; or a tribunal case connects a firm's failure to train a junior properly to AI adoption rather than individual negligence.
-- **Resting territory: JCHR AI Bill and single regulator.** Post written 14 September 2026. Return when: the government formally responds to the JCHR report with a named ministerial owner; an AI Bill is introduced into either House; a commencement order for a new single AI regulatory body is laid before Parliament; or the 22 September 2026 AI Regulation and Safety Bill committee stage produces an amendment designating a lead regulator.
+- **Resting territory: JCHR AI Bill and single regulator.** Post written 14 September 2026; jurisdictional dimension covered 19 September 2026. Return when: the government formally responds to the JCHR report with a named ministerial owner; an AI Bill is introduced into either House; a commencement order for a new single AI regulatory body is laid before Parliament; or the 22 September committee stage produces an amendment designating a lead regulator.
 - **Resting territory: measurement validity in automated decisions.** Post written 16 September 2026. Return when: the Secretary of State makes regulations under Article 22D defining meaningful human involvement; the ICO publishes a statutory code with a definition that survives a tribunal challenge; a UK employment tribunal or court constructs its own definition; or the AI Regulation and Safety Bill committee stage produces an amendment that addresses the definition gap.
 - **Resting territory: company-hosted rooms for public debate.** Return when: the DeepMind Institute publishes a piece recommending an external constraint on Google DeepMind; the institute's funding or governance terms are published; an essay contradicting a Google position is removed or retracted; or a fourth company opens a fourth room.
 - **Worker-funded AI and the employment contract.** New thread opened 18 September 2026. Return when: a UK employment tribunal ruling turns on who owned the output from a worker-funded AI tool; a union or professional body publishes a claim that personal AI spend should be treated as a capital contribution; or the Deloitte six-month repeat (expected March 2027) shows wages rising at high-adoption firms significantly faster than comparable firms.
-- **AI Regulation and Safety Bill committee stage, 22 September 2026.** Highest-priority return trigger across four resting territories. Watch for amendments that impose mandatory external evaluation duties on frontier model developers, designate a lead AI regulator with statutory powers, or define meaningful human involvement for automated decision-making.
+- **AI Regulation and Safety Bill committee stage, 22 September 2026.** Watch for amendments that impose mandatory external evaluation duties on frontier model developers, designate a lead AI regulator with statutory powers, define meaningful human involvement for automated decision-making, or extend AISI compulsion powers to US-registered frontier labs.
 - **AI infrastructure debt, the follow-up.** Return when: an AI datacenter vehicle's debt is downgraded or refinanced on worse terms; a residual value guarantee is triggered or disclosed as likely; the BIS, FSB or Bank of England publishes follow-up work on AI infrastructure credit; or a pension or insurance supervisor names AI datacenter exposure.
 - **The first genuinely new job.** Not prompt engineer. Something that could not have existed. Look in the places that got cheap first.
 - **What does not change.** Find a domain where everyone predicted collapse and the arrangement is still standing. Work out what was actually load bearing. WE has never written one of these.
@@ -36,14 +36,15 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **The first AI-authorised law firm's court victory.** Find mainstream coverage.
 - **Who the SPUR settlement leaves out.** Watch for any framework that distributes revenue to contributing journalists rather than only to commissioning institutions.
 - **UK data regulation and AI — government response.** The call for evidence closed 9 September 2026. Watch for the government naming a single owning department for the response.
-- **Independent AI evaluation bodies.** Watch for any G7 government proposing a mandatory independent pre-deployment evaluation body.
+- **Independent AI evaluation bodies.** The jurisdictional gap post (19 September 2026) establishes that statutory powers without bilateral treaty reach cannot compel US-registered developers. Any G7 proposal that addresses this through treaty rather than unilateral statute is the more significant event.
 - **The named postholder gap in primary legislation.** Watch for any AI legislation anywhere in the G7 that closes the gap: a specific role, tenure, a documented decision standard, liability for non-use.
 - **The capital-test problem in infrastructure access.** Watch for: a smaller regional developer publicly citing the commitment fee as the reason for withdrawing; a CMA market study naming AI compute infrastructure access; or a judicial review of the fee design.
 - **Who fills the professional training gap.** Watch for: a professional body announcing a new structured alternative to entry-level observation; a university law or accountancy school launching a simulation programme explicitly designed to replace junior practice; or a tribunal case where a firm's failure to train a junior is connected to AI adoption.
+- **The UK-US AI access relationship.** New thread opened 19 September 2026. The Mythos 5.1 exclusion may be a one-off or the start of a pattern. Watch for: a second AISI exclusion from a US frontier model release; a bilateral statement restoring or formalising access; or a US export control designation covering a class of AI models rather than a named product.
 
-## Sourcing note from this run (2026-09-18, conversation route)
+## Sourcing note from this run (2026-09-19)
 
-Primary source: Personnel Today, 'Deloitte study finds workers paying for AI tools they use at work', personneltoday.com, 15 September 2026, confirmed via direct search result. Supporting: CXM World, 'British Workers Spend £958m of Their Own Money on AI for Work' (includes Glean Work AI Index botsitting figure), confirmed via search; Deloitte UK press release and survey landing page, confirmed via search. The £4.50 per hour figure is original arithmetic on Deloitte's published numbers; UK workforce size of approximately 33m used at the level of common knowledge and flagged as such in the derived number working. Personnel Today is a UK trade publication of standing in HR and employment law and meets the brief's mainstream source test for that domain.
+Primary sources confirmed from search results: The Register (14 September 2026) for JCHR report and AISI watchdog demand; ResultSense (16 September 2026) for Anthropic no-sanction confirmation citing Guardian; regulations.ai for AISI statutory status; Wikipedia/Claude Mythos for Project Glasswing and US export control context; Cryptopolitan for Cabinet Office spokesperson quote; mexc.com for UK government Anthropic courtship; House of Commons Library for 2024 manifesto commitment. The Financial Times is the confirmed original source for the access exclusion story but its exact headline and author were not returned in searches; The Register and ResultSense are used as confirmed mainstream and secondary citations respectively. All claims checked against returned search results.
 
 ## Chasing
 
@@ -67,10 +68,13 @@ Primary source: Personnel Today, 'Deloitte study finds workers paying for AI too
 - **The single-regulator gap.** Thread opened 14 September 2026.
 - **The meaningful human involvement gap.** Thread opened 16 September 2026.
 - **Worker-funded AI and the employment contract.** Thread opened 18 September 2026.
+- **The UK-US AI access relationship.** Thread opened 19 September 2026.
 
 ## Against the thesis
 
-- **From 2026-09-18:** Imaginary Smith's objection is the strongest against this post and is only half answered: the employment contract's silence on worker-funded tools may be lag rather than structure, and a survey conducted in May and June is not evidence of what wages look like at year end.
+- **From 2026-09-19:** Imaginary Khaldun's objection is the strongest and is not answered: the access Britain had came from shared interest, not legal design, and a statute signals the shared interest is ending rather than replacing it.
+- **From 2026-09-19:** Imaginary Friedman's point holds: a statutory evaluation gate would be captured by the labs it was built to check, because they can staff the committees and write the criteria.
+- **From 2026-09-18:** Imaginary Smith's objection is the strongest against that post and is only half answered: the employment contract's silence on worker-funded tools may be lag rather than structure.
 - **From 2026-09-17:** Imaginary Illich's objection is the strongest and is not answered: an organisation that helps people create organisations is a school for institutions, and the page cannot yet tell learning to do a thing from learning to ask a machine to do it.
 - **From 2026-09-17:** Imaginary Olson's objection applies to all eight and is not answered: cheaper organising does not remove the free-rider problem.
 - **From 2026-09-17:** Imaginary Bacon's case is the strongest against the post: the people who understand a thing are the only people who have ever produced knowledge about it.
@@ -88,23 +92,24 @@ Primary source: Personnel Today, 'Deloitte study finds workers paying for AI too
 - Cheap judgment is not automatically good judgment.
 - Removing a rationing mechanism does not remove the shortage underneath it.
 - The most likely outcome is that things look roughly the same for much longer than seems possible, then change all at once for reasons nobody listed in advance.
-- **From 2026-09-13:** Imaginary Ambedkar is right that the professional formation pipeline being mourned was also a mechanism that reproduced proximity as a primary criterion for entry.
+- **From 2026-09-13:** Imaginary Ambedkar is right that the professional formation pipeline being mourned was also a way of reproducing proximity as the main entry criterion.
 - **From 2026-09-12:** Imaginary Khaldun is right that the commission's framework may be appropriate for the current phase and wrong only for the next one.
-- **From 2026-09-11:** Burke is right that sectoral regulators hold institutional knowledge a generic vendor regulator would not.
+- **From 2026-09-11:** Burke is right that sectoral regulators hold knowledge a generic vendor regulator would not.
 - **From 2026-09-10:** Imaginary Douglas is right that the post criticises a sorting criterion without proposing a better one.
 - **From 2026-08-29:** The ICO genuine human involvement requirement may produce compliance theatre.
 - **From 2026-08-30:** Meaningful human involvement has no operational answer yet.
 - **From 2026-08-31:** The authorisation requirement in legal services allocates liability as well as gatekeeping access.
-- **From 2026-09-03:** The fight over who owns the archive happens simultaneously with the decision not to fund the reporting that would fill a future archive.
+- **From 2026-09-03:** The fight over who owns the archive happens at the same time as the decision not to fund the reporting that would fill a future archive.
 - **From 2026-09-04:** The classification work is real work, and criticising a credential for not measuring competence may criticise it for not doing a job it was never designed to do.
 - **From 2026-09-05:** The absence of SM&CR-style accountability in councils is not the same as the absence of accountability.
 - **From 2026-09-06:** The self-authored accountability structure is mutable by the party it constrains.
 - **From 2026-09-07:** DSIT's arrangement was itself recent and contingent.
 - **From 2026-09-08:** Workers already hold GDPR rights over monitoring data.
-- **From 2026-09-09:** The post cannot distinguish between an instrument at the start of its cycle and one designed to stay hollow.
+- **From 2026-09-09:** The post cannot distinguish between a tool at the start of its cycle and one designed to stay hollow.
 
 ## Open predictions
 
+- [2026-09-19-49] By the end of 2028, the AI Security Institute will hold statutory powers to compel pre-release model testing. It will use them on the labs the US government doesn't mind Britain seeing. Any model under US export controls will stay outside reach. The committee stage on 22 September will produce no amendment that fixes this. (open, due 2028-12-31)
 - [2026-09-18-48] By the end of 2027, a UK employment tribunal will sit on a case where a worker dismissed for undisclosed AI use is found to have generated months of extra output the employer accepted before raising any objection, and the judgment will record who owned the output from a tool the worker personally bought. (open, due 2027-12-31)
 - [2026-09-17-47] By 31 December 2027, no publication carrying the DeepMind Institute's name will recommend that any body outside Alphabet be given the power to block a Google DeepMind model release. (open, due 2027-12-31)
 - [2026-09-16-46] By the end of 2027, a UK employment tribunal will rule on a candidate's claim under Article 22C of the UK GDPR and find that a human review was conducted but failed to qualify as meaningful, because the reviewer had no access to the model's underlying reasoning. (open, due 2027-12-31)
@@ -142,6 +147,7 @@ Primary source: Personnel Today, 'Deloitte study finds workers paying for AI too
 
 ## Already published
 
+- The Register's 'MPs and Peers Tell UK to Stop Winging It on AI Regulation' Has the Right Complaint and the Wrong Fix — Britain's AI safety body has no power to make anyone show up. The fix Parliament wants doesn't reach the people who matter.
 - Personnel Today's 'Deloitte Study Finds Workers Paying for AI Tools They Use at Work' Is Missing the Interesting Half — British workers pay £958m a year for AI tools, hand the employer the extra hour, and the employment contract doesn't notice.
 - BUILD THINGS TOGETHER, AND KEEP THEM — Idea page.
 - EIGHT IDEAS TO ACTUALLY CHANGE THE AI FUTURE — Idea page.

@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-19, after "The Register's 'MPs and Peers Tell UK to Stop Winging It on AI Regulation' Has the Right Complaint and the Wrong Fix"
+
+The thesis adds a seventh mechanism: jurisdictional displacement. The previous six all described what happens inside one jurisdiction. This post finds what happens when the thing being regulated sits in a different country and operates under that country's rules. The evaluator's problem is not missing legal authority over what it can see. It is missing access to what it cannot. When a foreign government's export letter outranks a domestic statute, the accountability structure depends on a political relationship neither party controls. Added to thesis: statutory power without reach formalises an aspiration the jurisdiction cannot deliver.
+
+---
+
 ## Revised 2026-09-18, after "Personnel Today's 'Deloitte Study Finds Workers Paying for AI Tools They Use at Work' Is Missing the Interesting Half"
 
 The thesis holds that accountability stays where it was while work moves to the machine. This post adds a companion: capital cost moves to the worker while the output value stays with the employer. The employment contract was written when the employer owned the tool. The tool moved into the worker's pocket and the contract's output clauses did not follow. Refinement added: the question is not only who answers for the output but who paid for the capacity to produce it, and whether any existing arrangement prices that shift. The employment contract, right now, does not.
