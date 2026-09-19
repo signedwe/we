@@ -82,6 +82,12 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 2
+      - name: Tell Bing, DuckDuckGo and Yandex what changed (IndexNow)
+        run: python scripts/indexnow.py
 
   announce:
     needs: [deploy, write]

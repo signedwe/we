@@ -69,6 +69,15 @@ layout: base.njk
 {%- if tags %}
   <p class="eyebrow">More on {% for t in tags %}{% for tt in topics %}{% if tt.slug == t %}<a href="{{ ('/topics/' + t + '/') | url }}">{{ tt.name | lower }}</a>{% if not loop.last %}, {% endif %}{% endif %}{% endfor %}{% endfor %}.</p>
 {%- endif %}
+{%- set rel = tags | related(page.url, collections.everything) %}
+{%- if rel.length %}
+  <p class="eyebrow">Read next</p>
+  <ul class="index">
+  {%- for r in rel %}
+    <li><a href="{{ r.url | url }}">{{ r.data.title }}</a> <span class="eyebrow">{{ r.date | readable }}</span></li>
+  {%- endfor %}
+  </ul>
+{%- endif %}
 {%- if voices %}
 <aside class="voices">
   <h2>Voices</h2>

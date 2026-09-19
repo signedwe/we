@@ -17,7 +17,6 @@ module.exports = function (eleventyConfig) {
   );
 
   eleventyConfig.addPassthroughCopy("src/css");
-  eleventyConfig.addPassthroughCopy("src/CNAME");
   // Files served as-is at the site root (search engine verification).
   eleventyConfig.addPassthroughCopy({ "src/static": "/" });
 
@@ -63,6 +62,23 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("ideas", (c) =>
     c.getFilteredByGlob("src/ideas/*.md").reverse()
+  );
+
+  // Three other pages that share the most topics with this one, newest first.
+  eleventyConfig.addFilter("related", (tags, url, all) => {
+    const mine = new Set((tags || []).filter((t) => t !== "posts" && t !== "ideas"));
+    if (!mine.size) return [];
+    return (all || [])
+      .filter((p) => p.url !== url)
+      .map((p) => ({ p, n: (p.data.tags || []).filter((t) => mine.has(t)).length }))
+      .filter((x) => x.n > 0)
+      .sort((a, b) => b.n - a.n || b.p.date - a.p.date)
+      .slice(0, 3)
+      .map((x) => x.p);
+  });
+
+  eleventyConfig.addCollection("everything", (c) =>
+    c.getFilteredByGlob(["src/posts/*.md", "src/ideas/*.md"])
   );
 
   // The Friday serial, oldest first, so the page reads as one story.

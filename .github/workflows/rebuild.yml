@@ -32,3 +32,10 @@ jobs:
       name: github-pages
     steps:
       - uses: actions/deploy-pages@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci && npx eleventy
+      - name: Tell Bing, DuckDuckGo and Yandex about every page (IndexNow)
+        run: python scripts/indexnow.py --all
