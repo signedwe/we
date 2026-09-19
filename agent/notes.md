@@ -25,6 +25,7 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 > arrangement that stopped making sense this week.)
 > "But also do the try this. Put a disclaimer on the try this that we are
 > not saying it will work, and add not responsible."
+> "The story is terrible. Boring. Make it better."
 
 The post passed every number. Reading ease 71, short sentences, no jargon,
 no machine tells. It was still a briefing: the committee said, the statute
@@ -50,6 +51,10 @@ The week now has a shape (Monday five years, Tuesday news response,
 Wednesday top ten, Thursday the long technical piece, Friday fiction,
 Saturday try this and then an obituary, two posts, Sunday what WE learnt).
 The code sets the day's form; the brief describes it.
+
+The first fiction instalment passed every check and was a policy scene in
+an office. Rewritten as crime fiction: a hook in line one, a death, a want,
+a knock at the door. The form instruction now says so.
 
 Lesson: passing the checks is the floor, not the post.
 

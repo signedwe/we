@@ -2437,6 +2437,18 @@ refuse, who got the extra day, who holds the memory. A story, not an
 essay in costume: a scene, a want, a turn, an ending that lands. Under
 {FORM_WORD_LIMIT['fiction']} words.
 
+Write it like crime fiction, because that is what keeps people reading.
+A hook in the first sentence. A death, a danger or a secret inside the
+first hundred words. A person who wants one thing and can't have it.
+Somebody at the door by the end. The site's arrangements (who owns the
+assistant, who holds the memory, who can refuse) are the furniture the
+characters bump into, never the subject; nobody in the story explains
+one. The first instalment was first drafted as a night shift in a
+benefits office with a policy point in it, and the person running this
+called it terrible and boring. The rewrite, What the Kitchen Knew, is
+the standard: a dead man's voice from a kitchen speaker, a question the
+machine won't answer, and two sets of feet on the stairs.
+
 It is a serial. Each week continues the last. Same person, or someone
 whose life crosses theirs; time moves on; what happened last week has
 consequences this week. Do not recap; a new reader should be able to
