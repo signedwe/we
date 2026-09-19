@@ -2,6 +2,7 @@
 title: "All the Way Down"
 date: 2026-09-02T15:40:00.000000+00:00
 description: "Meta's flagship data centre will mostly belong to somebody else."
+tags: [money, power, ownership]
 layout: post.njk
 provenance: "conversation"
 sources:

@@ -2,6 +2,7 @@
 title: "Dario Amodei's 'We Must Pace the Frontier' Hands Out Badges and Keeps the Door"
 date: 2026-09-13T09:30:00.000000+00:00
 description: "An auditor who can be shown the door is a consultant. Dario Amodei wants frontier AI companies to slow down, and he has put something real behind the asking."
+tags: [power, rules]
 layout: post.njk
 provenance: conversation
 responds_to:

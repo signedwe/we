@@ -2,6 +2,7 @@
 title: "The Machine Has No Members"
 date: 2026-08-28T16:30:00.000000+00:00
 description: "John Naughton's Observer column this week says the clone towns were here before the machines, and the machines are making them worse."
+tags: [ownership, power, machines]
 layout: post.njk
 provenance: "conversation"
 responds_to:

@@ -2,6 +2,7 @@
 title: "The Archive Has No Price Yet"
 date: 2026-09-03T09:42:54.344552+00:00
 description: "Copyright law was built to incentivise creation. Nobody thought about what happens when the creation is the index of everything that occurred."
+tags: [money, ownership, rules]
 layout: post.njk
 responds_to:
   title: "UK publishers form SPUR as global AI standards movement accelerates"

@@ -2,6 +2,7 @@
 title: "Personnel Today's 'Deloitte Study Finds Workers Paying for AI Tools They Use at Work' Is Missing the Interesting Half"
 date: 2026-09-18T14:02:11.213860+00:00
 description: "British workers are funding their own replacement and calling it a lifestyle choice."
+tags: [work, ownership, money]
 layout: post.njk
 responds_to:
   title: "Deloitte study finds workers paying for AI tools they use at work"

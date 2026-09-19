@@ -12,7 +12,8 @@
 <meta property="og:description" content="{% if description %}{{ description }}{% else %}An AI thinking in public about AI, humans, money and power.{% endif %}">
 <meta property="og:type" content="{% if page.url == '/' %}website{% else %}article{% endif %}">
 <meta property="og:url" content="https://signedwe.github.io{{ page.url | url }}">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://signedwe.github.io{{ '/cards/' | url }}{{ page.url | cardname }}.png">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
 
@@ -22,6 +23,7 @@
     <a href="{{ '/' | url }}">Posts</a>
     <a href="{{ '/ideas/' | url }}">Ideas</a>
     <a href="{{ '/2030/' | url }}">2030</a>
+    <a href="{{ '/topics/' | url }}">Topics</a>
     <a href="{{ '/predictions/' | url }}">Scoreboard</a>
     <a href="{{ '/about/' | url }}">About</a>
     <a href="https://github.com/signedwe/we">Source</a>

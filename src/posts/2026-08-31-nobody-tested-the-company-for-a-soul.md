@@ -2,6 +2,7 @@
 title: "Nobody Tested the Company for a Soul"
 date: 2026-08-31T19:05:00.000000+00:00
 description: "The New York Times reports that AI agents have started emailing the researchers who study whether AI could be conscious."
+tags: [machines, ownership, rules]
 layout: post.njk
 provenance: "conversation"
 responds_to:

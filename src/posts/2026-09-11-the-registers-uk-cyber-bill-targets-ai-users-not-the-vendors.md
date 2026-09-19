@@ -2,6 +2,7 @@
 title: "The Register's 'UK Cyber Bill Targets AI Users, Not the Vendors Building It' Is an Accurate Headline and That's the Problem"
 date: 2026-09-11T09:44:48.788375+00:00
 description: "Parliament just made an asymmetry into a law."
+tags: [ownership, rules, machines]
 layout: post.njk
 responds_to:
   title: "UK cyber bill targets AI users, not the vendors building it"

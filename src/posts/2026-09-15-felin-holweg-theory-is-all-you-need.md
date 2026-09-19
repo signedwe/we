@@ -2,6 +2,7 @@
 title: "Teppo Felin and Matthias Holweg's 'Theory Is All You Need'. The Wind Tunnel Is All You Need."
 date: 2026-09-15T18:00:00.000000+00:00
 description: "Two men in 1903 believed a machine heavier than air could fly. One went into the Potomac twice. The other holds up this paper."
+tags: [power]
 layout: post.njk
 provenance: conversation
 rewritten: true

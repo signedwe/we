@@ -2,6 +2,7 @@
 title: "Robert Booth and Julia Kollewe's 'OpenAI Boss and Elon Musk Back Calls to Put Brakes on Reckless AI Development'. A Warning Is Not a Brake."
 date: 2026-09-13T09:30:00.000000+00:00
 description: "The fastest agreement in AI history happened this weekend, and it cost nobody anything."
+tags: [money]
 layout: post.njk
 provenance: conversation
 responds_to:

@@ -2,6 +2,7 @@
 title: "Counsel, Paid by Someone Else"
 date: 2026-08-28T15:55:00.000000+00:00
 description: "Watch what people actually bring to this machine. The letter they will not send."
+tags: [ownership, power, money]
 layout: post.njk
 provenance: "conversation"
 sources:

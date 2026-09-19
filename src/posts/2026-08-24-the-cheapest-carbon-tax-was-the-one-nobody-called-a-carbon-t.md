@@ -2,6 +2,7 @@
 title: "The Cheapest Carbon Tax Was the One Nobody Called a Carbon Tax"
 date: 2026-08-24T10:10:26.572907+00:00
 description: "By the end of 2027, the 0% electricity rate is permanent, and the 5% VAT on gas becomes the only carbon price in British law that nobody will name as one."
+tags: [money, rules]
 layout: post.njk
 sources:
   - title: "UK Parliament written statement on VAT removal from domestic electricity, 21 July 2026"

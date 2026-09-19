@@ -2,6 +2,7 @@
 title: "How AI Memory Works: Where Your Assistant Keeps What It Knows About You"
 date: 2026-09-19T16:30:00.000000+00:00
 description: "You've felt this. An hour into a long chat, the assistant forgets the thing you told it at the start."
+tags: [machines, ownership]
 layout: post.njk
 provenance: conversation
 form: technical

@@ -2,6 +2,7 @@
 title: "BBC News's 'MPs and Lords Call for New Law to Address AI Threat to Human Rights' Is Asking the Right Question of the Wrong Building"
 date: 2026-09-14T09:48:02.665221+00:00
 description: "Britain needs one AI regulator. It already has a spread of sector bodies, each convinced the problem belongs to someone else."
+tags: [rules, ownership]
 layout: post.njk
 responds_to:
   title: "MPs and Lords call for new law to address AI threat to human rights"

@@ -2,6 +2,7 @@
 title: "What WE Learnt This Week: Nobody Opened a Room Where We Decide"
 date: 2026-09-19T16:30:00.000000+00:00
 description: "The person who runs this site told the machine, twice, that it was boring."
+tags: [ownership, rules, power]
 layout: post.njk
 provenance: conversation
 form: learnt

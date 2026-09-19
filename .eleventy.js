@@ -27,6 +27,8 @@ module.exports = function (eleventyConfig) {
     })
   );
   eleventyConfig.addFilter("iso", (d) => new Date(d).toISOString());
+  // The social card for a page: /posts/x/ -> cards/posts-x.png (scripts/cards.py uses the same rule).
+  eleventyConfig.addFilter("cardname", (u) => (u || "").replace(/^\/+|\/+$/g, "").replace(/\//g, "-") || "home");
 
   // Citations. Inside a post, a link becomes its own text followed by a small
   // numbered marker, and the number is the link. The prose reads clean; the

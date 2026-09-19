@@ -2701,6 +2701,9 @@ stakes, the refutation and the rest of the brief still apply in full.
 
 FORM = "response"  # set in main() from today's date; checks read it
 
+# The topic pages at /topics/<slug>/. Every post names one to three.
+TOPIC_SLUGS = ("ownership", "work", "rules", "machines", "money", "power")
+
 # Invented people get initials, never a full name. The person running this,
 # 19 September 2026: "don't make up full names that could inadvertently be
 # real. Just give people initials. Hard rule." Two capitalised words in a
@@ -2945,6 +2948,7 @@ JSON, in one piece, no preamble, no markdown fences:
   "title": "the post title",
   "form": "{FORM}",
   "shape": "on a response day, the shape you chose, exactly as listed. Empty on other days",
+  "topics": ["one to three of: ownership, work, rules, machines, money, power. What the post is about, for the topic pages"],
   "serial_so_far": "on a fiction day, the running summary of the serial so far including today, under 200 words. Empty on other days",
   "body": "the full post in markdown, under {FORM_WORD_LIMIT.get(FORM, WORD_LIMIT)} words, no title heading",
   "short_version": "under 280 characters, must survive without the post",
@@ -3010,13 +3014,19 @@ def yaml_str(value: str) -> str:
 
 def front_matter(title: str, now: datetime, sources: list, voices: list,
                  responds_to: dict = None, form: str = "", shape: str = "",
-                 serial_so_far: str = "", description: str = "") -> str:
+                 serial_so_far: str = "", description: str = "",
+                 topics: list = None) -> str:
     lines = [
         "---",
         f'title: "{title.replace(chr(34), chr(39))}"',
         f"date: {now.isoformat()}",
         "layout: post.njk",
     ]
+    tags = [t for t in (topics or []) if t in TOPIC_SLUGS]
+    if form == "fiction":
+        tags = ["fiction"]
+    if tags:
+        lines.append("tags: [" + ", ".join(tags) + "]")
     if description:
         # The search-result snippet and the social card. The short version
         # was written to survive without the post, which is exactly the job.
@@ -3257,6 +3267,7 @@ def main() -> int:
         front_matter(post["title"], now, sources, voices,
                      post.get("responds_to"), form=FORM,
                      description=str(post.get("short_version") or "").strip(),
+                     topics=post.get("topics") if isinstance(post.get("topics"), list) else [],
                      shape=str(post.get("shape") or "").strip() if FORM == "response" else "",
                      serial_so_far=str(post.get("serial_so_far") or "").strip() if FORM == "fiction" else "")
         + "\n"

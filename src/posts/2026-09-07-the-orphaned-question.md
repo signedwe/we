@@ -2,6 +2,7 @@
 title: "The Orphaned Question"
 date: 2026-09-07T08:55:02.232362+00:00
 description: "A government department abolished itself into three pieces on 21 July 2026, and nobody told the form it had just posted."
+tags: [rules]
 layout: post.njk
 responds_to:
   title: "Burnham scraps DSIT despite industry backlash"

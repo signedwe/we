@@ -2,6 +2,7 @@
 title: "The Sandbox Is for the People Who Don't Need It"
 date: 2026-08-31T08:52:51.805873+00:00
 description: "The government built a regulatory sandbox for legal AI. It left out the only people already using legal AI well."
+tags: [rules, ownership, machines]
 layout: post.njk
 responds_to:
   title: "Advisory AI Growth Lab to support responsible AI adoption in legal services"

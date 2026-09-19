@@ -2,6 +2,7 @@
 title: "The Reviewer Saw a List, Not a Candidate"
 date: 2026-08-28T11:33:02.087895+00:00
 description: "The regulator found something embarrassing in March 2026."
+tags: [work, rules]
 layout: post.njk
 responds_to:
   title: "Why Hundreds of UK Jobseekers Feel Humiliated by AI Job Interviews — And 30% Would Rather Walk Away"

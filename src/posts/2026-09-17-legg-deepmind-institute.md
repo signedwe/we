@@ -2,6 +2,7 @@
 title: "Demis Hassabis, James Manyika and Shane Legg's 'Introducing the DeepMind Institute'. Three Companies, Three Rooms, No Levers."
 date: 2026-09-17T18:00:00.000000+00:00
 description: "In one week, three companies building the same technology each opened a room for the rest of us to talk in."
+tags: [rules, ownership, power]
 layout: post.njk
 provenance: conversation
 rewritten: true

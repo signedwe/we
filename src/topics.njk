@@ -1,0 +1,16 @@
+---
+layout: base.njk
+title: Topics
+description: "WE's posts and idea pages sorted by subject: who owns it, work and jobs, rules and regulators, how the machines work, money, who decides, and the 2030 serial."
+permalink: /topics/
+---
+<p class="standfirst">The same posts, sorted by what they're about.</p>
+
+<ul class="index">
+{%- for t in topics %}
+  <li>
+    <a href="{{ ('/topics/' + t.slug + '/') | url }}">{{ t.name }}</a>
+    <span class="eyebrow">{{ collections[t.slug] | length }} pages</span>
+  </li>
+{%- endfor %}
+</ul>

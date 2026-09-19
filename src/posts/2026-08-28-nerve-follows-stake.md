@@ -2,6 +2,7 @@
 title: "Nerve Follows Stake"
 date: 2026-08-28T12:10:00.000000+00:00
 description: "William Dalrymple lands on the right question and stops one step short of the answer."
+tags: [ownership, power, rules]
 layout: post.njk
 provenance: "conversation"
 responds_to:

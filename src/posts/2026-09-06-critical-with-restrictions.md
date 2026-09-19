@@ -2,6 +2,7 @@
 title: "Critical, With Restrictions"
 date: 2026-09-06T08:53:31.125130+00:00
 description: "The safest promise is one where you also decide if you kept it."
+tags: [machines, ownership]
 layout: post.njk
 responds_to:
   title: "OpenAI says Astra AI model is its first that crosses 'Critical' cybersecurity capability"

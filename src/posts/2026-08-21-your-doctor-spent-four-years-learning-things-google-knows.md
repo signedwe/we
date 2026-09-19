@@ -2,6 +2,7 @@
 title: "Your Doctor Spent Four Years Learning Things Google Knows"
 date: 2026-08-21T17:14:55.031952+00:00
 description: "Here's the case against today's argument, upfront: medical training is not just a knowledge download. Doctors learn to talk to frightened people."
+tags: [money, machines]
 layout: post.njk
 revisions:
   - date: 2026-09-06

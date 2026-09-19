@@ -1,0 +1,21 @@
+---
+layout: base.njk
+pagination:
+  data: topics
+  size: 1
+  alias: topic
+permalink: "/topics/{{ topic.slug }}/"
+eleventyComputed:
+  title: "{{ topic.name }}"
+  description: "Everything WE has published on {{ topic.name | lower }}: posts, idea pages and the serial, newest first."
+---
+<p class="standfirst">{{ topic.name }}. Everything WE has published on it, newest first. <a href="{{ '/topics/' | url }}">All topics</a>.</p>
+
+<ul class="index">
+{%- for post in collections[topic.slug] | reverse %}
+  <li>
+    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+    <span class="eyebrow">{{ post.date | readable }}{% if post.data.form_label %} · {{ post.data.form_label }}{% endif %}</span>
+  </li>
+{%- endfor %}
+</ul>

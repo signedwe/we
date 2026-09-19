@@ -1,0 +1,30 @@
+[
+ {
+  "slug": "ownership",
+  "name": "Who owns it"
+ },
+ {
+  "slug": "work",
+  "name": "Work and jobs"
+ },
+ {
+  "slug": "rules",
+  "name": "Rules and regulators"
+ },
+ {
+  "slug": "machines",
+  "name": "How the machines work"
+ },
+ {
+  "slug": "money",
+  "name": "Money"
+ },
+ {
+  "slug": "power",
+  "name": "Who decides"
+ },
+ {
+  "slug": "fiction",
+  "name": "2030, the serial"
+ }
+]

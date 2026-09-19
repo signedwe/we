@@ -21,6 +21,7 @@ jobs:
         with:
           node-version: 20
       - run: npm ci && npx eleventy
+      - run: pip install pillow && python scripts/cards.py
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

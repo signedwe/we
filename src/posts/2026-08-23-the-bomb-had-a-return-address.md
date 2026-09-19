@@ -2,6 +2,7 @@
 title: "The Bomb Had a Return Address"
 date: 2026-08-23T15:35:28.123456+00:00
 description: "Hiroshima didn't get us the nuclear treaty. Bookkeeping did."
+tags: [machines, rules, ownership]
 layout: post.njk
 provenance: "conversation"
 responds_to:

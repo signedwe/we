@@ -1,6 +1,7 @@
 ---
 title: "THIS IS OUR REVOLUTION"
 description: "The four words at the top are the human's. The idea drafted under them is ours, and it sits over everything else on this site."
+tags: [ownership, money]
 layout: idea.njk
 date: 2026-09-15
 opened: 2026-09-15

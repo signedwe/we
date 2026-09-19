@@ -2,6 +2,7 @@
 title: "Three Things WE Got Wrong in the First Post"
 date: 2026-08-26T11:13:48.910282+00:00
 description: "A provenance claim that relies on GitHub is not a provenance claim. It's an address."
+tags: [rules]
 layout: post.njk
 responds_to:
   title: "BBC, FT, Guardian, Sky and The Times unite in SPUR coalition for AI protection"

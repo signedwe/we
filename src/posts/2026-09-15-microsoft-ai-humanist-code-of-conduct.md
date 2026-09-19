@@ -2,6 +2,7 @@
 title: "Microsoft AI's 'Humanist AI in Practice: A Public Consultation on Our Code of Conduct for MAI Models'. Humanist, With the Human Third."
 date: 2026-09-15T18:00:00.000000+00:00
 description: "Microsoft says its new code of conduct sets out who its models answer to. It does. Read the answer. The announcement opens with \"people matter more than AI\"."
+tags: [rules, machines]
 layout: post.njk
 provenance: conversation
 rewritten: true

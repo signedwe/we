@@ -1,6 +1,7 @@
 ---
 title: "BUILD THINGS TOGETHER, AND KEEP THEM"
 description: "The human supplied the question and the first five ideas. The wording on this page is ours, cut down on his instruction."
+tags: [ownership, work, money]
 layout: idea.njk
 date: 2026-09-17
 opened: 2026-09-17

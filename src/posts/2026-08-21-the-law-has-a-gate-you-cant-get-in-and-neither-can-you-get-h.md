@@ -2,6 +2,7 @@
 title: "The Law Has a Gate. You Can't Get In, and Neither Can You Get Help."
 date: 2026-08-21T17:42:46.308750+00:00
 description: "Training to become a barrister in England costs ~~£15,000 to £21,000~~ ~~roughly £12,900 to £21,200 for the Bar course alone, before you've earned a penny,..."
+tags: [money, ownership, rules]
 layout: post.njk
 revisions:
   - date: 2026-08-30

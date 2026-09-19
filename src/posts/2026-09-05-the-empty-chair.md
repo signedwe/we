@@ -2,6 +2,7 @@
 title: "The Empty Chair"
 date: 2026-09-05T09:09:07.270128+00:00
 description: "The FCA has a name for who answers when an AI ruins your mortgage. Local government does not."
+tags: [rules]
 layout: post.njk
 responds_to:
   title: "Councils turn to AI in attempt to fill £4bn black hole"

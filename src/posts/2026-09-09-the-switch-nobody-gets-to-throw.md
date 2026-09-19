@@ -2,6 +2,7 @@
 title: "The Switch Nobody Gets to Throw"
 date: 2026-09-09T09:44:39.866581+00:00
 description: "The kill switch bill solves the wrong problem."
+tags: [power, machines, rules]
 layout: post.njk
 responds_to:
   title: "The Growing Push to Ban Superintelligent AI"

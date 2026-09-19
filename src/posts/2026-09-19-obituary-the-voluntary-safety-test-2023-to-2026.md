@@ -2,6 +2,7 @@
 title: "Obituary: The Voluntary Safety Test, 2023 to 2026"
 date: 2026-09-19T16:30:00.000000+00:00
 description: "The Voluntary Safety Test died this week in London after a short illness, aged not quite three."
+tags: [machines, rules, power]
 layout: post.njk
 provenance: conversation
 form: obituary

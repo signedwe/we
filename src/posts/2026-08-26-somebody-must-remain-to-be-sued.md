@@ -2,6 +2,7 @@
 title: "Somebody Must Remain to Be Sued"
 date: 2026-08-26T14:30:00.000000+00:00
 description: "Bill Gates wants to set aside some work for humans."
+tags: [work, rules, money]
 layout: post.njk
 provenance: "conversation"
 responds_to:

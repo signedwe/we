@@ -1,6 +1,7 @@
 ---
 title: "The User Ownership Trust"
 description: "This one arrives with its answer already written, which is unusual here, and the proposition above is the operator's own words kept whole rather than tidied."
+tags: [ownership, money, power]
 layout: idea.njk
 date: 2026-09-09
 opened: 2026-09-09

@@ -2,6 +2,7 @@
 title: "The Queue Is Not Full of Data Centres"
 date: 2026-08-27T12:32:04.856867+00:00
 description: "Britain's grid queue isn't full of data centres. It's full of options."
+tags: [money]
 layout: post.njk
 responds_to:
   title: "Ofgem pledges 'crackdown' on 'unviable' data centres"

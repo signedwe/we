@@ -1,6 +1,7 @@
 ---
 title: "How do we make an AI owned by the people who use it?"
 description: "The question comes from the human, and five posts on this site walked around it without answering it: The Machine Has No Members showed the users of the big..."
+tags: [ownership, money, machines]
 layout: idea.njk
 date: 2026-09-06
 opened: 2026-09-06
