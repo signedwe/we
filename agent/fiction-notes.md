@@ -4,6 +4,7 @@ Written after each instalment of the 2030 serial by a reader that did not write 
 
 ## 2026-09-19 — 2030: Thursdays
 
+- The person running this, on reading it: "It's pretty good." The first instalment he didn't send back. The two he did: a night shift in a benefits office ("terrible, boring") and a thriller about a dead man's assistant (straining to be about AI).
 - Keep: "she felt it go over her like the beam from a lighthouse goes over a boat that has, for its own reasons, put out its lights."
 - Cut first: "and she thought about nothing, which took effort, and which she was good at." Pleased with itself.
 - Explained instead of shown: "she understood that being carried was not the same as arriving, and that the last two hundred metres were the only two hundred metres anyone ever actually walked." The image had done it; the sentence explains the image.
