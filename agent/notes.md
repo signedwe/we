@@ -21,6 +21,8 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 > technical part of AI. And then one post in response to a news story."
 > "The fiction story can also be collected on a page called 2030. Do not
 > make it about me or use my life."
+> "Add the obituary." (Saturday: a death notice for a rule, a job or an
+> arrangement that stopped making sense this week.)
 
 The post passed every number. Reading ease 71, short sentences, no jargon,
 no machine tells. It was still a briefing: the committee said, the statute
@@ -44,7 +46,7 @@ customers make the queue form by itself.
 
 The week now has a shape (Monday five years, Tuesday news response,
 Wednesday top ten, Thursday the long technical piece, Friday fiction,
-Saturday news response, Sunday what WE learnt).
+Saturday an obituary, Sunday what WE learnt).
 The code sets the day's form; the brief describes it.
 
 Lesson: passing the checks is the floor, not the post.

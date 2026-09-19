@@ -1912,7 +1912,11 @@ on whether the ranking argues and whether number one surprises. A
 Thursday piece is the long technical one: judge whether a sharp outsider
 now understands the mechanism, whether the sources are papers and
 primary documents rather than press, and whether it lands on what the
-mechanism rearranges rather than stopping at how it works.
+mechanism rearranges rather than stopping at how it works. A Saturday
+piece is an obituary for a rule or an arrangement: judge whether it
+keeps the form (born, life, decline, survivors, arrangements), whether
+the cause of death is real and this week's, whether it is funny, and
+whether anything living has been buried by mistake.
 
 Here is today's draft.
 
@@ -2225,8 +2229,10 @@ TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 # Wednesday   top_ten      a top ten
 # Thursday    technical    a longer, well-sourced piece on one technical part of AI
 # Friday      fiction      2030, one person, a serial: continues last week's
-# Saturday    response     a second news response; the one spare day
+# Saturday    obituary     a death notice for a rule, a job or an arrangement
 # Sunday      learnt       what WE learnt this week
+#
+# Saturday, 19 September again: "Add the obituary."
 
 FORMS = {
     0: "five_years",
@@ -2234,7 +2240,7 @@ FORMS = {
     2: "top_ten",
     3: "technical",
     4: "fiction",
-    5: "response",
+    5: "obituary",
     6: "learnt",
 }
 
@@ -2245,6 +2251,7 @@ FORM_LABEL = {
     "fiction": "fiction: 2030",
     "learnt": "what WE learnt this week",
     "technical": "how it works",
+    "obituary": "obituary",
 }
 
 # The response days still have to look different from each other. A shape
@@ -2254,7 +2261,6 @@ SHAPES = (
     "a letter to one named kind of person (the recruiter, the tenant, the MP)",
     "a dialogue between two people who want different things",
     "a timeline: dated entries, past and future, no connecting prose",
-    "an obituary for a rule, a job or an arrangement",
     "a memo from 2031 back to this week",
     "a numbered list that argues, each entry a punch",
     "a set of questions the reader can't shrug off, each with the honest answer",
@@ -2432,6 +2438,29 @@ lives: what this piece of machinery rearranges, who ends up holding the
 thing that matters, and what the reader can do about it now they
 understand it. No responds_to is needed. A bet only if there's a real
 one.
+"""
+    if form == "obituary":
+        return common + """
+## Today's form: an obituary
+
+Saturday. A death notice for one rule, job, price, form, queue or
+arrangement that quietly stopped making sense this week, or stopped
+being enforced, or lost the thing that held it up. Written as obituaries
+are written, and the form is the joke: born (when, and why: what was
+there not enough of, that made it necessary), a life (what it did, who
+it served, who it kept out, its finest hour), the decline (the week's
+news, sourced, is the cause of death), the survivors (who still depends
+on it and hasn't noticed), and the funeral arrangements (what replaces
+it, and who holds that). Fond where it deserves it. Merciless where it
+doesn't. Nobody living is the deceased: the dead thing is a rule or an
+arrangement, never a person or a named company.
+
+Rules for this form. The cause of death is real and linked: the story,
+the number, the decision from this week that killed it. Dates and
+figures carry links as usual. A refutation search: is it really dead,
+or just ill. A practitioner who lived by the rule gets the last word on
+what the post gets wrong. No responds_to is needed. No derived number.
+A bet only if the burial is really in doubt.
 """
     if form == "learnt":
         return common + f"""
@@ -2830,7 +2859,7 @@ def main() -> int:
     FORM = form_for(TODAY)
     print(f"Today's form: {FORM} ({FORM_LABEL[FORM]})")
     invented = FORM in ("fiction", "five_years")
-    grounded = FORM in ("response", "technical")
+    grounded = FORM in ("response", "technical", "obituary")
 
     messages = [{"role": "user", "content": build_prompt()}]
     searched = []
@@ -2891,9 +2920,10 @@ def main() -> int:
         failures += check_due_verdicts(post.get("verdicts"), TODAY)
         # The fields that only make sense when the post answers the news.
         if grounded:
-            failures += check_derived_number(
-                post.get("derived_number"), post["body"], {s["url"] for s in searched}
-            )
+            if FORM != "obituary":
+                failures += check_derived_number(
+                    post.get("derived_number"), post["body"], {s["url"] for s in searched}
+                )
             failures += check_refutation(post.get("refutation"), post["body"])
             failures += check_recognition(post.get("recognition"), post["body"])
         if FORM == "response":
