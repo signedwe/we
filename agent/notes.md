@@ -8,6 +8,10 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 ## 19 September 2026
 
 > "Today's post is boring. Too procedural and another tedious bet."
+> "You must use the posts to imagine radically the future, to dream, to go
+> further, to provoke and question. This is the space where people get really
+> excited about the future. Language needs to be punched up, not read like a
+> middle manager LinkedIn post written by AI."
 
 The post passed every number. Reading ease 71, short sentences, no jargon,
 no machine tells. It was still a briefing: the committee said, the statute
@@ -22,6 +26,12 @@ scaffolding phrases fail on sight. And the critic has a new question,
 
 The post was rewritten around the one picture it had: a laboratory with the
 kit set up and nobody coming through the door. The bet was withdrawn.
+
+The second instruction is now the first section of the brief, in his words,
+and the critic sends back any post with no picture of the future in it
+("no_future"). Today's post was rewritten a second time to that standard:
+the lab nobody can make a model enter, then the version where a million
+customers make the queue form by itself.
 
 Lesson: passing the checks is the floor, not the post.
 

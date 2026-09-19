@@ -112,6 +112,12 @@ AIISMS = (
     "transformative", "innovative", "empower", "empowers", "empowering",
     "the question is", "the real question", "the question isn't",
     "spoiler:", "plot twist", "hot take", "unpopular opinion",
+    # LinkedIn
+    "excited to share", "thrilled to", "humbled", "lessons learned", "key learnings",
+    "thoughts?", "agree?", "let's build", "thought leader", "best practices",
+    "best practice", "stakeholders", "synergies", "value-add", "circle back",
+    "touch base", "low-hanging fruit", "move the needle", "north star",
+    "at scale", "win-win", "the future of work", "in this space",
     # bet boilerplate; a bet is said like a person says it or not at all
     "costs something if", "would prove it false", "prove it false",
     "name the date", "the clock is running", "until then, the clock",

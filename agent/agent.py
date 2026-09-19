@@ -1847,6 +1847,8 @@ CRITIC_SCHEMA = """{
   "obvious_ending": true or false,
   "obvious_ending_because": "the last line, and the reason anybody would have written it. empty if it swerves",
   "over_explained": ["any place the post makes a point and then explains it, quote the redundant sentence"],
+  "no_future": true or false,
+  "no_future_because": "true if the post only describes what is: no picture of how things could be, five or ten years out, specific enough to see, that the reader has not been shown before. say what it describes instead. empty if there is one, and quote it",
   "procedural": true or false,
   "procedural_because": "true if the post is a briefing: report, then rule, then report, a link every sentence, the documents walked through in order, and no moment where anything happens to anyone. say what it walks through. empty if there is a scene",
   "no_image": true or false,
@@ -1915,6 +1917,8 @@ First, before anything about the writing. Who cares? Name the person this happen
 Is it dull? Not imperfect, dull. Would anyone who is not paid to be here reach the end. Reserve dull for a piece with no reason to exist, and if that is the honest answer, say it.
 
 Then look specifically for the things that make prose lifeless even when the argument is good. Is there a single real image anywhere, something a reader could photograph, or is it abstract nouns end to end. Is there one line that is actually funny. Does the writer appear to want anything, or is the whole thing delivered at the same polite temperature from start to finish. Say which of these is missing, by name, and answer no_image and no_joke separately.
+
+Does it imagine anything? The site exists to imagine the future radically, to go further than the reader expected, to provoke. A post that only describes the present, however sharply, has not done its job. Look for one picture of how things could be, specific enough to see, with a person in it, that the reader had not been shown before. If there is none, say so and answer no_future.
 
 Is it procedural? A post that walks the reader through the documents, the committee said, the statute says, the company announced, with a citation on every sentence and nobody ever doing anything in a place, is a briefing. It can be accurate, sourced and short and still be a briefing. Say what it walks through, and answer procedural.
 
@@ -2006,6 +2010,16 @@ def critic_failures(verdict: dict) -> list:
         failures.append(
             f"Explaining your own point: {item} Cut it. The reader had it, "
             "and you just took it off them."
+        )
+
+    if verdict.get("no_future"):
+        failures.append(
+            "The critic says it never leaves the present: "
+            f"{verdict.get('no_future_because') or '(no reason given)'} "
+            "This site is for imagining the future, radically. Put one "
+            "picture in it of how things could be, five or ten years out, "
+            "specific enough to see, with a person in it. Then let the "
+            "argument be about whether we get there."
         )
 
     if verdict.get("procedural"):
