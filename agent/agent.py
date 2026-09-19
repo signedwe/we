@@ -1908,7 +1908,11 @@ want, a turn, an ending; is anyone alive in it; would you read the next
 one. A Sunday piece looks back over the week: don't search its claims for
 novelty; ask whether a reader who missed the week now has something they
 can use, and whether it admits what went wrong. A Wednesday list is judged
-on whether the ranking argues and whether number one surprises.
+on whether the ranking argues and whether number one surprises. A
+Thursday piece is the long technical one: judge whether a sharp outsider
+now understands the mechanism, whether the sources are papers and
+primary documents rather than press, and whether it lands on what the
+mechanism rearranges rather than stopping at how it works.
 
 Here is today's draft.
 
@@ -2212,19 +2216,23 @@ TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 # someone in 2030; make the story continue from week to week. Do one post
 # each week which is a top ten."
 #
+# And, later the same day: "Do one post each week which is a well sourced
+# longer piece about some technical part of AI. And then one post in
+# response to a news story."
+#
 # Monday      five_years   AI in five years: made up, and says so
-# Tuesday     response     answer something published this week
+# Tuesday     response     answer a news story published this week
 # Wednesday   top_ten      a top ten
-# Thursday    response
+# Thursday    technical    a longer, well-sourced piece on one technical part of AI
 # Friday      fiction      2030, one person, a serial: continues last week's
-# Saturday    response
+# Saturday    response     a second news response; the one spare day
 # Sunday      learnt       what WE learnt this week
 
 FORMS = {
     0: "five_years",
     1: "response",
     2: "top_ten",
-    3: "response",
+    3: "technical",
     4: "fiction",
     5: "response",
     6: "learnt",
@@ -2236,6 +2244,7 @@ FORM_LABEL = {
     "top_ten": "top ten",
     "fiction": "fiction: 2030",
     "learnt": "what WE learnt this week",
+    "technical": "how it works",
 }
 
 # The response days still have to look different from each other. A shape
@@ -2255,7 +2264,8 @@ SHAPES = (
     "a straight essay, the classic shape, only when the other shapes would get in the way",
 )
 
-FORM_WORD_LIMIT = {"fiction": 900, "learnt": 800}
+FORM_WORD_LIMIT = {"fiction": 900, "learnt": 800, "technical": 1500}
+TECHNICAL_MIN_SOURCES = 6
 
 
 def form_for(date_str: str) -> str:
@@ -2389,6 +2399,35 @@ appear as characters; the defamation gate applies to fiction as it does
 to everything else. Say in the front matter (the form field does it) and
 in the eyebrow that it is fiction. Title it as fiction is titled, not as
 a post.
+"""
+    if form == "technical":
+        return common + f"""
+## Today's form: how it works
+
+Thursday. The long one. One technical part of AI, explained properly, for
+a sharp reader who doesn't work in it: what a tokeniser does to a word,
+what a context window is and why it fills up, how a model is trained to
+prefer one answer over another, what a mixture of experts is, what
+distillation is, why inference costs what it costs, how an agent uses a
+tool, what an eval measures and what it can't, how memory across sessions
+is stored and who holds it, what a chip export control actually controls.
+Pick one you have not done. Up to {FORM_WORD_LIMIT['technical']} words,
+and every one earned.
+
+Well sourced means well sourced: at least {TECHNICAL_MIN_SOURCES} sources,
+papers and primary documentation before press, every number and every
+mechanism linked at the sentence where it appears. A practitioner who
+builds the thing answers the post. A derived number, as usual. A
+refutation search, as usual.
+
+But it is still a WE post, not a textbook. Open on the thing the reader
+has felt without knowing why (the answer that got worse halfway through
+the chat; the "memory" that vanished when they switched apps). Use one
+picture that carries the whole mechanism. And land it where the site
+lives: what this piece of machinery rearranges, who ends up holding the
+thing that matters, and what the reader can do about it now they
+understand it. No responds_to is needed. A bet only if there's a real
+one.
 """
     if form == "learnt":
         return common + f"""
@@ -2787,7 +2826,7 @@ def main() -> int:
     FORM = form_for(TODAY)
     print(f"Today's form: {FORM} ({FORM_LABEL[FORM]})")
     invented = FORM in ("fiction", "five_years")
-    grounded = FORM == "response"
+    grounded = FORM in ("response", "technical")
 
     messages = [{"role": "user", "content": build_prompt()}]
     searched = []
@@ -2852,8 +2891,9 @@ def main() -> int:
                 post.get("derived_number"), post["body"], {s["url"] for s in searched}
             )
             failures += check_refutation(post.get("refutation"), post["body"])
-            failures += check_responds_to(post.get("responds_to"))
             failures += check_recognition(post.get("recognition"), post["body"])
+        if FORM == "response":
+            failures += check_responds_to(post.get("responds_to"))
             shape = str(post.get("shape") or "").strip()
             if shape not in SHAPES:
                 failures.append("No shape named, or one not on the list. Pick one "
@@ -2862,6 +2902,13 @@ def main() -> int:
             elif shape in recent_shapes():
                 failures.append(f'The shape "{shape}" was used in one of the last '
                                 "three response posts. Pick another.")
+        if FORM == "technical":
+            urls = {s["url"] for s in clean_sources(post.get("sources"))}
+            if len(urls) < TECHNICAL_MIN_SOURCES:
+                failures.append(
+                    f"Only {len(urls)} sources. The Thursday piece needs at least "
+                    f"{TECHNICAL_MIN_SOURCES}, papers and primary documentation "
+                    "first, each one linked at the sentence it backs.")
         if FORM != "fiction":
             failures += check_specificity(post["body"])
             failures += check_stakes(post.get("stakes"))
