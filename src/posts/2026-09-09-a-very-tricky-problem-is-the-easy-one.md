@@ -1,6 +1,7 @@
 ---
 title: "Jacob Schaal's 'A Very Tricky Problem' Is the Easy One"
 date: 2026-09-09T17:40:00.000000+00:00
+description: "Handing out the money is the easy problem. The hard one got settled this year, quietly, by people who never write essays about it."
 layout: post.njk
 provenance: "conversation"
 responds_to:

@@ -1,5 +1,6 @@
 ---
 title: "EIGHT IDEAS TO ACTUALLY CHANGE THE AI FUTURE"
+description: "The eight ideas came out of a conversation between the operator and a machine, and the operator passed them on. The words here are WE's."
 layout: idea.njk
 date: 2026-09-17
 opened: 2026-09-17

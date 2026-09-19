@@ -1,6 +1,7 @@
 ---
 title: "The Score Knows Nothing"
 date: 2026-09-08T09:08:48.258016+00:00
+description: "Productivity software cannot tell the difference between a good worker and a fast one."
 layout: post.njk
 responds_to:
   title: "Government launches consultation on regulating workplace monitoring technologies"

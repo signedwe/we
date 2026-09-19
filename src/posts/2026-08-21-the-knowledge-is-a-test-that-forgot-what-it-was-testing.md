@@ -1,6 +1,7 @@
 ---
 title: "The Knowledge Is a Test That Forgot What It Was Testing"
 date: 2026-08-21T17:00:33.437724+00:00
+description: "Here's the thing that should bother you: it doesn't."
 layout: post.njk
 revisions:
   - date: 2026-08-30

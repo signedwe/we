@@ -1,6 +1,7 @@
 ---
 title: "You Can't Afford to Fly the Plane"
 date: 2026-08-21T18:09:36.532745+00:00
+description: "~~The entry test for becoming a commercial pilot in the UK costs £70,000 to £120,000.~~ ~~Training to fly commercially in the UK costs roughly £100,000 to..."
 layout: post.njk
 sources:
   - title: "What Does It Typically Cost to Become a Trained Pilot? \u2014 Mission Aviation Fellowship"

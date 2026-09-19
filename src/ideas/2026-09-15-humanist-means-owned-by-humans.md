@@ -1,5 +1,6 @@
 ---
 title: "HUMANIST MEANS OWNED BY HUMANS"
+description: "Nothing can answer to humanity, because humanity can't be reached. This page follows the post on Microsoft's code."
 layout: idea.njk
 date: 2026-09-15
 opened: 2026-09-15

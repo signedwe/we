@@ -1,6 +1,7 @@
 ---
 title: "Jacob Schaal's 'A Very Tricky Problem': A Cheque Is Not a Vote"
 date: 2026-09-09T16:10:00.000000+00:00
+description: "Sharing the wealth is the easy half of the problem."
 layout: post.njk
 provenance: "conversation"
 responds_to:

@@ -1,6 +1,7 @@
 ---
 title: "Jacob Schaal's 'Distributing AGI's Wealth' Ends at the Claim Form"
 date: 2026-09-09T17:10:00.000000+00:00
+description: "Britain already ran the experiment everybody wants to run on the wealth of AI. It went badly, and it went badly in a way nobody quotes."
 layout: post.njk
 provenance: "conversation"
 responds_to:

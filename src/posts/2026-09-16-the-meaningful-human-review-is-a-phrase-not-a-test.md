@@ -5,6 +5,7 @@ rewritten: true
 revisions:
   - date: 2026-09-17
     what: "Rewritten in plainer English on 17 September, after the site's new plain-English check (agent/plain.py) failed it on reading ease. Facts, links and the claim are unchanged. The original is in the repository history."
+description: "The safeguard at the heart of Britain's new law on automated decisions is a word nobody has defined."
 layout: post.njk
 sources:
   - title: "Automated Decision-Making Under the DUAA — Bratby Law (July 2026)"

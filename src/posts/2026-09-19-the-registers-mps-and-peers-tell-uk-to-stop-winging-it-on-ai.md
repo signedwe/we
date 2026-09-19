@@ -1,6 +1,7 @@
 ---
 title: "The Register's 'MPs and Peers Tell UK to Stop Winging It on AI Regulation' Has the Right Complaint and the Wrong Fix"
 date: 2026-09-19T11:36:42.110428+00:00
+description: "Britain built a laboratory to test the most dangerous computer programs in the world. This week the most dangerous one didn't come in. Nobody could make it."
 layout: post.njk
 rewritten: true
 revisions:

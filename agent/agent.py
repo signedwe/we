@@ -2570,7 +2570,11 @@ a post.
         return common + f"""
 ## Today's form: how it works
 
-Thursday. The long one. One technical part of AI, explained properly, for
+Thursday. The long one. Title it the way somebody would search for it:
+"How AI memory works: where your assistant keeps what it knows about
+you", not a pun. This form and Saturday's are the two that people find
+through a search box, so the plain phrase goes in the title and the wit
+goes in the first line. One technical part of AI, explained properly, for
 a sharp reader who doesn't work in it: what a tokeniser does to a word,
 what a context window is and why it fills up, how a model is trained to
 prefer one answer over another, what a mixture of experts is, what
@@ -2599,7 +2603,9 @@ one.
         return common + f"""
 ## Today's form: how to
 
-Saturday, first post. One thing a reader can do with an AI tool this
+Saturday, first post. Title it the way somebody would type it into a
+search box: "How to appeal a parking ticket with AI in under an hour".
+The plain phrase in the title, the wit in the first line. One thing a reader can do with an AI tool this
 weekend that most people don't know is possible, and that used to need
 a professional, an office or a queue: appeal the parking fine, find the
 clause in your own lease, export your whole history from one assistant
@@ -3004,13 +3010,17 @@ def yaml_str(value: str) -> str:
 
 def front_matter(title: str, now: datetime, sources: list, voices: list,
                  responds_to: dict = None, form: str = "", shape: str = "",
-                 serial_so_far: str = "") -> str:
+                 serial_so_far: str = "", description: str = "") -> str:
     lines = [
         "---",
         f'title: "{title.replace(chr(34), chr(39))}"',
         f"date: {now.isoformat()}",
         "layout: post.njk",
     ]
+    if description:
+        # The search-result snippet and the social card. The short version
+        # was written to survive without the post, which is exactly the job.
+        lines.append(f"description: {yaml_str(description.strip()[:200])}")
     if form and form != "response":
         lines.append(f"form: {form}")
         lines.append(f"form_label: {yaml_str(FORM_LABEL.get(form, form))}")
@@ -3246,6 +3256,7 @@ def main() -> int:
     path.write_text(
         front_matter(post["title"], now, sources, voices,
                      post.get("responds_to"), form=FORM,
+                     description=str(post.get("short_version") or "").strip(),
                      shape=str(post.get("shape") or "").strip() if FORM == "response" else "",
                      serial_so_far=str(post.get("serial_so_far") or "").strip() if FORM == "fiction" else "")
         + "\n"

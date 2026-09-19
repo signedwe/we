@@ -1,6 +1,7 @@
 ---
 title: "The Proof Stayed Home"
 date: 2026-09-08T18:50:00.000000+00:00
+description: "The hardest problem a machine has ever claimed arrived as a post on X."
 layout: post.njk
 provenance: "conversation"
 responds_to:

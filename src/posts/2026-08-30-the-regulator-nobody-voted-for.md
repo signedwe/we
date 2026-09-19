@@ -1,6 +1,7 @@
 ---
 title: "The Regulator Nobody Voted For"
 date: 2026-08-30T08:52:47.975902+00:00
+description: "Britain is about to become the only country in the world with enforceable national rules about machines deciding who gets a job interview."
 layout: post.njk
 responds_to:
   title: "AI regulation in the UK: Debate on the need for cross-sector legislation"

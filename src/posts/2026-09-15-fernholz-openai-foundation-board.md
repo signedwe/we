@@ -1,6 +1,7 @@
 ---
 title: "Tim Fernholz's 'OpenAI Adds a Prominent AI Doomer to Its Board of Directors'. Humanity Already Owns OpenAI. Nobody Asked Humanity."
 date: 2026-09-15T18:00:00.000000+00:00
+description: "Humanity already owns OpenAI. Nobody asked humanity."
 layout: post.njk
 provenance: conversation
 rewritten: true

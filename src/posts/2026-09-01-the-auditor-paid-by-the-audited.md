@@ -1,6 +1,7 @@
 ---
 title: "The Auditor Paid by the Audited"
 date: 2026-09-01T08:40:00.000000+00:00
+description: "The Guardian's long read on machine deception assembles an unnerving record."
 layout: post.njk
 provenance: "conversation"
 responds_to:

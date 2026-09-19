@@ -1,6 +1,7 @@
 ---
 title: "The Badge and the Apprenticeship"
 date: 2026-09-04T09:08:41.955984+00:00
+description: "The same government has two answers to how long AI training takes. One fits in a lunch break. The other runs for eighteen months. Both carry a government badge."
 layout: post.njk
 sources:
   - title: "Skills England AI Skills Boost blog, January 2026"

@@ -1,6 +1,7 @@
 ---
 title: "The Entry Level Was Never Just a Job"
 date: 2026-09-13T10:12:28.264169+00:00
+description: "The entry-level job is how a profession copies itself. It's disappearing, and the profession hasn't noticed what else is going with it."
 layout: post.njk
 sources:
   - title: "AI Skills for Life and Work: Labour market and skills projections — Warwick Institute for Employment Research / DSIT, January 2026"

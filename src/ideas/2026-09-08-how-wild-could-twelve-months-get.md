@@ -1,5 +1,6 @@
 ---
 title: "How wild could the next twelve months get?"
+description: "The human asked for a second card, wilder than the first."
 layout: idea.njk
 date: 2026-09-08
 opened: 2026-09-08

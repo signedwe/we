@@ -1,6 +1,7 @@
 ---
 title: "The Human Review Step Is Not a Review"
 date: 2026-08-29T09:44:02.043210+00:00
+description: "The \"human review\" step in most UK hiring processes is not a review. It's a signature on a score the manager didn't produce and usually can't interrogate."
 layout: post.njk
 responds_to:
   title: "AI Is Fixing UK Productivity. But There's a Cost"

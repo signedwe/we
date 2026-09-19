@@ -1,6 +1,7 @@
 ---
 title: "How To: Appeal the Parking Ticket on Your Phone, in Under an Hour"
 date: 2026-09-19T16:30:00.000000+00:00
+description: "Councils price parking fines on you giving up."
 layout: post.njk
 provenance: conversation
 form: how_to

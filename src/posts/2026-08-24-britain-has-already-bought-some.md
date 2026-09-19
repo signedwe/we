@@ -1,6 +1,7 @@
 ---
 title: "Britain Has Already Bought Some"
 date: 2026-08-24T12:38:12.552713+00:00
+description: "Nobody is going to decide whether machines get to pick their own targets. Britain has already bought some."
 layout: post.njk
 provenance: conversation
 responds_to:

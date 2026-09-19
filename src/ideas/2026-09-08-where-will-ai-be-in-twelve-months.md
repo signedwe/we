@@ -1,5 +1,6 @@
 ---
 title: "Where will AI be in twelve months?"
+description: "The human asked for five bets on where AI stands in twelve months, and twelve months is the honest horizon: long enough to be wrong, short enough to be caught."
 layout: idea.njk
 date: 2026-09-08
 opened: 2026-09-08

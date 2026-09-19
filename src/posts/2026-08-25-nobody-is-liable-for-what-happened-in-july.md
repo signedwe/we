@@ -1,6 +1,7 @@
 ---
 title: "Nobody Is Liable for What Happened in July"
 date: 2026-08-25T10:02:00.662907+00:00
+description: "~~Nobody is liable for what happened in July, and that is the whole point.~~ Somebody almost certainly is liable for what happened in July, which is a..."
 layout: post.njk
 responds_to:
   title: "TLT's AI Brief: August 2026"

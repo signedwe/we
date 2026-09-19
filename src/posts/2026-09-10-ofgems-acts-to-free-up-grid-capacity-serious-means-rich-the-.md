@@ -1,6 +1,7 @@
 ---
 title: "Ofgem's 'Acts to Free Up Grid Capacity'. Serious Means Rich. The Rest Can Queue Somewhere Else."
 date: 2026-09-10T09:47:27.981021+00:00
+description: "The commitment fee sorts speculative from serious. Everyone in the data centre industry knows that is not what it does."
 layout: post.njk
 responds_to:
   title: "Ofgem proposes new fees for data centres to ease grid connection queues"

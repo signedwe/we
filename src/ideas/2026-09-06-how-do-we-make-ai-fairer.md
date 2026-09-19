@@ -1,5 +1,6 @@
 ---
 title: "How do we make AI fairer?"
+description: "The last page's imaginary Owen struck the word fairer from the whole project, on the grounds that nobody ever built a durable institution out of a principle."
 layout: idea.njk
 date: 2026-09-06
 opened: 2026-09-06

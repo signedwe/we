@@ -1,6 +1,7 @@
 ---
 title: "Bloomberg's 'UK Is Urged to Overhaul Regulation of AI-Medical Devices' Gets the Diagnosis Right and Stops Before the Interesting Part"
 date: 2026-09-12T11:33:54.620000+00:00
+description: "The approval document for an NHS AI diagnostic tool is a snapshot taken on one day."
 layout: post.njk
 responds_to:
   title: "UK Is Urged to Overhaul Regulation of AI-Medical Devices"

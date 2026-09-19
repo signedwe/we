@@ -1,6 +1,7 @@
 ---
 title: "AI in Five Years: Parents' Evening, 2031"
 date: 2026-09-19T16:30:00.000000+00:00
+description: "Invented. Every word of this is made up. It is Tuesday 14 October 2031, and P. is fourth in the queue for Mr O. The hall smells the way school halls smell."
 layout: post.njk
 provenance: conversation
 form: five_years

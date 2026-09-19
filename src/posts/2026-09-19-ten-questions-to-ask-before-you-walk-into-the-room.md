@@ -1,6 +1,7 @@
 ---
 title: "Ten Questions to Ask Before You Walk Into the Room They Opened for You"
 date: 2026-09-19T16:30:00.000000+00:00
+description: "Three AI companies opened a room for the rest of us this week: a consultation, a foundation, an institute."
 layout: post.njk
 provenance: conversation
 form: top_ten
