@@ -244,8 +244,15 @@ def metrics(text: str) -> dict:
     }
 
 
-def check_plain(text: str) -> list:
+FICTION_LONGEST_MAX = 70   # a sentence in a story may run; a paragraph may not
+
+
+def check_plain(text: str, fiction: bool = False) -> list:
     """Every way the text fails to sound like a person. Empty means it passes.
+
+    Fiction keeps the word rules (seminar words, machine tells) and loses the
+    arithmetic: a story is allowed its long sentence and its rhythm. Only a
+    sentence that never ends fails it.
 
     A body gets the full numbers. A span under SHORT_SPAN words (a voice, a
     proposal) gets the loose ones. A span under TINY_SPAN words is only
@@ -270,6 +277,13 @@ def check_plain(text: str) -> list:
             "the sentence dies without it, the sentence had nothing in it."
         )
     if m["words"] < TINY_SPAN:
+        return out
+    if fiction:
+        if m["longest"] > FICTION_LONGEST_MAX:
+            out.append(
+                f"One sentence runs to {m['longest']} words. A story may run long; "
+                f"nothing over {FICTION_LONGEST_MAX}. Give it a full stop somewhere."
+            )
         return out
     short = m["words"] < SHORT_SPAN
     cmax = CONTRAST_MAX_SHORT if short else CONTRAST_MAX

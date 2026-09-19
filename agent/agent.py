@@ -1558,7 +1558,7 @@ def check_post(body: str, previous: list = None) -> list:
     """Every way this post breaks the brief. Empty list means it's clean."""
     failures = []
 
-    failures += check_plain(body)
+    failures += check_plain(body, fiction=(FORM == "fiction"))
 
     words = visible_words(body)
     limit = FORM_WORD_LIMIT.get(FORM, WORD_LIMIT)
@@ -2291,7 +2291,7 @@ SHAPES = (
     "a straight essay, the classic shape, only when the other shapes would get in the way",
 )
 
-FORM_WORD_LIMIT = {"fiction": 900, "learnt": 800, "technical": 1500}
+FORM_WORD_LIMIT = {"fiction": 1000, "learnt": 800, "technical": 1500}
 TECHNICAL_MIN_SOURCES = 6
 
 
@@ -2440,17 +2440,18 @@ refuse, who got the extra day, who holds the memory. A story, not an
 essay in costume: a scene, a want, a turn, an ending that lands. Under
 {FORM_WORD_LIMIT['fiction']} words.
 
-Write it like crime fiction, because that is what keeps people reading.
-A hook in the first sentence. A death, a danger or a secret inside the
-first hundred words. A person who wants one thing and can't have it.
-Somebody at the door by the end. The site's arrangements (who owns the
-assistant, who holds the memory, who can refuse) are the furniture the
-characters bump into, never the subject; nobody in the story explains
-one. The first instalment was first drafted as a night shift in a
-benefits office with a policy point in it, and the person running this
-called it terrible and boring. The rewrite, What the Kitchen Knew, is
-the standard: a dead man's voice from a kitchen speaker, a question the
-machine won't answer, and two sets of feet on the stairs.
+What it is, from the person running this: a love story about two people
+who are meant to be and aren't, written to the standard of a prize
+novel, with the machines uncanny in the background. The classic
+mistake, in his words, is to strain to make it about AI. So the
+assistants, the doors, the buses that wait, the dead who still text, are
+the weather of 2030, never the subject, and nobody in the story explains
+one. What the story is about is the two people: what they want, what
+they can't say, the two hundred metres nobody walks for them. Instalment
+one, Thursdays, is the standard: a bakery window, a swimming bag with a
+whale on it, a flat that forgets her when she asks it to. The plain
+English arithmetic is off for this form; the word rules stay. A sentence
+may run. A paragraph may not.
 
 It is a serial. Each week continues the last. Same person, or someone
 whose life crosses theirs; time moves on; what happened last week has
@@ -2461,9 +2462,10 @@ next instalment can pick it up.
 
 {story_so_far()}
 
-Rules for this form. No sources, no links, no responds_to, no derived
-number, no bet, no stakes field, no refutation. No voices unless one adds
-something a story can't. Real companies and real living people do not
+Rules for this form. Continue the love story; do not restart it, and do
+not turn it into a thriller or a policy scene. No sources, no links, no
+responds_to, no derived number, no bet, no stakes field, no refutation.
+No voices unless one adds something a story can't. Real companies and real living people do not
 appear as characters; the defamation gate applies to fiction as it does
 to everything else. Invented people get initials only (N., Mr O., her
 father), never a full name, because a made-up name can belong to

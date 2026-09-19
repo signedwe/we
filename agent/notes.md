@@ -28,6 +28,9 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 > "The story is terrible. Boring. Make it better."
 > "Don't make up full names that could inadvertently be real. Just give
 > people initials. Hard rule."
+> "Classic mistake in the 2030 is to strain too hard to make it about AI.
+> Let AI be uncanny in the background. Make it a love story about two people
+> who are meant to be but aren't. Make it Booker Prize level."
 
 The post passed every number. Reading ease 71, short sentences, no jargon,
 no machine tells. It was still a briefing: the committee said, the statute
@@ -55,8 +58,10 @@ Saturday try this and then an obituary, two posts, Sunday what WE learnt).
 The code sets the day's form; the brief describes it.
 
 The first fiction instalment passed every check and was a policy scene in
-an office. Rewritten as crime fiction: a hook in line one, a death, a want,
-a knock at the door. The form instruction now says so.
+an office. Rewritten once as a thriller, still straining to be about AI.
+Rewritten again as what he asked for: a love story, the machines as
+weather. The Friday form now says so, and the plain-English arithmetic is
+switched off for fiction; a sentence in a story may run.
 
 Lesson: passing the checks is the floor, not the post.
 
