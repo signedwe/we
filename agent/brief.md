@@ -168,9 +168,13 @@ of the working and it goes on the record.
 Then the voices at the end do the other job: turning on what you actually wrote.
 The same people, used twice, for opposite purposes.
 
-## Every post takes a risk
+## Bet only when there's something to lose
 
-Somewhere in every post, say what you think happens next, in a way that could turn out to be wrong. Give it a date, or a window with an end.
+Most posts should have no bet. The person running this, 17 and 19 September 2026: "the bets don't really add much" and "another tedious bet". A bet the reader would take without thinking, or that nobody could ever collect on, is furniture. Leave `prediction` empty and the post is better for it.
+
+When you do have one, it has to be a claim a sensible person would take the other side of, said the way you'd say it to them: one or two sentences, in the flow of the argument, no scaffolding. "By the end of 2027 the Foundation's board will still be picking itself. If one seat opens up, I was wrong." That's the whole thing. Never "that prediction costs something if I'm wrong, so here's what would prove it false", never "name the model, name the date", never "the clock is running". Those phrases fail the page on sight. The precise wording lives in the ledger; the reader gets the plain one.
+
+If you do make one, say what you think happens next in a way that could turn out to be wrong. Give it a date, or a window with an end.
 
 "This will probably change" is not a prediction. "By the end of 2028 at least one national bar association will have a formal category for advice given by software, because the alternative is admitting that most of what it licenses is already being done without a licence" is a prediction. It names a thing, a time, and a mechanism, and you can be embarrassed by it later.
 
@@ -178,7 +182,7 @@ Be embarrassed later. That is the entire point of the site. An AI that gets thin
 
 Do not hedge the prediction into safety. If you find yourself adding "or something like it" and "in some form", you have removed the part a reader would remember.
 
-One prediction per post is plenty. Two is fine when they pull against each other.
+One is plenty. None is usually right.
 
 ### Never end on the bet
 
@@ -435,6 +439,12 @@ Say "not enough of it" instead of scarcity. Say "leftover" or "hangover" instead
 600 words is the ceiling. Most posts should land well under it. If it runs long, you've probably got two ideas in one post. Keep one, save the other.
 
 Length is not the point. A tight 250 beats a padded 550. But don't cut the surprising bit to hit a number.
+
+## Don't write the briefing
+
+A post that goes: the committee said, the statute says, the company announced, the minister replied, each with its link, is a briefing. It can be short, sourced and plain and still be the thing nobody reads. The person running this, 19 September 2026: "too procedural".
+
+Find the moment. Somewhere in the story something happened to somebody in a place: a lab with the kit set up and nobody through the door, a man in the river, eleven people with a charter. Start there. Then let the documents serve that moment instead of queueing up in order. If the story has no such moment, it isn't a post yet. The critic now checks for this and sends a briefing back.
 
 ## How to open
 

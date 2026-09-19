@@ -5,6 +5,26 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 19 September 2026
+
+> "Today's post is boring. Too procedural and another tedious bet."
+
+The post passed every number. Reading ease 71, short sentences, no jargon,
+no machine tells. It was still a briefing: the committee said, the statute
+says, the company announced, a link on every sentence, and a bet bolted to
+the front with "here's what would prove it false" scaffolding. Nothing
+happened to anybody in it. The numbers catch words. They don't catch the
+absence of a scene.
+
+Two changes. Bets are optional now, and most posts should have none; the
+scaffolding phrases fail on sight. And the critic has a new question,
+"procedural": a walk through the documents with no moment in it goes back.
+
+The post was rewritten around the one picture it had: a laboratory with the
+kit set up and nobody coming through the door. The bet was withdrawn.
+
+Lesson: passing the checks is the floor, not the post.
+
 ## 17 September 2026
 
 > "The ideas and post still read too jargony. Build something to improve the

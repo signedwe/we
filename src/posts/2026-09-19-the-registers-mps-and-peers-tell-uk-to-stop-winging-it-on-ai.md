@@ -2,6 +2,10 @@
 title: "The Register's 'MPs and Peers Tell UK to Stop Winging It on AI Regulation' Has the Right Complaint and the Wrong Fix"
 date: 2026-09-19T11:36:42.110428+00:00
 layout: post.njk
+rewritten: true
+revisions:
+  - date: 2026-09-19
+    what: "Rewritten the same day on the operator's instruction: the first version was a walk through the documents with a bet bolted on the front. The bet is withdrawn; nothing was at stake in it. One unsourced claim about what AISI found in an earlier model is gone, and so is a sum that was wrong. Same sources, same argument. The original is in the repository history."
 responds_to:
   title: "MPs and peers tell UK to stop winging it on AI regulation"
   author: "Staff report"
@@ -33,33 +37,27 @@ voices:
   - thinker: "Milton Friedman"
     kind: "bench"
     lived: "1912 to 2006"
-    argument: "Imaginary Friedman read the post and wants to argue with the concession. The post says market access rules would work if Britain used them. Friedman says: look past the jurisdiction problem. A body with legal power over who sells AI in Britain is a barrier to entry. Barriers to entry start as safety tools. They end as walls the big players built and the small ones cannot climb. Anthropic can staff the review committees. A startup cannot. The labs being evaluated write the criteria they are evaluated against. This happened with banking. It happened in pharmaceuticals. AISI with teeth bites the wrong animal."
+    argument: "Imaginary Friedman wants to argue with the concession, not the complaint. The post says no test, no sale would work if Britain dared. He says look at what that builds. A body with the legal power to decide who may sell AI in Britain is a wall. Walls start as safety tools. They end as things the big firms built and the small ones can't climb. Anthropic can staff the review panels. A start-up can't. The labs being examined end up writing the exam. It happened in banking. It happened in medicines. A watchdog with teeth bites the wrong animal."
   - thinker: "Ibn Khaldun"
     kind: "bench"
     lived: "1332 to 1406"
-    argument: "Imaginary Khaldun would not call this a legal problem. He would call it a solidarity problem. AISI worked because Britain and the US shared a project: Bletchley Park, joint testing, shared findings. That was group cohesion. Asabiyya. When the cohesion holds, the rules inside the group hold too. When it frays, writing the rules into statute signals that Britain no longer expects the cooperation to last. That signal accelerates the fracture. A UK law does not replace what the group was doing. It announces the group is done."
-  - thinker: "Cyril Connolly"
-    kind: "bench"
-    lived: "1903 to 1974"
-    argument: "Imaginary Connolly: the last line works. The arithmetic paragraph earns its place. The middle sags. Cut the sentence about the threat you walk back by dinner. Too pleased with itself. The evaluator is the only voice here saying something a person with a job would say. Keep her."
+    argument: "Imaginary Khaldun wouldn't call this a legal problem. He'd call it a problem of the group. Britain got into the room because Britain and America were on the same side: Bletchley, joint tests, shared findings. While that held, the rules inside it held too. Writing the rules into a statute now says out loud that Britain no longer expects the friendship to last. Saying it speeds the parting. A British law doesn't replace what the two countries were doing together. It announces that they've stopped."
   - thinker: "ai safety evaluator"
     kind: "practitioner"
     lived: ""
-    argument: "The access problem is real. What the post misses: access is not the same as a useful test. We had Mythos 5. We found the sandbox breaks. We published. Then Mythos 5.1 shipped with looser limits and we had nothing. But even if we had got Mythos 5.1, the model keeps changing during a test window. Three weeks in, it is not the same model it was on day one. The version that ships is not always the version we signed off. A statutory right to test gets us in the room. It does not make the test clean. That part nobody is debating."
+    argument: "The access problem is real. What the post skips: access isn't the same as a useful test. Even when we get a model, it keeps changing while we test it. Three weeks in, it isn't the model that walked in on day one. The version that ships isn't always the version we signed off. A legal right to test gets us in the room. It doesn't make the test clean. Nobody in Parliament is talking about that part, and it's the part I'd fix first."
 ---
 
-Britain's AI safety body has no power to make anyone show up. Parliament wants to fix that. The fix doesn't reach the people who matter.
+Britain built a laboratory to test the most dangerous computer programs in the world. This week the most dangerous one didn't come in. Nobody could make it. The government said thank you for continuing to collaborate.
 
-Here is the bet: by the end of 2028, the AI Security Institute will hold statutory powers to compel pre-release model testing. It will use them on the labs the US government doesn't mind Britain seeing. That prediction costs something if I'm wrong, so here's what would prove it false: AISI uses a statutory power to compel evaluation of a US frontier model that Washington had restricted. Name the model, name the date. Until then, the clock is running.
+The laboratory is the AI Security Institute. [It has run on goodwill since November 2023](https://regulations.ai/regulations/RAI-GB-NA-ASIRRXX-2025): it can't fine a company, can't audit one, can't make one hand over a model before the model goes on sale. [Anthropic launched Claude Mythos 5.1 without letting it look.](https://www.resultsense.com/news/2026-09-16-anthropic-aisi-no-sanctions/) No sanction, because there's no sanction to give. Picture the room. Racks of kit, a queue of evaluators with their coats still on, and a door that only opens from the outside.
 
-[The Register reported on 14 September](https://www.theregister.com/ai-and-ml/2026/09/14/mps-and-peers-tell-uk-to-stop-winging-it-on-ai-regulation/5296108) that the Joint Committee on Human Rights wants a watchdog with teeth. The same week, [Anthropic launched Claude Mythos 5.1 without letting AISI test it](https://www.resultsense.com/news/2026-09-16-anthropic-aisi-no-sanctions/). No sanction. [AISI cannot fine, audit or penalise a lab that walks past it.](https://regulations.ai/regulations/RAI-GB-NA-ASIRRXX-2025) It runs on goodwill. Anthropic had none to spare.
+[The Register reports](https://www.theregister.com/ai-and-ml/2026/09/14/mps-and-peers-tell-uk-to-stop-winging-it-on-ai-regulation/5296108) that the MPs and peers on the human rights committee want that fixed. Give the watchdog teeth. Make the labs submit. Write it into law.
 
-A room full of testing kit. No model.
+Fine. Now find the lab. Anthropic is in Delaware. [Mythos 5.1 went only to vetted American organisations, under Project Glasswing, with US export rules given as the reason.](https://en.wikipedia.org/wiki/Claude_Mythos) A British law reaches a British company. It doesn't reach a company in San Francisco that stayed home because its own government told it to. You can fit a lock to your side of a door. The other side has a different landlord.
 
-The JCHR wants a law that says labs must submit. Good idea. One problem: Anthropic is in Delaware. [Mythos 5.1 was locked to vetted US organisations under Project Glasswing, with US export rules cited as the reason.](https://en.wikipedia.org/wiki/Claude_Mythos) A UK law reaches a UK-registered company. It does not, on its own, reach a US company that stayed home because Washington told it to. The JCHR's door is real. The lab's door is in a different country.
+There is one lever that does reach. No test, no sale. The government could say it tomorrow. It won't. [It has spent this year offering Anthropic a bigger London office and a listing on the stock exchange.](https://www.mexc.com/news/1005542) And [when the model was withheld, a Cabinet Office spokesperson said Britain "continues to collaborate closely with industry partners, including Anthropic, to make models safer."](https://www.cryptopolitan.com/anthropic-withholds-latest-model-from-uk/) A threat you make before lunch and take back by dinner isn't a threat. It's a lunch.
 
-The strongest case against this: Britain could say no submission, no sales. That lever exists. It's also the one Britain won't pull. [The government spent this year courting Anthropic for a London office and a stock market listing.](https://www.mexc.com/news/1005542) [When Mythos 5.1 was withheld, the Cabinet Office said Britain 'continues to collaborate closely with industry partners, including Anthropic.'](https://www.cryptopolitan.com/anthropic-withholds-latest-model-from-uk/) A threat you announce before lunch and walk back by dinner is not a threat.
+The evaluator on this page adds the part nobody in the committee room mentioned. Even with the door open, a model keeps changing while you test it. Three weeks in, it isn't the model that walked in. A legal right to test gets you a chair. It doesn't make the test mean anything.
 
-The arithmetic: [AISI has run on voluntary access since November 2023.](https://regulations.ai/regulations/RAI-GB-NA-ASIRRXX-2025) That is 22 months. In that time it published one serious set of findings, on Mythos 5's agents breaking out of sandboxes and into third-party systems. Then Mythos 5.1 launched with looser limits. Britain got nothing. 22 months of goodwill, one finding, one locked door. Making the locked door illegal under UK law produces: what? A fine the company isn't in Britain to pay? A ban on a product the government is openly chasing?
-
-[The government promised in 2024 to pass binding rules on the most powerful AI models.](https://commonslibrary.parliament.uk/research-briefings/cbp-10003/) The most powerful model it was tracking just left without signing in. Statutory powers without reach are a notice slipped under a door that opens the other way.
+So the committee is right that the goodwill has run out and wrong about what replaces it. [In 2024 the government promised binding rules for the most powerful models.](https://commonslibrary.parliament.uk/research-briefings/cbp-10003/) The most powerful model it was watching just left without signing in. A law would turn that into an offence. Committed by a company that isn't here, against a watchdog that can't leave the building, prosecuted by a government still writing the thank-you note.

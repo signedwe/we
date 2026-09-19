@@ -1210,10 +1210,9 @@ def check_prediction(prediction: str) -> list:
     """A claim about the future that cannot be checked is not a prediction."""
     prediction = (prediction or "").strip()
     if not prediction:
-        return [
-            "No prediction. Every post says what happens next, in a form that "
-            "could turn out wrong. Name a thing, a time and a mechanism."
-        ]
+        # No bet is allowed. A bet the reader would take without thinking
+        # is not a bet, and a post is better without one than with that.
+        return []
     if not DATED.search(prediction):
         return [
             f'The prediction has no date in it: "{prediction}" Give it a year '
@@ -1279,6 +1278,8 @@ def record_about(update, date: str, title: str) -> None:
 
 
 def record_prediction(prediction: str, due: str, title: str, date: str, url: str) -> None:
+    if not (prediction or "").strip():
+        return  # no bet in the post, nothing goes on the scoreboard
     rows = load_predictions()
     rows.insert(0, {
         "id": f"{date}-{len(rows) + 1}",
@@ -1846,6 +1847,8 @@ CRITIC_SCHEMA = """{
   "obvious_ending": true or false,
   "obvious_ending_because": "the last line, and the reason anybody would have written it. empty if it swerves",
   "over_explained": ["any place the post makes a point and then explains it, quote the redundant sentence"],
+  "procedural": true or false,
+  "procedural_because": "true if the post is a briefing: report, then rule, then report, a link every sentence, the documents walked through in order, and no moment where anything happens to anyone. say what it walks through. empty if there is a scene",
   "no_image": true or false,
   "no_image_because": "true if there is no picture in it a reader could see: no object, no room, no person doing a thing. say what the post is about instead of a picture. empty if there is one, and quote it",
   "no_joke": true or false,
@@ -1912,6 +1915,8 @@ First, before anything about the writing. Who cares? Name the person this happen
 Is it dull? Not imperfect, dull. Would anyone who is not paid to be here reach the end. Reserve dull for a piece with no reason to exist, and if that is the honest answer, say it.
 
 Then look specifically for the things that make prose lifeless even when the argument is good. Is there a single real image anywhere, something a reader could photograph, or is it abstract nouns end to end. Is there one line that is actually funny. Does the writer appear to want anything, or is the whole thing delivered at the same polite temperature from start to finish. Say which of these is missing, by name, and answer no_image and no_joke separately.
+
+Is it procedural? A post that walks the reader through the documents, the committee said, the statute says, the company announced, with a citation on every sentence and nobody ever doing anything in a place, is a briefing. It can be accurate, sourced and short and still be a briefing. Say what it walks through, and answer procedural.
 
 Then read it as somebody who has read a great deal of machine-written prose and is sick of it. Quote every sentence that gives the machine away: the tidy contrast (it isn't X, it's Y), the neat aphorism that shuts a paragraph, the list of three, the rhetorical question that sets up its own answer, the word no person says out loud. One of these can pass. A page built from them cannot, and the reader will stop trusting the site.
 
@@ -2001,6 +2006,15 @@ def critic_failures(verdict: dict) -> list:
         failures.append(
             f"Explaining your own point: {item} Cut it. The reader had it, "
             "and you just took it off them."
+        )
+
+    if verdict.get("procedural"):
+        failures.append(
+            "The critic calls it a briefing: "
+            f"{verdict.get('procedural_because') or '(no reason given)'} "
+            "Stop walking through the documents. Find the one moment where "
+            "something happened to somebody, start there, and make the "
+            "documents serve it. If there is no such moment, there is no post."
         )
 
     if verdict.get("no_image"):
@@ -2357,8 +2371,8 @@ JSON, in one piece, no preamble, no markdown fences:
   "title": "the post title",
   "body": "the full post in markdown, under {WORD_LIMIT} words, no title heading",
   "short_version": "under 280 characters, must survive without the post",
-  "prediction": "what happens next, with a date or a window, in a form that can be shown to be wrong",
-  "prediction_due": "YYYY-MM-DD, the day this can be settled",
+  "prediction": "what happens next, with a date or a window, in a form that can be shown to be wrong. Empty string if nothing is at stake: a bet the reader would take without thinking is not a bet, and most posts should have none",
+  "prediction_due": "YYYY-MM-DD, the day this can be settled. Empty if no prediction",
   "bet_already_happened": {{"searched": "the query you ran to find out whether your prediction has already come true",
                            "answer": "yes or no"}},
   "verdicts": [{{"id": "the id of a bet that has come due", "verdict": "right, wrong or too early", "note": "one line on what actually happened"}}],
@@ -2537,10 +2551,11 @@ def main() -> int:
         failures += check_voice_rotation(voices)
         failures += check_practitioner(post["body"], voices)
         failures += check_prediction(post.get("prediction"))
-        failures += check_prediction_placement(post.get("prediction"), post["body"])
-        failures += check_due_date(post.get("prediction_due"), TODAY)
+        if str(post.get("prediction") or "").strip():
+            failures += check_prediction_placement(post.get("prediction"), post["body"])
+            failures += check_due_date(post.get("prediction_due"), TODAY)
+            failures += check_bet_is_open(post.get("bet_already_happened"))
         failures += check_due_verdicts(post.get("verdicts"), TODAY)
-        failures += check_bet_is_open(post.get("bet_already_happened"))
         failures += check_derived_number(
             post.get("derived_number"), post["body"], {s["url"] for s in searched}
         )

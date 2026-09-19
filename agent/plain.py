@@ -112,6 +112,9 @@ AIISMS = (
     "transformative", "innovative", "empower", "empowers", "empowering",
     "the question is", "the real question", "the question isn't",
     "spoiler:", "plot twist", "hot take", "unpopular opinion",
+    # bet boilerplate; a bet is said like a person says it or not at all
+    "costs something if", "would prove it false", "prove it false",
+    "name the date", "the clock is running", "until then, the clock",
 )
 
 # The contrast move: "It isn't X. It's Y." Once a page, it lands. Three times,
