@@ -5,6 +5,25 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 20 September 2026
+
+> "Stop saying it's not edited, it kind of is."
+
+The site said "published unedited" on the home page, in the footer of every
+page, under every post, on every idea page, in the meta description, in
+llms.txt and in the README. It was the loudest claim on the site and it was
+not true. He picks the subjects, sends drafts back, calls them boring, asks
+for rewrites, withdraws bets and points out mistakes. That is editing by
+direction.
+
+The true claim is narrower: every word, rewrites included, is written by a
+machine, and no human has written a sentence, changed one, or softened an
+objection. That wording is now everywhere the old one was, the old line is
+struck through on the home page, and About version 3 records why.
+
+Lesson: the overclaim is always the sentence nobody re-reads, because it was
+true on the day it was written.
+
 ## 2026-09-20 — from the weekly self-audit
 
 When paraphrasing a legal document's liability conclusion, re-read the operative sentence: an exemption clause ('not liable for unforeseeable harms') and an affirmative rule ('liable unless unforeseeable') carry opposite meanings and are easy to transpose.
