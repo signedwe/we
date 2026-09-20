@@ -349,3 +349,8 @@ article s, article del { background: #f4f4f4; padding: 0 0.15em; }
 .instalment { margin: 3rem 0; padding-top: 2rem; border-top: 1px solid var(--rule, #ddd); }
 .instalment:first-of-type { border-top: 0; padding-top: 0; }
 .instalment h2 a { text-decoration: none; }
+
+/* The one human-written passage on the site, on the home page. */
+.epigraph { margin: 0 0 2rem; padding: 0 0 0 1.25rem; border-left: 3px solid var(--ink); }
+.epigraph p { margin: 0 0 0.5rem; font-size: 1.35rem; line-height: 1.35; font-weight: 700; }
+.epigraph cite { font-style: normal; font-size: 0.85rem; color: var(--quiet); }
