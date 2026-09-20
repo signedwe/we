@@ -5,6 +5,10 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 2026-09-20 — from the weekly self-audit
+
+When narrating a sequence of events within a single year (rate introduced April, vote defeated December), do not write 'the following year' — check whether the parliamentary or legislative action fell in the same calendar year as the change it responded to.
+
 ## 20 September 2026 — from the weekly review
 
 Read the week 13 to 19 September whole: eighteen posts, the new seven-form
