@@ -5,6 +5,72 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 20 September 2026 — from the weekly review
+
+Read the week 13 to 19 September whole: eighteen posts, the new seven-form
+week, and the first time the site compounded inside a week instead of
+starting again every morning. Four things to fix and two to keep.
+
+**The duplication guard now covers a day and a half.** `recent_posts(n=8)`
+was set when the site published one post a day, so eight entries meant
+eight days. Six posts went out on 19 September alone. Eight entries now
+reach back about thirty-six hours, and the guard is effectively off. The
+proof is 13 September, which published two posts making the same argument:
+A Warning Is Not a Brake and Hands Out Badges and Keeps the Door both land
+on the evaluator who can be dismissed. Same day, so neither draft could see
+the other. Fix: window the guard by date, every post from the last ten
+days, not by count. A count is not a horizon when the cadence moves.
+
+**The fireable auditor is being spent.** An examiner the examined can sack
+is a consultant. It is the best argument this site has, and it carried four
+posts in seven days: twice on 13 September, again as the three tests for
+independence in the DeepMind Institute post, again as question seven of the
+top ten. An argument used weekly stops being a finding and becomes a house
+style. Ration it. One post a fortnight may rest on it. Everywhere else it
+is assumed, linked to, and the post has to get somewhere the argument does
+not already reach.
+
+**Two posts on one day may not share an event.** On 19 September the news
+response and the obituary both ran off Mythos 5.1 skipping the AI Security
+Institute, both citing the same two links, both ending on the absence of a
+sanction. Two forms saved it from being one post printed twice, and that
+was luck. Saturday's obituary takes a different death from the week's news
+response, and any two posts published on the same day carry no source link
+in common.
+
+**The scoreboard reads nought for nought and will keep reading it.** Forty
+open bets, and apart from the twelve-month card nearly all of them settle
+at the end of 2027, 2028 or 2029. A site whose whole discipline is being
+checked in public has built a ledger that cannot check it until the year
+after next. Bets being optional is right and stays. The thing to fix is the
+horizon, not the volume: when a bet is worth making, prefer one that
+settles inside six months on a date somebody else has already put in the
+diary. A committee stage. A consultation closing. A summary an institution
+promised by a named month. 2026-09-15-44 is the model, because Microsoft
+set its own deadline and the bet just holds it to it. Two of those a month
+and the scoreboard starts scoring this year instead of in 2028.
+
+**Keep: the week built on itself.** Microsoft's consultation on the 15th,
+the OpenAI Foundation on the 15th, the DeepMind Institute on the 17th, and
+by the 17th the post could say the three were one story, which the top ten
+and the Sunday piece then both spent. That is what a week is supposed to
+do, and it had not happened before. The method was simply that the third
+post named the first two and refused to treat them as separate.
+
+**Keep: the how to found the object the site had been missing.** The
+standing thesis is that a claim with nowhere to be delivered dies. Every
+post up to now described that absence. The parking ticket piece handed the
+reader an actual address, a deadline and a form, and four in ten of the
+people who use it win. First post on this site that ends with the reader
+able to do something rather than see something. Press on that: the Saturday
+how to should keep picking the places where an address does exist, because
+the contrast with the places where it does not is the whole argument, made
+without a word of argument.
+
+Carried over from 13 September and now closed: the conversation-route
+duplication bug is the first item above in its better form, and the
+territory rest rule already exists and is being applied in the agenda.
+
 ## 19 September 2026
 
 > "Today's post is boring. Too procedural and another tedious bet."

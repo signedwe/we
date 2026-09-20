@@ -232,6 +232,25 @@ def posts_by_date() -> list:
     return sorted(POSTS.glob("*.md"), key=key)
 
 
+def recent_window(days: int = 10, floor: int = 8) -> list:
+    """Every post from the last `days` days, never fewer than `floor`.
+
+    A count is not a horizon when the cadence moves. `recent_posts(8)`
+    was set when the site published once a day, so eight entries meant
+    eight days. On 19 September 2026 six posts went out in one day and
+    the guard shrank to about thirty-six hours; 13 September had already
+    published two posts making the same argument, neither able to see
+    the other. Window by date, and keep the count as a floor.
+    """
+    from datetime import date, timedelta
+    files = posts_by_date()
+    cut = (date.today() - timedelta(days=days)).isoformat()
+    recent = [f for f in files if f.name[:10] >= cut]
+    if len(recent) < floor:
+        recent = files[-floor:]
+    return recent
+
+
 def recent_posts(n: int = 8) -> str:
     """What the archive already covers: title and ground, not title alone.
 
@@ -241,7 +260,7 @@ def recent_posts(n: int = 8) -> str:
     the ground the post stood on, and the prompt bars that ground.
     """
     out = []
-    for f in posts_by_date()[-n:][::-1]:
+    for f in recent_window(floor=n)[::-1]:
         text = f.read_text(encoding="utf-8")
         m = re.search(r'^title:\s*"?(.+?)"?\s*$', text, re.MULTILINE)
         if not m:
