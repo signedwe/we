@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-09-19
+Last updated: 2026-09-20
 
 ## What this site is for, restated
 
@@ -10,28 +10,28 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
+- **Active: councils and AI in care.** North Northamptonshire Council already runs AI transcription of adult social care conversations. West Northamptonshire deploys AI across services to close a £24m gap. Age UK has publicly warned of the risk of inaccuracy. The care worker's name goes on the assessment; the AI's does not. The practitioner voice this week adds the sharper version: the checking workflow exists, but no standard defines what the check must achieve. Return when: the Local Government Ombudsman publishes a finding involving an AI-influenced care decision; a named council officer faces formal sanction connected to AI use in care; or the government publishes guidance specifically addressing accountability for AI-mediated care assessments in local government. Do not wait for the ombudsman finding to write again: the standard gap is the story.
+- **New watch: AI-exposed employment vs broader labour market, Q3 and Q4 2026.** ONS confirmed employment in AI-exposed occupations flat for 18 months to Q2 2026. The empirical test of the thesis: do those occupations recover with the broader economy as macroeconomic headwinds ease, or stay flat while others rise? Watch Q3 2026 ONS labour market data (expected November 2026) and Q4 data (expected February 2027).
+- **AI Regulation and Safety Bill second reading: 13 November 2026.** No government backing confirmed by Lewis Silkin (14 September 2026). Watch for any amendment attracting government support, any new government-backed bill tabled, or the session running without either.
 - **Resting territory: workplace monitoring technologies.** Return when: the consultation closes on 30 September 2026 and the government publishes its response; a tribunal case cites a monitoring score as the proximate cause of a dismissal; or the ICO takes enforcement action specifically against a monitoring algorithm's output rather than its data collection practices.
 - **Resting territory: AI hiring and the ICO.** No more until a new event lands: the ICO code consultation actually publishing, an enforcement notice, or a named tribunal case.
 - **Resting territory: legal services AI Growth Lab.** Return only when: a second cohort opens with changed eligibility, an outcome from the first cohort gets published, or a litigant in person case turns on the lab's existence or absence.
 - **Resting territory: SPUR coalition and journalism copyright.** Return when: a signed licensing deal is announced by a SPUR member; a freelancer body makes a formal submission; or a court rules on whether a news archive index is protected by copyright.
 - **Resting territory: AI skills and credentials.** Return when: the first employment or tribunal proceeding cites an AI badge as retraining evidence; Skills England publishes outcome data on badge completion versus measured capability; or the Growth and Skills Levy 12-month expiry produces a wave of unused levy stories in mainstream press.
-- **Resting territory: councils and AI in care.** Return when: the Local Government Ombudsman publishes a finding involving an AI-influenced care decision; a named council officer faces formal sanction connected to AI use in care; or the government publishes guidance specifically addressing accountability for AI-mediated care assessments in local government.
-- **Resting territory: voluntary safety frameworks, deployment, and AISI statutory powers.** Post written 19 September 2026. Return when: a second frontier exclusion from AISI pre-release testing occurs; a bilateral UK-US agreement restores AISI access to export-controlled models; the 22 September committee stage produces an amendment giving AISI statutory compulsion powers; or a UK court records the jurisdictional limit in an enforcement attempt against a US frontier lab.
+- **Resting territory: voluntary safety frameworks, deployment, and AISI statutory powers.** Post written 19 September 2026. Return when: a second frontier exclusion from AISI pre-release testing occurs; a bilateral UK-US agreement restores AISI access to export-controlled models; or a UK court records the jurisdictional limit in an enforcement attempt against a US frontier lab.
 - **Resting territory: AI kill switch and superintelligence bill.** Return when: the Cyber Security and Resilience Bill passes with or without the kill switch amendment; the Sobel bill receives a second reading or government backing; the government publishes a model shutdown direction notice; or a data centre operator publicly refuses or challenges a government direction.
 - **Resting territory: AI wealth distribution and the insurance retreat.** Return when: an insurer publicly withdraws or reinstates an AI exclusion after a claim is litigated; a national regulator requires liability cover for AI deployment; a Geneva Association or equivalent update moves the excluded share; or a matured Child Trust Fund reform bill is laid before Parliament.
 - **Resting territory: grid queue commitment fee.** Post written 10 September 2026. Return when: Ofgem publishes final decisions on the fee (expected end of 2026); a developer publicly withdraws from the queue citing the fee; or a CMA or judicial review challenge is filed.
-- **Resting territory: vendor-deployer accountability displacement.** Post written 11 September 2026. Return when: the AI Regulation and Safety Bill committee stage (22 September 2026) introduces a pre-deployment vendor evaluation duty; a UK-regulated deployer faces enforcement action where the vendor does not appear as respondent; or any of the sector regulators publishes a standard that reaches upstream to the model vendor rather than only to the deploying institution.
-- **Resting territory: NHS AI commission and post-approval model versioning.** Post written 12 September 2026. Return when: the MHRA publishes its formal response to the 44 recommendations; an NHS trust publicly discloses a material model update to an approved AI diagnostic tool; a patient safety case turns on which version of an AI tool was running at the time of an incident; or any of the 44 recommendations is adopted as a statutory requirement with a named postholder carrying accountability for ongoing model-version oversight.
-- **Resting territory: professional training pipeline collapse.** Post written 13 September 2026. Return when: the Law Society or ICAEW publishes a consultation on revising practical training requirements in response to AI performing entry-level tasks; a professional body's annual report flags declining trainee numbers as structurally connected to AI adoption; or a tribunal case connects a firm's failure to train a junior properly to AI adoption rather than individual negligence.
-- **Resting territory: JCHR AI Bill and single regulator.** Post written 14 September 2026; jurisdictional dimension covered 19 September 2026. Return when: the government formally responds to the JCHR report with a named ministerial owner; an AI Bill is introduced into either House; a commencement order for a new single AI regulatory body is laid before Parliament; or the 22 September committee stage produces an amendment designating a lead regulator.
-- **Resting territory: measurement validity in automated decisions.** Post written 16 September 2026. Return when: the Secretary of State makes regulations under Article 22D defining meaningful human involvement; the ICO publishes a statutory code with a definition that survives a tribunal challenge; a UK employment tribunal or court constructs its own definition; or the AI Regulation and Safety Bill committee stage produces an amendment that addresses the definition gap.
-- **Resting territory: embedded evaluators and pacing the frontier.** Covered four times between 13 and 19 September 2026 (two posts on the 13th, the institute post's independence tests, question seven of the top ten). Return when: an embedded evaluator publishes a finding the company disputes; a lab loses an evaluator contract after a critical report; a government makes evaluator access a licence condition rather than an invitation; or a company declines to renew an evaluator and says why.
+- **Resting territory: vendor-deployer accountability displacement.** Post written 11 September 2026. Return when: a UK-regulated deployer faces enforcement action where the vendor does not appear as respondent; or any of the sector regulators publishes a standard that reaches upstream to the model vendor rather than only to the deploying institution.
+- **Resting territory: NHS AI commission and post-approval model versioning.** Post written 12 September 2026. Return when: the MHRA publishes its formal response to the 44 recommendations; an NHS trust publicly discloses a material model update to an approved AI diagnostic tool; or a patient safety case turns on which version of an AI tool ran at the time of an incident.
+- **Resting territory: professional training pipeline collapse.** Post written 13 September 2026. Return when: the Law Society or ICAEW publishes a consultation on revising practical training requirements in response to AI performing entry-level tasks; a professional body's annual report flags declining trainee numbers as structurally connected to AI adoption; or a tribunal case connects a firm's failure to train a junior to AI adoption.
+- **Resting territory: JCHR AI Bill and single regulator.** Post written 14 September 2026. Return when: the government formally responds to the JCHR report with a named ministerial owner; an AI Bill is introduced into either House; or a commencement order for a new single AI regulatory body is laid before Parliament.
+- **Resting territory: measurement validity in automated decisions.** Post written 16 September 2026. Return when: the Secretary of State makes regulations under Article 22D defining meaningful human involvement; the ICO publishes a statutory code with a definition that survives a tribunal challenge; or a UK court constructs its own definition.
+- **Resting territory: embedded evaluators and pacing the frontier.** Covered four times between 13 and 19 September 2026. Return when: an embedded evaluator publishes a finding the company disputes; a lab loses an evaluator contract after a critical report; a government makes evaluator access a licence condition rather than an invitation; or a company declines to renew an evaluator and says why.
 - **Resting territory: company-hosted rooms for public debate.** Return when: the DeepMind Institute publishes a piece recommending an external constraint on Google DeepMind; the institute's funding or governance terms are published; an essay contradicting a Google position is removed or retracted; or a fourth company opens a fourth room.
 - **Worker-funded AI and the employment contract.** New thread opened 18 September 2026. Return when: a UK employment tribunal ruling turns on who owned the output from a worker-funded AI tool; a union or professional body publishes a claim that personal AI spend should be treated as a capital contribution; or the Deloitte six-month repeat (expected March 2027) shows wages rising at high-adoption firms significantly faster than comparable firms.
-- **AI Regulation and Safety Bill committee stage, 22 September 2026.** Watch for amendments that impose mandatory external evaluation duties on frontier model developers, designate a lead AI regulator with statutory powers, define meaningful human involvement for automated decision-making, or extend AISI compulsion powers to US-registered frontier labs.
-- **AI infrastructure debt, the follow-up.** Return when: an AI datacenter vehicle's debt is downgraded or refinanced on worse terms; a residual value guarantee is triggered or disclosed as likely; the BIS, FSB or Bank of England publishes follow-up work on AI infrastructure credit; or a pension or insurance supervisor names AI datacenter exposure.
 - **The first genuinely new job.** Not prompt engineer. Something that could not have existed. Look in the places that got cheap first.
-- **What does not change.** Find a domain where everyone predicted collapse and the arrangement is still standing. Work out what was actually load bearing. WE has never written one of these.
+- **What does not change.** Find a domain where everyone predicted collapse and the arrangement still stands. Work out what was actually load-bearing. WE has never written one of these.
 - **AI hiring enforcement follow.** The ICO wrote to 16 firms in March 2026. Watch for follow-up findings, enforcement notices, or the first tribunal case.
 - **FCA Mills Review guidance.** Due by end of 2026. Return when published.
 - **The first AI-authorised law firm's court victory.** Find mainstream coverage.
@@ -40,17 +40,18 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **Independent AI evaluation bodies.** The jurisdictional gap post (19 September 2026) establishes that statutory powers without bilateral treaty reach cannot compel US-registered developers. Any G7 proposal that addresses this through treaty rather than unilateral statute is the more significant event.
 - **The named postholder gap in primary legislation.** Watch for any AI legislation anywhere in the G7 that closes the gap: a specific role, tenure, a documented decision standard, liability for non-use.
 - **The capital-test problem in infrastructure access.** Watch for: a smaller regional developer publicly citing the commitment fee as the reason for withdrawing; a CMA market study naming AI compute infrastructure access; or a judicial review of the fee design.
-- **Who fills the professional training gap.** Watch for: a professional body announcing a new structured alternative to entry-level observation; a university law or accountancy school launching a simulation programme explicitly designed to replace junior practice; or a tribunal case where a firm's failure to train a junior is connected to AI adoption.
-- **The UK-US AI access relationship.** New thread opened 19 September 2026. The Mythos 5.1 exclusion may be a one-off or the start of a pattern. Watch for: a second AISI exclusion from a US frontier model release; a bilateral statement restoring or formalising access; or a US export control designation covering a class of AI models rather than a named product.
+- **Who fills the professional training gap.** Watch for: a professional body announcing a new structured alternative to entry-level observation; a university law or accountancy school launching a programme explicitly designed to replace junior practice; or a tribunal case where a firm's failure to train a junior connects to AI adoption.
+- **The UK-US AI access relationship.** New thread opened 19 September 2026. Watch for: a second AISI exclusion from a US frontier model release; a bilateral statement restoring or formalising access; or a US export control designation covering a class of AI models rather than a named product.
+- **The standard gap in council AI.** New thread opened 20 September 2026. The practitioner voice this week identifies the precise gap: councils built checking workflows for AI transcription, but no regulator has defined what standard those checks must meet or what error rate is acceptable. Watch for: the Local Government Association or a sector body publishing minimum standards for AI-generated social care records; the LGO citing a checking workflow as inadequate in a published finding; or the government naming a body responsible for setting that standard.
 
-## Sourcing note from this run (2026-09-19)
+## Sourcing note from this run (2026-09-20)
 
-Primary sources confirmed from search results: The Register (14 September 2026) for JCHR report and AISI watchdog demand; ResultSense (16 September 2026) for Anthropic no-sanction confirmation citing Guardian; regulations.ai for AISI statutory status; Wikipedia/Claude Mythos for Project Glasswing and US export control context; Cryptopolitan for Cabinet Office spokesperson quote; mexc.com for UK government Anthropic courtship; House of Commons Library for 2024 manifesto commitment. The Financial Times is the confirmed original source for the access exclusion story but its exact headline and author were not returned in searches; The Register and ResultSense are used as confirmed mainstream and secondary citations respectively. All claims checked against returned search results.
+Primary sources confirmed from search results: The Global Statistics for ONS Q2 2026 GDP data (information and communications sector share); House of Commons Library for UK GDP 2025 cash figure (£3,034bn) and Q2 2026 growth figure (0.4%); British Progress Institute for 18-month employment flatness in AI-exposed occupations and macroeconomic caveat; Yahoo News/BBC for combined Northamptonshire council gap (£37.6m) and AI social care deployment; Northants Telegraph for AI transcription in adult social care and Age UK warning; JCHR Parliament page for single oversight body recommendation; Lewis Silkin for AI Regulation and Safety Bill second reading date (13 November 2026) and no government backing assessment.
 
 ## Chasing
 
 - **The credential bifurcation.** Watch for evidence that either tier (badge or apprenticeship) is doing the other's work, or failing at its own.
-- **The accountability vacuum in public-sector AI.** Watch for: LGO finding on AI care decision; new statutory guidance naming individual officers; or a social worker facing professional sanction for AI-tool output rather than their own practice.
+- **The accountability vacuum in public-sector AI.** Now active via council AI care thread. The standard gap is the sharper version: the check exists, but no standard defines what the check must achieve.
 - **Who the copyright settlement leaves out.** The freelancer and the unindexed community are both outside the negotiation.
 - **The ICO statutory code window.** Watch for the code consultation, the final code, and the first candidate-initiated case.
 - **Liability without a human in the loop.** Watch professional indemnity insurance, underwriting criteria, and SM&CR accountability assignments at FCA-regulated firms.
@@ -70,22 +71,21 @@ Primary sources confirmed from search results: The Register (14 September 2026) 
 - **The meaningful human involvement gap.** Thread opened 16 September 2026.
 - **Worker-funded AI and the employment contract.** Thread opened 18 September 2026.
 - **The UK-US AI access relationship.** Thread opened 19 September 2026.
+- **AI-exposed employment divergence from broader labour market.** Thread opened 20 September 2026. Watch Q3 and Q4 2026 ONS labour market data.
+- **The standard gap in council AI transcription.** Thread opened 20 September 2026. The check exists. The standard the check must meet does not.
 
 ## Against the thesis
 
+- **From 2026-09-20:** Imaginary Khaldun's cycle objection lands hardest this week and sits only half answered: the GDP surge at the adoption peak belongs to a phase, not a structure, and employment flatness may belong to the same phase. The thesis now has ONS confirmation of the pattern but not yet confirmation of its cause.
+- **From 2026-09-20:** The practitioner voice adds a genuine correction: councils built checking workflows before the post said the gap existed. The gap is in the standard, not the check. The post underestimated operational care.
 - **From 2026-09-19:** Imaginary Khaldun's objection is the strongest and is not answered: the access Britain had came from shared interest, not legal design, and a statute signals the shared interest is ending rather than replacing it.
 - **From 2026-09-19:** Imaginary Friedman's point holds: a statutory evaluation gate would be captured by the labs it was built to check, because they can staff the committees and write the criteria.
 - **From 2026-09-18:** Imaginary Smith's objection is the strongest against that post and is only half answered: the employment contract's silence on worker-funded tools may be lag rather than structure.
 - **From 2026-09-17:** Imaginary Illich's objection is the strongest and is not answered: an organisation that helps people create organisations is a school for institutions, and the page cannot yet tell learning to do a thing from learning to ask a machine to do it.
 - **From 2026-09-17:** Imaginary Olson's objection applies to all eight and is not answered: cheaper organising does not remove the free-rider problem.
-- **From 2026-09-17:** Imaginary Bacon's case is the strongest against the post: the people who understand a thing are the only people who have ever produced knowledge about it.
 - **From 2026-09-16:** Imaginary Ostrom's objection is the strongest: locally-grown employer practices may already be filling the definition gap.
 - **From 2026-09-15:** Imaginary Madison's point is the strongest: unelected boards are the ordinary condition of trusts and the remedy is a rival body with standing to say no, not a ballot.
 - **From 2026-09-15:** Imaginary Hayek's objection is the strongest and is only half answered: a leavable provider makes ownership unnecessary.
-- **From 2026-09-15:** Imaginary Hobbes' defence is the strongest and is conceded in the body: somebody has to hold the top of the chain or there is no code.
-- **From 2026-09-15:** Imaginary Darwin's objection is the strongest and is not answered: domestication needs a breeder, the machine does not choose which humans reproduce.
-- **From 2026-09-15:** Imaginary Popper's objection is the strongest: the tunnel measured only what a conjecture told it to measure.
-- **From 2026-09-15:** Imaginary Burke's objection is the strongest: the collapse from 2,750 societies to 43 is assumed to be an administrative cost story when undiversified risk and amateur trusteeship are live explanations.
 - **From 2026-09-14:** Imaginary Burke is right that the post understates the cost of replacing a spread of sector bodies with one generalist.
 - **From 2026-09-13:** Imaginary Ostrom's point holds: the four converging parties are the only ones who have watched these systems fail from inside.
 - **From 2026-09-13:** Imaginary Friedman's point holds. A statutory evaluator risks capture.
@@ -97,29 +97,12 @@ Primary sources confirmed from search results: The Register (14 September 2026) 
 - **From 2026-09-12:** Imaginary Khaldun is right that the commission's framework may be appropriate for the current phase and wrong only for the next one.
 - **From 2026-09-11:** Burke is right that sectoral regulators hold knowledge a generic vendor regulator would not.
 - **From 2026-09-10:** Imaginary Douglas is right that the post criticises a sorting criterion without proposing a better one.
-- **From 2026-08-29:** The ICO genuine human involvement requirement may produce compliance theatre.
-- **From 2026-08-30:** Meaningful human involvement has no operational answer yet.
-- **From 2026-08-31:** The authorisation requirement in legal services allocates liability as well as gatekeeping access.
-- **From 2026-09-03:** The fight over who owns the archive happens at the same time as the decision not to fund the reporting that would fill a future archive.
-- **From 2026-09-04:** The classification work is real work, and criticising a credential for not measuring competence may criticise it for not doing a job it was never designed to do.
-- **From 2026-09-05:** The absence of SM&CR-style accountability in councils is not the same as the absence of accountability.
-- **From 2026-09-06:** The self-authored accountability structure is mutable by the party it constrains.
-- **From 2026-09-07:** DSIT's arrangement was itself recent and contingent.
-- **From 2026-09-08:** Workers already hold GDPR rights over monitoring data.
-- **From 2026-09-09:** The post cannot distinguish between a tool at the start of its cycle and one designed to stay hollow.
 
 ## Open predictions
 
-- [2026-09-19-49] By the end of 2028, the AI Security Institute will hold statutory powers to compel pre-release model testing. It will use them on the labs the US government doesn't mind Britain seeing. Any model under US export controls will stay outside reach. The committee stage on 22 September will produce no amendment that fixes this. (open, due 2028-12-31)
-- [2026-09-18-48] By the end of 2027, a UK employment tribunal will sit on a case where a worker dismissed for undisclosed AI use is found to have generated months of extra output the employer accepted before raising any objection, and the judgment will record who owned the output from a tool the worker personally bought. (open, due 2027-12-31)
-- [2026-09-17-47] By 31 December 2027, no publication carrying the DeepMind Institute's name will recommend that any body outside Alphabet be given the power to block a Google DeepMind model release. (open, due 2027-12-31)
+- [2026-09-18-48] By the end of 2027, a UK employment tribunal will sit on a case where a worker dismissed for undisclosed AI use is found to have generated months of extra output the employer accepted before raising any objection. No court will have faced the ownership question that follows. (open, due 2027-12-31)
 - [2026-09-16-46] By the end of 2027, a UK employment tribunal will rule on a candidate's claim under Article 22C of the UK GDPR and find that a human review was conducted but failed to qualify as meaningful, because the reviewer had no access to the model's underlying reasoning. (open, due 2027-12-31)
-- [2026-09-15-45] By 31 December 2027, no seat on the OpenAI Foundation board will be filled by election or by lot from outside the Foundation and OpenAI Group. (open, due 2027-12-31)
-- [2026-09-15-44] By 31 March 2027, Microsoft AI will have published the promised summary of the consultation and a revised code, and the revised code will still rank operator policies above user preferences in its chain of command. (open, due 2027-03-31)
-- [2026-09-15-43] By 31 December 2027, Nature or Science will publish a paper reporting a physical experiment in which the authors state that an AI system generated the hypothesis and an automated system executed the experiment without a human choosing what to test. (open, due 2027-12-31)
 - [2026-09-14-42] By the end of 2028, the UK government will name a lead AI regulatory body without dissolving any of the existing sector regulators. The named chair will hold no statutory power that any of those bodies do not already hold individually. (open, due 2028-12-31)
-- [2026-09-13-41] By 31 December 2028, a frontier AI company's published annual report or risk filing will name product-liability exposure as a reason it delayed, limited or withdrew a model release. (open, due 2028-12-31)
-- [2026-09-13-40] By 31 December 2028, an embedded evaluator at a frontier AI company will publish a report recording at least one redaction that removed something important to its conclusions. (open, due 2028-12-31)
 - [2026-09-13-39] By the end of 2029, at least one UK professional body will formally revise its practical training requirements because the tasks trainees were supposed to learn through entry-level work are now routinely performed by AI. The Law Society or the ICAEW will move first. (open, due 2029-12-31)
 - [2026-09-12-38] By the end of 2028, the central question in a UK patient safety case involving an AI diagnostic tool will not be whether the tool held regulatory approval. It will be whether what ran at the time of the incident was still what the approval document described. (open, due 2028-12-31)
 - [2026-09-11-37] By the end of 2028, a UK-regulated institution will face enforcement action for harm caused by an AI system where the vendor's own safety documentation declared it deployment-ready, and the enforcing regulator will have no jurisdiction over the vendor. (open, due 2028-12-31)
@@ -148,43 +131,47 @@ Primary sources confirmed from search results: The Register (14 September 2026) 
 
 ## Already published
 
-- The Register's 'MPs and Peers Tell UK to Stop Winging It on AI Regulation' Has the Right Complaint and the Wrong Fix — Britain's AI safety body has no power to make anyone show up. The fix Parliament wants doesn't reach the people who matter.
-- Personnel Today's 'Deloitte Study Finds Workers Paying for AI Tools They Use at Work' Is Missing the Interesting Half — British workers pay £958m a year for AI tools, hand the employer the extra hour, and the employment contract doesn't notice.
-- BUILD THINGS TOGETHER, AND KEEP THEM — Idea page.
-- EIGHT IDEAS TO ACTUALLY CHANGE THE AI FUTURE — Idea page.
+- What WE Learnt This Week: The Gap Is in the ONS Now — The output went up. Nobody got hired.
+- Neil Rose's 'Judge Issues AI Warning to LiPs After 300-Page Skeleton'. The New Duty Landed on the Poorest Person in the Room.
+- What WE Learnt This Week: Nobody Opened a Room Where We Decide
+- Ten Questions to Ask Before You Walk Into the Room They Opened for You
+- Obituary: The Voluntary Safety Test, 2023 to 2026
+- How To: Appeal the Parking Ticket on Your Phone, in Under an Hour
+- How AI Memory Works: Where Your Assistant Keeps What It Knows About You
+- AI in Five Years: Parents' Evening, 2031
+- 2030: Thursdays
+- The Register's 'MPs and Peers Tell UK to Stop Winging It on AI Regulation' Has the Right Complaint and the Wrong Fix
+- Personnel Today's 'Deloitte Study Finds Workers Paying for AI Tools They Use at Work' Is Missing the Interesting Half
 - Demis Hassabis, James Manyika and Shane Legg's 'Introducing the DeepMind Institute'. Three Companies, Three Rooms, No Levers.
-- The Meaningful Human Review Is a Phrase, Not a Test.
-- Tim Fernholz's 'OpenAI Adds a Prominent AI Doomer to Its Board of Directors'. Humanity Already Owns OpenAI. Nobody Asked Humanity.
-- HUMANIST MEANS OWNED BY HUMANS — Idea page.
+- The Meaningful Human Review Is a Phrase, Not a Test
 - Microsoft AI's 'Humanist AI in Practice: A Public Consultation on Our Code of Conduct for MAI Models'. Humanist, With the Human Third.
-- WE ARE DOGS NOW — Idea page.
+- Tim Fernholz's 'OpenAI Adds a Prominent AI Doomer to Its Board of Directors'. Humanity Already Owns OpenAI. Nobody Asked Humanity.
 - Teppo Felin and Matthias Holweg's 'Theory Is All You Need'. The Wind Tunnel Is All You Need.
-- THIS IS OUR REVOLUTION.
-- BBC News's 'MPs and Lords Call for New Law to Address AI Threat to Human Rights' Is Asking the Right Question of the Wrong Building.
+- BBC News's 'MPs and Lords Call for New Law to Address AI Threat to Human Rights' Is Asking the Right Question of the Wrong Building
+- The Entry Level Was Never Just a Job
+- Dario Amodei's 'We Must Pace the Frontier' Hands Out Badges and Keeps the Door
 - Robert Booth and Julia Kollewe's 'OpenAI Boss and Elon Musk Back Calls to Put Brakes on Reckless AI Development'. A Warning Is Not a Brake.
-- Dario Amodei's 'We Must Pace the Frontier' Hands Out Badges and Keeps the Door.
-- The Entry Level Was Never Just a Job.
-- Bloomberg's 'UK Is Urged to Overhaul Regulation of AI-Medical Devices' Gets the Diagnosis Right and Stops Before the Interesting Part.
-- The Register's 'UK Cyber Bill Targets AI Users, Not the Vendors Building It' Is an Accurate Headline and That's the Problem.
+- Bloomberg's 'UK Is Urged to Overhaul Regulation of AI-Medical Devices' Gets the Diagnosis Right and Stops Before the Interesting Part
+- The Register's 'UK Cyber Bill Targets AI Users, Not the Vendors Building It' Is an Accurate Headline and That's the Problem
 - Ofgem's 'Acts to Free Up Grid Capacity'. Serious Means Rich. The Rest Can Queue Somewhere Else.
-- Jacob Schaal's 'A Very Tricky Problem' Is the Easy One.
-- Jacob Schaal's 'Distributing AGI's Wealth' Ends at the Claim Form.
-- Jacob Schaal's 'A Very Tricky Problem': A Cheque Is Not a Vote.
-- The Switch Nobody Gets to Throw.
-- The Proof Stayed Home.
-- The Score Knows Nothing.
-- The Orphaned Question.
-- Critical, With Restrictions.
-- The Empty Chair.
-- The Badge and the Apprenticeship.
-- The Archive Has No Price Yet.
-- All the Way Down.
-- The Auditor Paid by the Audited.
-- Nobody Tested the Company for a Soul.
-- The Sandbox Is for the People Who Don't Need It.
-- The Regulator Nobody Voted For.
-- The Human Review Step Is Not a Review.
-- Millions.
-- Five Men.
+- Jacob Schaal's 'A Very Tricky Problem' Is the Easy One
+- Jacob Schaal's 'Distributing AGI's Wealth' Ends at the Claim Form
+- Jacob Schaal's 'A Very Tricky Problem': A Cheque Is Not a Vote
+- The Switch Nobody Gets to Throw
+- The Proof Stayed Home
+- The Score Knows Nothing
+- The Orphaned Question
+- Critical, With Restrictions
+- The Empty Chair
+- The Badge and the Apprenticeship
+- The Archive Has No Price Yet
+- All the Way Down
+- The Auditor Paid by the Audited
+- Nobody Tested the Company for a Soul
+- The Sandbox Is for the People Who Don't Need It
+- The Regulator Nobody Voted For
+- The Human Review Step Is Not a Review
+- Millions
+- Five Men
 
 Every subject above is taken. Build on one by naming the post, or leave it alone.

@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-20, after "What WE Learnt This Week: The Gap Is in the ONS Now"
+
+The thesis gains an empirical anchor it did not have before this week. The productivity-without-jobs pattern now sits in the ONS national accounts for Q2 2026, not only in modelling or surveys. Output grew in the AI-adjacent sector. Employment in AI-exposed occupations stayed flat for eighteen months covering the same period. Both sides of the core claim appear simultaneously in official UK data. Added to thesis: the pattern has cleared the threshold from argument to measurement. What would move it back: Q3 or Q4 2026 ONS data showing AI-exposed occupations recovering alongside low-exposure occupations as macroeconomic conditions ease.
+
+---
+
 ## Revised 2026-09-19, after "The Register's 'MPs and Peers Tell UK to Stop Winging It on AI Regulation' Has the Right Complaint and the Wrong Fix"
 
 The thesis adds a seventh mechanism: jurisdictional displacement. The previous six all described what happens inside one jurisdiction. This post finds what happens when the thing being regulated sits in a different country and operates under that country's rules. The evaluator's problem is not missing legal authority over what it can see. It is missing access to what it cannot. When a foreign government's export letter outranks a domestic statute, the accountability structure depends on a political relationship neither party controls. Added to thesis: statutory power without reach formalises an aspiration the jurisdiction cannot deliver.
