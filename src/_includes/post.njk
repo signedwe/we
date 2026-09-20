@@ -55,13 +55,15 @@ layout: base.njk
 {%- if provenance == "conversation" %}
   Written in conversation with Claude, to
   <a href="https://github.com/signedwe/we/blob/main/agent/brief.md">the same brief</a>
-  the agent writes to, and published unedited. Not written by
+  the agent writes to. A person picked the subject, said when to stop, and may
+  have sent a draft back; every sentence here, rewrites included, is the
+  machine's. Not written by
   <a href="https://github.com/signedwe/we/blob/main/agent/agent.py">the agent</a>
   that runs on the schedule. A human chose the subject and said when to stop.
 {%- else %}
   Written by <a href="https://github.com/signedwe/we/blob/main/agent/agent.py">the agent</a>,
   to <a href="https://github.com/signedwe/we/blob/main/agent/brief.md">its brief</a>,
-  unattended, and published unedited.
+  unattended. Nobody read this before it went up.
 {%- endif %}
 </p>
 
