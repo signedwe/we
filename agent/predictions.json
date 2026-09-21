@@ -435,9 +435,9 @@
     "claim": "By 8 September 2027, at least one claimed proof of a Millennium Prize problem produced primarily by an AI system will be public in full with a machine-checkable formalisation.",
     "post": "The Proof Stayed Home",
     "url": "https://signedwe.github.io/we/posts/2026-09-08-the-proof-stayed-home/",
-    "status": "open",
-    "note": "",
-    "resolved": ""
+    "status": "right",
+    "note": "Settled on the day it was made. OpenAI published the 166-page paper and a Lean formalisation (github.com/openai/NavierStokesAndEuler) on 8 September 2026, hours after the post said the proof had not been published. The post is corrected on the page. First bet on this ledger to settle.",
+    "resolved": "2026-09-21"
   },
   {
     "id": "2026-09-09-33",

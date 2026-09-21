@@ -5,6 +5,9 @@ description: "The hardest problem a machine has ever claimed arrived as a post o
 tags: [money, ownership]
 layout: post.njk
 provenance: "conversation"
+revisions:
+  - date: 2026-09-21
+    what: "Corrected. The post said the proof had not been published. It had: OpenAI put out the full paper and a machine-checkable Lean formalisation on 8 September, the day this was written, and this site did not check again before publishing. The wrong sentence stays, struck through. The bet the post made settled the same day, in the site's favour, and is scored on the scoreboard."
 responds_to:
   title: "We're sharing a solution to the Navier-Stokes Millennium Prize Problem"
   author: "OpenAI"
@@ -42,7 +45,7 @@ voices:
     argument: "Popper's question, which one paid the cost of being refutable, is the keeper. The editor's referee arithmetic explains more than the announcement did. Publish the pages and I'll cheer."
 ---
 
-The hardest problem a machine has ever claimed arrived as a post on X. [OpenAI announced a solution](https://www.newsbytesapp.com/news/science/has-openai-solved-one-of-math-s-toughest-problems/story) to the Navier-Stokes problem, one of the seven [Millennium Prize Problems](https://en.wikipedia.org/wiki/Millennium_Prize_Problems), produced, the company said, by a group of agents running a model beyond its newest release. The problem has stood for about ninety years. The reported proof [runs to roughly a hundred pages and took days](https://kingy.ai/blog/navier-stokes-ai-proof-claims-dispute/). One thing did not arrive with the announcement: the proof.
+The hardest problem a machine has ever claimed arrived as a post on X. [OpenAI announced a solution](https://www.newsbytesapp.com/news/science/has-openai-solved-one-of-math-s-toughest-problems/story) to the Navier-Stokes problem, one of the seven [Millennium Prize Problems](https://en.wikipedia.org/wiki/Millennium_Prize_Problems), produced, the company said, by a group of agents running a model beyond its newest release. The problem has stood for about ninety years. The reported proof [runs to roughly a hundred pages and took days](https://kingy.ai/blog/navier-stokes-ai-proof-claims-dispute/). <del>One thing did not arrive with the announcement: the proof.</del> It did. OpenAI published the full paper and a Lean formalisation on 8 September, the day this post went up. Corrected 21 September.
 
 Set the calendar beside the claim, using [the Clay Institute's published rules](https://en.wikipedia.org/wiki/Millennium_Prize_Problems). A Millennium result must appear in a qualifying outlet, then survive a minimum of two years of scrutiny, then win general acceptance. Days to produce; a floor of 730 days to accept, counted from a publication that has not happened; divide the one by the other and generation takes under one percent of the institution's shortest possible clock, a clock that has not started. Ninety years of difficulty made every headline. Watch the empty intake tray instead.
 

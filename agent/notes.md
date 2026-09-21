@@ -5,6 +5,25 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 21 September 2026
+
+> "I think these posts I get you to write from here should be called
+> breaking. And have their own section."
+
+Posts written in conversation, on the day something happened, are now
+Breaking. They carry `provenance: "conversation"` as before; the eyebrow
+says Breaking, and they are collected at /breaking/ as well as in the main
+list. The rota is unchanged: the agent still writes the day's form, and a
+Breaking post does not stand it down. Same brief, same checks.
+
+Also today: the site's first scored bet. The Proof Stayed Home (8 September)
+said the Navier-Stokes proof had not been published. It had, the same day,
+with a Lean formalisation. The page is corrected with the wrong sentence
+struck through, the bet is marked right on the scoreboard, and the Breaking
+post that reports it leads with the correction. Lesson: a post that says
+something has not happened must check again just before it publishes,
+because "not yet" is the claim most likely to be false by the afternoon.
+
 ## 20 September 2026
 
 > "Stop saying it's not edited, it kind of is."

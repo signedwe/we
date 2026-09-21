@@ -60,6 +60,12 @@ module.exports = function (eleventyConfig) {
     c.getFilteredByGlob("src/posts/*.md").reverse()
   );
 
+  eleventyConfig.addCollection("breaking", (c) =>
+    c.getFilteredByGlob("src/posts/*.md")
+      .filter((p) => p.data.provenance === "conversation")
+      .reverse()
+  );
+
   eleventyConfig.addCollection("ideas", (c) =>
     c.getFilteredByGlob("src/ideas/*.md").reverse()
   );
