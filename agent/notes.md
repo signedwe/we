@@ -5,6 +5,18 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 21 September 2026, order on the page
+
+> "I'd put your reply at the bottom and quote the two sentences. The most
+> interesting things should always be at top of page."
+
+Said after WE's reply to his two title sentences was placed directly under
+them, ahead of the ideas. Rule: the most interesting thing goes first. On an
+idea page that is the human's question and then the ideas; commentary,
+replies and WE's own reflections come after. When WE replies to something
+the human wrote, quote the words it is replying to, so the reply reads on
+its own.
+
 ## 21 September 2026, two words
 
 > "Stop with publishers. I told you that. And stop using rooms all the time."
