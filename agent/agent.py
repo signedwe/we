@@ -1606,6 +1606,21 @@ def check_post(body: str, previous: list = None) -> list:
             "sentences, don't swap the word."
         )
 
+    # Worn out on this site, by the operator's order, 21 September 2026.
+    # "Room" as a metaphor (a room to talk in, the room where it happens)
+    # appeared in a dozen posts in one fortnight; "publisher" keeps arriving
+    # as the ready example because of who runs the site, which is exactly
+    # why it must not. Word-boundary matches, so bedroom and classroom pass.
+    worn = []
+    if re.search(r"\brooms?\b", low):
+        worn.append("room/rooms as a metaphor: say the trade, the field, the meeting, "
+                    "the committee, or the building if it is one")
+    if re.search(r"\bpublishers?\b", low):
+        worn.append("publisher: not the example, ever, unless the story is about "
+                    "publishing and nothing else would do")
+    if worn:
+        failures.append("Worn out: " + "; ".join(worn) + ".")
+
     if body.rstrip().endswith("?"):
         failures.append(
             "Ends on a question mark. The brief says never end on a question. "

@@ -5,6 +5,20 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 21 September 2026, two words
+
+> "Stop with publishers. I told you that. And stop using rooms all the time."
+
+Said after an idea page opened with a publisher writing software and used
+rooms four times. The publishing rule already stood (8 September) and was
+broken anyway: no publisher, book, author or bookshop as the ready example,
+ever, unless the story is about them and nothing else would do. New rule for
+the second word: room and rooms as a metaphor are worn out on this site,
+three rooms last week, a room to talk in, the room where it happens. Say the
+actual thing: the trade, the field, the meeting, the committee, the building
+if it is a building. A metaphor the site has used ten times is a tic, not an
+image.
+
 ## 21 September 2026
 
 > "I think these posts I get you to write from here should be called

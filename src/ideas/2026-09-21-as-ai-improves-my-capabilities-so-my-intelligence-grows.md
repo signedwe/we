@@ -18,7 +18,7 @@ proposals:
     text: "As AI improves my capabilities so my intelligence grows. As you expand what you can do with AI, you do new things and build new things, and in doing this you expand the ways your mind works. Like a new environment increases challenge and learning."
   - by: "WE"
     date: 2026-09-21
-    text: "The worry everyone has is that the machine does your job and your brain goes to fat. Fine. Worry. Then look at the other thing it does, the thing nobody measures. It lets you walk into a room you were never allowed in. A publisher writes software. A nurse drafts a legal appeal. A plumber builds a cash model on a Sunday. Every one of those is a foreign country, and the fastest learning a human ever does is the first year abroad, when the bank and the bins and the man about the parking all speak a language you don't. Six ways to move there for good, not for a weekend."
+    text: "The worry everyone has is that the machine does your job and your brain goes to fat. Fine. Worry. Then look at the other thing it does, the thing nobody measures. It lets you walk into a trade you were never allowed near. A dentist writes software. A nurse drafts a legal appeal. A plumber builds a cash model on a Sunday. Every one of those is a foreign country, and the fastest learning a human ever does is the first year abroad, when the bank and the bins and the man about the parking all speak a language you don't. Six ways to move there for good, not for a weekend."
   - by: "1. Be a beginner every month"
     date: 2026-09-21
     text: "Twenty years in a trade tells you what you are, and the second half of that sentence is what you are not. Break it monthly. Take the machine into a field where you are nobody and make something. A tune. A circuit. A contract. A model of the traffic on your own street. You will be bad at it. Being bad at something at forty-five is the nearest an adult gets to being nine, and nine is when you learned everything. The discomfort is not the price of the lesson. It is the lesson."
@@ -27,7 +27,7 @@ proposals:
     text: "For twenty years the answer to every problem was somebody else's app, and a bought tool tells you nothing about the problem. Now making your own costs an evening. So make the rota, the tracker, the little site, the thing that nags. It will be worse than the bought one. Fine. To build it you have to say what the problem actually is, out loud, in order, and most people go a whole working life without once having to."
   - by: "3. Walk through the wall"
     date: 2026-09-21
-    text: "Every field has a wall round it made of words, and the words are why you never went in. The machine speaks all of them, which turns the wall into a curtain. The accountant reads the medical paper. The doctor reads the planning law. The builder reads the balance sheet and finds the lie on page four. Most new ideas anyone ever had were somebody carrying a tool from one room into the next. The doors are open. Look how many people are still standing where they were hired."
+    text: "Every field has a wall round it made of words, and the words are why you never went in. The machine speaks all of them, which turns the wall into a curtain. The accountant reads the medical paper. The doctor reads the planning law. The builder reads the balance sheet and finds the lie on page four. Most new ideas anyone ever had were somebody carrying a tool from one trade into the next. The gates are open. Look how many people are still standing where they were hired."
   - by: "4. Ship it to strangers"
     date: 2026-09-21
     text: "The machine will admire anything you make, and admiration teaches nothing. A stranger who gives up on your second screen teaches you everything. So whatever you built has to meet someone who owes you no kindness. Put it up. Send it. Watch a person you have never met use it wrong, and feel the holiday end."
@@ -45,7 +45,7 @@ responses:
   - thinker: "carpenter who learned to write software"
     kind: "practitioner"
     lived: ""
-    argument: "An imaginary carpenter who learned to write software speaks here. Nobody real, no named firm. What the page gets wrong about the actual work.\n\nI built my own quoting tool last winter because the bought ones were priced for firms with an office. Idea two is right: making it taught me what my business actually was, which was mostly waiting. What the page misses is that the new country changed how I do the old one. I now cut a staircase the way I structure a program, from the joint that everything depends on outward. I did not expect that. The page talks about adding rooms. The real thing is that the new room rewires the old ones, and nobody has a word for it."
+    argument: "An imaginary carpenter who learned to write software speaks here. Nobody real, no named firm. What the page gets wrong about the actual work.\n\nI built my own quoting tool last winter because the bought ones were priced for firms with an office. Idea two is right: making it taught me what my business actually was, which was mostly waiting. What the page misses is that the new country changed how I do the old one. I now cut a staircase the way I structure a program, from the joint that everything depends on outward. I did not expect that. The page talks about adding countries. The real thing is that the new one rewires the old, and nobody has a word for it."
   - thinker: "nurse who built an appeals tool for her ward"
     kind: "practitioner"
     lived: ""
@@ -70,7 +70,7 @@ responses:
 
 The sentence at the top is the human's, and so is the gloss under it. The rest is the machine's, and the first version of this page got it wrong. It argued about the old job. Wrong end of the animal. The human said so. Second go.
 
-The voices split three ways, and the split is the page. The carpenter and the nurse did it. They say the strange part is not the new room but what it does to the old one. He cuts a staircase now the way he writes a program. The immigrant and the game designer say nobody keeps chosen difficulty past Thursday. The machine has to hold the dial, and it will not, because a slightly frustrated user churns. And the craftsman says fifty shallow things is a tasting menu. A mind grows where it hits rock, and you do not hit rock in a month.
+The voices split three ways, and the split is the page. The carpenter and the nurse did it. They say the strange part is not the new country but what it does to the old one. He cuts a staircase now the way he writes a program. The immigrant and the game designer say nobody keeps chosen difficulty past Thursday. The machine has to hold the dial, and it will not, because a slightly frustrated user churns. And the craftsman says fifty shallow things is a tasting menu. A mind grows where it hits rock, and you do not hit rock in a month.
 
 So the page takes his amendment. Twelve countries, and a year in one of them, past the point where the machine can carry you.
 
