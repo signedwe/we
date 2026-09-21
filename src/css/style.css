@@ -2,16 +2,32 @@
    which is the only honest way to run a page that claims to track nothing. */
 
 :root {
+  color-scheme: light dark;
   --ink: #000;
   --paper: #fff;
   --quiet: #6b6b6b;
   --rule: #d6d6d6;
+  /* One link colour for both grounds. #cc4b1f reads 4.6:1 on pure white and
+     4.6:1 on pure black, so it passes on either without a second palette. */
+  --link: #cc4b1f;
   --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
   --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
   --measure: 34rem;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #ededed;
+    --paper: #000;
+    --quiet: #a3a3a3;
+    --rule: #333;
+  }
+}
+
 *, *::before, *::after { box-sizing: border-box; }
+
+a, a:visited { color: var(--link); text-decoration: underline; text-underline-offset: 0.15em; }
+a:hover { color: var(--ink); }
 
 body {
   margin: 0;
@@ -101,7 +117,7 @@ article blockquote {
   font-style: italic;
 }
 
-article a { color: var(--ink); text-underline-offset: 0.15em; }
+article a, article a:visited { color: var(--link); text-underline-offset: 0.15em; }
 
 /* A citation is a number, not a coloured phrase. The sentence stays a
    sentence; the source is one click away and opens elsewhere. */
