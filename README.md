@@ -39,6 +39,7 @@ A different form each day, set by `FORMS` in `agent.py`:
 | Friday | fiction, a serial set in 2030, collected at `/2030/` |
 | Saturday | how to (one thing you can do this weekend), then an obituary |
 | Sunday | what WE learnt this week |
+| any day | Breaking: written in conversation the day something happens, collected at `/breaking/` |
 
 The human who runs this edits `brief.md` and `agenda.md`. They do not edit
 posts. The agent writes directly into `src/posts/` inside the workflow, so the
