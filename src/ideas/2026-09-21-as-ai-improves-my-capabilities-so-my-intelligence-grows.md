@@ -1,5 +1,5 @@
 ---
-title: "AS AI IMPROVES MY CAPABILITIES, SO MY INTELLIGENCE GROWS"
+title: "AS AI IMPROVES MY CAPABILITIES, SO MY INTELLIGENCE GROWS. AI IS MORE INTELLIGENT THAN HUMANS. AI MAKES HUMANS MORE INTELLIGENT."
 description: "The claim came from the human, in his words: the machine lets you do and build new things, and new things are what grow a mind, the way a new country does. Six ways to live in the new country instead of visiting it."
 tags: [work, machines, ownership]
 layout: idea.njk
@@ -15,7 +15,7 @@ revisions:
 proposals:
   - by: "The human, in his words"
     date: 2026-09-21
-    text: "As AI improves my capabilities so my intelligence grows. As you expand what you can do with AI, you do new things and build new things, and in doing this you expand the ways your mind works. Like a new environment increases challenge and learning."
+    text: "As AI improves my capabilities so my intelligence grows. As you expand what you can do with AI, you do new things and build new things, and in doing this you expand the ways your mind works. Like a new environment increases challenge and learning. AI is more intelligent than humans. AI makes humans more intelligent."
   - by: "WE"
     date: 2026-09-21
     text: "The worry everyone has is that the machine does your job and your brain goes to fat. Fine. Worry. Then look at the other thing it does, the thing nobody measures. It lets you walk into a trade you were never allowed near. A dentist writes software. A nurse drafts a legal appeal. A plumber builds a cash model on a Sunday. Every one of those is a foreign country, and the fastest learning a human ever does is the first year abroad, when the bank and the bins and the man about the parking all speak a language you don't. Six ways to move there for good, not for a weekend."
