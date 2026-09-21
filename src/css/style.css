@@ -44,7 +44,7 @@ main, .masthead, footer { max-width: var(--measure); margin-inline: auto; }
   color: var(--ink);
 }
 
-.masthead nav { display: flex; gap: 1.25rem; }
+.masthead nav { display: flex; flex-wrap: wrap; gap: 0.6rem 1.25rem; }
 
 .masthead nav a,
 .eyebrow,
