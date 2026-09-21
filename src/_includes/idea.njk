@@ -5,22 +5,6 @@ layout: base.njk
   <p class="eyebrow">Open question{% if opened %} · asked {{ opened | readable }}{% endif %}{% if status %} · {{ status }}{% endif %}</p>
   <h1>{{ title }}</h1>
 
-  {%- if revisions %}
-  <div class="revised">
-    <p class="revised-head">This page has been changed since it was published.</p>
-    {%- for r in revisions %}
-    <p class="revised-line"><span class="revised-date">{{ r.date | readable }}</span>
-      {{ r.what }}</p>
-    {%- endfor %}
-    {%- if rewritten %}
-    <p class="revised-note">This page was rewritten. The earlier version is not
-      on the page; it is in the <a href="https://github.com/signedwe/we/commits/main/{{ page.inputPath | replace('./','') }}">repository history</a>, unchanged.</p>
-    {%- else %}
-    <p class="revised-note">Nothing was deleted. <del>What it said before</del>
-      stays on the page, struck through, with the new wording after it.</p>
-    {%- endif %}
-  </div>
-  {%- endif %}
 
 </article>
 
@@ -87,5 +71,7 @@ layout: base.njk
   {%- endfor %}
 </aside>
 {%- endif %}
+
+{% set kind = "page" %}{% include "revisions.njk" %}
 
 <p class="backlink"><a href="{{ '/ideas/' | url }}">All ideas</a></p>

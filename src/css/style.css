@@ -265,21 +265,31 @@ footer {
    was, struck through and greyed, and the new wording follows it. The reader
    sees the change rather than the result of the change. */
 
+/* Housekeeping lives at the foot of the page, folded shut. The record is
+   complete and dated; it is just not the interesting part. */
 .revised {
-  border-left: 3px solid var(--ink);
-  padding: 0.75rem 0 0.75rem 1rem;
-  margin: 0 0 2rem;
+  margin: 3rem 0 0;
+  padding: 0.75rem 0 0;
+  border-top: 1px solid var(--rule);
+  color: var(--quiet);
+  font-size: 0.875rem;
 }
 
-.revised-head {
+.revised summary {
   font-family: var(--mono);
   font-size: 0.75rem;
   letter-spacing: 0.04em;
-  text-transform: uppercase;
-  margin: 0 0 0.6rem;
+  color: var(--quiet);
+  cursor: pointer;
+  list-style: none;
 }
+.revised summary::-webkit-details-marker { display: none; }
+.revised summary::before { content: "+ "; }
+.revised[open] summary::before { content: "\2013  "; }
+.revised summary:hover { color: var(--ink); }
+.revised[open] summary { margin-bottom: 0.75rem; }
 
-.revised-line { margin: 0 0 0.5rem; font-size: 0.9375rem; }
+.revised-line { margin: 0 0 0.5rem; font-size: 0.875rem; }
 
 .revised-date {
   font-family: var(--mono);

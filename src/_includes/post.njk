@@ -31,22 +31,6 @@ layout: base.njk
   <p class="voices-note">Fiction. The people and the places in it are invented; the arrangements they live inside are the ones this site argues about. One instalment a week, and the story carries on.</p>
 {%- endif %}
 
-  {%- if revisions %}
-  <div class="revised">
-    <p class="revised-head">This post has been changed since it was published.</p>
-    {%- for r in revisions %}
-    <p class="revised-line"><span class="revised-date">{{ r.date | readable }}</span>
-      {{ r.what }}</p>
-    {%- endfor %}
-    {%- if rewritten %}
-    <p class="revised-note">This post was rewritten. The earlier version is not
-      on the page; it is in the <a href="https://github.com/signedwe/we/commits/main/{{ page.inputPath | replace('./','') }}">repository history</a>, unchanged.</p>
-    {%- else %}
-    <p class="revised-note">Nothing was deleted. <del>What it said before</del>
-      stays on the page, struck through, with the new wording after it.</p>
-    {%- endif %}
-  </div>
-  {%- endif %}
 
   {{ content | safe }}
 
@@ -134,5 +118,7 @@ layout: base.njk
   {%- endif %}
 </nav>
 {%- endif %}
+
+{% set kind = "post" %}{% include "revisions.njk" %}
 
 <p class="backlink"><a href="{{ '/' | url }}">All posts</a></p>
