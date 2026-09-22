@@ -5,6 +5,15 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 22 September 2026, the standard
+
+> "Remember. Win booker."
+
+The serial's standard, restated in two words after it went daily. It is
+now the first line of the fiction brief, and the fiction editor judges every
+instalment against it: not whether it is a nice story, whether a Booker
+judge would keep reading.
+
 ## 22 September 2026, the serial goes daily
 
 > "And why not write the fiction daily.. weekly is too slow"

@@ -2595,6 +2595,10 @@ differently, if they earn it.
         return common + f"""
 ## Today's form: 2030, a serial
 
+The standard, from the person running this, 22 September 2026, in full:
+"Remember. Win booker." Not a nice story. A page a Booker judge would
+keep reading. Every instalment is written to that, and judged to it.
+
 A piece of fiction, and it has to be brilliant or not at all. The serial
 runs daily now, on the operator's order of 22 September ("weekly is too
 slow"): one instalment every day after the day's post, and on Friday a
