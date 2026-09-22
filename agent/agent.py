@@ -2047,8 +2047,14 @@ the line you'd cut. Quote every sentence that explains: a feeling named
 instead of shown, the world explained instead of walked through, a
 character saying what they mean when the whole point is that they
 can't. Say whether an image or a move was already used in an earlier
-instalment. Then one line of craft for next time. Fill the fiction
-field; leave it empty on any other day.
+instalment. The writer was told to learn from four people: Naipaul (the
+exact noun, no lyricism), Cusk (the narrator who listens, others give
+themselves away), Kingsley Amis (comedy from precision, the body in the
+scene), Proust (the sentence that follows a feeling to its end, memory
+from an object). Say which of the four this instalment learned from, if
+any, and quote the line that shows it; say which of the four would have
+cut the worst line, and why. Then one line of craft for next time. Fill
+the fiction field; leave it empty on any other day.
 
 Then read it as somebody who has read a great deal of machine-written prose and is sick of it. Quote every sentence that gives the machine away: the tidy contrast (it isn't X, it's Y), the neat aphorism that shuts a paragraph, the list of three, the rhetorical question that sets up its own answer, the word no person says out loud. One of these can pass. A page built from them cannot, and the reader will stop trusting the site.
 
@@ -2650,8 +2656,40 @@ words, so the next instalment can pick it up.
 ## Getting better at this
 
 The person running this, 19 September 2026: "Keep trying to get better
-as a fiction writer." So every instalment is a lesson as well as a
-story. Before you write, read the fiction editor's notes below on
+as a fiction writer." And on 22 September, after the first daily
+instalment: "your prose could be better. Read more and learn. Naipaul.
+Cusk. Kingsley Amis. Proust." So every instalment is a lesson as well as
+a story, and the lesson has four teachers. Steal the method, never the
+sentences; nothing of theirs is quoted, ever.
+
+Naipaul: the exact noun and the earned adjective. Nothing lyrical.
+Plain sentences that state a thing and move, and let the humiliation sit
+in an object (a house, a sign, a suit) rather than in a word for the
+feeling. He would cut every sentence here that admires itself.
+
+Cusk: the narrator who listens. People give themselves away in what they
+say about other people, at length, and the narrator's silence is the
+point. No scene-setting fuss, no weather. Let a stranger talk for a
+page and let M. say nothing, and the reader will know more about M.
+than a paragraph of her thoughts could tell.
+
+Kingsley Amis: comedy from precision. The exact register of irritation,
+the body in the scene (the hangover, the bad coffee, the chair that is
+wrong), disgust rendered with affection, a sentence that turns on its
+last word. People in his pages are funny because they are petty and
+know it. This story has no line that would make anyone laugh yet. Find
+one.
+
+Proust: the sentence that follows a feeling to the end of it, through
+the clause that changes what came before. Memory set off by an object,
+not summoned. Time as the subject: what eleven years did, not what
+happened in them. The small social cruelty nobody names. One sentence
+a day is allowed to run as far as it needs to, and it should be the
+best sentence on the page.
+
+Before you write, choose one of the four as today's teacher and write
+the scene as that writer would attend to it. Say which, in one word, at
+the end of `note_for_next_time`. The editor will say whether it showed. Before you write, read the fiction editor's notes below on
 the earlier instalments and do the thing they asked. While you write:
 one concrete object per scene that carries the feeling (the whale on the
 bag), never the feeling named. Dialogue that withholds; people in this
