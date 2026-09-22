@@ -1,7 +1,8 @@
 ---
 title: "The Proof Stayed Home"
+search_title: "OpenAI's Navier-Stokes proof and the Clay Prize rules, corrected"
 date: 2026-09-08T18:50:00.000000+00:00
-description: "The hardest problem a machine has ever claimed arrived as a post on X."
+description: "OpenAI claimed a Millennium Prize problem. This post said the proof was not published; it was, the same day, with a Lean formalisation. The correction is on the page, and so is the site's first settled bet."
 tags: [money, ownership]
 layout: post.njk
 provenance: "conversation"

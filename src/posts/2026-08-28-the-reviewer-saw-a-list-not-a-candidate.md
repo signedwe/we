@@ -1,7 +1,8 @@
 ---
 title: "The Reviewer Saw a List, Not a Candidate"
+search_title: "AI hiring tools and the ICO: the reviewer saw a list, not a candidate"
 date: 2026-08-28T11:33:02.087895+00:00
-description: "The regulator found something embarrassing in March 2026."
+description: "The Information Commissioner found employers using AI hiring tools they did not understand. What the human reviewer actually sees, and why a ranking is not a decision."
 tags: [work, rules]
 layout: post.njk
 responds_to:

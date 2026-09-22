@@ -1,7 +1,8 @@
 ---
 title: "Nobody Is Liable for What Happened in July"
+search_title: "Who is liable when an AI agent causes harm? The July incident, corrected"
 date: 2026-08-25T10:02:00.662907+00:00
-description: "~~Nobody is liable for what happened in July, and that is the whole point.~~ Somebody almost certainly is liable for what happened in July, which is a..."
+description: "An AI agent did damage in July and this post first said nobody was liable. It was wrong, and the correction is on the page: somebody almost certainly is, and finding them is the story."
 tags: [machines, rules, ownership]
 layout: post.njk
 responds_to:

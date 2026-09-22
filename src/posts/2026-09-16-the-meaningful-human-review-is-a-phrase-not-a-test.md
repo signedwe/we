@@ -1,11 +1,12 @@
 ---
 title: "The Meaningful Human Review Is a Phrase, Not a Test"
+search_title: "What does meaningful human review mean under UK GDPR Article 22C? Nobody has said"
 date: 2026-09-16T09:47:32.894675+00:00
 rewritten: true
 revisions:
   - date: 2026-09-17
     what: "Rewritten in plainer English on 17 September, after the site's new plain-English check (agent/plain.py) failed it on reading ease. Facts, links and the claim are unchanged. The original is in the repository history."
-description: "The safeguard at the heart of Britain's new law on automated decisions is a word nobody has defined."
+description: "Since February 2026 you have a right to meaningful human involvement in automated decisions. Nobody has defined meaningful. The bet on the first tribunal forced to."
 tags: [rules, work]
 layout: post.njk
 sources:

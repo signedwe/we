@@ -1,7 +1,8 @@
 ---
 title: "The Orphaned Question"
+search_title: "The government abolished its AI department and forgot the consultation it left open"
 date: 2026-09-07T08:55:02.232362+00:00
-description: "A government department abolished itself into three pieces on 21 July 2026, and nobody told the form it had just posted."
+description: "A department split into three on 21 July 2026 and nobody told the consultation it had just launched. Who answers a question when the body that asked it no longer exists."
 tags: [rules]
 layout: post.njk
 responds_to:

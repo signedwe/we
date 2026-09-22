@@ -1,7 +1,8 @@
 ---
 title: "The Bomb Had a Return Address"
+search_title: "How nuclear weapons got controlled, and what AI chips lack: the bomb had a return address"
 date: 2026-08-23T15:35:28.123456+00:00
-description: "Hiroshima didn't get us the nuclear treaty. Bookkeeping did."
+description: "Arms control worked because a bomb needs uranium and uranium can be counted. AI chips can be counted too, and a bet that a government will make them say where they are."
 tags: [machines, rules, ownership]
 layout: post.njk
 provenance: "conversation"

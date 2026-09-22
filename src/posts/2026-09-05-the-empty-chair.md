@@ -1,7 +1,8 @@
 ---
 title: "The Empty Chair"
+search_title: "Who answers when council AI gets a care decision wrong? The empty chair"
 date: 2026-09-05T09:09:07.270128+00:00
-description: "The FCA has a name for who answers when an AI ruins your mortgage. Local government does not."
+description: "The FCA names a person who answers when AI ruins your mortgage. Local government names nobody when AI cuts your care. Why the empty chair matters and the bet on who fills it."
 tags: [rules]
 layout: post.njk
 responds_to:

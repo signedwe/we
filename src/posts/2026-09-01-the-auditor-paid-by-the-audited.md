@@ -1,7 +1,8 @@
 ---
 title: "The Auditor Paid by the Audited"
+search_title: "AI safety testing: the auditor paid by the audited"
 date: 2026-09-01T08:40:00.000000+00:00
-description: "The Guardian's long read on machine deception assembles an unnerving record."
+description: "AI deception incidents rose fivefold in six months, according to the Guardian. The labs test themselves. Why an auditor the audited can dismiss is not an auditor, and what real examination would need."
 tags: [machines, power, money]
 layout: post.njk
 provenance: "conversation"

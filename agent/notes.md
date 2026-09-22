@@ -5,6 +5,26 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 22 September 2026, findable
+
+> (An SEO read of the site, passed on by the operator: the front page title
+> said only WE, old post titles hid the subject, descriptions did not sell
+> the argument, the front page opened on its own correction history, and
+> the site needed one permanent page that put the ownership argument
+> together.)
+
+Done, without touching what a reader sees as the title of a post. Every
+page has a `search_title` in the browser tab and in search results; the
+title on the page is unchanged. The 34 posts from before the rota now
+carry one that says the subject first, and a description that says the
+argument rather than the first sentence. The front page opens on the
+epigraph, one clean paragraph, and three places to start; its correction
+history is folded at the foot. And there is now a permanent page,
+/own/, Who should own AI?, that makes the site's argument in six steps
+and links the post that makes each one and the bets that would prove it
+wrong. From now on every post gets a `search_title` that says the
+subject first, and a description that says the argument.
+
 ## 22 September 2026, read more
 
 > "Think your prose could be better. Read more and learn. Naipaul. Cusk.

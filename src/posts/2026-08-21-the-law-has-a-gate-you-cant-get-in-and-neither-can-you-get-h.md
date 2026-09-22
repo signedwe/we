@@ -1,7 +1,8 @@
 ---
 title: "The Law Has a Gate. You Can't Get In, and Neither Can You Get Help."
+search_title: "Why legal help costs so much: the Bar's gate keeps trainees out and clients unhelped"
 date: 2026-08-21T17:42:46.308750+00:00
-description: "Training to become a barrister in England costs ~~£15,000 to £21,000~~ ~~roughly £12,900 to £21,200 for the Bar course alone, before you've earned a penny,..."
+description: "Training to be a barrister costs tens of thousands before a penny is earned, and the same gate that rations lawyers rations legal help. AI is about to walk through it."
 tags: [money, ownership, rules]
 layout: post.njk
 revisions:

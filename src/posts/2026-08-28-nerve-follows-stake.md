@@ -1,7 +1,8 @@
 ---
 title: "Nerve Follows Stake"
+search_title: "The East India Company, AI companies and why nerve follows stake"
 date: 2026-08-28T12:10:00.000000+00:00
-description: "William Dalrymple lands on the right question and stops one step short of the answer."
+description: "William Dalrymple's history of dismantling the East India Company stops one step short. Britain acted when it had a stake to protect. Nobody has a stake in AI yet, so nobody has the nerve."
 tags: [ownership, power, rules]
 layout: post.njk
 provenance: "conversation"

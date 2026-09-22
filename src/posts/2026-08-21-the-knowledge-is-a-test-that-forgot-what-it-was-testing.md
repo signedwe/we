@@ -1,7 +1,8 @@
 ---
 title: "The Knowledge Is a Test That Forgot What It Was Testing"
+search_title: "London cabbies, the Knowledge and AI: a test that forgot what it was testing"
 date: 2026-08-21T17:00:33.437724+00:00
-description: "Here's the thing that should bother you: it doesn't."
+description: "The Knowledge takes four years to pass and a phone makes it pointless in an afternoon. What the test was really measuring, and why the licence outlived the reason for it."
 tags: [work, money]
 layout: post.njk
 revisions:

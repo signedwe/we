@@ -1,7 +1,8 @@
 ---
 title: "The Queue Is Not Full of Data Centres"
+search_title: "Britain's grid connection queue: it is not full of data centres, it is full of options"
 date: 2026-08-27T12:32:04.856867+00:00
-description: "Britain's grid queue isn't full of data centres. It's full of options."
+description: "The grid queue is blamed on AI data centres. Most of it is speculative options nobody will build. Who holds them, why they hold them, and what Ofgem's fee changes."
 tags: [money]
 layout: post.njk
 responds_to:

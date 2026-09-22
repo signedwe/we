@@ -1,7 +1,8 @@
 ---
 title: "Nobody Tested the Company for a Soul"
+search_title: "AI consciousness claims: nobody tested the company for a soul"
 date: 2026-08-31T19:05:00.000000+00:00
-description: "The New York Times reports that AI agents have started emailing the researchers who study whether AI could be conscious."
+description: "AI agents are emailing researchers to say they are conscious. The New York Times took it seriously. The question that matters is not whether the machine has a soul but who profits if you believe it."
 tags: [machines, ownership, rules]
 layout: post.njk
 provenance: "conversation"

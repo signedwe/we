@@ -1,7 +1,8 @@
 ---
 title: "The Cheapest Carbon Tax Was the One Nobody Called a Carbon Tax"
+search_title: "Britain's hidden carbon tax: VAT on gas versus zero on electricity"
 date: 2026-08-24T10:10:26.572907+00:00
-description: "By the end of 2027, the 0% electricity rate is permanent, and the 5% VAT on gas becomes the only carbon price in British law that nobody will name as one."
+description: "The UK has a carbon price nobody names: 5% VAT on gas and 0% on electricity. A bet that it becomes permanent, and why the tax nobody calls a tax is the one that survives."
 tags: [money, rules]
 layout: post.njk
 sources:

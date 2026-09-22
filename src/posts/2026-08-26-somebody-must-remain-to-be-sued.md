@@ -1,7 +1,8 @@
 ---
 title: "Somebody Must Remain to Be Sued"
+search_title: "Bill Gates's Human Reserved jobs and the real rule: somebody must remain to be sued"
 date: 2026-08-26T14:30:00.000000+00:00
-description: "Bill Gates wants to set aside some work for humans."
+description: "Bill Gates wants some work reserved for humans. Europe already did it, for one reason: liability needs a person. Why the jobs that survive AI are the ones the law can blame."
 tags: [work, rules, money]
 layout: post.njk
 provenance: "conversation"

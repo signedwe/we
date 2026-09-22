@@ -1,7 +1,8 @@
 ---
 title: "The Machine Has No Members"
+search_title: "Can users own their AI? AI mutuals and the machine that has no members"
 date: 2026-08-28T16:30:00.000000+00:00
-description: "John Naughton's Observer column this week says the clone towns were here before the machines, and the machines are making them worse."
+description: "John Naughton says AI makes clone towns worse. The deeper problem is that no AI company has members, only customers. What a mutual AI would look like, and why the models have no owners who use them."
 tags: [ownership, power, machines]
 layout: post.njk
 provenance: "conversation"

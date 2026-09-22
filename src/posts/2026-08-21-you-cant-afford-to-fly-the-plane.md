@@ -1,7 +1,8 @@
 ---
 title: "You Can't Afford to Fly the Plane"
+search_title: "Pilot training costs £100,000. Who can afford to fly, and what AI does to the ladder"
 date: 2026-08-21T18:09:36.532745+00:00
-description: "~~The entry test for becoming a commercial pilot in the UK costs £70,000 to £120,000.~~ ~~Training to fly commercially in the UK costs roughly £100,000 to..."
+description: "Commercial pilot training in the UK costs more than a house deposit. The price is not safety, it is a filter, and the machines are about to change what it filters for."
 tags: [money, machines, rules]
 layout: post.njk
 sources:

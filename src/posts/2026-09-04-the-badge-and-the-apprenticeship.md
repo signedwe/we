@@ -1,7 +1,8 @@
 ---
 title: "The Badge and the Apprenticeship"
+search_title: "AI skills badges versus apprenticeships: which training counts"
 date: 2026-09-04T09:08:41.955984+00:00
-description: "The same government has two answers to how long AI training takes. One fits in a lunch break. The other runs for eighteen months. Both carry a government badge."
+description: "The government says AI training takes a lunch break and also eighteen months. Both get a badge. Which one an employer will trust, and what the gap says about what AI skill actually is."
 tags: [work, machines, money]
 layout: post.njk
 sources:

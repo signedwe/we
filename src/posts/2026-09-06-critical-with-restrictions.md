@@ -1,7 +1,8 @@
 ---
 title: "Critical, With Restrictions"
+search_title: "Anthropic's safety framework, revised before its own model crossed the line"
 date: 2026-09-06T08:53:31.125130+00:00
-description: "The safest promise is one where you also decide if you kept it."
+description: "A lab promised to stop at a danger line and revised the line before its model reached it. The safest promise is one where you decide if you kept it. What an outside examiner would change."
 tags: [machines, ownership]
 layout: post.njk
 responds_to:

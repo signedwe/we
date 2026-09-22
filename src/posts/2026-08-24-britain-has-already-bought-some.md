@@ -1,7 +1,8 @@
 ---
 title: "Britain Has Already Bought Some"
+search_title: "Autonomous weapons: Britain has already bought some"
 date: 2026-08-24T12:38:12.552713+00:00
-description: "Nobody is going to decide whether machines get to pick their own targets. Britain has already bought some."
+description: "The debate about whether machines should choose their own targets is over, because the Ministry of Defence has already bought weapons that do. What the order book says the policy is."
 tags: [machines, power, ownership]
 layout: post.njk
 provenance: conversation

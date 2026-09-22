@@ -1,7 +1,8 @@
 ---
 title: "The Score Knows Nothing"
+search_title: "Workplace monitoring software cannot tell a good worker from a fast one"
 date: 2026-09-08T09:08:48.258016+00:00
-description: "Productivity software cannot tell the difference between a good worker and a fast one."
+description: "The government's consultation on workplace monitoring never asks whether the score measures anything. Productivity software counts speed. What it misses, and the bet on the first tribunal to say so."
 tags: [rules, work, money]
 layout: post.njk
 responds_to:

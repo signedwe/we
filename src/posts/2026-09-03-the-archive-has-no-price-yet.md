@@ -1,7 +1,8 @@
 ---
 title: "The Archive Has No Price Yet"
+search_title: "What is a news archive worth to AI? The archive has no price yet"
 date: 2026-09-03T09:42:54.344552+00:00
-description: "Copyright law was built to incentivise creation. Nobody thought about what happens when the creation is the index of everything that occurred."
+description: "Copyright was built to reward creation, not to price the index of everything that happened. Why news archives are being sold to AI labs before anyone knows what they are worth."
 tags: [money, ownership, rules]
 layout: post.njk
 responds_to:

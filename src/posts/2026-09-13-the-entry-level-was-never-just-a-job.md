@@ -1,7 +1,8 @@
 ---
 title: "The Entry Level Was Never Just a Job"
+search_title: "AI and entry-level jobs: how a profession stops copying itself"
 date: 2026-09-13T10:12:28.264169+00:00
-description: "The entry-level job is how a profession copies itself. It's disappearing, and the profession hasn't noticed what else is going with it."
+description: "Entry-level vacancies fell 32% in three years. The junior job was how a profession trained its next seniors. What disappears with it, and the bet on the first professional body to change its training rules."
 tags: [work, money, rules]
 layout: post.njk
 sources:

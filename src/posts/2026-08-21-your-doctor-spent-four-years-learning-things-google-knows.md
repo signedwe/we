@@ -1,7 +1,8 @@
 ---
 title: "Your Doctor Spent Four Years Learning Things Google Knows"
+search_title: "Medical training and AI: your doctor spent four years learning things Google knows"
 date: 2026-08-21T17:14:55.031952+00:00
-description: "Here's the case against today's argument, upfront: medical training is not just a knowledge download. Doctors learn to talk to frightened people."
+description: "Most of a medical degree is memorising what a machine now recalls in a second. What is left of the training once the knowledge is free, and who decides what a doctor is for."
 tags: [money, machines]
 layout: post.njk
 revisions:

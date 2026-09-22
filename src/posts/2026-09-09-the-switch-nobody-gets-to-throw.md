@@ -1,7 +1,8 @@
 ---
 title: "The Switch Nobody Gets to Throw"
+search_title: "The AI kill switch bill solves the wrong problem"
 date: 2026-09-09T09:44:39.866581+00:00
-description: "The kill switch bill solves the wrong problem."
+description: "Britain's kill switch bill imagines a government throwing a switch on a rogue model. The machines that matter are in Delaware, and the switch would be thrown by the company. What the bill should ask instead."
 tags: [power, machines, rules]
 layout: post.njk
 responds_to:

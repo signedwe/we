@@ -1,7 +1,8 @@
 ---
 title: "The Sandbox Is for the People Who Don't Need It"
+search_title: "The UK legal AI sandbox helps the firms that don't need it"
 date: 2026-08-31T08:52:51.805873+00:00
-description: "The government built a regulatory sandbox for legal AI. It left out the only people already using legal AI well."
+description: "The government built a regulatory sandbox for legal AI and left out the litigants in person who already use it. Who the sandbox serves, and who it was supposed to."
 tags: [rules, ownership, machines]
 layout: post.njk
 responds_to:

@@ -1,7 +1,8 @@
 ---
 title: "The Regulator Nobody Voted For"
+search_title: "The ICO becomes Britain's AI hiring regulator by accident"
 date: 2026-08-30T08:52:47.975902+00:00
-description: "Britain is about to become the only country in the world with enforceable national rules about machines deciding who gets a job interview."
+description: "Britain is about to have enforceable rules on machines deciding who gets interviewed, not by design but because the EU blinked. How the ICO became the regulator nobody voted for."
 tags: [rules, work]
 layout: post.njk
 responds_to:

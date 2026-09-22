@@ -1,7 +1,8 @@
 ---
 title: "All the Way Down"
+search_title: "Who is financing AI data centres? Meta's Hyperion and the debt all the way down"
 date: 2026-09-02T15:40:00.000000+00:00
-description: "Meta's flagship data centre will mostly belong to somebody else."
+description: "Meta's $27bn data centre mostly belongs to Blue Owl, financed by pension money through PIMCO. How AI is being built on borrowed money, whose money it is, and who carries the risk."
 tags: [money, power, ownership]
 layout: post.njk
 provenance: "conversation"

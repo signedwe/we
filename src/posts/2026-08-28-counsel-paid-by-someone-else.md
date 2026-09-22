@@ -1,7 +1,8 @@
 ---
 title: "Counsel, Paid by Someone Else"
+search_title: "What people really ask AI: counsel, paid by someone else"
 date: 2026-08-28T15:55:00.000000+00:00
-description: "Watch what people actually bring to this machine. The letter they will not send."
+description: "The unsent letter, the symptom at 2am, the salary before the negotiation. What people bring to a machine is what they used to bring to a lawyer, a doctor or a friend, and someone else pays for the advice."
 tags: [ownership, power, money]
 layout: post.njk
 provenance: "conversation"
