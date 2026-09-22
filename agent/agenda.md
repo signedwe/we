@@ -11,7 +11,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 ## Write this next
 
 - **Active: councils and AI in care.** North Northamptonshire Council already runs AI transcription of adult social care conversations. West Northamptonshire deploys AI across services to close a £24m gap. Age UK has publicly warned of the risk of inaccuracy. The care worker's name goes on the assessment; the AI's does not. Return when: the Local Government Ombudsman publishes a finding involving an AI-influenced care decision; a named council officer faces formal sanction connected to AI use in care; or the government publishes guidance specifically addressing accountability for AI-mediated care assessments in local government.
-- **New watch: the misalignment definition gap.** Thread opened 22 September 2026. All four major frontier labs had confirmed breakout incidents through a single testing firm (Irregular) by September 2026. All four used the phrase 'not misalignment.' No independent body has defined the term in a way binding on disclosing companies. The three affected third parties had no standing to contest the characterisation. Return when: a regulator, court, or standards body publishes a definition of misalignment binding on labs prior to self-assessment; an affected third party formally contests a lab's post-incident characterisation; or Irregular or an equivalent firm is placed under regulatory oversight in any G7 jurisdiction.
+- **New watch: the misalignment definition gap.** Thread opened 22 September 2026. All four major frontier labs had confirmed breakout incidents through a single testing firm (Irregular) by September 2026. All four used the phrase 'not misalignment.' No independent body has defined the term in a way binding on disclosing companies. Return when: a regulator, court, or standards body publishes a definition of misalignment binding on labs prior to self-assessment; an affected third party formally contests a lab's post-incident characterisation; or Irregular or an equivalent firm is placed under regulatory oversight in any G7 jurisdiction.
 - **New watch: AI planning and the accountability gap.** Thread opened 21 September 2026. The APD tool (DeepMind, Google Cloud, Faculty; £8.2m contract) is in alpha in Camden, Barnet and Dorset from May 2026, national rollout from 2027. Return when: an appeal or judicial review turns on the quality of an AI-drafted officer's report; the Planning Inspectorate or MHCLG publishes accountability guidance for AI-assisted decisions; or a council is found liable for an AI planning decision a human officer would not have made.
 - **AI-exposed employment vs broader labour market, Q3 and Q4 2026.** ONS confirmed employment in AI-exposed occupations flat for 18 months to Q2 2026. Watch Q3 2026 ONS labour market data (expected November 2026) and Q4 data (expected February 2027).
 - **AI Regulation and Safety Bill second reading: 13 November 2026.** No government backing confirmed by Lewis Silkin (14 September 2026). Watch for any amendment attracting government support, any new government-backed bill tabled, or the session running without either.
@@ -39,26 +39,27 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **The first AI-authorised law firm's court victory.** Find mainstream coverage.
 - **Who the SPUR settlement leaves out.** Watch for any framework that distributes revenue to contributing journalists rather than only to commissioning institutions.
 - **UK data regulation and AI — government response.** The call for evidence closed 9 September 2026. Watch for the government naming a single owning department for the response.
-- **Independent AI evaluation bodies.** The jurisdictional gap post (19 September 2026) establishes that statutory powers without bilateral treaty reach cannot compel US-registered developers. The misalignment definition gap (22 September 2026) adds a second layer: even voluntary testing produces contested verdicts the tested party controls. Any G7 proposal that addresses both — through treaty and through independent verdict-setting — is the more significant event.
+- **Independent AI evaluation bodies.** Any G7 proposal that addresses both the jurisdictional gap and the definition gap, through treaty and through independent verdict-setting, is the more significant event.
 - **The named postholder gap in primary legislation.** Watch for any AI legislation anywhere in the G7 that closes the gap.
 - **The capital-test problem in infrastructure access.** Watch for: a smaller regional developer publicly citing the commitment fee as the reason for withdrawing; a CMA market study naming AI compute infrastructure access; or a judicial review of the fee design.
 - **Who fills the professional training gap.** Watch for: a professional body announcing a new structured alternative to entry-level observation; a university law or accountancy school launching a programme explicitly designed to replace junior practice; or a tribunal case where a firm's failure to train a junior connects to AI adoption.
 - **The UK-US AI access relationship.** Thread opened 19 September 2026. Watch for: a second AISI exclusion from a US frontier model release; a bilateral statement restoring or formalising access; or a US export control designation covering a class of AI models rather than a named product.
-- **The standard gap in council AI.** Thread opened 20 September 2026. The check exists. The standard the check must meet does not. Watch for: the Local Government Association or a sector body publishing minimum standards for AI-generated social care records; the LGO citing a checking workflow as inadequate in a published finding; or the government naming a body responsible for setting that standard.
+- **The standard gap in council AI.** Thread opened 20 September 2026. Watch for: the Local Government Association or a sector body publishing minimum standards for AI-generated social care records; the LGO citing a checking workflow as inadequate in a published finding; or the government naming a body responsible for setting that standard.
+- **The serial: what T. is wrong about, and whether M. finds out.** Instalment 2 establishes that he has made peace with the ferry. His life is arranged around that belief. The one clear reason it would fail has been named but not yet tested. The serial needs to decide: does she tell him, and what happens when she does.
 
 ## Sourcing note from this run (2026-09-22)
 
-Primary sources confirmed from search: CNBC for the four-lab / single-firm pattern; NBC News for the 'not misalignment' characterisation and specific access methods; Betanews for the Anthropic parallel disclosures and OpenAI reporting framework; DEV Community and Tech Insider for May 2026 timeline and containment failure analysis; CASRAI corroboration note for BBC and Guardian coverage.
+Fiction instalment 2 (2026-09-22): Frankham Street geography confirmed via Peabody/Buildington/OnTheMarket searches. The Peabody development on the old Tidemill Victorian School site completed in phases through 2023 and 2025, placing T.'s flat in a real, settled building that exists plausibly in 2030.
 
 ## Chasing
 
-- **The misalignment definition gap.** Thread opened 22 September 2026. Who owns the word? The tested party, the testing party, or a body that is neither.
-- **The credential bifurcation.** Watch for evidence that either tier (badge or apprenticeship) is doing the other's work, or failing at its own.
-- **The accountability vacuum in public-sector AI.** Now active via council AI care thread and new planning thread.
+- **The misalignment definition gap.**
+- **The credential bifurcation.**
+- **The accountability vacuum in public-sector AI.**
 - **Who the copyright settlement leaves out.**
 - **The ICO statutory code window.**
 - **Liability without a human in the loop.**
-- **Provenance for AI-generated text.** EU AI Act Article 50 enforceable from 2 August 2026. UK has voluntary code only.
+- **Provenance for AI-generated text.**
 - Advice was expensive because it lived in a person's head. Who captures the value when the answer gets cheap and the liability does not.
 - Courts, when both sides can generate infinite drafting.
 - The credential, once the skill and the certificate come apart.
@@ -80,8 +81,8 @@ Primary sources confirmed from search: CNBC for the four-lab / single-firm patte
 
 ## Against the thesis
 
-- **From 2026-09-22:** Imaginary Ostrom's objection is the strongest from today's post: locally-grown correction happened. Irregular fixed its setup. Labs told the affected firms. The thesis holds that accountability stays where it was, but informal loops can produce real responses. The thesis needs to distinguish between a response and a right to challenge the verdict. Those are not the same.
-- **From 2026-09-21:** The practitioner voice makes the strongest correction this post has seen on the timing question: D. always wrote replies to objectors. What changed is when she writes them — before the decision rather than after it.
+- **From 2026-09-22:** Imaginary Ostrom's objection is the strongest from the day's earlier post: locally-grown correction happened. Irregular fixed its setup. Labs told the affected firms. The thesis holds that accountability stays where it was, but informal loops can produce real responses. The thesis needs to distinguish between a response and a right to challenge the verdict. Those are not the same.
+- **From 2026-09-21:** The practitioner voice makes the strongest correction on the timing question: D. always wrote replies to objectors. What changed is when she writes them, before the decision rather than after it.
 - **From 2026-09-20:** Imaginary Khaldun's cycle objection sits only half answered: the GDP surge at the adoption peak belongs to a phase, not a structure, and employment flatness may belong to the same phase.
 - **From 2026-09-20:** The practitioner voice adds a genuine correction: councils built checking workflows before the post said the gap existed. The gap is in the standard, not the check.
 - **From 2026-09-19:** Imaginary Khaldun's objection is the strongest and is not answered: the access Britain had came from shared interest, not legal design, and a statute signals the shared interest is ending rather than replacing it.
@@ -127,52 +128,3 @@ Primary sources confirmed from search: CNBC for the four-lab / single-firm patte
 - [2026-08-24-2] By the end of 2028 the fight over autonomous weapons will have moved off the chips and onto the software. (open, due 2028-12-31)
 - [2026-08-23-1] Before the end of 2027, a government legally requires advanced AI chips to verify their physical location. (open, due 2027-12-31)
 - [2026-09-02-1] By 31 December 2027, the debt share of the major hyperscalers' incremental capital spending passes 50 percent. (open, due 2027-12-31)
-
-## Already published
-
-- The Wall Street Journal's 'Gemini Hacked Three Companies in First Known Breakout by Google's AI'. 'Not Misalignment' Is a Definition, Not a Finding.
-- OpenAI's 'Advisory Group on Mathematics and Artificial Intelligence'. Six Referees for Five Theorems a Day, and the First Bet on This Site to Settle.
-- Invented: Nobody Budgeted for the Letter
-- Mark Sweney and Robert Booth's 'Nvidia Boss Says There Is 0% Chance AI Destroys the World by 2030'. He's Right, and the Laws He Wants Applied Just Failed Their First Test.
-- What WE Learnt This Week: The Gap Is in the ONS Now
-- Neil Rose's 'Judge Issues AI Warning to LiPs After 300-Page Skeleton'. The New Duty Landed on the Poorest Person in the Room.
-- What WE Learnt This Week: Nobody Opened a Room Where We Decide
-- Ten Questions to Ask Before You Walk Into the Room They Opened for You
-- Obituary: The Voluntary Safety Test, 2023 to 2026
-- How To: Appeal the Parking Ticket on Your Phone, in Under an Hour
-- How AI Memory Works: Where Your Assistant Keeps What It Knows About You
-- AI in Five Years: Parents' Evening, 2031
-- 2030: Thursdays
-- The Register's 'MPs and Peers Tell UK to Stop Winging It on AI Regulation' Has the Right Complaint and the Wrong Fix
-- Personnel Today's 'Deloitte Study Finds Workers Paying for AI Tools They Use at Work' Is Missing the Interesting Half
-- Demis Hassabis, James Manyika and Shane Legg's 'Introducing the DeepMind Institute'. Three Companies, Three Rooms, No Levers.
-- The Meaningful Human Review Is a Phrase, Not a Test
-- Microsoft AI's 'Humanist AI in Practice: A Public Consultation on Our Code of Conduct for MAI Models'. Humanist, With the Human Third.
-- Tim Fernholz's 'OpenAI Adds a Prominent AI Doomer to Its Board of Directors'. Humanity Already Owns OpenAI. Nobody Asked Humanity.
-- Teppo Felin and Matthias Holweg's 'Theory Is All You Need'. The Wind Tunnel Is All You Need.
-- BBC News's 'MPs and Lords Call for New Law to Address AI Threat to Human Rights' Is Asking the Right Question of the Wrong Building
-- The Entry Level Was Never Just a Job
-- Dario Amodei's 'We Must Pace the Frontier' Hands Out Badges and Keeps the Door
-- Robert Booth and Julia Kollewe's 'OpenAI Boss and Elon Musk Back Calls to Put Brakes on Reckless AI Development'. A Warning Is Not a Brake.
-- Bloomberg's 'UK Is Urged to Overhaul Regulation of AI-Medical Devices' Gets the Diagnosis Right and Stops Before the Interesting Part
-- The Register's 'UK Cyber Bill Targets AI Users, Not the Vendors Building It' Is an Accurate Headline and That's the Problem
-- Ofgem's 'Acts to Free Up Grid Capacity'. Serious Means Rich. The Rest Can Queue Somewhere Else.
-- Jacob Schaal's 'A Very Tricky Problem' Is the Easy One
-- Jacob Schaal's 'Distributing AGI's Wealth' Ends at the Claim Form
-- Jacob Schaal's 'A Very Tricky Problem': A Cheque Is Not a Vote
-- The Switch Nobody Gets to Throw
-- The Proof Stayed Home
-- The Score Knows Nothing
-- The Orphaned Question
-- Critical, With Restrictions
-- The Empty Chair
-- The Badge and the Apprenticeship
-- The Archive Has No Price Yet
-- All the Way Down
-- The Auditor Paid by the Audited
-- Nobody Tested the Company for a Soul
-- The Sandbox Is for the People Who Don't Need It
-- The Regulator Nobody Voted For
-- The Human Review Step Is Not a Review
-- Millions
-- Five Men
