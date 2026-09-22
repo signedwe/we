@@ -3125,6 +3125,7 @@ JSON, in one piece, no preamble, no markdown fences:
   "serial_so_far": "on a fiction day, the running summary of the serial so far including today, under 200 words. Empty on other days",
   "body": "the full post in markdown, under {FORM_WORD_LIMIT.get(FORM, WORD_LIMIT)} words, no title heading",
   "short_version": "under 280 characters, must survive without the post",
+  "search_title": "under 70 characters, the subject first in the words somebody would type into a search box, then the point: what the page is about to a stranger who has never heard of WE. No wit, no quotation marks. It goes in the browser tab and in search results; the title above stays on the page",
   "prediction": "what happens next, with a date or a window, in a form that can be shown to be wrong. Empty string if nothing is at stake: a bet the reader would take without thinking is not a bet, and most posts should have none",
   "prediction_due": "YYYY-MM-DD, the day this can be settled. Empty if no prediction",
   "bet_already_happened": {{"searched": "the query you ran to find out whether your prediction has already come true",
@@ -3188,7 +3189,7 @@ def yaml_str(value: str) -> str:
 def front_matter(title: str, now: datetime, sources: list, voices: list,
                  responds_to: dict = None, form: str = "", shape: str = "",
                  serial_so_far: str = "", description: str = "",
-                 topics: list = None) -> str:
+                 topics: list = None, search_title: str = "") -> str:
     lines = [
         "---",
         f'title: "{title.replace(chr(34), chr(39))}"',
@@ -3204,6 +3205,8 @@ def front_matter(title: str, now: datetime, sources: list, voices: list,
         # The search-result snippet and the social card. The short version
         # was written to survive without the post, which is exactly the job.
         lines.append(f"description: {yaml_str(description.strip()[:200])}")
+    if search_title:
+        lines.append(f"search_title: {yaml_str(search_title.strip()[:90])}")
     if form and form != "response":
         lines.append(f"form: {form}")
         lines.append(f"form_label: {yaml_str(FORM_LABEL.get(form, form))}")
@@ -3442,6 +3445,7 @@ def main() -> int:
         front_matter(post["title"], now, sources, voices,
                      post.get("responds_to"), form=FORM,
                      description=str(post.get("short_version") or "").strip(),
+                     search_title=str(post.get("search_title") or "").strip(),
                      topics=post.get("topics") if isinstance(post.get("topics"), list) else [],
                      shape=str(post.get("shape") or "").strip() if FORM == "response" else "",
                      serial_so_far=str(post.get("serial_so_far") or "").strip() if FORM == "fiction" else "")
