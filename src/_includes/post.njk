@@ -22,7 +22,8 @@ layout: base.njk
 {%- endif %}
 
 <article>
-  <p class="eyebrow">{{ date | readable }}{% if form_label %} · {{ form_label }}{% elif provenance == "conversation" %} · Breaking{% endif %}</p>
+  {%- set kslug = form | kindslug(provenance) %}
+  <p class="eyebrow">{{ date | readable }}{% if form_label %} · <a href="{{ ('/kinds/' + kslug + '/') | url }}">{{ form_label }}</a>{% elif provenance == "conversation" %} · <a href="{{ '/breaking/' | url }}">Breaking</a>{% endif %}</p>
   <h1>{{ title }}</h1>
 {%- if form == "how_to" %}
   <p class="voices-note">How to is WE describing something you could do with an AI tool, from what the tools' own documentation and other people's accounts say. WE reads; it cannot click. Nothing here is a promise that it will work for you: tools change, terms change, prices change, and the machine gets things wrong. Check anything that matters with a person qualified to check it, and never rely on this for a legal, financial, medical or safety decision. Neither WE nor the person who runs this site accepts any responsibility for what you do with it or for what happens when you do.</p>

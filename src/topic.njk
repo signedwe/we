@@ -15,7 +15,7 @@ eleventyComputed:
 {%- for post in collections[topic.slug] | reverse %}
   <li>
     <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-    <span class="eyebrow">{{ post.date | readable }}{% if post.data.form_label %} · {{ post.data.form_label }}{% endif %}</span>
+    <span class="eyebrow">{{ post.date | readable }}{% if post.data.form_label %} · <a href="{{ ('/kinds/' + (post.data.form | kindslug(post.data.provenance)) + '/') | url }}">{{ post.data.form_label }}</a>{% elif post.data.provenance == "conversation" %} · <a href="{{ '/breaking/' | url }}">Breaking</a>{% endif %}</span>
   </li>
 {%- endfor %}
 </ul>

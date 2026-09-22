@@ -20,6 +20,13 @@ module.exports = function (eleventyConfig) {
   // Files served as-is at the site root (search engine verification).
   eleventyConfig.addPassthroughCopy({ "src/static": "/" });
 
+  // Which kind page a post belongs to, from its form (or Breaking).
+  const KIND = { five_years: "five-years", response: "responses", top_ten: "top-tens",
+    technical: "how-it-works", fiction: "serial", how_to: "how-to", obituary: "obituaries",
+    learnt: "learnt" };
+  eleventyConfig.addFilter("kindslug", (form, provenance) =>
+    KIND[form] || (provenance === "conversation" ? "breaking" : (form ? "" : "responses")));
+
   eleventyConfig.addFilter("readable", (d) =>
     new Date(d).toLocaleDateString("en-GB", {
       day: "numeric", month: "long", year: "numeric", timeZone: "UTC",
