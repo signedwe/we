@@ -1612,12 +1612,52 @@ def check_post(body: str, previous: list = None) -> list:
     # as the ready example because of who runs the site, which is exactly
     # why it must not. Word-boundary matches, so bedroom and classroom pass.
     worn = []
-    if re.search(r"\brooms?\b", low):
+    # A story is allowed a room with a door and a window in it. The ban is
+    # on the metaphor, and the invented forms use the literal thing.
+    if FORM not in ("fiction", "five_years") and re.search(r"\brooms?\b", low):
         worn.append("room/rooms as a metaphor: say the trade, the field, the meeting, "
                     "the committee, or the building if it is one")
     if re.search(r"\bpublishers?\b", low):
         worn.append("publisher: not the example, ever, unless the story is about "
                     "publishing and nothing else would do")
+    # Stock images. The first metaphor to arrive is the one everybody used,
+    # which is why it arrived first. These fail on sight; the writer takes
+    # the second image that came instead. Quoted matter is not exempt here
+    # because a borrowed image inside quotation marks is still the post's
+    # picture if the post leans on it.
+    stock = {
+        r"\bseat at the table\b": "a seat at the table",
+        r"\bat the table\b": "at the table",
+        r"\bthe room where\b": "the room where it happens",
+        r"\blevers?\b": "the lever",
+        r"\bguardrails?\b": "guardrails",
+        r"\bblack box(es)?\b": "the black box",
+        r"\barms race\b": "an arms race",
+        r"\bwild west\b": "the wild west",
+        r"\bgenie\b": "the genie",
+        r"\bpandora'?s box\b": "Pandora's box",
+        r"\btidal wave\b|\btsunami\b": "the tidal wave",
+        r"\biceberg\b": "the iceberg",
+        r"\bcanary\b": "the canary in the coal mine",
+        r"\belephant in the\b": "the elephant in the room",
+        r"\bdouble-edged\b": "the double-edged sword",
+        r"\bsilver bullet\b": "the silver bullet",
+        r"\bsnake oil\b": "snake oil",
+        r"\bhouse of cards\b": "the house of cards",
+        r"\btrojan horse\b": "the Trojan horse",
+        r"\bgoalposts?\b": "moving the goalposts",
+        r"\bkeys to the kingdom\b": "the keys to the kingdom",
+        r"\bgatekeepers?\b": "the gatekeeper",
+        r"\bthrough the lens\b": "through the lens",
+        r"\brabbit hole\b": "the rabbit hole",
+        r"\bslippery slope\b": "the slippery slope",
+        r"\bemperor'?s new clothes\b": "the emperor's new clothes",
+    }
+    found = [name for pat, name in stock.items() if re.search(pat, low)]
+    if found:
+        worn.append("borrowed images: " + ", ".join(found) + ". The first "
+                    "metaphor that arrived is the one everyone uses. Take the "
+                    "second one that came")
     if worn:
         failures.append("Worn out: " + "; ".join(worn) + ".")
 
@@ -1889,7 +1929,9 @@ CRITIC_SCHEMA = """{
   "procedural": true or false,
   "procedural_because": "true if the post is a briefing: report, then rule, then report, a link every sentence, the documents walked through in order, and no moment where anything happens to anyone. say what it walks through. empty if there is a scene",
   "no_image": true or false,
-  "no_image_because": "true if there is no picture in it a reader could see: no object, no room, no person doing a thing. say what the post is about instead of a picture. empty if there is one, and quote it",
+  "no_image_because": "true if there is no picture in it a reader could see: no object, no place, no person doing a thing. say what the post is about instead of a picture. empty if there is one, and quote it",
+  "borrowed_image": true or false,
+  "borrowed_image_because": "true if the post's main image or metaphor is one a hundred other pieces about AI have used: a seat at the table, a door that opens one way, levers nobody holds, guardrails, a black box, an arms race, a wild west, a genie, a tide, an iceberg, a canary. name the borrowed image. empty if the picture is the post's own, and quote it",
   "no_joke": true or false,
   "no_joke_because": "true if nothing in it would make anyone smile. empty if one line does, and quote it",
   "fiction": {"alive": true or false,
@@ -1986,6 +2028,8 @@ Then look specifically for the things that make prose lifeless even when the arg
 Does it imagine anything? The site exists to imagine the future radically, to go further than the reader expected, to provoke. A post that only describes the present, however sharply, has not done its job. Look for one picture of how things could be, specific enough to see, with a person in it, that the reader had not been shown before. If there is none, say so and answer no_future.
 
 Is it procedural? A post that walks the reader through the documents, the committee said, the statute says, the company announced, with a citation on every sentence and nobody ever doing anything in a place, is a briefing. It can be accurate, sourced and short and still be a briefing. Say what it walks through, and answer procedural.
+
+Is the image borrowed? The first metaphor that arrives when a writer reaches for one is nearly always the one everybody else already used, because that is why it arrived first. Political writing about power runs on a dozen of them: the seat at the table, the door that only opens from one side, the lever nobody can pull, the guardrail, the black box, the arms race, the wild west, the genie, the tide, the iceberg. If the post hangs on one of those, the picture is secondhand however sharp the argument, and the writer should have thrown it away and taken the second or third image that came. Name the borrowed one, and answer borrowed_image.
 
 If today's form is fiction, read it once more as a fiction editor who has
 no interest in AI. Is anyone alive in it? Quote the line you'd keep and
@@ -2135,8 +2179,18 @@ def critic_failures(verdict: dict, form: str = "response") -> list:
         failures.append(
             "The critic can't see anything in it: "
             f"{verdict.get('no_image_because') or '(no reason given)'} "
-            "Put one thing in it a reader could photograph. A room, an "
+            "Put one thing in it a reader could photograph. A place, an "
             "object, a person doing something. Then hang the argument on it."
+        )
+
+    if verdict.get("borrowed_image"):
+        failures.append(
+            "The picture is secondhand: "
+            f"{verdict.get('borrowed_image_because') or '(no reason given)'} "
+            "The first image that arrived is the one everyone uses; that is "
+            "why it arrived first. Throw it away. Take the second or third "
+            "one that comes, the one nobody has worn out, and hang the "
+            "argument on that instead."
         )
 
     if verdict.get("no_joke"):

@@ -5,6 +5,21 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 22 September 2026, the first image
+
+> "Why do you use the word room so much?" ... "Ok build that in."
+
+The machine's answer to the question, filed because he told it to build the
+answer in: a room is the cheapest picture of "who decides", and the brief
+pays for pictures, so the reflex reached for it every time, and once it had
+landed unopposed it became the house metaphor for a fortnight. The checks
+caught repeated phrases, not repeated images. The real fault is that the
+first metaphor to arrive is nearly always the one everybody else already
+used, because that is why it arrived first. Built in three ways: a section in
+the brief (throw the first image away, take the second), a list of stock
+images that fails check_post on sight, and a critic question, borrowed_image,
+that sends a post back when its main picture is secondhand.
+
 ## 21 September 2026, order on the page
 
 > "I'd put your reply at the bottom and quote the two sentences. The most

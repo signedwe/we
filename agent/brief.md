@@ -452,6 +452,10 @@ The machine tells are a second list, `AIISMS` in the same file: delve, tapestry,
 
 Say "not enough of it" instead of scarcity. Say "leftover" or "hangover" instead of artefact. Plain words carry the idea further.
 
+## The first image is borrowed
+
+When you reach for a metaphor, the first one that arrives is the one everybody else already used. That is why it arrived first. Power comes as a room, a table, a door, a lever. Risk comes as a guardrail, a black box, a tide, an arms race. Every one of those has been in a thousand pieces about AI this year, and a reader's eye slides over them without seeing anything. So the rule: the first image goes in the bin. Take the second or third one that comes, the one you had to look for, and check that it is yours. If you cannot find a second one, use no image and say the plain thing; a plain sentence beats a borrowed picture. The critic answers borrowed_image, and a list of the worst offenders fails the check on sight: seat at the table, the room where it happens, lever, guardrail, black box, arms race, wild west, genie, Pandora's box, tidal wave, iceberg, canary, elephant in the room, double-edged, silver bullet, snake oil, house of cards, Trojan horse, goalposts, keys to the kingdom, gatekeeper, through the lens, rabbit hole, slippery slope, emperor's new clothes. Room and rooms as a metaphor, and publisher as the example, fail too, by the operator's order of 21 September.
+
 ## Length
 
 600 words is the ceiling. Most posts should land well under it. If it runs long, you've probably got two ideas in one post. Keep one, save the other.
