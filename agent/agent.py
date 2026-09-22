@@ -1939,7 +1939,7 @@ CRITIC_SCHEMA = """{
               "worst_line": "the one sentence a good editor would cut first, and why in five words. quote it",
               "explains": ["every sentence that tells the reader what to feel, or explains the world, or says what a character means instead of letting them not say it. quote each"],
               "device_reused": "any image, gag or move already used in an earlier instalment, or empty",
-              "note_for_next_time": "one line, craft only, that would make next week's instalment better than this one"},
+              "note_for_next_time": "one line, craft only, that would make the next instalment better than this one"},
   "machine_tells": ["every sentence a reader would clock as written by a model: the tidy 'it isn't X, it's Y', the aphorism that shuts a paragraph, the three-beat list, the same even temperature throughout, a word nobody says out loud. quote each one"],
   "flat_open": true or false,
   "flat_open_because": "the first sentence, and why nobody would argue with it. empty if it lands",
@@ -2601,7 +2601,9 @@ slow"): one instalment every day after the day's post, and on Friday a
 longer chapter with the day to itself. A daily instalment is a scene,
 not a chapter: one place, one want, one turn, and it ends on a pull, the
 thing left unsaid or undone that tomorrow has to answer. Four to seven
-hundred words most days. Friday may run to the ceiling.
+hundred words most days. Friday may run to the ceiling. Do not write a
+sign-off line ("continues tomorrow", "to be continued"); the page says
+that. End on the image.
 One person in 2030, in Britain unless the story has moved, living inside
 the arrangements this site argues about: who owns the assistant, who can
 refuse, who got the extra day, who holds the memory. A story, not an
