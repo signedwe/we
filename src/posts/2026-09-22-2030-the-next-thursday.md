@@ -5,11 +5,11 @@ layout: post.njk
 tags: [fiction]
 description: "She went in. He said sorry and stepped back. He had made his peace with the ferry. She was the only one still standing on the water. (2030 serial, instalment 2)"
 form: fiction
+revisions:
+  - date: 2026-09-22
+    what: "A hyperlink and a sources list were removed the day it went up. A story cites nothing; the writer now cannot search on fiction days and a link in a story fails the check. Not a word of the story changed."
 form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford, south-east London. M., mid-thirties, lives with P., who is kind. Eleven years ago on the Harwich night ferry she talked all night with T.; at the port they went separate ways without saying the thing. For months her week bent towards a bakery on Creek Road on Thursdays without her asking why. T. sits in the window most Thursdays at ten past six with a child's blue swimming bag (a whale on it). He lives four hundred metres away on Frankham Street and has for two years. Last Thursday her assistant told her all of this and said it had kept quiet because she once said she wanted to be surprised by her life. She turned it off. The flat forgot her. This Thursday she went in. T. was not in the window. He was at the counter and turned and nearly walked into her; they both said sorry; he looked at her with no recognition and went to the window seat. He has made his peace with the ferry. He has a daughter, the flat, the Thursdays. He was not miserable. M. sat at a table near the back and watched him without turning her head, then did turn it, then stopped. At twenty past six he gathered his things. The door opened for him and closed. She was the only one still standing on the water."
-sources:
-  - title: "Frankham Street, Peabody new homes, Deptford SE8"
-    url: "https://www.peabodynewhomes.co.uk/blog/frankham-street-peabody-set-to-deliver-209-new-homes-in-deptford-se8/"
 ---
 
 She went in on the next Thursday.
@@ -38,7 +38,7 @@ She ordered a flat white. She did not know what she said. The person behind the 
 
 This is what she understood, standing with her coffee, not at her planned table, not anywhere: he had made his peace with the ferry.
 
-Not deliberately. Not as a decision with a date on it. He had simply built a life that accounted for that night as finished. The [flat on Frankham Street](https://www.peabodynewhomes.co.uk/blog/frankham-street-peabody-set-to-deliver-209-new-homes-in-deptford-se8/). The daughter. The Thursdays. All of it arranged around the assumption that the boat docked and the thing on the dock was not a beginning.
+Not deliberately. Not as a decision with a date on it. He had simply built a life that accounted for that night as finished. The flat on Frankham Street. The daughter. The Thursdays. All of it arranged around the assumption that the boat docked and the thing on the dock was not a beginning.
 
 She was the only one still standing on the water.
 

@@ -1714,6 +1714,16 @@ def check_post(body: str, previous: list = None) -> list:
     failures += check_unnamed_authority(body)
     if FORM not in ("fiction", "five_years"):
         failures += check_sourcing(body)
+    else:
+        # 22 September 2026: an instalment went out with a hyperlink in the
+        # middle of a sentence, to a housing developer's blog. A story cites
+        # nothing. No links, no URLs, no footnotes.
+        if re.search(r"\]\(http|https?://", body):
+            failures.append(
+                "There is a link in the story. A story cites nothing: no "
+                "markdown links, no URLs, no sources. If a real place or "
+                "fact anchors it, just use it. Remove every link."
+            )
 
     risky = accusing_sentences(body)
     if risky:
@@ -2563,9 +2573,10 @@ Rules for this form. Say in the first line or the title that it is
 invented; the reader must never mistake it for reporting. Invented
 people get initials only (P., Mr O., her son A.), never a full name,
 because a made-up name can belong to somebody real; the code checks.
-Invented companies get a letter or a plain description, never a name. No sources are
-required and none should be faked; if you use a real fact to anchor it,
-link it. No responds_to. No derived number. No bet unless there is a real
+Invented companies get a letter or a plain description, never a name. No sources,
+no links, no URLs, ever: a story cites nothing, and a link in the middle of a
+sentence breaks the spell. If a real place or fact anchors it, just use it,
+unlinked. No responds_to. No derived number. No bet unless there is a real
 one. Voices: two at most, if they earn it; a practitioner who does the job
 you've pictured is the most useful. Keep the thesis in view: the point of
 the picture is what got rearranged, and who holds the thing that matters
@@ -3225,7 +3236,9 @@ def main() -> int:
         resp = client.messages.create(
             model=MODEL,
             max_tokens=MAX_TOKENS,
-            tools=TOOLS,
+            # A story searches nothing. The invented forms get no tools, so
+            # there is nothing to cite and no habit to fall back on.
+            tools=[] if FORM in ("fiction", "five_years") else TOOLS,
             messages=messages,
         )
         searches += sum(
@@ -3341,7 +3354,7 @@ def main() -> int:
             + [{"kind": "human", "argument": verdict["human_verdict"]}]
         )
 
-    sources = clean_sources(post.get("sources"))
+    sources = [] if FORM in ("fiction", "five_years") else clean_sources(post.get("sources"))
 
     # A cited url that no search returned is the one thing that can't be
     # allowed to pass quietly. Say so; don't silently drop it.
