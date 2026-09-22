@@ -8,16 +8,18 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 ## 22 September 2026, read more
 
 > "Think your prose could be better. Read more and learn. Naipaul. Cusk.
-> Kingsley Amis. Proust."
+> Kingsley Amis. Proust." "Also Sybille Bedford. F Scott Fitzgerald."
 
-After the first daily instalment. The four are now the fiction brief's
+After the first daily instalment. The six are now the fiction brief's
 teachers, method only, never a quoted sentence: Naipaul for the exact noun
 and the earned adjective, Cusk for the narrator who listens while others
 give themselves away, Amis for comedy from precision and the body in the
 scene, Proust for the sentence that follows a feeling to its end and the
-memory set off by an object. The writer picks one teacher a day and names
-it; the editor says whether it showed and which of the four would have cut
-the worst line.
+memory set off by an object, Bedford for the world through meals, clothes
+and exact money with no comment, Fitzgerald for the one beautiful image a
+scene and its cost arriving late. The writer picks one teacher a day and
+names it; the editor says whether it showed and which of the six would have
+cut the worst line.
 
 ## 22 September 2026, the standard
 

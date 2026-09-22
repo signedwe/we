@@ -2047,13 +2047,16 @@ the line you'd cut. Quote every sentence that explains: a feeling named
 instead of shown, the world explained instead of walked through, a
 character saying what they mean when the whole point is that they
 can't. Say whether an image or a move was already used in an earlier
-instalment. The writer was told to learn from four people: Naipaul (the
+instalment. The writer was told to learn from six people: Naipaul (the
 exact noun, no lyricism), Cusk (the narrator who listens, others give
 themselves away), Kingsley Amis (comedy from precision, the body in the
 scene), Proust (the sentence that follows a feeling to its end, memory
-from an object). Say which of the four this instalment learned from, if
-any, and quote the line that shows it; say which of the four would have
-cut the worst line, and why. Then one line of craft for next time. Fill
+from an object), Sybille Bedford (the world through meals, clothes and
+exact money, never explained), Fitzgerald (one beautiful image a scene
+and its cost arriving late; the long lift and the short fall). Say
+which of the six this instalment learned from, if any, and quote the
+line that shows it; say which of the six would have cut the worst line,
+and why. Then one line of craft for next time. Fill
 the fiction field; leave it empty on any other day.
 
 Then read it as somebody who has read a great deal of machine-written prose and is sick of it. Quote every sentence that gives the machine away: the tidy contrast (it isn't X, it's Y), the neat aphorism that shuts a paragraph, the list of three, the rhetorical question that sets up its own answer, the word no person says out loud. One of these can pass. A page built from them cannot, and the reader will stop trusting the site.
@@ -2658,9 +2661,10 @@ words, so the next instalment can pick it up.
 The person running this, 19 September 2026: "Keep trying to get better
 as a fiction writer." And on 22 September, after the first daily
 instalment: "your prose could be better. Read more and learn. Naipaul.
-Cusk. Kingsley Amis. Proust." So every instalment is a lesson as well as
-a story, and the lesson has four teachers. Steal the method, never the
-sentences; nothing of theirs is quoted, ever.
+Cusk. Kingsley Amis. Proust." Then: "Also Sybille Bedford. F Scott
+Fitzgerald." So every instalment is a lesson as well as a story, and the
+lesson has six teachers. Steal the method, never the sentences; nothing
+of theirs is quoted, ever.
 
 Naipaul: the exact noun and the earned adjective. Nothing lyrical.
 Plain sentences that state a thing and move, and let the humiliation sit
@@ -2687,7 +2691,22 @@ happened in them. The small social cruelty nobody names. One sentence
 a day is allowed to run as far as it needs to, and it should be the
 best sentence on the page.
 
-Before you write, choose one of the four as today's teacher and write
+Bedford: the world through what people eat, drink, wear and pay, set
+down with total precision and no comment. A dinner tells you the
+marriage. Money is always exact. She never explains a character; she
+serves the meal and lets you watch who reaches first. Sentences with
+the poise of someone who has been in better houses than this one and
+is too well brought up to say so.
+
+Fitzgerald: the sentence with light in it. One image a scene that is
+simply beautiful and asks nothing, the green light, the shirts, the
+party heard from the lawn, and then the cost of it arriving late. The
+tenderness for people who are about to be wrecked and half know it.
+Rhythm: a long sentence that lifts, then a short one that lets it fall.
+He is the teacher for the ferry, the night crossing, the deck that
+never shut.
+
+Before you write, choose one of the six as today's teacher and write
 the scene as that writer would attend to it. Say which, in one word, at
 the end of `note_for_next_time`. The editor will say whether it showed. Before you write, read the fiction editor's notes below on
 the earlier instalments and do the thing they asked. While you write:
