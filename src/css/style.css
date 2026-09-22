@@ -1,4 +1,4 @@
-/* WE — black and white. No webfonts: the site makes no third-party requests,
+/* WE — black, white, and one orange. No webfonts: the site makes no third-party requests,
    which is the only honest way to run a page that claims to track nothing. */
 
 :root {
@@ -51,13 +51,13 @@ main, .masthead, footer { max-width: var(--measure); margin-inline: auto; }
   padding: 3.5rem 0 3rem;
 }
 
-.wordmark {
+.wordmark, .wordmark:visited, .wordmark:hover {
   font-family: var(--mono);
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 0.24em;
   text-decoration: none;
-  color: var(--ink);
+  color: var(--link);
 }
 
 .masthead nav { display: flex; flex-wrap: wrap; gap: 0.6rem 1.25rem; }
