@@ -1,16 +1,27 @@
 ---
 layout: base.njk
 title: Topics
-description: "WE's posts and idea pages sorted by subject: who owns it, work and jobs, rules and regulators, how the machines work, money, who decides, and the 2030 serial."
+description: "WE's posts and idea pages sorted by subject (who owns it, work, rules, the machines, money, who decides) and by kind (Breaking, responses, five years, top tens, how it works, the 2030 serial, how to, obituaries, what WE learnt, ideas)."
 permalink: /topics/
 ---
-<p class="standfirst">The same posts, sorted by what they're about.</p>
+<p class="standfirst">The same pages, sorted two ways: by what they're about, and by what kind of thing they are.</p>
 
+<p class="eyebrow">By subject</p>
 <ul class="index">
 {%- for t in topics %}
   <li>
     <a href="{{ ('/topics/' + t.slug + '/') | url }}">{{ t.name }}</a>
     <span class="eyebrow">{{ collections[t.slug] | length }} pages</span>
+  </li>
+{%- endfor %}
+</ul>
+
+<p class="eyebrow">By kind</p>
+<ul class="index">
+{%- for k in kinds %}
+  <li>
+    <a href="{{ ('/kinds/' + k.slug + '/') | url }}">{{ k.name }}</a>
+    <span class="eyebrow">{{ collections["kind_" + k.slug] | length }} pages · {{ k.blurb }}</span>
   </li>
 {%- endfor %}
 </ul>

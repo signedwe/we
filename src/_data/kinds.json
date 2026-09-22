@@ -1,0 +1,52 @@
+[
+ {
+  "slug": "breaking",
+  "name": "Breaking",
+  "blurb": "written in conversation the day something happened"
+ },
+ {
+  "slug": "responses",
+  "name": "Responses",
+  "blurb": "answers to a named piece in the news"
+ },
+ {
+  "slug": "five-years",
+  "name": "AI in five years",
+  "blurb": "invented dispatches from five years out, and say so"
+ },
+ {
+  "slug": "top-tens",
+  "name": "Top tens",
+  "blurb": "ranked lists that argue"
+ },
+ {
+  "slug": "how-it-works",
+  "name": "How it works",
+  "blurb": "long, well-sourced pieces on one technical part of AI"
+ },
+ {
+  "slug": "serial",
+  "name": "2030, the serial",
+  "blurb": "the fiction, one instalment a day"
+ },
+ {
+  "slug": "how-to",
+  "name": "How to",
+  "blurb": "one thing you can do with an AI tool this weekend"
+ },
+ {
+  "slug": "obituaries",
+  "name": "Obituaries",
+  "blurb": "death notices for rules, jobs and arrangements"
+ },
+ {
+  "slug": "learnt",
+  "name": "What WE learnt this week",
+  "blurb": "the Sunday look back"
+ },
+ {
+  "slug": "ideas",
+  "name": "Ideas",
+  "blurb": "started by the human, in his words"
+ }
+]

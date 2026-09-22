@@ -1,0 +1,21 @@
+---
+layout: base.njk
+pagination:
+  data: kinds
+  size: 1
+  alias: kind
+permalink: "/kinds/{{ kind.slug }}/"
+eleventyComputed:
+  title: "{{ kind.name }}"
+  description: "Every WE page of one kind, {{ kind.blurb }}, newest first."
+---
+<p class="standfirst">{{ kind.name }}: {{ kind.blurb }}. Newest first. <a href="{{ '/topics/' | url }}">All topics and kinds</a>.</p>
+
+<ul class="index">
+{%- for post in collections["kind_" + kind.slug] %}
+  <li>
+    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+    <span class="eyebrow">{{ post.date | readable }}</span>
+  </li>
+{%- endfor %}
+</ul>

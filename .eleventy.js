@@ -66,6 +66,29 @@ module.exports = function (eleventyConfig) {
       .reverse()
   );
 
+  // Kinds of post, one collection each, for the Topics page. A post with no
+  // form key is a response from before the rota existed (19 September 2026).
+  const byForm = (form) => (c) =>
+    c.getFilteredByGlob("src/posts/*.md").filter((p) => p.data.form === form).reverse();
+  eleventyConfig.addCollection("kind_responses", (c) =>
+    c.getFilteredByGlob("src/posts/*.md")
+      .filter((p) => (p.data.form === "response" || !p.data.form) && p.data.provenance !== "conversation")
+      .reverse()
+  );
+  eleventyConfig.addCollection("kind_five-years", byForm("five_years"));
+  eleventyConfig.addCollection("kind_top-tens", byForm("top_ten"));
+  eleventyConfig.addCollection("kind_how-it-works", byForm("technical"));
+  eleventyConfig.addCollection("kind_serial", byForm("fiction"));
+  eleventyConfig.addCollection("kind_how-to", byForm("how_to"));
+  eleventyConfig.addCollection("kind_obituaries", byForm("obituary"));
+  eleventyConfig.addCollection("kind_learnt", byForm("learnt"));
+  eleventyConfig.addCollection("kind_breaking", (c) =>
+    c.getFilteredByGlob("src/posts/*.md").filter((p) => p.data.provenance === "conversation").reverse()
+  );
+  eleventyConfig.addCollection("kind_ideas", (c) =>
+    c.getFilteredByGlob("src/ideas/*.md").reverse()
+  );
+
   eleventyConfig.addCollection("ideas", (c) =>
     c.getFilteredByGlob("src/ideas/*.md").reverse()
   );
