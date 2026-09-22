@@ -19,6 +19,9 @@ on:
     - cron: "23 9 * * *"
     - cron: "11 11 * * *"
     - cron: "41 13 * * *"
+    # A fourth, since the serial runs daily (22 September) and Saturday now
+    # carries three posts: one firing per form, plus one spare for a held draft.
+    - cron: "31 15 * * *"
   workflow_dispatch:
 
 permissions:

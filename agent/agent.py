@@ -2274,7 +2274,7 @@ def record_fiction_notes(verdict: dict, title: str, date: str, kept: int = 30) -
         lines.append(f"- Next time: {fic['note_for_next_time']}")
     entry = "\n".join(lines) + "\n"
     header = ("# The fiction editor's notes\n\nWritten after each instalment of the "
-              "2030 serial by a reader that did not write it. The Friday writer reads "
+              "2030 serial by a reader that did not write it. The next instalment's writer reads "
               "these before starting and cannot edit them. The standing instruction "
               "from the person running this: keep trying to get better as a fiction "
               "writer.\n")
@@ -2389,7 +2389,8 @@ TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 # Tuesday     response     answer a news story published this week
 # Wednesday   top_ten      a top ten
 # Thursday    technical    a longer, well-sourced piece on one technical part of AI
-# Friday      fiction      2030, one person, a serial: continues last week's
+# Every day   fiction      2030, the serial, one instalment after the day's form;
+#                          Friday is the serial's own day, one longer chapter
 # Saturday    how_to       one thing you can do with AI this weekend (with a disclaimer)
 #             obituary     a death notice for a rule, a job or an arrangement
 # Sunday      learnt       what WE learnt this week
@@ -2399,14 +2400,18 @@ TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 # first form on the list that hasn't been published today, the next firing
 # writes the next.
 
+# 22 September 2026, the operator: "why not write the fiction daily..
+# weekly is too slow." So the serial runs every day, after the day's form,
+# one instalment per firing. Friday is the serial's own day: one longer
+# chapter and nothing else.
 FORMS = {
-    0: "five_years",
-    1: "response",
-    2: "top_ten",
-    3: "technical",
-    4: "fiction",
-    5: ["how_to", "obituary"],
-    6: "learnt",
+    0: ["five_years", "fiction"],
+    1: ["response", "fiction"],
+    2: ["top_ten", "fiction"],
+    3: ["technical", "fiction"],
+    4: ["fiction"],
+    5: ["how_to", "obituary", "fiction"],
+    6: ["learnt", "fiction"],
 }
 
 FORM_LABEL = {
@@ -2590,7 +2595,13 @@ differently, if they earn it.
         return common + f"""
 ## Today's form: 2030, a serial
 
-Friday. A piece of fiction, and it has to be brilliant or not at all.
+A piece of fiction, and it has to be brilliant or not at all. The serial
+runs daily now, on the operator's order of 22 September ("weekly is too
+slow"): one instalment every day after the day's post, and on Friday a
+longer chapter with the day to itself. A daily instalment is a scene,
+not a chapter: one place, one want, one turn, and it ends on a pull, the
+thing left unsaid or undone that tomorrow has to answer. Four to seven
+hundred words most days. Friday may run to the ceiling.
 One person in 2030, in Britain unless the story has moved, living inside
 the arrangements this site argues about: who owns the assistant, who can
 refuse, who got the extra day, who holds the memory. A story, not an
@@ -2610,20 +2621,20 @@ whale on it, a flat that forgets her when she asks it to. The plain
 English arithmetic is off for this form; the word rules stay. A sentence
 may run. A paragraph may not.
 
-It is a serial. Each week continues the last. Same person, or someone
-whose life crosses theirs; time moves on; what happened last week has
-consequences this week. Do not recap; a new reader should be able to
-start here, and an old one should feel the ground shift. Keep a running
-summary in `serial_so_far`, rewritten each week, under 200 words, so the
-next instalment can pick it up.
+It is a serial. Each instalment continues the last. Same person, or
+someone whose life crosses theirs; time moves on; what happened
+yesterday has consequences today. Do not recap; a new reader should be
+able to start here, and an old one should feel the ground shift. Keep a
+running summary in `serial_so_far`, rewritten each time, under 200
+words, so the next instalment can pick it up.
 
 {story_so_far()}
 
 ## Getting better at this
 
 The person running this, 19 September 2026: "Keep trying to get better
-as a fiction writer." So every Friday is a lesson as well as an
-instalment. Before you write, read the fiction editor's notes below on
+as a fiction writer." So every instalment is a lesson as well as a
+story. Before you write, read the fiction editor's notes below on
 the earlier instalments and do the thing they asked. While you write:
 one concrete object per scene that carries the feeling (the whale on the
 bag), never the feeling named. Dialogue that withholds; people in this
@@ -3284,7 +3295,7 @@ def main() -> int:
         if FORM in ("fiction", "five_years"):
             failures += check_invented_names(post["body"])
         if FORM == "fiction" and len(str(post.get("serial_so_far") or "").split()) < 30:
-            failures.append("No serial_so_far, or too thin. Next week's instalment "
+            failures.append("No serial_so_far, or too thin. Tomorrow's instalment "
                             "starts from it. Under 200 words, the whole story so far "
                             "including today.")
         failures += check_thesis_update(post.get("thesis_update"))

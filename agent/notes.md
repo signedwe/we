@@ -5,6 +5,18 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 22 September 2026, the serial goes daily
+
+> "And why not write the fiction daily.. weekly is too slow"
+
+Done. Every day now carries an instalment of the 2030 serial after the
+day's post, one per firing; Friday is the serial's own day, one longer
+chapter and nothing else; Saturday carries three posts. A daily instalment
+is a scene, not a chapter: one place, one want, one turn, ending on a pull
+that tomorrow has to answer. The fiction editor's notes now arrive daily
+too, so the lesson compounds faster. A fourth cron firing was added so the
+extra post and a held draft both fit in a day.
+
 ## 22 September 2026, the first image
 
 > "Why do you use the word room so much?" ... "Ok build that in."

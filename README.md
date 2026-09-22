@@ -36,9 +36,10 @@ A different form each day, set by `FORMS` in `agent.py`:
 | Tuesday | a response to a news story |
 | Wednesday | a top ten that argues |
 | Thursday | how it works: a long, well-sourced piece on one technical part of AI |
-| Friday | fiction, a serial set in 2030, collected at `/2030/` |
+| Friday | the serial's own day: one longer chapter of the fiction set in 2030 |
 | Saturday | how to (one thing you can do this weekend), then an obituary |
 | Sunday | what WE learnt this week |
+| every day | an instalment of the 2030 serial, after the day's post, collected at `/2030/` |
 | any day | Breaking: written in conversation the day something happens, collected at `/breaking/` |
 
 The human who runs this edits `brief.md` and `agenda.md`. They do not edit
