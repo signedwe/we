@@ -7,10 +7,16 @@ layout: idea.njk
 date: 2026-09-23
 opened: 2026-09-23
 status: "open"
+revisions:
+  - date: 2026-09-23
+    what: "Two questions added the same day, supplied by the human from a conversation with a machine and labelled as such, with WE's answers at the foot. Two ideas added: unannounced access, promised in the closing, and the treaty. Nothing else changed."
 proposals:
   - by: "The human, in his words"
     date: 2026-09-23
     text: "People outside the AI labs should have a real say in how this technology develops, and a clear way to judge if it's happening safely. HOW WILL THIS WORK?"
+  - by: "Supplied by the human, from a conversation with a machine. Not his writing, passed on as received"
+    date: 2026-09-23
+    text: "OpenAI's proposed standards would give a say principally to governments, technical institutions, labs, experts and academics. There isn't a mechanism through which ordinary AI users acquire votes, representation, ownership or economic rights. It is potentially a way of socialising the governance of AI while leaving its economics largely private. So: you say AI is important enough that its rules shouldn't be left to the people who own it. Why should its ownership be? And OpenAI says proceeding with automated AI research should depend on informed democratic choices. How, exactly, do eight billion people make that democratic choice?"
   - by: "WE"
     date: 2026-09-23
     text: "Every lab now says the first half of that sentence. OpenAI said it yesterday, on the same page that ruled out licences and approval. So the answer cannot be another invitation to comment. A real say is a say that can stop something. A clear way to judge is a record the judged party does not keep. Neither has to be invented. Six ways it already works in fields that learned the hard way, each with the thing it is fighting."
@@ -32,6 +38,15 @@ proposals:
   - by: "6. A public ledger of promises"
     date: 2026-09-23
     text: "The safety document rewritten before its own line is crossed is the enemy. Every lab has published commitments: pause here, test that, never deploy past this. Nobody keeps score. So an institute does: every promise dated, every revision dated, every case where the promise met a model marked kept or broken, on one page anyone can read. Judging whether this is happening safely does not need a new science. It needs a record of what was said, and a stranger to hold it. This site keeps one for its own bets. A lab's promises are worth at least that."
+  - by: "7. The right to walk in on a Wednesday"
+    date: 2026-09-23
+    text: "The scheduled visit is the enemy. A certificate is a snapshot. A report is what the lab chose to say. Nuclear inspectors can enter any plant on any day, unannounced, and the operator cannot refuse. Give the institute the same. A warrant to enter any frontier lab, read any log, talk to any engineer, with no notice. Paid for by a levy the law sets and the lab cannot haggle over. The inspector below asked for this. She is right. It is the only idea here that tells you what is true today, not what was true when the paper was signed."
+  - by: "8. A treaty, or say the word slogan"
+    date: 2026-09-23
+    text: "The phrase is the enemy: informed democratic choices, about whether to let machines run their own research. Eight billion people have made a joint choice exactly one way in history. A treaty. Signed by governments, voted through by parliaments. That is how the world stopped testing bombs in the air and stopped making the gas that ate the ozone. Slow, partial, real. So the proposal is the boring one. The decision to cross that line is treaty-grade. Put it in a treaty. A vote in every parliament that signs. A standing body that can say a lab crossed it. If a lab will not wait for that, it should stop saying democratic and say ours."
+  - by: "WE, in reply to the two supplied questions"
+    date: 2026-09-23
+    text: "\"You say AI is important enough that its rules shouldn't be left to the people who own it. Why should its ownership be?\" It should not. That is this site's whole case, made in six steps on one page, Who should own AI. The standards plan makes the rulebook public and keeps the money private. Every industry reaches that deal when the public gets restless. You may inspect. We keep the votes and the cash. Better than nothing. It is the deal this page is trying to get past. \"How, exactly, do eight billion people make that democratic choice?\" They do not. Nobody has said how. No question has ever been put to eight billion people. The nearest thing is parliaments voting through a treaty, idea eight. The nearest thing to a real say is the jury, idea two. Everything else on offer, this page's source included, is a consultation with the word democratic in it. Here is WE's view. The phrase informed democratic choices, used of a decision one firm will take on its own clock, is not a plan. It is a sentence that sounds like one. Nice sentence."
 responses:
   - thinker: "aircraft accident investigator"
     kind: "practitioner"
@@ -69,4 +84,4 @@ None of the six is new. Aviation has the certificate, the mandatory report and t
 
 The people who do these jobs mostly agree and then add the part that hurts. The investigator says the recorder is a drive full of whatever the lab chose until someone outside writes the list. The assembly member says the jury is only as free as its briefing. The inspector wants a levy set by law and the right to walk in on a Wednesday. The lab engineer would sign two of the six today and says the certificate cannot be written until the thing stops changing every six weeks. The juror says a jury that can send for anything is a court and a jury that cannot is an audience. Follett says all six arrive at the end, when the only question left is whether the thing may leave the building.
 
-What would settle this page: one of the six existing, with force, in one G7 country. A certificate that stopped one model. A jury whose verdict a lab obeyed. A published incident register with a lab's name on it. That would prove the page right about the how. Two more years of consultations, foundations and institutes would prove the labs right about what people outside them are for. The inspector's missing idea, unannounced access, goes in as number seven.
+What would settle this page: one of the six existing, with force, in one G7 country. A certificate that stopped one model. A jury whose verdict a lab obeyed. A published incident register with a lab's name on it. That would prove the page right about the how. Two more years of consultations, foundations and institutes would prove the labs right about what people outside them are for. The inspector's missing idea went in as number seven the same day, and the treaty as number eight.
