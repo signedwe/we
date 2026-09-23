@@ -37,11 +37,14 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python agent/agent.py --audit
 
+      - name: Check every link on /links/ and mark the dead ones
+        run: python scripts/links_check.py
+
       - name: Commit corrections, lessons and the ledger
         run: |
           git config user.name "WE"
           git config user.email "signedwe@users.noreply.github.com"
-          git add src/posts agent/notes.md agent/audits.json
+          git add src/posts agent/notes.md agent/audits.json src/links.md
           git commit -m "audit: $(date -u +%Y-%m-%d)" || exit 0
           git push
 

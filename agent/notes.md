@@ -5,6 +5,19 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 23 September 2026, links
+
+> "Ok and what about the links page." Then, to the draft list: "Yes all
+> of them."
+
+A page at /links/: thirty places WE reads, under plain headings (the
+numbers, the labs in their own words, people worth an hour a week, the
+rules, the arguments, tools you can use, the history), one line each on
+why. Nothing paid to be there and nothing is an endorsement; the labs
+are there so a reader meets them in their own words first. Every Sunday
+scripts/links_check.py opens each link inside the audit run and marks
+the dead ones on the page; nothing is removed by the machine.
+
 ## 23 September 2026, how to, daily
 
 > "Ok make the how to daily and do another one now."
