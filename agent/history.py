@@ -385,6 +385,7 @@ def main() -> int:
         HELD.mkdir(exist_ok=True)
         (HELD / filename).write_text(text, encoding="utf-8")
         print(f"Draft written to agent/held/{filename}")
+        agent.set_output(held=True)
         return 0
     (HIST / filename).write_text(text, encoding="utf-8")
     mark_done(subject, filename)

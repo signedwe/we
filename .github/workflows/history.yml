@@ -10,6 +10,11 @@ on:
     - cron: "7 7 * * 0"
     - cron: "37 8 * * 0"
   workflow_dispatch:
+    inputs:
+      draft:
+        description: "Draft run: write the essay and its review to agent/held/ and upload it as an artifact, commit nothing"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -40,7 +45,16 @@ jobs:
         id: write_essay
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DRAFT: ${{ inputs.draft == true && '1' || '' }}
         run: python agent/history.py
+
+      - name: Keep the draft or the held essay where a human can read it
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: history-held
+          path: agent/held/
+          if-no-files-found: ignore
 
       - name: Commit the essay
         if: steps.write_essay.outputs.held != 'true'
