@@ -60,7 +60,12 @@ published weekly." So the form joins the machine: agent/history.py runs
 on Sunday mornings, takes the next subject from agent/history-subjects.md,
 writes, checks, sends the essay to a second machine that opens every
 source, corrects what it finds, and publishes only if the last review
-finds no error. An essay that fails is held, not published.
+finds no error. An essay that fails is held, not published. The first
+machine draft, on Turing's 1950 paper, was held: after two reviews seven
+errors were still standing (a page count, who wrote the Times piece,
+a Gandy quotation not word for word, what the Britannica note said).
+That is the standard working. Three review passes now, and the writer
+can open a page and copy the words rather than remember them.
 
 ## 22 September 2026, findable
 

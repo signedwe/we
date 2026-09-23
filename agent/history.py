@@ -16,7 +16,7 @@ The shape of a run:
    the essay and its source URLs, opens them, checks every quotation and
    claim, and reports JSON findings.
 6. Errors and unsupported claims go back to the writer; the corrected essay
-   is reviewed again. Two review passes at most.
+   is reviewed again. Three review passes at most.
 7. If errors survive the last pass, the essay is held (written to
    agent/held/, nothing committed). Otherwise it is written to src/history/
    with the review published at its foot, the subject is marked done, and
@@ -54,7 +54,10 @@ DRAFT = bool(os.environ.get("DRAFT"))
 MODEL = agent.MODEL
 MAX_TOKENS = 32000
 
-WRITER_TOOLS = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 20}]
+WRITER_TOOLS = [
+    {"type": "web_search_20250305", "name": "web_search", "max_uses": 20},
+    {"type": "web_fetch_20250910", "name": "web_fetch", "max_uses": 20},
+]
 # The reviewer needs to open pages, not skim snippets, because a quotation
 # is checked word for word. web_fetch is a beta server tool; if the beta
 # is refused the reviewer falls back to search alone and says so.
@@ -66,7 +69,7 @@ REVIEW_TOOLS = [
 
 MIN_WORDS, MAX_WORDS = 2500, 4500
 MIN_NOTES = 8
-REVIEW_PASSES = 2
+REVIEW_PASSES = 3
 
 REVIEW_BY = (
     "A second machine, with no part in the writing and no sight of the "
@@ -251,6 +254,19 @@ def review_prompt(essay: dict) -> str:
     )
 
 
+def write(client, messages):
+    """The writer's turn: search and fetch, so a quotation can be copied
+    from the page rather than remembered. Falls back to search alone if
+    the fetch beta is refused."""
+    try:
+        return create(client, beta=True, model=MODEL, max_tokens=MAX_TOKENS,
+                      betas=[FETCH_BETA], tools=WRITER_TOOLS, messages=messages)
+    except Exception as exc:
+        print(f"web_fetch unavailable for the writer ({str(exc)[:120]}); search only")
+        return create(client, model=MODEL, max_tokens=MAX_TOKENS,
+                      tools=WRITER_TOOLS[:1], messages=messages)
+
+
 def run_review(client, essay: dict) -> dict:
     prompt = review_prompt(essay)
     messages = [{"role": "user", "content": prompt}]
@@ -352,8 +368,7 @@ def main() -> int:
     essay = None
     failures = []
     for attempt in range(4):
-        resp = create(client, model=MODEL, max_tokens=MAX_TOKENS,
-                      tools=WRITER_TOOLS, messages=messages)
+        resp = write(client, messages)
         try:
             essay = agent.extract_json(agent.text_blocks(resp))
         except ValueError as exc:
@@ -404,14 +419,13 @@ def main() -> int:
         messages.append({"role": "user", "content":
             "A reviewer opened every source and checked every quotation and "
             "claim. These are its findings. Correct every error and every "
-            "unsupported claim: quote exactly or paraphrase without quotation "
+            "unsupported claim: open the page and copy the words, or paraphrase without quotation "
             "marks, cut invented colour, mark interpretation as the essay's, "
             "fix or replace bad footnotes. Quibbles are worth fixing too. Then "
             "run your eye over the whole essay for anything of the same kind "
             "the reviewer did not list. Reply with the complete corrected JSON "
             "object, nothing else.\n\n" + findings})
-        resp = create(client, model=MODEL, max_tokens=MAX_TOKENS,
-                      tools=WRITER_TOOLS, messages=messages)
+        resp = write(client, messages)
         try:
             essay = agent.extract_json(agent.text_blocks(resp))
         except ValueError as exc:
