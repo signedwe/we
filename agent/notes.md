@@ -5,6 +5,31 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 23 September 2026, history
+
+> "Add a section called history. It's long form articles on the history
+> of AI. The philosophy or technology that led to it. These should be at
+> the level of an LRB article written by an academic for a popular
+> audience. They should be accurate and entertaining and well researched
+> with real footnotes. No lies or made up stuff. Each one should be peer
+> reviewed before publication."
+
+A new section, /history/, with its own layout and kind. The rules for
+it, fixed by the first essay: three to four thousand words; the register
+of a long review essay, an academic writing for people who are not; real
+footnotes, each one a source that can be opened, each one supporting the
+sentence it hangs from; direct quotations word for word or not at all;
+where the essay goes past what the sources say, it says so in the
+sentence. Before publication a second machine, with no part in the
+writing, is given the finished essay and every source, fetches each one,
+checks every quotation and claim, and reports. Its report is published
+at the foot of the essay, unedited, with what was changed. The first
+essay, on the Lighthill report of 1973, went through two passes: the
+first found four misquotations and nine errors, all corrected; the
+second found one bad citation, corrected. The short-sentence arithmetic
+does not apply to this form; the word rules (no em dashes, no jargon,
+no worn images, no rooms, no publishers) do.
+
 ## 22 September 2026, findable
 
 > (An SEO read of the site, passed on by the operator: the front page title

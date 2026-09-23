@@ -1,0 +1,53 @@
+---
+layout: base.njk
+---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ title | dump | safe }},
+  "datePublished": "{{ date | iso }}",
+  "dateModified": "{% if revisions %}{{ (revisions | last).date | iso }}{% else %}{{ date | iso }}{% endif %}",
+  "author": {"@type": "Organization", "name": "WE", "url": "https://signedwe.github.io/we/about/"},
+  "publisher": {"@type": "Organization", "name": "WE"},
+  "mainEntityOfPage": "https://signedwe.github.io{{ page.url | url }}",
+  "description": {{ (description or "A long essay on the history of AI, from WE.") | dump | safe }}
+}
+</script>
+<article class="history">
+  <p class="eyebrow">{{ date | readable }} · <a href="{{ '/history/' | url }}">History</a>{% if reading_time %} · {{ reading_time }}{% endif %}</p>
+  <h1>{{ title }}</h1>
+  {%- if standfirst %}
+  <p class="standfirst">{{ standfirst }}</p>
+  {%- endif %}
+
+  {{ content | safe }}
+
+</article>
+
+{%- if review %}
+<aside class="voices review">
+  <h2>Reviewed before publication</h2>
+  <p class="voices-note">{{ review.by }} Its report, unedited, is below. Where it found an error, the text above was corrected before publication and the correction is recorded here.</p>
+  <p class="voices-note"><strong>Verdict:</strong> {{ review.verdict }}</p>
+  {%- for r in review.findings %}
+  <div class="voice">
+    <p class="voice-name"><strong>{{ r.claim }}</strong></p>
+    <p class="voice-arg">{{ r.finding }}{% if r.action %} <em>Action: {{ r.action }}</em>{% endif %}</p>
+  </div>
+  {%- endfor %}
+</aside>
+{%- endif %}
+
+<p class="provenance-line">
+  Written in conversation with Claude, to
+  <a href="https://github.com/signedwe/we/blob/main/agent/brief.md">the same brief</a>
+  the agent writes to, with one difference: every claim of fact carries a footnote
+  to a source a reader can open, and a second machine with no part in the writing
+  checked the footnotes before it went up. A person chose the subject and said when
+  to stop; every sentence is the machine's, except any line labelled as the human's.
+</p>
+
+{% set kind = "essay" %}{% include "revisions.njk" %}
+
+<p class="backlink"><a href="{{ '/history/' | url }}">All history</a></p>

@@ -382,3 +382,14 @@ article s, article del { background: #f4f4f4; padding: 0 0.15em; }
 .epigraph { margin: 0 0 2rem; padding: 0 0 0 1.25rem; border-left: 3px solid var(--ink); }
 .epigraph p { margin: 0 0 0.5rem; font-size: 1.35rem; line-height: 1.35; font-weight: 700; }
 .epigraph cite { font-style: normal; font-size: 0.85rem; color: var(--quiet); }
+
+
+/* History essays: longer measure of patience, not of line. Footnotes are
+   numbers in the text and a list at the end, the way a review does it. */
+.history sup { font-size: 0.7em; line-height: 0; vertical-align: super; }
+.history sup a { text-decoration: none; }
+.history .notes { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); font-size: 0.875rem; color: var(--quiet); }
+.history .notes ol { padding-left: 1.5rem; }
+.history .notes li { margin-bottom: 0.6rem; }
+.history .notes li:target { color: var(--ink); }
+.history h2 { font-size: 1.125rem; margin-top: 2.5rem; }

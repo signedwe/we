@@ -96,6 +96,13 @@ module.exports = function (eleventyConfig) {
     c.getFilteredByGlob("src/ideas/*.md").reverse()
   );
 
+  eleventyConfig.addCollection("history", (c) =>
+    c.getFilteredByGlob("src/history/*.md").reverse()
+  );
+  eleventyConfig.addCollection("kind_history", (c) =>
+    c.getFilteredByGlob("src/history/*.md").reverse()
+  );
+
   eleventyConfig.addCollection("ideas", (c) =>
     c.getFilteredByGlob("src/ideas/*.md").reverse()
   );
@@ -114,7 +121,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection("everything", (c) =>
-    c.getFilteredByGlob(["src/posts/*.md", "src/ideas/*.md"])
+    c.getFilteredByGlob(["src/posts/*.md", "src/ideas/*.md", "src/history/*.md"])
   );
 
   // The Friday serial, oldest first, so the page reads as one story.

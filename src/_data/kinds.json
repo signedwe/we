@@ -48,5 +48,10 @@
   "slug": "ideas",
   "name": "Ideas",
   "blurb": "started by the human, in his words"
+ },
+ {
+  "slug": "history",
+  "name": "History",
+  "blurb": "long essays on where AI came from, footnoted and checked before publication"
  }
 ]
