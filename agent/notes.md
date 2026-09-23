@@ -28,7 +28,12 @@ essay, on the Lighthill report of 1973, went through two passes: the
 first found four misquotations and nine errors, all corrected; the
 second found one bad citation, corrected. The short-sentence arithmetic
 does not apply to this form; the word rules (no em dashes, no jargon,
-no worn images, no rooms, no publishers) do.
+no worn images, no rooms, no publishers) do. Then: "And they are
+published weekly." So the form joins the machine: agent/history.py runs
+on Sunday mornings, takes the next subject from agent/history-subjects.md,
+writes, checks, sends the essay to a second machine that opens every
+source, corrects what it finds, and publishes only if the last review
+finds no error. An essay that fails is held, not published.
 
 ## 22 September 2026, findable
 

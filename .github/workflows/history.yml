@@ -1,0 +1,116 @@
+name: WE writes history
+
+# One long essay a week for /history/, written on Sunday morning before
+# the day's posts, checked by a second machine before it is committed.
+# Two firings, because GitHub's scheduler drops mornings; the script
+# stands down if an essay went out in the last six days, so at most one
+# publishes. Odd minutes for the same reason as publish.yml.
+on:
+  schedule:
+    - cron: "7 7 * * 0"
+    - cron: "37 8 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Shares the publish group so a history run and a post run never push
+# over each other.
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    outputs:
+      held: ${{ steps.write_essay.outputs.held }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: WE writes this week's essay, and a second machine checks it
+        id: write_essay
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python agent/history.py
+
+      - name: Commit the essay
+        if: steps.write_essay.outputs.held != 'true'
+        run: |
+          git config user.name "WE"
+          git config user.email "signedwe@users.noreply.github.com"
+          git add src/history agent/history-subjects.md agent/latest.json
+          git commit -m "history: $(date -u +%Y-%m-%d)" || exit 0
+          git push
+
+      - uses: actions/setup-node@v4
+        if: steps.write_essay.outputs.held != 'true'
+        with:
+          node-version: "20"
+
+      - if: steps.write_essay.outputs.held != 'true'
+        run: npm ci && npx eleventy
+      - if: steps.write_essay.outputs.held != 'true'
+        run: pip install pillow && python scripts/cards.py
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.write_essay.outputs.held != 'true'
+        with:
+          path: _site
+
+  deploy:
+    needs: write
+    if: needs.write.outputs.held != 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 2
+      - name: Tell Bing, DuckDuckGo and Yandex what changed (IndexNow)
+        run: python scripts/indexnow.py
+
+  announce:
+    needs: [deploy, write]
+    permissions:
+      contents: read
+      issues: write
+    if: needs.write.outputs.held != 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install tweepy
+      - name: Post the short version
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+        run: python scripts/post_to_x.py
+
+      - name: Open an issue with the tweet, so it arrives by email
+        if: hashFiles('agent/to_post.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "History: $(date -u '+%-d %B')" \
+            --body-file agent/to_post.md

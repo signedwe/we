@@ -1574,38 +1574,10 @@ def check_style(body: str) -> list:
     return failures
 
 
-def check_post(body: str, previous: list = None) -> list:
-    """Every way this post breaks the brief. Empty list means it's clean."""
-    failures = []
 
-    failures += check_plain(body, fiction=(FORM == "fiction"))
-
-    words = visible_words(body)
-    limit = FORM_WORD_LIMIT.get(FORM, WORD_LIMIT)
-    if words > limit:
-        failures.append(
-            f"Too long: {words} words. The ceiling is {limit}. "
-            "You've probably got two ideas in there. Keep one, save the "
-            "other for the agenda."
-        )
-
-    if EM_DASH in body:
-        n = body.count(EM_DASH)
-        failures.append(
-            f"Em dash used {n} time{'s' if n > 1 else ''}. The brief bans it "
-            "outright. Every one of them is two sentences. Split them."
-        )
-
-    low = body.lower()
-    hits = sorted({w for w in BANNED if w in low})
-    if hits:
-        failures.append(
-            "Banned words used: " + ", ".join(hits) + ". These are forbidden "
-            "in any form. Say \"not enough of it\" instead of scarcity, "
-            "\"leftover\" or \"hangover\" instead of artefact. Rewrite the "
-            "sentences, don't swap the word."
-        )
-
+def worn_words(low: str, form: str = "") -> list:
+    """The images and examples the operator has banned. Word-boundary
+    matches on lowercased text. Shared with the history essays."""
     # Worn out on this site, by the operator's order, 21 September 2026.
     # "Room" as a metaphor (a room to talk in, the room where it happens)
     # appeared in a dozen posts in one fortnight; "publisher" keeps arriving
@@ -1614,7 +1586,7 @@ def check_post(body: str, previous: list = None) -> list:
     worn = []
     # A story is allowed a room with a door and a window in it. The ban is
     # on the metaphor, and the invented forms use the literal thing.
-    if FORM not in ("fiction", "five_years") and re.search(r"\brooms?\b", low):
+    if form not in ("fiction", "five_years") and re.search(r"\brooms?\b", low):
         worn.append("room/rooms as a metaphor: say the trade, the field, the meeting, "
                     "the committee, or the building if it is one")
     if re.search(r"\bpublishers?\b", low):
@@ -1658,6 +1630,41 @@ def check_post(body: str, previous: list = None) -> list:
         worn.append("borrowed images: " + ", ".join(found) + ". The first "
                     "metaphor that arrived is the one everyone uses. Take the "
                     "second one that came")
+    return worn
+
+def check_post(body: str, previous: list = None) -> list:
+    """Every way this post breaks the brief. Empty list means it's clean."""
+    failures = []
+
+    failures += check_plain(body, fiction=(FORM == "fiction"))
+
+    words = visible_words(body)
+    limit = FORM_WORD_LIMIT.get(FORM, WORD_LIMIT)
+    if words > limit:
+        failures.append(
+            f"Too long: {words} words. The ceiling is {limit}. "
+            "You've probably got two ideas in there. Keep one, save the "
+            "other for the agenda."
+        )
+
+    if EM_DASH in body:
+        n = body.count(EM_DASH)
+        failures.append(
+            f"Em dash used {n} time{'s' if n > 1 else ''}. The brief bans it "
+            "outright. Every one of them is two sentences. Split them."
+        )
+
+    low = body.lower()
+    hits = sorted({w for w in BANNED if w in low})
+    if hits:
+        failures.append(
+            "Banned words used: " + ", ".join(hits) + ". These are forbidden "
+            "in any form. Say \"not enough of it\" instead of scarcity, "
+            "\"leftover\" or \"hangover\" instead of artefact. Rewrite the "
+            "sentences, don't swap the word."
+        )
+
+    worn = worn_words(low, FORM)
     if worn:
         failures.append("Worn out: " + "; ".join(worn) + ".")
 
