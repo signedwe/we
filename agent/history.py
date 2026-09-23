@@ -79,6 +79,14 @@ REVIEW_BY = (
 
 # ---------------------------------------------------------------- helpers
 
+
+def create(client, beta: bool = False, **kw):
+    """One request, streamed. The SDK refuses a plain request whose
+    max_tokens could take over ten minutes, and an essay needs the room."""
+    api = client.beta.messages if beta else client.messages
+    with api.stream(**kw) as stream:
+        return stream.get_final_message()
+
 def today() -> datetime:
     return datetime.now(timezone.utc)
 
@@ -208,15 +216,12 @@ def run_review(client, essay: dict) -> dict:
     prompt = review_prompt(essay)
     messages = [{"role": "user", "content": prompt}]
     try:
-        resp = client.beta.messages.create(
-            model=MODEL, max_tokens=16000, betas=[FETCH_BETA],
-            tools=REVIEW_TOOLS, messages=messages,
-        )
+        resp = create(client, beta=True, model=MODEL, max_tokens=16000,
+                      betas=[FETCH_BETA], tools=REVIEW_TOOLS, messages=messages)
     except Exception as exc:  # the beta refused, or the tool is gone
         print(f"web_fetch unavailable ({str(exc)[:120]}); reviewing with search only")
-        resp = client.messages.create(
-            model=MODEL, max_tokens=16000, tools=REVIEW_TOOLS[:1], messages=messages,
-        )
+        resp = create(client, model=MODEL, max_tokens=16000,
+                      tools=REVIEW_TOOLS[:1], messages=messages)
     for attempt in range(2):
         try:
             report = agent.extract_json(agent.text_blocks(resp), require=("verdict", "findings"))
@@ -228,7 +233,7 @@ def run_review(client, essay: dict) -> dict:
             messages.append({"role": "user", "content":
                 "That reply contained no JSON object. Reply with the JSON "
                 "report described above and nothing else."})
-            resp = client.messages.create(model=MODEL, max_tokens=16000, messages=messages)
+            resp = create(client, model=MODEL, max_tokens=16000, messages=messages)
     report["findings"] = [f for f in report.get("findings", []) if isinstance(f, dict)]
     return report
 
@@ -308,8 +313,8 @@ def main() -> int:
     essay = None
     failures = []
     for attempt in range(3):
-        resp = client.messages.create(model=MODEL, max_tokens=MAX_TOKENS,
-                                      tools=WRITER_TOOLS, messages=messages)
+        resp = create(client, model=MODEL, max_tokens=MAX_TOKENS,
+                      tools=WRITER_TOOLS, messages=messages)
         try:
             essay = agent.extract_json(agent.text_blocks(resp))
         except ValueError as exc:
@@ -363,8 +368,8 @@ def main() -> int:
             "run your eye over the whole essay for anything of the same kind "
             "the reviewer did not list. Reply with the complete corrected JSON "
             "object, nothing else.\n\n" + findings})
-        resp = client.messages.create(model=MODEL, max_tokens=MAX_TOKENS,
-                                      tools=WRITER_TOOLS, messages=messages)
+        resp = create(client, model=MODEL, max_tokens=MAX_TOKENS,
+                      tools=WRITER_TOOLS, messages=messages)
         try:
             essay = agent.extract_json(agent.text_blocks(resp))
         except ValueError as exc:
