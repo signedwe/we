@@ -141,25 +141,55 @@ def note_urls(body: str) -> list:
     return list(dict.fromkeys(re.findall(r'href="(https?://[^"]+)"', notes)))
 
 
+def unquoted(text: str) -> str:
+    """The essay's own words. A quotation is the source's, word for word,
+    and the word rules do not reach inside it: Jefferson said "mechanism"
+    and Gandy's sentence had a dash in it."""
+    text = re.sub(r"[\u201c\u201d]", '"', text)
+    text = re.sub(r'"[^"\n]{1,600}"', " ", text)
+    text = re.sub(r"\*\"[^\"\n]{1,600}\"\*", " ", text)
+    return text
+
+
+def offending(text: str, pattern: str, limit: int = 6) -> list:
+    """The sentences in the essay's own words that a pattern hits, so the
+    writer can change those and nothing else."""
+    hits = []
+    for s in re.split(r"(?<=[.!?])\s+", text):
+        if re.search(pattern, s, re.I):
+            hits.append(s.strip()[:220])
+        if len(hits) >= limit:
+            break
+    return hits
+
+
 def check_essay(body: str) -> list:
     """Everything that can be checked without reading a source."""
     failures = []
     text = plain_body(body)
+    own = unquoted(text)
     words = len(text.split())
     if words < MIN_WORDS:
         failures.append(f"Too short: {words} words. The form is {MIN_WORDS} to {MAX_WORDS}.")
     if words > MAX_WORDS:
         failures.append(f"Too long: {words} words. The form is {MIN_WORDS} to {MAX_WORDS}.")
-    if agent.EM_DASH in body:
-        failures.append("Em dashes. None, anywhere, including the notes. Use a comma, a colon, or a full stop.")
-    # The word rules only. Sentence arithmetic is off for this form; a
-    # sentence may run long here when it earns it.
-    for f in check_plain(text, fiction=True):
+    if agent.EM_DASH in unquoted(body):
+        failures.append("Em dashes in the essay's own sentences. None. A comma, a colon, or a full "
+                        "stop. (Inside a word-for-word quotation a dash the source wrote may stay.) "
+                        "The sentences: " + " | ".join(offending(unquoted(body), agent.EM_DASH)))
+    # The word rules only, on the essay's own words. Sentence arithmetic is
+    # off for this form; a sentence may run long here when it earns it.
+    for f in check_plain(own, fiction=True):
         if "sentence runs" not in f and "sentences run" not in f:
-            failures.append(f)
-    worn = agent.worn_words(text.lower(), "history")
+            words_hit = re.findall(r'"([^"]+)"', f)
+            where = []
+            for w in words_hit[:4]:
+                where += offending(own, r"\b" + re.escape(w) + r"\b", 3)
+            failures.append(f + (" The sentences: " + " | ".join(where) if where else ""))
+    worn = agent.worn_words(own.lower(), "history")
     if worn:
-        failures.append("Worn out: " + "; ".join(worn) + ".")
+        where = offending(own, r"\brooms?\b|seat at the table|at the table|the room where|\blevers?\b|guardrails?|black box|arms race|wild west|\bgenie\b|pandora|tidal wave|tsunami|iceberg|canary|elephant in the|double-edged|silver bullet|snake oil|house of cards|trojan horse|goalposts?|keys to the kingdom|gatekeepers?|through the lens|rabbit hole|slippery slope|emperor'?s new clothes")
+        failures.append("Worn out: " + "; ".join(worn) + ". The sentences: " + " | ".join(where))
     # Footnote plumbing.
     refs = re.findall(r'<a href="#fn(\d+)">', body)
     notes = re.findall(r'<li id="fn(\d+)">', body)
@@ -321,14 +351,14 @@ def main() -> int:
 
     essay = None
     failures = []
-    for attempt in range(3):
+    for attempt in range(4):
         resp = create(client, model=MODEL, max_tokens=MAX_TOKENS,
                       tools=WRITER_TOOLS, messages=messages)
         try:
             essay = agent.extract_json(agent.text_blocks(resp))
         except ValueError as exc:
             print(f"Attempt {attempt + 1} returned no usable JSON: {exc.args[0][:120]}")
-            if attempt == 2:
+            if attempt == 3:
                 raise
             messages.append({"role": "assistant", "content": resp.content})
             messages.append({"role": "user", "content":
@@ -340,18 +370,20 @@ def main() -> int:
         if not failures:
             break
         print(f"Attempt {attempt + 1} failed local checks:\n  " + "\n  ".join(failures))
-        if attempt == 2:
+        if attempt == 3:
             break
         messages.append({"role": "assistant", "content": resp.content})
         messages.append({"role": "user", "content":
             "The essay failed these checks:\n- " + "\n- ".join(failures)
-            + "\n\nFix them and reply with the complete JSON object again, "
-            "nothing else. Do not search again unless a footnote needs a page "
-            "you have not found."})
+            + "\n\nChange the sentences named and nothing else: every other "
+            "sentence, every quotation and every note stays exactly as it was, "
+            "because a rewrite brings new faults with it. Then reply with the "
+            "complete JSON object again, nothing else. Do not search again "
+            "unless a footnote needs a page you have not found."})
     if essay is None:
         raise SystemExit("No essay.")
     if failures:
-        return hold(essay, date, subject, "Failed local checks after three attempts:\n" + "\n".join(failures))
+        return hold(essay, date, subject, "Failed local checks after four attempts:\n" + "\n".join(failures))
 
     # Peer review, up to REVIEW_PASSES times. The reviewer never sees the
     # drafts or the corrections, only the current essay.
