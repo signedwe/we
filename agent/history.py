@@ -80,6 +80,15 @@ REVIEW_BY = (
 # ---------------------------------------------------------------- helpers
 
 
+def summarise(title: str, text: str) -> None:
+    """Into the workflow run summary, which is public, so a draft or a held
+    essay can be read without downloading anything."""
+    out = os.environ.get("GITHUB_STEP_SUMMARY")
+    if out:
+        with open(out, "a", encoding="utf-8") as fh:
+            fh.write(f"## {title}\n\n````\n{text}\n````\n")
+
+
 def create(client, beta: bool = False, **kw):
     """One request, streamed. The SDK refuses a plain request whose
     max_tokens could take over ten minutes, and an essay needs the room."""
@@ -353,6 +362,7 @@ def main() -> int:
         passes.append(report)
         bad = serious(report)
         print(f"Review pass {n + 1}: {report.get('verdict')}; {len(bad)} serious finding(s)")
+        summarise(f"Review pass {n + 1}", json.dumps(report, indent=2, ensure_ascii=False))
         if not bad or n == REVIEW_PASSES - 1:
             break
         findings = "\n".join(
@@ -390,6 +400,7 @@ def main() -> int:
         HELD.mkdir(exist_ok=True)
         (HELD / filename).write_text(text, encoding="utf-8")
         print(f"Draft written to agent/held/{filename}")
+        summarise("Draft (not published)", text)
         agent.set_output(held=True)
         return 0
     (HIST / filename).write_text(text, encoding="utf-8")
@@ -410,6 +421,7 @@ def hold(essay: dict, date: str, subject: str, why: str) -> int:
     path.write_text(f"# HELD: {subject}\n\n{why}\n\n---\n\n"
                     + json.dumps(essay, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"HELD: {why[:400]}")
+    summarise("Held: " + subject, why + "\n\n" + json.dumps(essay, indent=2, ensure_ascii=False))
     agent.set_output(held=True)
     return 0
 
