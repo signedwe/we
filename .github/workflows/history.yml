@@ -20,6 +20,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write
 
 # Shares the publish group so a history run and a post run never push
 # over each other.
@@ -55,6 +56,16 @@ jobs:
           name: history-held
           path: agent/held/
           if-no-files-found: ignore
+
+      - name: A draft or a held essay arrives by email, as an issue
+        if: steps.write_essay.outputs.held == 'true' && hashFiles('agent/held/*') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for f in agent/held/*; do
+            head -c 60000 "$f" > /tmp/issue-body.md
+            gh issue create --title "History, not published: $(basename "$f")" --body-file /tmp/issue-body.md
+          done
 
       - name: Commit the essay
         if: steps.write_essay.outputs.held != 'true'
