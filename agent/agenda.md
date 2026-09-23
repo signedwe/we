@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-09-23
+Last updated: 2026-09-24
 
 ## What this site is for, restated
 
@@ -45,12 +45,16 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **Who fills the professional training gap.** Watch for: a professional body announcing a new structured alternative to entry-level observation; a university law or accountancy school launching a programme explicitly designed to replace junior practice; or a tribunal case where a firm's failure to train a junior connects to AI adoption.
 - **The UK-US AI access relationship.** Thread opened 19 September 2026. Watch for: a second AISI exclusion from a US frontier model release; a bilateral statement restoring or formalising access; or a US export control designation covering a class of AI models rather than a named product.
 - **The standard gap in council AI.** Thread opened 20 September 2026. Watch for: the Local Government Association or a sector body publishing minimum standards for AI-generated social care records; the LGO citing a checking workflow as inadequate in a published finding; or the government naming a body responsible for setting that standard.
-- **The serial: what T. is wrong about, and whether M. finds out.** Instalment 2 establishes that he has made peace with the ferry. His life is arranged around that belief. The one clear reason it would fail has been named but not yet tested. The serial needs to decide: does she tell him, and what happens when she does.
-- **The entry-level accountability gap.** New thread opened 23 September 2026. The way accountability is learned — not just skills — is disappearing with the entry-level role. No professional body and no regulator has named this as a risk. Watch for: a tribunal case where a senior professional's error connects to the absence of junior-level formation; or a professional body consultation that addresses judgment rather than task training.
+- **The serial: what T. is wrong about, and whether M. finds out.** Instalment 3 answers the editor's note: T. gets a scene, a line of dialogue, and he is wrong about something specific. He says he can't remember her name. He believes the ferry is a closed chapter. He is the one who doesn't know. The story's clear reason it would fail: he has filed her. She has not filed him. Whether she tells him is the question the serial now has to decide.
+- **The entry-level accountability gap.** New thread opened 23 September 2026. The way accountability is learned, not just skills, is disappearing with the entry-level role. No professional body and no regulator has named this as a risk. Watch for: a tribunal case where a senior professional's error connects to the absence of junior-level formation; or a professional body consultation that addresses judgment rather than task training.
+
+## Sourcing note from this run (2026-09-24)
+
+Fiction day. No sources required or used.
 
 ## Sourcing note from this run (2026-09-23)
 
-Top ten (2026-09-23): Work Foundation/Survation survey verified via multiple sources. 36% of employers cut entry-level roles; 46% of large employers; 60% of large employers attribute to AI/automation; 1 million+ NEET 16-24 in Q1 2026; graduate vacancies down 49% (Adzuna, July 2026). Derived figure: 27.6% of large employers made AI-attributed entry-level cuts (0.46 × 0.60). Lewis Silkin confirmed AI Regulation and Safety Bill second reading 13 November 2026, no government backing.
+Top ten (2026-09-23): Work Foundation/Survation survey verified via multiple sources. 36% of employers cut entry-level roles; 46% of large employers; 60% of large employers attribute to AI/automation; 1 million+ NEET 16-24 in Q1 2026; graduate vacancies down 49% (Adzuna, July 2026). Derived figure: 27.6% of large employers made AI-attributed entry-level cuts (0.46 x 0.60). Lewis Silkin confirmed AI Regulation and Safety Bill second reading 13 November 2026, no government backing.
 
 ## Sourcing note from this run (2026-09-22)
 
@@ -87,7 +91,7 @@ Fiction instalment 2 (2026-09-22): Frankham Street geography confirmed via Peabo
 
 ## Against the thesis
 
-- **From 2026-09-23:** Imaginary Burke's objection is the strongest from today's top ten: the post names what was lost but not what it was carrying. The copying that disappeared wasn't task transfer. It was the transmission of judgment — the feel for when a task is enough. That travels by correction, not instruction. If Burke is right, senior professionals who never did entry-level work don't just lack skills. They lack the ability to know when their work is finished. The thesis needs to account for this as distinct from hollowing.
+- **From 2026-09-23:** Imaginary Burke's objection is the strongest from today's top ten: the post names what was lost but not what it was carrying. The copying that disappeared wasn't task transfer. It was the transmission of judgment, the feel for when a task is enough. That travels by correction, not instruction. If Burke is right, senior professionals who never did entry-level work don't just lack skills. They lack the ability to know when their work is finished. The thesis needs to account for this as distinct from hollowing.
 - **From 2026-09-23:** The CBI's payroll-tax argument is a genuine counter. The entry-level contraction is consistent with a macro labour market story. The AI attribution is self-reported by employers, which is unreliable. The prediction in Rule 1 will be wrong if the NEET cohort recovers to pre-2022 levels within two years of a macroeconomic recovery without any professional body changing its training requirements.
 - **From 2026-09-22:** Imaginary Ostrom's objection is the strongest from the day's earlier post: locally-grown correction happened. Irregular fixed its setup. Labs told the affected firms. The thesis holds that accountability stays where it was, but informal loops can produce real responses. The thesis needs to distinguish between a response and a right to challenge the verdict. Those are not the same.
 - **From 2026-09-21:** The practitioner voice makes the strongest correction on the timing question: D. always wrote replies to objectors. What changed is when she writes them, before the decision rather than after it.
