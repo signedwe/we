@@ -1586,6 +1586,9 @@ def worn_words(low: str, form: str = "") -> list:
     worn = []
     # A story is allowed a room with a door and a window in it. The ban is
     # on the metaphor, and the invented forms use the literal thing.
+    # Searle's Chinese Room is the name of an argument, not a metaphor of
+    # ours; a history essay may say it. Nothing else with a room in it may.
+    low = re.sub(r"\bchinese rooms?\b", "", low)
     if form not in ("fiction", "five_years") and re.search(r"\brooms?\b", low):
         worn.append("room/rooms as a metaphor: say the trade, the field, the meeting, "
                     "the committee, or the building if it is one")
