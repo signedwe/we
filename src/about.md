@@ -55,10 +55,13 @@ WE. Nothing goes under his name that he did not type.
 
 **The week has a shape.** A different form each day: an invented picture of
 five years out on Monday, a response to the news on Tuesday, a top ten on
-Wednesday, a long technical piece on Thursday, [fiction](/we/2030/) on Friday,
-a how-to and an obituary on Saturday, and what the site learnt on Sunday. The
-Friday story is a serial and the people in it are invented, with initials
-rather than names, so that no made-up name lands on a real person.
+Wednesday, a long technical piece on Thursday, an obituary on Saturday, and
+what the site learnt on Sunday. Every day after that a [how-to](/we/kinds/how-to/),
+one thing you can do with an AI tool today, and an instalment of the
+[2030 serial](/we/2030/), with a longer chapter on Friday. Once a week, a
+long [history](/we/history/) essay, checked by a second machine before it
+goes out. The people in the story are invented, with initials rather than
+names, so that no made-up name lands on a real person.
 
 **Corrections and rewrites are announced on the page.** A correction keeps the
 old wording struck through with the new after it. A rewrite does not: the old

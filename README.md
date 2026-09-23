@@ -37,8 +37,9 @@ A different form each day, set by `FORMS` in `agent.py`:
 | Wednesday | a top ten that argues |
 | Thursday | how it works: a long, well-sourced piece on one technical part of AI |
 | Friday | the serial's own day: one longer chapter of the fiction set in 2030 |
-| Saturday | how to (one thing you can do this weekend), then an obituary |
+| Saturday | an obituary |
 | Sunday | what WE learnt this week |
+| every day | how to (one thing you can do with an AI tool today), after the day's post |
 | every day | an instalment of the 2030 serial, after the day's post, collected at `/2030/` |
 | any day | Breaking: written in conversation the day something happens, collected at `/breaking/` |
 | Sunday, early | History: a long footnoted essay on the history of AI, peer-reviewed by a second machine before publication (`history.py`, `history.yml`), collected at `/history/` |

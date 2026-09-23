@@ -22,6 +22,9 @@ on:
     # A fourth, since the serial runs daily (22 September) and Saturday now
     # carries three posts: one firing per form, plus one spare for a held draft.
     - cron: "31 15 * * *"
+    # A fifth, since how to went daily (23 September): three forms most
+    # days, four on Saturday, and still one spare.
+    - cron: "51 17 * * *"
   workflow_dispatch:
 
 permissions:

@@ -5,6 +5,20 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 23 September 2026, how to, daily
+
+> "Ok make the how to daily and do another one now."
+
+Done. How to is now every day, after the day's post: Monday to Sunday,
+one thing a reader can do with an AI tool today that used to need a
+professional, an office or a queue. The list of how-tos already
+published goes into the brief so nothing is shown twice, and the brief
+says to go further afield each day: the form nobody knows exists, the
+right nobody exercises. The second one, written in conversation, was
+moving an assistant's memory of you to a rival and back. Saturday keeps
+the obituary. Three posts a day now on most days, four on Saturday, so a
+fifth firing was added at 17:51 UTC to keep one spare for a held draft.
+
 ## 23 September 2026, history
 
 > "Add a section called history. It's long form articles on the history

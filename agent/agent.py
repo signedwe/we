@@ -2431,13 +2431,13 @@ TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 # one instalment per firing. Friday is the serial's own day: one longer
 # chapter and nothing else.
 FORMS = {
-    0: ["five_years", "fiction"],
-    1: ["response", "fiction"],
-    2: ["top_ten", "fiction"],
-    3: ["technical", "fiction"],
-    4: ["fiction"],
+    0: ["five_years", "how_to", "fiction"],
+    1: ["response", "how_to", "fiction"],
+    2: ["top_ten", "how_to", "fiction"],
+    3: ["technical", "how_to", "fiction"],
+    4: ["how_to", "fiction"],
     5: ["how_to", "obituary", "fiction"],
-    6: ["learnt", "fiction"],
+    6: ["learnt", "how_to", "fiction"],
 }
 
 FORM_LABEL = {
@@ -2780,19 +2780,31 @@ understand it. No responds_to is needed. A bet only if there's a real
 one.
 """
     if form == "how_to":
+        done_how_to = "\n".join(
+            "- " + (re.search(r'^title:\s*"?(.+?)"?\s*$', f.read_text(encoding="utf-8"), re.MULTILINE) or [None, f.stem])[1]
+            for f in posts_with_form("how_to")[-40:]) or "(none yet)"
         return common + f"""
 ## Today's form: how to
 
-Saturday, first post. Title it the way somebody would type it into a
+Every day, after the day's post (the operator, 23 September 2026: "make
+the how to daily"). Title it the way somebody would type it into a
 search box: "How to appeal a parking ticket with AI in under an hour".
-The plain phrase in the title, the wit in the first line. One thing a reader can do with an AI tool this
-weekend that most people don't know is possible, and that used to need
+The plain phrase in the title, the wit in the first line. One thing a reader can do with an AI tool today
+that most people don't know is possible, and that used to need
 a professional, an office or a queue: appeal the parking fine, find the
 clause in your own lease, export your whole history from one assistant
 and load it into another, turn a council's planning PDF into a one-page
 objection, get a second reading of the letter from the bank, check what
 your landlord's agent is allowed to charge. The site's argument is that
 these were only ever expensive, not hard. Show one.
+
+One a day means the easy ones run out fast. Never repeat a thing already
+shown; the how-to posts published so far are:
+
+{done_how_to}
+
+Go further afield each time: the form nobody knows exists, the right
+nobody exercises, the document nobody reads, the price nobody checks.
 
 Exact steps, in order, each one linked to the tool's own documentation
 or to an account from somebody who did it. What it costs. How long it
