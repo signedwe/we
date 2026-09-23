@@ -601,6 +601,13 @@ def reused_phrases(body: str, previous: list, limit: int = 8) -> list:
     if not previous:
         return []
     body = QUOTED.sub(" ", body)
+    # A how-to has fixed furniture (what it costs, where it goes wrong, who
+    # loses the work, the line saying WE read this and did not do it), and
+    # furniture repeated on purpose is not a tic. Strip the headings and the
+    # honesty line before comparing.
+    if FORM == "how_to":
+        body = re.sub(r"\*\*[^*\n]{3,60}\*\*", " ", body)
+        body = re.sub(r"(?i)[^.]*\bnote (at the top|above) says so\.", " ", body)
     seen = set()
     for prev in previous:
         seen |= _phrases(prev)
@@ -2019,11 +2026,11 @@ mechanism rearranges rather than stopping at how it works. A Saturday
 piece is an obituary for a rule or an arrangement: judge whether it
 keeps the form (born, life, decline, survivors, arrangements), whether
 the cause of death is real and this week's, whether it is funny, and
-whether anything living has been buried by mistake. A Saturday "how
-to" piece is judged on whether a reader could actually follow it on a
-phone this weekend, whether every step is linked, whether it says
-plainly where it goes wrong, and whether it claims to have done anything
-it only read about.
+whether anything living has been buried by mistake. A "how to" piece
+is judged on whether a reader could actually follow it on a phone
+today, whether every step is linked, whether it says plainly where it
+goes wrong, whether it claims to have done anything it only read about,
+and whether it is fun to read: would someone send it to a friend?
 
 Here is today's draft.
 
@@ -2420,8 +2427,8 @@ TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 # Thursday    technical    a longer, well-sourced piece on one technical part of AI
 # Every day   fiction      2030, the serial, one instalment after the day's form;
 #                          Friday is the serial's own day, one longer chapter
-# Saturday    how_to       one thing you can do with AI this weekend (with a disclaimer)
-#             obituary     a death notice for a rule, a job or an arrangement
+# Every day   how_to       one thing you can do with AI today (with a disclaimer)
+# Saturday    obituary     a death notice for a rule, a job or an arrangement
 # Sunday      learnt       what WE learnt this week
 #
 # 19 September again: "Add the obituary." Then: "But also do the try this" (renamed how to).
@@ -2433,6 +2440,9 @@ TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 # weekly is too slow." So the serial runs every day, after the day's form,
 # one instalment per firing. Friday is the serial's own day: one longer
 # chapter and nothing else.
+#
+# 23 September 2026, the operator: "make the how to daily". Four daily
+# firings cover three forms plus one spare; a fifth was added for Saturday.
 FORMS = {
     0: ["five_years", "how_to", "fiction"],
     1: ["response", "how_to", "fiction"],
@@ -2789,10 +2799,33 @@ one.
         return common + f"""
 ## Today's form: how to
 
-Every day, after the day's post (the operator, 23 September 2026: "make
+Every day, after the day's form (the operator, 23 September 2026: "make
 the how to daily"). Title it the way somebody would type it into a
 search box: "How to appeal a parking ticket with AI in under an hour".
-The plain phrase in the title, the wit in the first line. One thing a reader can do with an AI tool today
+The plain phrase in the title, the wit in the first line.
+
+Make it fun (the operator, 23 September: "make the how tos more fun and
+interesting"). People should want to send it to a friend.
+- Open on a person and a moment, never "In this guide". The fee, the queue
+  or the form is the villain; the reader is about to beat it.
+- Say up top what they'll have at the end, in one line.
+- Mix the picks. About half: beating a fee, a queue or a form. The rest:
+  things that are just a pleasure or a surprise. For example, turn a photo
+  of your nan's handwritten recipe cards into a family cookbook; find what
+  your street looked like in 1900 from old maps; write a bedtime story
+  starring your child's actual toys; plan a pub quiz about your own friends;
+  settle a family argument with real sources; learn enough of a language
+  for one dinner.
+- Give one line the reader can copy that does something surprising, set
+  apart in italics.
+- Wit in the first line and the last; at most one joke per step.
+- Keep everything else: exact steps, every step linked, what it costs,
+  how long it takes, where it goes wrong, the disclaimer, and "WE has
+  read this, not done it".
+- Nothing involving eating wild plants, mushrooms, medicine, money
+  decisions or anything a mistake could make dangerous.
+
+One thing a reader can do with an AI tool today
 that most people don't know is possible, and that used to need
 a professional, an office or a queue: appeal the parking fine, find the
 clause in your own lease, export your whole history from one assistant
@@ -2801,8 +2834,8 @@ objection, get a second reading of the letter from the bank, check what
 your landlord's agent is allowed to charge. The site's argument is that
 these were only ever expensive, not hard. Show one.
 
-One a day means the easy ones run out fast. Never repeat a thing already
-shown; the how-to posts published so far are:
+One a day means the easy ones run out fast. Already done, so pick
+something else (a repeat is a failure):
 
 {done_how_to}
 

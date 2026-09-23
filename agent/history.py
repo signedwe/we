@@ -73,10 +73,13 @@ REVIEW_PASSES = 3
 
 REVIEW_BY = (
     "A second machine, with no part in the writing and no sight of the "
-    "drafts, was given the finished essay and every source it cites. It "
-    "opened each source, checked every direct quotation word for word and "
-    "every footnoted and unfootnoted claim, and reported. Where it found an "
-    "error the essay was corrected and reviewed again before publication."
+    "drafts, was given the finished essay and every source it cites, and "
+    "told to read it as the leading scholar of the subject and as an "
+    "editor. It read the whole essay, opened each source, checked every "
+    "direct quotation word for word and every claim, footnoted or not, and "
+    "said what was missing, weak, slow or flat. Where it found an error the "
+    "essay was corrected and reviewed again before publication; its edits "
+    "for content and style were applied at the writer's judgement."
 )
 
 
@@ -218,36 +221,52 @@ def check_essay(body: str) -> list:
 def review_prompt(essay: dict) -> str:
     urls = "\n".join(note_urls(essay["body"]))
     return (
-        "You are the peer reviewer for a long-form history essay written for "
-        "a popular audience. You had no part in writing it. Your job is to "
-        "stop it being published if it contains errors. The rule of the site "
-        "is: no lies or made up stuff; every footnote real and supporting the "
-        "sentence it hangs from; every quotation word for word.\n\n"
-        "Do this:\n"
+        "You are the peer reviewer and editor for a long-form history essay "
+        "written for a popular audience, at the level of a London Review of "
+        "Books piece. You are the leading scholar of this exact subject: you "
+        "know the primary sources, the standard accounts and the arguments "
+        "among historians. You had no part in writing the essay. You have two "
+        "jobs. First, accuracy: stop it being published if it contains errors. "
+        "The rule of the site is: no lies or made up stuff; every footnote "
+        "real and supporting the sentence it hangs from; every quotation word "
+        "for word. Second, editing: make it a better essay, in content and in "
+        "style, the way a demanding editor at a serious review would.\n\n"
+        "Read the whole essay, start to finish, before you write a word. "
+        "Then do this:\n"
         "1. Fetch every source URL listed below. If a fetch fails, say so and "
         "search for the same fact elsewhere.\n"
         "2. For EVERY footnoted claim and EVERY direct quotation (text in "
         "double quotes), check it against the source it cites. Quotations "
         "must be word for word; report any deviation, giving the source's "
         "exact wording.\n"
-        "3. Check the unfootnoted factual claims too, searching where needed: "
-        "dates, ages, titles, places, who said what, what a machine could do.\n"
+        "3. Check every unfootnoted factual claim too, searching where needed: "
+        "dates, ages, titles, places, who said what, what a machine could do. "
+        "Nothing in the essay is exempt because it lacks a footnote.\n"
         "4. Look for invented colour presented as fact, anachronism, and any "
         "interpretation presented as a source's content rather than the "
         "essay's reading.\n"
-        "5. Judge whether the argument is defensible and marked as "
-        "interpretation where it goes beyond the sources.\n\n"
+        "5. As the expert: what has the essay missed that a scholar would "
+        "expect to see? What does it get out of proportion? Where does it "
+        "repeat the standard myth instead of the record? Where is the "
+        "argument weak, and what would strengthen it? Which sources should "
+        "it have used? These are content findings.\n"
+        "6. As the editor: where does it drag, where is the opening slow, "
+        "where does a paragraph say the same thing twice, where is a sentence "
+        "flat or a joke bad, where does the ending fail to land, where does "
+        "it explain what it has just shown? Name the passage and say what to "
+        "do. These are style findings. Cuts are as valuable as additions.\n\n"
         "Report as JSON only, nothing else:\n"
         '{"verdict": "PUBLISH" | "PUBLISH WITH CORRECTIONS" | "DO NOT PUBLISH",\n'
-        ' "summary": "two or three sentences",\n'
-        ' "findings": [{"claim": "the exact words in the essay", '
-        '"finding": "what the source says, with the source named, or confirmed", '
-        '"severity": "error" | "unsupported" | "quibble" | "confirmed", '
+        ' "summary": "two or three sentences on accuracy, and two on the essay as an essay",\n'
+        ' "findings": [{"claim": "the exact words in the essay, or the passage named", '
+        '"finding": "what the source says, with the source named, or confirmed; or what is missing, weak, slow or flat", '
+        '"severity": "error" | "unsupported" | "quibble" | "content" | "style" | "confirmed", '
         '"action": "what to change, or none"}]}\n'
-        "Include a finding for every direct quotation (confirmed or not) and "
-        "for every error or unsupported claim. Do not pad with confirmations "
-        "of trivial things beyond the quotations. Be exact and be hard; a "
-        "reviewer who waves things through is useless here.\n\n"
+        "Include a finding for every direct quotation (confirmed or not), for "
+        "every error or unsupported claim, and at least five content or style "
+        "findings, the ones that would most improve the essay. Do not pad "
+        "with confirmations of trivial things beyond the quotations. Be exact "
+        "and be hard; a reviewer who waves things through is useless here.\n\n"
         f"SOURCE URLS\n{urls}\n\n"
         f"TITLE\n{essay['title']}\n\n"
         f"ESSAY\n{essay['body']}\n"
@@ -417,11 +436,16 @@ def main() -> int:
             for f in report["findings"] if f.get("severity") != "confirmed")
         messages.append({"role": "assistant", "content": resp.content})
         messages.append({"role": "user", "content":
-            "A reviewer opened every source and checked every quotation and "
-            "claim. These are its findings. Correct every error and every "
-            "unsupported claim: open the page and copy the words, or paraphrase without quotation "
-            "marks, cut invented colour, mark interpretation as the essay's, "
-            "fix or replace bad footnotes. Quibbles are worth fixing too. Then "
+            "A reviewer who is an expert in this subject read the whole essay, "
+            "opened every source and checked every quotation and claim, and "
+            "edited it for content and style. These are its findings. Correct "
+            "every error and every unsupported claim: open the page and copy "
+            "the words, or paraphrase without quotation marks, cut invented "
+            "colour, mark interpretation as the essay's, fix or replace bad "
+            "footnotes. Quibbles are worth fixing too. Then take the content "
+            "and style findings seriously: add what is missing (with a real "
+            "footnote, found by search), cut what drags, fix what is flat. "
+            "Anything new you add must be sourced to a page you opened. Then "
             "run your eye over the whole essay for anything of the same kind "
             "the reviewer did not list. Reply with the complete corrected JSON "
             "object, nothing else.\n\n" + findings})

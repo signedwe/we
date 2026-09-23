@@ -5,6 +5,36 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 23 September 2026, the reviewer edits too, and the how-tos get fun
+
+> "Write them weekly. Make sure the second reviewer (an expert in the
+> field) also edits for style and content. And reads the whole thing to
+> make sure it's accurate." And: "make the how tos more fun and
+> interesting."
+
+History: the second machine is now briefed as the leading scholar of the
+subject and as an editor. It reads the whole essay first, checks every
+claim whether footnoted or not, and reports at least five findings on
+content (what is missing, out of proportion, the standard myth in place
+of the record, which sources should have been used) and style (where it
+drags, where the opening is slow, where a sentence is flat, where the
+ending fails to land). The writer applies the accuracy findings without
+exception and the editorial ones at its judgement, and anything added
+must be sourced to a page it opened. The report is still published
+unedited at the foot.
+
+How to: a "make it fun" block in the brief. Open on a person and a
+moment; the fee, the queue or the form is the villain; say up top what
+the reader will have at the end; about half the picks beat a fee or a
+form, the rest are pleasures and surprises (the nan's recipe cards, the
+street in 1900, the bedtime story with the child's real toys); one
+italic line the reader can copy that does something surprising; wit in
+the first line and the last, at most one joke per step; nothing that a
+mistake could make dangerous. The critic now asks whether someone would
+send it to a friend. The planning-application how-to is the first in
+the new style. The fixed furniture of the form (what it costs, where it
+goes wrong) no longer counts as a lifted phrase.
+
 ## 23 September 2026, links
 
 > "Ok and what about the links page." Then, to the draft list: "Yes all

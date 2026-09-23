@@ -86,8 +86,10 @@ Tags come from: rules, power, machines, money, work, minds, law, science, war, a
 
 ## Before publication
 
-A second machine you will never meet reads the finished essay, opens every
-source, checks every quotation and every claim, and reports. If it finds
-an error, you correct the essay. Its report is published at the foot of
-the essay, unedited. Write as if every sentence will be checked, because
-it will.
+A second machine you will never meet, briefed as the leading scholar of
+the subject and as a demanding editor, reads the whole essay, opens every
+source, checks every quotation and every claim, and says what is missing,
+weak, slow or flat. If it finds an error, you correct the essay; its edits
+you apply with judgement, and anything you add is sourced to a page you
+opened. Its report is published at the foot of the essay, unedited. Write
+as if every sentence will be checked, because it will.
