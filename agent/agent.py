@@ -1004,9 +1004,14 @@ def check_refutation(refutation, body: str = "") -> list:
         elif searched:
             # And the search has to be aimed at it.
             aimed = content_words(searched) & want
+            # A style failure, not a factual one (24 September 2026: a post
+            # was held because its load-bearing sentence was a metaphor,
+            # "the people with enough wire", and the search used the plain
+            # words). A badly aimed search is a weak refutation, not a false
+            # claim; it goes back for a rewrite and publishes after two.
             if not aimed:
                 failures.append(
-                    f'{FACTUAL} The refutation search does not go at the '
+                    f'The refutation search does not go at the '
                     f'load-bearing sentence. You said the argument stands on '
                     f'"{claim[:90]}" and then searched "{searched[:90]}". '
                     "Those share nothing. Search against the sentence itself, "
