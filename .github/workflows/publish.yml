@@ -37,6 +37,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write
 
 concurrency:
   group: publish
@@ -64,6 +65,16 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python agent/agent.py
+
+      - name: A held draft arrives by email, as an issue, with the reasons
+        if: github.event_name != 'push' && steps.write_post.outputs.held == 'true' && hashFiles('agent/held/*') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for f in agent/held/*; do
+            head -c 60000 "$f" > /tmp/issue-body.md
+            gh issue create --title "Held, not published: $(basename "$f")" --body-file /tmp/issue-body.md
+          done
 
       - name: Commit the post and the updated agenda
         if: github.event_name != 'push'
