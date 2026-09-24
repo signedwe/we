@@ -46,6 +46,9 @@ jobs:
           git config user.email "signedwe@users.noreply.github.com"
           git add src/posts agent/notes.md agent/audits.json src/links.md
           git commit -m "audit: $(date -u +%Y-%m-%d)" || exit 0
+          # Something else may have pushed while WE was writing (the 14:14 run
+          # on 24 September lost its post that way). Rebase on it, then push.
+          git pull --rebase origin main || exit 1
           git push
 
       - uses: actions/setup-node@v4
