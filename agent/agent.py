@@ -1484,6 +1484,15 @@ NAMED_STUDY = re.compile(
 HAS_LINK = re.compile(r"\]\([^)]+\)")
 
 
+# The figures the post worked out itself, set in main() from the derived
+# number before the checks run. The 24 September technical post was held
+# twice for "a figure with no link beside it" when the figures were its own
+# arithmetic on linked inputs, in a paragraph of their own. A derived figure
+# is checked by check_derived_number, which sees the working and the sources;
+# it does not also need a link, because there is nothing to link to.
+DERIVED_NUMBERS: set = set()
+
+
 def check_sourcing(body: str) -> list:
     """A number, a comparison or a named study with no link beside it."""
     failures = []
@@ -1504,7 +1513,9 @@ def check_sourcing(body: str) -> list:
             attributed = bool(re.search(r"(?<!^)(?<![.!?] )\b[A-Z][A-Za-z&']+", bare[1:]))
             linked_para = bool(HAS_LINK.search(para))
             found = []
-            if QUANTITY.search(bare) and not attributed and not linked_para:
+            nums = numbers_in(bare)
+            own_sum = bool(nums) and len(nums & DERIVED_NUMBERS) * 2 >= len(nums)
+            if QUANTITY.search(bare) and not attributed and not linked_para and not own_sum:
                 found.append("a figure")
             if COMPARISON.search(bare) and not linked_para:
                 found.append("a comparison")
@@ -3379,6 +3390,9 @@ def main() -> int:
             continue
         voices = clean_voices(post.get("voices"))
         gate_failures = check_reputation_gate(post.get("reputation_gate"))
+        derived = post.get("derived_number") if isinstance(post.get("derived_number"), dict) else {}
+        global DERIVED_NUMBERS
+        DERIVED_NUMBERS = numbers_in(str(derived.get("figure", ""))) | numbers_in(str(derived.get("working", "")))
         failures = check_post(post["body"], published)
         failures += gate_failures
         if voices:
