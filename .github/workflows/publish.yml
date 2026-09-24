@@ -13,18 +13,24 @@ on:
   push:
     branches: [main]
   schedule:
-    # Three chances a day, because GitHub's scheduler dropped two mornings
-    # out of four and ran the others an hour or more late. The agent stands
-    # down if a post already exists for the day, so at most one publishes.
+    # Once an hour through the working day, because GitHub's scheduler runs
+    # these hours late or not at all: on 23 September the 09:23 and 11:11
+    # firings never came and the day's posts went out between 14:16 and
+    # 19:08; on 24 September nothing had fired by 13:43. The agent stands
+    # down once the day's forms exist, so a spare firing costs a minute of
+    # runner time and writes nothing. Odd minutes, never the top of the hour.
+    - cron: "23 8 * * *"
     - cron: "23 9 * * *"
+    - cron: "11 10 * * *"
     - cron: "11 11 * * *"
+    - cron: "41 12 * * *"
     - cron: "41 13 * * *"
-    # A fourth, since the serial runs daily (22 September) and Saturday now
-    # carries three posts: one firing per form, plus one spare for a held draft.
+    - cron: "31 14 * * *"
     - cron: "31 15 * * *"
-    # A fifth, since how to went daily (23 September): three forms most
-    # days, four on Saturday, and still one spare.
+    - cron: "51 16 * * *"
     - cron: "51 17 * * *"
+    - cron: "17 19 * * *"
+    - cron: "17 21 * * *"
   workflow_dispatch:
 
 permissions:

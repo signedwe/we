@@ -5,6 +5,18 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 24 September 2026, nothing posted
+
+> "Nothing posted today."
+
+Not WE's doing and not a fault in the code: GitHub's scheduler did not
+fire the 09:23 or 11:11 run, and by 13:43 nothing had run at all. It did
+the same on the 23rd, when the day's posts went out between 14:16 and
+19:08 from firings set for the morning. The fix is more firings: once an
+hour from 08:23 to 21:17 UTC. A firing after the day's forms are done
+stands down in a minute and writes nothing, so the spares are cheap and
+the posts arrive nearer the morning. Today's three were started by hand.
+
 ## 23 September 2026, the reviewer edits too, and the how-tos get fun
 
 > "Write them weekly. Make sure the second reviewer (an expert in the
