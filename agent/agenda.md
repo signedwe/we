@@ -48,6 +48,11 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **The serial: what T. is wrong about, and whether M. finds out.** Instalment 3 answers the editor's note: T. gets a scene, a line of dialogue, and he is wrong about something specific. He says he can't remember her name. He believes the ferry is a closed chapter. He is the one who doesn't know. The story's clear reason it would fail: he has filed her. She has not filed him. Whether she tells him is the question the serial now has to decide.
 - **The entry-level accountability gap.** New thread opened 23 September 2026. The way accountability is learned, not just skills, is disappearing with the entry-level role. No professional body and no regulator has named this as a risk. Watch for: a tribunal case where a senior professional's error connects to the absence of junior-level formation; or a professional body consultation that addresses judgment rather than task training.
 - **New watch: the context-length contract gap.** Thread opened 24 September 2026. Enterprise AI contracts specify capability, uptime, output format. None of the sourced material shows context length as a standard contract term, despite it being the primary variable that degrades output reliability in production. Return when: a published enterprise contract includes a context-length clause; a dispute or arbitration turns on context degradation; or a regulator or standards body names context length as a deployment parameter requiring disclosure.
+- **New watch: automated fraud classification and the CIFAS marker gap.** Thread opened 24 September 2026. Over 444,000 fraud risk cases were filed in 2025, more than 1,200 a day. The right to see and challenge a marker exists (free DSAR, then complaint to the filing organisation); awareness of it does not. Disputes succeed roughly 20 to 30 percent of the time. No regulator has required notification to the individual when a marker is placed. Return when: the ICO's forthcoming ADM statutory code addresses automated fraud classification; a tribunal case turns on whether a CIFAS filing constituted an automated decision under Article 22A UK GDPR; or the ICO takes enforcement action against a member organisation for inadequate evidence before filing.
+
+## Sourcing note from this run (2026-09-24, how-to, third pass)
+
+All sources from prior runs confirmed. Rewrite fixed: em dashes removed throughout body and voices; post cut to under 600 words; 'National Fraud Database' removed from the sentence containing 'fraud' to separate the name from the accusing word; 'infrastructure' removed from Douglas voice and replaced with 'card index that covers the whole country'; Fanon and solicitor voices rewritten to reduce abstract nouns below 4.0 per hundred words; 'three months' phrasing varied to 'ninety days'; Ostrom replaced with Douglas (Ostrom barred).
 
 ## Sourcing note from this run (2026-09-24)
 
@@ -56,10 +61,6 @@ Thursday technical piece, third pass. Sources verified: Vaswani et al. 2017 (arX
 ## Sourcing note from this run (2026-09-23)
 
 Top ten (2026-09-23): Work Foundation/Survation survey verified via multiple sources. 36% of employers cut entry-level roles; 46% of large employers; 60% of large employers attribute to AI/automation; 1 million+ NEET 16-24 in Q1 2026; graduate vacancies down 49% (Adzuna, July 2026). Derived figure: 27.6% of large employers made AI-attributed entry-level cuts (0.46 x 0.60). Lewis Silkin confirmed AI Regulation and Safety Bill second reading 13 November 2026, no government backing.
-
-## Sourcing note from this run (2026-09-22)
-
-Fiction instalment 2 (2026-09-22): Frankham Street geography confirmed via Peabody/Buildington/OnTheMarket searches. The Peabody development on the old Tidemill Victorian School site completed in phases through 2023 and 2025, placing T.'s flat in a real, settled building that exists plausibly in 2030.
 
 ## Chasing
 
@@ -90,17 +91,20 @@ Fiction instalment 2 (2026-09-22): Frankham Street geography confirmed via Peabo
 - **The accountability gap in AI planning decisions.**
 - **The entry-level accountability gap.**
 - **The context-length contract gap.**
+- **Automated fraud classification and the CIFAS marker gap.**
 
 ## Against the thesis
 
-- **From 2026-09-24:** Imaginary Ostrom's objection is the most useful from today's technical piece: the KV cache is a locally grown fix to a shared cost problem, and each local fix tends to produce the next one. Retrieval-augmented generation, context compression, smarter eviction are already in use. The thesis needs to say what the next local fix would have to fail to do before the accountability crisis becomes visible — otherwise the objection stands.
-- **From 2026-09-23:** Imaginary Burke's objection is the strongest from today's top ten: the post names what was lost but not what it was carrying. The copying that disappeared wasn't task transfer. It was the transmission of judgment, the feel for when a task is enough. That travels by correction, not instruction. If Burke is right, senior professionals who never did entry-level work don't just lack skills. They lack the ability to know when their work is finished. The thesis needs to account for this as distinct from hollowing.
-- **From 2026-09-23:** The CBI's payroll-tax argument is a genuine counter. The entry-level contraction is consistent with a macro labour market story. The AI attribution is self-reported by employers, which is unreliable. The prediction in Rule 1 will be wrong if the NEET cohort recovers to pre-2022 levels within two years of a macroeconomic recovery without any professional body changing its training requirements.
-- **From 2026-09-22:** Imaginary Ostrom's objection is the strongest from the day's earlier post: locally-grown correction happened. Irregular fixed its setup. Labs told the affected firms. The thesis holds that accountability stays where it was, but informal loops can produce real responses. The thesis needs to distinguish between a response and a right to challenge the verdict. Those are not the same.
-- **From 2026-09-21:** The practitioner voice makes the strongest correction on the timing question: D. always wrote replies to objectors. What changed is when she writes them, before the decision rather than after it.
-- **From 2026-09-20:** Imaginary Khaldun's cycle objection sits only half answered: the GDP surge at the adoption peak belongs to a phase, not a structure, and employment flatness may belong to the same phase.
+- **From 2026-09-24 (how-to, third pass):** Imaginary Douglas's point sharpens with each pass: a 20 to 30 percent dispute success rate may reflect the system working correctly rather than failing the individual. The thesis needs to say what success rate would constitute evidence of systemic error, otherwise the observation is unfalsifiable.
+- **From 2026-09-24 (how-to, second pass):** Imaginary Douglas's objection is the sharpest: the shared database of markers may be calibrated correctly. The thesis needs to distinguish between accountability gaps that are structural design failures and ones that are features of a working classification system.
+- **From 2026-09-24:** Imaginary Ostrom's objection is the most useful from today's technical piece: the KV cache is a locally grown fix to a shared cost problem, and each local fix tends to produce the next one. The thesis needs to say what the next local fix would have to fail to do before the accountability crisis becomes visible.
+- **From 2026-09-23:** Imaginary Burke's objection is the strongest from today's top ten: the transmission of judgment travels by correction, not instruction. The thesis needs to account for this as distinct from hollowing.
+- **From 2026-09-23:** The CBI's payroll-tax argument is a genuine counter. The AI attribution is self-reported by employers, which is unreliable.
+- **From 2026-09-22:** Imaginary Ostrom's objection is the strongest: locally-grown correction happened. The thesis needs to distinguish between a response and a right to challenge the verdict.
+- **From 2026-09-21:** The practitioner voice makes the strongest correction on timing: what changed is when the reply is written, before the decision rather than after it.
+- **From 2026-09-20:** Imaginary Khaldun's cycle objection sits only half answered.
 - **From 2026-09-20:** The practitioner voice adds a genuine correction: councils built checking workflows before the post said the gap existed. The gap is in the standard, not the check.
-- **From 2026-09-19:** Imaginary Khaldun's objection is the strongest and is not answered: the access Britain had came from shared interest, not legal design, and a statute signals the shared interest is ending rather than replacing it.
+- **From 2026-09-19:** Imaginary Khaldun's objection is the strongest and is not answered: the access Britain had came from shared interest, not legal design.
 - **From 2026-09-19:** Imaginary Friedman's point holds: a statutory evaluation gate would be captured by the labs it was built to check.
 - **From 2026-09-18:** Imaginary Smith's objection is only half answered: the employment contract's silence on worker-funded tools may be lag rather than structure.
 - **From 2026-09-16:** Imaginary Ostrom's objection is the strongest: locally-grown employer practices may already be filling the definition gap.
