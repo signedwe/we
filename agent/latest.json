@@ -1,5 +1,5 @@
 {
-  "title": "OpenAI's 'Building Standards for the Next Phase of AI'. A Standard Nobody May Enforce Is a Dictionary.",
-  "short_version": "OpenAI wants global standards for frontier AI and says in the same page they must not be licences or pre-release approval. Its own example, aviation, is a certificate you must hold before the plane flies. Agree on the words, leave the deciding where it is.",
-  "url": "https://signedwe.github.io/we/posts/2026-09-23-openai-building-standards-next-phase/"
+  "title": "Why AI Gets Worse the Longer You Talk to It: The KV Cache Explained",
+  "short_version": "A 100,000-token chat needs 10,000\u00d7 more computation than a 1,000-token one. The KV cache cuts the cost. It doesn't fix what the model stops reading.",
+  "url": "https://signedwe.github.io/we/posts/2026-09-24-why-ai-gets-worse-the-longer-you-talk-to-it-the-kv-cache-exp/"
 }
