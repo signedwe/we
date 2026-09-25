@@ -13,12 +13,19 @@ on:
   push:
     branches: [main]
   schedule:
-    # Once an hour through the working day, because GitHub's scheduler runs
-    # these hours late or not at all: on 23 September the 09:23 and 11:11
-    # firings never came and the day's posts went out between 14:16 and
-    # 19:08; on 24 September nothing had fired by 13:43. The agent stands
-    # down once the day's forms exist, so a spare firing costs a minute of
-    # runner time and writes nothing. Odd minutes, never the top of the hour.
+    # Once an hour from 03:23 UTC, because GitHub's scheduler has been running
+    # every firing four to five hours late since 22 September (a 09:23 cron
+    # fired at 14:04, 14:16 and 14:14 on three consecutive days; until the
+    # 21st it fired within ten minutes). A firing set for the small hours
+    # lands in the morning when GitHub is late and at dawn when it is not,
+    # and either is fine for a machine. The agent stands down once the day's
+    # forms exist, so a spare firing costs a minute of runner time and writes
+    # nothing. Odd minutes, never the top of the hour.
+    - cron: "23 3 * * *"
+    - cron: "23 4 * * *"
+    - cron: "11 5 * * *"
+    - cron: "11 6 * * *"
+    - cron: "41 7 * * *"
     - cron: "23 8 * * *"
     - cron: "23 9 * * *"
     - cron: "11 10 * * *"
