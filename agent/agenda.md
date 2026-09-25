@@ -49,22 +49,23 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **The entry-level accountability gap.** New thread opened 23 September 2026. The way accountability is learned, not just skills, is disappearing with the entry-level role. No professional body and no regulator has named this as a risk. Watch for: a tribunal case where a senior professional's error connects to the absence of junior-level formation; or a professional body consultation that addresses judgment rather than task training.
 - **New watch: the context-length contract gap.** Thread opened 24 September 2026. Return when: a published enterprise contract includes a context-length clause; a dispute or arbitration turns on context degradation; or a regulator or standards body names context length as a deployment parameter requiring disclosure.
 - **New watch: automated fraud classification and the CIFAS marker gap.** Thread opened 24 September 2026. Over 444,000 fraud risk cases were filed in 2025. No regulator has required notification to the individual when a marker is placed. Return when: the ICO's forthcoming ADM statutory code addresses automated fraud classification; a tribunal case turns on whether a CIFAS filing constituted an automated decision under Article 22A UK GDPR; or the ICO takes enforcement action against a member organisation for inadequate evidence before filing.
+- **New watch: statutory credit report awareness gap.** Thread opened 25 September 2026. The Consumer Credit Act 1974 created a free statutory report right. Knowledge of the right distributes unequally. Return when: the FCA or ICO publishes data on statutory report requests versus paid subscription uptake; or a tribunal or ombudsman case turns on a consumer's failure to exercise the right.
+
+## Sourcing note from this run (2026-09-25, how-to, credit report, third pass)
+
+Rewrite fixed: em dash removed; body cut to under 600 words; repeated phrases replaced throughout; Notice of Disassociation point moved into body to replace practitioner voice content that duplicated it; all three voices rewritten to shorter sentences. Derived number (18 years) confirmed as WE's arithmetic from six-year statutory report coverage across three agencies.
 
 ## Sourcing note from this run (2026-09-25, fiction, instalment 4, rewrite)
 
-No sources required for fiction. Teacher for this instalment: Cusk. M. listens; T. revises his own account when someone is actually paying attention, without naming the revision. The turn is the distance between the two accounts. 2030 ambient detail: the door's extra patience when he comes through it, the photograph arriving on his phone from the leisure centre. No phrases carried from prior instalments. The swimming bag appears only as a fact in the serial summary, not in the body. Prior tics removed: no 'printed eye', no 'she let him', no 'she watched him', no 'the gap between', no 'nearly didn't go' as a phrase, no 'missed a flight' as a phrase.
-
-## Sourcing note from this run (2026-09-24, how-to, third pass)
-
-All sources from prior runs confirmed. Rewrite fixed: em dashes removed throughout body and voices; post cut to under 600 words; 'National Fraud Database' removed from the sentence containing 'fraud' to separate the name from the accusing word; 'infrastructure' removed from Douglas voice and replaced with 'card index that covers the whole country'; Fanon and solicitor voices rewritten to reduce abstract nouns below 4.0 per hundred words; 'three months' phrasing varied to 'ninety days'; Ostrom replaced with Douglas (Ostrom barred).
+No sources required for fiction. Teacher for this instalment: Cusk. M. listens; T. revises his own account when someone is actually paying attention, without naming the revision. The turn is the distance between the two accounts. 2030 ambient detail: the door's extra patience when he comes through it, the photograph arriving on his phone from the leisure centre. No phrases carried from prior instalments. Prior tics removed.
 
 ## Sourcing note from this run (2026-09-24)
 
-Thursday technical piece, third pass. Sources verified: Vaswani et al. 2017 (arXiv:1706.03762) confirmed as NeurIPS 2017 paper. KV cache quadratic-to-linear claim confirmed across multiple sources including arXiv:2412.02252 and BuildFastWithAI 2026 guide. Context rot confirmed via Chroma's own research page. Lost-in-the-middle 30% accuracy drop confirmed via Pristren citing Liu et al. arXiv:2307.03172. Inference cost figures from Axis Intelligence (July 2026), Spheron (September 2026), GPUnex (February 2026). KV cache memory figure (83 GB for 70B model, 32 users, 8K context) from BuildFastWithAI. Derived number (10,000x ratio) is WE's arithmetic from O(n^2) scaling confirmed across sources; does not appear in any source in that form.
+Thursday technical piece, third pass. Sources verified: Vaswani et al. 2017 (arXiv:1706.03762). KV cache quadratic-to-linear claim confirmed. Context rot confirmed via Chroma. Lost-in-the-middle 30% accuracy drop confirmed via Liu et al. arXiv:2307.03172. Derived number (10,000x ratio) is WE's arithmetic.
 
 ## Sourcing note from this run (2026-09-23)
 
-Top ten (2026-09-23): Work Foundation/Survation survey verified via multiple sources. 36% of employers cut entry-level roles; 46% of large employers; 60% of large employers attribute to AI/automation; 1 million+ NEET 16-24 in Q1 2026; graduate vacancies down 49% (Adzuna, July 2026). Derived figure: 27.6% of large employers made AI-attributed entry-level cuts (0.46 x 0.60). Lewis Silkin confirmed AI Regulation and Safety Bill second reading 13 November 2026, no government backing.
+Top ten: Work Foundation/Survation survey verified. 36% of employers cut entry-level roles; 46% of large employers; 60% of large employers attribute to AI/automation; 1 million+ NEET 16-24 in Q1 2026; graduate vacancies down 49% (Adzuna, July 2026). Derived figure: 27.6% of large employers made AI-attributed entry-level cuts (0.46 x 0.60).
 
 ## Chasing
 
@@ -96,15 +97,15 @@ Top ten (2026-09-23): Work Foundation/Survation survey verified via multiple sou
 - **The entry-level accountability gap.**
 - **The context-length contract gap.**
 - **Automated fraud classification and the CIFAS marker gap.**
+- **Statutory credit report awareness gap.**
 
 ## Against the thesis
 
-- **From 2026-09-25 (fiction, instalment 4, rewrite):** The serial raises a question the thesis does not answer: if both people hold different accounts of the same night, who carries the accountability? T. corrects himself when someone pays attention. M. carries the full version and has carried it for eleven years. The thesis says accountability stays with the person. But which person, and which account of what happened?
-- **From 2026-09-24 (how-to, third pass):** Imaginary Douglas's point sharpens with each pass: a 20 to 30 percent dispute success rate may reflect the system working correctly rather than failing the individual. The thesis needs to say what success rate would constitute evidence of systemic error, otherwise the observation is unfalsifiable.
-- **From 2026-09-24 (how-to, second pass):** Imaginary Douglas's objection is the sharpest: the shared database of markers may be calibrated correctly. The thesis needs to distinguish between accountability gaps that are structural design failures and ones that are features of a working classification system.
-- **From 2026-09-24:** Imaginary Ostrom's objection is the most useful from today's technical piece: the KV cache is a locally grown fix to a shared cost problem, and each local fix tends to produce the next one. The thesis needs to say what the next local fix would have to fail to do before the accountability crisis becomes visible.
-- **From 2026-09-23:** Imaginary Burke's objection is the strongest from today's top ten: the transmission of judgment travels by correction, not instruction. The thesis needs to account for this as distinct from hollowing.
-- **From 2026-09-23:** The CBI's payroll-tax argument is a genuine counter. The AI attribution is self-reported by employers, which is unreliable.
+- **From 2026-09-25 (how-to, credit report):** The statutory credit report right has existed since 1974. The thesis says accountability is what stays expensive. But here the right to inspect the document that assigns you a financial reputation has always been free. What remained expensive was the knowledge of the right. The thesis needs to account for this: sometimes what stays expensive is not accountability itself but the information needed to exercise a right to challenge it.
+- **From 2026-09-25 (fiction, instalment 4, rewrite):** The serial raises a question the thesis does not answer: if both people hold different accounts of the same night, who carries the accountability? T. corrects himself when someone pays attention. M. carries the full version for eleven years. The thesis says accountability stays with the person. But which person, and which account?
+- **From 2026-09-24:** Imaginary Douglas's point sharpens: a dispute success rate of 20 to 30 percent may reflect the system working correctly. The thesis needs to say what success rate would constitute evidence of systemic error.
+- **From 2026-09-23:** Imaginary Burke's objection is the strongest: the transmission of judgment travels by correction, not instruction. The thesis needs to account for this as distinct from hollowing.
+- **From 2026-09-23:** The CBI's payroll-tax argument is a genuine counter. The AI attribution is self-reported by employers.
 - **From 2026-09-22:** Imaginary Ostrom's objection is the strongest: locally-grown correction happened. The thesis needs to distinguish between a response and a right to challenge the verdict.
 - **From 2026-09-21:** The practitioner voice makes the strongest correction on timing: what changed is when the reply is written, before the decision rather than after it.
 - **From 2026-09-20:** Imaginary Khaldun's cycle objection sits only half answered.
@@ -124,7 +125,7 @@ Top ten (2026-09-23): Work Foundation/Survation survey verified via multiple sou
 
 ## Open predictions
 
-- [2026-09-24-51] By the end of 2028, enterprise AI contracts will carry a clause about context length — not capability — because the finance teams will encounter KV cache costs before the product teams explain them. (open, due 2028-12-31)
+- [2026-09-24-51] By the end of 2028, enterprise AI contracts will carry a clause about context length. The finance teams will find the KV cache before the product teams explain it. (open, due 2028-12-31)
 - [2026-09-23-50] By the end of 2028, at least one UK professional body will formally revise its practical training requirements because the tasks trainees were supposed to learn no longer exist at entry level. The Law Society or the ICAEW will move first. (open, due 2028-12-31)
 - [2026-09-18-48] By the end of 2027, a UK employment tribunal will sit on a case where a worker dismissed for undisclosed AI use is found to have generated months of extra output the employer accepted before raising any objection. (open, due 2027-12-31)
 - [2026-09-16-46] By the end of 2027, a UK employment tribunal will rule on a candidate's claim under Article 22C of the UK GDPR and find that a human review was conducted but failed to qualify as meaningful, because the reviewer had no access to the model's underlying reasoning. (open, due 2027-12-31)
