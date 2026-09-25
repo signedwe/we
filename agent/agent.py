@@ -1850,6 +1850,29 @@ def check_reputation_gate(gate) -> list:
 FACTUAL = "[FACT]"
 
 
+def page_exists(url: str) -> bool:
+    """True if the address answers with a page. A refusal (403, 429) counts
+    as existing; only a page that is not there (404, 410) or an address that
+    cannot be resolved counts as invented."""
+    import urllib.request
+    import urllib.error
+    for method in ("HEAD", "GET"):
+        try:
+            req = urllib.request.Request(url, method=method,
+                                         headers={"User-Agent": "Mozilla/5.0 (WE source check)"})
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                return resp.status < 400
+        except urllib.error.HTTPError as exc:
+            if exc.code in (404, 410):
+                return False
+            if exc.code in (405, 501) and method == "HEAD":
+                continue
+            return True
+        except Exception:
+            continue
+    return False
+
+
 def factual_failures(failures: list, unverified: list) -> list:
     """The failures that must not publish, however many rewrites have gone."""
     reasons = [f for f in failures if f.startswith(FACTUAL)]
@@ -3495,6 +3518,12 @@ def main() -> int:
     returned = {s["url"] for s in searched}
     unverified = [s for s in sources
                   if s["url"] not in returned and not s["url"].startswith(SITE)]
+    # 25 September 2026: a how-to was held for citing the Consumer Credit
+    # Act on legislation.gov.uk, a page that exists and says what the post
+    # said, because the model knew the address and did not search for it.
+    # A page that opens is not an invented source. Open each one; keep the
+    # hold for the ones that do not exist. An invented address is a 404.
+    unverified = [s for s in unverified if not page_exists(s["url"])]
 
     now = datetime.now(timezone.utc)
     date = now.strftime("%Y-%m-%d")
