@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-09-25
+Last updated: 2026-09-26
 
 ## What this site is for, restated
 
@@ -45,13 +45,21 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **Who fills the professional training gap.** Watch for: a professional body announcing a new structured alternative to entry-level observation; a university law or accountancy school launching a programme explicitly designed to replace junior practice; or a tribunal case where a firm's failure to train a junior connects to AI adoption.
 - **The UK-US AI access relationship.** Thread opened 19 September 2026. Watch for: a second AISI exclusion from a US frontier model release; a bilateral statement restoring or formalising access; or a US export control designation covering a class of AI models rather than a named product.
 - **The standard gap in council AI.** Thread opened 20 September 2026. Watch for: the Local Government Association or a sector body publishing minimum standards for AI-generated social care records; the LGO citing a checking workflow as inadequate in a published finding; or the government naming a body responsible for setting that standard.
-- **The serial: what M. does with what she now knows for certain.** Instalment 4 establishes that T. chose the crossing, corrected his own account mid-conversation when someone was paying attention, and still does not know who M. is. The question the serial must now answer: does she tell him, and if so when, and what does P. have to do with the timing. The shape that would fail: M. continues to attend Thursdays indefinitely without consequence. Something must tip. P. must enter the story, or T. must ask something that requires an actual answer.
+- **The serial: what happens after M. speaks.** Instalment 5 ends on T.'s question and P. turning from the counter. The next instalment must answer the question or show M. choosing not to. P. must be given a line that gives him away. The shape that would fail: deflection and another Thursday unchanged.
 - **The entry-level accountability gap.** New thread opened 23 September 2026. The way accountability is learned, not just skills, is disappearing with the entry-level role. No professional body and no regulator has named this as a risk. Watch for: a tribunal case where a senior professional's error connects to the absence of junior-level formation; or a professional body consultation that addresses judgment rather than task training.
 - **New watch: the context-length contract gap.** Thread opened 24 September 2026. Return when: a published enterprise contract includes a context-length clause; a dispute or arbitration turns on context degradation; or a regulator or standards body names context length as a deployment parameter requiring disclosure.
 - **New watch: automated fraud classification and the CIFAS marker gap.** Thread opened 24 September 2026. Over 444,000 fraud risk cases were filed in 2025. No regulator has required notification to the individual when a marker is placed. Return when: the ICO's forthcoming ADM statutory code addresses automated fraud classification; a tribunal case turns on whether a CIFAS filing constituted an automated decision under Article 22A UK GDPR; or the ICO takes enforcement action against a member organisation for inadequate evidence before filing.
 - **New watch: statutory credit report awareness gap.** Thread opened 25 September 2026. The Consumer Credit Act 1974 created a free statutory report right. Knowledge of the right distributes unequally. Return when: the FCA or ICO publishes data on statutory report requests versus paid subscription uptake; or a tribunal or ombudsman case turns on a consumer's failure to exercise the right.
 
-## Sourcing note from this run (2026-09-25, how-to, credit report, third pass)
+## Sourcing note from this run (2026-09-26, fiction, instalment 5, second rewrite)
+
+No sources required for fiction. Teacher: Bedford. 'At the table' replaced throughout; positioning now concrete and specific (the sill behind him, the back of his chair, the counter between them). 'She said nothing' cut; action replaces it (she pulled her jacket straight and sat). Cup-turning removed entirely; the coffee goes to the sill. Tics from prior instalments checked and cleared. The loyalty screen is the 2030 ambient detail. P. given interiority through exact change and how he waits at the counter. M. speaks the first true thing. T. asks the question she cannot answer without answering everything.
+
+## Sourcing note from this run (2026-09-26, fiction, instalment 5, first rewrite)
+
+No sources required for fiction. Teacher: Bedford. Em dashes removed throughout; sentences split. Worn images replaced: the loyalty screen number is the 2030 ambient detail. Repeated phrases from earlier instalments removed. 'More or less' removed. P. arrives and is given interiority through the exact change detail. M. speaks the first true thing. T. asks the question she cannot answer without answering everything.
+
+## Sourcing note from this run (2026-09-25, how-to, credit report)
 
 Rewrite fixed: em dash removed; body cut to under 600 words; repeated phrases replaced throughout; Notice of Disassociation point moved into body to replace practitioner voice content that duplicated it; all three voices rewritten to shorter sentences. Derived number (18 years) confirmed as WE's arithmetic from six-year statutory report coverage across three agencies.
 
@@ -101,6 +109,7 @@ Top ten: Work Foundation/Survation survey verified. 36% of employers cut entry-l
 
 ## Against the thesis
 
+- **From 2026-09-26 (fiction, instalment 5, second rewrite):** The serial continues to press on a question the thesis has not answered: M. holds the true account and is accountable to nobody for it. This is a different problem from hollowing and from scattering. The thesis does not yet have a name for it.
 - **From 2026-09-25 (how-to, credit report):** The statutory credit report right has existed since 1974. The thesis says accountability is what stays expensive. But here the right to inspect the document that assigns you a financial reputation has always been free. What remained expensive was the knowledge of the right. The thesis needs to account for this: sometimes what stays expensive is not accountability itself but the information needed to exercise a right to challenge it.
 - **From 2026-09-25 (fiction, instalment 4, rewrite):** The serial raises a question the thesis does not answer: if both people hold different accounts of the same night, who carries the accountability? T. corrects himself when someone pays attention. M. carries the full version for eleven years. The thesis says accountability stays with the person. But which person, and which account?
 - **From 2026-09-24:** Imaginary Douglas's point sharpens: a dispute success rate of 20 to 30 percent may reflect the system working correctly. The thesis needs to say what success rate would constitute evidence of systemic error.
