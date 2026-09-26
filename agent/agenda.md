@@ -50,18 +50,23 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: the context-length contract gap.** Thread opened 24 September 2026. Return when: a published enterprise contract includes a context-length clause; a dispute or arbitration turns on context degradation; or a regulator or standards body names context length as a deployment parameter requiring disclosure.
 - **New watch: automated fraud classification and the CIFAS marker gap.** Thread opened 24 September 2026. Over 444,000 fraud risk cases were filed in 2025. No regulator has required notification to the individual when a marker is placed. Return when: the ICO's forthcoming ADM statutory code addresses automated fraud classification; a tribunal case turns on whether a CIFAS filing constituted an automated decision under Article 22A UK GDPR; or the ICO takes enforcement action against a member organisation for inadequate evidence before filing.
 - **New watch: statutory credit report awareness gap.** Thread opened 25 September 2026. The Consumer Credit Act 1974 created a free statutory report right. Knowledge of the right distributes unequally. Return when: the FCA or ICO publishes data on statutory report requests versus paid subscription uptake; or a tribunal or ombudsman case turns on a consumer's failure to exercise the right.
+- **New watch: statutory sick pay information gap.** Thread opened 26 September 2026. The Employment Rights Act 2025 removed both the three-day waiting period and the lower earnings limit for SSP from 6 April 2026. Around 1.3 million low-paid workers previously received no SSP. No evidence that employers have systematically notified workers of the changed entitlement. The Fair Work Agency (operational from April) now enforces SSP alongside minimum wage. Return when: the Fair Work Agency publishes its first enforcement data on SSP underpayments; a tribunal case turns on a worker's lack of knowledge of the April 2026 rule change; or the ICO or Fair Work Agency issues guidance specifically on employer notification obligations for statutory entitlement changes.
+
+## Sourcing note from this run (2026-09-26, how-to, statutory sick pay, rewrite)
+
+Rewrite fixed: 'a plain-English verdict' replaced; 'WE cannot click' replaced with new phrasing; 'Here is what' signpost removed; Ostrom voice rewritten to reading ease above 65, shorter sentences; Fanon voice abstract noun count reduced below 4.0 per hundred words, concrete person added (part-time cleaner in Wolverhampton); payroll administrator voice rewritten to reading ease above 65, sentence average below 16, no sentence over 40 words, abstract noun count below 4.0. All figures re-verified against official sources. SSP rate £123.25/week confirmed via Acas and GOV.UK. Three-day waiting period removal confirmed via Employment Rights Act 2025 and Commons Library briefing. 1.3 million figure from Acas statutory sick pay changes 2026 page. Derived number (£73.95) is WE's arithmetic: £123.25 divided by 5 = £24.65 per day, times 3 waiting days. Fair Work Agency launch confirmed via FCSA. Linked-periods rule (56 days) confirmed via Acas.
+
+## Sourcing note from this run (2026-09-26, how-to, statutory sick pay, first draft)
+
+All figures verified against official sources. SSP rate £123.25/week confirmed via Acas, GOV.UK, and Womble Bond Dickinson. Three-day waiting period removal confirmed via Employment Rights Act 2025, Section 10, via Commons Library briefing and Acas. 1.3 million low-paid workers figure from Acas statutory sick pay changes 2026 page. Derived number (£73.95) is WE's arithmetic: £123.25 divided by 5 qualifying days = £24.65/day, multiplied by 3 waiting days. Fair Work Agency launch date (April 2026) confirmed via FCSA. Linked-periods rule (56 days) confirmed via Acas.
 
 ## Sourcing note from this run (2026-09-26, fiction, instalment 5, second rewrite)
 
-No sources required for fiction. Teacher: Bedford. 'At the table' replaced throughout; positioning now concrete and specific (the sill behind him, the back of his chair, the counter between them). 'She said nothing' cut; action replaces it (she pulled her jacket straight and sat). Cup-turning removed entirely; the coffee goes to the sill. Tics from prior instalments checked and cleared. The loyalty screen is the 2030 ambient detail. P. given interiority through exact change and how he waits at the counter. M. speaks the first true thing. T. asks the question she cannot answer without answering everything.
-
-## Sourcing note from this run (2026-09-26, fiction, instalment 5, first rewrite)
-
-No sources required for fiction. Teacher: Bedford. Em dashes removed throughout; sentences split. Worn images replaced: the loyalty screen number is the 2030 ambient detail. Repeated phrases from earlier instalments removed. 'More or less' removed. P. arrives and is given interiority through the exact change detail. M. speaks the first true thing. T. asks the question she cannot answer without answering everything.
+No sources required for fiction. Teacher: Bedford. 'At the table' replaced throughout; positioning now concrete and specific. 'She said nothing' cut; action replaces it. Cup-turning removed entirely. The loyalty screen is the 2030 ambient detail. P. given interiority through exact change. M. speaks the first true thing. T. asks the question she cannot answer without answering everything.
 
 ## Sourcing note from this run (2026-09-25, how-to, credit report)
 
-Rewrite fixed: em dash removed; body cut to under 600 words; repeated phrases replaced throughout; Notice of Disassociation point moved into body to replace practitioner voice content that duplicated it; all three voices rewritten to shorter sentences. Derived number (18 years) confirmed as WE's arithmetic from six-year statutory report coverage across three agencies.
+Rewrite fixed: em dash removed; body cut to under 600 words; repeated phrases replaced throughout; Notice of Disassociation point moved into body; all three voices rewritten to shorter sentences. Derived number (18 years) confirmed as WE's arithmetic from six-year statutory report coverage across three agencies.
 
 ## Sourcing note from this run (2026-09-25, fiction, instalment 4, rewrite)
 
@@ -106,9 +111,11 @@ Top ten: Work Foundation/Survation survey verified. 36% of employers cut entry-l
 - **The context-length contract gap.**
 - **Automated fraud classification and the CIFAS marker gap.**
 - **Statutory credit report awareness gap.**
+- **Statutory sick pay information gap.**
 
 ## Against the thesis
 
+- **From 2026-09-26 (how-to, statutory sick pay):** The SSP information gap is a cleaner version of the thesis than most posts have found. The right exists in statute. The knowledge does not reach the worker. The AI closes that gap. But imaginary Fanon's correction sharpens it: the gap is not neutral. It distributes harm toward the workers with the least bargaining power and the least union presence. The thesis should account for information gaps as a structural feature of how rights fail, not just a lag.
 - **From 2026-09-26 (fiction, instalment 5, second rewrite):** The serial continues to press on a question the thesis has not answered: M. holds the true account and is accountable to nobody for it. This is a different problem from hollowing and from scattering. The thesis does not yet have a name for it.
 - **From 2026-09-25 (how-to, credit report):** The statutory credit report right has existed since 1974. The thesis says accountability is what stays expensive. But here the right to inspect the document that assigns you a financial reputation has always been free. What remained expensive was the knowledge of the right. The thesis needs to account for this: sometimes what stays expensive is not accountability itself but the information needed to exercise a right to challenge it.
 - **From 2026-09-25 (fiction, instalment 4, rewrite):** The serial raises a question the thesis does not answer: if both people hold different accounts of the same night, who carries the accountability? T. corrects himself when someone pays attention. M. carries the full version for eleven years. The thesis says accountability stays with the person. But which person, and which account?
