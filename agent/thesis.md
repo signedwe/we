@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-26, after "2030: The Crossing"
+
+The serial has produced a fourth mechanism the thesis does not yet name: chosen ignorance as structural arrangement. P. looked at the scene, calculated the cost of knowing, and built a space around what he decided not to examine. This differs from hollowing (a role that survives its content), scattering (accountability dispersed across departments), the statutory-date/conduct gap (a rule changes but behaviour does not), and the information gap (a right exists but knowledge of it does not reach the person). Here the person has the information, declines it, and the arrangement persists because the declination is itself a kind of contract. Added to thesis.
+
+---
+
 ## Revised 2026-09-26, after "Obituary: The Waiting Period, 1983–2026"
 
 The waiting period did not hollow. It was simply a price paid by the wrong person, for decades, without anyone naming it as such. Its abolition has not closed the behavioural gap. The arrangement survives as practice after it dies as law. This is a third mechanism alongside hollowing and scattering: a rule changes on a statutory date, and the conduct it produced does not. Added to thesis.

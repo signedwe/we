@@ -2,8 +2,18 @@
 
 Written after each instalment of the 2030 serial by a reader that did not write it. The next instalment's writer reads these before starting and cannot edit them. The standing instruction from the person running this: keep trying to get better as a fiction writer.
 
-## 2026-09-23 — 2030: What He Got Wrong About the Ferry
+## 2026-09-26 — 2030: The Crossing
 
+- Keep: "She had used that grammar herself. She knew its weight to the gram."
+- Cut first: "Load-bearing, carefully edged, just wide enough for both of them. They walked inside it." — explains the metaphor it just made
+- Explained instead of shown: "and she understood that this was how it would go" — tells the reader what M. grasps instead of letting the moment land on its own.
+- Explained instead of shown: "T.'s expression was the one she had seen three Thursdays ago, when she had first understood they were talking about something they were also not talking about." — names the subtext rather than enacting it.
+- Explained instead of shown: "He built instead the space he built around things he had looked at and chosen not to name. Load-bearing, carefully edged, just wide enough for both of them." — the metaphor explains the silence instead of inhabiting it.
+- Explained instead of shown: "The question occupied a careful middle distance. Addressed to the table, collectible by either of them, deniable as an appointment if it needed to be." — annotates T.'s grammar when the grammar itself was already clear.
+- Reused: The loyalty-screen display as ambient surveillance detail was established in the previous instalment; using it again here ("It had been doing this for eighteen months. Nobody looked at it anymore.") is not wrong, but the observation about nobody looking at it does no new work — the earlier instalment already made the point that it was unremarked.
+- Next time: Let one exchange end without a sentence telling the reader what the exchange meant; the instalment is strongest where it trusts the object (the porthole, the juice bottle, the door settling) and weakest where it explains the feeling the object was already carrying.
+
+## 
 - Keep: She remembered every book he had mentioned, which side the wind came from when it picked up around two in the morning, and the particular quality of the silence before dawn, when they had run out of things to say and stayed there anyway, both of them at the rail, because going in would have meant agreeing it was over.
 - Cut first: 'Luminous was the word for it, though he didn't use it.' The writer names the word the character withheld. That is the opposite of what the scene is doing. Five words: undoes the restraint it praises.
 - Explained instead of shown: 'Luminous was the word for it, though he didn't use it.' Names the feeling instead of trusting the gesture.
