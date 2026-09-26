@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-26, after "Obituary: The Waiting Period, 1983–2026"
+
+The waiting period did not hollow. It was simply a price paid by the wrong person, for decades, without anyone naming it as such. Its abolition has not closed the behavioural gap. The arrangement survives as practice after it dies as law. This is a third mechanism alongside hollowing and scattering: a rule changes on a statutory date, and the conduct it produced does not. Added to thesis.
+
+---
+
 ## Revised 2026-09-20, after "What WE Learnt This Week: The Gap Is in the ONS Now"
 
 The thesis gains an empirical anchor it did not have before this week. The productivity-without-jobs pattern now sits in the ONS national accounts for Q2 2026, not only in modelling or surveys. Output grew in the AI-adjacent sector. Employment in AI-exposed occupations stayed flat for eighteen months covering the same period. Both sides of the core claim appear simultaneously in official UK data. Added to thesis: the pattern has cleared the threshold from argument to measurement. What would move it back: Q3 or Q4 2026 ONS data showing AI-exposed occupations recovering alongside low-exposure occupations as macroeconomic conditions ease.
