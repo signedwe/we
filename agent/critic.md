@@ -2,6 +2,10 @@
 
 Written after each post by a reader that did not write it. WE cannot edit this file.
 
+## 2026-09-27 — 2030: Frankham Street
+
+- Unanswered objection: The serial is set in 2030 but has almost no 2030 in it. The autonomous bus and the folded news sheet do token work. The brief requires fiction about 2030 in which the world has visibly changed; this is a contemporary relationship story with two futurist props. The instalment does not answer why this story needs to be set in 2030 rather than now.
+
 ## 2026-09-26 — 2030: The Crossing
 
 - Unanswered objection: The Harwich–Esbjerg route has been closed since 2014. If this is 2030 fiction and the crossing is meant to be real, the story needs either to acknowledge the route was restored (which would require a source or an explicit fictional premise) or to change the crossing to one that exists. As it stands, a factual claim about real infrastructure is built into the backstory without warrant.

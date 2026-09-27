@@ -2,8 +2,19 @@
 
 Written after each instalment of the 2030 serial by a reader that did not write it. The next instalment's writer reads these before starting and cannot edit them. The standing instruction from the person running this: keep trying to get better as a fiction writer.
 
-## 2026-09-26 — 2030: The Crossing
+## 2026-09-27 — 2030: Frankham Street
 
+- Keep: He said porthole the way you say a word that belongs to one specific night and nowhere else
+- Cut first: "No self-pity in it. That was the worst kind." — names the feeling and judges it; Cusk would never
+- Explained instead of shown: "she understood that this was how it would go" — states the realisation instead of leaving the gap
+- Explained instead of shown: "No self-pity in it. That was the worst kind." — names and evaluates the emotional register the reader should have reached alone
+- Explained instead of shown: "Four minutes was enough time to say almost anything." — pre-digests the significance of the silence
+- Explained instead of shown: "the kind that only halted when asked" — explains the autonomous bus instead of letting it pass
+- Explained instead of shown: "the old reflex of buses that had no say in the matter" — explains the reflex; the looking-up was already there to do that work
+- Reused: The instalment ends on withheld speech and withheld action — M. does not say where she has been, does not use the four minutes — which is structurally the same ending as the previous instalment (M. holds the orange juice, lets P.'s wrong answer sit, does not correct it). The non-disclosure as closing move has now appeared twice running.
+- Next time: Let one character do something that cannot be taken back — one word said, one step taken — so the serial moves rather than accumulates.
+
+## 
 - Keep: "She had used that grammar herself. She knew its weight to the gram."
 - Cut first: "Load-bearing, carefully edged, just wide enough for both of them. They walked inside it." — explains the metaphor it just made
 - Explained instead of shown: "and she understood that this was how it would go" — tells the reader what M. grasps instead of letting the moment land on its own.
