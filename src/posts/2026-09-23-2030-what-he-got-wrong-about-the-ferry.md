@@ -25,7 +25,7 @@ He was there first. There were two flat whites on the table and he pushed one ac
 
 "She'll think I've gone mad. She's learnt it anyway. She does it with actions." He did one of the actions, small, with two fingers, a boat going over a wave. "She's better at it than me. She says the last line properly."
 
-He was in a talking mood. He said Thursday was the one day of the week he didn't have to be efficient, and he spent it being inefficient on purpose, like a man letting a dog off a lead. He told her about a hospital in Ghent that had needed a kidney machine at four in the morning, and how the routing system had found three trucks and a boat and he'd rung a man called only by his initial, who owned a van.
+He was in a talking mood. He said Thursday was the one day of the week he didn't have to be efficient, and he spent it being inefficient on purpose. He told her about a hospital in Ghent that had needed a kidney machine at four in the morning, and how the routing system had found three trucks and a boat and he'd rung a man called only by his initial, who owned a van.
 
 And then, because she asked nothing, he told her about the ferry.
 

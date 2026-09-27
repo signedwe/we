@@ -39,7 +39,7 @@ She thought about that for longer than it deserved.
 
 At quarter past he did something she didn't expect. He asked the girl at the till for a receipt, and paid his five pence, and turned it over and wrote on the back of it with a pencil from his coat, a real pencil, stubby, the kind that lives in a toolbox.
 
-"My number," he said. "Not the phone. The landline. I've got one, don't laugh, it's for the four in the mornings." He folded it in quarters, small as a note passed in school, and put it by her saucer. "In case you're ever not here on a Thursday. So I know it's the Thursday and not you."
+"My number," he said. "Not the phone. The landline. I've got one, don't laugh, it's for the four in the mornings." He folded it in quarters and put it by her saucer. "In case you're ever not here on a Thursday. So I know it's the Thursday and not you."
 
 It was a sentence she'd have taken a minute over in court. She took a minute over it now.
 

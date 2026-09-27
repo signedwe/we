@@ -15,7 +15,7 @@ revisions:
 
 The bakery had a new loyalty screen, and the loyalty screen had no discretion at all.
 
-She put her thumb on the terminal and it lit up pale blue for the whole shop to read: WELCOME BACK. VISIT 53. YOUR NEXT BUN IS ON US. It played a little chime, three notes going up, like a game show for people who eat pastry.
+She put her thumb on the terminal and it lit up pale blue for the whole shop to read: WELCOME BACK. VISIT 53. YOUR NEXT BUN IS ON US. It played a little chime, three notes going up.
 
 T. was at the window table. He had watched it light. When she sat down he did the sum out loud, because that was his job.
 
@@ -35,9 +35,9 @@ The rain had stopped. Outside, a delivery robot the size of a dog had got its wh
 
 "And it didn't rain, and it was March."
 
-She could feel the next sentence arriving the way you feel a sneeze, with the same helplessness, and she thought, very clearly, *not here*, and then the door opened and it was P.
+She could feel the next sentence coming and could do nothing about it, and she thought, very clearly, *not here*, and then the door opened and it was P.
 
-He was in the green jacket and the good scarf, the Italian one she'd bought him in a sale for his fiftieth and he'd never once left on a bus. He'd been at the dentist on the High Street; she knew because the flat used to tell her these things, and because he was holding his jaw slightly to one side, as if balancing something on it. He saw her and raised a hand and smiled, lopsided, novocaine on one side and pleasure on the other.
+He was in the green jacket and the good scarf, the Italian one she'd bought him in a sale for his fiftieth and he'd never once left on a bus. He'd been at the dentist on the High Street; she knew because the flat used to tell her these things, and because he was holding his jaw slightly to one side. He saw her and raised a hand and smiled, lopsided, novocaine on one side and pleasure on the other.
 
 "This is T.," M. said, standing. "We've been sharing a table on Thursdays."
 
@@ -49,7 +49,7 @@ T. looked at M. The question was all over his face and he wasn't going to ask it
 
 "I used to take that ferry," she said. "Years ago."
 
-She said it in the voice of nothing in particular, the voice for passing someone the salt. T. went completely still, the stillness of a man who has been standing on a step in the dark and has just discovered there isn't one.
+She said it lightly. T. went completely still, the stillness of a man who has been standing on a step in the dark and has just discovered there isn't one.
 
 "You said never."
 

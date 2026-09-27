@@ -2913,8 +2913,8 @@ the earlier instalments and do the thing they asked. While you write:
 one concrete object per scene that carries the feeling (the whale on the
 bag), never the feeling named by the narrator. Dialogue that moves
 things: once in every instalment somebody says the big thing, out loud,
-to someone's face. No simile more than once a page, and never
-"the way you..." twice. Vary the sentence lengths; let one run and then
+to someone's face. One simile per instalment at most, the best line on the page; the
+check counts them (the operator, 27 September: "too many similes"). Vary the sentence lengths; let one run and then
 stop one dead. End on an image, never on a plot point or a line that
 explains the image. Then, before you send it, cut the last sentence of
 every paragraph and see if the paragraph got better; usually it did.
@@ -3155,6 +3155,25 @@ NOT_A_NAME = {
     "avenue", "gardens", "close", "way", "leather", "imperial", "year",
     "christmas", "easter", "ai", "uk", "britain", "london", "england",
 }
+
+
+# 27 September 2026, the operator: "The story has too many similes." Seven
+# instalments carried twenty between them. One per instalment, and it has to
+# be the best line on the page.
+SIMILE = re.compile(
+    r"[^.!?\n]*(\blike (?:a|an|the|some|two|someone|something)\b|\bas if\b|\bas though\b"
+    r"|\bthe way (?:you|some|people|a|he|she|they)\b|\b(?:small|plain|quiet|still|cold|white|"
+    r"flat|bright|dark|thin|hard|soft|light|heavy|sharp) as an? \w+"
+    r"|\b(?:the|with the) (?:face|stillness|voice|patience|tact|look|reflex|laugh|ease|air) of (?:a|an) \w+ who\b)"
+    r"[^.!?\n]*[.!?]", re.I)
+
+
+def check_similes(body: str, limit: int = 1) -> list:
+    found = [m.group(0).strip() for m in SIMILE.finditer(QUOTED.sub(" ", body))]
+    if len(found) > limit:
+        return [f"{len(found)} similes; the most is {limit}. Keep the best and say the "
+                "rest plainly: " + " | ".join(f[:90] for f in found)]
+    return []
 
 
 def check_invented_names(body: str) -> list:
@@ -3642,6 +3661,8 @@ def main() -> int:
             failures += check_stakes(post.get("stakes"))
         if FORM in ("fiction", "five_years"):
             failures += check_invented_names(post["body"])
+        if FORM == "fiction":
+            failures += check_similes(post["body"])
         if FORM == "fiction" and len(str(post.get("serial_so_far") or "").split()) < 30:
             failures.append("No serial_so_far, or too thin. Tomorrow's instalment "
                             "starts from it. Under 200 words, the whole story so far "

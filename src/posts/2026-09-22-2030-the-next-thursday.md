@@ -16,7 +16,7 @@ serial_so_far: "2030, Deptford. M., thirty-six, interprets Danish for the Crown 
 
 The bus, left to itself, drove straight past the bakery. She walked back two stops in shoes she had bought for sitting down in.
 
-He was at the counter, not the window, reading the board the way people read a board when they already know what they want and are buying time. She joined the queue. There were two people between them, a builder ordering eleven sausage rolls by name and a woman arguing with her own watch.
+He was at the counter, not the window, reading the board, though he had obviously decided. She joined the queue. There were two people between them, a builder ordering eleven sausage rolls by name and a woman arguing with her own watch.
 
 He turned with his coffee and nearly walked into her.
 
@@ -30,7 +30,7 @@ Nothing. Not a flicker. She had spent eleven years being, she now understood, a 
 
 The only free seat was at his table.
 
-He was reading a sheet of paper, an actual printed sheet, folded twice, and when she sat he moved his swimming bag off the chair without looking up, as if she were a stranger's coat on a train. Then he knocked his coffee over. Most of it went across the paper. He said a word under his breath that her court would have asked her to repeat for the record, and she was already pushing napkins at him.
+He was reading a sheet of paper, an actual printed sheet, folded twice, and when she sat he moved his swimming bag off the chair without looking up. Then he knocked his coffee over. Most of it went across the paper. He said a word under his breath that her court would have asked her to repeat for the record, and she was already pushing napkins at him.
 
 "God. Thank you."
 
@@ -40,11 +40,11 @@ He was reading a sheet of paper, an actual printed sheet, folded twice, and when
 
 She put a piece of the bun in her mouth so that her face would have something to do.
 
-He told her his name. She had never forgotten it. She told him hers, the whole of it, clearly, the way she said names in court so the stenographer wouldn't have to ask.
+He told her his name. She had never forgotten it. She told him hers, the whole of it, and spelled the surname.
 
 He nodded, pleasantly. "Nice to meet you."
 
-He talked. She let him. The daughter was eight, swam like something that had been let out, and had swimming on Thursdays at the leisure centre on Giffin Street, so he came here for the hour and pretended to work. He did medical logistics, whatever that was. He did the thing with his hands, turning a cup a quarter-turn on its saucer at the end of every sentence, that she had forgotten she remembered.
+He talked. She let him. The daughter was eight, swam every length she was allowed, and had swimming on Thursdays at the leisure centre on Giffin Street, so he came here for the hour and pretended to work. He did medical logistics, whatever that was. He did the thing with his hands, turning a cup a quarter-turn on its saucer at the end of every sentence, that she had forgotten she remembered.
 
 "I did a night ferry once," he said, when she said she worked with Danish. "Harwich to the Hook. Talked to a woman the whole way over, till it got light." He smiled at the table, fondly, at nobody. "Can't remember her name. Isn't that awful? A whole night."
 

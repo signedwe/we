@@ -29,7 +29,7 @@ The fruit man went on stacking avocados in sevens.
 
 "Rosa." T. was at the bottom of the stairs, his jacket on properly now, as if that had been the problem.
 
-"She is, though." Rosa turned to M. with the terrible patience of an eight-year-old explaining something to an adult who ought to know it already. "Dad's phone shows you. Every March. You're on a boat and it's windy and your mouth's open because you're talking. It puts music on." She thought about it. "Sad music. Dad says it's the phone that does it, but you can tell it to stop, and he doesn't."
+"She is, though." Rosa turned to M. and explained, slowly, for the grown-up. "Dad's phone shows you. Every March. You're on a boat and it's windy and your mouth's open because you're talking. It puts music on." She thought about it. "Sad music. Dad says it's the phone that does it, but you can tell it to stop, and he doesn't."
 
 She looked at T. He'd turned the grey of the satsumas' paper bag.
 
@@ -67,7 +67,7 @@ T. didn't say anything for a moment. Then he laughed, not unkindly, at the pavem
 
 "I didn't tell you I went back. Twice. The same summer." He looked at her properly for the first time since the ferry. "We must have missed each other by a week."
 
-Rosa came back with orange on her fingers and the peel in one long curl, which she presented to her father like a certificate.
+Rosa came back with orange on her fingers and the peel in one long curl, which she presented to her father.
 
 "It's swimming," she said. "We're late." And then, to M., because in her world questions were for getting answers: "Are you coming?"
 
