@@ -35,6 +35,9 @@ voices:
     kind: "practitioner"
     lived: ""
     argument: "The CIFAS report names the category and the filer. It won't show you the transaction records, the risk score, or which specific flag triggered the filing. Send a data request to the bank or insurer that filed the marker, asking for every document they hold on the account or application. That file is where the real argument sits. The AI-drafted letter is a reasonable opener. What you build from the filer's own records is the challenge that can actually move them."
+revisions:
+  - date: 2026-09-27
+    what: "Published on 24 September without its steps: the how-to had a beginning and an end and no how. The six steps were added on 27 September from the sources the post already cited, by the weekly review. A check now fails any how-to with fewer than three steps."
 ---
 
 A fraud label can close your bank account without a court, a charge, or a letter.
@@ -84,6 +87,19 @@ If they say no: the Financial Ombudsman (for banks and insurers) or the ICO (for
 **The move most guides skip.** Send a separate data request to the filing organisation, asking for everything they hold on the account or application in question. The CIFAS report shows the marker. Their own file shows what it's based on. You need both to build a real challenge.
 
 ---
+
+**Step 1. Ask Cifas for your file.** [The request is a form on Cifas's own site](https://www.cifas.org.uk/contact-us/subject-access-request/subject-access-request-form). [You give your name, date of birth, six years of addresses and two proofs of identity, a passport or driving licence and a recent bank statement or bill](https://www.cifas.org.uk/dsar). [It is free; Cifas says it will never charge for it](https://www.cifas.org.uk/dsar). Ten minutes.
+
+**Step 2. Wait for the post.** [Cifas must answer within one calendar month of a complete form](https://www.cifas.org.uk/dsar). What comes back names any marker, its category, and the organisation that filed it. If nothing comes back, that is the answer, and it is the usual one.
+
+**Step 3. Give the letter to an assistant.** Black out your identifiers first. Then: *Here is my Cifas report. Explain each entry in plain words: what the category means, who filed it, and what it can stop me doing. Then list what I would need to show to dispute it.* Check every line it gives you against the report itself. It will be confident about categories it has guessed.
+
+**Step 4. Ask the filer for its file.** The practitioner below says why: the Cifas report names the filer, not the evidence. Send the bank or insurer that filed the marker a data request for everything it holds on the account or application. That is where the argument sits.
+
+**Step 5. Complain in the right order.** [First to the organisation that filed the marker, through its own complaints procedure; it can take up to eight weeks and must give you a final response](https://www.cifas.org.uk/contact-us/i-want-to-make-a-complaint). [Then send that final response to Cifas, which reviews the filing itself, and aims to answer within a month](https://www.cifas.org.uk/contact-us/i-want-to-make-a-complaint). [If Cifas upholds the filing, the next step is the industry's ombudsman, in most cases the Financial Ombudsman Service](https://www.cifas.org.uk/contact-us/i-want-to-make-a-complaint). Ask the assistant for the letter at each stage: short, the facts, the evidence attached, nothing else.
+
+**Step 6. Keep everything.** Dates, reference numbers, the final response. A dispute that succeeds is a paper trail, and the paper is yours.
+
 
 **Where it goes wrong.**
 
