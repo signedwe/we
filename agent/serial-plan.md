@@ -44,9 +44,10 @@ overdo it."
   bad writing forces ideas into it. Good writing makes it feel they're
   introduced naturally." If the scene doesn't need either, leave both out.
   Many instalments should have neither.
-- Detail in the words of whoever is looking (27 September): "if the person
-  calls it sausage then call it that. But if they call it spicy turkish
-  sausage then that. Or sucuk if they see it like that."
+- The implied point of view decides the language (27 September: "This goes
+  for many things. The implied pov should determine the language"): what's
+  noticed, what things are called (sausage / spicy Turkish sausage / sucuk),
+  the images, the rhythm. Nothing the viewer wouldn't know or say.
 - Neither of these is the story. The story is M., T., P. and Rosa.
 
 ## The beats

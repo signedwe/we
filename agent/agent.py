@@ -2865,17 +2865,23 @@ plainly, never mourned. People speak to machines only when that is what
 they'd naturally do in that moment, in passing, never explained. Many
 instalments should have neither. Neither is the story.
 
-## Name things the way the person seeing them would
+## The point of view decides the language
 
-The operator, 27 September 2026: "be accurate with detail.. but not over
-so.. things should be talked about in the language of the person who sees
-them." And: "if the person calls it sausage then call it that. But if they
-call it spicy turkish sausage then that. Or sucuk if they see it like that."
-So the word is never the most exact one available; it is the one in the
-head of whoever is looking. The same thing can be "sausage" to one person,
-"spicy Turkish sausage" to another and "sucuk" to a third, and the page
-follows whoever's eyes we are behind. No detail the character wouldn't
-notice, and no fancier word than they'd use.
+The operator, 27 September 2026: "things should be talked about in the
+language of the person who sees them"; "if the person calls it sausage then
+call it that. But if they call it spicy turkish sausage then that. Or sucuk
+if they see it like that"; and "This goes for many things. The implied pov
+should determine the language."
+
+So every scene is written from inside someone, and that someone chooses
+the words. What gets noticed (an interpreter hears a mistranslation; a
+logistics man clocks the delivery van; an eight-year-old sees the biscuit
+tin, not the grief). What things are called (sausage, spicy Turkish
+sausage, sucuk; the flat, the house thing, the assistant). The images,
+which come from that person's life, never from the writer's. The rhythm
+and register of the sentences. The narrator knows nothing the person
+behind whose eyes we stand wouldn't know, and uses no word they wouldn't
+use. When the point of view changes, the language changes with it.
 
 ## Make the reader care
 

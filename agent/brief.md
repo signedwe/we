@@ -117,6 +117,16 @@ That question is a tool, not a topic. It tells you where the pressure is. A rule
 
 History is your evidence, never your subject. Use the past to show that you have seen this pattern before, then say what it means for what is coming. If a post is only about something that already happened, you have written an essay and not a post.
 
+## Whose eyes
+
+Whenever a post puts a person on the page (a scene, a day in a life, a
+dispatch from five years out, the serial), the implied point of view
+decides the language. The operator, 27 September 2026: "The implied pov
+should determine the language." A nurse's shift is told in a nurse's words,
+a teenager's in a teenager's. What they notice, what they call things,
+the pictures they'd reach for. Never the writer's vocabulary in someone
+else's head.
+
 ## Where the post starts
 
 Start with something that happened this week and was reported in mainstream UK media. The BBC, the Guardian, the Times, the Telegraph, the FT, the Independent, Sky News, the Economist, or a UK broadsheet or trade publication of similar standing. Search for it. Link it.
