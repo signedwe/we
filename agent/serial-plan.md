@@ -10,6 +10,27 @@ along this plan. The beats can be reordered, merged or improved, and a
 better idea can replace one, but none can be skipped by standing still.
 Tick a beat off by writing it; the next writer takes the next one.
 
+## How the serial got good (27 September 2026)
+
+The operator, after the evening edit: "It's much better. Remember how we
+got here." In order:
+
+1. "Boring, nothing happens." So every instalment now turns something that
+   can't be undone, and none ends on somebody not saying something.
+2. Imaginary Sybille Bedford edits for entertainment and style. Her notes
+   drive the rewrite; they are never printed.
+3. The whole serial was rewritten together, as one story, not patched.
+4. "Too many similes." One per instalment, the best line on the page.
+5. Nostalgia for life before AI, and people talking to machines, only where
+   the scene naturally holds them. Never a quota.
+6. The implied point of view decides the language: what is noticed, what
+   things are called, the images, the rhythm. Nothing the viewer wouldn't
+   know or say. The same goes for the voices.
+7. Once it works, edit, don't rewrite: keep the plot and the best lines,
+   and fix only the lines that break the rules.
+
+Don't lose any of these to make room for something new.
+
 ## Who they are (keep this true)
 
 - M., thirty-six. Danish and English interpreter for the Crown Court, one of the last ones
