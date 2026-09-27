@@ -5,7 +5,7 @@ order. Add to the bottom; reorder freely. Marked done with the date and
 the file when published.
 
 - The Lighthill report of 1973 and Britain's first AI winter [done 2026-09-23 2026-09-23-lighthill.md]
-- Turing's 1950 paper: what "Computing Machinery and Intelligence" actually argued, and the objections he answered
+- Turing's 1950 paper: what "Computing Machinery and Intelligence" actually argued, and the objections he answered [done 2026-09-27 2026-09-27-turing-1950-computing-machinery-and-intelligence-the-argumen.md]
 - The Dartmouth summer of 1956: the proposal, the money, who came, and what did not happen
 - Rosenblatt's perceptron, the 1958 press, and Minsky and Papert's 1969 book
 - Hubert Dreyfus, "Alchemy and Artificial Intelligence" (1965), and what the RAND Corporation did with it
