@@ -15,6 +15,10 @@ on:
         description: "Draft run: write the essay and its review to agent/held/ and upload it as an artifact, commit nothing"
         type: boolean
         default: false
+      force:
+        description: "Publish even if an essay went out in the last six days (the operator's call, 27 Sep 2026)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -47,6 +51,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           DRAFT: ${{ inputs.draft == true && '1' || '' }}
+          FORCE: ${{ inputs.force == true && '1' || '' }}
         run: python agent/history.py
 
       - name: Keep the draft or the held essay where a human can read it

@@ -48,6 +48,7 @@ HELD = ROOT / "agent" / "held"
 LATEST = ROOT / "agent" / "latest.json"
 SITE = agent.SITE
 DRAFT = bool(os.environ.get("DRAFT"))
+FORCE = bool(os.environ.get("FORCE"))  # skip the six-day stand-down, by hand only
 
 # The writer gets the same model as the daily posts. An essay of this
 # length may deserve the larger model; change it here and nowhere else.
@@ -365,7 +366,7 @@ def passes_sentence(passes: list) -> str:
 def main() -> int:
     HIST.mkdir(parents=True, exist_ok=True)
     already = published_this_week()
-    if already and not DRAFT:
+    if already and not DRAFT and not FORCE:
         print(f"An essay went out this week ({already.name}). Standing down.")
         agent.set_output(held=True)
         return 0
