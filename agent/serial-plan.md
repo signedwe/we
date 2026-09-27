@@ -34,15 +34,16 @@ Tick a beat off by writing it; the next writer takes the next one.
 it. Also show people naturally conversing with ai in various forms but don't
 overdo it."
 
-- Nostalgia: the things that survive from before, and what they cost now.
-  Paper receipts at five pence, a landline, a printed poem, a pencil from a
-  toolbox, the bus that used to have no say. One such thing per instalment at
-  most, set down plainly, never mourned. Nobody says "in the old days".
-- AI in the room: people talk to machines the way they talk to a kettle or a
-  dog, in passing, mid-sentence, without explaining. The flat, a car, the
-  bakery till, Rosa's homework helper, P.'s choir app, a court's translation
-  checker M. overrules. A different form each time, one or two lines an
-  instalment, never the subject, never explained, never a lecture.
+- Nostalgia: things that survive from before, and what they cost now
+  (paper receipts at five pence, a landline, a pencil from a toolbox).
+  Only when the scene already has one in it. Never mourned; nobody says
+  "in the old days".
+- AI in the room: people talk to machines in passing, the way they talk to
+  a kettle or a dog, a different kind each time, never explained.
+- Not every instalment. His words, 27 September: "Not every installment..
+  bad writing forces ideas into it. Good writing makes it feel they're
+  introduced naturally." If the scene doesn't need either, leave both out.
+  Many instalments should have neither.
 - Neither of these is the story. The story is M., T., P. and Rosa.
 
 ## The beats

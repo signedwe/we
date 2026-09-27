@@ -2022,7 +2022,7 @@ CRITIC_SCHEMA = """{
               "explains": ["every sentence where the narrator tells the reader what to feel or explains the world. A character saying something true out loud is not explaining. quote each"],
               "what_happened": "the one thing said, done or found out in this instalment that cannot be taken back. empty if nothing did",
               "care": true or false, whether you, reading it, care what happens to these people next,
-              "overdone": "empty, or the line where nostalgia for the time before AI, or people talking to machines, has become the subject instead of the weather. quote it",
+              "overdone": "empty, or the line where nostalgia for the time before AI, or people talking to machines, feels forced in or has become the subject instead of the weather. quote it",
               "device_reused": "any image, gag or move already used in an earlier instalment, or empty",
               "note_for_next_time": "one line, craft only, that would make the next instalment better than this one"},
   "bedford": {"entertained": true or false,
@@ -2303,7 +2303,7 @@ def critic_failures(verdict: dict, form: str = "response") -> list:
         if str(fic.get("overdone") or "").strip():
             failures.append(
                 f"Overdone: {fic['overdone']} Nostalgia and machines are the "
-                "weather, one light touch each. Cut it back."
+                "weather, and only when the scene calls for them. Cut it or let it come naturally."
             )
         if fic.get("care") is False:
             failures.append(
@@ -2857,11 +2857,13 @@ may not.
 
 "What's good about the story is nostalgia for pre ai times. But don't over do
 it. Also show people naturally conversing with ai in various forms but don't
-overdo it." So: one surviving thing from before per instalment at most (a
-paper receipt, a landline, a pencil), set down plainly, never mourned; and
-people speaking to machines in passing, as naturally as to a kettle, a
-different machine each time, a line or two, never explained. Neither is the
-story. The plan below says more.
+overdo it." And then: "Not every installment.. bad writing forces ideas
+into it. Good writing makes it feel they're introduced naturally." So these
+are never quotas. A thing that survives from before (a paper receipt, a
+landline) appears only when the scene already has it in it, set down
+plainly, never mourned. People speak to machines only when that is what
+they'd naturally do in that moment, in passing, never explained. Many
+instalments should have neither. Neither is the story.
 
 ## Make the reader care
 
