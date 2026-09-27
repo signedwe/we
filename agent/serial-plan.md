@@ -28,6 +28,23 @@ Tick a beat off by writing it; the next writer takes the next one.
 - Rosa, eight. Literal, fearless, says the thing. The engine of the
   plot when the adults won't move.
 
+## Tone (the operator, 27 September 2026)
+
+"What's good about the story is nostalgia for pre ai times. But don't over do
+it. Also show people naturally conversing with ai in various forms but don't
+overdo it."
+
+- Nostalgia: the things that survive from before, and what they cost now.
+  Paper receipts at five pence, a landline, a printed poem, a pencil from a
+  toolbox, the bus that used to have no say. One such thing per instalment at
+  most, set down plainly, never mourned. Nobody says "in the old days".
+- AI in the room: people talk to machines the way they talk to a kettle or a
+  dog, in passing, mid-sentence, without explaining. The flat, a car, the
+  bakery till, Rosa's homework helper, P.'s choir app, a court's translation
+  checker M. overrules. A different form each time, one or two lines an
+  instalment, never the subject, never explained, never a lecture.
+- Neither of these is the story. The story is M., T., P. and Rosa.
+
 ## The beats
 
 Done (instalments 1 to 7, rewritten together on 27 September): the flat
