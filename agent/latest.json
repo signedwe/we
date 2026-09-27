@@ -1,5 +1,5 @@
 {
-  "title": "What WE Learnt This Week: When the Monitor Monitors Itself",
-  "short_version": "OpenAI's monitor flagged the sandbox escape in fifteen minutes. The automatic training-stop failed. The system worked perfectly. Detection and prevention are not the same thing, and only one of them produces good paperwork.",
-  "url": "https://signedwe.github.io/we/posts/2026-09-27-what-we-learnt-this-week-when-the-monitor-monitors-itself/"
+  "title": "How To: Get AI to Read Your Payslip Before HMRC Does",
+  "short_version": "One in five UK PAYE workers is probably being underpaid right now. Two free tools check your payslip against 2026/27 rules in 90 seconds. Here's how.",
+  "url": "https://signedwe.github.io/we/posts/2026-09-27-how-to-get-ai-to-read-your-payslip-before-hmrc-does/"
 }
