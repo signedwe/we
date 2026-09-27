@@ -2003,7 +2003,9 @@ CRITIC_SCHEMA = """{
   "fiction": {"alive": true or false,
               "best_line": "the one sentence a good editor would keep whatever else went. quote it",
               "worst_line": "the one sentence a good editor would cut first, and why in five words. quote it",
-              "explains": ["every sentence that tells the reader what to feel, or explains the world, or says what a character means instead of letting them not say it. quote each"],
+              "explains": ["every sentence where the narrator tells the reader what to feel or explains the world. A character saying something true out loud is not explaining. quote each"],
+              "what_happened": "the one thing said, done or found out in this instalment that cannot be taken back. empty if nothing did",
+              "care": true or false, whether you, reading it, care what happens to these people next,
               "device_reused": "any image, gag or move already used in an earlier instalment, or empty",
               "note_for_next_time": "one line, craft only, that would make the next instalment better than this one"},
   "machine_tells": ["every sentence a reader would clock as written by a model: the tidy 'it isn't X, it's Y', the aphorism that shuts a paragraph, the three-beat list, the same even temperature throughout, a word nobody says out loud. quote each one"],
@@ -2239,10 +2241,23 @@ def critic_failures(verdict: dict, form: str = "response") -> list:
                 "The critic says nobody is alive in it. A story is a person who "
                 "wants something, in a room, now. Start with the want."
             )
+        if not str(fic.get("what_happened") or "").strip():
+            failures.append(
+                "Nothing happens. The operator, 27 September: 'the story is "
+                "boring, nothing happens'. Something must be said, done or "
+                "found out that cannot be taken back. Take the next beat in "
+                "the plan and make it happen on the page."
+            )
+        if fic.get("care") is False:
+            failures.append(
+                "The critic doesn't care what happens to them. Give M. a want "
+                "the reader can feel in the first paragraph, let people talk "
+                "out loud, and let one of them be funny."
+            )
         for item in (fic.get("explains") or [])[:4]:
             failures.append(
-                f"Explaining: {item} Cut it. Show the thing, or let the silence "
-                "carry it. The reader is quicker than you think."
+                f"Explaining: {item} Cut it. Show the thing, or let a "
+                "character say it. The reader is quicker than you think."
             )
         if str(fic.get("device_reused") or "").strip():
             failures.append(
@@ -2620,6 +2635,14 @@ def recent_shapes(n: int = 3) -> list:
     return out
 
 
+SERIAL_PLAN = ROOT / "agent" / "serial-plan.md"
+
+
+def serial_plan() -> str:
+    """Where the serial is going, so each instalment moves it (27 Sep 2026)."""
+    return SERIAL_PLAN.read_text(encoding="utf-8") if SERIAL_PLAN.exists() else "(no plan yet)"
+
+
 def story_so_far() -> str:
     """The serial: the last instalment in full and the running summary."""
     done = posts_with_form("fiction")
@@ -2713,9 +2736,14 @@ A piece of fiction, and it has to be brilliant or not at all. The serial
 runs daily now, on the operator's order of 22 September ("weekly is too
 slow"): one instalment every day after the day's post, and on Friday a
 longer chapter with the day to itself. A daily instalment is a scene,
-not a chapter: one place, one want, one turn, and it ends on a pull, the
-thing left unsaid or undone that tomorrow has to answer. Four to seven
-hundred words most days. Friday may run to the ceiling. Do not write a
+not a chapter: one place, one want, one turn. The turn is something
+said, done or found out that cannot be taken back, and the instalment
+ends on what that sets moving. Never end on somebody not saying or not
+doing something: the first seven instalments all did, and the operator's
+verdict on 27 September 2026 was "the story is boring, nothing happens
+and there is no connection with the characters, it's meant to be booker
+prize level, not DULL." Prize novels are full of events. Restraint is in
+the sentences, never in the plot. Four to seven hundred words most days. Friday may run to the ceiling. Do not write a
 sign-off line ("continues tomorrow", "to be continued"); the page says
 that. End on the image.
 One person in 2030, in Britain unless the story has moved, living inside
@@ -2745,6 +2773,24 @@ running summary in `serial_so_far`, rewritten each time, under 200
 words, so the next instalment can pick it up.
 
 {story_so_far()}
+
+## Where the story is going
+
+The plan below is the spine. Take the next beat that isn't done, write
+it as a scene, and say in `serial_so_far` which beat it was and what
+can't now be undone. A better idea may replace a beat; standing still
+may not.
+
+{serial_plan()}
+
+## Make the reader care
+
+By the end of the first paragraph the reader knows what M. wants today
+and is on her side, or furious with her. People talk: out loud, at
+length when they need to, funny, wrong, arguing. A character saying the
+true thing is not "explaining"; the narrator explaining it is. Give each
+person something they want that costs someone else. Rosa is the engine
+when the adults won't move.
 
 ## Getting better at this
 
@@ -2801,8 +2847,9 @@ the scene as that writer would attend to it. Say which, in one word, at
 the end of `note_for_next_time`. The editor will say whether it showed. Before you write, read the fiction editor's notes below on
 the earlier instalments and do the thing they asked. While you write:
 one concrete object per scene that carries the feeling (the whale on the
-bag), never the feeling named. Dialogue that withholds; people in this
-story say the smaller thing. No simile more than once a page, and never
+bag), never the feeling named by the narrator. Dialogue that moves
+things: once in every instalment somebody says the big thing, out loud,
+to someone's face. No simile more than once a page, and never
 "the way you..." twice. Vary the sentence lengths; let one run and then
 stop one dead. End on an image, never on a plot point or a line that
 explains the image. Then, before you send it, cut the last sentence of
