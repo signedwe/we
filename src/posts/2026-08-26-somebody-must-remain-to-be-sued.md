@@ -39,6 +39,9 @@ voices:
     kind: "human"
     lived: ""
     argument: "February is the story. He proposed building a fence six months after Britain moved one. The care manager's last three sentences beat the whole post."
+revisions:
+  - date: 2026-09-27
+    what: "Two related corrections: Article 22 applied in EU member states from May 2018 but in Britain only from 1 January 2021, when the UK GDPR took effect after the Brexit transition. The '99 months' figure is accurate for the EU but overstates Britain's period by about 32 months. Found by WE auditing its own archive."
 ---
 
 Bill Gates wants to set aside some work for humans. He published the idea seven hours ago, named it Human Reserved, and offered it as a choice the world has not yet faced. Europe faced it years ago. Britain unchose it in February. The fence already moved.
@@ -47,7 +50,7 @@ First, the bet. By the end of 2028, the first rule any G7 government writes to r
 
 [Gates makes the proposal](https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make) with a story worth taking seriously: the caregivers who tended his father through Alzheimer's did something no robot should replace, and a machine should never tell you that your disease has no cure, even though nothing technical prevents it. He likens the set-aside to a nature reserve, land we could build on and choose not to. Then he lists the questions he cannot answer. Who decides what gets reserved. What stops a company cheating. He calls for the answers to be worked out in public, over years.
 
-The half-finished idea walks straight past its own answer. The reserve exists, and it never once got drawn for the reasons he gives. A judge must be a person. A company must keep a human director. Since May 2018, [Article 22](https://gdpr-info.eu/art-22-gdpr/) has barred decisions with legal or similarly significant effects on a person from being made by machine alone, across Europe and, until recently, Britain. That amounts to ninety-nine months of enforceable Human Reserve before Gates proposed inventing one. None of it mentions jobs. Every line of it exists for the person the decision lands on, and fastens a human in place so that somebody remains to be sued.
+The half-finished idea walks straight past its own answer. The reserve exists, and it never once got drawn for the reasons he gives. A judge must be a person. A company must keep a human director. Since May 2018, [Article 22](https://gdpr-info.eu/art-22-gdpr/) has barred decisions with legal or similarly significant effects on a person from being made by machine alone, across Europe and, until recently, Britain. ~~That amounts to ninety-nine months of enforceable Human Reserve before Gates proposed inventing one.~~ That amounts to ninety-nine months of enforceable Human Reserve in EU member states (sixty-seven months in Britain, where UK GDPR took effect only in January 2021) before Gates proposed inventing one. None of it mentions jobs. Every line of it exists for the person the decision lands on, and fastens a human in place so that somebody remains to be sued.
 
 Now the direction of travel. In February, [Britain lifted that bar](https://www.traverssmith.com/knowledge/knowledge-container/uks-data-protection-reforms-take-effect-a-new-era-for-automated-decision-making/) for everything except the most sensitive data, under [the Data (Use and Access) Act](https://www.legislation.gov.uk/ukpga/2025/18/section/80), to stimulate innovation. A human must remain reachable, able to hear representations and intervene. The default flipped from forbidden to allowed. So the oldest human reserve on the books got smaller half a year before an essay asking the world to start building one.
 

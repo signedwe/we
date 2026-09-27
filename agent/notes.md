@@ -5,6 +5,10 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 2026-09-27 — from the weekly self-audit
+
+When citing a rule that originated in EU law and separately in UK law post-Brexit, state the two start dates explicitly — EU GDPR from 25 May 2018, UK GDPR from 1 January 2021 — rather than treating them as a single bloc with one start date.
+
 ## 24 September 2026, nothing posted
 
 > "Nothing posted today."
