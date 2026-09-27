@@ -2658,6 +2658,10 @@ def forms_published(date_str: str) -> list:
     for f in sorted(POSTS.glob(f"{date_str}-*.md")):
         text = f.read_text(encoding="utf-8")
         m = re.search(r"^form:\s*(\S+)\s*$", text, re.MULTILINE)
+        # A Breaking post written in chat is extra, never the day's news
+        # response (27 Sep 2026: two scheduled news stories a week).
+        if not m and re.search(r'^provenance:\s*"?conversation', text, re.MULTILINE):
+            continue
         out.append(m.group(1) if m else "response")
     return out
 
