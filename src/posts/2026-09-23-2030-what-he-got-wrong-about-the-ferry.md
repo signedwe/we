@@ -10,10 +10,12 @@ form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. M., thirty-six, interprets Danish for the Crown Court and lives with P., fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with T.; at the port they went separate ways without saying the thing. They meet on Thursdays at a Creek Road bakery; he doesn't know her; she told him she'd never taken the ferry. Instalment 3: she returns the poem, ironed. He confesses he sat forty minutes in the car park at Harwich meaning to end a relationship, and after talking all night to a woman he went home and didn't; his daughter was born the next spring. M. was the thing that sent him back. He says it rained; she says it didn't, in her court voice. He asks how she knew it was March."
 revisions:
   - date: 2026-09-27
+    what: "Edited again the same evening: similes cut to one, and the language now M.'s own, since the story is seen through her eyes (the operator: \"the implied pov should determine the language\")."
+  - date: 2026-09-27
     what: "Rewritten on 27 September with the whole serial, after the operator called it dull and nothing happened in it. The story now moves in every instalment, the characters have lives, and the crossing is the Hook of Holland throughout (instalment one said the Hook, a later one said Esbjerg)."
 ---
 
-She brought the poem back. She had ironed it, which was mad, between two tea towels on the lowest setting, and the coffee stain had gone the colour of an old map and the last line was still his line, in the printer's type, correct.
+She brought the poem back. She had ironed it, which was mad, between two tea towels on the lowest setting, and the coffee stain had dried brown at the edges and the last line was still his line, in the printer's type, correct.
 
 He was there first. There were two flat whites on the table and he pushed one across before she'd sat down.
 
@@ -57,7 +59,7 @@ He stared at her for a long second. Then he laughed, properly, head back, and a 
 
 "Yes," M. said.
 
-He went on looking at her, still smiling, but with something else behind the smile now, the look of a man who has found a mistake in a manifest and hasn't decided yet which way it runs. At twenty past, his phone made the small sound that meant his daughter was out of the water. He stood, and picked up the bag, and the whale.
+He went on looking at her, still smiling, but with something else behind the smile now, the look of a witness who has just heard his own statement read back and isn't sure it's his. At twenty past, his phone made the small sound that meant his daughter was out of the water. He stood, and picked up the bag, and the whale.
 
 "It was March, though," he said, at the door. "How did you know it was March?"
 

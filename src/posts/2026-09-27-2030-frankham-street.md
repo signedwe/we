@@ -10,6 +10,8 @@ form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. M., thirty-six, interprets Danish for the Crown Court and lives with P., fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with T.; at the port they went separate ways without saying the thing. Thursdays at a Creek Road bakery with T., who claimed not to remember her; she lied she'd never taken the ferry, then admitted it; P. named the wrong crossing and invited T. and his daughter to supper on Saturday. Instalment 7: M. skips the bakery and goes to Frankham Street. T.'s daughter, Rosa, sees her: 'You're the boat lady.' His phone shows Rosa a photo of M. on the ferry every March and he never turned it off. He admits he forgot her in public on purpose. She tells him she sat at Harwich fifty-one Fridays watching the Hook boat leave; he went back twice that summer too; they missed each other by a week. She texts P. her first lie, 'Working late', and goes swimming with them. Next: Saturday supper."
 revisions:
   - date: 2026-09-27
+    what: "Edited again the same evening: similes cut to one, and the language now M.'s own, since the story is seen through her eyes (the operator: \"the implied pov should determine the language\")."
+  - date: 2026-09-27
     what: "Rewritten the same day. The first version printed its opening scene twice, and in the rest of it nothing happened: the operator called it dull, and it was. The serial now works from a plan in which every instalment moves the story, and the brief no longer lets an instalment end on somebody not saying something."
 ---
 
@@ -31,7 +33,7 @@ The fruit man went on stacking avocados in sevens.
 
 "She is, though." Rosa turned to M. and explained, slowly, for the grown-up. "Dad's phone shows you. Every March. You're on a boat and it's windy and your mouth's open because you're talking. It puts music on." She thought about it. "Sad music. Dad says it's the phone that does it, but you can tell it to stop, and he doesn't."
 
-She looked at T. He'd turned the grey of the satsumas' paper bag.
+She looked at T. He had gone grey.
 
 "Choose a satsuma," he said to Rosa. "One. From the lady's bag. And peel it over there."
 
@@ -57,7 +59,7 @@ He put his hands in his pockets and took them out again. "You had someone. I cou
 
 A bus came down the street and stopped beside them, though neither of them had asked it to, and waited with its doors open, and then, when nobody moved, closed them and went on.
 
-"For a year after," M. said, "I got the train to Harwich on Fridays. I didn't get on anything. I sat on the bench outside the terminal with a coffee and watched the Hook boat go out, and then I got the train back. Fifty-one Fridays. I missed one because of a wedding." She had never said this to anyone. It came out in order, like evidence. "I don't know what I thought would happen. I think I thought you'd be on it, coming back."
+"For a year after," M. said, "I got the train to Harwich on Fridays. I didn't get on anything. I sat on the bench outside the terminal with a coffee and watched the Hook boat go out, and then I got the train back. Fifty-one Fridays. I missed one because of a wedding." She had never said this to anyone. It came out in order, dates first. "I don't know what I thought would happen. I think I thought you'd be on it, coming back."
 
 T. didn't say anything for a moment. Then he laughed, not unkindly, at the pavement.
 

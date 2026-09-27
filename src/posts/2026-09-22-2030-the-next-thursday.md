@@ -7,6 +7,8 @@ description: "Instalment 2. M. goes in. He doesn't recognise her, forgets her to
 form: fiction
 revisions:
   - date: 2026-09-27
+    what: "Edited again the same evening: similes cut to one, and the language now M.'s own, since the story is seen through her eyes (the operator: \"the implied pov should determine the language\")."
+  - date: 2026-09-27
     what: "Rewritten on 27 September with the whole serial, after the operator called it dull and nothing happened in it. The story now moves in every instalment, the characters have lives, and the crossing is the Hook of Holland throughout (instalment one said the Hook, a later one said Esbjerg)."
   - date: 2026-09-22
     what: "A hyperlink and a sources list were removed the day it went up. A story cites nothing; the writer now cannot search on fiction days and a link in a story fails the check. Not a word of the story changed."
