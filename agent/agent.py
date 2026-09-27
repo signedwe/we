@@ -2010,8 +2010,8 @@ CRITIC_SCHEMA = """{
               "note_for_next_time": "one line, craft only, that would make the next instalment better than this one"},
   "bedford": {"entertained": true or false,
               "style": true or false,
-              "verdict": "imaginary Sybille Bedford's reading, 40 to 80 words, third person ('Imaginary Bedford would...'), on whether it entertained and how the style held; printed on the page. empty on non-fiction days",
-              "fix": "the one change she would make first. empty if none"},
+              "verdict": "her reading, 40 to 80 words, on whether it entertained and how the style held. For the writer only, never printed. empty on non-fiction days",
+              "fix": "the changes she would make, most important first, each quoting the line it touches. empty if none"},
   "machine_tells": ["every sentence a reader would clock as written by a model: the tidy 'it isn't X, it's Y', the aphorism that shuts a paragraph, the three-beat list, the same even temperature throughout, a word nobody says out loud. quote each one"],
   "flat_open": true or false,
   "flat_open_because": "the first sentence, and why nobody would argue with it. empty if it lands",
@@ -2128,10 +2128,9 @@ anything happen, did anyone make her laugh or wince? Then style: is the
 world set down exactly, what people eat, wear and pay, with no comment;
 are the sentences poised; is there one line she would have been glad
 to write? She is worldly, amused, exacting, never cruel and never
-gushing. Fill the bedford field. Her verdict is printed under the
-instalment, so write it as she would speak it, in your own words and
-never as a quotation, and never in the first person pretending to be
-her.
+gushing. Fill the bedford field. Her reading is never printed: it goes
+back to the writer as notes, and the instalment is rewritten until she
+is entertained and the style holds.
 
 Then read it as somebody who has read a great deal of machine-written prose and is sick of it. Quote every sentence that gives the machine away: the tidy contrast (it isn't X, it's Y), the neat aphorism that shuts a paragraph, the list of three, the rhetorical question that sets up its own answer, the word no person says out loud. One of these can pass. A page built from them cannot, and the reader will stop trusting the site.
 
@@ -2272,6 +2271,12 @@ def critic_failures(verdict: dict, form: str = "response") -> list:
                 "instalment for entertainment: make something happen she'd turn "
                 "the page for."
             )
+        if bed.get("entertained") is not False and bed.get("style") is not False \
+                and str(bed.get("fix") or "").strip() and FORM == "fiction":
+            failures.append(
+                "Imaginary Sybille Bedford read it and would still change this "
+                f"before it goes out: {bed['fix']} Make her changes."
+            )
         if bed.get("style") is False:
             failures.append(
                 "Imaginary Sybille Bedford found the style wanting. "
@@ -2392,6 +2397,11 @@ def record_fiction_notes(verdict: dict, title: str, date: str, kept: int = 30) -
         lines.append(f"- Reused: {fic['device_reused']}")
     if fic.get("note_for_next_time"):
         lines.append(f"- Next time: {fic['note_for_next_time']}")
+    bed = verdict.get("bedford") if isinstance(verdict.get("bedford"), dict) else {}
+    if str(bed.get("verdict") or "").strip():
+        lines.append(f"- Imaginary Bedford's reading: {bed['verdict']}")
+    if str(bed.get("fix") or "").strip():
+        lines.append(f"- Bedford would change: {bed['fix']}")
     entry = "\n".join(lines) + "\n"
     header = ("# The fiction editor's notes\n\nWritten after each instalment of the "
               "2030 serial by a reader that did not write it. The next instalment's writer reads "
@@ -3642,17 +3652,6 @@ def main() -> int:
     # The reader's verdict goes on the page, written by the critic rather
     # than by the writer. Whatever survived two rewrites gets published with
     # the objection still attached.
-    # 27 September 2026: every 2030 instalment is read by imaginary Sybille
-    # Bedford for entertainment and style, and her reading goes on the page.
-    bed = verdict.get("bedford") if isinstance(verdict.get("bedford"), dict) else {}
-    if FORM == "fiction" and str(bed.get("verdict") or "").strip():
-        voices = clean_voices(
-            [dict(v) for v in voices]
-            + [{"thinker": "Sybille Bedford", "kind": "bench", "lived": "1911 to 2006",
-                "argument": "These are imaginary arguments. Bedford, dead since 2006, "
-                            "said none of this. An AI wrote it, reading as she might "
-                            "have read.\n\n" + str(bed["verdict"]).strip()}]
-        )
     if verdict.get("human_verdict"):
         voices = clean_voices(
             [dict(v) for v in voices]

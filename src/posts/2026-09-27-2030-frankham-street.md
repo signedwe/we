@@ -8,13 +8,6 @@ search_title: "2030 serial fiction instalment 7 Frankham Street"
 form: fiction
 form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. M., thirty-six, an interpreter, lives with P., who is kind. Eleven years ago on the Harwich night ferry she talked all night with T.; at the port they went separate ways without saying the thing. Now T. comes to a bakery on Creek Road on Thursdays with his daughter's whale swimming bag; he lives on Frankham Street. When they met again he claimed not to remember her name. P. walked in on them and named the wrong crossing; M. let it stand. Instalment 7: M. skips the bakery and goes to Frankham Street. T.'s daughter, Rosa, eight, sees her and says: you're the boat lady. T.'s phone has shown Rosa a photo of M. on the ferry every March, and he never turned it off. T. admits he lied about forgetting. M. tells him that for a year afterwards she sat at Harwich on Fridays and watched the boat leave. Then she texts P. her first lie, 'Working late', and goes with them to the swimming pool. What can't be undone: the truth is said out loud between M. and T., and M. has lied to P."
-voices:
-  - thinker: "Sybille Bedford"
-    kind: "bench"
-    lived: "1911 to 2006"
-    quote: ""
-    quote_url: ""
-    argument: "These are imaginary arguments. Bedford, dead since 2006, said none of this. An AI wrote it, reading as she might have read.\n\nImaginary Bedford would be glad something finally happened, and gladder that a child made it happen. She'd keep the fruit man and his sevens, and the satsumas bought out of respect: money and manners in one line. She'd cut the parcel simile; his face was doing enough. And she'd want more of the table. Nine years with P. and we still don't know what they eat on a Tuesday. The fish thing is a start."
 revisions:
   - date: 2026-09-27
     what: "Rewritten the same day. The first version printed its opening scene twice, and in the rest of it nothing happened: the operator called it dull, and it was. The serial now works from a plan in which every instalment moves the story, and the brief no longer lets an instalment end on somebody not saying something."
@@ -38,7 +31,7 @@ The fruit man went on stacking avocados in sevens.
 
 "She is, though." Rosa turned to M. with the terrible patience of an eight-year-old explaining something to an adult who ought to know it already. "Dad's phone shows you. Every March. You're on a boat and it's windy and your mouth's open because you're talking. It puts music on." She thought about it. "Sad music. Dad says it's the phone that does it, but you can tell it to stop, and he doesn't."
 
-She looked at T. He had the face of a man who has been handed a parcel in the street and told, in front of witnesses, that it is his.
+She looked at T. He had gone the colour of the satsumas' paper bag.
 
 "Choose a satsuma," he said to Rosa. "One. From the lady's bag. And peel it over there."
 
@@ -74,6 +67,6 @@ Rosa came back with orange on her fingers and the peel in one long curl, which s
 
 T. did not say no.
 
-M. took out her phone. There was a message from P., from ten minutes before: *Pasta or the fish thing?* She looked at it for a long time, long enough for the phone to dim and brighten again, and then she typed *Working late. You choose x* and sent it, and in nine years it was the first thing she had ever sent him that wasn't true.
+M. took out her phone. There was a message from P., from ten minutes before: *Pasta or the fish thing?* The fish thing was hake with butter beans and too much lemon, which he made on Thursdays because she had once, eight years ago, said she liked it, and she had never had the heart to say that once had been enough. She looked at it for a long time, long enough for the phone to dim and brighten again, and then she typed *Working late. You choose x* and sent it, and in nine years it was the first thing she had ever sent him that wasn't true.
 
 The leisure centre on Giffin Street had a viewing gallery behind glass, a row of plastic seats bolted to a rail, the air thick and warm and smelling of chlorine and chips. T. and M. sat side by side above the pool with the satsumas between them. Below, Rosa stood at the edge in her goggles and found them in the glass, and waved, and then, not sure which of them it was for, waved again with both hands.

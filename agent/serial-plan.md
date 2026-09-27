@@ -35,7 +35,8 @@ Tick a beat off by writing it; the next writer takes the next one.
    lady"). T. admits he kept it. M. tells him she sat at Harwich for a
    year of Fridays. M. tells P. her first lie and goes swimming with
    them.
-2. P. knows. He doesn't ask where she was. He asks something smaller
+2. Their table: what M. and P. eat, what it costs, who cooks (the hake
+   on Thursdays). P. knows. He doesn't ask where she was. He asks something smaller
    and exactly right, and she tells him half the truth. Something in
    the flat has changed and both see it.
 3. Court. M. interprets for a Danish man in a custody hearing (no real
