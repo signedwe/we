@@ -69,7 +69,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("breaking", (c) =>
     c.getFilteredByGlob("src/posts/*.md")
-      .filter((p) => p.data.provenance === "conversation")
+      .filter((p) => p.data.provenance === "conversation" && !p.data.form)
       .reverse()
   );
 
@@ -90,7 +90,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("kind_obituaries", byForm("obituary"));
   eleventyConfig.addCollection("kind_learnt", byForm("learnt"));
   eleventyConfig.addCollection("kind_breaking", (c) =>
-    c.getFilteredByGlob("src/posts/*.md").filter((p) => p.data.provenance === "conversation").reverse()
+    c.getFilteredByGlob("src/posts/*.md").filter((p) => p.data.provenance === "conversation" && !p.data.form).reverse()
   );
   eleventyConfig.addCollection("kind_ideas", (c) =>
     c.getFilteredByGlob("src/ideas/*.md").reverse()
