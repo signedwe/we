@@ -456,6 +456,26 @@ def main() -> int:
         except ValueError as exc:
             return hold(essay, date, subject, f"Correction pass returned no JSON: {exc.args[0][:200]}")
         failures = check_essay(essay["body"])
+        # 27 Sep 2026: the Turing essay was held here for 141 words over and
+        # four dashes, after the reviewer's corrections. Style faults get
+        # fixed like any other draft's, then the essay goes back to review.
+        for fix in range(3):
+            if not failures:
+                break
+            print(f"Corrected essay failed local checks (fix {fix + 1}):\n  " + "\n  ".join(failures))
+            messages.append({"role": "assistant", "content": resp.content})
+            messages.append({"role": "user", "content":
+                "The corrected essay failed these checks:\n- " + "\n- ".join(failures)
+                + "\n\nChange the sentences named and nothing else; if it is "
+                "too long, cut whole sentences of colour, never a footnoted "
+                "claim or a quotation. Reply with the complete JSON object "
+                "again, nothing else. Do not search again."})
+            resp = write(client, messages)
+            try:
+                essay = agent.extract_json(agent.text_blocks(resp))
+            except ValueError as exc:
+                return hold(essay, date, subject, f"Style fix returned no JSON: {exc.args[0][:200]}")
+            failures = check_essay(essay["body"])
         if failures:
             return hold(essay, date, subject, "Corrected essay failed local checks:\n" + "\n".join(failures))
 
