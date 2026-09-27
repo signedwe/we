@@ -44,6 +44,10 @@ overdo it."
   bad writing forces ideas into it. Good writing makes it feel they're
   introduced naturally." If the scene doesn't need either, leave both out.
   Many instalments should have neither.
+- Detail in the character's own words (27 September: "things should be
+  talked about in the language of the person who sees them"): sucuk, not
+  "the good sausage from the Turkish shop". Exact where they'd be exact,
+  vague where they'd be vague.
 - Neither of these is the story. The story is M., T., P. and Rosa.
 
 ## The beats

@@ -2865,6 +2865,17 @@ plainly, never mourned. People speak to machines only when that is what
 they'd naturally do in that moment, in passing, never explained. Many
 instalments should have neither. Neither is the story.
 
+## Name things the way the person seeing them would
+
+The operator, 27 September 2026, on "the good sausage from the Turkish
+shop": "be accurate with detail.. but not over so.. things should be talked
+about in the language of the person who sees them." P. shops there every
+week, so it's sucuk, not "the good sausage". A court interpreter knows the
+word for the thing; a child calls it what children call it. Be exact where
+the character would be exact and vague where they'd be vague. No catalogue
+of detail the character wouldn't notice, and no coy paraphrase of a thing
+they'd simply name.
+
 ## Make the reader care
 
 By the end of the first paragraph the reader knows what M. wants today
