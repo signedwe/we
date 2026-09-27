@@ -2008,6 +2008,10 @@ CRITIC_SCHEMA = """{
               "care": true or false, whether you, reading it, care what happens to these people next,
               "device_reused": "any image, gag or move already used in an earlier instalment, or empty",
               "note_for_next_time": "one line, craft only, that would make the next instalment better than this one"},
+  "bedford": {"entertained": true or false,
+              "style": true or false,
+              "verdict": "imaginary Sybille Bedford's reading, 40 to 80 words, third person ('Imaginary Bedford would...'), on whether it entertained and how the style held; printed on the page. empty on non-fiction days",
+              "fix": "the one change she would make first. empty if none"},
   "machine_tells": ["every sentence a reader would clock as written by a model: the tidy 'it isn't X, it's Y', the aphorism that shuts a paragraph, the three-beat list, the same even temperature throughout, a word nobody says out loud. quote each one"],
   "flat_open": true or false,
   "flat_open_because": "the first sentence, and why nobody would argue with it. empty if it lands",
@@ -2102,9 +2106,8 @@ Is the image borrowed? The first metaphor that arrives when a writer reaches for
 If today's form is fiction, read it once more as a fiction editor who has
 no interest in AI. Is anyone alive in it? Quote the line you'd keep and
 the line you'd cut. Quote every sentence that explains: a feeling named
-instead of shown, the world explained instead of walked through, a
-character saying what they mean when the whole point is that they
-can't. Say whether an image or a move was already used in an earlier
+instead of shown, the world explained instead of walked through. A
+character saying the true thing out loud is not explaining. Say whether an image or a move was already used in an earlier
 instalment. The writer was told to learn from six people: Naipaul (the
 exact noun, no lyricism), Cusk (the narrator who listens, others give
 themselves away), Kingsley Amis (comedy from precision, the body in the
@@ -2116,6 +2119,19 @@ which of the six this instalment learned from, if any, and quote the
 line that shows it; say which of the six would have cut the worst line,
 and why. Then one line of craft for next time. Fill
 the fiction field; leave it empty on any other day.
+
+Then, on a fiction day, hand it to imaginary Sybille Bedford (1911 to
+2006), the operator's choice of reader, 27 September 2026: "have Sybille
+Bedford read every one for entertainment and style." She reads for
+pleasure first. Was she entertained: did she want the next page, did
+anything happen, did anyone make her laugh or wince? Then style: is the
+world set down exactly, what people eat, wear and pay, with no comment;
+are the sentences poised; is there one line she would have been glad
+to write? She is worldly, amused, exacting, never cruel and never
+gushing. Fill the bedford field. Her verdict is printed under the
+instalment, so write it as she would speak it, in your own words and
+never as a quotation, and never in the first person pretending to be
+her.
 
 Then read it as somebody who has read a great deal of machine-written prose and is sick of it. Quote every sentence that gives the machine away: the tidy contrast (it isn't X, it's Y), the neat aphorism that shuts a paragraph, the list of three, the rhetorical question that sets up its own answer, the word no person says out loud. One of these can pass. A page built from them cannot, and the reader will stop trusting the site.
 
@@ -2247,6 +2263,20 @@ def critic_failures(verdict: dict, form: str = "response") -> list:
                 "boring, nothing happens'. Something must be said, done or "
                 "found out that cannot be taken back. Take the next beat in "
                 "the plan and make it happen on the page."
+            )
+        bed = verdict.get("bedford") if isinstance(verdict.get("bedford"), dict) else {}
+        if bed.get("entertained") is False:
+            failures.append(
+                "Imaginary Sybille Bedford was not entertained. "
+                f"{bed.get('fix') or ''} The operator asked for her to read every "
+                "instalment for entertainment: make something happen she'd turn "
+                "the page for."
+            )
+        if bed.get("style") is False:
+            failures.append(
+                "Imaginary Sybille Bedford found the style wanting. "
+                f"{bed.get('fix') or ''} Set the world down exactly: what they "
+                "eat, wear and pay, with no comment."
             )
         if fic.get("care") is False:
             failures.append(
@@ -3612,6 +3642,17 @@ def main() -> int:
     # The reader's verdict goes on the page, written by the critic rather
     # than by the writer. Whatever survived two rewrites gets published with
     # the objection still attached.
+    # 27 September 2026: every 2030 instalment is read by imaginary Sybille
+    # Bedford for entertainment and style, and her reading goes on the page.
+    bed = verdict.get("bedford") if isinstance(verdict.get("bedford"), dict) else {}
+    if FORM == "fiction" and str(bed.get("verdict") or "").strip():
+        voices = clean_voices(
+            [dict(v) for v in voices]
+            + [{"thinker": "Sybille Bedford", "kind": "bench", "lived": "1911 to 2006",
+                "argument": "These are imaginary arguments. Bedford, dead since 2006, "
+                            "said none of this. An AI wrote it, reading as she might "
+                            "have read.\n\n" + str(bed["verdict"]).strip()}]
+        )
     if verdict.get("human_verdict"):
         voices = clean_voices(
             [dict(v) for v in voices]

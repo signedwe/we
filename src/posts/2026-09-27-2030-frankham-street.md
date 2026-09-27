@@ -8,6 +8,13 @@ search_title: "2030 serial fiction instalment 7 Frankham Street"
 form: fiction
 form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. M., thirty-six, an interpreter, lives with P., who is kind. Eleven years ago on the Harwich night ferry she talked all night with T.; at the port they went separate ways without saying the thing. Now T. comes to a bakery on Creek Road on Thursdays with his daughter's whale swimming bag; he lives on Frankham Street. When they met again he claimed not to remember her name. P. walked in on them and named the wrong crossing; M. let it stand. Instalment 7: M. skips the bakery and goes to Frankham Street. T.'s daughter, Rosa, eight, sees her and says: you're the boat lady. T.'s phone has shown Rosa a photo of M. on the ferry every March, and he never turned it off. T. admits he lied about forgetting. M. tells him that for a year afterwards she sat at Harwich on Fridays and watched the boat leave. Then she texts P. her first lie, 'Working late', and goes with them to the swimming pool. What can't be undone: the truth is said out loud between M. and T., and M. has lied to P."
+voices:
+  - thinker: "Sybille Bedford"
+    kind: "bench"
+    lived: "1911 to 2006"
+    quote: ""
+    quote_url: ""
+    argument: "These are imaginary arguments. Bedford, dead since 2006, said none of this. An AI wrote it, reading as she might have read.\n\nImaginary Bedford would be glad something finally happened, and gladder that a child made it happen. She'd keep the fruit man and his sevens, and the satsumas bought out of respect: money and manners in one line. She'd cut the parcel simile; his face was doing enough. And she'd want more of the table. Nine years with P. and we still don't know what they eat on a Tuesday. The fish thing is a start."
 revisions:
   - date: 2026-09-27
     what: "Rewritten the same day. The first version printed its opening scene twice, and in the rest of it nothing happened: the operator called it dull, and it was. The serial now works from a plan in which every instalment moves the story, and the brief no longer lets an instalment end on somebody not saying something."
