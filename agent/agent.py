@@ -2867,14 +2867,15 @@ instalments should have neither. Neither is the story.
 
 ## Name things the way the person seeing them would
 
-The operator, 27 September 2026, on "the good sausage from the Turkish
-shop": "be accurate with detail.. but not over so.. things should be talked
-about in the language of the person who sees them." P. shops there every
-week, so it's sucuk, not "the good sausage". A court interpreter knows the
-word for the thing; a child calls it what children call it. Be exact where
-the character would be exact and vague where they'd be vague. No catalogue
-of detail the character wouldn't notice, and no coy paraphrase of a thing
-they'd simply name.
+The operator, 27 September 2026: "be accurate with detail.. but not over
+so.. things should be talked about in the language of the person who sees
+them." And: "if the person calls it sausage then call it that. But if they
+call it spicy turkish sausage then that. Or sucuk if they see it like that."
+So the word is never the most exact one available; it is the one in the
+head of whoever is looking. The same thing can be "sausage" to one person,
+"spicy Turkish sausage" to another and "sucuk" to a third, and the page
+follows whoever's eyes we are behind. No detail the character wouldn't
+notice, and no fancier word than they'd use.
 
 ## Make the reader care
 
