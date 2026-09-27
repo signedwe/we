@@ -2546,6 +2546,37 @@ def form_for(date_str: str) -> str:
     return forms_for(date_str)[0]
 
 
+# 27 September 2026, the operator: "the HOW TOS are still all dull stuff,
+# write a fun one and make them 2/3 of the time". The first seven were all
+# fees and forms, because the brief asked for "about half" and then spent
+# every other line on fees and forms. So the code decides, not the writer:
+# two days in three the how-to is for fun, the third day it beats a fee, a
+# queue or a form. And a fun day that comes back as admin fails.
+def how_to_kind(date_str: str) -> str:
+    y, m, d = (int(x) for x in date_str.split("-"))
+    return "useful" if datetime(y, m, d).toordinal() % 3 == 0 else "fun"
+
+
+ADMIN_WORDS = re.compile(
+    r"\b(fees?|fines?|penalt\w*|appeal\w*|hmrc|tax\w*|payslips?|banks?|credit|lenders?|"
+    r"landlords?|letting agents?|councils?|planning|benefits?|claims?|refunds?|"
+    r"complain\w*|ombudsman|sick pay|employers?|contracts?|debts?|insur\w*|fraud|"
+    r"parking|mortgages?|bills?|compensation|dispute\w*|objection\w*)\b", re.I)
+
+
+def check_how_to_kind(title: str, body: str, kind: str) -> list:
+    """On a fun day, the title and the opening must not be about admin."""
+    if kind != "fun":
+        return []
+    opening = "\n\n".join([p for p in body.split("\n\n") if p.strip()][:2])
+    hits = sorted({h.lower() for h in ADMIN_WORDS.findall(f"{title}\n{opening}")})
+    if hits:
+        return [f"Today's how-to is a fun one, and this reads like admin ({', '.join(hits)} "
+                "in the title or opening). Pick something people would do for pleasure "
+                "and send to a friend: no fees, forms, fines, banks, bosses or councils."]
+    return []
+
+
 def forms_published(date_str: str) -> list:
     """The forms already on disk for a date. A post with no form key is a response."""
     out = []
@@ -2835,9 +2866,33 @@ one.
         done_how_to = "\n".join(
             "- " + (re.search(r'^title:\s*"?(.+?)"?\s*$', f.read_text(encoding="utf-8"), re.MULTILINE) or [None, f.stem])[1]
             for f in posts_with_form("how_to")[-40:]) or "(none yet)"
+        kind = how_to_kind(TODAY)
+        if kind == "fun":
+            kind_text = """
+## Today is a FUN how-to
+
+Two days in three the how-to is for fun (the operator, 27 September
+2026: "the HOW TOS are still all dull stuff ... make them 2/3 of the
+time"). Today is one. Nothing about fees, fines, forms, banks, bosses,
+councils, tax or complaints; the check fails a fun day that drifts into
+admin. Something a person would do on a Sunday afternoon because it is a
+delight, and then send to their sister: bring back a place, a person, a
+game, a smell, a party, a joke, a memory, a skill for one evening. The
+test: would someone do this even if it saved them nothing? Then it
+qualifies. The villain can still be the old way (a professional who
+charged for it, a thing only the rich had), but the reward is pleasure,
+not money back.
+"""
+        else:
+            kind_text = """
+## Today is a USEFUL how-to
+
+One day in three the how-to beats a fee, a queue or a form. Make it the
+form nobody knows exists, not the obvious one, and still fun to read.
+"""
         return common + f"""
 ## Today's form: how to
-
+{kind_text}
 Every day, after the day's form (the operator, 23 September 2026: "make
 the how to daily"). Title it the way somebody would type it into a
 search box: "How to appeal a parking ticket with AI in under an hour".
@@ -2848,8 +2903,7 @@ interesting"). People should want to send it to a friend.
 - Open on a person and a moment, never "In this guide". The fee, the queue
   or the form is the villain; the reader is about to beat it.
 - Say up top what they'll have at the end, in one line.
-- Mix the picks. About half: beating a fee, a queue or a form. The rest:
-  things that are just a pleasure or a surprise. For example, turn a photo
+- Fun days, for example: turn a photo
   of your nan's handwritten recipe cards into a family cookbook; find what
   your street looked like in 1900 from old maps; write a bedtime story
   starring your child's actual toys; plan a pub quiz about your own friends;
@@ -2864,7 +2918,7 @@ interesting"). People should want to send it to a friend.
 - Nothing involving eating wild plants, mushrooms, medicine, money
   decisions or anything a mistake could make dangerous.
 
-One thing a reader can do with an AI tool today
+On a useful day: one thing a reader can do with an AI tool today
 that most people don't know is possible, and that used to need
 a professional, an office or a queue: appeal the parking fine, find the
 clause in your own lease, export your whole history from one assistant
@@ -2880,6 +2934,8 @@ something else (a repeat is a failure):
 
 Go further afield each time: the form nobody knows exists, the right
 nobody exercises, the document nobody reads, the price nobody checks.
+On a fun day: the hobby nobody thought a machine could help with, the
+family thing nobody had time for, the party trick.
 
 Exact steps, in order, each one linked to the tool's own documentation
 or to an account from somebody who did it. What it costs. How long it
@@ -3304,6 +3360,8 @@ def front_matter(title: str, now: datetime, sources: list, voices: list,
     if form and form != "response":
         lines.append(f"form: {form}")
         lines.append(f"form_label: {yaml_str(FORM_LABEL.get(form, form))}")
+    if form == "how_to":
+        lines.append(f"how_to_kind: {how_to_kind(now.strftime('%Y-%m-%d'))}")
     if shape:
         lines.append(f"shape: {yaml_str(shape)}")
     if serial_so_far:
@@ -3458,6 +3516,8 @@ def main() -> int:
             elif shape in recent_shapes():
                 failures.append(f'The shape "{shape}" was used in one of the last '
                                 "three response posts. Pick another.")
+        if FORM == "how_to":
+            failures += check_how_to_kind(str(post.get("title") or ""), post["body"], how_to_kind(TODAY))
         if FORM == "technical":
             urls = {s["url"] for s in clean_sources(post.get("sources"))}
             if len(urls) < TECHNICAL_MIN_SOURCES:
