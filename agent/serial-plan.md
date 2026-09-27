@@ -12,11 +12,10 @@ Tick a beat off by writing it; the next writer takes the next one.
 
 ## Who they are (keep this true)
 
-- M., thirty-six. Danish and English interpreter, one of the last ones
+- M., thirty-six. Danish and English interpreter for the Crown Court, one of the last ones
   courts still book in person, for the hearings where the law says a
-  human must be there. The crossing, by the latest instalments, was
-  Harwich to Esbjerg (instalment one said the Hook; P. says the Hook and
-  is wrong, so leave it that way). Funny in her
+  human must be there. The crossing was Harwich to the Hook of Holland, a March night
+  eleven years ago (P. thinks it was Esbjerg; he's wrong). Funny in her
   head, careful out loud, good at other people's sentences and bad at
   her own. Wants: to have chosen something once, instead of being
   carried.
@@ -31,30 +30,35 @@ Tick a beat off by writing it; the next writer takes the next one.
 
 ## The beats
 
-1. Done (7, Frankham Street): Rosa outs the photo ("you're the boat
-   lady"). T. admits he kept it. M. tells him she sat at Harwich for a
-   year of Fridays. M. tells P. her first lie and goes swimming with
-   them.
-2. Their table: what M. and P. eat, what it costs, who cooks (the hake
-   on Thursdays). P. knows. He doesn't ask where she was. He asks something smaller
-   and exactly right, and she tells him half the truth. Something in
-   the flat has changed and both see it.
-3. Court. M. interprets for a Danish man in a custody hearing (no real
-   case, no real people). His lines about his child go through her
-   mouth. She gets one word wrong on purpose, or nearly does.
-4. T. and M. alone for the first time since the ferry: a whole
-   afternoon, Greenwich foot tunnel, the river. They talk properly,
-   finally, and it's funny, and they kiss or they very nearly do, and
-   either way it happened.
-5. K., Rosa's mother, meets M. and is nothing like M. imagined.
-6. P. finds the thing that tells him (not a machine report: a
-   satsuma peel, a swimming-pool wristband, something human). He does
-   something generous that is worse than anger.
-7. M. makes a choice out loud, to someone's face.
-8. The cost of it lands on Rosa, who says the true thing nobody else
-   will.
-9. The story turns towards its end: meant to be and aren't. Nobody
-   dies, nothing is a twist; the ending is earned by everything above.
+Done (instalments 1 to 7, rewritten together on 27 September): the flat
+steers her bus and she switches it off; they meet and he forgets her to
+her face; she lies that she never took the ferry; she corrects his
+memory of the rain; he gives her his landline on a five-pence paper
+receipt, which she hides in her purse; the loyalty screen and P.'s
+arrival force the truth; P. names the wrong crossing and invites T. and
+his daughter to supper on Saturday; on Frankham Street Rosa calls her
+"the boat lady", T. admits the photo, they learn they missed each other
+at Harwich by a week, and M. sends P. her first lie.
+
+Next, in order:
+
+1. Saturday supper. P. cooks the hake. Rosa, T., M., P. at one table,
+   every dish and bottle exact. Rosa does the poem with actions and says
+   the last line properly. Someone says something at the table that
+   can't be unsaid. P. sees everything and serves pudding.
+2. Court. M. interprets for a Danish father in a custody hearing (no
+   real case, no real people). His sentences about his child go through
+   her mouth.
+3. T. and M. alone for a whole afternoon: the Greenwich foot tunnel, the
+   river. They talk properly, it's funny, and they kiss or very nearly
+   do, and either way it happened.
+4. K., Rosa's mother, meets M. and is nothing like M. imagined.
+5. P. finds the receipt in her purse. Not a machine report: paper, the
+   one private thing. He does something generous that is worse than
+   anger.
+6. M. makes a choice out loud, to someone's face.
+7. The cost lands on Rosa, who says the true thing nobody else will.
+8. The ending: meant to be and aren't. Earned, not a twist.
 
 ## Rules this plan adds to the brief
 

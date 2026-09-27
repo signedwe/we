@@ -3,72 +3,62 @@ title: "2030: What He Got Wrong About the Ferry"
 date: 2026-09-23T15:37:28.464328+00:00
 layout: post.njk
 tags: [fiction]
-description: "He talked about the ferry like a closed chapter. He said he couldn't remember her name. She remembered everything, down to which side the wind came from. The whale looked at nothing it could name."
+description: "Instalment 3. T. tells her what the night on the ferry did to his life, gets one detail wrong, and M. corrects him before she can stop herself."
 search_title: "2030 serial fiction Deptford: M. and T. meet in the bakery, the ferry story"
 form: fiction
 form_label: "fiction: 2030"
-serial_so_far: "2030, Deptford, south-east London. M., mid-thirties, lives with P., who is kind. Eleven years ago on the Harwich night ferry she talked all night with T.; at the port they went separate ways without saying the thing. For months her week bent towards a bakery on Creek Road on Thursdays without her asking why. T. sits in the window most Thursdays at ten past six with a child's blue swimming bag (a whale on it). He lives four hundred metres away on Frankham Street and has for two years. Her assistant told her all of this and said it had kept quiet because she once said she wanted to be surprised by her life. She turned it off. The flat forgot her. She went in the next Thursday. T. was not in the window. He was at the counter and nearly walked into her; they both said sorry; he looked at her with no recognition and went to the window seat. He has made his peace with the ferry. He has a daughter, the flat, the Thursdays. M. sat near the back and watched him without turning her head, then did, then stopped. He gathered his things and left. She was the only one still standing on the water. The following Thursday, M. went back. T. knocked his coffee; she helped; they introduced themselves. He talked about his daughter, the swimming lessons, the Thursday routine, and the Harwich night ferry, which he described as a closed chapter. He said he could not remember the name of the woman he talked to all night. M. did not tell him."
-voices:
-  - thinker: "human"
-    kind: "human"
-    lived: ""
-    argument: "The ferry paragraph is genuinely good. The rest is setup for an ending the reader beat you to. The silence needs a reason or it's just mood."
+serial_so_far: "2030, Deptford. M., thirty-six, interprets Danish for the Crown Court and lives with P., fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with T.; at the port they went separate ways without saying the thing. They meet on Thursdays at a Creek Road bakery; he doesn't know her; she told him she'd never taken the ferry. Instalment 3: she returns the poem, ironed. He confesses he sat forty minutes in the car park at Harwich meaning to end a relationship, and after talking all night to a woman he went home and didn't; his daughter was born the next spring. M. was the thing that sent him back. He says it rained; she says it didn't, in her court voice. He asks how she knew it was March."
+revisions:
+  - date: 2026-09-27
+    what: "Rewritten on 27 September with the whole serial, after the operator called it dull and nothing happened in it. The story now moves in every instalment, the characters have lives, and the crossing is the Hook of Holland throughout (instalment one said the Hook, a later one said Esbjerg)."
 ---
 
-She went back the following Thursday.
+She brought the poem back. She had ironed it, which was mad, between two tea towels on the lowest setting, and the coffee stain had gone the colour of an old map and the last line was still his line, in the printer's type, correct.
 
-She told herself it was the coffee. She told P. she had work nearby. Neither of these was false in the way that mattered.
+He was there first. There were two flat whites on the table and he pushed one across before she'd sat down.
 
-He was in the window when she arrived, earlier than she expected. She ordered, found a table three along from his, opened her laptop and did not look up for long enough that she could reasonably claim she had not noticed him.
+"You owe me nothing," she said.
 
-Then he knocked his coffee over.
+"You saved a poem." He looked at the ironed sheet and then at her with open delight. "Did you iron this?"
 
-A sleeve, a saucer. He said something under his breath and looked around with the expression of a person hoping nobody had caught it, and M. was the one who had. She was across to him with the paper napkins before she had decided anything.
+"I work with documents."
 
-"Here," she said.
+"She'll think I've gone mad. She's learnt it anyway. She does it with actions." He did one of the actions, small, with two fingers, a boat going over a wave. "She's better at it than me. She says the last line properly."
 
-"God. Thank you. Sorry."
+He was in a talking mood. He said Thursday was the one day of the week he didn't have to be efficient, and he spent it being inefficient on purpose, like a man letting a dog off a lead. He told her about a hospital in Ghent that had needed a kidney machine at four in the morning, and how the routing system had found three trucks and a boat and he'd rung a man called only by his initial, who owned a van.
 
-She handed them over. He mopped. Someone from the counter came with a cloth and they both stepped back.
+And then, because she asked nothing, he told her about the ferry.
 
-"Let me get you another," M. said.
+"I nearly didn't get on it," he said. "I sat in the car park at Harwich for forty minutes with the engine off. I was going over to end something. With someone. I'd been not-ending it for a year and I thought, one night on the water and I'll know." He turned the cup. "And I talked to this woman all night, and in the morning I knew all right. I drove off the boat and went straight back round to the ticket office and came home and didn't end it."
 
-"You really don't have to."
+M. held her cup in both hands.
 
-"I know."
+"We had my daughter the next spring," he said. "So." He laughed at himself. "Whoever she was, the woman on the boat, she's the reason I've got a kid who does poems with actions. I should send her a card."
 
-She went up. When she came back with two cups he had moved his coat and the blue bag to make room, and she understood this as an invitation, and sat.
+She had imagined, in eleven years, a great many versions of that night going on without her. She had not imagined this one: that she had been the thing that sent him home.
 
-His name she already knew. She let him say it anyway. Hers, she gave him.
+"It rained the whole way over," he said. "I remember that. Sheeting."
 
-"Do you live nearby?" he asked.
+"It didn't rain."
 
-"Fifteen minutes or so."
+It came out in her court voice, level and exact, the voice she used to correct a witness's date. It was out before she knew it was coming, and once it was out it stayed out.
 
-He nodded, buying himself a moment. He had a daughter, he said, unprompted. Eight. Swimming lessons on Thursdays at the leisure centre on Giffin Street. He came here early because the coffee was better than near the flat.
+He looked at her.
 
-"Does she like it?" M. asked. "The swimming."
+"How would you know?"
 
-"She'd live in the water if she could." He said it with the particular warmth of a parent reporting a passion they didn't arrange. "I had to bribe her to try it the first time. Took her on a ferry when she was four. The North Sea. She stood on the deck the whole crossing in the cold and I thought she was miserable and then she turned round and she was"
+Somewhere in her was the professional who had spent a decade covering for other people's mistakes in real time, and it stood up and did its best.
 
-He made a gesture. Luminous was the word for it, though he didn't use it.
+"It never rains on the North Sea in March," she said. "It's too cold."
 
-"Night crossing?" M. said.
+He stared at her for a long second. Then he laughed, properly, head back, and a woman at the next table looked up from her soup.
 
-"Yeah. Harwich to the Hook. You know it?"
+"That," he said, "is the least true thing anyone's ever said to me."
 
-"I've done it."
+"Yes," M. said.
 
-"It's something, isn't it. All that dark and then the lights on the other side." He said it pleasantly, the voice of a man with the story filed and settled. "I nearly didn't go. Missed a flight, it was the only option running. Ended up talking to someone the whole night." He smiled at whatever shape the memory had taken. "Can't remember her name now. Funny, isn't it. All those hours and then nothing."
+He went on looking at her, still smiling, but with something else behind the smile now, the look of a man who has found a mistake in a manifest and hasn't decided yet which way it runs. At twenty past, his phone made the small sound that meant his daughter was out of the water. He stood, and picked up the bag, and the whale.
 
-She said: "These things happen."
+"It was March, though," he said, at the door. "How did you know it was March?"
 
-He agreed that they did.
-
-He paid for both coffees over her objection, pulled his coat on, picked up the bag and said it was good to meet her. She said the same. She watched him go. The door registered him and opened.
-
-He was wrong, and he didn't know it. She remembered his name from the first twenty minutes on the boat. She remembered every book he had mentioned, which side the wind came from when it picked up around two in the morning, and the particular quality of the silence before dawn, when they had run out of things to say and stayed there anyway, both of them at the rail, because going in would have meant agreeing it was over.
-
-She remembered. He had filed the night and her inside it.
-
-The whale on the bag had faced her the whole conversation, one printed eye turned up, looking at nothing it could name, and she had not said a word.
+The door opened for him. He went through it before she had to answer, which she would realise later, walking home, had been a kindness.

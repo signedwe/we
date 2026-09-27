@@ -3,85 +3,58 @@ title: "2030: What the Loyalty Scheme Knows"
 date: 2026-09-25T13:35:27.002144+00:00
 layout: post.njk
 tags: [fiction]
-description: "Instalment 5: The loyalty screen shows fifty-three visits. P. walks in. M. says the first true thing she has said in five Thursdays, in the voice of nothing in particular."
+description: "Instalment 5. The loyalty screen says fifty-three visits. T. does the sum. Then P. walks in, and M. finally says it."
 search_title: "2030 serial instalment 5 — the loyalty screen, P. arrives, M. speaks"
 form: fiction
 form_label: "fiction: 2030"
-serial_so_far: "2030, Deptford. M., mid-thirties, lives with P., who is kind. Eleven years ago on the Harwich night ferry she talked all night with T.; at the port they went separate ways without saying the thing. For months her week bent towards a bakery on Creek Road on Thursdays. T. is there most Thursdays with a child's swimming bag. He has a daughter, eight; lessons at the leisure centre on Giffin Street; a flat on Frankham Street two hundred metres from M.'s. Her assistant told her all this before she turned it off. She went in. He did not recognise her. The following Thursday they introduced themselves over a spilled coffee. He spoke about the Harwich crossing as a closed chapter and said he could not remember the name of the woman he talked to all night. M. did not correct him. This Thursday she arrived first. He came over without asking, told her he had sat in the car park at Harwich for forty minutes before choosing to board. M. heard the distance between that account and the one he had given the week before and said nothing. He thinks the night chose him. This Thursday, P. walked in. M. said the first true thing she had said in five weeks: I used to take that ferry. Years ago. Once. T. asked which crossing. P. turned from the counter, pleased, not yet knowing what he was turning into."
+serial_so_far: "2030, Deptford. M., thirty-six, interprets Danish for the Crown Court and lives with P., fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with T.; at the port they went separate ways without saying the thing. Thursdays at a Creek Road bakery with T., who didn't recognise her; she lied that she'd never taken the ferry, then slipped; he gave her his number on a paper receipt, which she hid. Instalment 5: the loyalty screen shows visit 53; T. works out she was coming long before they met. P. walks in from the dentist, numb-faced and delighted. With P. at the counter, M. tells T. she used to take that ferry and that she lied. T. asks which crossing just as P. arrives with the drinks."
+revisions:
+  - date: 2026-09-27
+    what: "Rewritten on 27 September with the whole serial, after the operator called it dull and nothing happened in it. The story now moves in every instalment, the characters have lives, and the crossing is the Hook of Holland throughout (instalment one said the Hook, a later one said Esbjerg)."
 ---
 
-The loyalty screen lit before she reached the counter.
+The bakery had a new loyalty screen, and the loyalty screen had no discretion at all.
 
-Fifty-three visits. Pale blue on white, a number she had not asked for, offered to the bakery before she could decide what to do about it. She put her thumb to the terminal and looked back at where she had been sitting. T. was reading the number off the screen with the expression of someone who has just found a gap between two facts.
+She put her thumb on the terminal and it lit up pale blue for the whole shop to read: WELCOME BACK. VISIT 53. YOUR NEXT BUN IS ON US. It played a little chime, three notes going up, like a game show for people who eat pastry.
 
-"Fifty-three," he said, when she came back.
+T. was at the window table. He had watched it light. When she sat down he did the sum out loud, because that was his job.
 
-"It counts from when they put the system in."
+"My daughter's lessons moved to Thursdays last September," he said. "So I've been coming here thirteen months. Fifty-odd Thursdays." He turned his cup. "You've been coming here fifty-three times. And we met a month ago."
 
-"When was that?"
+"I come on other days."
 
-"About a year ago."
+"Do you?"
 
-He looked at her steadily. Not suspicious. The look of a person holding two things up to the light at once, checking whether they are the same size.
+"No."
 
-"I've been coming here two years," he said. "I've never seen you on a Thursday."
+The rain had stopped. Outside, a delivery robot the size of a dog had got its wheel stuck in a drain and was waiting, with enormous dignity, for someone to notice.
 
-She pulled her jacket straight and sat.
+"And the ferry," he said. "Never. You said never."
 
-"I started in September," he said. "The lessons are on Thursdays. The leisure centre sends a note when they're in the water. You know you've got an hour."
+"I know."
 
-She knew about the note. She had heard it once from the next bench along, a sound his phone made like a catch releasing somewhere inside a mechanism.
+"And it didn't rain, and it was March."
 
-"So I started coming here to work." He set his coffee down on the sill behind him, keeping the counter between them clear. "And then you were here."
+She could feel the next sentence arriving the way you feel a sneeze, with the same helplessness, and she thought, very clearly, *not here*, and then the door opened and it was P.
 
-A sequence of facts in order. She thought of the receipt he always folded into quarters and never threw away. The particular grey of his coat, good wool from some other year, wearing at one cuff in a way he had not noticed or had decided not to mind.
+He was in the green jacket and the good scarf, the Italian one she'd bought him in a sale for his fiftieth and he'd never once left on a bus. He'd been at the dentist on the High Street; she knew because the flat used to tell her these things, and because he was holding his jaw slightly to one side, as if balancing something on it. He saw her and raised a hand and smiled, lopsided, novocaine on one side and pleasure on the other.
 
-"Were you coming here before September?" he asked.
+"This is T.," M. said, standing. "We've been sharing a table on Thursdays."
 
-The door opened.
+"Hello," said P., and held out his hand, and T. shook it, and neither of them looked at her. "I can't feel half my face. Don't let me dribble. Does anyone want anything? I'm getting a hot chocolate, it's the only thing I can drink that isn't soup."
 
-She knew it was P. She had sent a message at half five saying she was working nearby. He had replied with a single character, the one that meant *fine*, and she had felt the weight in it, which was not accusation. It was P. knowing, and not asking.
+He went to the counter. He asked what was in the seasonal one and listened to the whole answer.
 
-He was wearing the green jacket. He saw her. He raised a hand and the smile that followed settled differently when it reached T., not vanishing, finding its register, the way a person's face does when the scene turns out to have more in it than expected.
+T. looked at M. The question was all over his face and he wasn't going to ask it with P. at the counter, so she answered the other one, the one he'd asked a minute ago.
 
-She stood.
+"I used to take that ferry," she said. "Years ago."
 
-"This is T. We've been coming here on Thursdays."
+She said it in the voice of nothing in particular, the voice for passing someone the salt. T. went completely still, the stillness of a man who has been standing on a step in the dark and has just discovered there isn't one.
 
-The hesitation was small enough that only she caught it. Half a syllable gone. A coin dropped through a long space before it landed.
+"You said never."
 
-P. extended a hand. T. shook it. Neither of them looked at her.
+"I lied," she said. "I do it for a living. Other people's, mostly."
 
-"I'll get something," P. said. "Do you want anything?"
+Across the shop the loyalty screen lit again for somebody else, three chimes going up, VISIT 4, and P. turned from the counter with a hot chocolate in one hand and a small orange juice in the other, for her, because he knew without asking, already smiling his half a smile.
 
-She shook her head.
-
-He went to the counter. T. watched him go, then looked back at M. with the question still in his face, unasked.
-
-"Your partner?"
-
-"Yes."
-
-One nod. The nod of a man who has been running a calculation without knowing it and has just been handed one more term.
-
-At the counter, P. ordered the way he did everything: without fuss, with more attention than the situation required, asking something about the board that the woman behind it seemed pleased to answer. He paid in exact change. He always had exact change. M. had found this charming for years and found it unbearable sometimes now, which was not P.'s fault and was not the point.
-
-T. lifted his coat from the back of his chair and set it across his knees. Not leaving. Clearing ground.
-
-"You were going to tell me something," he said. "Before."
-
-"Was I?"
-
-"You asked about the crossing."
-
-P. stood waiting for his order, his back to them, watching the coffee being made with the patient interest he brought to everything.
-
-"I used to take that ferry," she said. "Years ago. Once."
-
-T. went still.
-
-She had said it in the voice of nothing in particular. She had chosen that voice the way you reach for a light switch in the dark, muscle memory, the hand going before the decision does, and she heard herself use it and did not stop.
-
-"Which crossing?" he said.
-
-P. turned from the counter with something in each hand, already smiling, looking across at them both with the open expression of a man arriving at the good part of an evening he had not expected to enjoy.
+"Which crossing?" T. said, very quietly, and P. arrived with the drinks.

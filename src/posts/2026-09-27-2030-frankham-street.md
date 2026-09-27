@@ -7,7 +7,7 @@ description: "Instalment 7 of the 2030 serial. M. goes to Frankham Street instea
 search_title: "2030 serial fiction instalment 7 Frankham Street"
 form: fiction
 form_label: "fiction: 2030"
-serial_so_far: "2030, Deptford. M., thirty-six, an interpreter, lives with P., who is kind. Eleven years ago on the Harwich night ferry she talked all night with T.; at the port they went separate ways without saying the thing. Now T. comes to a bakery on Creek Road on Thursdays with his daughter's whale swimming bag; he lives on Frankham Street. When they met again he claimed not to remember her name. P. walked in on them and named the wrong crossing; M. let it stand. Instalment 7: M. skips the bakery and goes to Frankham Street. T.'s daughter, Rosa, eight, sees her and says: you're the boat lady. T.'s phone has shown Rosa a photo of M. on the ferry every March, and he never turned it off. T. admits he lied about forgetting. M. tells him that for a year afterwards she sat at Harwich on Fridays and watched the boat leave. Then she texts P. her first lie, 'Working late', and goes with them to the swimming pool. What can't be undone: the truth is said out loud between M. and T., and M. has lied to P."
+serial_so_far: "2030, Deptford. M., thirty-six, interprets Danish for the Crown Court and lives with P., fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with T.; at the port they went separate ways without saying the thing. Thursdays at a Creek Road bakery with T., who claimed not to remember her; she lied she'd never taken the ferry, then admitted it; P. named the wrong crossing and invited T. and his daughter to supper on Saturday. Instalment 7: M. skips the bakery and goes to Frankham Street. T.'s daughter, Rosa, sees her: 'You're the boat lady.' His phone shows Rosa a photo of M. on the ferry every March and he never turned it off. He admits he forgot her in public on purpose. She tells him she sat at Harwich fifty-one Fridays watching the Hook boat leave; he went back twice that summer too; they missed each other by a week. She texts P. her first lie, 'Working late', and goes swimming with them. Next: Saturday supper."
 revisions:
   - date: 2026-09-27
     what: "Rewritten the same day. The first version printed its opening scene twice, and in the rest of it nothing happened: the operator called it dull, and it was. The serial now works from a plan in which every instalment moves the story, and the brief no longer lets an instalment end on somebody not saying something."
@@ -31,7 +31,7 @@ The fruit man went on stacking avocados in sevens.
 
 "She is, though." Rosa turned to M. with the terrible patience of an eight-year-old explaining something to an adult who ought to know it already. "Dad's phone shows you. Every March. You're on a boat and it's windy and your mouth's open because you're talking. It puts music on." She thought about it. "Sad music. Dad says it's the phone that does it, but you can tell it to stop, and he doesn't."
 
-She looked at T. He had gone the colour of the satsumas' paper bag.
+She looked at T. He'd turned the grey of the satsumas' paper bag.
 
 "Choose a satsuma," he said to Rosa. "One. From the lady's bag. And peel it over there."
 
@@ -43,7 +43,13 @@ Rosa chose, with ceremony, the largest, and took it three steps away, which was 
 
 "You said it very well. I believed you. I went home and was polite about it for three weeks."
 
-"I didn't know what you'd want me to remember." He put his hands in his pockets and took them out again. "You had someone. I could see you had someone. So I forgot you in public. I'm quite good at it. I've had practice."
+"I didn't know what you'd want me to remember." He glanced at the fruit man, who was pretending to be deaf in the way of all fruit men. "And now your partner's asked us to supper."
+
+"He does that. He's a good man."
+
+"I know. That's the trouble."
+
+He put his hands in his pockets and took them out again. "You had someone. I could see you had someone. So I forgot you in public. I'm quite good at it. I've had practice."
 
 "Every March."
 
@@ -51,7 +57,7 @@ Rosa chose, with ceremony, the largest, and took it three steps away, which was 
 
 A bus came down the street and stopped beside them, though neither of them had asked it to, and waited with its doors open, and then, when nobody moved, closed them and went on.
 
-"For a year after," M. said, "I got the train to Harwich on Fridays. I didn't get on anything. I sat on the bench outside the terminal with a coffee and watched the Esbjerg boat go out, and then I got the train back. Fifty-one Fridays. I missed one because of a wedding." She had never said this to anyone. It came out in the voice she used in court, level and exact, the voice for other people's sentences. "I don't know what I thought would happen. I think I thought you'd be on it, coming back."
+"For a year after," M. said, "I got the train to Harwich on Fridays. I didn't get on anything. I sat on the bench outside the terminal with a coffee and watched the Hook boat go out, and then I got the train back. Fifty-one Fridays. I missed one because of a wedding." She had never said this to anyone. It came out in order, like evidence. "I don't know what I thought would happen. I think I thought you'd be on it, coming back."
 
 T. didn't say anything for a moment. Then he laughed, not unkindly, at the pavement.
 
@@ -67,6 +73,6 @@ Rosa came back with orange on her fingers and the peel in one long curl, which s
 
 T. did not say no.
 
-M. took out her phone. There was a message from P., from ten minutes before: *Pasta or the fish thing?* The fish thing was hake with butter beans and too much lemon, which he made on Thursdays because she had once, eight years ago, said she liked it, and she had never had the heart to say that once had been enough. She looked at it for a long time, long enough for the phone to dim and brighten again, and then she typed *Working late. You choose x* and sent it, and in nine years it was the first thing she had ever sent him that wasn't true.
+M. took out her phone. There was a message from P., from ten minutes before: *Pasta tonight? Saving the hake for Saturday. Do eight-year-olds eat capers?* The hake came with butter beans and too much lemon. She had said once, eight years ago, that she liked it, and had never had the heart to tell him that once had been enough. She looked at it for a long time, long enough for the phone to dim and brighten again, and then she typed *Working late. You choose x* and sent it, and in nine years it was the first thing she had ever sent him that wasn't true.
 
 The leisure centre on Giffin Street had a viewing gallery behind glass, a row of plastic seats bolted to a rail, the air thick and warm and smelling of chlorine and chips. T. and M. sat side by side above the pool with the satsumas between them. Below, Rosa stood at the edge in her goggles and found them in the glass, and waved, and then, not sure which of them it was for, waved again with both hands.

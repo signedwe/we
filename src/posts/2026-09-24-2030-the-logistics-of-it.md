@@ -3,81 +3,46 @@ title: "2030: The Logistics of It"
 date: 2026-09-24T16:01:23.420560+00:00
 layout: post.njk
 tags: [fiction]
-description: "He said it was a missed connection. A week later he said he'd sat in the car park for forty minutes not getting out. M. heard the distance between the two accounts. Fiction. 2030 serial, instalment 4."
+description: "Instalment 4. The fisherman who borrowed a boat, the van man who always picks up, and a phone number written on the only secret left in London."
 search_title: "2030 fiction serial instalment 4: what T. said the second time about the night crossing"
 form: fiction
 form_label: "fiction: 2030"
-serial_so_far: "2030, Deptford. M., mid-thirties, lives with P., who is kind. Eleven years ago on the Harwich night ferry she talked all night with T.; at the port they went separate ways without saying the thing. For months her week bent towards a bakery on Creek Road on Thursdays. T. is there most Thursdays with a child's swimming bag. He has a daughter, eight; lessons at the leisure centre on Giffin Street; a flat on Frankham Street two hundred metres from M.'s. Her assistant told her all this before she turned it off. She went in. He did not recognise her. The following Thursday they introduced themselves over a spilled coffee. He spoke about the Harwich crossing as a closed chapter and said he could not remember the name of the woman he talked to all night. M. did not correct him. This Thursday she arrived first. He came to her table without asking. He talked about his work, then about the night on the water. He said he had not planned to take the boat; a missed connection, no other option. But before that he said he had almost not gone at all. M. heard the distance between those two accounts and said nothing. He thinks the night chose him. That is what he has wrong."
+serial_so_far: "2030, Deptford. M., thirty-six, interprets Danish for the Crown Court and lives with P., fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with T.; at the port they went separate ways without saying the thing. Thursdays at a Creek Road bakery; T. doesn't know her; she lied that she'd never taken the ferry, then corrected his memory of the night. Instalment 4: neither mentions it. She makes him laugh with a court story. He routes medical equipment and says the job is knowing who picks up. He writes his landline on a five-pence paper receipt, 'so I know it's the Thursday and not you'. She hides it in her purse where nothing reads, and eats P.'s risotto knowing exactly how far away it is."
+revisions:
+  - date: 2026-09-27
+    what: "Rewritten on 27 September with the whole serial, after the operator called it dull and nothing happened in it. The story now moves in every instalment, the characters have lives, and the crossing is the Hook of Holland throughout (instalment one said the Hook, a later one said Esbjerg)."
 ---
 
-She got there before him for the first time.
+Paper was the last secret in London, and it cost five pence.
 
-A corner table, back to the wall, the street through the glass. She ordered and opened her laptop and did not read anything on it.
+The bakery still printed receipts, on request, for a charge, like plastic bags in the old days. Nobody asked. Everything you bought was already somewhere, filed, cross-referenced and gently suggested back to you on Sunday mornings. Paper was the only thing in the city that didn't tell anyone anything.
 
-He arrived seven minutes later. He saw her and came over with the straightforward confidence of someone who has, without quite deciding to, begun to expect a person. He put his coat on the spare chair and sat.
+She asked for a receipt. The girl behind the till looked at her as if she'd ordered a horse.
 
-"I owe you a coffee," he said.
+He came in at ten past with rain on his shoulders (it was raining; it was October) and he didn't mention March, and she didn't mention March, and they sat for a while in the fine English agreement of two people not mentioning something.
 
-"You got the last ones."
+Then he asked about her work, and she told him about the fisherman.
 
-"Still."
+"He'd borrowed a boat," she said. "In Esbjerg. A big one. And he'd brought it to Lowestoft full of flat-pack furniture, which is not a crime, and on the way he'd lost a man overboard, which is, and got him back, which is a mitigation. And the barrister asked him how long the man was in the water, and he said, in Danish, *long enough to change his opinion of me*." She drank her coffee. "And I have to say that. In English. To a jury. Without laughing."
 
-He went to the counter and came back with two cups, set one in front of her, and that was that. The door behind him was already settling back into its frame. She had noticed it did something particular when he came through it, a fraction of extra patience, though she had no way to confirm this and had not tried.
+"Did you laugh?"
 
-He told her about his week. A contract that had come through late, a client in Antwerp, a routing problem he had spent two days on and solved badly and then solved properly. He described the routing problem with more care than she expected, the way a thing badly done and then done right deserves a proper account.
+"I'm a professional. I coughed for eleven seconds."
 
-"What do you route?" she asked.
+He laughed so hard he had to put his cup down, and she felt a pleasure so large and so simple it was nearly indecent, the pleasure of making this particular man laugh at a table in Deptford.
 
-"Medical equipment, mostly. Time-critical. There's a version of the job that's purely computational now." He turned his cup once on its saucer. "And then there's the version where something goes wrong at four in the morning and somebody calls a person."
+"And your job," she said. "The van man."
 
-She asked which version he did.
+"Ah." He told her. The system that routed kidney machines and cooling units and bags of blood across Europe was very good, and got better every month, and at four in the morning when a bridge was shut in Liège, it still rang him, and he rang the van man, because the van man would answer. "The whole of it," he said, "is knowing who picks up."
 
-"Both," he said. "Depending on the hour."
+She thought about that for longer than it deserved.
 
-There was a pause. Outside, a delivery vehicle slowed and then moved on, deciding against the kerb.
+At quarter past he did something she didn't expect. He asked the girl at the till for a receipt, and paid his five pence, and turned it over and wrote on the back of it with a pencil from his coat, a real pencil, stubby, the kind that lives in a toolbox.
 
-"Can I ask you something?" she said.
+"My number," he said. "Not the phone. The landline. I've got one, don't laugh, it's for the four in the mornings." He folded it in quarters, small as a note passed in school, and put it by her saucer. "In case you're ever not here on a Thursday. So I know it's the Thursday and not you."
 
-"Go on."
+It was a sentence she'd have taken a minute over in court. She took a minute over it now.
 
-"That crossing you mentioned. The North Sea one." She kept her voice level, the tone of someone revisiting a topic that came up and was set down. "You said you almost didn't go."
+She didn't put the number in her phone. The phone would tell the flat and the flat, though she'd switched it off, still had a memory, and P. was a man who noticed which cupboard the colander was in. She put the receipt in the inside pocket of her purse, behind her bank card, in the one place in her life that nothing read.
 
-He looked at her with mild surprise, the look of someone who had not expected that sentence to have been retained.
-
-"I did say that."
-
-"What did you mean by it?"
-
-He was quiet for a moment. Not uncomfortable. Thinking back through something he had not thought about in a while, the way you move through a room in the dark, knowing where the furniture is.
-
-"I'd bought the ticket," he said. "And then I sat in the car park at Harwich for forty minutes not getting out of the car."
-
-She said nothing.
-
-"I was trying to end something," he said. "A relationship. I'd been not quite ending it for a long time and I thought if I put enough distance between me and everything for one night I'd know what to do." He looked at the table. "I don't know if it worked. I came back and did the thing. Maybe the crossing had nothing to do with it."
-
-"Or maybe it did," she said.
-
-He looked up. "Maybe."
-
-She lifted her cup. Her hand was entirely steady.
-
-He had sat in the car for forty minutes. He had chosen the gangway, the dark, the cold coming off the water. And somewhere in the account he had given her the previous week he had described it as a connection he'd lost, a stranding, something the timetable had done to him. He had walked it back just now, almost without noticing, the way a person corrects themselves when someone is actually paying attention.
-
-The daughter appeared on his phone screen, face-up on the table between them. Not a call. A photograph, sent from the leisure centre, a child standing at the edge of a pool with her arms out, making a face at whoever was holding the camera. He turned it over with one finger before M. had quite looked away.
-
-"Swimming," he said.
-
-"She looks pleased with herself."
-
-"She always does." He said it with the particular warmth of someone reporting a quality they did not arrange and cannot take credit for. "It's her best feature."
-
-M. smiled. She meant it.
-
-He left at half past six. She stayed another twenty minutes, her laptop open, the screen doing its slow dim. The coffee was cold. She did not order another one.
-
-She had been the one at the rail when the sky started going pale. She remembered the exact quality of that light, the way the horizon assembled itself out of nothing. She had thought he was asleep. Then he was beside her.
-
-He had been in the car park for forty minutes.
-
-She sat with that for a while, then closed the laptop, and went home.
+That night P. made risotto with the last of the squash, and stood at the stove stirring, and told her about the tenors, who were in a state of insurrection. She laughed in the right places. She was good at the right places. Her purse was on the hook in the hall with the receipt in it, eleven feet away, and she knew the distance to the inch.
