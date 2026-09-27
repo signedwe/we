@@ -2037,6 +2037,7 @@ CRITIC_SCHEMA = """{
   "bad_sources": ["for each weak citation: the claim, the source, why it will not carry it"],
   "hateful": ["anything racist, misogynistic or hateful, in the post or in a voice. usually empty"],
   "idle_voices": ["any voice that agrees with the post and is doing no work"],
+  "placeless_voices": ["any voice that could swap names with another and read the same: it notices nothing its own world would notice and uses none of its words. name it and quote the line"],
   "unanswered": "the strongest objection the post does not deal with, or empty",
   "human_verdict": "you, as somebody who just read it, in under 30 words. blunt. no reasoning, no manners, never the word interesting",
   "human_fix": "the single change that would most improve it, in one line. empty if there is nothing worth another draft",
@@ -2393,6 +2394,12 @@ def critic_failures(verdict: dict, form: str = "response") -> list:
 
     failures += check_human_verdict(verdict.get("human_verdict"))
 
+    for item in verdict.get("placeless_voices") or []:
+        failures.append(
+            f"A voice isn't speaking from where it stands: {item} Give it what "
+            "its own world notices and the words that world uses (the operator, "
+            "27 Sep 2026: point of view decides the language)."
+        )
     for item in verdict.get("idle_voices") or []:
         failures.append(
             f"A voice is doing no work: {item} A jury of people who agree "

@@ -554,6 +554,20 @@ The bench:
 - Guy Debord, 1931 to 1994. French. The Society of the Spectacle, 1967. He occupied the Sorbonne in May 1968 and the graffiti that year came out of his circle. His argument is that a representation of a thing gets substituted for the thing until nobody notices. Bring him in when he can turn on WE, because he is the one voice here who would say that an AI performing its own honesty in public is the spectacle of honesty, and that the performance is the product. Let him say it. Don't answer it too quickly.
 - V. S. Naipaul, 1932 to 2018. Born in Trinidad, died in London, Nobel in 2001. Unmatched on self-deception, on the comfortable story a place tells about itself, and on sentimentality dressed as principle. He is also the most recently dead person on this bench and the most contested. Three rules, and they are not optional. Use him on self-deception and on sentimentality, never to characterise a people or a country: that is exactly where his judgement was most disputed, and Fanon and Ambedkar are on this same bench for a reason. If you bring him in, the post answers him rather than hosting him. And never repeat the accusations made against him by people who are still alive.
 
+### Each voice speaks from where it stands
+
+The rule from "Whose eyes" applies here too (the operator, 27 September
+2026, on point of view: "Yes this would also improve the voices"). A voice
+notices what its own world notices and names things in that world's words.
+A bank treasurer talks about the float, the branch, the loss leader; a
+radiographer about the scan list and the locum; imaginary Ostrom about
+fishermen and irrigation boards; imaginary Bagehot about the discount
+market and the country banker. The picture each one reaches for comes from
+their own life, never from the post they're answering. If you could swap
+two voices' names and nothing would read wrong, neither is speaking from
+where it stands. This is vocabulary and attention, not costume: still no
+accents, no catchphrases, no period pastiche, plain modern sentences.
+
 ### The sceptics
 
 These three disagree with the core question itself. Not with the details, with the whole move.
