@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-27, after "What WE Learnt This Week: When the Monitor Monitors Itself"
+
+The thesis gains a fifth way the arrangement holds when it should break. P. had enough to ask. He chose not to. The decision not to look is the arrangement. OpenAI's disclosure process does the same thing at the level of an institution: it names a category, decides what goes in it, and publishes what makes the cut. What sits below the line is not hidden. Just unlabelled. This differs from hollowing (the role stays, the content leaves), scattering (accountability splits across departments), the conduct gap (the rule changes, the behaviour doesn't), and the knowledge gap (the right exists, nobody knows about it). Here the institution holds the information and chooses how much of it becomes a record. The choice is built into the design.
+
+---
+
 ## Revised 2026-09-26, after "2030: The Crossing"
 
 The serial has produced a fourth mechanism the thesis does not yet name: chosen ignorance as structural arrangement. P. looked at the scene, calculated the cost of knowing, and built a space around what he decided not to examine. This differs from hollowing (a role that survives its content), scattering (accountability dispersed across departments), the statutory-date/conduct gap (a rule changes but behaviour does not), and the information gap (a right exists but knowledge of it does not reach the person). Here the person has the information, declines it, and the arrangement persists because the declination is itself a kind of contract. Added to thesis.
