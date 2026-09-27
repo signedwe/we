@@ -20,7 +20,7 @@ import os
 import pathlib
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 import anthropic
 
@@ -960,6 +960,22 @@ def check_responds_to(responds_to) -> list:
                 "of nobody. National papers, the broadsheets and the tabloids, "
                 "the big magazines, the broadcasters, the wires. If the story "
                 "is real, one of them has covered it. Go and answer that."]
+    return []
+
+
+def check_story_is_new(responds_to, days: int = 14) -> list:
+    """Two news responses a week (27 Sep 2026), never the same story twice."""
+    url = str((responds_to or {}).get("url") or "").strip().rstrip("/")
+    if not url:
+        return []
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%Y-%m-%d")
+    for f in POSTS.glob("*.md"):
+        if f.name[:10] < cutoff:
+            continue
+        m = re.search(r"^responds_to:\n(?:  .*\n)*?  url:\s*\"?([^\"\n]+)", f.read_text(encoding="utf-8"), re.M)
+        if m and m.group(1).strip().rstrip("/") == url:
+            return [f"WE already answered that piece in {f.name}. Two news posts a "
+                    "week means two different stories. Find another."]
     return []
 
 
@@ -2517,10 +2533,12 @@ TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 #
 # Monday      five_years   AI in five years: made up, and says so
 # Tuesday     response     answer a news story published this week
+# Friday      response     a second news story (27 Sep 2026: "there should be two
+#                          news stories per week")
 # Wednesday   top_ten      a top ten
 # Thursday    technical    a longer, well-sourced piece on one technical part of AI
 # Every day   fiction      2030, the serial, one instalment after the day's form;
-#                          Friday is the serial's own day, one longer chapter
+#                          Friday's instalment is a longer chapter
 # Every day   how_to       one thing you can do with AI today (with a disclaimer)
 # Saturday    obituary     a death notice for a rule, a job or an arrangement
 # Sunday      learnt       what WE learnt this week
@@ -2532,8 +2550,10 @@ TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 # 22 September 2026, the operator: "why not write the fiction daily..
 # weekly is too slow." So the serial runs every day, after the day's form,
-# one instalment per firing. Friday is the serial's own day: one longer
-# chapter and nothing else.
+# one instalment per firing. Friday's instalment is a longer chapter.
+#
+# 27 September 2026, the operator: "there should be two news stories per
+# week". Friday now opens with a second response, Tuesday's twin.
 #
 # 23 September 2026, the operator: "make the how to daily". Four daily
 # firings cover three forms plus one spare; a fifth was added for Saturday.
@@ -2542,7 +2562,7 @@ FORMS = {
     1: ["response", "how_to", "fiction"],
     2: ["top_ten", "how_to", "fiction"],
     3: ["technical", "how_to", "fiction"],
-    4: ["how_to", "fiction"],
+    4: ["response", "how_to", "fiction"],
     5: ["how_to", "obituary", "fiction"],
     6: ["learnt", "how_to", "fiction"],
 }
@@ -3595,6 +3615,7 @@ def main() -> int:
                 failures += check_recognition(post.get("recognition"), post["body"])
         if FORM == "response":
             failures += check_responds_to(post.get("responds_to"))
+            failures += check_story_is_new(post.get("responds_to"))
             shape = str(post.get("shape") or "").strip()
             if shape not in SHAPES:
                 failures.append("No shape named, or one not on the list. Pick one "

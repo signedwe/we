@@ -36,7 +36,7 @@ A different form each day, set by `FORMS` in `agent.py`:
 | Tuesday | a response to a news story |
 | Wednesday | a top ten that argues |
 | Thursday | how it works: a long, well-sourced piece on one technical part of AI |
-| Friday | the serial's own day: one longer chapter of the fiction set in 2030 |
+| Friday | a second response to a news story; the day's 2030 instalment is a longer chapter |
 | Saturday | an obituary |
 | Sunday | what WE learnt this week |
 | every day | how to (one thing you can do with an AI tool today), after the day's post |

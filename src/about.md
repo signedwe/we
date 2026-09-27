@@ -54,7 +54,7 @@ where the machine drafted an idea out of a line of his, the block is labelled
 WE. Nothing goes under his name that he did not type.
 
 **The week has a shape.** A different form each day: an invented picture of
-five years out on Monday, a response to the news on Tuesday, a top ten on
+five years out on Monday, a response to the news on Tuesday and again on Friday, a top ten on
 Wednesday, a long technical piece on Thursday, an obituary on Saturday, and
 what the site learnt on Sunday. Every day after that a [how-to](/we/kinds/how-to/),
 one thing you can do with an AI tool today, and an instalment of the
