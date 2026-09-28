@@ -2640,9 +2640,11 @@ def form_for(date_str: str) -> str:
 # every other line on fees and forms. So the code decides, not the writer:
 # two days in three the how-to is for fun, the third day it beats a fee, a
 # queue or a form. And a fun day that comes back as admin fails.
+# 28 September 2026, on the car-finance how-to that the one-in-three rule
+# produced: "Today's how to was another boring one." Fourth time he's said
+# it. Every how-to is fun now; fees, forms and complaints never qualify.
 def how_to_kind(date_str: str) -> str:
-    y, m, d = (int(x) for x in date_str.split("-"))
-    return "useful" if datetime(y, m, d).toordinal() % 3 == 0 else "fun"
+    return "fun"
 
 
 ADMIN_WORDS = re.compile(
@@ -3025,9 +3027,9 @@ one.
             kind_text = """
 ## Today is a FUN how-to
 
-Two days in three the how-to is for fun (the operator, 27 September
-2026: "the HOW TOS are still all dull stuff ... make them 2/3 of the
-time"). Today is one. Nothing about fees, fines, forms, banks, bosses,
+Every how-to is for fun (the operator, 27 September 2026: "the HOW TOS
+are still all dull stuff"; and 28 September, on a car-finance refund
+guide: "Today's how to was another boring one"). Nothing about fees, fines, forms, banks, bosses,
 councils, tax or complaints; the check fails a fun day that drifts into
 admin. Something a person would do on a Sunday afternoon because it is a
 delight, and then send to their sister: bring back a place, a person, a
@@ -3049,15 +3051,14 @@ form nobody knows exists, not the obvious one, and still fun to read.
 {kind_text}
 Every day, after the day's form (the operator, 23 September 2026: "make
 the how to daily"). Title it the way somebody would type it into a
-search box: "How to appeal a parking ticket with AI in under an hour".
+search box: "How to turn your nan's recipe cards into a cookbook with AI".
 The plain phrase in the title, the wit in the first line.
 
 Make it fun (the operator, 23 September: "make the how tos more fun and
 interesting"). People should want to send it to a friend.
-- Open on a person and a moment, never "In this guide". The fee, the queue
-  or the form is the villain; the reader is about to beat it.
+- Open on a person and a moment, never "In this guide".
 - Say up top what they'll have at the end, in one line.
-- Fun days, for example: turn a photo
+- For example: turn a photo
   of your nan's handwritten recipe cards into a family cookbook; find what
   your street looked like in 1900 from old maps; write a bedtime story
   starring your child's actual toys; plan a pub quiz about your own friends;
@@ -3072,29 +3073,24 @@ interesting"). People should want to send it to a friend.
 - Nothing involving eating wild plants, mushrooms, medicine, money
   decisions or anything a mistake could make dangerous.
 
-On a useful day: one thing a reader can do with an AI tool today
-that most people don't know is possible, and that used to need
-a professional, an office or a queue: appeal the parking fine, find the
-clause in your own lease, export your whole history from one assistant
-and load it into another, turn a council's planning PDF into a one-page
-objection, get a second reading of the letter from the bank, check what
-your landlord's agent is allowed to charge. The site's argument is that
-these were only ever expensive, not hard. Show one.
+The site's argument is that a lot of pleasures were only ever expensive,
+not hard: a portrait, a family history, a song, a garden plan, a trip
+with a guide. Show one that's now yours for an afternoon.
 
 One a day means the easy ones run out fast. Already done, so pick
 something else (a repeat is a failure):
 
 {done_how_to}
 
-Go further afield each time: the form nobody knows exists, the right
-nobody exercises, the document nobody reads, the price nobody checks.
-On a fun day: the hobby nobody thought a machine could help with, the
-family thing nobody had time for, the party trick.
+Go further afield each time: the hobby nobody thought a machine could
+help with, the family thing nobody had time for, the party trick, the
+thing you'd only ever seen rich people do. Never fees, fines, forms,
+refunds, complaints, banks, bosses, councils or tax.
 
 Exact steps, in order, each one linked to the tool's own documentation
 or to an account from somebody who did it. What it costs. How long it
 takes. Where it goes wrong, plainly, because that is the part nobody
-else prints. Who it quietly takes the job from. Under an hour, on a
+else prints. Under an hour, on a
 phone, is the target.
 
 Be honest about what WE is. WE reads; it cannot click. So the post says
