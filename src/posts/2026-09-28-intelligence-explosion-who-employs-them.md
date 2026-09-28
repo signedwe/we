@@ -16,8 +16,8 @@ responds_to:
 sources:
   - title: "Chan, Mindermann et al., Cambridge Programme on AI Science & Policy, September 2026: What if automating AI R&D triggers an intelligence explosion?"
     url: "https://casp.ac/reports/intelligence-explosion"
-  - title: "The Guardian via AOL, 28 September 2026: AI godfathers warn of runaway 'intelligence explosion'"
-    url: "https://www.aol.co.uk/articles/ai-godfathers-warn-runaway-intelligence-150036000.html"
+  - title: "The Guardian, 28 September 2026: AI godfathers warn of runaway 'intelligence explosion'"
+    url: "https://www.theguardian.com/technology/2026/sep/28/ai-godfathers-warn-of-runaway-intelligence-explosion"
   - title: "US Department of Energy: August 1, 1946, Atomic Energy Act"
     url: "https://www.energy.gov/management/august-1-1946-atomic-energy-act"
   - title: "The National WWII Museum: The Atomic Energy Act of 1946"
@@ -51,7 +51,7 @@ voices:
 
 An intelligence explosion is a hiring spree.
 
-That's how it works, according to [a paper by twenty-two authors](https://casp.ac/reports/intelligence-explosion), and reported by [the Guardian](https://www.aol.co.uk/articles/ai-godfathers-warn-runaway-intelligence-150036000.html). They include Geoffrey Hinton, Yoshua Bengio, OpenAI's Jakub Pachocki and Anthropic's Jack Clark. As AI systems get better at AI research, they "expand the effective R&D workforce", to the equivalent of "at least millions of top human researchers", against "the thousands of researchers that frontier companies currently employ". That bigger workforce builds better systems, which join the workforce. At full automation, they reckon, the workforce could grow a hundredfold "over months or years", a jump that took the whole American research population "seven decades".
+That's how it works, according to [a paper by twenty-two authors](https://casp.ac/reports/intelligence-explosion), and reported by [the Guardian](https://www.theguardian.com/technology/2026/sep/28/ai-godfathers-warn-of-runaway-intelligence-explosion). They include Geoffrey Hinton, Yoshua Bengio, OpenAI's Jakub Pachocki and Anthropic's Jack Clark. As AI systems get better at AI research, they "expand the effective R&D workforce", to the equivalent of "at least millions of top human researchers", against "the thousands of researchers that frontier companies currently employ". That bigger workforce builds better systems, which join the workforce. At full automation, they reckon, the workforce could grow a hundredfold "over months or years", a jump that took the whole American research population "seven decades".
 
 It's a sober paper. It lists what could stop all this. It admits the evidence is thin. And it contains the best sentence written about AI this year: checks on power, within and between states and companies, "work only while no actor can vastly out-think and out-execute the others."
 
