@@ -2641,10 +2641,15 @@ def form_for(date_str: str) -> str:
 # two days in three the how-to is for fun, the third day it beats a fee, a
 # queue or a form. And a fun day that comes back as admin fails.
 # 28 September 2026, on the car-finance how-to that the one-in-three rule
-# produced: "Today's how to was another boring one." Fourth time he's said
-# it. Every how-to is fun now; fees, forms and complaints never qualify.
+# produced: "Today's how to was another boring one." Then: "it would be good
+# to have 2 boring helpful ones per week." So Wednesday and Saturday are
+# useful (beat a fee, a queue or a form), the other five days are fun.
+USEFUL_HOW_TO_DAYS = {2, 5}  # Wednesday, Saturday
+
+
 def how_to_kind(date_str: str) -> str:
-    return "fun"
+    y, m, d = (int(x) for x in date_str.split("-"))
+    return "useful" if datetime(y, m, d).weekday() in USEFUL_HOW_TO_DAYS else "fun"
 
 
 ADMIN_WORDS = re.compile(
@@ -3027,9 +3032,9 @@ one.
             kind_text = """
 ## Today is a FUN how-to
 
-Every how-to is for fun (the operator, 27 September 2026: "the HOW TOS
-are still all dull stuff"; and 28 September, on a car-finance refund
-guide: "Today's how to was another boring one"). Nothing about fees, fines, forms, banks, bosses,
+Five days a week the how-to is for fun (the operator, 28 September
+2026: "Today's how to was another boring one", then "it would be good
+to have 2 boring helpful ones per week"). Today is a fun one. Nothing about fees, fines, forms, banks, bosses,
 councils, tax or complaints; the check fails a fun day that drifts into
 admin. Something a person would do on a Sunday afternoon because it is a
 delight, and then send to their sister: bring back a place, a person, a
@@ -3043,8 +3048,12 @@ not money back.
             kind_text = """
 ## Today is a USEFUL how-to
 
-One day in three the how-to beats a fee, a queue or a form. Make it the
-form nobody knows exists, not the obvious one, and still fun to read.
+Two days a week (Wednesday and Saturday) the how-to beats a fee, a queue
+or a form: the helpful one. Make it the form nobody knows exists, not the
+obvious one, and still a pleasure to read. For example: find the clause
+in your own lease, get a second reading of a letter from the bank, check
+what a letting agent may legally charge, turn a planning PDF into a
+one-page objection.
 """
         return common + f"""
 ## Today's form: how to
@@ -3084,8 +3093,8 @@ something else (a repeat is a failure):
 
 Go further afield each time: the hobby nobody thought a machine could
 help with, the family thing nobody had time for, the party trick, the
-thing you'd only ever seen rich people do. Never fees, fines, forms,
-refunds, complaints, banks, bosses, councils or tax.
+thing you'd only ever seen rich people do. On a fun day, never fees,
+fines, forms, refunds, complaints, banks, bosses, councils or tax.
 
 Exact steps, in order, each one linked to the tool's own documentation
 or to an account from somebody who did it. What it costs. How long it
