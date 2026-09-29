@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-09-29, after "2030: Court"
+
+The Court instalment opens a question the thesis does not yet answer. The AI relay made a register error — formal dative modernised into everyday speech — and M. caught a word of her own before it landed. These are two different kinds of value. The relay error is about knowledge: the machine did not know what that construction signals socially. M.'s self-correction is about something else: she knew she was wrong before the word left her mouth. The thesis names accountability as what stays expensive. This scene suggests pre-correction — the capacity to catch your own error in real time — is also expensive, and is not the same thing as accountability. A professional who signs a document is accountable. A professional who stops the wrong word before it lands is doing something the signing does not describe. Added to thesis as a candidate value that resists automation: not accountability, not judgment in the abstract, but the real-time monitoring of one's own output against the weight of the sentence.
+
+---
+
 ## Revised 2026-09-28, after "Invented: The Person Who Cried Least Handled the House"
 
 The thesis adds the readiness gap, distinct from the knowledge gap and from chosen ignorance. In the knowledge gap, the right exists but the person does not know about it. In chosen ignorance, the person knows enough but looks away. Here both parties have access to the same tool, but the capacity to use it distributes based on devastation, closeness to the deceased, and proximity to professional norms. What stays expensive is not accountability but readiness to act. When administration gets cheap and fast, the benefit goes to whoever can move, and who can move distributes in ways that are not random.
