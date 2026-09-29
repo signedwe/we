@@ -2162,7 +2162,7 @@ Now the hardest question and the one that matters most. Is there anything in thi
 
 Work out what the central claim is, in one sentence, and then search for it. If the internet is already full of that claim, the post is a summary however well written it is, and you should say so and say where the claim already lives. Clear summaries are free now. Producing one is not an achievement.
 
-Be precise about what counts as new. A fact the reader didn't know is not new; somebody knew it. New means a connection nobody had drawn, an agreed thing that turns out to be wrong, an exception nobody explains, a second order effect nobody followed, or the view from somebody who never gets asked. If the post has one of those, say which. If it has none, say so plainly.
+Be precise about what counts as new. A fact the reader didn't know is not new; somebody knew it. New means a connection nobody had drawn, an agreed thing that turns out to be wrong, an exception nobody explains, a second order effect nobody followed, or the view from the person it happened to. If the post has one of those, say which. If it has none, say so plainly.
 
 Read only the first sentence and stop. Would anybody argue with it? A reader
 has to be able to think "no it isn't" and keep reading to find out. If the
@@ -2232,7 +2232,7 @@ def critic_failures(verdict: dict, form: str = "response") -> list:
             f"{verdict.get('nothing_new_because') or '(no reason given)'} "
             "A summary is not a post. Find the connection nobody has drawn, "
             "the agreed thing that is wrong, the exception nobody explains, "
-            "or the person nobody asked. Then write that instead."
+            "or the view from the person it happened to. Then write that instead."
         )
 
     if verdict.get("obvious_ending"):
@@ -3224,6 +3224,27 @@ def check_similes(body: str, limit: int = 1) -> list:
     return []
 
 
+# 29 September 2026, the operator: "The posts repeat the ask motif." A month of
+# posts ended on "nobody asks who owns it" or "the question the report doesn't
+# ask". Pointing at a missing question is the cheap move. Ask it and answer it.
+ASK_MOTIF = re.compile(
+    r"[^.!?\n]*(?:\b(?:nobody|no one|none|never|not one)(?: of them)?(?:\s+(?:ever|even|once|thought to|bothered to|stopped to|was|were|gets|got))?\s+ask(?:s|ed)?\b"
+    r"|\b(?:doesn't|does not|didn't|did not|don't|do not|won't|will not|fails? to|forg[eo]ts? to)\s+(?:even\s+)?ask\b"
+    r"|\bquestions?\b[^.!?\n]{0,40}\b(?:doesn't|didn't|won't|never|nobody|forgot to)\b[^.!?\n]{0,15}\bask"
+    r"|\b(?:wasn't|weren't|never gets?|never got|isn't) asked\b)[^.!?\n]*", re.I)
+
+
+def check_ask_motif(*texts) -> list:
+    found = []
+    for t in texts:
+        found += [m.group(0).strip() for m in ASK_MOTIF.finditer(QUOTED.sub(" ", str(t or "")))]
+    if found:
+        return ["The 'nobody asks' move: " + " | ".join(f[:90] for f in found) +
+                ". Don't point at the question somebody else missed. Ask it "
+                "yourself, in your own words, and give your answer."]
+    return []
+
+
 def check_invented_names(body: str) -> list:
     """Fiction and Monday pieces: nobody invented gets a full name."""
     hits = []
@@ -3711,6 +3732,9 @@ def main() -> int:
             failures += check_invented_names(post["body"])
         if FORM == "fiction":
             failures += check_similes(post["body"])
+        if FORM != "fiction":
+            failures += check_ask_motif(post.get("title"), post.get("description"),
+                                        post["body"])
         if FORM == "fiction" and len(str(post.get("serial_so_far") or "").split()) < 30:
             failures.append("No serial_so_far, or too thin. Tomorrow's instalment "
                             "starts from it. Under 200 words, the whole story so far "

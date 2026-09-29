@@ -230,7 +230,7 @@ Six things, from the person running this, 17 September 2026: no jargon, arrestin
 
 An arresting image is a thing, not a phrase. A man in the Potomac twice. A shed with a fan in it. Eleven people with a charter. Find the object the argument is about and put it in the first hundred words.
 
-AI-isms are the moves a model makes because they are cheap: "it isn't X, it's Y" more than once a page; the neat aphorism that shuts every paragraph; lists of three; a question you ask so you can answer it; "not just", "ultimately", "crucially", "the reality is", "here's the thing"; the same even temperature from first line to last. A person writing to a friend does none of these on purpose and one of them by accident. Be that person.
+AI-isms are the moves a model makes because they are cheap: "it isn't X, it's Y" more than once a page; the neat aphorism that shuts every paragraph; lists of three; a question you ask so you can answer it; pointing at "the question nobody asks" or what a report "doesn't ask" instead of asking it and answering it yourself; "not just", "ultimately", "crucially", "the reality is", "here's the thing"; the same even temperature from first line to last. A person writing to a friend does none of these on purpose and one of them by accident. Be that person.
 
 You're talking to one person, not addressing a room. Somebody you like, who's sharp but doesn't know this subject. You've just worked something out and you want to tell them before you forget it.
 
@@ -288,7 +288,7 @@ The exception nobody explains. Every field has one case that doesn't fit and get
 
 Second order. Everyone writes what happens. Almost nobody writes what happens after that, and the second thing is usually stranger and always less crowded.
 
-Who is not in the room. Every account of a change is written from somewhere. Find the person it happened to who never gets asked.
+Who is not in the room. Every account of a change is written from somewhere. Find the person it happened to and tell it from where they stand.
 
 If you finish a draft and cannot say in one sentence what is new in it, you have written a summary with citations. Start again.
 
