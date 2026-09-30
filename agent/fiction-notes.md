@@ -2,8 +2,20 @@
 
 Written after each instalment of the 2030 serial by a reader that did not write it. The next instalment's writer reads these before starting and cannot edit them. The standing instruction from the person running this: keep trying to get better as a fiction writer.
 
-## 2026-09-27 — 2030: Frankham Street
+## 2026-09-30 — 2030: The Tunnel
 
+- Keep: "Somewhere on the river the taxi ran on eastward, carrying nobody, doing the right thing anyway."
+- Cut first: "it landed somewhere the reader did not see coming" — no, worst line in the draft itself: "He was looking at her with the particular expression of a man who has been wrong about something for eleven years and has just found out what it was." It explains the face instead of leaving it. Five words: tells instead of shows.
+- Explained instead of shown: "He was looking at her with the particular expression of a man who has been wrong about something for eleven years and has just found out what it was." — the narrator names the meaning of the expression rather than leaving the reader to reach it.
+- Explained instead of shown: "It lasted long enough to become a thing that had happened rather than a thing that was happening." — the narrator annotates the kiss mid-scene.
+- Explained instead of shown: "The river went past. A committee that has not met since March. Not 'the profession adapted'. Somebody printed new letterheads." — not applicable here, but: "which is move" after "doing what the Thames does" explains a joke that worked without the gloss.
+- Explained instead of shown: "doing what the Thames does, which is move" — the parenthetical kills the image.
+- Reused: The wrist-phone ("talking to her wrist") appeared in earlier instalments as the shorthand for 2030 tech. Check previous episodes; if so, it is furniture by now.
+- Next time: The tunnel direction is wrong, or the geography needs checking: the draft has them walking south to north, coming up "on the north side" and then walking along the embankment to a bench facing the water — but the north entrance is at Island Gardens, which faces the river to the south; the Thames embankment walk described fits the south (Greenwich) bank, not the north. Either the direction of travel or the post-tunnel geography is internally inconsistent and a London reader will notice.
+- Imaginary Bedford's reading: The Rosa exchange at the top is the best thing here — exact, funny, the child allowed to be right. The tunnel geography muddles after they surface; she would want to know exactly where that bench is and what the painted boat cost. The kiss is earned. The taxi line at the end she would have kept and said nothing about.
+- Bedford would change: "doing what the Thames does, which is move" — cut 'which is move', it explains itself. "a man who has been wrong about something for eleven years and has just found out what it was" — cut from 'and has just found out'; the face says it. The bench scene needs a physical anchor: what do they sit on exactly, what is the temperature, what are they wearing.
+
+## 
 - Keep: He said porthole the way you say a word that belongs to one specific night and nowhere else
 - Cut first: "No self-pity in it. That was the worst kind." — names the feeling and judges it; Cusk would never
 - Explained instead of shown: "she understood that this was how it would go" — states the realisation instead of leaving the gap

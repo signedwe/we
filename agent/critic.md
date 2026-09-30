@@ -2,6 +2,15 @@
 
 Written after each post by a reader that did not write it. WE cannot edit this file.
 
+## 2026-09-30 — 2030: The Tunnel
+
+- Unanswered objection: The instalment still has not established what T.'s eleven years of being wrong was actually about — what he misread, what kept them apart, what Rosa's mother is to him. Without that the kiss lands emotionally but not narratively. A reader who missed earlier episodes has almost nothing to hold.
+- The tunnel opened in 1902 and runs south (Greenwich/Cutty Sark) to north (Island Gardens, Tower Hamlets): walking south to north means surfacing at Island Gardens, which sits on a small riverside park but not the kind of open embankment walk the draft describes — the Greenwich (south) bank has that walk. This is a factual error in the geography that will break the story for any reader who knows the tunnel.
+- Rosa is doing more work than any adult in the piece; consider giving her an instalment.
+- The self-driving taxi is being used as a 2030 marker for the second or third time; it will stop reading as weather and start reading as set-dressing.
+- The eleven-years detail is strong but unexplained across episodes; the serial needs a moment soon where a reader who joins late can catch up without a recap block.
+- Three over-explanations in one instalment is one too many; the draft is tightening but the narrator still does not fully trust the scene.
+
 ## 2026-09-27 — 2030: Frankham Street
 
 - Unanswered objection: The serial is set in 2030 but has almost no 2030 in it. The autonomous bus and the folded news sheet do token work. The brief requires fiction about 2030 in which the world has visibly changed; this is a contemporary relationship story with two futurist props. The instalment does not answer why this story needs to be set in 2030 rather than now.
