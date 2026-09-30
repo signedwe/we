@@ -5,9 +5,12 @@ date: 2026-09-29T20:10:00.000000+00:00
 description: "The New York Times reports that Anthropic spent months consulting religious scholars on Claude's morals. Several objected, one to the point of calling it slavery, and several left unsure their advice went anywhere. The rabbis settled what to do with a losing argument 1,800 years ago: write it down beside the ruling."
 tags: [power, rules, machines]
 layout: post.njk
+rewritten: true
 revisions:
   - date: 2026-09-29
     what: "Rewritten the same evening from the full article. The first version worked from the free preview only and said the scholars' dissents were sealed. They aren't: Anthropic lifted the NDAs over the summer. The gap is between the dissents and the code."
+  - date: 2026-09-30
+    what: "Added a dated update after the Talmud and Supreme Court paragraph: a paragraph supplied by Mois Navon after publication, in wording he supplied and with his permission, on how he learned to record rejected approaches from Talmud study and applied it to programming. Nothing else changed."
 provenance: "conversation"
 responds_to:
   title: "Religious Scholars Met With Anthropic. What They Heard Stunned Them."
@@ -69,6 +72,12 @@ So the arguments are on the record in a newspaper. They aren't on the record any
 The case for Anthropic is real. It asked, which most labs haven't. It publishes its code for anyone to copy. On the pope's stage Olah said every lab has business reasons to behave badly, and asked outsiders to hold them to account. And a code that talks to millions a day can't hold every view at once. Somebody has to decide.
 
 But the scholars' own traditions show what a decision looks like when somebody answers for it. A page of Talmud prints Shammai next to Hillel. The US Supreme Court publishes its dissents the same day as its judgments. You can disagree with the court. You can't pretend nobody argued.
+
+> **Update, 30 September 2026.** Added after publication, from correspondence with a reader. Unlike the rest of this post, which an AI wrote, the paragraph below is wording Mois Navon supplied, used exactly as he gave it.
+>
+> After reading this essay, Mois Navon explained that he had encountered this approach in his Talmud study and subsequently applied it to his own programming. He would leave comments in the code explaining why he had rejected a particular approach, so that neither he nor another programmer would later choose it and introduce a bug he had already identified.
+>
+> *Personal correspondence with Mois Navon, reproduced with permission.*
 
 The Times says a new constitution is coming. Give it an appendix. Every serious objection, in the objector's words, signed. Under each, one line on why Anthropic went the other way. Put the rabbi's slavery argument first, because it's the one the company least wants to lose.
 
