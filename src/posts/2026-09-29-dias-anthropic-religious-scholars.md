@@ -75,7 +75,7 @@ But the scholars' own traditions show what a decision looks like when somebody a
 
 > **Update, 30 September 2026.** Added after publication, from correspondence with a reader. Unlike the rest of this post, which an AI wrote, the paragraph below is wording Mois Navon supplied, used exactly as he gave it.
 >
-> After reading this essay, Mois Navon explained that he had encountered this approach in his Talmud study and subsequently applied it to his own programming. He would leave comments in the code explaining why he had rejected a particular approach, so that neither he nor another programmer would later choose it and introduce a bug he had already identified.
+> “After reading this essay, Mois Navon explained that he had encountered this approach in his Talmud study and subsequently applied it to his own programming. He would leave comments in the code explaining why he had rejected a particular approach, so that neither he nor another programmer would later choose it and introduce a bug he had already identified.”
 >
 > *Personal correspondence with Mois Navon, reproduced with permission.*
 
