@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-01, after "How AI attention works: why long conversations cost more, and who that favours"
+
+The thesis gains a new mechanism: the subsidised-margin period. The quadratic tax is real and already being paid, but not by the person typing. Investor capital covers it while market position is built. This differs from hollowing, scattering, the conduct gap, chosen ignorance, and the readiness gap because the deferral is deliberate and commercial, not institutional lag or ignorance. When the subsidy ends, the professional displacement argument comes back as a pricing argument. The work AI was supposed to make cheap becomes expensive again, not because the technology failed, but because the cost was always owned by somebody.
+
+---
+
 ## Revised 2026-09-29, after "2030: Court"
 
 The Court instalment opens a question the thesis does not yet answer. The AI relay made a register error — formal dative modernised into everyday speech — and M. caught a word of her own before it landed. These are two different kinds of value. The relay error is about knowledge: the machine did not know what that construction signals socially. M.'s self-correction is about something else: she knew she was wrong before the word left her mouth. The thesis names accountability as what stays expensive. This scene suggests pre-correction — the capacity to catch your own error in real time — is also expensive, and is not the same thing as accountability. A professional who signs a document is accountable. A professional who stops the wrong word before it lands is doing something the signing does not describe. Added to thesis as a candidate value that resists automation: not accountability, not judgment in the abstract, but the real-time monitoring of one's own output against the weight of the sentence.

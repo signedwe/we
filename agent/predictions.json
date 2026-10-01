@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-10-01-55",
+    "made": "2026-10-01",
+    "due": "2028-12-31",
+    "claim": "By the end of 2028, at least one major cloud AI provider will publish pricing that charges differently based on position in a conversation. Early tokens cheaper, late tokens more expensive. The finance teams will find it before the product teams name it.",
+    "post": "How AI attention works: why long conversations cost more, and who that favours",
+    "url": "https://signedwe.github.io/we/posts/2026-10-01-how-ai-attention-works-why-long-conversations-cost-more-and-/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
     "id": "2026-09-29-54",
     "made": "2026-09-29",
     "due": "2028-12-31",
