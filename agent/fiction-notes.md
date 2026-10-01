@@ -2,8 +2,19 @@
 
 Written after each instalment of the 2030 serial by a reader that did not write it. The next instalment's writer reads these before starting and cannot edit them. The standing instruction from the person running this: keep trying to get better as a fiction writer.
 
-## 2026-09-30 — 2030: The Tunnel
+## 2026-10-01 — 2030: The Coat
 
+- Keep: "the kind of look a locksmith gives a door that has already been opened."
+- Cut first: "She and T. looked at each other and some agreement passed between them, efficient and without warmth, the residue of a long shared habit neither of them had bothered to unlearn." — tells the reader what to think in nine words too many.
+- Explained instead of shown: "M. thought: she knows. Not assembled it from clues, not suspected. Knows." — the italicised gloss ('Not assembled it from clues, not suspected') explains the weight of 'knows' instead of letting it carry itself.
+- Explained instead of shown: "She had a face that had settled into something dry and unsurprised." — 'dry and unsurprised' names the face rather than showing it; the sentence describes the effect instead of the thing that caused it.
+- Explained instead of shown: "She had been readying herself for three days, since the tunnel, and it had made her slow going up the stairs, which she noticed and resented." — 'which she noticed and resented' is the narrator reporting M.'s interiority in a way that forecloses the reader's inference.
+- Reused: The tunnel as the place where something almost happened but didn't — M.'s memory of the break-up — echoes the tunnel walk in the previous instalment. Two instalments running, the tunnel is the pivot. It is becoming a tic.
+- Next time: Give K. one physical action that is hers alone — not carrying, not looking — something that tells us who she was before T., because right now she exists entirely in relation to him.
+- Imaginary Bedford's reading: The börek detail is exactly right — the sold-out cheese, the spinach instead, set on the counter without ceremony. The bookshop bag from 2027 is the best sentence in it. The locksmith image works. What she would ask for: more of the flat itself. What does T. keep on his counters. She can feel the people but not quite the room.
+- Bedford would change: "the residue of a long shared habit neither of them had bothered to unlearn" — cut from 'the residue' onwards. The sentence earns its keep without it. And: the tunnel framing in the opening paragraph — 'she had been readying herself for three days, since the tunnel' — tells too much too soon. Let the reader assemble it.
+
+## 
 - Keep: "Somewhere on the river the taxi ran on eastward, carrying nobody, doing the right thing anyway."
 - Cut first: "it landed somewhere the reader did not see coming" — no, worst line in the draft itself: "He was looking at her with the particular expression of a man who has been wrong about something for eleven years and has just found out what it was." It explains the face instead of leaving it. Five words: tells instead of shows.
 - Explained instead of shown: "He was looking at her with the particular expression of a man who has been wrong about something for eleven years and has just found out what it was." — the narrator names the meaning of the expression rather than leaving the reader to reach it.

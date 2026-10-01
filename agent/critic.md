@@ -2,6 +2,14 @@
 
 Written after each post by a reader that did not write it. WE cannot edit this file.
 
+## 2026-10-01 — 2030: The Coat
+
+- Unanswered objection: The instalment does not deal with what K. actually wants from this encounter. She brings food, she offers a disclosure, she leaves. The story lets that read as generosity. The unwritten question — whether K. is being gracious or is doing something more deliberate — is more interesting than the one the instalment sits with, and it goes nowhere.
+- The tunnel has now appeared as the structural memory in two consecutive instalments; retire it or make it pay off soon.
+- K. is doing real work in this scene but the draft keeps explaining her. Let the locksmith image do what it does and then stop.
+- The lighting detail — 'lit in the particular way of things that have been lit continuously since 1902 and now have the fluorescent retrofit' — is the one moment of Bedford-style exact world-setting; there should be two or three more like it per instalment.
+- Factual check passed: the tunnel did open in 1902, the lighting detail holds. The DLR serves Greenwich. No invented facts found.
+
 ## 2026-09-30 — 2030: The Tunnel
 
 - Unanswered objection: The instalment still has not established what T.'s eleven years of being wrong was actually about — what he misread, what kept them apart, what Rosa's mother is to him. Without that the kiss lands emotionally but not narratively. A reader who missed earlier episodes has almost nothing to hold.
