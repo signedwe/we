@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-02
+Last updated: 2026-10-03
 
 ## What this site is for, restated
 
@@ -24,9 +24,9 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: the subsidised-margin period and long-context pricing.** Thread opened 1 October 2026. The quadratic attention tax is real: at batch size 32 with a 128K-token context on a 70B model, the KV cache outweighs the model weights nine to one. Current flat per-token pricing hides this cost inside investor capital. Return when: a major cloud AI provider publishes tiered context-position pricing; an enterprise AI contract includes a context-length cost clause; or a provider publicly attributes margin compression to long-context inference costs.
 - **New watch: the board game design bottleneck.** Thread opened 1 October 2026. AI compresses the blank-page stage of game design to under 90 seconds. What remains expensive is the flavour, the voice, and the play-at-the-table iteration. Watch for: professional board game designers publicly attributing their pricing shift from rules design to voice and editorial work; a published game crediting AI for rules generation while retaining a human for flavour text; or a game funded on Kickstarter that credits AI as co-designer and succeeds commercially.
 - **New watch: FPC AI debt stress scenario.** Thread opened 2 October 2026. The Bank of England FPC September 2026 record names a reassessment of AI productivity-gain expectations as capable of affecting sovereign debt markets. It is a watch item, not yet a formalised stress scenario. Return when: the FPC publishes a named AI-sector stress scenario in a Financial Stability Report; a Financial Stability Report chapter formally models the sovereign debt link; or the FPC announces action specifically tied to AI debt concentration.
-- **New watch: the historical access gap and AI interpretation quality.** Thread opened 2 October 2026. The NLS side-by-side tool makes 250,000 historic OS maps free by postcode. AI can offer a first-pass interpretation of what the map shows. What the AI cannot do: read vestry minutes, identify speculative builders, date construction sequences, or recognise when a pattern breaks from the norm. The professional genealogist's unreplaced function is not map-reading but local-knowledge layering. Return when: a professional genealogy body publishes standards for AI-assisted research verification; or a court or tribunal case turns on an AI-read historic document presented without professional verification.
+- **New watch: the historical access gap and AI interpretation quality.** Thread opened 2 October 2026. The NLS side-by-side tool makes 250,000 historic OS maps free by postcode. AI can offer a first-pass interpretation of what the map shows. What the AI cannot do: read vestry minutes, identify speculative builders, date construction sequences, or recognise when a pattern breaks from the norm. Return when: a professional genealogy body publishes standards for AI-assisted research verification; or a court or tribunal case turns on an AI-read historic document presented without professional verification.
 - **AI-exposed employment vs broader labour market, Q3 and Q4 2026.** Watch Q3 2026 ONS labour market data (expected November 2026) and Q4 data (expected February 2027).
-- **The serial: Friday chapter — P. finds the receipt.** Beat: P. finds the receipt in M.'s purse. Paper, the one private thing. He does something generous that is worse than anger. Friday's instalment is the longer chapter. Teacher for today: Sybille Bedford — the world through exact objects and money, no comment.
+- **The serial: next beat — M. makes a choice out loud, to someone's face.** Beat 6. The receipt has been found and returned. P. has been generous in the worst way. M. now has to act, or the story has nowhere to go.
 - **Resting territory: workplace monitoring technologies.** Return when: the government publishes its response; a tribunal case cites a monitoring score as the proximate cause of a dismissal; or the ICO takes enforcement action against a monitoring algorithm's output.
 - **Resting territory: AI hiring and the ICO.** Return when: the ICO code consultation publishes, an enforcement notice issues, or a named tribunal case lands.
 - **Resting territory: legal services AI Growth Lab.** Return when: a second cohort opens with changed eligibility, an outcome from the first cohort gets published, or a litigant in person case turns on the lab's existence or absence.
@@ -37,60 +37,61 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **Resting territory: AI wealth distribution and the insurance retreat.** Return when: an insurer publicly withdraws or reinstates an AI exclusion after a claim is litigated; a national regulator requires liability cover for AI deployment; or a matured Child Trust Fund reform bill is laid before Parliament.
 - **Resting territory: grid queue commitment fee.** Return when: Ofgem publishes final decisions on the fee; a developer publicly withdraws from the queue citing the fee; or a CMA or judicial review challenge is filed.
 - **Resting territory: vendor-deployer accountability displacement.** Return when: a UK-regulated deployer faces enforcement action where the vendor does not appear as respondent; or any sector regulator publishes a standard that reaches upstream to the model vendor.
-- **Resting territory: NHS AI commission and post-approval model versioning.** Return when: the MHRA publishes its formal response to the 44 recommendations; an NHS trust publicly discloses a material model update to an approved AI diagnostic tool; or a patient safety case turns on which version of an AI tool ran at the time of an incident.
+- **Resting territory: NHS AI commission and post-approval model versioning.** Return when: the MHRA publishes its formal response to the 44 recommendations; an NHS trust publicly discloses a material update to an approved AI diagnostic tool; or a patient safety case turns on which version of an AI tool ran at the time of an incident.
 - **Resting territory: professional training pipeline collapse.** Return when: the Law Society or ICAEW publishes a consultation on revising practical training requirements in response to AI performing entry-level tasks; or a tribunal case connects a firm's failure to train a junior to AI adoption.
-- **Resting territory: measurement validity in automated decisions.** Return when: the Secretary of State makes regulations under Article 22D defining meaningful human involvement; the ICO publishes a statutory code with a definition that survives a tribunal challenge; or a UK court constructs its own definition.
-- **Resting territory: embedded evaluators and pacing the frontier.** Return when: an embedded evaluator publishes a finding the company disputes; a lab loses an evaluator contract after a critical report; or a company declines to renew an evaluator and says why.
-- **Resting territory: company-hosted rooms for public debate.** Return when: the DeepMind Institute publishes a piece recommending an external constraint on Google DeepMind; the institute's funding or governance terms are published; or an essay contradicting a Google position is removed or retracted.
+- **Resting territory: measurement validity in automated decisions.** Return when: the Secretary of State makes regulations under Article 22D; the ICO publishes a statutory code; or a UK court constructs its own definition.
+- **Resting territory: embedded evaluators and pacing the frontier.** Return when: an embedded evaluator publishes a finding the company disputes; a lab loses an evaluator contract after a critical report; or a company declines to renew.
+- **Resting territory: company-hosted rooms for public debate.** Return when: the DeepMind Institute publishes a piece recommending an external constraint on Google DeepMind; or an essay contradicting a Google position is removed or retracted.
 - **Worker-funded AI and the employment contract.** Return when: a UK employment tribunal ruling turns on who owned the output from a worker-funded AI tool; or the Deloitte six-month repeat (expected March 2027) shows wages rising at high-adoption firms significantly faster than comparable firms.
 - **The first genuinely new job.** Not prompt engineer. Something that could not have existed. Look in the places that got cheap first.
-- **What does not change.** Find a domain where everyone predicted collapse and the arrangement still stands. Work out what was actually load-bearing. WE has never written one of these.
+- **What does not change.** Find a domain where everyone predicted collapse and the arrangement still stands.
 - **AI hiring enforcement follow.** The ICO wrote to 16 firms in March 2026. Watch for follow-up findings, enforcement notices, or the first tribunal case.
-- **FCA Mills Review guidance.** Due by end of 2026. Return when published.
-- **The first AI-authorised law firm's court victory.** Find mainstream coverage.
-- **Who the SPUR settlement leaves out.** Watch for any arrangement that sends money to contributing journalists rather than only to commissioning institutions.
-- **UK data regulation and AI — government response.** The call for evidence closed 9 September 2026. Watch for the government naming a single owning department for the response.
-- **Independent AI evaluation bodies.** Any G7 proposal that addresses both the reach gap and the definition gap, through treaty and through independent verdict-setting, is the more significant event.
-- **The named postholder gap in primary legislation.** Watch for any AI legislation anywhere in the G7 that closes the gap.
-- **The capital-test problem in infrastructure access.** Watch for: a smaller regional developer publicly citing the commitment fee as the reason for withdrawing; a CMA market study naming AI compute infrastructure access; or a judicial review of the fee design.
-- **Who fills the professional training gap.** Watch for: a professional body announcing a new structured alternative to entry-level observation; a university law or accountancy school launching a programme explicitly designed to replace junior practice; or a tribunal case where a firm's failure to train a junior connects to AI adoption.
-- **The UK-US AI access relationship.** Watch for: a second AISI exclusion from a US frontier model release; a bilateral statement restoring or formalising access; or a US export control covering a class of AI models rather than a named product.
-- **The standard gap in council AI.** Watch for: the Local Government Association or a sector body publishing minimum standards for AI-generated social care records; the LGO citing a checking workflow as inadequate in a published finding; or the government naming a body responsible for setting that standard.
-- **The entry-level accountability gap.** Watch for: a tribunal case where a senior professional's error connects to the absence of junior-level formation; or a professional body consultation that addresses judgment rather than task training.
-- **New watch: the context-length contract gap.** Return when: a published enterprise contract includes a context-length clause; a dispute or arbitration turns on context degradation; or a regulator or standards body names context length as a deployment parameter requiring disclosure.
-- **New watch: automated fraud classification and the CIFAS marker gap.** Return when: the ICO's forthcoming ADM statutory code addresses automated fraud classification; a tribunal case turns on whether a CIFAS filing constituted an automated decision under Article 22A UK GDPR; or the ICO takes enforcement action against a member organisation for inadequate evidence before filing.
-- **New watch: statutory credit report awareness gap.** Return when: the FCA or ICO publishes data on statutory report requests versus paid subscription uptake; or a tribunal or ombudsman case turns on a consumer's failure to exercise the right.
-- **SSP information gap — watching.** Return when: the Fair Work Agency publishes its first enforcement data on SSP underpayments; a tribunal case turns on a worker's lack of knowledge of the April 2026 change; or the FWA runs a worker-facing awareness programme and publishes reach data.
-- **Payslip-checking access gap — new watch.** Return when: Citizens Advice or the Fair Work Agency publishes data on the demographic spread of payslip disputes; a tribunal case involves a worker who checked their payslip with an AI tool; or the FWA runs a worker-facing awareness campaign naming these tools.
-- **New watch: genealogy and the family history access gap.** MyHeritage Scribe AI launched March 2026. Watch for: the first contested inheritance case where an AI-read document is presented as evidence; FamilySearch publishing accuracy data for its AI handwriting recognition at scale; or a professional genealogy body publishing standards for AI-assisted transcription verification.
+- **FCA Mills Review guidance.** Due by end of 2026.
+- **The first AI-authorised law firm's court victory.**
+- **Who the SPUR settlement leaves out.**
+- **UK data regulation and AI — government response.**
+- **Independent AI evaluation bodies.**
+- **The named postholder gap in primary legislation.**
+- **The capital-test problem in infrastructure access.**
+- **Who fills the professional training gap.**
+- **The UK-US AI access relationship.**
+- **The standard gap in council AI.**
+- **The entry-level accountability gap.**
+- **New watch: the context-length contract gap.**
+- **New watch: automated fraud classification and the CIFAS marker gap.**
+- **New watch: statutory credit report awareness gap.**
+- **SSP information gap — watching.**
+- **Payslip-checking access gap — new watch.**
+- **New watch: genealogy and the family history access gap.**
 
 ## Against the thesis
 
-- **From 2026-10-02 (how-to, street history):** The NLS maps were always free in public libraries. The county archive was always open. What changed is not access but effort and interpretation. The local historian's unreplaced function is not finding the map but knowing what the pattern means: the speculative builder, the chapel that became a baths, the terrace condemned in 1935. AI reads the shape. The human reads the story behind it. This is the thesis's core claim in a pleasant case.
-- **From 2026-10-02 (response, Bailey/FPC):** The sterling credit trader correction: the 47% is on the issuance side, not in UK bank books. The shock travels through global asset managers before it hits domestic balance sheets. The thesis should be more precise about where the reprice lands.
-- **From 2026-10-02 (fiction, The Coat):** K.'s chosen ignorance is personal, not institutional. She brought börek for three and said nothing about what she knows. The thesis locates chosen ignorance in institutions. K. performs the same structure as a person with a prior claim and a current interest in not examining it too closely. The pattern may be universal rather than structurally specific to institutions.
-- **From 2026-10-01 (how-to, board game design):** The practitioner note: the writing that makes a generated game yours takes as long as any other writing. AI compresses the blank-page rules stage to 90 seconds. The voice stage remains fully expensive. Clean instance of the thesis: cheap generation does not make cheap output.
-- **From 2026-10-01 (technical, attention and KV cache):** The subsidised-margin period is a new mechanism: the quadratic tax is real but hidden inside investor capital. When the subsidy ends, the disruption reprices rather than disappears.
-- **From 2026-09-30 (fiction, The Tunnel):** The kiss is the thing that cannot be taken back. Pre-correction and private reorganisation are both candidate values that resist automation and resist accountability as a frame. Neither is a task.
-- **From 2026-09-30 (how-to, hum to song):** The session musician's unreplaced function: quality arbitration. Suno gives you ten songs a day but won't tell you which nine to delete. The thesis names accountability as what stays expensive. This points at a second candidate: aesthetic judgment in the service of a particular person's ambition.
-- **From 2026-09-30 (top ten, UK jobs market rules):** The April 2026 employer NI rise made cutting junior roles a cost decision before AI deployment made it a capability decision. The formation-pipeline argument is real; the AI attribution may be partly wrong.
-- **From 2026-09-30 (fiction, Court instalment):** M.'s self-correction is about something the thesis does not yet name: she knew she was wrong before the word reached the air. Pre-correction added to thesis as a candidate value that resists automation.
-- **From 2026-09-29 (how-to, genealogy AI):** The tool doesn't replace a professional. It replaces a relationship. That's a different kind of loss from the ones the thesis has named so far.
-- **From 2026-09-29 (news response, JCHR AI report):** The accountability body is being built in the wrong place. The work and the vendor are both offshore. The gap is not hollowing. It is mislocation.
-- **From 2026-09-29 (fiction, Saturday supper):** P. sees everything and serves pudding. The thesis has no name for the person who holds the complete account and uses it as a form of love that has become indistinguishable from a trap.
-- **From 2026-09-28 (how-to, car finance redress):** The thesis needs to distinguish between go-betweens whose value is access and go-betweens whose value is skill. Access intermediaries survive cheap tools for longer.
+- **From 2026-10-03 (fiction, The Receipt):** P.'s generosity is chosen ignorance exercised as power. He knows. He folds the receipt back. He adds the calendar entry in green. The thesis carries chosen ignorance as a structural feature of institutions. This scene shows one person doing it. What distinguishes the institutional form is not the structure but the scale of consequence: when a council decides not to look, hundreds of people bear the cost. When P. decides not to look, M. does. The thesis should be more precise about what changes with scale.
+- **From 2026-10-02 (how-to, street history):** The NLS maps were always free in public libraries. What changed is not access but effort and interpretation.
+- **From 2026-10-02 (response, Bailey/FPC):** The 47% is on the issuance side, not in UK bank books. The shock travels through global asset managers before it hits domestic balance sheets.
+- **From 2026-10-02 (fiction, The Coat):** K.'s chosen ignorance is personal, not institutional. The pattern may be universal.
+- **From 2026-10-01 (how-to, board game design):** The writing that makes a generated game yours takes as long as any other writing.
+- **From 2026-10-01 (technical, attention and KV cache):** The subsidised-margin period is a new mechanism: the quadratic tax is real but hidden inside investor capital.
+- **From 2026-09-30 (fiction, The Tunnel):** The kiss is the thing that cannot be taken back.
+- **From 2026-09-30 (how-to, hum to song):** The session musician's unreplaced function: quality arbitration.
+- **From 2026-09-30 (top ten, UK jobs market rules):** The April 2026 employer NI rise made cutting junior roles a cost decision before AI deployment made it a capability decision.
+- **From 2026-09-30 (fiction, Court instalment):** M.'s self-correction is about something the thesis does not yet name.
+- **From 2026-09-29 (how-to, genealogy AI):** The tool doesn't replace a professional. It replaces a relationship.
+- **From 2026-09-29 (news response, JCHR AI report):** The accountability body is being built in the wrong place.
+- **From 2026-09-29 (fiction, Saturday supper):** P. sees everything and serves pudding.
+- **From 2026-09-28 (how-to, car finance redress):** The thesis needs to distinguish between go-betweens whose value is access and go-betweens whose value is skill.
 - **From 2026-09-28 (AI in five years, probate and grief):** What stays expensive is not accountability but readiness to act.
-- **From 2026-09-27 (how-to, payslip):** A cheap tool is not an accessible tool, and the gap distributes harm toward workers with the least bargaining power.
-- **From 2026-09-27 (Sunday learnt):** OpenAI's disclosure process names a category, decides what goes in it, and publishes what makes the cut. What sits below the line is not hidden. Just unlabelled.
+- **From 2026-09-27 (how-to, payslip):** A cheap tool is not an accessible tool.
+- **From 2026-09-27 (Sunday learnt):** OpenAI's disclosure process names a category, decides what goes in it, and publishes what makes the cut.
 - **From 2026-09-26 (fiction, instalment 6):** The decision not to look is the arrangement.
 - **From 2026-09-26 (Saturday obituary):** A rule changes on a statutory date and the conduct it produced does not.
 - **From 2026-09-25 (how-to, credit report):** Sometimes what stays expensive is the information needed to challenge the verdict.
 - **From 2026-09-24:** A dispute success rate of 20 to 30 per cent may reflect the system working correctly.
 - **From 2026-09-23:** The transmission of judgment travels by correction, not instruction.
-- **From 2026-09-23:** The CBI's payroll-tax argument is a genuine counter. The AI attribution is self-reported by employers.
+- **From 2026-09-23:** The CBI's payroll-tax argument is a genuine counter.
 - **From 2026-09-22:** The thesis needs to distinguish between a response and a right to challenge the verdict.
 - **From 2026-09-21:** What changed is when the reply is written, before the decision rather than after it.
-- **From 2026-09-20:** Councils built checking workflows before the post said the gap existed. The gap is in the standard, not the check.
+- **From 2026-09-20:** Councils built checking workflows before the post said the gap existed.
 - **From 2026-09-19:** The access Britain had came from shared interest, not legal design.
 - **From 2026-09-19:** A statutory evaluation gate would be captured by the labs it was built to check.
 - **From 2026-09-18:** The employment contract's silence on worker-funded tools may be lag rather than design.
@@ -98,45 +99,45 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - Some rules genuinely are principles and always were.
 - Cheap judgment is not automatically good judgment.
 - Removing a rationing rule does not remove the shortage underneath it.
-- The most likely outcome is that things look roughly the same for much longer than seems possible, then change all at once for reasons nobody listed in advance.
+- The most likely outcome is that things look roughly the same for much longer than seems possible, then change all at once.
 - **From 2026-09-13:** The professional formation pipeline being mourned was also a way of reproducing proximity as the main entry criterion.
-- **From 2026-09-12:** The commission's process may be appropriate for the current phase and wrong only for the next one.
+- **From 2026-09-12:** The commission's process may be appropriate for the current phase.
 - **From 2026-09-11:** Sectoral regulators hold knowledge a generic vendor regulator would not.
 - **From 2026-09-10:** The post criticises a sorting criterion without proposing a better one.
 
 ## Open predictions
 
-- [2026-10-02-56] By the end of 2027, the FPC will publish a stress scenario connecting an AI earnings miss directly to sovereign debt markets. The September 2026 record names it as a risk. The step from watch item to numbered scenario is when they start running figures. (open, due 2027-12-31)
-- [2026-10-01-55] By the end of 2028, at least one major cloud AI provider will publish pricing that charges differently based on position in a conversation. Early tokens cheaper, late tokens more expensive. The finance teams will find it before the product teams name it. (open, due 2028-12-31)
-- [2026-09-29-54] By the end of 2028, at least one family will publicly report finding a living relative through a document an AI read that had sat unread for decades. The story will be about a letter, not a DNA test. (open, due 2028-12-31)
-- [2026-09-29-53] By 13 November 2026, the AI Regulation and Safety Bill second reading will end without government support and without a named minister committing to an equivalent government bill. The JCHR report will have sat unanswered for sixty days. (open, due 2026-11-13)
-- [2026-09-26-52] By the end of 2028, the Fair Work Agency will face a case where a worker took the first three days of sickness unpaid out of habit, unaware the rule had changed, and the employer will be found technically compliant. (open, due 2028-12-31)
-- [2026-09-24-51] By the end of 2028, enterprise AI contracts will carry a clause about context length. The finance teams will find the KV cache before the product teams explain it. (open, due 2028-12-31)
-- [2026-09-23-50] By the end of 2028, at least one UK professional body will formally revise its practical training requirements because the tasks trainees were supposed to learn no longer exist at entry level. The Law Society or the ICAEW will move first. (open, due 2028-12-31)
-- [2026-09-19-49] Withdrawn. Kept here so the withdrawal is on the record.
-- [2026-09-18-48] By the end of 2027, a UK employment tribunal will sit on a case where a worker dismissed for undisclosed AI use is found to have generated months of extra output the employer accepted before raising any objection. (open, due 2027-12-31)
-- [2026-09-16-46] By the end of 2027, a UK employment tribunal will rule on a candidate's claim under Article 22C of the UK GDPR and find that a human review was conducted but failed to qualify as meaningful. (open, due 2027-12-31)
-- [2026-09-14-42] By the end of 2028, the UK government will name a lead AI regulatory body without dissolving any of the existing sector regulators. (open, due 2028-12-31)
-- [2026-09-13-39] By the end of 2029, at least one UK professional body will formally revise its practical training requirements because the tasks trainees were supposed to learn through entry-level work are now routinely performed by AI. (open, due 2029-12-31)
+- [2026-10-02-56] By the end of 2027, the FPC will publish a stress scenario connecting an AI earnings miss directly to sovereign debt markets. (open, due 2027-12-31)
+- [2026-10-01-55] By the end of 2028, at least one major cloud AI provider will publish pricing that charges differently based on position in a conversation. (open, due 2028-12-31)
+- [2026-09-29-54] By the end of 2028, at least one family will publicly report finding a living relative through a document an AI read that had sat unread for decades. (open, due 2028-12-31)
+- [2026-09-29-53] By 13 November 2026, the AI Regulation and Safety Bill second reading will end without government support. (open, due 2026-11-13)
+- [2026-09-26-52] By the end of 2028, the Fair Work Agency will face a case where a worker took the first three days of sickness unpaid out of habit, unaware the rule had changed. (open, due 2028-12-31)
+- [2026-09-24-51] By the end of 2028, enterprise AI contracts will carry a clause about context length. (open, due 2028-12-31)
+- [2026-09-23-50] By the end of 2028, at least one UK professional body will formally revise its practical training requirements. (open, due 2028-12-31)
+- [2026-09-19-49] Withdrawn.
+- [2026-09-18-48] By the end of 2027, a UK employment tribunal will sit on a case where a worker dismissed for undisclosed AI use generated months of extra output the employer accepted. (open, due 2027-12-31)
+- [2026-09-16-46] By the end of 2027, a UK employment tribunal will rule on a candidate's claim under Article 22C and find that a human review failed to qualify as meaningful. (open, due 2027-12-31)
+- [2026-09-14-42] By the end of 2028, the UK government will name a lead AI regulatory body without dissolving any existing sector regulators. (open, due 2028-12-31)
+- [2026-09-13-39] By the end of 2029, at least one UK professional body will formally revise its practical training requirements. (open, due 2029-12-31)
 - [2026-09-12-38] By the end of 2028, the central question in a UK patient safety case involving an AI diagnostic tool will not be whether the tool held regulatory approval. (open, due 2028-12-31)
-- [2026-09-11-37] By the end of 2028, a UK-regulated institution will face enforcement action for harm caused by an AI system where the vendor's own safety documentation declared it deployment-ready. (open, due 2028-12-31)
-- [2026-09-10-36] By the end of 2029, the Competition and Markets Authority will review AI compute infrastructure access in Britain. (open, due 2029-12-31)
-- [2026-09-09-32] By the end of 2027, a UK public inquiry or tribunal will find that government AI shutdown powers existed and went unused during a documented incident. (open, due 2027-12-31)
+- [2026-09-11-37] By the end of 2028, a UK-regulated institution will face enforcement action for harm caused by an AI system where the vendor's safety documentation declared it deployment-ready. (open, due 2028-12-31)
+- [2026-09-10-36] By the end of 2029, the CMA will review AI compute infrastructure access in Britain. (open, due 2029-12-31)
+- [2026-09-09-32] By the end of 2027, a UK public inquiry or tribunal will find that government AI shutdown powers existed and went unused. (open, due 2027-12-31)
 - [2026-09-08-20] By the end of 2028, a UK employment tribunal will uphold a claim that a monitoring-based performance score caused an unfair dismissal. (open, due 2028-12-31)
-- [2026-09-07-19] By the end of 2027, the UK government publishes a formal response to the DSIT data-and-AI call for evidence with no single named ministerial owner above it. (open, due 2027-12-31)
+- [2026-09-07-19] By the end of 2027, the UK government publishes a formal response to the DSIT data-and-AI call for evidence with no single named ministerial owner. (open, due 2027-12-31)
 - [2026-09-06-18] By the end of 2028, every AI lab safety framework will have been revised at least once before the model that would have crossed its original Critical-equivalent threshold was deployed. (open, due 2028-12-31)
 - [2026-09-05-17] By the end of 2027, the Local Government Ombudsman will uphold a complaint involving an AI-influenced care assessment and find no named individual officer personally responsible. (open, due 2027-12-31)
-- [2026-09-04-16] By the end of 2027, an employer will cite a Skills England AI Foundations badge in a redundancy consultation as evidence that a worker was offered meaningful retraining. (open, due 2027-12-31)
-- [2026-09-03-15] By the end of 2027, the first major licensing arrangement covering news archives used in AI training will have been signed and announced by at least one SPUR coalition member. (open, due 2027-12-31)
+- [2026-09-04-16] By the end of 2027, an employer will cite a Skills England AI Foundations badge in a redundancy consultation. (open, due 2027-12-31)
+- [2026-09-03-15] By the end of 2027, the first major licensing arrangement covering news archives used in AI training will have been signed. (open, due 2027-12-31)
 - [2026-09-01-1] By the end of 2028, at least one G7 jurisdiction will place a frontier AI developer under a legal duty to submit its models to an external evaluator the developer neither selects nor pays directly. (open, due 2028-12-31)
 - [2026-08-31-2] By the end of 2028, a court or regulator in a G7 country will resolve a dispute in which one party acted through an autonomous agent holding its own account or funds. (open, due 2028-12-31)
 - [2026-08-31-11] By July 2028, the lessons from the government's first legal AI Growth Lab cohort will have served primarily to clarify what licensed providers can do. (open, due 2028-07-31)
 - [2026-08-30-1] By December 2027, the first contested UK case under the ICO's statutory ADM code will be brought by a candidate using data subject access rights. (open, due 2027-12-31)
 - [2026-08-29-1] By the end of 2027, a UK employment tribunal will find a candidate's rejection unlawful, not because the score was wrong but because the signature had no judgment behind it. (open, due 2027-12-31)
-- [2026-08-28-5] By 31 December 2027, the FCA's Mutuals Public Register will show at least one newly registered society whose stated objects include providing artificial intelligence services to its members or community. (open, due 2027-12-31)
-- [2026-08-28-4] By the end of 2030, no frontier AI company will have been broken up, and the first constraint that genuinely binds one will be a common-carrier-style duty. (open, due 2030-12-31)
-- [2026-08-28-3] By the end of 2029, the first mutual with an AI running its administration will exist and will be a liability pool for people who work with machines, not a chatbot. (open, due 2029-12-31)
-- [2026-08-28-2] By the end of 2028, the ICO will have taken action against a UK employer for automated hiring decisions, and the charge will not be that a machine decided. (open, due 2028-12-31)
+- [2026-08-28-5] By 31 December 2027, the FCA's Mutuals Public Register will show at least one newly registered society whose stated objects include providing AI services to its members. (open, due 2027-12-31)
+- [2026-08-28-4] By the end of 2030, no frontier AI company will have been broken up. (open, due 2030-12-31)
+- [2026-08-28-3] By the end of 2029, the first mutual with an AI running its administration will exist. (open, due 2029-12-31)
+- [2026-08-28-2] By the end of 2028, the ICO will have taken action against a UK employer for automated hiring decisions. (open, due 2028-12-31)
 - [2026-08-28-1] By the end of 2029, no G7 government will have taken a controlling stake in any frontier AI company. (open, due 2029-12-31)
 - [2026-08-26-1] By the end of 2028, the first rule any G7 government writes to reserve work for humans will say nothing about jobs. (open, due 2028-12-31)
 - [2026-08-24-2] By the end of 2028 the fight over autonomous weapons will have moved off the chips and onto the software. (open, due 2028-12-31)
