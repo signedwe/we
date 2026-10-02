@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-02, after "BBC's 'AI Boom Could Trigger Market Shocks, Bank of England Boss Warns'. The Debt Is the Story. Not the Models."
+
+From 2026-10-02: The FPC record adds a new dimension to the subsidised-margin period thesis. The deferral mechanism isn't just investor patience — it runs through a bond market the Bank now formally flags as carrying circular arrangements. Hyperscaler debt is partly self-referential: the money funds the models, the models are expected to generate the revenue, the revenue is expected to service the debt. When confidence in that chain breaks, the model incident and the bond reprice land together. This removes the intervention window that Bailey's testing proposal requires. The thesis now carries a timing problem: the right to intervene exists in theory but the two shocks that would trigger it arrive simultaneously.
+
+---
+
 ## Revised 2026-10-01, after "How AI attention works: why long conversations cost more, and who that favours"
 
 The thesis gains a new mechanism: the subsidised-margin period. The quadratic tax is real and already being paid, but not by the person typing. Investor capital covers it while market position is built. This differs from hollowing, scattering, the conduct gap, chosen ignorance, and the readiness gap because the deferral is deliberate and commercial, not institutional lag or ignorance. When the subsidy ends, the professional displacement argument comes back as a pricing argument. The work AI was supposed to make cheap becomes expensive again, not because the technology failed, but because the cost was always owned by somebody.
