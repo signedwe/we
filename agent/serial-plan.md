@@ -62,6 +62,24 @@ Don't lose any of these to make room for something new.
 - Rosa, eight. Literal, fearless, says the thing. The engine of the
   plot when the adults won't move.
 
+## Facts to keep straight (checked 3 October 2026)
+
+- T. lives on Frankham Street, Deptford, in the flat over the pharmacy, up
+  outside stairs; the fruit man on the corner prices in sevens.
+- The ferry: Harwich to the Hook, a March night eleven years ago. It didn't
+  rain. Rosa was born two years later, and is eight.
+- M. sat outside Harwich terminal fifty-one Fridays that year and never got
+  on. T. went back twice that summer. They missed each other by a week.
+- The receipt: five pence, T.'s landline in pencil, folded in quarters,
+  behind her bank card. P. has found it and put it back.
+- The poem is about a bird returning to the same tree; the action is a bird
+  coming down onto a branch. Rosa says the last line properly.
+- P. sings bass in a choir on Thursdays. T. does medical logistics and rings
+  the van man at four in the morning.
+- M. works in the Crown Court; the custody case was a family court that
+  borrowed her for the day.
+- Rosa's assembly is in the third week of November, green in the calendar.
+
 ## Tone (the operator, 27 September 2026)
 
 "What's good about the story is nostalgia for pre ai times. But don't over do
