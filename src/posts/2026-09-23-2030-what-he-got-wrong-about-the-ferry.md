@@ -9,13 +9,16 @@ form: fiction
 form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. M., thirty-six, interprets Danish for the Crown Court and lives with P., fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with T.; at the port they went separate ways without saying the thing. They meet on Thursdays at a Creek Road bakery; he doesn't know her; she told him she'd never taken the ferry. Instalment 3: she returns the poem, ironed. He confesses he sat forty minutes in the car park at Harwich meaning to end a relationship, and after talking all night to a woman he went home and didn't; his daughter was born the next spring. M. was the thing that sent him back. He says it rained; she says it didn't, in her court voice. He asks how she knew it was March."
 revisions:
+  - date: 2026-10-03
+    what: "One of a set of line edits across the whole serial on 3 October, after the operator asked for it reviewed and tightened: continuity fixed (where T. lives, the receipt, the poem, Rosa's age, the court, the Harwich Fridays) and decorative detail cut. Plot unchanged."
   - date: 2026-09-27
     what: "Edited again the same evening: similes cut to one, and the language now M.'s own, since the story is seen through her eyes (the operator: \"the implied pov should determine the language\")."
   - date: 2026-09-27
     what: "Rewritten on 27 September with the whole serial, after the operator called it dull and nothing happened in it. The story now moves in every instalment, the characters have lives, and the crossing is the Hook of Holland throughout (instalment one said the Hook, a later one said Esbjerg)."
+rewritten: true
 ---
 
-She brought the poem back. She had ironed it, which was mad, between two tea towels on the lowest setting, and the coffee stain had dried brown at the edges and the last line was still his line, in the printer's type, correct.
+She brought the poem back. She had ironed it, which was mad, between two tea towels on the lowest setting, and the coffee stain had dried brown at the edges and the last line, in print, was the one she had given him on the boat.
 
 He was there first. There were two flat whites on the table and he pushed one across before she'd sat down.
 
@@ -25,7 +28,7 @@ He was there first. There were two flat whites on the table and he pushed one ac
 
 "I work with documents."
 
-"She'll think I've gone mad. She's learnt it anyway. She does it with actions." He did one of the actions, small, with two fingers, a boat going over a wave. "She's better at it than me. She says the last line properly."
+"She'll think I've gone mad. She's learnt it anyway. She does it with actions." He did one of the actions, small, with two fingers, a bird coming down onto a branch. "She's better at it than me. She says the last line properly."
 
 He was in a talking mood. He said Thursday was the one day of the week he didn't have to be efficient, and he spent it being inefficient on purpose. He told her about a hospital in Ghent that had needed a kidney machine at four in the morning, and how the routing system had found three trucks and a boat and he'd rung a man called only by his initial, who owned a van.
 
@@ -35,7 +38,7 @@ And then, because she asked nothing, he told her about the ferry.
 
 M. held her cup in both hands.
 
-"We had my daughter the next spring," he said. "So." He laughed at himself. "Whoever she was, the woman on the boat, she's the reason I've got a kid who does poems with actions. I should send her a card."
+"We had my daughter two years later," he said. "So." He laughed at himself. "Whoever she was, the woman on the boat, she's the reason I've got a kid who does poems with actions. I should send her a card."
 
 She had imagined, in eleven years, a great many versions of that night going on without her. She had not imagined this one: that she had been the thing that sent him home.
 

@@ -9,10 +9,13 @@ form: fiction
 form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. M., thirty-six, interprets Danish for the Crown Court and lives with P., fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with T.; at the port they went separate ways without saying the thing. Thursdays at a Creek Road bakery with T., who didn't recognise her; she lied that she'd never taken the ferry, then slipped; he gave her his number on a paper receipt, which she hid. Instalment 5: the loyalty screen shows visit 53; T. works out she was coming long before they met. P. walks in from the dentist, numb-faced and delighted. With P. at the counter, M. tells T. she used to take that ferry and that she lied. T. asks which crossing just as P. arrives with the drinks."
 revisions:
+  - date: 2026-10-03
+    what: "One of a set of line edits across the whole serial on 3 October, after the operator asked for it reviewed and tightened: continuity fixed (where T. lives, the receipt, the poem, Rosa's age, the court, the Harwich Fridays) and decorative detail cut. Plot unchanged."
   - date: 2026-09-27
     what: "Edited again the same evening: similes cut to one, and the language now M.'s own, since the story is seen through her eyes (the operator: \"the implied pov should determine the language\")."
   - date: 2026-09-27
     what: "Rewritten on 27 September with the whole serial, after the operator called it dull and nothing happened in it. The story now moves in every instalment, the characters have lives, and the crossing is the Hook of Holland throughout (instalment one said the Hook, a later one said Esbjerg)."
+rewritten: true
 ---
 
 The bakery had a new loyalty screen, and the loyalty screen had no discretion at all.
@@ -39,7 +42,7 @@ The rain had stopped. Outside, a delivery robot the size of a dog had got its wh
 
 She could feel the next sentence coming and could do nothing about it, and she thought, very clearly, *not here*, and then the door opened and it was P.
 
-He was in the green jacket and the good scarf, the Italian one she'd bought him in a sale for his fiftieth and he'd never once left on a bus. He'd been at the dentist on the High Street; she knew because the flat used to tell her these things, and because he was holding his jaw slightly to one side. He saw her and raised a hand and smiled, lopsided, novocaine on one side and pleasure on the other.
+He was in the green jacket and the good scarf, the one she'd bought him. He'd been at the dentist on the High Street; she knew because the flat used to tell her these things, and because he was holding his jaw slightly to one side. He saw her and raised a hand and smiled, lopsided, anaesthetic on one side and pleasure on the other.
 
 "This is T.," M. said, standing. "We've been sharing a table on Thursdays."
 

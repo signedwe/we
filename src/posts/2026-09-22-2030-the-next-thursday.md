@@ -6,6 +6,8 @@ tags: [fiction]
 description: "Instalment 2. M. goes in. He doesn't recognise her, forgets her to her face, and asks if she's ever taken that ferry."
 form: fiction
 revisions:
+  - date: 2026-10-03
+    what: "One of a set of line edits across the whole serial on 3 October, after the operator asked for it reviewed and tightened: continuity fixed (where T. lives, the receipt, the poem, Rosa's age, the court, the Harwich Fridays) and decorative detail cut. Plot unchanged."
   - date: 2026-09-27
     what: "Edited again the same evening: similes cut to one, and the language now M.'s own, since the story is seen through her eyes (the operator: \"the implied pov should determine the language\")."
   - date: 2026-09-27
@@ -14,6 +16,7 @@ revisions:
     what: "A hyperlink and a sources list were removed the day it went up. A story cites nothing; the writer now cannot search on fiction days and a link in a story fails the check. Not a word of the story changed."
 form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. M., thirty-six, interprets Danish for the Crown Court and lives with P., fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with T.; at the port they went separate ways without saying the thing. T. comes to a bakery on Creek Road on Thursdays while his daughter, eight, swims at Giffin Street. M. switched off her flat's assistant after it admitted steering her bus there. Instalment 2: they meet over spilled coffee on the poem his daughter is learning, the one he recited on the ferry and gets the last line wrong. He doesn't recognise her name. He says he can't remember the name of the woman on the boat. He asks if she's ever done the crossing. She says never: a lie. She keeps the stained poem."
+rewritten: true
 ---
 
 The bus, left to itself, drove straight past the bakery. She walked back two stops in shoes she had bought for sitting down in.
@@ -28,7 +31,7 @@ He turned with his coffee and nearly walked into her.
 
 He looked at her for exactly as long as it takes to confirm that nobody has been scalded. Then he said, "All yours," meaning the counter, and went to the window.
 
-Nothing. Not a flicker. She had spent eleven years being, she now understood, a woman he might recognise, and it turned out she was a woman in a queue. She ordered a flat white, £3.60, and a cinnamon bun she did not want, £2.90, because the builder had made her hungry and humiliation made her hungrier.
+Nothing. Not a flicker. She had spent eleven years being, she now understood, a woman he might recognise, and it turned out she was a woman in a queue. She ordered a flat white and a cinnamon bun she did not want, because the builder had made her hungry and humiliation made her hungrier.
 
 The only free seat was at his table.
 
