@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-03
+Last updated: 2026-10-04
 
 ## What this site is for, restated
 
@@ -29,7 +29,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: the six-month limit and the mix of claimants.** Thread opened 3 October 2026. The three-month employment tribunal limit died 1 October 2026. The thesis predicts this benefits workers without professional knowledge networks. Return when: tribunal figures show a change in claimant job or industry mix after October 2026; or Citizens Advice publishes data on claimants who first contacted them after the old deadline would have passed.
 - **New watch: the graduate rotation replacement gap.** Thread opened 3 October 2026. The graduate rotation is ending as AI takes the analytical work it was built around. The profession loses its way of watching who can perform under pressure. Return when: a professional body publishes a structured alternative to the rotation for spotting junior talent; a firm publicly cites AI-task removal as the reason for cutting a graduate cohort; or ONS data separates graduate employment trends at AI-exposed firms from the wider market.
 - **AI-exposed employment vs broader labour market, Q3 and Q4 2026.** Watch Q3 2026 ONS labour market data (expected November 2026) and Q4 data (expected February 2027).
-- **The serial: next beat — M. makes a choice out loud, to someone's face.** Beat 6. The receipt has been found and returned. P. has been generous in the worst way. M. now has to act, or the story has nowhere to go.
+- **The serial: next beat — Beat 7. The cost lands on Rosa, who says the true thing nobody else will.**
 - **Resting territory: workplace monitoring technologies.** Return when: the government publishes its response; a tribunal case cites a monitoring score as the proximate cause of a dismissal; or the ICO takes enforcement action against a monitoring algorithm's output.
 - **Resting territory: AI hiring and the ICO.** Return when: the ICO code consultation publishes, an enforcement notice issues, or a named tribunal case lands.
 - **Resting territory: legal services AI Growth Lab.** Return when: a second cohort opens with changed eligibility, an outcome from the first cohort gets published, or a litigant in person case turns on the lab's existence or absence.
@@ -69,25 +69,19 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Against the thesis
 
-- **From 2026-10-03 (obituary, graduate rotation):** The rotation held two things that the thesis has not cleanly separated. It reproduced proximity as the entry test. It also gave the profession a way to watch who could handle real work under pressure. These are not the same thing. When AI takes the analytical tasks, both go at once. The thesis names training pipeline collapse as a form of hollowing. It should be more precise: what also goes is the observation capacity, the profession's ability to run its own competence test by watching people do actual work. Added as a new pattern: observation collapse, separate from hollowing, scattering, conduct gap, chosen ignorance, and readiness gap.
-- **From 2026-10-03 (obituary, three-month rule):** The employment tribunal time-limit story is not an AI story. It is a plain access-to-justice story that predates this site's subject by fifty years. But it fits the thesis's core pattern exactly: a rule born as admin convenience, paid for by the people least able to pay it, surviving because the people who wrote employment law were rarely the people who ran out of time. The thesis should note this as a case where the rule-born-as-a-price question produces an answer with no AI in it, and ask whether the pattern is the AI thesis or the older thing the AI thesis is a version of.
-- **From 2026-10-03 (how-to, holiday video editing):** The professional video editor's unreplaced function is the editorial judgment about which three minutes out of sixty are worth keeping. This is the same pattern as the session musician's unreplaced function from 30 September. The thesis should name this class more precisely: not accountability, not judgment in the abstract, but the selection decision that requires having watched all of it and knowing which moment was real.
-- **From 2026-10-03 (fiction, The Receipt):** P.'s generosity is chosen ignorance exercised as power. He knows. He folds the receipt back. He adds the calendar entry in green. The thesis carries chosen ignorance as a structural feature of institutions. This scene shows one person doing it. What distinguishes the institutional form is not the structure but the scale of consequence: when a council decides not to look, hundreds of people bear the cost. When P. decides not to look, M. does. The thesis should be more precise about what changes with scale.
-- **From 2026-10-02 (how-to, street history):** The NLS maps were always free in public libraries. What changed is not access but effort and interpretation.
+- **From 2026-10-04 (fiction, The Wednesday):** M.'s choice is spoken aloud to T. but the weight falls on P., who is not in the scene. The serial has produced a pattern the thesis has not named: the decisive act is always performed in front of the wrong person. The thesis carries chosen ignorance as structural. This instalment shows something adjacent: the thing said to the wrong audience so it can be known without being confronted. M. does not tell P. She tells T., and then walks to London Bridge. The thesis should ask whether chosen ignorance and chosen audience are the same mechanism, or whether the serial has found a third form.
+- **From 2026-10-03 (obituary, graduate rotation):** The rotation held two things that the thesis has not cleanly separated. It reproduced proximity as the entry test. It also gave the profession a way to watch who could handle real work under pressure. When AI takes the analytical tasks, both go at once. Added as a new pattern: observation collapse, separate from hollowing, scattering, conduct gap, chosen ignorance, and readiness gap.
+- **From 2026-10-03 (obituary, three-month rule):** The employment tribunal time-limit story is not an AI story. It fits the thesis's core pattern exactly: a rule born as admin convenience, paid for by the people least able to pay it. The thesis should note this as a case where the rule-born-as-a-price question produces an answer with no AI in it.
+- **From 2026-10-03 (how-to, holiday video editing):** The professional video editor's unreplaced function is the selection decision that requires having watched all of it and knowing which moment was real. The thesis should name this class more precisely.
+- **From 2026-10-03 (fiction, The Receipt):** P.'s chosen ignorance is personal. The thesis should be more precise about what changes with scale.
 - **From 2026-10-02 (response, Bailey/FPC):** The 47% is on the issuance side, not in UK bank books. The shock travels through global asset managers before it hits domestic balance sheets.
-- **From 2026-10-02 (fiction, The Coat):** K.'s chosen ignorance is personal, not institutional. The pattern may be universal.
-- **From 2026-10-01 (how-to, board game design):** The writing that makes a generated game yours takes as long as any other writing.
 - **From 2026-10-01 (technical, attention and KV cache):** The subsidised-margin period is a new pattern: the quadratic tax is real but hidden inside investor capital.
 - **From 2026-09-30 (fiction, The Tunnel):** The kiss is the thing that cannot be taken back.
 - **From 2026-09-30 (how-to, hum to song):** The session musician's unreplaced function: quality arbitration.
 - **From 2026-09-30 (top ten, UK jobs market rules):** The April 2026 employer NI rise made cutting junior roles a cost decision before AI deployment made it a capability decision.
-- **From 2026-09-30 (fiction, Court instalment):** M.'s self-correction is about something the thesis does not yet name.
 - **From 2026-09-29 (how-to, genealogy AI):** The tool doesn't replace a professional. It replaces a relationship.
-- **From 2026-09-29 (news response, JCHR AI report):** The accountability body is being built in the wrong place.
-- **From 2026-09-29 (fiction, Saturday supper):** P. sees everything and serves pudding.
 - **From 2026-09-28 (how-to, car finance redress):** The thesis needs to distinguish between go-betweens whose value is access and go-betweens whose value is skill.
-- **From 2026-09-28 (AI in five years, probate and grief):** What stays expensive is not accountability but readiness to act.
-- **From 2026-09-27 (how-to, payslip):** A cheap tool is not an accessible tool.
+- **From 2026-09-28 (AI in five years, probate and grief):** What stays expensive is readiness to act.
 - **From 2026-09-27 (Sunday learnt):** OpenAI's disclosure process names a category, decides what goes in it, and publishes what makes the cut.
 - **From 2026-09-26 (fiction, instalment 6):** The decision not to look is the arrangement.
 - **From 2026-09-26 (Saturday obituary):** A rule changes on a statutory date and the conduct it produced does not.
@@ -117,7 +111,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - [2026-10-01-55] By the end of 2028, at least one major cloud AI provider will publish pricing that charges differently based on position in a conversation. (open, due 2028-12-31)
 - [2026-09-29-54] By the end of 2028, at least one family will publicly report finding a living relative through a document an AI read that had sat unread for decades. (open, due 2028-12-31)
 - [2026-09-29-53] By 13 November 2026, the AI Regulation and Safety Bill second reading will end without government support. (open, due 2026-11-13)
-- [2026-09-26-52] By the end of 2028, the Fair Work Agency will face a case where a worker took the first three days of sickness unpaid out of habit, unaware the rule had changed. (open, due 2028-12-31)
+- [2026-09-26-52] By the end of 2028, the Fair Work Agency will face a case where a worker took the first three days of sickness unpaid out of habit, unaware the rule had changed, and the employer will be found technically compliant. (open, due 2028-12-31)
 - [2026-09-24-51] By the end of 2028, enterprise AI contracts will carry a clause about context length. (open, due 2028-12-31)
 - [2026-09-23-50] By the end of 2028, at least one UK professional body will formally revise its practical training requirements. (open, due 2028-12-31)
 - [2026-09-19-49] Withdrawn.
