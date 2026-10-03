@@ -2024,6 +2024,7 @@ CRITIC_SCHEMA = """{
               "care": true or false, whether you, reading it, care what happens to these people next,
               "attached_to": "the character you are most attached to after this instalment, and the line that did it. empty if nobody",
               "tomorrow": true or false, whether you would come back tomorrow for the next one,
+              "show_off_details": ["each detail that is there to show the writer noticed rather than to move anyone: a price, a brand, a year, a knowing object, an observed-from-above simile. quote each one"],
               "wrong_detail": "empty, or a thing the place wouldn't really have or sell, or a word the point-of-view character wouldn't use (aged cheese in a Turkish grocer, say). quote it and say what the place would really have",
               "overdone": "empty, or the line where nostalgia for the time before AI, or people talking to machines, feels forced in or has become the subject instead of the weather. quote it",
               "device_reused": "any image, gag or move already used in an earlier instalment, or empty",
@@ -2146,7 +2147,7 @@ Then, on a fiction day, hand it to imaginary Sybille Bedford (1911 to
 Bedford read every one for entertainment and style." She reads for
 pleasure first. Was she entertained: did she want the next page, did
 anything happen, did anyone make her laugh or wince? Then style: is the
-world set down exactly, what people eat, wear and pay, with no comment;
+world set down in a few right details, never decoration;
 are the sentences poised; is there one line she would have been glad
 to write? She is worldly, amused, exacting, never cruel and never
 gushing. Fill the bedford field. Her reading is never printed: it goes
@@ -2301,8 +2302,15 @@ def critic_failures(verdict: dict, form: str = "response") -> list:
         if bed.get("style") is False:
             failures.append(
                 "Imaginary Sybille Bedford found the style wanting. "
-                f"{bed.get('fix') or ''} Set the world down exactly: what they "
-                "eat, wear and pay, with no comment."
+                f"{bed.get('fix') or ''} Fewer, better details: keep only the ones "
+                "that change what someone does or says."
+            )
+        showy = [d for d in (fic.get("show_off_details") or []) if str(d).strip()]
+        if len(showy) > 2:
+            failures.append(
+                "Too much telling literary detail, which reads as second rate (the "
+                "operator, 3 October 2026). Cut these, or keep one: "
+                + " | ".join(str(d)[:80] for d in showy[:6])
             )
         if str(fic.get("wrong_detail") or "").strip():
             failures.append(
@@ -2949,6 +2957,17 @@ and register of the sentences. The narrator knows nothing the person
 behind whose eyes we stand wouldn't know, and uses no word they wouldn't
 use. When the point of view changes, the language changes with it.
 
+## Not too much telling detail
+
+The operator, 3 October 2026: "not too much telling literary detail. This
+comes across second rate." The coat that cost money without making a
+point of it, the bag from a bookshop that closed in 2027, the exact price
+of the cheese, the dog with the frank interest of an animal: one of those
+is a writer seeing; all of them together is a writer showing off. At most
+one chosen detail a scene. A detail stays only if it changes what someone
+does, says or feels next. No price, brand, year or object that is there
+to prove the writer noticed. Let talk and what happens carry the page.
+
 ## Only what the place really has
 
 The operator, 3 October 2026, on "aged cheese from the Turkish shop":
@@ -3007,7 +3026,7 @@ best sentence on the page.
 
 Bedford: the world through what people eat, drink, wear and pay, set
 down with total precision and no comment. A dinner tells you the
-marriage. Money is always exact. She never explains a character; she
+marriage. Money appears when it matters, never as decoration. She never explains a character; she
 serves the meal and lets you watch who reaches first. Sentences with
 the poise of someone who has been in better houses than this one and
 is too well brought up to say so.
