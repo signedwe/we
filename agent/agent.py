@@ -2719,6 +2719,43 @@ def recent_shapes(n: int = 3) -> list:
     return out
 
 
+# 3 October 2026, the operator: "Aren't the last two obituaries basically the
+# same thing". They were: two UK employment rules killed by the same Act, the
+# same "born as admin convenience" arc, the same warehouse worker. And neither
+# had anything to do with AI. Show the writer the last ones, bar their sources
+# and laws, and make the cause of death a machine.
+def recent_obituaries(n: int = 4) -> list:
+    out = []
+    for f in posts_by_date()[::-1]:
+        if "obituary" not in f.name:
+            continue
+        text = f.read_text(encoding="utf-8")
+        title = re.search(r'^title:\s*"?(.+?)"?\s*$', text, re.MULTILINE)
+        desc = re.search(r'^description:\s*"?(.+?)"?\s*$', text, re.MULTILINE)
+        out.append({"title": title.group(1) if title else f.name,
+                    "description": desc.group(1) if desc else "",
+                    "urls": set(re.findall(r"https?://[^\s)\]\"']+", text)),
+                    "acts": set(re.findall(r"\b((?:[A-Z][a-z]+ ){1,5}Act)\b", text))})
+        if len(out) >= n:
+            break
+    return out
+
+
+def check_obituary_is_different(text: str) -> list:
+    fails = []
+    urls = set(re.findall(r"https?://[^\s)\]\"']+", text))
+    acts = set(re.findall(r"\b((?:[A-Z][a-z]+ ){1,5}Act)\b", text))
+    for o in recent_obituaries():
+        shared = (urls & o["urls"]) - {""}
+        shared_acts = acts & o["acts"]
+        if shared or shared_acts:
+            fails.append(
+                f"Too close to the obituary '{o['title']}': it shares "
+                + ", ".join(sorted(shared_acts) + sorted(shared)[:3])
+                + ". Bury something from a different field, killed by something else.")
+    return fails
+
+
 SERIAL_PLAN = ROOT / "agent" / "serial-plan.md"
 
 
@@ -3131,6 +3168,20 @@ on it and hasn't noticed), and the funeral arrangements (what replaces
 it, and who holds that). Fond where it deserves it. Merciless where it
 doesn't. Nobody living is the deceased: the dead thing is a rule or an
 arrangement, never a person or a named company.
+
+The cause of death is AI. Not a new law, not a court, not a budget: a
+thing machines now do, cheaply or instantly or for everyone, that left the
+rule, job or arrangement with no reason to exist. If a law changed too, the
+law is the death certificate, not the killer.
+
+Not the same funeral twice. These are the last obituaries:
+
+""" + "\n".join(f"- {o['title']}: {o['description']}" for o in recent_obituaries()) + """
+
+Pick a different field from every one of them, and a different shape of
+life: if they were "born as admin convenience, really shifted a cost onto
+the weak", yours isn't. No stock character they used (no warehouse worker
+if one appeared). Don't reuse their laws or their sources.
 
 Rules for this form. The cause of death is real and linked: the story,
 the number, the decision from this week that killed it. Dates and
@@ -3732,6 +3783,8 @@ def main() -> int:
             failures += check_invented_names(post["body"])
         if FORM == "fiction":
             failures += check_similes(post["body"])
+        if FORM == "obituary":
+            failures += check_obituary_is_different(post["body"] + "\n" + str(post.get("sources") or ""))
         if FORM != "fiction":
             failures += check_ask_motif(post.get("title"), post.get("description"),
                                         post["body"])
