@@ -2060,6 +2060,10 @@ def critique(client, post: dict, voices: list, previous: list, brief: str) -> di
         f"Imaginary {v['thinker']}: {v['argument']}" for v in voices
     ) or "(no voices in this post)"
     prior = "\n\n---\n\n".join(p.strip()[:1200] for p in previous) or "(nothing published yet)"
+    if FORM == "fiction":
+        prior = ("The whole serial so far, every instalment in full. Judge today's "
+                 "against the shape of all of it: does it move the story, does it "
+                 "repeat anything, is everyone still themselves.\n\n" + whole_serial())
 
     prompt = f"""You are reading a draft for a site called WE. You did not write it and you owe it nothing.
 
@@ -2787,20 +2791,39 @@ def serial_plan() -> str:
     return SERIAL_PLAN.read_text(encoding="utf-8") if SERIAL_PLAN.exists() else "(no plan yet)"
 
 
+def whole_serial(max_words: int = 60000) -> str:
+    """Every instalment in full, in order (3 October 2026, the operator: "Are
+    you rereading the whole story each time to make sure we know the shape of
+    the story"). Until it passes max_words; after that the oldest go to their
+    titles and the summary carries them."""
+    done = posts_with_form("fiction")
+    parts, words = [], 0
+    for f in reversed(done):
+        text = f.read_text(encoding="utf-8")
+        body = text.split("\n---\n", 1)[1].strip() if "\n---\n" in text else text
+        title = re.search(r'^title:\s*"?(.+?)"?\s*$', text, re.MULTILINE)
+        t = title.group(1) if title else f.name
+        w = len(body.split())
+        parts.append(f"### {t}\n\n{body}" if words + w <= max_words
+                     else f"### {t}\n\n(too long to include; see the summary)")
+        words += w
+    return "\n\n".join(reversed(parts))
+
+
 def story_so_far() -> str:
-    """The serial: the last instalment in full and the running summary."""
+    """The serial: the running summary and every instalment in full."""
     done = posts_with_form("fiction")
     if not done:
         return ("(no instalment yet: this is the first. Invent the person, the "
                 "place and the year 2030, and start.)")
     last = done[-1].read_text(encoding="utf-8")
-    body = last.split("\n---\n", 1)[1] if "\n---\n" in last else last
     m = re.search(r'^serial_so_far:\s*"(.+?)"\s*$', last, re.MULTILINE)
     so_far = json.loads('"' + m.group(1) + '"') if m else "(no summary was kept)"
-    title = re.search(r'^title:\s*"?(.+?)"?\s*$', last, re.MULTILINE)
     return (f"Instalments so far: {len(done)}.\n\nThe story so far, as kept by "
-            f"the last instalment:\n{so_far}\n\nThe last instalment in full, "
-            f"'{title.group(1) if title else ''}':\n\n{body.strip()}")
+            f"the last instalment:\n{so_far}\n\nThe whole story so far, every "
+            f"instalment in full, in order. Read all of it before you write: know "
+            f"the shape, what each person wants, what has been said and done, and "
+            f"which images and jokes are already used.\n\n{whole_serial()}")
 
 
 def week_bodies() -> str:
