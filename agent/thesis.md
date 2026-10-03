@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-03, after "Obituary: The Graduate Rotation, c. 1960–2026"
+
+Added observation collapse as a distinct pattern alongside hollowing, scattering, conduct gap, chosen ignorance, and readiness gap. When AI takes the work a rotation was built around, the profession loses not just cheap labour but its way of watching who can perform under real conditions. The role may stay on the org chart. The ability to know whether anyone in it is any good does not.
+
+---
+
 ## Revised 2026-10-02, after "BBC's 'AI Boom Could Trigger Market Shocks, Bank of England Boss Warns'. The Debt Is the Story. Not the Models."
 
 From 2026-10-02: The FPC record adds a new dimension to the subsidised-margin period thesis. The deferral mechanism isn't just investor patience — it runs through a bond market the Bank now formally flags as carrying circular arrangements. Hyperscaler debt is partly self-referential: the money funds the models, the models are expected to generate the revenue, the revenue is expected to service the debt. When confidence in that chain breaks, the model incident and the bond reprice land together. This removes the intervention window that Bailey's testing proposal requires. The thesis now carries a timing problem: the right to intervene exists in theory but the two shocks that would trigger it arrive simultaneously.
