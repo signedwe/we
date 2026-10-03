@@ -2022,6 +2022,7 @@ CRITIC_SCHEMA = """{
               "explains": ["every sentence where the narrator tells the reader what to feel or explains the world. A character saying something true out loud is not explaining. quote each"],
               "what_happened": "the one thing said, done or found out in this instalment that cannot be taken back. empty if nothing did",
               "care": true or false, whether you, reading it, care what happens to these people next,
+              "wrong_detail": "empty, or a thing the place wouldn't really have or sell, or a word the point-of-view character wouldn't use (aged cheese in a Turkish grocer, say). quote it and say what the place would really have",
               "overdone": "empty, or the line where nostalgia for the time before AI, or people talking to machines, feels forced in or has become the subject instead of the weather. quote it",
               "device_reused": "any image, gag or move already used in an earlier instalment, or empty",
               "note_for_next_time": "one line, craft only, that would make the next instalment better than this one"},
@@ -2300,6 +2301,11 @@ def critic_failures(verdict: dict, form: str = "response") -> list:
                 "Imaginary Sybille Bedford found the style wanting. "
                 f"{bed.get('fix') or ''} Set the world down exactly: what they "
                 "eat, wear and pay, with no comment."
+            )
+        if str(fic.get("wrong_detail") or "").strip():
+            failures.append(
+                f"Wrong for the place: {fic['wrong_detail']} Put in only what "
+                "that shop, street or room really has, in the words of whoever is looking."
             )
         if str(fic.get("overdone") or "").strip():
             failures.append(
@@ -2933,6 +2939,18 @@ which come from that person's life, never from the writer's. The rhythm
 and register of the sentences. The narrator knows nothing the person
 behind whose eyes we stand wouldn't know, and uses no word they wouldn't
 use. When the point of view changes, the language changes with it.
+
+## Only what the place really has
+
+The operator, 3 October 2026, on "aged cheese from the Turkish shop":
+"You don't really get that usually in Turkish stores. You might get good
+feta. This is similar to the previous mistake." Every object in a scene
+must be one that place really sells, serves or holds. A Turkish grocer in
+Deptford has white cheese and feta, olives, sucuk, simit, börek, pomegranate
+molasses, not aged cheese. If you aren't sure a shop, pub, court or bus
+would have the thing, pick the ordinary thing it certainly has. A detail
+that rings false to someone who knows the street costs more than any
+detail gains.
 
 ## Make the reader care
 
