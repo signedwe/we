@@ -2022,6 +2022,8 @@ CRITIC_SCHEMA = """{
               "explains": ["every sentence where the narrator tells the reader what to feel or explains the world. A character saying something true out loud is not explaining. quote each"],
               "what_happened": "the one thing said, done or found out in this instalment that cannot be taken back. empty if nothing did",
               "care": true or false, whether you, reading it, care what happens to these people next,
+              "attached_to": "the character you are most attached to after this instalment, and the line that did it. empty if nobody",
+              "tomorrow": true or false, whether you would come back tomorrow for the next one,
               "wrong_detail": "empty, or a thing the place wouldn't really have or sell, or a word the point-of-view character wouldn't use (aged cheese in a Turkish grocer, say). quote it and say what the place would really have",
               "overdone": "empty, or the line where nostalgia for the time before AI, or people talking to machines, feels forced in or has become the subject instead of the weather. quote it",
               "device_reused": "any image, gag or move already used in an earlier instalment, or empty",
@@ -2311,6 +2313,13 @@ def critic_failures(verdict: dict, form: str = "response") -> list:
             failures.append(
                 f"Overdone: {fic['overdone']} Nostalgia and machines are the "
                 "weather, and only when the scene calls for them. Cut it or let it come naturally."
+            )
+        if not str(fic.get("attached_to") or "").strip() or fic.get("tomorrow") is False:
+            failures.append(
+                "The critic isn't attached to anyone, or wouldn't come back tomorrow. "
+                "The operator: the story must entertain and the reader must become "
+                "attached to the characters. Give someone a small, true moment that "
+                "is only theirs, warm or funny, and end on something that pulls."
             )
         if fic.get("care") is False:
             failures.append(

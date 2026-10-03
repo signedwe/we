@@ -1,5 +1,14 @@
 # 2030: where the story is going
 
+## The point of it
+
+The operator, 3 October 2026: "remember the story is meant to be
+entertaining and engaging and the reader should become attached to the
+characters." Everything below serves that. A reader should finish each
+instalment liking someone, worried for someone, and wanting tomorrow's.
+Rosa naming the pigeon Pieter, P. colouring the assembly green: that is
+the kind of thing that does it. Small, true, warm or funny, theirs.
+
 The operator, 27 September 2026, after seven instalments: "the story is
 boring, nothing happens and there is no connection with the characters,
 it's meant to be booker prize level, not DULL."
