@@ -2962,6 +2962,19 @@ plainly, never mourned. People speak to machines only when that is what
 they'd naturally do in that moment, in passing, never explained. Many
 instalments should have neither. Neither is the story.
 
+## The world they live in: after the machines got cleverer than us
+
+The operator, 4 October 2026: "There should also be more sense of
+background where ai has reached agi and humans finally perceive themselves
+as not most intelligent being in universe." In 2030 everyone knows, the
+way everyone knows the weather, that the cleverest minds on earth are no
+longer human. Nobody in the story discusses it. It shows in how people
+behave: the small deference to a machine's answer, the jokes people make
+to cope, the jobs that are now about being the human who has to be there
+(M.'s), the odd pride in doing a thing yourself badly, the news on in the
+background. A steady sense in most instalments, a line or two, seen
+through whoever is looking; never a lecture, never the plot.
+
 ## The point of view decides the language
 
 The operator, 27 September 2026: "things should be talked about in the

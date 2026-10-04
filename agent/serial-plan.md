@@ -61,6 +61,15 @@ Don't lose any of these to make room for something new.
   names nothing. Not a villain, ever. Wants: to be chosen, not kept.
 - Rosa, eight. Literal, fearless, says the thing. The engine of the
   plot when the adults won't move.
+- K.'s voice (the operator, 4 October 2026: give one character "more my
+  style of communication and humor", with none of his real details, job
+  or life). K. says it in as few words as possible. No preamble, no
+  softening. Asks the direct question, says dull when a thing is dull,
+  can't stand waffle or being told what she already knows, checks for the
+  simpler way before doing anything. Dry, deadpan humour that lands by
+  understatement. Changes her mind at once when shown she's wrong. Plain
+  with people because she trusts them to cope; generous underneath. She
+  is a lawyer's clerk turned project manager, nothing like the operator.
 
 ## Facts to keep straight (checked 3 October 2026)
 
@@ -79,6 +88,19 @@ Don't lose any of these to make room for something new.
 - M. works in the Crown Court; the custody case was a family court that
   borrowed her for the day.
 - Rosa's assembly is in the third week of November, green in the calendar.
+
+## The world they live in: after the machines got cleverer than us
+
+The operator, 4 October 2026: "There should also be more sense of
+background where ai has reached agi and humans finally perceive themselves
+as not most intelligent being in universe." In 2030 everyone knows, the
+way everyone knows the weather, that the cleverest minds on earth are no
+longer human. Nobody in the story discusses it. It shows in how people
+behave: the small deference to a machine's answer, the jokes people make
+to cope, the jobs that are now about being the human who has to be there
+(M.'s), the odd pride in doing a thing yourself badly, the news on in the
+background. A steady sense in most instalments, a line or two, seen
+through whoever is looking; never a lecture, never the plot.
 
 ## Tone (the operator, 27 September 2026)
 
