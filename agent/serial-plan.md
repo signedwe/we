@@ -114,25 +114,29 @@ his daughter to supper on Saturday; on Frankham Street Rosa calls her
 "the boat lady", T. admits the photo, they learn they missed each other
 at Harwich by a week, and M. sends P. her first lie.
 
-Next, in order:
+Also done (instalments 8 to 14, to 4 October): supper; court; the tunnel
+kiss; K. at T.'s flat; P. finds the receipt and puts it back; M. tells T.
+she's stopping; the assembly, where Rosa dedicates the poem to M., says
+"he was better when you came", P. lends M. to Rosa for Thursdays in public,
+and K. asks M. for coffee.
 
-1. Saturday supper. P. cooks the hake. Rosa, T., M., P. at one table,
-   every dish and bottle exact. Rosa does the poem with actions and says
-   the last line properly. Someone says something at the table that
-   can't be unsaid. P. sees everything and serves pudding.
-2. Court. M. interprets for a Danish father in a custody hearing (no
-   real case, no real people). His sentences about his child go through
-   her mouth.
-3. T. and M. alone for a whole afternoon: the Greenwich foot tunnel, the
-   river. They talk properly, it's funny, and they kiss or very nearly
-   do, and either way it happened.
-4. K., Rosa's mother, meets M. and is nothing like M. imagined.
-5. P. finds the receipt in her purse. Not a machine report: paper, the
-   one private thing. He does something generous that is worse than
-   anger.
-6. M. makes a choice out loud, to someone's face.
-7. The cost lands on Rosa, who says the true thing nobody else will.
-8. The ending: meant to be and aren't. Earned, not a twist.
+The operator, 4 October 2026, on the first draft of the assembly: "Too
+much boring chair stuff. And nothing is happening. It's dull." Every
+instalment needs an event in its first third, not furniture.
+
+Next, in order (reorder or improve, never stand still):
+
+1. Coffee with K. K. is nothing M. expected again: she has been offered a
+   job in Copenhagen from January and wants to take Rosa. She wants Rosa
+   to arrive speaking Danish, and she wants M. to teach her. She also
+   says one true thing about T. that M. didn't know.
+2. T. finds out about Copenhagen, and finds out M. knew first.
+3. The Thursday lessons: M. and Rosa, half an hour, seagulls and verbs,
+   funny. T. collects her. Nothing can happen and something does.
+4. P.'s choir Christmas concert. Everyone in one room. P. sings, and
+   afterwards, for the first time in the story, names one thing out loud.
+5. M. chooses, out loud, and pays for it.
+6. The ending: meant to be and aren't. Earned, not a twist.
 
 ## Rules this plan adds to the brief
 
