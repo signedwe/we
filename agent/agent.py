@@ -2972,8 +2972,10 @@ longer human. Nobody in the story discusses it. It shows in how people
 behave: the small deference to a machine's answer, the jokes people make
 to cope, the jobs that are now about being the human who has to be there
 (M.'s), the odd pride in doing a thing yourself badly, the news on in the
-background. A steady sense in most instalments, a line or two, seen
-through whoever is looking; never a lecture, never the plot.
+background. Only when the scene naturally holds it, seen through
+whoever is looking; never a lecture, never the plot. Not every
+instalment (the operator, the same day: "Each installment doesn't need
+an agi reference. That will make it forced"). Many should have none.
 
 ## The point of view decides the language
 
