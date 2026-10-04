@@ -3278,7 +3278,10 @@ This week's posts, in full:
 The critic's notes on them and the operator's notes are above, as always.
 
 Rules for this form. Link to the posts you mean (the site's own URLs are
-fine and expected). No responds_to. No derived number. No new bet. One
+fine and expected). For a fact a post already sourced, link that WE post,
+not the outside source: a link written from memory is a link that breaks
+(4 October 2026, a Bank of England address invented this way got the
+week's round-up held). No responds_to. No derived number. No new bet. One
 voice at most: the reader who followed all week and has one thing to say.
 """
     barred = recent_shapes()
