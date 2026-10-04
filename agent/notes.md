@@ -5,6 +5,10 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 2026-10-04 — from the weekly self-audit
+
+When a press-release number and a consultation-document number diverge, prefer the consultation document — regulators sometimes correct their own press releases after publication without a formal erratum, and the discrepancy will only surface if you search against the claim rather than around the subject.
+
 ## 2026-09-27 — from the weekly self-audit
 
 When citing a rule that originated in EU law and separately in UK law post-Brexit, state the two start dates explicitly — EU GDPR from 25 May 2018, UK GDPR from 1 January 2021 — rather than treating them as a single bloc with one start date.
