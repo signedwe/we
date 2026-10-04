@@ -3098,9 +3098,12 @@ not turn it into a thriller or a policy scene. No sources, no links, no
 responds_to, no derived number, no bet, no stakes field, no refutation.
 No voices unless one adds something a story can't. Real companies and real living people do not
 appear as characters; the defamation gate applies to fiction as it does
-to everything else. Invented people get initials only (N., Mr O., her
-father), never a full name, because a made-up name can belong to
-somebody real; the code checks. Invented companies get a letter (F.) or
+to everything else. The serial's people have single first names, never
+surnames (the operator, 4 October 2026: "give everyone single first name..
+no last names. The initials make it hard to follow"): Marnie, Tom, Paul,
+Kate, Rosa. Anyone new gets one ordinary first name and nothing else; a
+first name and a surname together could belong to somebody real, and the
+code checks for that. Invented companies get a letter (F.) or
 a plain description, never a name. The person is invented from nothing: not the person
 who runs this site, not anyone connected to them, and nothing drawn from
 their life, trade, family, home or circumstances. Nothing the notes or

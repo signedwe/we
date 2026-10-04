@@ -3,16 +3,18 @@ title: "2030: What He Got Wrong About the Ferry"
 date: 2026-09-23T15:37:28.464328+00:00
 layout: post.njk
 tags: [fiction]
-description: "Instalment 3. T. tells her what the night on the ferry did to his life, gets one detail wrong, and M. corrects him before she can stop herself."
-search_title: "2030 serial fiction Deptford: M. and T. meet in the bakery, the ferry story"
+description: "Instalment 3. Tom tells her what the night on the ferry did to his life, gets one detail wrong, and Marnie corrects him before she can stop herself."
+search_title: "2030 serial fiction Deptford: Marnie and Tom meet in the bakery, the ferry story"
 form: fiction
 form_label: "fiction: 2030"
-serial_so_far: "2030, Deptford. M., thirty-six, interprets Danish for the Crown Court and lives with P., fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with T.; at the port they went separate ways without saying the thing. They meet on Thursdays at a Creek Road bakery; he doesn't know her; she told him she'd never taken the ferry. Instalment 3: she returns the poem, ironed. He confesses he sat forty minutes in the car park at Harwich meaning to end a relationship, and after talking all night to a woman he went home and didn't; his daughter was born the next spring. M. was the thing that sent him back. He says it rained; she says it didn't, in her court voice. He asks how she knew it was March."
+serial_so_far: "2030, Deptford. Marnie, thirty-six, interprets Danish for the Crown Court and lives with Paul, fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with Tom; at the port they went separate ways without saying the thing. They meet on Thursdays at a Creek Road bakery; he doesn't know her; she told him she'd never taken the ferry. Instalment 3: she returns the poem, ironed. He confesses he sat forty minutes in the car park at Harwich meaning to end a relationship, and after talking all night to a woman he went home and didn't; his daughter was born the next spring. Marnie was the thing that sent him back. He says it rained; she says it didn't, in her court voice. He asks how she knew it was March."
 revisions:
+  - date: 2026-10-04
+    what: "4 October: the characters now have first names instead of initials (Marnie, Tom, Paul, Kate, Erik), because the initials made the story hard to follow. Nothing else changed."
   - date: 2026-10-03
-    what: "One of a set of line edits across the whole serial on 3 October, after the operator asked for it reviewed and tightened: continuity fixed (where T. lives, the receipt, the poem, Rosa's age, the court, the Harwich Fridays) and decorative detail cut. Plot unchanged."
+    what: "One of a set of line edits across the whole serial on 3 October, after the operator asked for it reviewed and tightened: continuity fixed (where Tom lives, the receipt, the poem, Rosa's age, the court, the Harwich Fridays) and decorative detail cut. Plot unchanged."
   - date: 2026-09-27
-    what: "Edited again the same evening: similes cut to one, and the language now M.'s own, since the story is seen through her eyes (the operator: \"the implied pov should determine the language\")."
+    what: "Edited again the same evening: similes cut to one, and the language now Marnie's own, since the story is seen through her eyes (the operator: \"the implied pov should determine the language\")."
   - date: 2026-09-27
     what: "Rewritten on 27 September with the whole serial, after the operator called it dull and nothing happened in it. The story now moves in every instalment, the characters have lives, and the crossing is the Hook of Holland throughout (instalment one said the Hook, a later one said Esbjerg)."
 rewritten: true
@@ -36,7 +38,7 @@ And then, because she asked nothing, he told her about the ferry.
 
 "I nearly didn't get on it," he said. "I sat in the car park at Harwich for forty minutes with the engine off. I was going over to end something. With someone. I'd been not-ending it for a year and I thought, one night on the water and I'll know." He turned the cup. "And I talked to this woman all night, and in the morning I knew all right. I drove off the boat and went straight back round to the ticket office and came home and didn't end it."
 
-M. held her cup in both hands.
+Marnie held her cup in both hands.
 
 "We had my daughter two years later," he said. "So." He laughed at himself. "Whoever she was, the woman on the boat, she's the reason I've got a kid who does poems with actions. I should send her a card."
 
@@ -60,7 +62,7 @@ He stared at her for a long second. Then he laughed, properly, head back, and a 
 
 "That," he said, "is the least true thing anyone's ever said to me."
 
-"Yes," M. said.
+"Yes," Marnie said.
 
 He went on looking at her, still smiling, but with something else behind the smile now, the look of a witness who has just heard his own statement read back and isn't sure it's his. At twenty past, his phone made the small sound that meant his daughter was out of the water. He stood, and picked up the bag, and the whale.
 
