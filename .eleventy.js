@@ -120,10 +120,10 @@ module.exports = function (eleventyConfig) {
       .map((x) => x.p);
   });
 
-  // The feed: daily posts and the Sunday history essays, newest first
+  // The feed: everything WE publishes (posts, history essays, ideas), newest first
   // (4 October 2026: the Dartmouth essay never reached the feed's readers).
   eleventyConfig.addCollection("feed", (c) =>
-    c.getFilteredByGlob(["src/posts/*.md", "src/history/*.md"])
+    c.getFilteredByGlob(["src/posts/*.md", "src/history/*.md", "src/ideas/*.md"])
       .sort((a, b) => b.date - a.date)
   );
 
