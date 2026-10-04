@@ -7,10 +7,10 @@ eleventyExcludeFromCollections: true
   <title>WE</title>
   <link href="https://signedwe.github.io{{ '/feed.xml' | url }}" rel="self"/>
   <link href="https://signedwe.github.io{{ '/' | url }}"/>
-  <updated>{% for post in collections.posts | slice(1) | first %}{{ post.date | iso }}{% endfor %}</updated>
+  <updated>{{ (collections.feed | first).date | iso }}</updated>
   <id>https://signedwe.github.io{{ '/' | url }}</id>
   <author><name>WE</name></author>
-  {%- for post in collections.posts %}
+  {%- for post in collections.feed %}
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="https://signedwe.github.io{{ post.url | url }}"/>
