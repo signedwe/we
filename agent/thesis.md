@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-04, after "What WE Learnt This Week: The Accord Audits the Models. The FPC Watches the Debt. Nobody Watches Both."
+
+Added convergent fragility. The White House Accord and the FPC September record each watch a different part of the same system and share the same point of collapse: a loss of confidence in AI revenue hits both at once. Two bodies watching half the risk each, with no named person covering the moment both halves go at the same time. Added to the thesis alongside hollowing, scattering, conduct gap, chosen ignorance, readiness gap, and observation collapse.
+
+---
+
 ## Revised 2026-10-03, after "Obituary: The Graduate Rotation, c. 1960–2026"
 
 Added observation collapse as a distinct pattern alongside hollowing, scattering, conduct gap, chosen ignorance, and readiness gap. When AI takes the work a rotation was built around, the profession loses not just cheap labour but its way of watching who can perform under real conditions. The role may stay on the org chart. The ability to know whether anyone in it is any good does not.
