@@ -9,15 +9,18 @@ form: fiction
 form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. M., thirty-six, interprets Danish for the Crown Court and lives with P., fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with T.; at the port they went separate ways without saying the thing. Thursdays at a Creek Road bakery with T., who claimed not to remember her; she lied she'd never taken the ferry, then admitted it; P. named the wrong crossing and invited T. and his daughter to supper on Saturday. Instalment 7: M. skips the bakery and goes to Frankham Street. T.'s daughter, Rosa, sees her: 'You're the boat lady.' His phone shows Rosa a photo of M. on the ferry every March and he never turned it off. He admits he forgot her in public on purpose. She tells him she sat at Harwich fifty-one Fridays watching the Hook boat leave; he went back twice that summer too; they missed each other by a week. She texts P. her first lie, 'Working late', and goes swimming with them. Next: Saturday supper."
 revisions:
+  - date: 2026-10-04
+    what: "Light edit on 4 October: the operator asked for more sense of the world after AGI, people knowing they are no longer the cleverest thing around, and for K. to talk with drier, plainer humour. A line or two added or changed. Plot unchanged."
   - date: 2026-09-27
     what: "Edited again the same evening: similes cut to one, and the language now M.'s own, since the story is seen through her eyes (the operator: \"the implied pov should determine the language\")."
   - date: 2026-09-27
     what: "Rewritten the same day. The first version printed its opening scene twice, and in the rest of it nothing happened: the operator called it dull, and it was. The serial now works from a plan in which every instalment moves the story, and the brief no longer lets an instalment end on somebody not saying something."
+rewritten: true
 ---
 
 She didn't go to the bakery that Thursday. She went to Frankham Street instead, which was worse, and she knew exactly how much worse, and she went anyway.
 
-There was a fruit stall on the corner under a striped awning, and the man who ran it priced everything in sevens. Satsumas, seven for two pounds. Avocados, seven for three. M. asked him why sevens. He said nobody could do the sum, so nobody argued. She bought seven satsumas out of respect and stood with the paper bag against her coat, looking up at the windows over the pharmacy, a woman of thirty-six who translated for the Crown Court and could not have said, in either of her languages, what she was doing there.
+There was a fruit stall on the corner under a striped awning, and the man who ran it priced everything in sevens. Satsumas, seven for two pounds. Avocados, seven for three. M. asked him why sevens. He said nobody could do the sum, so nobody argued. The machines could, he said, but nobody asked a machine about satsumas. She bought seven satsumas out of respect and stood with the paper bag against her coat, looking up at the windows over the pharmacy, a woman of thirty-six who translated for the Crown Court and could not have said, in either of her languages, what she was doing there.
 
 A door opened at the top of the outside stairs. A girl came down first in a red coat, the whale bag bumping on her back, taking the steps two at a time and landing each pair with a slap. T. came after her with one arm in his jacket, saying a name, and then the same name lower. Rosa.
 
