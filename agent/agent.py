@@ -2686,6 +2686,35 @@ ADMIN_WORDS = re.compile(
     r"parking|mortgages?|bills?|compensation|dispute\w*|objection\w*)\b", re.I)
 
 
+# 5 October 2026, the operator: "the how tos all seem to be about gran". Four
+# of eight in a fortnight were a grandparent's recipes, handwriting, photo or
+# voice. The brief's own example was "your nan's recipe cards". A how-to may
+# not take the same theme as any of the last fourteen.
+HOW_TO_THEMES = {
+    "grandparents and old family things": r"\b(gran|grans|granny|grandma|grandmother|grandad|granddad|grandfather|grandparents?|nan|nans|nana|great-gran\w*|ancestors?|family history|family tree)\b",
+    "old photos and film": r"\b(old photos?|photographs?|photo album|cine|home movies?|negatives|blink)\b",
+    "music and songs": r"\b(song|tune|music|band|album|lyrics)\b",
+    "games and quizzes": r"\b(board game|quiz|game)\b",
+    "maps and local history": r"\b(street|map|maps|1895|1900|local history)\b",
+}
+
+
+def check_how_to_theme(title: str) -> list:
+    recent = []
+    for f in posts_with_form("how_to")[-14:]:
+        m = re.search(r'^title:\s*"?(.+?)"?\s*$', f.read_text(encoding="utf-8"), re.MULTILINE)
+        if m:
+            recent.append(m.group(1))
+    out = []
+    for theme, pat in HOW_TO_THEMES.items():
+        if re.search(pat, title, re.I):
+            clash = [t for t in recent if re.search(pat, t, re.I)]
+            if clash:
+                out.append(f"This how-to is about {theme} again: so was '{clash[-1]}' in the "
+                           "last fortnight. Pick a different part of life entirely.")
+    return out
+
+
 def check_how_to_kind(title: str, body: str, kind: str) -> list:
     """On a fun day, the title and the opening must not be about admin."""
     if kind != "fun":
@@ -3184,19 +3213,23 @@ one-page objection.
 {kind_text}
 Every day, after the day's form (the operator, 23 September 2026: "make
 the how to daily"). Title it the way somebody would type it into a
-search box: "How to turn your nan's recipe cards into a cookbook with AI".
+search box: "How to turn your holiday clips into a proper film with AI".
 The plain phrase in the title, the wit in the first line.
 
 Make it fun (the operator, 23 September: "make the how tos more fun and
 interesting"). People should want to send it to a friend.
 - Open on a person and a moment, never "In this guide".
 - Say up top what they'll have at the end, in one line.
-- For example: turn a photo
-  of your nan's handwritten recipe cards into a family cookbook; find what
-  your street looked like in 1900 from old maps; write a bedtime story
-  starring your child's actual toys; plan a pub quiz about your own friends;
-  settle a family argument with real sources; learn enough of a language
-  for one dinner.
+- For example: write a bedtime story starring your child's actual toys;
+  plan a pub quiz about your own friends; learn enough of a language for
+  one dinner; design a garden for a north-facing yard; get a running coach
+  for a first 5k; build a treasure hunt round your own house; identify the
+  birds singing outside your window. Spread across all of life: sport,
+  cooking, travel, pets, building, gardening, games, science, the body,
+  work skills for fun, kids, friends, the street outside.
+- Not the same theme as anything in the last fortnight (the operator, 5
+  October 2026: "the how tos all seem to be about gran"). Grandparents
+  and old family things have been done to death for now; leave them alone.
 - Give one line the reader can copy that does something surprising, set
   apart in italics.
 - Wit in the first line and the last; at most one joke per step.
@@ -3859,6 +3892,7 @@ def main() -> int:
                                 "three response posts. Pick another.")
         if FORM == "how_to":
             failures += check_how_to_kind(str(post.get("title") or ""), post["body"], how_to_kind(TODAY))
+            failures += check_how_to_theme(str(post.get("title") or ""))
         if FORM == "technical":
             urls = {s["url"] for s in clean_sources(post.get("sources"))}
             if len(urls) < TECHNICAL_MIN_SOURCES:
