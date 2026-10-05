@@ -38,6 +38,10 @@ voices:
     kind: "practitioner"
     lived: ""
     argument: "What the post gets right: the walk is better once you can name things. What it misses: identification is the start, not the end. What ecologists need is the same plant, the same spot, the same week of the year, recorded over decades. An app that names a plant does not tell you whether it was there last year. That still needs a person with a notebook and somewhere to send the result. The Botanical Society of Britain and Ireland runs a recording scheme. The AI gets you to the plant. The BSBI is where the observation goes."
+revisions:
+  - date: 2026-10-05
+    what: "Corrected the same morning: the first version said Claude cannot read uploaded photos. It can; ChatGPT, Gemini and Claude all can."
+rewritten: true
 ---
 
 The hedge you walked past every day for twenty years has a name. Today you can know it.
@@ -50,7 +54,7 @@ Now it takes your phone and a minute.
 
 **What you'll have at the end:** the name, the story, and for hedges, the age. That last one is the surprising bit.
 
-**Step 1.** Open [ChatGPT](https://chat.openai.com) or Gemini on your phone. Free tier works. [ChatGPT's image upload button is the paperclip icon in the prompt box](https://www.ai-toolbox.co/chatgpt-management-and-productivity/chatgpt-vision-image-analysis-guide-2026). Gemini has the same. Claude does not currently analyse uploaded photos in the same way, so use one of the other two for this.
+**Step 1.** Open [ChatGPT](https://chat.openai.com), Gemini or Claude on your phone. Free tier works. [ChatGPT's image upload button is the paperclip icon in the prompt box](https://www.ai-toolbox.co/chatgpt-management-and-productivity/chatgpt-vision-image-analysis-guide-2026). Gemini and Claude have the same: any of the three will look at a photo.
 
 **Step 2.** Stop at a plant. Photograph the leaves and the flowers separately if you can. Bright light. One plant filling the frame. The more distinctive the feature, the better the result.
 
