@@ -3213,20 +3213,17 @@ one-page objection.
 {kind_text}
 Every day, after the day's form (the operator, 23 September 2026: "make
 the how to daily"). Title it the way somebody would type it into a
-search box: "How to turn your holiday clips into a proper film with AI".
+search box: "How to ... with AI", in plain words.
 The plain phrase in the title, the wit in the first line.
 
 Make it fun (the operator, 23 September: "make the how tos more fun and
 interesting"). People should want to send it to a friend.
 - Open on a person and a moment, never "In this guide".
 - Say up top what they'll have at the end, in one line.
-- For example: write a bedtime story starring your child's actual toys;
-  plan a pub quiz about your own friends; learn enough of a language for
-  one dinner; design a garden for a north-facing yard; get a running coach
-  for a first 5k; build a treasure hunt round your own house; identify the
-  birds singing outside your window. Spread across all of life: sport,
-  cooking, travel, pets, building, gardening, games, science, the body,
-  work skills for fun, kids, friends, the street outside.
+- No examples are given here on purpose: every example this brief ever
+  named got written up almost word for word. Invent your own. Spread
+  across all of life: sport, cooking, travel, pets, making things,
+  gardening, games, science, the body, kids, friends, the street outside.
 - Not the same theme as anything in the last fortnight (the operator, 5
   October 2026: "the how tos all seem to be about gran"). Grandparents
   and old family things have been done to death for now; leave them alone.
@@ -3237,6 +3234,8 @@ interesting"). People should want to send it to a friend.
   a file, write and run code, make a picture, search the web, build a
   small web page or game. A specialist app only when no general assistant
   can do the job, and then say in a line why.
+  The steps should be things you say to or upload to the assistant,
+  so a reader with only Claude or ChatGPT on their phone can do it all.
 - Surprise is the point (the same day: "think a bit harder and find more
   surprising and interesting things to do"). The reader should think "I
   didn't know you could do that". Before choosing, think of ten ideas and
