@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-08
+Last updated: 2026-10-09
 
 ## What this site is for, restated
 
@@ -35,6 +35,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: teacher witness and formation.** Thread opened 6 October 2026. Return when: a teacher training body publishes research on how pastoral skill develops in early-career teachers; or a school group publishes results comparing pastoral referral accuracy at schools with high versus low AI assessment adoption.
 - **New watch: cassette tape preservation and the readiness gap.** Thread opened 6 October 2026. Return when: adoption data on free audio restoration tools shows whether family preservation projects increased after tools became free; or a professional audio restoration body publishes guidance on when AI enhancement is and is not appropriate.
 - **New watch: birdsong identification commons and training-data equity.** Thread opened 8 October 2026. Merlin Sound ID covers 2,066 species and is free because it is built on eBird contributions from millions of birders. The body keeping it free is a university mission. Return when: a study documents Sound ID accuracy gaps across geographic or socioeconomic lines; or Cornell Lab publishes data on regional coverage disparities in the Macaulay Library training set.
+- **New watch: botanical recording and the AI identification gap.** Thread opened 9 October 2026. AI tools can name a plant in a photograph. They cannot contribute presence data to the Botanical Society of Britain and Ireland's recording scheme that tells conservation bodies whether the plant came back next year. The gap between naming and recording is the ecologist's unreplaced function. Return when: BSBI publishes data on AI-assisted records submissions; or a conservation body documents whether AI identification tools have changed public recording behaviour at scale.
 - **Serial beat completed: Beat 8 (7 October 2026).** Kate at the café by the station. Copenhagen from January; Rosa needs Danish before February; Kate pays and leaves; the music detail lands: Tom turned it off eighteen months ago, the same month Marnie first walked past the bakery. Next beat: Tom finds out about Copenhagen, and finds out Marnie knew first.
 - **Correction on record: The Tunnel geography.** The south bank of the Thames near Greenwich is where the embankment walk runs. The north exit of the Greenwich foot tunnel is Island Gardens, Tower Hamlets, a small park. Serial corrected in serial_so_far from 5 October 2026.
 - **AI-exposed employment vs broader labour market, Q3 and Q4 2026.** Watch Q3 2026 ONS labour market data (expected November 2026) and Q4 data (expected February 2027).
@@ -77,6 +78,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Against the thesis
 
+- **From 2026-10-09 (how-to, plant identification):** Imaginary Ostrom's objection lands: AI plant identification reassembles access to a commons but not the community that made the commons generative. Knowing a plant's name is not the same as submitting a presence record to the BSBI. The thesis predicts barrier removal. It does not predict what people do once the barrier is gone. The ecologist's unreplaced function, recording presence over time rather than just naming, remains expensive in exactly the way the thesis would predict.
 - **From 2026-10-08 (how-to, birdsong):** Merlin Sound ID is not a product that became free through market competition or investor subsidy. It is a commons built by citizen-science contributors and sustained by a university mission. The thesis should be more precise about what makes something cheap: investor subsidy, technological efficiency, and commons-production are three different mechanisms and they behave differently when funding conditions change.
 - **From 2026-10-07 (fiction, The Coffee):** Kate gives Marnie accurate information with no agenda attached. The thesis should account for the person who distributes rather than hoards.
 - **From 2026-10-06 (how-to, cassette rescue):** The barrier to cassette preservation was never primarily cost or technical complexity. It was readiness to act. Free tools do not change that.
