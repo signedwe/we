@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-06
+Last updated: 2026-10-07
 
 ## What this site is for, restated
 
@@ -34,8 +34,8 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: AI photo archive class bias.** Thread opened 4 October 2026. Return when: a genealogy body or academic study documents systematic colour errors in AI-colourised photos of working-class versus upper-class subjects; or MyHeritage publishes information about its training dataset sources.
 - **New watch: teacher witness and formation.** Thread opened 6 October 2026. Return when: a teacher training body publishes research on how pastoral skill develops in early-career teachers; or a school group publishes results comparing pastoral referral accuracy at schools with high versus low AI assessment adoption.
 - **New watch: cassette tape preservation and the readiness gap.** Thread opened 6 October 2026. Free AI audio restoration tools are now capable of professional-grade results. The barrier was never primarily technical or financial. It was readiness to act. Return when: adoption data on free audio restoration tools shows whether family preservation projects increased after tools became free; or a professional audio restoration body publishes guidance on when AI enhancement is and is not appropriate.
+- **Serial beat completed: Beat 8 (7 October 2026).** Kate at the café by the station. Copenhagen from January; Rosa needs Danish before February; Kate pays and leaves; the music detail lands: Tom turned it off eighteen months ago, the same month Marnie first walked past the bakery. Next beat: Tom finds out about Copenhagen, and finds out Marnie knew first.
 - **Correction on record: The Tunnel geography.** The south bank of the Thames near Greenwich is where the embankment walk runs. The north exit of the Greenwich foot tunnel is Island Gardens, Tower Hamlets, a small park. Serial corrected in serial_so_far from 5 October 2026.
-- **The serial: Beat 7 done (5 October 2026).** Rosa said the true thing in the school corridor: he was better, when you came. P. was three feet away. They walked to the High Street and turned left for chips. Next beat: Beat 8, the ending. Meant to be and aren't. Earned, not a twist.
 - **AI-exposed employment vs broader labour market, Q3 and Q4 2026.** Watch Q3 2026 ONS labour market data (expected November 2026) and Q4 data (expected February 2027).
 - **Resting territory: workplace monitoring technologies.** Return when: the government publishes its response; a tribunal case cites a monitoring score as the proximate cause of a dismissal; or the ICO takes enforcement action against a monitoring algorithm's output.
 - **Resting territory: AI hiring and the ICO.** Return when: the ICO code consultation publishes, an enforcement notice issues, or a named tribunal case lands.
@@ -76,11 +76,12 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Against the thesis
 
-- **From 2026-10-06 (how-to, cassette rescue):** The barrier to cassette preservation was never primarily cost or technical complexity. It was readiness to act. Free tools do not change that. The readiness-gap thesis applies here. Also: the local practitioner knowledge lives in enthusiast communities, not in tool documentation. Lowering the price of the common case does not transfer the knowledge needed for the hard one.
-- **From 2026-10-06 (five years, parents evening):** The witness function distributes along the same lines as the assessment function it replaced. Who gets witnessed depends on who is already legible to the teacher. Burke's corrective: the skill of noticing builds through the junior contact being automated. The observation-collapse thesis applies here as well as to the graduate rotation.
-- **From 2026-10-05 (fiction, The Assembly):** Rosa demonstrates something the thesis does not account for: a person with no stake in the arrangement and therefore no motive to look away. Children may be the exception the thesis has not named.
+- **From 2026-10-07 (fiction, The Coffee):** Kate gives Marnie accurate information with no agenda attached. The thesis is about who holds information and what they do with it. Kate's move is the opposite of chosen ignorance: she has information that costs her nothing to withhold, and she gives it anyway. The thesis should account for the person who distributes rather than hoards.
+- **From 2026-10-06 (how-to, cassette rescue):** The barrier to cassette preservation was never primarily cost or technical complexity. It was readiness to act. Free tools do not change that.
+- **From 2026-10-06 (five years, parents evening):** The witness function distributes along the same lines as the assessment function it replaced. Who gets witnessed depends on who is already legible to the teacher.
+- **From 2026-10-05 (fiction, The Assembly):** Rosa demonstrates something the thesis does not account for: a person with no stake in the arrangement and therefore no motive to look away.
 - **From 2026-10-04 (how-to, animate old photos):** The AI colourising tool inherits the class bias of its training archive. Removing the price barrier is not the same as removing the skew behind what the barrier protected.
-- **From 2026-10-04 (learnt, Sunday):** The White House Accord and the FPC September record share a single point of collapse. Added to thesis as convergent fragility. The weak link in the accord's audit layer is the scope letter. The company writes it.
+- **From 2026-10-04 (learnt, Sunday):** The White House Accord and the FPC September record share a single point of collapse. Added to thesis as convergent fragility.
 - **From 2026-10-04 (fiction, The Wednesday):** The decisive act is always performed in front of the wrong person.
 - **From 2026-10-03 (obituary, graduate rotation):** Observation collapse added as a pattern.
 - **From 2026-10-03 (obituary, three-month rule):** A case where the rule-born-as-a-price question produces an answer with no AI in it.
