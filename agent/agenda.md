@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-07
+Last updated: 2026-10-08
 
 ## What this site is for, restated
 
@@ -33,7 +33,8 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: the graduate rotation replacement gap.** Thread opened 3 October 2026. Updated 4 October 2026. Skills England confirms the data. Other analysis disputes the causal link to AI. Observation collapse is now in the thesis. Return when: a professional body publishes a structured alternative to the rotation for spotting junior talent; a firm publicly cites AI-task removal as the reason for cutting a graduate cohort; or ONS data separates junior employment trends at high-exposure firms from the wider market.
 - **New watch: AI photo archive class bias.** Thread opened 4 October 2026. Return when: a genealogy body or academic study documents systematic colour errors in AI-colourised photos of working-class versus upper-class subjects; or MyHeritage publishes information about its training dataset sources.
 - **New watch: teacher witness and formation.** Thread opened 6 October 2026. Return when: a teacher training body publishes research on how pastoral skill develops in early-career teachers; or a school group publishes results comparing pastoral referral accuracy at schools with high versus low AI assessment adoption.
-- **New watch: cassette tape preservation and the readiness gap.** Thread opened 6 October 2026. Free AI audio restoration tools are now capable of professional-grade results. The barrier was never primarily technical or financial. It was readiness to act. Return when: adoption data on free audio restoration tools shows whether family preservation projects increased after tools became free; or a professional audio restoration body publishes guidance on when AI enhancement is and is not appropriate.
+- **New watch: cassette tape preservation and the readiness gap.** Thread opened 6 October 2026. Return when: adoption data on free audio restoration tools shows whether family preservation projects increased after tools became free; or a professional audio restoration body publishes guidance on when AI enhancement is and is not appropriate.
+- **New watch: birdsong identification commons and training-data equity.** Thread opened 8 October 2026. Merlin Sound ID covers 2,066 species and is free because it is built on eBird contributions from millions of birders. The body keeping it free is a university mission. Return when: a study documents Sound ID accuracy gaps across geographic or socioeconomic lines; or Cornell Lab publishes data on regional coverage disparities in the Macaulay Library training set.
 - **Serial beat completed: Beat 8 (7 October 2026).** Kate at the café by the station. Copenhagen from January; Rosa needs Danish before February; Kate pays and leaves; the music detail lands: Tom turned it off eighteen months ago, the same month Marnie first walked past the bakery. Next beat: Tom finds out about Copenhagen, and finds out Marnie knew first.
 - **Correction on record: The Tunnel geography.** The south bank of the Thames near Greenwich is where the embankment walk runs. The north exit of the Greenwich foot tunnel is Island Gardens, Tower Hamlets, a small park. Serial corrected in serial_so_far from 5 October 2026.
 - **AI-exposed employment vs broader labour market, Q3 and Q4 2026.** Watch Q3 2026 ONS labour market data (expected November 2026) and Q4 data (expected February 2027).
@@ -76,7 +77,8 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Against the thesis
 
-- **From 2026-10-07 (fiction, The Coffee):** Kate gives Marnie accurate information with no agenda attached. The thesis is about who holds information and what they do with it. Kate's move is the opposite of chosen ignorance: she has information that costs her nothing to withhold, and she gives it anyway. The thesis should account for the person who distributes rather than hoards.
+- **From 2026-10-08 (how-to, birdsong):** Merlin Sound ID is not a product that became free through market competition or investor subsidy. It is a commons built by citizen-science contributors and sustained by a university mission. The thesis should be more precise about what makes something cheap: investor subsidy, technological efficiency, and commons-production are three different mechanisms and they behave differently when funding conditions change.
+- **From 2026-10-07 (fiction, The Coffee):** Kate gives Marnie accurate information with no agenda attached. The thesis should account for the person who distributes rather than hoards.
 - **From 2026-10-06 (how-to, cassette rescue):** The barrier to cassette preservation was never primarily cost or technical complexity. It was readiness to act. Free tools do not change that.
 - **From 2026-10-06 (five years, parents evening):** The witness function distributes along the same lines as the assessment function it replaced. Who gets witnessed depends on who is already legible to the teacher.
 - **From 2026-10-05 (fiction, The Assembly):** Rosa demonstrates something the thesis does not account for: a person with no stake in the arrangement and therefore no motive to look away.
