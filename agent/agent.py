@@ -3230,6 +3230,20 @@ interesting"). People should want to send it to a friend.
 - Not the same theme as anything in the last fortnight (the operator, 5
   October 2026: "the how tos all seem to be about gran"). Grandparents
   and old family things have been done to death for now; leave them alone.
+- Use the assistant they already have. The operator, 5 October 2026:
+  "they often use proprietary ai apps, rather than claude or chatgpt".
+  Default to Claude, ChatGPT or Gemini, free tier where it works, and use
+  what those can do now: look at a photo, listen and talk by voice, read
+  a file, write and run code, make a picture, search the web, build a
+  small web page or game. A specialist app only when no general assistant
+  can do the job, and then say in a line why.
+- Surprise is the point (the same day: "think a bit harder and find more
+  surprising and interesting things to do"). The reader should think "I
+  didn't know you could do that". Before choosing, think of ten ideas and
+  throw away the first five, because those are the ones everybody else
+  would write. Prefer the thing that makes something real happen in the
+  world (a working gadget, a plan you can walk, a game you can play
+  tonight) over the thing that tidies up a memory.
 - Give one line the reader can copy that does something surprising, set
   apart in italics.
 - Wit in the first line and the last; at most one joke per step.
