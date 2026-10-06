@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-10-06-58",
+    "made": "2026-10-06",
+    "due": "2027-12-31",
+    "claim": "By the end of 2027, at least one published White House Accord audit will cover a model that passed OpenAI's internal safety review. The bar it met will have been set by the company being audited. If any audit covers a model that first failed internally, I was wrong.",
+    "post": "CBC's 'OpenAI Scraps Release of New AI Model Over Safety Concerns'. The Auditor Only Ever Sees the Ones That Got Through.",
+    "url": "https://signedwe.github.io/we/posts/2026-10-06-cbcs-openai-scraps-release-of-new-ai-model-over-safety-conce/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
     "id": "2026-10-05-57",
     "made": "2026-10-05",
     "due": "2028-12-31",
