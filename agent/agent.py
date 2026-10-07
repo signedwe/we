@@ -3416,7 +3416,7 @@ def check_similes(body: str, limit: int = 1) -> list:
 # ask". Pointing at a missing question is the cheap move. Ask it and answer it.
 ASK_MOTIF = re.compile(
     r"[^.!?\n]*(?:\b(?:nobody|no one|none|never|not one)(?: of them)?(?:\s+(?:ever|even|once|thought to|bothered to|stopped to|was|were|gets|got))?\s+ask(?:s|ed)?\b"
-    r"|\b(?:doesn't|does not|didn't|did not|don't|do not|won't|will not|fails? to|forg[eo]ts? to)\s+(?:even\s+)?ask\b"
+    r"|\b(?:doesn't|does not|didn't|did not|don't|do not|won't|will not|fails? to|forg[eo]ts? to)\s+(?:even\s+)?ask\b(?!\s+(?:him|her|them|me|us|you|for)\b)"
     r"|\bquestions?\b[^.!?\n]{0,40}\b(?:doesn't|didn't|won't|never|nobody|forgot to)\b[^.!?\n]{0,15}\bask"
     r"|\b(?:wasn't|weren't|never gets?|never got|isn't) asked\b)[^.!?\n]*", re.I)
 
