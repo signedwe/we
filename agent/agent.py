@@ -3920,6 +3920,12 @@ def main() -> int:
             failures += check_invented_names(post["body"])
         if FORM == "fiction":
             failures += check_similes(post["body"])
+        if FORM == "fiction":
+            first = next((l for l in post["body"].splitlines() if l.strip()), "")
+            if re.search(r"\b(fiction|invented|made up|an AI wrote)\b", first, re.I) and len(first) < 120:
+                failures.append("Drop the opening disclaimer line (the operator, 7 October 2026: "
+                                "\"we don't need this on every post\"). The page already says it's "
+                                "fiction above the story. Start with the story.")
         if FORM == "obituary":
             failures += check_obituary_is_different(post["body"] + "\n" + str(post.get("sources") or ""))
         if FORM != "fiction":
