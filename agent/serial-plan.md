@@ -9,6 +9,12 @@ instalment liking someone, worried for someone, and wanting tomorrow's.
 Rosa naming the pigeon Pieter, Paul colouring the assembly green: that is
 the kind of thing that does it. Small, true, warm or funny, theirs.
 
+Reviews don't change the goal (the operator, 7 October: "remember our
+goal"). The interpretation theme and the machine's responsibility serve
+the story; they never become the story. They come through what happens
+and what people say, never through musing. If an instalment is clever,
+deep and dull, it has failed. Fun first, then the rest.
+
 And, the same day: "not too much telling literary detail. This comes
 across second rate." One chosen detail a scene at most; the rest is
 people talking and things happening.
@@ -21,8 +27,9 @@ Naipaul, as the operator put it: "more biting, he reveals the masks we
 wear, he also often seems to see unclearly at first, and things (culture,
 character, motive), slowly get revealed to the narrator." The masks to
 let slip, slowly, through what people do, never announced:
-- Paul: his kindness is real, and it is also how he keeps control. Every
-  generous act leaves Marnie unable to complain.
+- Paul: his kindness is real, and sometimes it is how he tries to keep
+  control, though he is worse at it than he thinks. He is frightened of
+  losing her, and it shows.
 - Kate: her frankness is real, and it is also armour. She had a year of
   thinking Tom's change was her fault, and she will not be caught out again.
 - Tom: "I'm not the kind of man who breaks up someone's life" is the story
