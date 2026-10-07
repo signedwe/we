@@ -15,6 +15,12 @@ the story; they never become the story. They come through what happens
 and what people say, never through musing. If an instalment is clever,
 deep and dull, it has failed. Fun first, then the rest.
 
+The ambition (the operator, 7 October: "overall WIN THE BOOKER PRIZE!"):
+write every instalment as if it will be judged against a Booker
+shortlist. That bar and the fun are the same bar: winners like Wolf Hall
+and The Blind Assassin are page-turners. Exact, true, alive, and you
+can't stop reading. Never chase "literary" at the cost of the reader.
+
 And, the same day: "not too much telling literary detail. This comes
 across second rate." One chosen detail a scene at most; the rest is
 people talking and things happening.
