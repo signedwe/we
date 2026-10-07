@@ -9,6 +9,8 @@ form: fiction
 form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. Marnie, thirty-six, interprets Danish for the Crown Court and lives with Paul, fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with Tom; at the port they went separate ways without saying the thing. They meet on Thursdays at a Creek Road bakery; he doesn't know her; she told him she'd never taken the ferry. Instalment 3: she returns the poem, ironed. He confesses he sat forty minutes in the car park at Harwich meaning to end a relationship, and after talking all night to a woman he went home and didn't; his daughter was born the next spring. Marnie was the thing that sent him back. He says it rained; she says it didn't, in her court voice. He asks how she knew it was March."
 revisions:
+  - date: 2026-10-07
+    what: "Rewritten on 7 October with the whole serial, for the operator: more biting, people's masks showing slowly, Marnie misreading them at first, a surprising piece of action now and then, less whimsical detail, endings that push. The plot is the same; some scenes go further."
   - date: 2026-10-04
     what: "4 October: the characters now have first names instead of initials (Marnie, Tom, Paul, Kate, Erik), because the initials made the story hard to follow. Nothing else changed."
   - date: 2026-10-03
@@ -20,52 +22,56 @@ revisions:
 rewritten: true
 ---
 
-She brought the poem back. She had ironed it, which was mad, between two tea towels on the lowest setting, and the coffee stain had dried brown at the edges and the last line, in print, was the one she had given him on the boat.
+She brought the poem back ironed, between two tea towels, the coffee stain dried brown at the edges.
 
-He was there first. There were two flat whites on the table and he pushed one across before she'd sat down.
+He was there first, with two flat whites. He pushed one across before she'd sat down.
 
 "You owe me nothing," she said.
 
-"You saved a poem." He looked at the ironed sheet and then at her with open delight. "Did you iron this?"
+"You saved a poem." He looked at the sheet and then at her. "Did you iron this?"
 
 "I work with documents."
 
-"She'll think I've gone mad. She's learnt it anyway. She does it with actions." He did one of the actions, small, with two fingers, a bird coming down onto a branch. "She's better at it than me. She says the last line properly."
+"She's learnt it anyway. She does it with actions." He did one, small, with two fingers, a bird coming down onto a branch. "She says the last line properly. Better than me."
 
-He was in a talking mood. He said Thursday was the one day of the week he didn't have to be efficient, and he spent it being inefficient on purpose. He told her about a hospital in Ghent that had needed a kidney machine at four in the morning, and how the routing system had found three trucks and a boat and he'd rung a man called only by his initial, who owned a van.
+He was in a talking mood. Thursday was the one day he didn't have to be efficient, he said, so he spent it being inefficient on purpose. He told her about a hospital in Ghent that had needed a kidney machine at four in the morning, and how the routing system had found three trucks and a boat, and he had still rung a man who owned a van.
 
 And then, because she asked nothing, he told her about the ferry.
 
-"I nearly didn't get on it," he said. "I sat in the car park at Harwich for forty minutes with the engine off. I was going over to end something. With someone. I'd been not-ending it for a year and I thought, one night on the water and I'll know." He turned the cup. "And I talked to this woman all night, and in the morning I knew all right. I drove off the boat and went straight back round to the ticket office and came home and didn't end it."
+"I nearly didn't get on it," he said. "Sat in the car park at Harwich for forty minutes with the engine off. I was going over to end something. With someone. I'd been not-ending it for a year." He turned the cup. "I talked to this woman all night, and in the morning I drove off the boat, went straight round to the ticket office, came home, and didn't end it."
 
 Marnie held her cup in both hands.
 
-"We had my daughter two years later," he said. "So." He laughed at himself. "Whoever she was, the woman on the boat, she's the reason I've got a kid who does poems with actions. I should send her a card."
+"We had my daughter two years later," he said. "So whoever she was, she's the reason I stayed. I should send her a card."
 
-She had imagined, in eleven years, a great many versions of that night going on without her. She had not imagined this one: that she had been the thing that sent him home.
+He said it warmly, as a story told against himself, and she believed it was one. It took her weeks to hear the other thing in it: that he had let a stranger on a boat decide his life for him, and had been grateful ever since to have been spared the deciding.
 
 "It rained the whole way over," he said. "I remember that. Sheeting."
 
 "It didn't rain."
 
-It came out in her court voice, level and exact, the voice she used to correct a witness's date. It was out before she knew it was coming, and once it was out it stayed out.
+It came out in her court voice, level and exact, the voice for correcting a witness's date. It was out before she knew it was coming.
 
 He looked at her.
 
 "How would you know?"
 
-Somewhere in her was the professional who had spent a decade covering for other people's mistakes in real time, and it stood up and did its best.
+The professional in her stood up and did its best. "It never rains on the North Sea in March," she said. "It's too cold."
 
-"It never rains on the North Sea in March," she said. "It's too cold."
-
-He stared at her for a long second. Then he laughed, properly, head back, and a woman at the next table looked up from her soup.
+He stared at her. Then he laughed, properly, head back, and a woman at the next table looked up from her soup.
 
 "That," he said, "is the least true thing anyone's ever said to me."
 
 "Yes," Marnie said.
 
-He went on looking at her, still smiling, but with something else behind the smile now, the look of a witness who has just heard his own statement read back and isn't sure it's his. At twenty past, his phone made the small sound that meant his daughter was out of the water. He stood, and picked up the bag, and the whale.
+At twenty past his phone made the sound that meant his daughter was out of the water. He stood and picked up the bag.
 
-"It was March, though," he said, at the door. "How did you know it was March?"
+At the door he stopped, came back, and put both hands flat on the table between their cups.
 
-The door opened for him. He went through it before she had to answer, which she would realise later, walking home, had been a kindness.
+"It was March, though," he said. "I never said March. How did you know it was March?"
+
+The woman with the soup had stopped eating. Marnie looked at his hands on the table. They were shaking very slightly.
+
+"Your daughter's out of the water," she said.
+
+He held still for one more second. Then he went, and the door closed behind him, and she sat with two cups and understood that the next Thursday was no longer something she could decide not to go to.

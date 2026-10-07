@@ -9,6 +9,8 @@ form: fiction
 form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. Marnie, thirty-six, interprets Danish for the Crown Court and lives with Paul, fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with Tom; at the port they went separate ways without saying the thing. Thursdays at a Creek Road bakery with Tom, who claimed not to remember her; she lied she'd never taken the ferry, then admitted it; Paul named the wrong crossing and invited Tom and his daughter to supper on Saturday. Instalment 7: Marnie skips the bakery and goes to Frankham Street. Tom's daughter, Rosa, sees her: 'You're the boat lady.' His phone shows Rosa a photo of Marnie on the ferry every March and he never turned it off. He admits he forgot her in public on purpose. She tells him she sat at Harwich fifty-one Fridays watching the Hook boat leave; he went back twice that summer too; they missed each other by a week. She texts Paul her first lie, 'Working late', and goes swimming with them. Next: Saturday supper."
 revisions:
+  - date: 2026-10-07
+    what: "Rewritten on 7 October with the whole serial, for the operator: more biting, people's masks showing slowly, Marnie misreading them at first, a surprising piece of action now and then, less whimsical detail, endings that push. The plot is the same; some scenes go further."
   - date: 2026-10-04
     what: "4 October: the characters now have first names instead of initials (Marnie, Tom, Paul, Kate, Erik), because the initials made the story hard to follow. Nothing else changed."
   - date: 2026-10-04
@@ -20,29 +22,25 @@ revisions:
 rewritten: true
 ---
 
-She didn't go to the bakery that Thursday. She went to Frankham Street instead, which was worse, and she knew exactly how much worse, and she went anyway.
+She didn't go to the bakery that Thursday. She went to Frankham Street instead, which was worse, and she knew exactly how much worse.
 
-There was a fruit stall on the corner under a striped awning, and the man who ran it priced everything in sevens. Satsumas, seven for two pounds. Avocados, seven for three. Marnie asked him why sevens. He said nobody could do the sum, so nobody argued. The machines could, he said, but nobody asked a machine about satsumas. She bought seven satsumas out of respect and stood with the paper bag against her coat, looking up at the windows over the pharmacy, a woman of thirty-six who translated for the Crown Court and could not have said, in either of her languages, what she was doing there.
+There was a fruit stall on the corner, and the man who ran it priced everything in sevens. Satsumas, seven for two pounds. Marnie asked him why sevens. He said nobody could do the sum in their head, so nobody argued. The machines could, he said, but nobody asked a machine about satsumas. She bought seven and stood with the paper bag against her coat, looking up at the windows over the pharmacy.
 
-A door opened at the top of the outside stairs. A girl came down first in a red coat, the whale bag bumping on her back, taking the steps two at a time and landing each pair with a slap. Tom came after her with one arm in his jacket, saying a name, and then the same name lower. Rosa.
-
-Marnie had known the child's age for a month and her name for four seconds. It was a good name. It sounded like somebody who would win arguments.
+A door opened at the top of the outside stairs. A girl came down first in a red coat, the whale bag bumping on her back, taking the steps two at a time. Tom came after her with one arm in his jacket, saying a name, then the same name lower. Rosa.
 
 Rosa reached the pavement, saw Marnie, and stopped.
 
 "You're the boat lady," she said.
 
-The fruit man went on stacking avocados in sevens.
+"Rosa." Tom was at the bottom of the stairs.
 
-"Rosa." Tom was at the bottom of the stairs, his jacket on properly now, as if that had been the problem.
+"She is, though." Rosa explained it slowly, for the grown-up. "Dad's phone shows you. Every March. You're on a boat and it's windy and your mouth's open because you're talking. It puts sad music on. Dad says it's the phone that does it, but you can tell it to stop, and he doesn't."
 
-"She is, though." Rosa turned to Marnie and explained, slowly, for the grown-up. "Dad's phone shows you. Every March. You're on a boat and it's windy and your mouth's open because you're talking. It puts music on." She thought about it. "Sad music. Dad says it's the phone that does it, but you can tell it to stop, and he doesn't."
-
-She looked at Tom. He had gone grey.
+Tom had gone grey.
 
 "Choose a satsuma," he said to Rosa. "One. From the lady's bag. And peel it over there."
 
-Rosa chose, with ceremony, the largest, and took it three steps away, which was as far as she thought the instruction deserved.
+Rosa chose the largest and took it three steps away, which was as far as she thought the instruction deserved.
 
 "You said you couldn't remember my name," Marnie said.
 
@@ -50,36 +48,24 @@ Rosa chose, with ceremony, the largest, and took it three steps away, which was 
 
 "You said it very well. I believed you. I went home and was polite about it for three weeks."
 
-"I didn't know what you'd want me to remember." He glanced at the fruit man, who was pretending to be deaf in the way of all fruit men. "And now your partner's asked us to supper."
+"I didn't know what you'd want me to remember." He looked at the fruit man, who was pretending to be deaf. "You had someone. I could see you had someone. So I forgot you in public. I've had practice."
 
-"He does that. He's a good man."
+He said it as if it had been generous. She would see later that it had also been safe. If she had made the first move, it would have been her doing.
 
-"I know. That's the trouble."
+"For a year after the ferry," Marnie said, "I got the train to Harwich on Fridays. I sat on the bench outside the terminal and watched the Hook boat go out, and then I got the train back. Fifty-one Fridays. I missed one for a wedding." She had never told anyone. It came out in order, dates first. "I think I thought you'd be on it, coming back."
 
-He put his hands in his pockets and took them out again. "You had someone. I could see you had someone. So I forgot you in public. I'm quite good at it. I've had practice."
+Tom laughed, not unkindly, at the pavement.
 
-"Every March."
+"I went back too," he said. "Twice. The same summer. We must have missed each other by a week."
 
-"Every March."
+Rosa came back with orange on her fingers and the peel in one long curl, which she gave to her father.
 
-A bus came down the street and stopped beside them, though neither of them had asked it to, and waited with its doors open, and then, when nobody moved, closed them and went on.
+"It's swimming. We're late." And to Marnie, because in her world questions were for getting answers: "Are you coming?"
 
-"For a year after," Marnie said, "I got the train to Harwich on Fridays. I didn't get on anything. I sat on the bench outside the terminal with a coffee and watched the Hook boat go out, and then I got the train back. Fifty-one Fridays. I missed one because of a wedding." She had never said this to anyone. It came out in order, dates first. "I don't know what I thought would happen. I think I thought you'd be on it, coming back."
+Tom did not say no. He did not say yes either. He looked at Marnie and left it with her.
 
-Tom didn't say anything for a moment. Then he laughed, not unkindly, at the pavement.
+Her phone buzzed. Paul: *Pasta tonight? Saving the hake for Saturday. Do eight-year-olds eat capers?*
 
-"I sat in the car park," he said. "Before. Forty minutes. I told you that."
+She typed *Working late. You choose x* and sent it. In nine years it was the first thing she had sent him that wasn't true.
 
-"You did."
-
-"I didn't tell you I went back. Twice. The same summer." He looked at her properly for the first time since the ferry. "We must have missed each other by a week."
-
-Rosa came back with orange on her fingers and the peel in one long curl, which she presented to her father.
-
-"It's swimming," she said. "We're late." And then, to Marnie, because in her world questions were for getting answers: "Are you coming?"
-
-Tom did not say no.
-
-Marnie took out her phone. There was a message from Paul, from ten minutes before: *Pasta tonight? Saving the hake for Saturday. Do eight-year-olds eat capers?* The hake came with butter beans and too much lemon. She had said once, eight years ago, that she liked it, and had never had the heart to tell him that once had been enough. She looked at it for a long time, long enough for the phone to dim and brighten again, and then she typed *Working late. You choose x* and sent it, and in nine years it was the first thing she had ever sent him that wasn't true.
-
-The leisure centre on Giffin Street had a viewing gallery behind glass, a row of plastic seats bolted to a rail, the air thick and warm and smelling of chlorine and chips. Tom and Marnie sat side by side above the pool with the satsumas between them. Below, Rosa stood at the edge in her goggles and found them in the glass, and waved, and then, not sure which of them it was for, waved again with both hands.
+Then she took the whale bag off Rosa's back, because it was heavy and the child was eight, and the three of them walked to Giffin Street. In the viewing gallery, above the chlorine, Rosa found them in the glass and waved, and then, not sure which of them it was for, waved again with both hands.

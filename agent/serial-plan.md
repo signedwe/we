@@ -113,6 +113,13 @@ father in court was Erik.
   rain. Rosa was born two years later, and is eight.
 - Marnie sat outside Harwich terminal fifty-one Fridays that year and never got
   on. Tom went back twice that summer. They missed each other by a week.
+  In November she went once more, alone, on a Wednesday: fifty-two. Paul knows.
+- Paul knows about Tom and has since the bakery. At supper he corrected
+  'Esbjerg' to 'the Hook' in front of everyone. He found the receipt and put it
+  back exactly. He has never said so outright.
+- After the tunnel kiss Tom threw both coffees away and said he wasn't the man
+  who does this. Rosa visits Kate in Copenhagen in the holidays; she lives with
+  Tom the rest of the time.
 - The receipt: five pence, Tom's landline in pencil, folded in quarters,
   behind her bank card. Paul has found it and put it back.
 - The poem is about a bird returning to the same tree; the action is a bird

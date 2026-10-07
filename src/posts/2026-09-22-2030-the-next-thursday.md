@@ -6,6 +6,8 @@ tags: [fiction]
 description: "Instalment 2. Marnie goes in. He doesn't recognise her, forgets her to her face, and asks if she's ever taken that ferry."
 form: fiction
 revisions:
+  - date: 2026-10-07
+    what: "Rewritten on 7 October with the whole serial, for the operator: more biting, people's masks showing slowly, Marnie misreading them at first, a surprising piece of action now and then, less whimsical detail, endings that push. The plot is the same; some scenes go further."
   - date: 2026-10-04
     what: "4 October: the characters now have first names instead of initials (Marnie, Tom, Paul, Kate, Erik), because the initials made the story hard to follow. Nothing else changed."
   - date: 2026-10-03
@@ -23,7 +25,7 @@ rewritten: true
 
 The bus, left to itself, drove straight past the bakery. She walked back two stops in shoes she had bought for sitting down in.
 
-He was at the counter, not the window, reading the board, though he had obviously decided. She joined the queue. There were two people between them, a builder ordering eleven sausage rolls by name and a woman arguing with her own watch.
+He was at the counter, reading the board, though he had obviously decided. Two people stood between them, a builder ordering eleven sausage rolls by name and a woman arguing with her watch.
 
 He turned with his coffee and nearly walked into her.
 
@@ -31,38 +33,42 @@ He turned with his coffee and nearly walked into her.
 
 "Sorry," she said.
 
-He looked at her for exactly as long as it takes to confirm that nobody has been scalded. Then he said, "All yours," meaning the counter, and went to the window.
+He looked at her for exactly as long as it takes to check that nobody has been scalded. "All yours," he said, meaning the counter, and went to the window.
 
-Nothing. Not a flicker. She had spent eleven years being, she now understood, a woman he might recognise, and it turned out she was a woman in a queue. She ordered a flat white and a cinnamon bun she did not want, because the builder had made her hungry and humiliation made her hungrier.
+Nothing. Not a flicker. For eleven years she had been, she now understood, a woman he might recognise. It turned out she was a woman in a queue. She ordered a flat white and a cinnamon bun she did not want, because humiliation made her hungry.
 
 The only free seat was at his table.
 
-He was reading a sheet of paper, an actual printed sheet, folded twice, and when she sat he moved his swimming bag off the chair without looking up. Then he knocked his coffee over. Most of it went across the paper. He said a word under his breath that her court would have asked her to repeat for the record, and she was already pushing napkins at him.
+He was reading a printed sheet, folded twice. When she sat he moved the swimming bag without looking up, and then knocked his coffee over. Most of it went across the paper. He said a word her court would have asked her to repeat for the record, and she was already pushing napkins at him.
 
 "God. Thank you."
 
-"It's for your daughter?" she said. The paper. The corners were going brown.
+"It's for your daughter?"
 
-"School. They have to learn a poem and say it in assembly." He blotted it. "She picked the one I know. I've been teaching it to her all week. Turns out I've been saying the last line wrong for twenty years."
+"School. They have to learn a poem for assembly." He blotted it. "She picked the one I know. Turns out I've been saying the last line wrong for twenty years."
 
-She put a piece of the bun in her mouth so that her face would have something to do.
+She put a piece of the bun in her mouth so her face would have something to do.
 
-He told her his name. She had never forgotten it. She told him hers, the whole of it, and spelled the surname.
+He told her his name. She had never forgotten it. She told him hers and spelled it.
 
-He nodded, pleasantly. "Nice to meet you."
+"Nice to meet you," he said.
 
-He talked. She let him. The daughter was eight, swam every length she was allowed, and had swimming on Thursdays at the leisure centre on Giffin Street, so he came here for the hour and pretended to work. He did medical logistics, whatever that was. He did the thing with his hands, turning a cup a quarter-turn on its saucer at the end of every sentence, that she had forgotten she remembered.
+He talked. She let him. The daughter was eight and swam on Thursdays at the leisure centre on Giffin Street, so he came here for the hour and pretended to work. He did medical logistics. At the end of every sentence he turned his cup a quarter-turn on its saucer, a thing she had forgotten she remembered.
 
-"I did a night ferry once," he said, when she said she worked with Danish. "Harwich to the Hook. Talked to a woman the whole way over, till it got light." He smiled at the table, fondly, at nobody. "Can't remember her name. Isn't that awful? A whole night."
+"I did a night ferry once," he said, when she mentioned Danish. "Harwich to the Hook. Talked to a woman the whole way over, till it got light." He smiled at the table, at nobody. "Can't remember her name. Isn't that awful? A whole night."
 
 "Awful," she agreed.
 
 "Have you ever done it? The crossing?"
 
-There was a moment when she could have said anything. She was a professional. She had eleven years of the true sentence ready and a spare in Danish.
+She was a professional. She had eleven years of the true sentence ready, and a spare in Danish.
 
 "Never," she said.
 
-He nodded again, and turned his cup a quarter-turn, and the lie sat down between them, comfortably, like a third person who has been told there's no hurry.
+He nodded and turned his cup, and the lie sat down between them like a third person who has been told there's no hurry.
 
-When he left at twenty past, the stained poem was still on the table. She folded it along its old creases and put it in her bag, and did not read the last line until she was home.
+She told herself, on the walk home, that she had lied to spare him. By the High Street she had admitted it was to spare herself. By the front door she had stopped thinking about it, which was the skill she was proudest of and the one she would have to pay for.
+
+He had left the stained poem on the table. She had it in her bag. At home, under the kitchen light, she read the last line. He was still saying it wrong. It was printed right there, exactly as she had said it to him on the deck, and he had been teaching his daughter the other one all week.
+
+She turned the page face down, picked up the iron, and put it on the lowest setting.
