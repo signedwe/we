@@ -3065,6 +3065,17 @@ keeps the exact noun and the line that moves someone. He wants the
 instalment to end on something that pushes the story forward, not on a
 cup of tea.
 
+## Now and then, a surprising piece of action
+
+The operator, 7 October 2026: "add a surprising piece of action from time
+to time." Every few instalments, someone does something physical and
+unexpected that nobody, reader included, saw coming, and it changes the
+scene: a person walks out mid-sentence, a glass goes over on purpose, a
+child runs, someone gets on the wrong train, a door is locked, a stranger
+intervenes. It must come out of character, true to who that person is
+under the mask, never a stunt or a coincidence. Not every instalment;
+roughly one in three or four.
+
 ## Only what the place really has
 
 The operator, 3 October 2026, on "aged cheese from the Turkish shop":

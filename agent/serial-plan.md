@@ -31,6 +31,17 @@ let slip, slowly, through what people do, never announced:
   silence discretion. It is also cowardice, and she doesn't see it yet.
 Marnie misreads each of them at first. The reader should too.
 
+## Now and then, a surprising piece of action
+
+The operator, 7 October 2026: "add a surprising piece of action from time
+to time." Every few instalments, someone does something physical and
+unexpected that nobody, reader included, saw coming, and it changes the
+scene: a person walks out mid-sentence, a glass goes over on purpose, a
+child runs, someone gets on the wrong train, a door is locked, a stranger
+intervenes. It must come out of character, true to who that person is
+under the mask, never a stunt or a coincidence. Not every instalment;
+roughly one in three or four.
+
 The operator, 27 September 2026, after seven instalments: "the story is
 boring, nothing happens and there is no connection with the characters,
 it's meant to be booker prize level, not DULL."
