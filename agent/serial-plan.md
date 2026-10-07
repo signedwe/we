@@ -127,6 +127,9 @@ father in court was Erik.
 
 ## Facts to keep straight (checked 3 October 2026)
 
+- (7 Oct) Paul is fallible, not a chess player: he knocked Rosa's water over at supper, rang Tom's number from the receipt and said "wrong number", left the shelf straight, wrongly thought the feta was a guilty gift (it was on offer), and blurted the Harwich card statement and the coat after the assembly. The first night the flat went off, he thought the boiler had gone.
+- (7 Oct) Not too pat: at most one 'she saw now' line per instalment; let some exchanges miss and some endings stay plain.
+
 - Tom lives on Frankham Street, Deptford, in the flat over the pharmacy, up
   outside stairs; the fruit man on the corner prices in sevens.
 - The ferry: Harwich to the Hook, a March night eleven years ago. It didn't

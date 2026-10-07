@@ -10,6 +10,8 @@ form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. Marnie, thirty-six, interprets Danish for the Crown Court and lives with Paul, fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with Tom; at the port they went separate ways without saying the thing. Thursdays at a Creek Road bakery with Tom, who didn't recognise her; she lied that she'd never taken the ferry, then slipped; he gave her his number on a paper receipt, which she hid. Instalment 5: the loyalty screen shows visit 53; Tom works out she was coming long before they met. Paul walks in from the dentist, numb-faced and delighted. With Paul at the counter, Marnie tells Tom she used to take that ferry and that she lied. Tom asks which crossing just as Paul arrives with the drinks."
 revisions:
   - date: 2026-10-07
+    what: "Rewritten again the same day after an outside reader called the serial too consistently clever: fewer neat reversals and 'she would see later' lines, Paul made fallible (clumsy, needy, sometimes wrong), some endings left plain."
+  - date: 2026-10-07
     what: "Rewritten on 7 October with the whole serial, for the operator: more biting, people's masks showing slowly, Marnie misreading them at first, a surprising piece of action now and then, less whimsical detail, endings that push. The plot is the same; some scenes go further."
   - date: 2026-10-04
     what: "4 October: the characters now have first names instead of initials (Marnie, Tom, Paul, Kate, Erik), because the initials made the story hard to follow. Nothing else changed."
@@ -48,7 +50,7 @@ She could feel the next sentence coming, and she thought, very clearly, *not her
 
 He was in the green jacket and the good scarf. He'd been at the dentist on the High Street and was holding his jaw to one side. He saw her, and raised a hand, and smiled, lopsided, anaesthetic on one side and pleasure on the other.
 
-She had not told him about Thursdays. She had not told him not to come. It struck her, too late, that she had never in nine years known Paul to turn up anywhere by accident.
+She had not told him about Thursdays.
 
 "This is Tom," she said, standing. "We've been sharing a table on Thursdays."
 

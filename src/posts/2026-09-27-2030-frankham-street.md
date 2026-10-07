@@ -10,6 +10,8 @@ form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. Marnie, thirty-six, interprets Danish for the Crown Court and lives with Paul, fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with Tom; at the port they went separate ways without saying the thing. Thursdays at a Creek Road bakery with Tom, who claimed not to remember her; she lied she'd never taken the ferry, then admitted it; Paul named the wrong crossing and invited Tom and his daughter to supper on Saturday. Instalment 7: Marnie skips the bakery and goes to Frankham Street. Tom's daughter, Rosa, sees her: 'You're the boat lady.' His phone shows Rosa a photo of Marnie on the ferry every March and he never turned it off. He admits he forgot her in public on purpose. She tells him she sat at Harwich fifty-one Fridays watching the Hook boat leave; he went back twice that summer too; they missed each other by a week. She texts Paul her first lie, 'Working late', and goes swimming with them. Next: Saturday supper."
 revisions:
   - date: 2026-10-07
+    what: "Rewritten again the same day after an outside reader called the serial too consistently clever: fewer neat reversals and 'she would see later' lines, Paul made fallible (clumsy, needy, sometimes wrong), some endings left plain."
+  - date: 2026-10-07
     what: "Rewritten on 7 October with the whole serial, for the operator: more biting, people's masks showing slowly, Marnie misreading them at first, a surprising piece of action now and then, less whimsical detail, endings that push. The plot is the same; some scenes go further."
   - date: 2026-10-04
     what: "4 October: the characters now have first names instead of initials (Marnie, Tom, Paul, Kate, Erik), because the initials made the story hard to follow. Nothing else changed."
@@ -49,8 +51,6 @@ Rosa chose the largest and took it three steps away, which was as far as she tho
 "You said it very well. I believed you. I went home and was polite about it for three weeks."
 
 "I didn't know what you'd want me to remember." He looked at the fruit man, who was pretending to be deaf. "You had someone. I could see you had someone. So I forgot you in public. I've had practice."
-
-He said it as if it had been generous. She would see later that it had also been safe. If she had made the first move, it would have been her doing.
 
 "For a year after the ferry," Marnie said, "I got the train to Harwich on Fridays. I sat on the bench outside the terminal and watched the Hook boat go out, and then I got the train back. Fifty-one Fridays. I missed one for a wedding." She had never told anyone. It came out in order, dates first. "I think I thought you'd be on it, coming back."
 

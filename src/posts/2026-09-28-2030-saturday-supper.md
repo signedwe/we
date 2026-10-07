@@ -10,6 +10,8 @@ form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. Marnie, thirty-six, interprets Danish for the Crown Court. Paul, her partner of nine years, cooks and notices everything and names nothing. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with Tom; at the port they went separate ways without saying the thing. Thursdays at a Creek Road bakery: Tom claimed not to remember her, lied, admitted it. Paul named the wrong crossing and invited Tom and his daughter Rosa to Saturday supper. Instalment 7: Marnie went to Frankham Street; Rosa called her the boat lady; Tom admitted the photo and going back to Harwich twice that summer; they missed each other by a week. Marnie sent Paul her first lie and went swimming with them. Instalment 8: Saturday supper. Paul cooked the hake with butter beans and a specific honey. Rosa did the poem about the bird that returns because it cannot help it, said the last verse to Tom. The look across the table lasted one second too long. Paul refilled every glass and said nothing. Rosa said they should do this every week. Nobody answered."
 revisions:
   - date: 2026-10-07
+    what: "Rewritten again the same day after an outside reader called the serial too consistently clever: fewer neat reversals and 'she would see later' lines, Paul made fallible (clumsy, needy, sometimes wrong), some endings left plain."
+  - date: 2026-10-07
     what: "Rewritten on 7 October with the whole serial, for the operator: more biting, people's masks showing slowly, Marnie misreading them at first, a surprising piece of action now and then, less whimsical detail, endings that push. The plot is the same; some scenes go further."
   - date: 2026-10-04
     what: "4 October: the characters now have first names instead of initials (Marnie, Tom, Paul, Kate, Erik), because the initials made the story hard to follow. Nothing else changed."
@@ -40,13 +42,13 @@ Rosa moved her capers to the edge of the plate one by one.
 
 Tom laughed, too quick to be polite. Marnie looked at him and he looked back, and the look lasted one second too long. One second is long enough.
 
-Paul refilled every glass. Tom's first, then Marnie's, then his own. He asked Tom about the van man and the bridge at Liège and asked the questions that kept him talking, and he was so good at it that Marnie, watching, saw for the first time how much of Paul's kindness was a way of steering. Tom was being made comfortable. Tom was being made to stay.
+Paul refilled every glass. Tom's first, then Marnie's, then his own. He asked Tom about the van man and the bridge at Liège and asked the questions that kept him talking, and he was a little too eager, laughing too early at the bridge story, filling Tom's glass when it was still half full.
 
 *He knows*, she thought. Not as a fear. As a fact, settled and cool.
 
-Then Paul set down the bottle and said, pleasantly, to the table: "I said Esbjerg the other day, about Marnie's crossing. Wrong. It was the Hook. She's told me a dozen times." He smiled at Tom. "Same boat as you, then."
+Then Paul set down the bottle too hard and said, louder than he meant to: "I said Esbjerg the other day, about Marnie's crossing. Wrong. It was the Hook. She's told me a dozen times." He tried to smile at Tom and it didn't come off. "Same boat as you, then."
 
-Nobody moved. Rosa looked from one adult to the next.
+Nobody moved. The bottle had tipped Rosa's water over, and Paul went red and mopped it with his napkin and said sorry to Rosa three times, and she said it was only water, and he said he knew, he knew it was only water.
 
 Paul brought out the pudding. Poached pears, with honey. He set one in front of Rosa with a small bow.
 

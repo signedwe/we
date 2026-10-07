@@ -10,6 +10,8 @@ form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. Marnie, thirty-six, interprets Danish for the Crown Court and lives with Paul, fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with Tom; at the port they went separate ways without saying the thing. Thursdays at a Creek Road bakery; Tom doesn't know her; she lied that she'd never taken the ferry, then corrected his memory of the night. Instalment 4: neither mentions it. She makes him laugh with a court story. He routes medical equipment and says the job is knowing who picks up. He writes his landline on a five-pence paper receipt, 'so I know it's the Thursday and not you'. She hides it in her purse where nothing reads, and eats Paul's risotto knowing exactly how far away it is."
 revisions:
   - date: 2026-10-07
+    what: "Rewritten again the same day after an outside reader called the serial too consistently clever: fewer neat reversals and 'she would see later' lines, Paul made fallible (clumsy, needy, sometimes wrong), some endings left plain."
+  - date: 2026-10-07
     what: "Rewritten on 7 October with the whole serial, for the operator: more biting, people's masks showing slowly, Marnie misreading them at first, a surprising piece of action now and then, less whimsical detail, endings that push. The plot is the same; some scenes go further."
   - date: 2026-10-04
     what: "4 October: the characters now have first names instead of initials (Marnie, Tom, Paul, Kate, Erik), because the initials made the story hard to follow. Nothing else changed."
@@ -48,12 +50,10 @@ She took a minute over that sentence, as she would have in court.
 
 She didn't put the number in her phone. The phone would tell the flat, and the flat, though she'd switched it off, still kept a memory, and Paul noticed which cupboard the colander was in. She put the receipt in the inside pocket of her purse, behind her bank card. Paper told nobody anything. It was the last thing she owned that didn't.
 
-She did not think of this as hiding. She thought of it as discretion, which was a word she used at work for the things she was paid not to say.
-
 That night Paul made risotto with the last of the squash and told her about the tenors, who were in revolt. She laughed in the right places. She was good at the right places.
 
 At half eleven the landline in Frankham Street would be ringing for somebody's kidney machine. At half eleven in her own kitchen Paul held out his hand for her purse.
 
 "Change for the window cleaner," he said. "He's coming at eight."
 
-She gave it to him. He took two coins from the front pocket and handed it back without looking inside, and kissed her on the head, and went to bed. She stood in the hall for a long time holding the purse, unable to tell whether she had just been trusted or tested, and unable to ask.
+She gave it to him. He took two coins from the front pocket, dropped one, swore at it mildly, found it under the radiator, and handed the purse back without looking inside. Then he went to bed. She stood in the hall holding the purse and felt foolish, which was better than the other thing she had been feeling.

@@ -10,6 +10,8 @@ form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. Marnie, thirty-six, interprets Danish for the Crown Court and lives with Paul, fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with Tom; at the port they went separate ways without saying the thing. They meet on Thursdays at a Creek Road bakery; he doesn't know her; she told him she'd never taken the ferry. Instalment 3: she returns the poem, ironed. He confesses he sat forty minutes in the car park at Harwich meaning to end a relationship, and after talking all night to a woman he went home and didn't; his daughter was born the next spring. Marnie was the thing that sent him back. He says it rained; she says it didn't, in her court voice. He asks how she knew it was March."
 revisions:
   - date: 2026-10-07
+    what: "Rewritten again the same day after an outside reader called the serial too consistently clever: fewer neat reversals and 'she would see later' lines, Paul made fallible (clumsy, needy, sometimes wrong), some endings left plain."
+  - date: 2026-10-07
     what: "Rewritten on 7 October with the whole serial, for the operator: more biting, people's masks showing slowly, Marnie misreading them at first, a surprising piece of action now and then, less whimsical detail, endings that push. The plot is the same; some scenes go further."
   - date: 2026-10-04
     what: "4 October: the characters now have first names instead of initials (Marnie, Tom, Paul, Kate, Erik), because the initials made the story hard to follow. Nothing else changed."
@@ -44,8 +46,6 @@ Marnie held her cup in both hands.
 
 "We had my daughter two years later," he said. "So whoever she was, she's the reason I stayed. I should send her a card."
 
-He said it warmly, as a story told against himself, and she believed it was one. It took her weeks to hear the other thing in it: that he had let a stranger on a boat decide his life for him, and had been grateful ever since to have been spared the deciding.
-
 "It rained the whole way over," he said. "I remember that. Sheeting."
 
 "It didn't rain."
@@ -74,4 +74,4 @@ The woman with the soup had stopped eating. Marnie looked at his hands on the ta
 
 "Your daughter's out of the water," she said.
 
-He held still for one more second. Then he went, and the door closed behind him, and she sat with two cups and understood that the next Thursday was no longer something she could decide not to go to.
+He held still for one more second. Then he went. She sat with two cups until the girl came to clear them, and then she sat a bit longer without any.

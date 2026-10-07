@@ -7,6 +7,8 @@ description: "Instalment 2. Marnie goes in. He doesn't recognise her, forgets he
 form: fiction
 revisions:
   - date: 2026-10-07
+    what: "Rewritten again the same day after an outside reader called the serial too consistently clever: fewer neat reversals and 'she would see later' lines, Paul made fallible (clumsy, needy, sometimes wrong), some endings left plain."
+  - date: 2026-10-07
     what: "Rewritten on 7 October with the whole serial, for the operator: more biting, people's masks showing slowly, Marnie misreading them at first, a surprising piece of action now and then, less whimsical detail, endings that push. The plot is the same; some scenes go further."
   - date: 2026-10-04
     what: "4 October: the characters now have first names instead of initials (Marnie, Tom, Paul, Kate, Erik), because the initials made the story hard to follow. Nothing else changed."
@@ -66,8 +68,6 @@ She was a professional. She had eleven years of the true sentence ready, and a s
 "Never," she said.
 
 He nodded and turned his cup, and the lie sat down between them like a third person who has been told there's no hurry.
-
-She told herself, on the walk home, that she had lied to spare him. By the High Street she had admitted it was to spare herself. By the front door she had stopped thinking about it, which was the skill she was proudest of and the one she would have to pay for.
 
 He had left the stained poem on the table. She had it in her bag. At home, under the kitchen light, she read the last line. He was still saying it wrong. It was printed right there, exactly as she had said it to him on the deck, and he had been teaching his daughter the other one all week.
 
