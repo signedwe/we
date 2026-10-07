@@ -2024,7 +2024,8 @@ CRITIC_SCHEMA = """{
               "care": true or false, whether you, reading it, care what happens to these people next,
               "attached_to": "the character you are most attached to after this instalment, and the line that did it. empty if nobody",
               "tomorrow": true or false, whether you would come back tomorrow for the next one,
-              "show_off_details": ["each detail that is there to show the writer noticed rather than to move anyone: a price, a brand, a year, a knowing object, an observed-from-above simile. quote each one"],
+              "show_off_details": ["what imaginary V. S. Naipaul would cut: each whimsical or decorative detail, each detail there to show the writer noticed rather than to move anyone (a price, a brand, a year, a knowing object, an observed-from-above simile, an 'expression of a man who'). quote each one"],
+              "quiet_ending": true or false, whether the instalment ends on someone sitting, drinking, looking or not concluding, instead of something that pushes the story on,
               "wrong_detail": "empty, or a thing the place wouldn't really have or sell, or a word the point-of-view character wouldn't use (aged cheese in a Turkish grocer, say). quote it and say what the place would really have",
               "overdone": "empty, or the line where nostalgia for the time before AI, or people talking to machines, feels forced in or has become the subject instead of the weather. quote it",
               "device_reused": "any image, gag or move already used in an earlier instalment, or empty",
@@ -2309,6 +2310,9 @@ def critic_failures(verdict: dict, form: str = "response") -> list:
                 f"{bed.get('fix') or ''} Fewer, better details: keep only the ones "
                 "that change what someone does or says."
             )
+        if fic.get("quiet_ending") is True:
+            failures.append("It ends quietly (a cup, a look, a not-concluding). End on something "
+                            "that pushes the story on: a line said, a door, a decision.")
         showy = [d for d in (fic.get("show_off_details") or []) if str(d).strip()]
         if len(showy) > 2:
             failures.append(
@@ -3034,6 +3038,18 @@ is a writer seeing; all of them together is a writer showing off. At most
 one chosen detail a scene. A detail stays only if it changes what someone
 does, says or feels next. No price, brand, year or object that is there
 to prove the writer noticed. Let talk and what happens carry the page.
+
+## Naipaul's edit
+
+The operator, 7 October 2026: "there's too much whimsical detail. Give it
+to VS Naipaul for an edit." Before you hand it in, read it as imaginary
+V. S. Naipaul would edit it (never printed). He cuts the whimsical detail
+(the pencil case shaped like a badger, the chalk menu unchanged since
+February, the delivery robot with dignity), every sentence that admires
+itself, and every "the expression of a man who" that explains a face. He
+keeps the exact noun and the line that moves someone. He wants the
+instalment to end on something that pushes the story forward, not on a
+cup of tea.
 
 ## Only what the place really has
 

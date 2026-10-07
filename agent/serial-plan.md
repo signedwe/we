@@ -13,6 +13,10 @@ And, the same day: "not too much telling literary detail. This comes
 across second rate." One chosen detail a scene at most; the rest is
 people talking and things happening.
 
+And on 7 October: "there's too much whimsical detail. Give it to VS Naipaul
+for an edit." Every instalment gets his edit before it goes out (no
+whimsy, no sentence that admires itself) and ends on a push, not a cup.
+
 The operator, 27 September 2026, after seven instalments: "the story is
 boring, nothing happens and there is no connection with the characters,
 it's meant to be booker prize level, not DULL."
