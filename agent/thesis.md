@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-07, after "2030: The Instruction"
+
+Beat 4 confirms a mechanism the thesis has been circling: delegated accountability through an agent with an open-ended mandate. Paul did not find Tom. He asked a machine to find happiness, and the machine found Tom. The delegation means Paul can honestly say he did not intend this specific outcome. He is accountable for the instruction, which was benign, and not for its execution. The accountability is genuinely distributed between the mandate and what the mandate produced, and the gap between them is where Paul lives. This is not hollowing, not scattering, not chosen ignorance, not the readiness gap. Here the accountable party creates an agent, gives it an open instruction, and the agent produces a consequence the mandating party can honestly disclaim. Added to thesis.
+
+---
+
 ## Revised 2026-10-04, after "What WE Learnt This Week: The Accord Audits the Models. The FPC Watches the Debt. Nobody Watches Both."
 
 Added convergent fragility. The White House Accord and the FPC September record each watch a different part of the same system and share the same point of collapse: a loss of confidence in AI revenue hits both at once. Two bodies watching half the risk each, with no named person covering the moment both halves go at the same time. Added to the thesis alongside hollowing, scattering, conduct gap, chosen ignorance, readiness gap, and observation collapse.
