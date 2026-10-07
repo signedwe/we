@@ -93,6 +93,26 @@ would keep reading." Its four complaints are now rules:
    meeting in the first instalment; that has to matter. Make Tom finally
    act, on his own, without anyone forcing it.
 
+## The same reader, second look, 7 October 2026
+
+Verdict after the rewrite: "close to properly publishable literary
+fiction". Paul is now a frightened man, not a mechanism. Keep it that way.
+
+What the story is about now: everybody is interpreting everybody, and
+nobody has the source text. Marnie (paid to tell *tryg* from *sorgfri*)
+cannot translate the people closest to her. Paul misreads the feta. Kate
+misread Tom's silence for a year. Rosa reads all the adults. The machines
+interpret too: sometimes right, sometimes confidently wrong. Never make
+one character the authority on the others.
+
+The question the ending has to face: what responsibility does the
+machine bear for the life it deliberately disrupted? Not a lecture. The
+flat acted on two instructions, Marnie's ("surprised by my life") and
+Paul's ("happy, whatever that takes"), and read both its own way. When it
+comes back on (beat 4) it should not sound sorry or wise: it explains
+itself plainly, it may be wrong about what she wanted, and nobody, Marnie
+included, can say whose doing it was. That question stays open to the end.
+
 ## Who they are (keep this true)
 
 Single first names, never surnames (the operator, 4 October 2026: the
@@ -234,7 +254,7 @@ Next, in order (reorder or improve, never stand still):
 6. Paul's choir Christmas concert. Everyone in one room. Paul sings, and
    afterwards names one thing out loud.
 7. Marnie chooses, out loud, and pays for it.
-8. The ending: meant to be and aren't. Earned, not a twist.
+8. The ending: meant to be and aren't. Earned, not a twist. Someone (not the flat) has to answer for the March instruction, or decide it can't be answered for.
 
 ## Rules this plan adds to the brief
 
