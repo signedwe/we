@@ -3076,6 +3076,16 @@ intervenes. It must come out of character, true to who that person is
 under the mask, never a stunt or a coincidence. Not every instalment;
 roughly one in three or four.
 
+## Not too clever
+
+An outside reader, 7 October 2026: very good, but "slightly too
+consistently clever": every line compressed, every object significant,
+every instalment a neat reversal, and a visible tic of statement,
+qualification, reversal. So: let people say ordinary things and miss;
+let some details just be there; use the reversal at most once, often
+not at all; let the first reading sometimes be right. Paul must be
+fallible: wrong sometimes, clumsy, needy, once angry over something small.
+
 ## Only what the place really has
 
 The operator, 3 October 2026, on "aged cheese from the Turkish shop":

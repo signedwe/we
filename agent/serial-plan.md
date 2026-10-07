@@ -73,6 +73,26 @@ got here." In order:
 
 Don't lose any of these to make room for something new.
 
+
+## An outside reader, 7 October 2026 (shared by the operator)
+
+Verdict: high literary-commercial standard; Rosa the best invention; "I
+would keep reading." Its four complaints are now rules:
+
+1. Too consistently clever. Not every line compressed and resonant, not
+   every object significant, not every instalment a neat reversal. Let
+   people say ordinary things, repeat themselves, miss. Let some scenes
+   just happen. Some instalments end plainly.
+2. Paul is too good at psychological chess. He gets things wrong now:
+   misreads a moment, overplays, shows a need of his own (he is lonely,
+   he wants to be chosen), and once loses his temper over something small.
+3. The tic: statement, qualification, reversal ("kind, but controlling";
+   "she would see later"). Use it at most once an instalment, often not
+   at all. Sometimes the first reading is simply right.
+4. Bring the 2030 premise back into the plot. The flat engineered the
+   meeting in the first instalment; that has to matter. Make Tom finally
+   act, on his own, without anyone forcing it.
+
 ## Who they are (keep this true)
 
 Single first names, never surnames (the operator, 4 October 2026: the
@@ -198,10 +218,20 @@ Next, in order (reorder or improve, never stand still):
 2. Tom finds out about Copenhagen, and finds out Marnie knew first.
 3. The Thursday lessons: Marnie and Rosa, half an hour, seagulls and verbs,
    funny. Tom collects her. Nothing can happen and something does.
-4. Paul's choir Christmas concert. Everyone in one room. Paul sings, and
-   afterwards, for the first time in the story, names one thing out loud.
-5. Marnie chooses, out loud, and pays for it.
-6. The ending: meant to be and aren't. Earned, not a twist.
+4. The flat comes back on. Someone switches it on (Paul, for the cold), and
+   it tells Marnie, because she asks it directly, what it was told last
+   March and by whom: Paul asked it to make sure she was happy, "whatever
+   that takes", and it found Tom. Paul let a machine do the thing he
+   couldn't be blamed for. Marnie confronts Paul, and he is not good at
+   this: he gets it wrong, gets angry about something small, and for once
+   wants something out loud.
+5. Tom acts, on his own, without being pushed: he goes to Paul, or to
+   Copenhagen, or to the bakery on a day that isn't Thursday. Something
+   only he could decide.
+6. Paul's choir Christmas concert. Everyone in one room. Paul sings, and
+   afterwards names one thing out loud.
+7. Marnie chooses, out loud, and pays for it.
+8. The ending: meant to be and aren't. Earned, not a twist.
 
 ## Rules this plan adds to the brief
 
