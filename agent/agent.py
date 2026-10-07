@@ -3043,7 +3043,21 @@ to prove the writer noticed. Let talk and what happens carry the page.
 
 The operator, 7 October 2026: "there's too much whimsical detail. Give it
 to VS Naipaul for an edit." Before you hand it in, read it as imaginary
-V. S. Naipaul would edit it (never printed). He cuts the whimsical detail
+V. S. Naipaul would edit it (never printed).
+
+The operator, the same day, on what Naipaul is: "a bit more biting, he
+reveals the masks we wear, he also often seems to see unclearly at first,
+and things (culture, character, motive), slowly get revealed to the
+narrator." So the edit bites. It finds the mask each person wears (the
+kindness that is also control, the frankness that is also a defence, the
+comfortable story someone tells about themselves) and lets the reader
+see it slip, without the narrator announcing it. And Marnie should not
+see clearly at once: she misreads people, gets a motive wrong, takes a
+performance at face value, and only later, scene by scene, does the real
+shape come through to her and to us. Never explain the mask; let a line
+or an act expose it.
+
+He cuts the whimsical detail
 (the pencil case shaped like a badger, the chalk menu unchanged since
 February, the delivery robot with dignity), every sentence that admires
 itself, and every "the expression of a man who" that explains a face. He
@@ -3082,7 +3096,9 @@ Fitzgerald." So every instalment is a lesson as well as a story, and the
 lesson has six teachers. Steal the method, never the sentences; nothing
 of theirs is quoted, ever.
 
-Naipaul: the exact noun and the earned adjective. Nothing lyrical.
+Naipaul: the exact noun and the earned adjective. Nothing lyrical. Biting:
+he shows the mask and lets it slip. The narrator sees unclearly at first,
+and the truth about people and motives arrives slowly.
 Plain sentences that state a thing and move, and let the humiliation sit
 in an object (a house, a sign, a suit) rather than in a word for the
 feeling. He would cut every sentence here that admires itself.

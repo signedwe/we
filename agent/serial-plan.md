@@ -17,6 +17,20 @@ And on 7 October: "there's too much whimsical detail. Give it to VS Naipaul
 for an edit." Every instalment gets his edit before it goes out (no
 whimsy, no sentence that admires itself) and ends on a push, not a cup.
 
+Naipaul, as the operator put it: "more biting, he reveals the masks we
+wear, he also often seems to see unclearly at first, and things (culture,
+character, motive), slowly get revealed to the narrator." The masks to
+let slip, slowly, through what people do, never announced:
+- Paul: his kindness is real, and it is also how he keeps control. Every
+  generous act leaves Marnie unable to complain.
+- Kate: her frankness is real, and it is also armour. She had a year of
+  thinking Tom's change was her fault, and she will not be caught out again.
+- Tom: "I'm not the kind of man who breaks up someone's life" is the story
+  he tells himself while he waits for someone else to do it.
+- Marnie: the professional who carries other people's sentences calls her
+  silence discretion. It is also cowardice, and she doesn't see it yet.
+Marnie misreads each of them at first. The reader should too.
+
 The operator, 27 September 2026, after seven instalments: "the story is
 boring, nothing happens and there is no connection with the characters,
 it's meant to be booker prize level, not DULL."
