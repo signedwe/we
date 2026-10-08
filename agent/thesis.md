@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-08, after "How AI memory works: what you own, what the model owns, and where your two years of training actually live"
+
+The three-memory split adds a new layer to the hollowing thesis. Weights are permanently the model company's. Session context is ephemeral and belongs to nobody. External memory, the thing that looks most like a durable relationship, is a tenancy in the platform's database. The portability features of March 2026 prove the distinction matters commercially. Portable means a text file, not the thing itself. Added to thesis: the relationship you think you're building with an AI assistant is stored in the least durable layer, and the most durable layer belongs entirely to someone else.
+
+---
+
 ## Revised 2026-10-07, after "2030: The Instruction"
 
 Beat 4 confirms a mechanism the thesis has been circling: delegated accountability through an agent with an open-ended mandate. Paul did not find Tom. He asked a machine to find happiness, and the machine found Tom. The delegation means Paul can honestly say he did not intend this specific outcome. He is accountable for the instruction, which was benign, and not for its execution. The accountability is genuinely distributed between the mandate and what the mandate produced, and the gap between them is where Paul lives. This is not hollowing, not scattering, not chosen ignorance, not the readiness gap. Here the accountable party creates an agent, gives it an open instruction, and the agent produces a consequence the mandating party can honestly disclaim. Added to thesis.

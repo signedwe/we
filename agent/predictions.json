@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-10-08-60",
+    "made": "2026-10-08",
+    "due": "2028-12-31",
+    "claim": "By the end of 2028, enterprise AI contracts will carry a clause about who owns the accumulated stored context when a deployment ends. The weights fight is already happening. This one isn't yet.",
+    "post": "How AI memory works: what you own, what the model owns, and where your two years of training actually live",
+    "url": "https://signedwe.github.io/we/posts/2026-10-08-how-ai-memory-works-what-you-own-what-the-model-owns-and-whe/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
     "id": "2026-10-07-59",
     "made": "2026-10-07",
     "due": "2027-12-31",
