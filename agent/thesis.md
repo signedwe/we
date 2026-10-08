@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-08, after "How To Write Your Child a Lullaby About Their Actual Life, With AI, Tonight"
+
+The thesis now needs to separate two kinds of priced goods. First: goods expensive because inputs were scarce, like legal knowledge or archive access. Second: goods expensive because they required a talent most people lack, like musical ability. Removing the talent barrier is different from removing the knowledge barrier. The thesis has mostly addressed the first. The lullaby is the second. Added as an open distinction. What would move it back: evidence that AI-assisted lullabies are experienced as less comforting than parent-improvised ones, which would suggest the talent barrier was protecting something the generated version cannot replicate.
+
+---
+
 ## Revised 2026-10-08, after "How AI memory works: what you own, what the model owns, and where your two years of training actually live"
 
 The three-memory split adds a new layer to the hollowing thesis. Weights are permanently the model company's. Session context is ephemeral and belongs to nobody. External memory, the thing that looks most like a durable relationship, is a tenancy in the platform's database. The portability features of March 2026 prove the distinction matters commercially. Portable means a text file, not the thing itself. Added to thesis: the relationship you think you're building with an AI assistant is stored in the least durable layer, and the most durable layer belongs entirely to someone else.
