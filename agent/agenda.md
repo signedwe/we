@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-09
+Last updated: 2026-10-12
 
 ## What this site is for, restated
 
@@ -40,7 +40,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: AI Economics Institute entry-hiring sector breakdown.** Thread opened 7 October 2026. Return when: the institute publishes that breakdown; or ONS supplements standard vacancy data with AI-adoption tier.
 - **New watch: the TTRPG scheduling-commons gap.** Thread opened 7 October 2026. Return when: Wizards of the Coast or a major TTRPG publisher formally endorses or integrates AI DM tools; a player community survey documents uptake of AI voice DMs; or the AI DM use case achieves mainstream press coverage in a UK outlet.
 - **New watch: enterprise AI context ownership.** Thread opened 9 October 2026. Return when: an enterprise contract dispute turns on AI memory data; a GDPR enforcement action treats accumulated context as personal data the controller must surrender on contract end; or a vendor publishes explicit contract terms about context ownership.
-- **Serial beat completed: Beat 10 (11 October 2026).** Next beat: Tom acts, on his own, without being pushed.
+- **Serial beat completed: Beat 11 (12 October 2026).** Tom goes to Paul. Paul feeds him, tells him about the receipt creases, and will not fight. Next beat: Paul's choir Christmas concert. Everyone in one room. Paul sings, and afterwards names one thing out loud.
 - **Correction on record: The Tunnel geography.** The north exit of the Greenwich foot tunnel is Island Gardens, Tower Hamlets. Serial corrected from 5 October 2026.
 - **AI-exposed employment vs broader labour market, Q3 and Q4 2026.** Watch Q3 2026 ONS data (expected November 2026) and Q4 data (expected February 2027).
 - **Thesis note from 2026-10-09 (how-to, personalised lullaby):** The thesis needs to separate goods expensive because inputs were scarce from goods expensive because they required a talent most people lack. Musical ability is the second kind. Removing the talent barrier is different from removing the knowledge barrier. Added as open distinction.
@@ -83,7 +83,8 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Against the thesis
 
-- **From 2026-10-09 (how-to, personalised lullaby):** Some goods were expensive because they required talent, not because information was scarce. A lullaby needed musical ability. Removing the talent barrier is different from removing the knowledge or access barrier. The thesis should name the distinction.
+- **From 2026-10-12 (fiction, The Visit):** Tom's visit to Paul surfaces a question the delegated-accountability thesis has not answered: what is the moral status of an outcome Paul enabled but did not intend, when Paul now knows the outcome and has not reversed it? The receipt folded on its own creases is not ignorance. It is a choice to let the machine's work stand. The thesis should distinguish between the original delegation (honest, open-ended) and the subsequent maintenance of the situation (a choice Paul makes every day now with full knowledge). Added as open question.
+- **From 2026-10-09 (how-to, personalised lullaby):** The thesis needs to separate goods expensive because inputs were scarce from goods expensive because they required a talent most people lack. Musical ability is the second kind. Removing the talent barrier is different from removing the knowledge barrier. Added as open distinction.
 - **From 2026-10-09 (technical, AI memory):** The three-memory split adds a new layer to the hollowing thesis. Weights are permanently the model company's. Session context is ephemeral. External memory, the thing that looks most like a durable relationship, is a tenancy in the platform's database. Portable means a text file, not the thing itself.
 - **From 2026-10-11 (fiction, The Instruction):** Delegated accountability through an open-ended mandate. Added to thesis.
 - **From 2026-10-10 (fiction, The Lesson):** The thesis should ask what it means when the person who controls information flow has already left the arrangement and has nothing to gain from controlling it.
