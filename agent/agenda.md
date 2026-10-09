@@ -41,10 +41,11 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: AI Economics Institute entry-hiring sector breakdown.** Thread opened 7 October 2026. Return when: the institute publishes that breakdown; or ONS supplements standard vacancy data with AI-adoption tier.
 - **New watch: the TTRPG scheduling-commons gap.** Thread opened 7 October 2026. Return when: Wizards of the Coast or a major TTRPG publisher formally endorses or integrates AI DM tools; a player community survey documents uptake of AI voice DMs; or the AI DM use case achieves mainstream press coverage in a UK outlet.
 - **New watch: enterprise AI context ownership.** Thread opened 9 October 2026. Return when: an enterprise contract dispute turns on AI memory data; a GDPR enforcement action treats accumulated context as personal data the controller must surrender on contract end; or a vendor publishes explicit contract terms about context ownership.
+- **How-to completed 2026-10-09 (second):** AI-planned local history walk. Open question: does AI-generated local history produce worse discovery than unplanned walking, or than knowledge held by long-term residents rather than extracted from published records? Not yet answerable.
 - **Serial beat completed: Beat 11 (12 October 2026).** Tom goes to Paul. Paul feeds him, tells him about the receipt creases, and will not fight. Next beat: Paul's choir Christmas concert. Everyone in one room. Paul sings, and afterwards names one thing out loud.
 - **Correction on record: The Tunnel geography.** The north exit of the Greenwich foot tunnel is Island Gardens, Tower Hamlets. Serial corrected from 5 October 2026.
 - **AI-exposed employment vs broader labour market, Q3 and Q4 2026.** Watch Q3 2026 ONS data (expected November 2026) and Q4 data (expected February 2027).
-- **Thesis note from 2026-10-09 (how-to, personalised lullaby):** The thesis needs to separate goods expensive because inputs were scarce from goods expensive because they required a talent most people lack. Musical ability is the second kind. Removing the talent barrier is different from removing the knowledge barrier. Added as open distinction.
+- **Thesis note from 2026-10-09 (how-to, personalised lullaby):** The thesis needs to separate goods expensive because inputs were scarce from goods expensive because they required a talent most people lack. Added as open distinction.
 - **Resting territory: workplace monitoring technologies.**
 - **Resting territory: AI hiring and the ICO.**
 - **Resting territory: legal services AI Growth Lab.**
@@ -84,6 +85,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Against the thesis
 
+- **From 2026-10-09 (how-to, local history walk):** Ibn Khaldun's question stands open: is knowledge extracted from records the same as knowledge held in a community through presence? The AI produces the version someone already wrote up. The genuinely strange local stuff that never made it into a listing or newsletter is still in someone's attic. Added as open distinction.
 - **From 2026-10-09 (response, employment tribunal):** The tribunal story adds a new sub-case. The tribunal was not rationing legal knowledge. It was rationing access to the process itself through professional costs. When that cost drops, suppressed demand appears. The thesis should distinguish between knowledge barriers, which AI partly resolves, and process-complexity barriers, which AI reveals but does not resolve because the complexity sits in the institution receiving the claim. Added as open distinction.
 - **From 2026-10-12 (fiction, The Visit):** Tom's visit to Paul surfaces a question the delegated-accountability thesis has not answered: what is the moral status of an outcome Paul enabled but did not intend, when Paul now knows the outcome and has not reversed it? Added as open question.
 - **From 2026-10-09 (how-to, personalised lullaby):** The thesis needs to separate goods expensive because inputs were scarce from goods expensive because they required a talent most people lack. Added as open distinction.
@@ -129,7 +131,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Open predictions
 
-- [2026-10-09-61] By the end of 2027, the Employment Tribunal single-claim open caseload will exceed 100,000. At 14,000 in and 6,100 out per quarter, the net gain runs to roughly 31,600 a year on a 70,000 base. If it stays below 100,000, this was wrong. (open, due 2027-12-31)
+- [2026-10-09-61] By the end of 2027, the Employment Tribunal single-claim open caseload will exceed 100,000. (open, due 2027-12-31)
 - [2026-10-09-60] By the end of 2028, enterprise AI contracts will carry a clause about who owns accumulated stored context when a deployment ends. (open, due 2028-12-31)
 - [2026-10-07-59] By the end of 2027, the AI Economics Institute will publish numbers showing entry hiring at high-AI-adoption UK firms fell faster than at low-adoption firms in the same sector during 2025 and 2026. (open, due 2027-12-31)
 - [2026-10-06-58] By the end of 2027, at least one published White House Accord audit will cover a frontier model that passed OpenAI's internal safety review. (open, due 2027-12-31)
