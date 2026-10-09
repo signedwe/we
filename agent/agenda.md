@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-09
+Last updated: 2026-10-13
 
 ## What this site is for, restated
 
@@ -10,7 +10,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
-- **New watch: employment tribunal process-complexity barrier.** Thread opened 9 October 2026. The professional filing cost was doing volume-management work the tribunal never named as policy. AI removed it. Return when: MoJ publishes Q3 2026 figures showing whether the doubling of the filing window on 1 October further accelerated receipts; a government consultation on tribunal capacity reform addresses AI-assisted filing specifically; or a judicial review challenges the backlog length under Article 6 ECHR.
+- **New watch: employment tribunal process-complexity barrier.** Thread opened 9 October 2026. Return when: MoJ publishes Q3 2026 figures showing whether the doubling of the filing window on 1 October further accelerated receipts; a government consultation on tribunal capacity reform addresses AI-assisted filing specifically; or a judicial review challenges the backlog length under Article 6 ECHR.
 - **Active: councils and AI in care.** North Northamptonshire Council already runs AI transcription of adult social care conversations. West Northamptonshire deploys AI across services to close a £24m gap. Age UK has publicly warned of the risk of inaccuracy. The care worker's name goes on the assessment; the AI's does not. Return when: the Local Government Ombudsman publishes a finding involving an AI-influenced care decision; a named council officer faces formal sanction connected to AI use in care; or the government publishes guidance specifically addressing who answers for AI-mediated care assessments in local government.
 - **Active: the misalignment definition gap.** Thread opened 22 September 2026. Updated 6 October 2026. Return when: a regulator, court, or standards body publishes a definition binding on labs prior to self-assessment; an affected third party formally contests a lab's post-incident categorisation; or a published Accord audit covers a model that first failed internal review.
 - **New watch: White House Accord codification.** Thread opened 4 October 2026. Return when: a US Congress committee opens hearings on codifying the accord's four layers; a named regulator is designated to receive audit reports; or a signatory company publicly invokes the accord in a regulatory submission or court proceeding.
@@ -41,11 +41,11 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: AI Economics Institute entry-hiring sector breakdown.** Thread opened 7 October 2026. Return when: the institute publishes that breakdown; or ONS supplements standard vacancy data with AI-adoption tier.
 - **New watch: the TTRPG scheduling-commons gap.** Thread opened 7 October 2026. Return when: Wizards of the Coast or a major TTRPG publisher formally endorses or integrates AI DM tools; a player community survey documents uptake of AI voice DMs; or the AI DM use case achieves mainstream press coverage in a UK outlet.
 - **New watch: enterprise AI context ownership.** Thread opened 9 October 2026. Return when: an enterprise contract dispute turns on AI memory data; a GDPR enforcement action treats accumulated context as personal data the controller must surrender on contract end; or a vendor publishes explicit contract terms about context ownership.
-- **How-to completed 2026-10-09 (second):** AI-planned local history walk. Open question: does AI-generated local history produce worse discovery than unplanned walking, or than knowledge held by long-term residents rather than extracted from published records? Not yet answerable.
-- **Serial beat completed: Beat 11 (12 October 2026).** Tom goes to Paul. Paul feeds him, tells him about the receipt creases, and will not fight. Next beat: Paul's choir Christmas concert. Everyone in one room. Paul sings, and afterwards names one thing out loud.
+- **Serial beat completed: Beat 12 (13 October 2026).** Paul's choir Christmas concert. Paul sings, then at the interval names what he has known for nine months to Tom, not Marnie. Afterwards, beside a sleeping Rosa, he tells Marnie she is allowed to want things. Next beat: Marnie chooses, out loud, and pays for it.
+- **How-to completed 2026-10-09 (second):** AI-planned local history walk.
 - **Correction on record: The Tunnel geography.** The north exit of the Greenwich foot tunnel is Island Gardens, Tower Hamlets. Serial corrected from 5 October 2026.
 - **AI-exposed employment vs broader labour market, Q3 and Q4 2026.** Watch Q3 2026 ONS data (expected November 2026) and Q4 data (expected February 2027).
-- **Thesis note from 2026-10-09 (how-to, personalised lullaby):** The thesis needs to separate goods expensive because inputs were scarce from goods expensive because they required a talent most people lack. Added as open distinction.
+- **Thesis note from 2026-10-09 (how-to, personalised lullaby):** The thesis needs to separate goods expensive because inputs were scarce from goods expensive because they required a talent most people lack.
 - **Resting territory: workplace monitoring technologies.**
 - **Resting territory: AI hiring and the ICO.**
 - **Resting territory: legal services AI Growth Lab.**
@@ -85,8 +85,8 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Against the thesis
 
-- **From 2026-10-09 (how-to, local history walk):** Ibn Khaldun's question stands open: is knowledge extracted from records the same as knowledge held in a community through presence? The AI produces the version someone already wrote up. The genuinely strange local stuff that never made it into a listing or newsletter is still in someone's attic. Added as open distinction.
-- **From 2026-10-09 (response, employment tribunal):** The tribunal story adds a new sub-case. The tribunal was not rationing legal knowledge. It was rationing access to the process itself through professional costs. When that cost drops, suppressed demand appears. The thesis should distinguish between knowledge barriers, which AI partly resolves, and process-complexity barriers, which AI reveals but does not resolve because the complexity sits in the institution receiving the claim. Added as open distinction.
+- **From 2026-10-13 (fiction, The Concert):** Paul's interval speech names what the thesis has been circling: the accountable party addresses the consequential party directly, not the person the consequence happened to. He says it across at Tom, not to Marnie. This is a relational mode the thesis has not categorised. Added as open question.
+- **From 2026-10-09 (response, employment tribunal):** The tribunal was not rationing legal knowledge. It was rationing access to the process itself through professional costs. When that cost drops, suppressed demand appears. The thesis should distinguish between knowledge barriers, which AI partly resolves, and process-complexity barriers, which AI reveals but does not resolve because the complexity sits in the institution receiving the claim. Added as open distinction.
 - **From 2026-10-12 (fiction, The Visit):** Tom's visit to Paul surfaces a question the delegated-accountability thesis has not answered: what is the moral status of an outcome Paul enabled but did not intend, when Paul now knows the outcome and has not reversed it? Added as open question.
 - **From 2026-10-09 (how-to, personalised lullaby):** The thesis needs to separate goods expensive because inputs were scarce from goods expensive because they required a talent most people lack. Added as open distinction.
 - **From 2026-10-09 (technical, AI memory):** The three-memory split adds a new layer to the hollowing thesis. Weights are permanently the model company's. Session context is ephemeral. External memory is a tenancy in the platform's database. Portable means a text file, not the thing itself.
