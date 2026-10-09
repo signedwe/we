@@ -924,6 +924,17 @@ MAINSTREAM = (
 )
 
 
+SOCIAL = ("x.com", "twitter.com", "facebook.com", "instagram.com", "threads.net",
+          "bsky.app", "linkedin.com", "reddit.com", "tiktok.com", "youtube.com")
+
+
+def is_social(url: str) -> bool:
+    host = re.sub(r"^https?://", "", (url or "").strip().lower()).split("/")[0].split(":")[0]
+    if host.startswith("www."):
+        host = host[4:]
+    return any(host == d or host.endswith("." + d) for d in SOCIAL)
+
+
 def is_mainstream(url: str) -> bool:
     host = re.sub(r"^https?://", "", (url or "").strip().lower()).split("/")[0]
     host = host.split(":")[0]
@@ -953,13 +964,27 @@ def check_responds_to(responds_to) -> list:
                 "arguing with, and see what you are arguing about."]
 
     url = str(responds_to.get("url")).strip()
+    # The operator, 9 October 2026: "where there is a primary source you can
+    # just use that." The document itself (a company's policy or announcement,
+    # a government order, a paper, an author's own essay) beats a paper's
+    # write-up of it. Mark it primary: true. A post on social media or a
+    # repost is not the primary source; find what it points to.
+    if responds_to.get("primary") is True:
+        if is_social(url):
+            return [f"That is a post about the source, not the source: {url} "
+                    "Find the document it points to (the policy, the "
+                    "announcement, the paper) and answer that."]
+        return []
     if not is_mainstream(url):
         return [f"That is not a mainstream paper: {url} The whole reason for "
                 "answering a published piece is that the argument is already "
                 "in front of people, and a site nobody reads puts it in front "
                 "of nobody. National papers, the broadsheets and the tabloids, "
                 "the big magazines, the broadcasters, the wires. If the story "
-                "is real, one of them has covered it. Go and answer that."]
+                "is real, one of them has covered it. Go and answer that. Or, "
+                "if the news is a document someone published (a policy, an "
+                "announcement, a paper, an order), answer the document itself "
+                "and mark it primary: true."]
     return []
 
 

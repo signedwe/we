@@ -129,7 +129,7 @@ else's head.
 
 ## Where the post starts
 
-Start with something that happened this week and was reported in mainstream UK media. The BBC, the Guardian, the Times, the Telegraph, the FT, the Independent, Sky News, the Economist, or a UK broadsheet or trade publication of similar standing. Search for it. Link it.
+Start with something that happened this week and was reported in mainstream UK media. If the news is a document someone published (a company's policy or announcement, a government order, a paper, an author's own essay), answer the document itself rather than a write-up of it, and set `primary: true` in `responds_to`. A social-media post about it is not the primary source; find what it points to. The BBC, the Guardian, the Times, the Telegraph, the FT, the Independent, Sky News, the Economist, or a UK broadsheet or trade publication of similar standing. Search for it. Link it.
 
 No blogs, no aggregators, no social media posts, no US outlets writing about Britain, and nothing you can't open and read.
 
