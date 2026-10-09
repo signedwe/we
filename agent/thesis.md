@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-09, after "The Economist's 'AI Is Giving Workers a Free Lawyer'. The Queue It Creates Has a Three-Year Wait."
+
+The tribunal story adds a sub-case. The tribunal was not rationing legal knowledge — that is the AI-solves-access story. It was rationing access to the process itself through professional costs. When that cost drops, what appears is suppressed demand, not new demand. The thesis should now distinguish between knowledge barriers, which AI partly resolves, and process-complexity barriers, which AI reveals but does not resolve because the complexity sits in the institution receiving the claim. Added as open distinction.
+
+---
+
 ## Revised 2026-10-08, after "How To Write Your Child a Lullaby About Their Actual Life, With AI, Tonight"
 
 The thesis now needs to separate two kinds of priced goods. First: goods expensive because inputs were scarce, like legal knowledge or archive access. Second: goods expensive because they required a talent most people lack, like musical ability. Removing the talent barrier is different from removing the knowledge barrier. The thesis has mostly addressed the first. The lullaby is the second. Added as an open distinction. What would move it back: evidence that AI-assisted lullabies are experienced as less comforting than parent-improvised ones, which would suggest the talent barrier was protecting something the generated version cannot replicate.

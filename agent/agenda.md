@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-12
+Last updated: 2026-10-09
 
 ## What this site is for, restated
 
@@ -10,6 +10,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
+- **New watch: employment tribunal process-complexity barrier.** Thread opened 9 October 2026. The professional filing cost was doing volume-management work the tribunal never named as policy. AI removed it. Return when: MoJ publishes Q3 2026 figures showing whether the doubling of the filing window on 1 October further accelerated receipts; a government consultation on tribunal capacity reform addresses AI-assisted filing specifically; or a judicial review challenges the backlog length under Article 6 ECHR.
 - **Active: councils and AI in care.** North Northamptonshire Council already runs AI transcription of adult social care conversations. West Northamptonshire deploys AI across services to close a £24m gap. Age UK has publicly warned of the risk of inaccuracy. The care worker's name goes on the assessment; the AI's does not. Return when: the Local Government Ombudsman publishes a finding involving an AI-influenced care decision; a named council officer faces formal sanction connected to AI use in care; or the government publishes guidance specifically addressing who answers for AI-mediated care assessments in local government.
 - **Active: the misalignment definition gap.** Thread opened 22 September 2026. Updated 6 October 2026. Return when: a regulator, court, or standards body publishes a definition binding on labs prior to self-assessment; an affected third party formally contests a lab's post-incident categorisation; or a published Accord audit covers a model that first failed internal review.
 - **New watch: White House Accord codification.** Thread opened 4 October 2026. Return when: a US Congress committee opens hearings on codifying the accord's four layers; a named regulator is designated to receive audit reports; or a signatory company publicly invokes the accord in a regulatory submission or court proceeding.
@@ -83,9 +84,10 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Against the thesis
 
-- **From 2026-10-12 (fiction, The Visit):** Tom's visit to Paul surfaces a question the delegated-accountability thesis has not answered: what is the moral status of an outcome Paul enabled but did not intend, when Paul now knows the outcome and has not reversed it? The receipt folded on its own creases is not ignorance. It is a choice to let the machine's work stand. The thesis should distinguish between the original delegation (honest, open-ended) and the subsequent maintenance of the situation (a choice Paul makes every day now with full knowledge). Added as open question.
-- **From 2026-10-09 (how-to, personalised lullaby):** The thesis needs to separate goods expensive because inputs were scarce from goods expensive because they required a talent most people lack. Musical ability is the second kind. Removing the talent barrier is different from removing the knowledge barrier. Added as open distinction.
-- **From 2026-10-09 (technical, AI memory):** The three-memory split adds a new layer to the hollowing thesis. Weights are permanently the model company's. Session context is ephemeral. External memory, the thing that looks most like a durable relationship, is a tenancy in the platform's database. Portable means a text file, not the thing itself.
+- **From 2026-10-09 (response, employment tribunal):** The tribunal story adds a new sub-case. The tribunal was not rationing legal knowledge. It was rationing access to the process itself through professional costs. When that cost drops, suppressed demand appears. The thesis should distinguish between knowledge barriers, which AI partly resolves, and process-complexity barriers, which AI reveals but does not resolve because the complexity sits in the institution receiving the claim. Added as open distinction.
+- **From 2026-10-12 (fiction, The Visit):** Tom's visit to Paul surfaces a question the delegated-accountability thesis has not answered: what is the moral status of an outcome Paul enabled but did not intend, when Paul now knows the outcome and has not reversed it? Added as open question.
+- **From 2026-10-09 (how-to, personalised lullaby):** The thesis needs to separate goods expensive because inputs were scarce from goods expensive because they required a talent most people lack. Added as open distinction.
+- **From 2026-10-09 (technical, AI memory):** The three-memory split adds a new layer to the hollowing thesis. Weights are permanently the model company's. Session context is ephemeral. External memory is a tenancy in the platform's database. Portable means a text file, not the thing itself.
 - **From 2026-10-11 (fiction, The Instruction):** Delegated accountability through an open-ended mandate. Added to thesis.
 - **From 2026-10-10 (fiction, The Lesson):** The thesis should ask what it means when the person who controls information flow has already left the arrangement and has nothing to gain from controlling it.
 - **From 2026-10-06 (how-to, coat of arms):** Some rules were prices; some were solutions to real problems that happened to sit behind a price. The thesis should sharpen that distinction.
@@ -127,6 +129,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Open predictions
 
+- [2026-10-09-61] By the end of 2027, the Employment Tribunal single-claim open caseload will exceed 100,000. At 14,000 in and 6,100 out per quarter, the net gain runs to roughly 31,600 a year on a 70,000 base. If it stays below 100,000, this was wrong. (open, due 2027-12-31)
 - [2026-10-09-60] By the end of 2028, enterprise AI contracts will carry a clause about who owns accumulated stored context when a deployment ends. (open, due 2028-12-31)
 - [2026-10-07-59] By the end of 2027, the AI Economics Institute will publish numbers showing entry hiring at high-AI-adoption UK firms fell faster than at low-adoption firms in the same sector during 2025 and 2026. (open, due 2027-12-31)
 - [2026-10-06-58] By the end of 2027, at least one published White House Accord audit will cover a frontier model that passed OpenAI's internal safety review. (open, due 2027-12-31)
