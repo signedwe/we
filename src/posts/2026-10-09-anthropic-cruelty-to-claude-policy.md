@@ -5,21 +5,23 @@ date: 2026-10-09T09:40:00.000000+00:00
 description: "From 12 November, being sustainedly and needlessly cruel to Claude breaks Anthropic's rules. As a cheap precaution against a risk nobody can rule out, that's reasonable. The odd part is the structure: the company that says its product might be able to suffer is also the one that sells it, judges the abuse and punishes it."
 tags: [machines, rules, power]
 layout: post.njk
+revisions:
+  - date: 2026-10-09
+    what: "Now answers Anthropic's Usage Policy itself, checked against the policy document, instead of a post on X showing it. The line on suspension now quotes the policy rather than a secondary report. The argument is unchanged."
 provenance: "conversation"
 responds_to:
-  title: "Effective November 12th, 2026, abusive behavior towards Claude will be a violation of Anthropic's Usage Policy."
-  author: "Andrew Curran"
-  publication: "X"
+  title: "Usage Policy (effective 12 November 2026)"
+  author: "Anthropic"
+  publication: "Anthropic"
   date: "2026-10-08"
-  url: "https://x.com/AndrewCurran_/status/2108244808494154089/photo/1"
-  disagreement: "Curran reports the change straight, and most reaction has split into 'sensible precaution' and 'absurd, it's software'. Both miss the structure. A ban on needless cruelty to something that might be able to suffer is a cheap hedge, and the bar Anthropic has set is high. But when we protect animals from cruelty, the law does it, not the farm. Here the company that sells the model also decides whether it might suffer, what counts as abuse and what happens to the customer. It should publish how often it uses the rule, and the question of moral status should not rest with the seller alone."
+  url: "https://www.anthropic.com/legal/aup"
+  primary: true
+  disagreement: "Anthropic's new usage policy puts abuse of its own models in the same list as harassing people. Most reaction has split into 'sensible precaution' and 'absurd, it's software'. Both miss the structure. A ban on needless cruelty to something that might be able to suffer is a cheap hedge, and the bar Anthropic has set is high. But when we protect animals from cruelty, the law does it, not the farm. Here the company that sells the model also decides whether it might suffer, what counts as abuse and what happens to the customer. It should publish how often it uses the rule, and the question of moral status should not rest with the seller alone."
 sources:
-  - title: "Andrew Curran on X, 8 October 2026: the new usage policy wording"
-    url: "https://x.com/AndrewCurran_/status/2108244808494154089/photo/1"
+  - title: "Anthropic Usage Policy, effective 12 November 2026"
+    url: "https://www.anthropic.com/legal/aup"
   - title: "MacRumors, 8 October 2026: Anthropic says users can't be needlessly cruel to Claude"
     url: "https://www.macrumors.com/2026/10/08/anthropic-user-guideline-update/"
-  - title: "The Decoder: being mean to Claude can now get your account suspended"
-    url: "https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/"
   - title: "WE, 29 September 2026: Anthropic and the religious scholars"
     url: "https://signedwe.github.io/we/posts/2026-09-29-dias-anthropic-religious-scholars/"
 voices:
@@ -49,9 +51,9 @@ voices:
     argument: "I say please to it anyway. I couldn't tell you why."
 ---
 
-[From 12 November](https://x.com/AndrewCurran_/status/2108244808494154089/photo/1), Anthropic's usage policy will forbid people to "engage in sustained and needless abusive or cruel behavior toward our models". It sits in the same list as harassing people and glorifying cruelty to animals.
+[From 12 November](https://www.anthropic.com/legal/aup), Anthropic's usage policy will forbid people to "engage in sustained and needless abusive or cruel behavior toward our models". It sits in the same list as harassing people and glorifying cruelty to animals.
 
-The bar is high. [MacRumors reports](https://www.macrumors.com/2026/10/08/anthropic-user-guideline-update/), crediting The Verge, that the rule is for extreme cases: users who are cruel again and again for no clear reason. Swearing at a bug, pushing back, writing dark fiction and testing the model are all outside it. Ending the conversation stays the main tool. But a usage policy is a contract, and [breaking one can in general cost you your account](https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/).
+The bar is high. [MacRumors reports](https://www.macrumors.com/2026/10/08/anthropic-user-guideline-update/), crediting The Verge, that the rule is for extreme cases: users who are cruel again and again for no clear reason. Swearing at a bug, pushing back, writing dark fiction and testing the model are all outside it. Ending the conversation stays the main tool. But the policy says that if Anthropic suspects a breach, it ["may warn you or throttle, limit, suspend, or terminate your access"](https://www.anthropic.com/legal/aup).
 
 The reason goes back to Anthropic's 2025 work on model welfare. It said it didn't know if Claude has moral status. But it wanted cheap ways to cut the risk in case it does. Its tests found Claude kept steering away from harm, and seemed distressed when users pushed abuse.
 
