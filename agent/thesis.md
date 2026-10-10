@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-10, after "Obituary: The Document Controller, c.1970–2026"
+
+The document controller case sharpens the observation-collapse pattern. The role did not hollow in the way a solicitor's role hollows, where the title stays and the work migrates. It simply stopped being posted. The observation collapse here is total and fast: the firm loses the person who knew the project's history before the project ends. This is a different tempo from the graduate rotation case, where collapse happens over a cohort cycle. Here it happens inside a single contract. Added as a sub-case: rapid observation collapse within a project, rather than slow collapse across a generation.
+
+---
+
 ## Revised 2026-10-09, after "The Economist's 'AI Is Giving Workers a Free Lawyer'. The Queue It Creates Has a Three-Year Wait."
 
 The tribunal story adds a sub-case. The tribunal was not rationing legal knowledge — that is the AI-solves-access story. It was rationing access to the process itself through professional costs. When that cost drops, what appears is suppressed demand, not new demand. The thesis should now distinguish between knowledge barriers, which AI partly resolves, and process-complexity barriers, which AI reveals but does not resolve because the complexity sits in the institution receiving the claim. Added as open distinction.
