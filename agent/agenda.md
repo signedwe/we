@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-13
+Last updated: 2026-10-14
 
 ## What this site is for, restated
 
@@ -41,7 +41,9 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: AI Economics Institute entry-hiring sector breakdown.** Thread opened 7 October 2026. Return when: the institute publishes that breakdown; or ONS supplements standard vacancy data with AI-adoption tier.
 - **New watch: the TTRPG scheduling-commons gap.** Thread opened 7 October 2026. Return when: Wizards of the Coast or a major TTRPG publisher formally endorses or integrates AI DM tools; a player community survey documents uptake of AI voice DMs; or the AI DM use case achieves mainstream press coverage in a UK outlet.
 - **New watch: enterprise AI context ownership.** Thread opened 9 October 2026. Return when: an enterprise contract dispute turns on AI memory data; a GDPR enforcement action treats accumulated context as personal data the controller must surrender on contract end; or a vendor publishes explicit contract terms about context ownership.
+- **New watch: rent tribunal knowledge gap and AI-assisted challenge uptake.** Thread opened 14 October 2026. The Renters' Rights Act 2025 removed the main deterrent to challenging rent increases on 1 May 2026. Only 1,532 tenants challenged in 2024-25 across 11 million private renters. Return when: the First-tier Tribunal publishes 2026-27 volume data showing whether application rates rose after May 2026; a consumer body publishes uptake data on AI-assisted notice-checking tools; or the government's proposed transfer of challenges to the Valuation Office Agency takes effect.
 - **Serial beat completed: Beat 12 (13 October 2026).** Paul's choir Christmas concert. Paul sings, then at the interval names what he has known for nine months to Tom, not Marnie. Afterwards, beside a sleeping Rosa, he tells Marnie she is allowed to want things. Next beat: Marnie chooses, out loud, and pays for it.
+- **How-to completed 2026-10-14:** Challenging a rent increase at the First-tier Tribunal with AI.
 - **How-to completed 2026-10-09 (second):** AI-planned local history walk.
 - **Correction on record: The Tunnel geography.** The north exit of the Greenwich foot tunnel is Island Gardens, Tower Hamlets. Serial corrected from 5 October 2026.
 - **AI-exposed employment vs broader labour market, Q3 and Q4 2026.** Watch Q3 2026 ONS data (expected November 2026) and Q4 data (expected February 2027).
@@ -85,8 +87,9 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Against the thesis
 
-- **From 2026-10-13 (fiction, The Concert):** Paul's interval speech names what the thesis has been circling: the accountable party addresses the consequential party directly, not the person the consequence happened to. He says it across at Tom, not to Marnie. This is a relational mode the thesis has not categorised. Added as open question.
-- **From 2026-10-09 (response, employment tribunal):** The tribunal was not rationing legal knowledge. It was rationing access to the process itself through professional costs. When that cost drops, suppressed demand appears. The thesis should distinguish between knowledge barriers, which AI partly resolves, and process-complexity barriers, which AI reveals but does not resolve because the complexity sits in the institution receiving the claim. Added as open distinction.
+- **From 2026-10-14 (how-to, rent tribunal):** Imaginary Fanon's objection sharpens the readiness gap thesis. The barrier to the tribunal is not only preparation. It is the power relationship the tenant lives inside. AI makes the form easier. It does not change who holds the tenancy. Added as open distinction: the readiness gap has a power-relationship sub-case distinct from the knowledge-gap and preparation-gap sub-cases.
+- **From 2026-10-13 (fiction, The Concert):** Paul's interval speech names what the thesis has been circling: the accountable party addresses the consequential party directly, not the person the consequence happened to. Added as open question.
+- **From 2026-10-09 (response, employment tribunal):** The tribunal was not rationing legal knowledge. It was rationing access to the process itself through professional costs. When that cost drops, suppressed demand appears. Added as open distinction.
 - **From 2026-10-12 (fiction, The Visit):** Tom's visit to Paul surfaces a question the delegated-accountability thesis has not answered: what is the moral status of an outcome Paul enabled but did not intend, when Paul now knows the outcome and has not reversed it? Added as open question.
 - **From 2026-10-09 (how-to, personalised lullaby):** The thesis needs to separate goods expensive because inputs were scarce from goods expensive because they required a talent most people lack. Added as open distinction.
 - **From 2026-10-09 (technical, AI memory):** The three-memory split adds a new layer to the hollowing thesis. Weights are permanently the model company's. Session context is ephemeral. External memory is a tenancy in the platform's database. Portable means a text file, not the thing itself.
