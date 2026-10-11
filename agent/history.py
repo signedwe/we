@@ -28,6 +28,8 @@ Usage:
 """
 
 import json
+from pathlib import Path
+import types
 import os
 import pathlib
 import re
@@ -156,6 +158,20 @@ def unquoted(text: str) -> str:
     text = re.sub(r'"[^"\n]{1,600}"', " ", text)
     text = re.sub(r"\*\"[^\"\n]{1,600}\"\*", " ", text)
     return text
+
+
+def undash(body: str) -> str:
+    """Em dashes in the essay's own words become commas. On 11 October the
+    perceptron essay was held after four attempts for nothing but dashes:
+    the writer kept putting new ones in while taking old ones out. This is
+    mechanical, so it is done mechanically. Quotations keep their dashes."""
+    parts = re.split(r'(\u201c[^\u201d]{0,600}\u201d|"[^"<>\n]{1,600}")', body)
+    for i in range(0, len(parts), 2):
+        p = parts[i]
+        p = re.sub(r"\s*" + agent.EM_DASH + r"\s*(?=[\s\w])", ", ", p)
+        p = p.replace(agent.EM_DASH, ",")
+        parts[i] = p
+    return "".join(parts)
 
 
 def offending(text: str, pattern: str, limit: int = 6) -> list:
@@ -387,7 +403,15 @@ def main() -> int:
 
     essay = None
     failures = []
-    for attempt in range(4):
+    # RESUME: a held essay, fixed by hand, goes through the same checks and
+    # the same second-machine review as a fresh one, instead of being
+    # published by hand without review.
+    resume = os.environ.get("RESUME")
+    if resume:
+        essay = json.loads(Path(resume).read_text(encoding="utf-8"))
+        resp = types.SimpleNamespace(content=json.dumps(essay, ensure_ascii=False))
+        print(f"Resuming the held essay in {resume}")
+    for attempt in range(0 if resume else 4):
         resp = write(client, messages)
         try:
             essay = agent.extract_json(agent.text_blocks(resp))
@@ -401,6 +425,7 @@ def main() -> int:
                 "search again. Reply with the JSON object described in the "
                 "brief and nothing else, complete and valid."})
             continue
+        essay["body"] = undash(essay["body"])
         failures = check_essay(essay["body"])
         if not failures:
             break
@@ -417,6 +442,9 @@ def main() -> int:
             "unless a footnote needs a page you have not found."})
     if essay is None:
         raise SystemExit("No essay.")
+    if resume:
+        essay["body"] = undash(essay["body"])
+        failures = check_essay(essay["body"])
     if failures:
         return hold(essay, date, subject, "Failed local checks after four attempts:\n" + "\n".join(failures))
 
@@ -455,6 +483,7 @@ def main() -> int:
             essay = agent.extract_json(agent.text_blocks(resp))
         except ValueError as exc:
             return hold(essay, date, subject, f"Correction pass returned no JSON: {exc.args[0][:200]}")
+        essay["body"] = undash(essay["body"])
         failures = check_essay(essay["body"])
         # 27 Sep 2026: the Turing essay was held here for 141 words over and
         # four dashes, after the reviewer's corrections. Style faults get
@@ -475,6 +504,7 @@ def main() -> int:
                 essay = agent.extract_json(agent.text_blocks(resp))
             except ValueError as exc:
                 return hold(essay, date, subject, f"Style fix returned no JSON: {exc.args[0][:200]}")
+            essay["body"] = undash(essay["body"])
             failures = check_essay(essay["body"])
         if failures:
             return hold(essay, date, subject, "Corrected essay failed local checks:\n" + "\n".join(failures))
@@ -496,6 +526,8 @@ def main() -> int:
         return 0
     (HIST / filename).write_text(text, encoding="utf-8")
     mark_done(subject, filename)
+    if resume:
+        Path(resume).unlink(missing_ok=True)
     LATEST.write_text(json.dumps({
         "title": essay["title"],
         "short_version": (essay.get("standfirst") or essay.get("description", ""))[:280],
