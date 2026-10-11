@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-11, after "What WE Learnt This Week: The Queue Is a Policy. The Seller Is the Judge."
+
+From 2026-10-19 (Sunday learnt, tribunal throughput): AI-drafted claims slow the exit from the tribunal, not only speed the entrance. Each complex AI submission costs multiple hearings to process. The thesis described barrier removal as releasing suppressed demand. This week adds: barrier removal with built-in throughput cost. The tool that makes filing free can make disposal expensive. Volume times complexity is a different problem from volume alone, and the fix is different too.
+
+---
+
 ## Revised 2026-10-10, after "Obituary: The Document Controller, c.1970–2026"
 
 The document controller case sharpens the observation-collapse pattern. The role did not hollow in the way a solicitor's role hollows, where the title stays and the work migrates. It simply stopped being posted. The observation collapse here is total and fast: the firm loses the person who knew the project's history before the project ends. This is a different tempo from the graduate rotation case, where collapse happens over a cohort cycle. Here it happens inside a single contract. Added as a sub-case: rapid observation collapse within a project, rather than slow collapse across a generation.
