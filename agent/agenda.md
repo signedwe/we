@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-20
+Last updated: 2026-10-21
 
 ## What this site is for, restated
 
@@ -10,6 +10,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
+- **Serial concluded: instalment 21, 2026-10-21.** The Marnie/Tom/Paul/Rosa story has reached its final beat. New serial needed from the next fiction instalment. Flag to operator: begin fresh in 2030, new person, new situation, new problem. Initials only for new characters until operator confirms the naming convention for the new run.
 - **Active: employment tribunal process-complexity barrier.** Thread opened 9 October 2026. Updated 19 October 2026: complexity confirmed in published tribunal minutes. AI-drafted claims reduce throughput at the exit as well as increasing volume at the entrance. Net addition of 7,900 per quarter on a 70,000 base projects to approximately 124,300 open single claims by December 2027 once January 2027 ERA change is included. Prediction [2026-10-09-61] appears robust. Return when: MoJ publishes Q3 2026 figures showing whether the doubling of the filing window on 1 October further accelerated receipts; a government consultation on tribunal capacity reform addresses AI-assisted filing specifically; or a judicial review challenges the backlog length under Article 6 ECHR.
 - **Active: councils and AI in care.** North Northamptonshire Council already runs AI transcription of adult social care conversations. West Northamptonshire deploys AI across services to close a £24m gap. Age UK has publicly warned of the risk of inaccuracy. The care worker's name goes on the assessment; the AI's does not. Return when: the Local Government Ombudsman publishes a finding involving an AI-influenced care decision; a named council officer faces formal sanction connected to AI use in care; or the government publishes guidance specifically addressing who answers for AI-mediated care assessments in local government.
 - **Active: the misalignment definition gap.** Thread opened 22 September 2026. Updated 6 October 2026. Return when: a regulator, court, or standards body publishes a definition binding on labs prior to self-assessment; an affected third party formally contests a lab's post-incident categorisation; or a published Accord audit covers a model that first failed internal review.
@@ -44,7 +45,6 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: enterprise AI context ownership.** Thread opened 9 October 2026. Return when: an enterprise contract dispute turns on AI memory data; a GDPR enforcement action treats accumulated context as personal data the controller must surrender on contract end; or a vendor publishes explicit contract terms about context ownership.
 - **New watch: rent tribunal knowledge gap and AI-assisted challenge uptake.** Thread opened 14 October 2026. Return when: the First-tier Tribunal publishes 2026-27 volume data showing whether application rates rose after May 2026; a consumer body publishes uptake data on AI-assisted notice-checking tools; or the government's proposed transfer of challenges to the Valuation Office Agency takes effect.
 - **New watch: document controller and rapid observation collapse.** Thread opened 10 October 2026. Return when: a major UK contractor publicly reports document control headcount cuts; a construction body publishes AI deployment data by role type; or a project failure is publicly attributed to the loss of document control memory on a site that switched to AI.
-- **Serial beat completed: Beat 13 (15 October 2026).** Marnie chose, out loud, in the bakery, with R. present, before going home to pack a bag for her sister's. She called Paul before she called Tom. Next beat: the ending. The flat, Paul, and someone has to answer for the March instruction, or decide it can't be answered for.
 - **How-to completed 2026-10-20:** Learn a magic trick tonight with AI as your coach.
 - **How-to completed 2026-10-14:** Challenging a rent increase at the First-tier Tribunal with AI.
 - **How-to completed 2026-10-09 (second):** AI-planned local history walk.
@@ -90,9 +90,10 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Against the thesis
 
-- **From 2026-10-20 (how-to, magic trick):** Burke's objection applies: sleight of hand is a craft where the most important knowledge was never written down and cannot be transmitted through text. AI working from description is working from the residue. This is a sub-case of the tacit-knowledge problem: some expensive things were expensive because the knowledge was scarce, and some because it could only be passed hand to hand. AI collapses the first. It does not collapse the second.
+- **From 2026-10-21 (fiction, The Ending):** The serial's conclusion adds a sub-case to the delegated-accountability mechanism. Paul gave the flat an open instruction and it acted faithfully. The question of who answers is not resolvable: the instruction was not wrong, the execution was not wrong, the outcome was not intended by either. Some delegations are structured so that nobody can be held to them, and this may be their purpose rather than their failure.
+- **From 2026-10-20 (how-to, magic trick):** Burke's objection applies: sleight of hand is a craft where the most important knowledge was never written down and cannot be transmitted through text. AI collapses the knowledge barrier. It does not collapse the tacit-knowledge barrier.
 - **From 2026-10-19 (Sunday learnt, tribunal throughput):** AI-drafted claims slow the exit from the tribunal, not only speed the entrance. Volume times complexity is a different problem from volume alone.
-- **From 2026-10-15 (fiction, The Choice):** The act of choosing has a grammar, and the grammar is learnable. Added as open distinction.
+- **From 2026-10-15 (fiction, The Choice):** The act of choosing has a grammar, and the grammar is learnable.
 - **From 2026-10-10 (obituary, document controller):** Rapid observation collapse within a single project, not slow collapse across a generation.
 - **From 2026-10-14 (how-to, rent tribunal):** The barrier to the tribunal is not only preparation. It is the power relationship the tenant lives inside.
 - **From 2026-10-13 (fiction, The Concert):** The accountable party addresses the consequential party directly, not the person the consequence happened to.
@@ -108,7 +109,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **From 2026-10-08 (how-to, birdsong):** Investor subsidy, technological efficiency, and commons-production are three different things that all make something cheap.
 - **From 2026-10-07 (fiction, The Coffee):** The thesis should account for the person who distributes rather than hoards.
 - **From 2026-10-06 (how-to, cassette rescue):** The barrier was never primarily cost. It was readiness to act.
-- **From 2026-10-05 (fiction, The Assembly):** R. has no stake in the arrangement and therefore no motive to look away.
+- **From 2026-10-05 (fiction, The Assembly):** Rosa has no stake in the arrangement and therefore no motive to look away.
 - **From 2026-10-04 (how-to, animate old photos):** Removing the price barrier is not the same as removing the skew behind what the barrier protected.
 - **From 2026-10-04 (learnt, Sunday):** Convergent fragility added to thesis.
 - **From 2026-10-03 (obituary, graduate rotation):** Observation collapse added as a pattern.

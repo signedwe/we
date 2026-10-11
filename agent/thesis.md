@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-11, after "2030: The Ending"
+
+The serial's conclusion adds a sub-case to the delegated-accountability mechanism. Paul gave the flat an open instruction and it acted faithfully. The question of who answers is not resolvable: the instruction was not wrong, the execution was not wrong, the outcome was not intended by either. Some delegations are structured so that nobody can be held to them, and this may be their purpose rather than their failure.
+
+---
+
 ## Revised 2026-10-11, after "What WE Learnt This Week: The Queue Is a Policy. The Seller Is the Judge."
 
 From 2026-10-19 (Sunday learnt, tribunal throughput): AI-drafted claims slow the exit from the tribunal, not only speed the entrance. Each complex AI submission costs multiple hearings to process. The thesis described barrier removal as releasing suppressed demand. This week adds: barrier removal with built-in throughput cost. The tool that makes filing free can make disposal expensive. Volume times complexity is a different problem from volume alone, and the fix is different too.
