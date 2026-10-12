@@ -2041,6 +2041,8 @@ CRITIC_SCHEMA = """{
   "borrowed_image_because": "true if the post's main image or metaphor is one a hundred other pieces about AI have used: a seat at the table, a door that opens one way, levers nobody holds, guardrails, a black box, an arms race, a wild west, a genie, a tide, an iceberg, a canary. name the borrowed image. empty if the picture is the post's own, and quote it",
   "no_joke": true or false,
   "no_joke_because": "true if nothing in it would make anyone smile. empty if one line does, and quote it",
+  "better_without_ai": true or false,
+  "better_without_ai_because": "how-to days only, otherwise false: true if a reader would do this as well or more easily without an AI assistant, with a YouTube video, a web search, a book, an ordinary app or a friend (learning a card trick, a knot, a dance step, a recipe). name the alternative. false only if the assistant does something that alternative can't: looks at the reader's own thing, answers their own question, adapts to them, or builds something for them",
   "fiction": {"alive": true or false,
               "best_line": "the one sentence a good editor would keep whatever else went. quote it",
               "worst_line": "the one sentence a good editor would cut first, and why in five words. quote it",
@@ -2395,6 +2397,16 @@ def critic_failures(verdict: dict, form: str = "response") -> list:
             "why it arrived first. Throw it away. Take the second or third "
             "one that comes, the one nobody has worn out, and hang the "
             "argument on that instead."
+        )
+
+    if FORM == "how_to" and verdict.get("better_without_ai"):
+        failures.append(
+            "This how-to is better done without AI: "
+            f"{verdict.get('better_without_ai_because') or ''} The operator, 12 "
+            "October 2026, on a magic-trick how-to: 'this would be easier with "
+            "YOUTUBE!' Pick something where the assistant does what a video, a "
+            "search or a book can't: look at the reader's own thing, answer "
+            "their own question, adapt to them, or build something for them."
         )
 
     if verdict.get("no_joke"):
@@ -3314,6 +3326,14 @@ interesting"). People should want to send it to a friend.
   can do the job, and then say in a line why.
   The steps should be things you say to or upload to the assistant,
   so a reader with only Claude or ChatGPT on their phone can do it all.
+- AI has to beat the obvious alternative (the operator, 12 October 2026,
+  on a magic-trick how-to: "this would be easier with YOUTUBE!"). Before
+  choosing, name what a person would do without AI: a YouTube video, a
+  search, a book, an ordinary app, a friend. If that is as good or
+  easier, pick something else. It qualifies only when the assistant does
+  what the video can't: looks at the reader's own thing (their photo,
+  their garden, their bike, their handwriting), answers their own
+  question, adapts as they go, or builds something just for them.
 - Surprise is the point (the same day: "think a bit harder and find more
   surprising and interesting things to do"). The reader should think "I
   didn't know you could do that". Before choosing, think of ten ideas and
