@@ -186,6 +186,15 @@ father in court was Erik.
   borrowed her for the day.
 - Rosa's assembly is in the third week of November, green in the calendar.
 
+- (12 Oct) After Part One: Kate is in Copenhagen from January; Rosa goes
+  over for February half-term. Paul told Tom about Harwich at the concert,
+  not at the visit. Tom went to Paul's flat on a Tuesday; Paul made
+  chickpeas. Marnie said her sentence to Tom in the bakery, with Rosa
+  there, then went to her sister's for a few days. At Risotto she told
+  Paul she is not going to Frankham Street and doesn't know what she is
+  choosing instead. The flat asked whether to stop the March instruction;
+  Marnie said leave it running.
+
 ## The world they live in: after the machines got cleverer than us
 
 The operator, 4 October 2026: "There should also be more sense of
@@ -245,29 +254,93 @@ The operator, 4 October 2026, on the first draft of the assembly: "Too
 much boring chair stuff. And nothing is happening. It's dull." Every
 instalment needs an event in its first third, not furniture.
 
-Next, in order (reorder or improve, never stand still):
+Also done (instalments 15 to 21, to 11 October): coffee with Kate; the
+first lesson, where Tom learns about Copenhagen from Rosa; the flat back
+on, and the March instruction told; Tom's visit to Paul; the choir
+concert; Marnie's sentence to Tom in the bakery; Risotto, the end of
+Part One. The writer ran through these in five days, which was too fast.
+From here a turn takes several instalments, not one.
 
-1. Coffee with Kate. Kate is nothing Marnie expected again: she has been offered a
-   job in Copenhagen from January and wants to take Rosa. She wants Rosa
-   to arrive speaking Danish, and she wants Marnie to teach her. She also
-   says one true thing about Tom that Marnie didn't know.
-2. Tom finds out about Copenhagen, and finds out Marnie knew first.
-3. The Thursday lessons: Marnie and Rosa, half an hour, seagulls and verbs,
-   funny. Tom collects her. Nothing can happen and something does.
-4. The flat comes back on. Someone switches it on (Paul, for the cold), and
-   it tells Marnie, because she asks it directly, what it was told last
-   March and by whom: Paul asked it to make sure she was happy, "whatever
-   that takes", and it found Tom. Paul let a machine do the thing he
-   couldn't be blamed for. Marnie confronts Paul, and he is not good at
-   this: he gets it wrong, gets angry about something small, and for once
-   wants something out loud.
-5. Tom acts, on his own, without being pushed: he goes to Paul, or to
-   Copenhagen, or to the bakery on a day that isn't Thursday. Something
-   only he could decide.
-6. Paul's choir Christmas concert. Everyone in one room. Paul sings, and
-   afterwards names one thing out loud.
-7. Marnie chooses, out loud, and pays for it.
-8. The ending: meant to be and aren't. Earned, not a twist. Someone (not the flat) has to answer for the March instruction, or decide it can't be answered for.
+## Length: about 70,000 words, then it ends (the operator, 12 October 2026)
+
+"You should aim to complete the whole thing in 70,000 words, that will be
+the end." And: "make sure the story can sustain over that length", "the
+whole thing needs to sustain interest and engage over 70k words."
+
+Part One is about 12,000 words. That leaves about 58,000: roughly ninety
+instalments at 600 to 700 words, finishing around January 2027. The brief
+tells the writer the running total each day. Nothing ends before about
+65,000 words. No instalment is called an ending, a finale or an epilogue
+until then.
+
+## What keeps a long story going
+
+- One question the reader wants answered, open to the last part. Part
+  One asked "Tom or Paul?" and Marnie refused to answer it. The question
+  now is bigger: what does Marnie want when nobody, no man and no
+  machine, is arranging it for her? She can't answer that while the March
+  instruction is running, and she has just told the flat to leave it
+  running.
+- An engine. The instruction is still live and now everyone knows it.
+  Every so often the flat does something to make her happy, whatever that
+  takes, and each time it goes a little further and costs someone
+  something. Never two instalments running; never the same trick twice.
+  The reader should start to dread it and look forward to it.
+- Stakes that rise. Something big outside the love story is at risk:
+  her work. In 2030 the courts are trialling machine interpreters, and
+  Marnie is asked to check their output. She is the person who carries
+  other people's words, and the machine does it faster. That thread runs
+  the whole length and meets the love story at the end.
+- Several threads, each with its own turns, so the reader is never
+  waiting on one: Marnie and Paul (staying is harder than leaving); Tom
+  and Rosa (Kate gone to Copenhagen, a father on his own, a girl between
+  two countries); Kate (her armour, from a distance); Paul's own life (the
+  choir, his work, what he wants that isn't Marnie); Marnie's work.
+- A turn every 5,000 words or so (about eight instalments): something
+  that can't be undone and changes what everyone wants. A part ends on a
+  turn, never on a mood.
+- Places change: Deptford, the court, Copenhagen, Harwich and the boat.
+- Time moves: January to the next spring, with the ferry anniversary in
+  March and the anniversary of the instruction.
+- Point of view stays close to Marnie, but now and then an instalment is
+  Paul's, Tom's, or once or twice Rosa's. Each of them is wrong about
+  something the reader can see.
+- Reward the long reader: things planted early pay off late (the receipt,
+  the poem's bird, the whale bag, the van man, the fifty-one Fridays, the
+  green squares). Never explain the payoff.
+- Surprise: plan what the reader expects next, then don't do it, but
+  make the thing you do feel inevitable afterwards.
+
+## The parts (a map, not a script; a better idea may replace any of it)
+
+Part Two, The Instruction Is Still Running (to about 26,000 words,
+January into February). Kate leaves for Copenhagen. Paul and Marnie try,
+honestly, and it is harder and funnier than either expected. The flat
+starts acting on the instruction in the open. The court's machine
+interpreter arrives and Marnie is made its checker. Tom is a father on
+his own, badly and then well. Ends on a turn that sends Marnie to
+Copenhagen with Rosa for February half-term.
+
+Part Three, Copenhagen (to about 42,000 words). Marnie in her other
+language, which makes her someone else. Kate up close, armour slipping.
+Rosa between two homes. At home the flat goes on working on Paul in her
+absence. The midpoint, about 35,000 words: a discovery that changes what
+the whole of Part One meant (for example, the flat was not the only
+machine involved: something on Tom's side had been looking too, and the
+"chance" meeting was two machines agreeing). Part Three ends with Marnie
+coming home knowing it.
+
+Part Four, Who Asked (to about 58,000 words, March). The anniversary of
+the instruction. The court case where a machine's interpretation and
+Marnie's disagree, and a family's future depends on which is right. Paul
+acts on his own and surprises everyone. Tom acts on his own. Someone
+pays a real price. The lowest point near the end of the part.
+
+Part Five, The Crossing (to about 70,000 words). Harwich and the boat.
+Marnie says what she wants, out loud, with nothing arranged for her,
+and stops the instruction herself. The ending is earned and not pat: not
+necessarily either man, and not neatly. Somebody, not the flat, answers
+for March, or decides it can't be answered for.
 
 ## Rules this plan adds to the brief
 

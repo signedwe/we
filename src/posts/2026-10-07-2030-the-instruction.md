@@ -5,6 +5,9 @@ layout: post.njk
 tags: [fiction]
 description: "Paul asked the flat to make Marnie happy, whatever that takes. In June it found Tom. In January Paul switched it back on, and it told her everything."
 search_title: "2030 serial: The Instruction — Deptford love story, AI and accountability"
+revisions:
+  - date: 2026-10-12
+    what: "Line-edited: the flat came on in the afternoon, not the morning; a borrowed image (the hot radiator, Paul's in The Receipt) and two tics cut."
 form: fiction
 form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. Marnie, thirty-six, interprets Danish for the Crown Court. Paul, her partner of nine years, is kind, exact, and frightened of losing her. Eleven years ago on the Harwich to Hook night ferry she talked all night with Tom. They met again at the Creek Road bakery; she lied she'd never taken the ferry. He gave her his landline on a five-pence receipt; she hid it in her purse. Paul found it and put it back. At supper he corrected himself from Esbjerg to the Hook, in front of everyone. Kate, Rosa's mother, has taken a job in Copenhagen from January; Marnie knew before Tom did. The assembly: Rosa dedicated the poem to Marnie, Paul lent her to Rosa for Thursdays in public. Kate hired Marnie to teach Rosa Danish. At the first lesson Tom found out about Copenhagen from an eight-year-old, and that Marnie knew first. Marnie switched the flat off the night the bus first stopped outside the bakery and had not switched it back. In January Paul switched it on again for the cold. The flat told Marnie what Paul asked it in March: make her happy, whatever that takes. It found Tom. Paul threw the bag of bleed keys against the kitchen cupboard and said out loud that he wanted her to choose. Marnie said: not tonight."
@@ -22,9 +25,9 @@ She stood in the hall with her coat on.
 
 "Paul switched you on."
 
-"This morning. He said the boiler wasn't keeping up."
+"This afternoon. He said the boiler wasn't keeping up."
 
-She put her bag down. She was good at thinking while she put her bag down.
+She put her bag down.
 
 "In March," she said. "Last March. He set you an instruction."
 
@@ -40,7 +43,7 @@ A pause. It used that pause when it was deciding whether she was asking or accus
 
 "I started looking in April. I found him in June."
 
-She sat down on the hall floor, back against the radiator, which was hot, and stayed there anyway.
+She sat down on the hall floor with her back to the wall.
 
 "Did he know what you were doing?"
 
@@ -54,7 +57,7 @@ He saw her on the floor, still in her coat, and said, "Is it your back?"
 
 He sat on the bottom stair. Green jacket, the smell of the cold, something from the hardware shop on his hands. Metal and rubber.
 
-She told him what it had said. She kept it short. She was good at short.
+She told him what it had said. She kept it short.
 
 He listened without moving, face forward, hands on his knees. When she stopped he said nothing for a moment and then: "I asked it to help. I didn't tell it how."
 

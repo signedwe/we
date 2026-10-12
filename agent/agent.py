@@ -2053,6 +2053,7 @@ CRITIC_SCHEMA = """{
               "tomorrow": true or false, whether you would come back tomorrow for the next one,
               "show_off_details": ["what imaginary V. S. Naipaul would cut: each whimsical or decorative detail, each detail there to show the writer noticed rather than to move anyone (a price, a brand, a year, a knowing object, an observed-from-above simile, an 'expression of a man who'). quote each one"],
               "quiet_ending": true or false, whether the instalment ends on someone sitting, drinking, looking or not concluding, instead of something that pushes the story on,
+              "slips": ["every careless line a copy editor would catch: a physical impossibility (tasting a pot, a face making a sound), a sentence left unfinished by accident, a phrase or description repeated within the instalment, a contradiction of an earlier instalment (a time, a number, who already told whom). quote each"],
               "wrong_detail": "empty, or a thing the place wouldn't really have or sell, or a word the point-of-view character wouldn't use (aged cheese in a Turkish grocer, say). quote it and say what the place would really have",
               "overdone": "empty, or the line where nostalgia for the time before AI, or people talking to machines, feels forced in or has become the subject instead of the weather. quote it",
               "device_reused": "any image, gag or move already used in an earlier instalment, or empty",
@@ -2346,6 +2347,12 @@ def critic_failures(verdict: dict, form: str = "response") -> list:
                 "Too much telling literary detail, which reads as second rate (the "
                 "operator, 3 October 2026). Cut these, or keep one: "
                 + " | ".join(str(d)[:80] for d in showy[:6])
+            )
+        slips = [s for s in (fic.get("slips") or []) if str(s).strip()]
+        if slips:
+            failures.append(
+                "Careless lines (the operator, 12 October 2026: 'you can't taste a "
+                "pot', 'REPETITION'). Fix each: " + " | ".join(str(s)[:100] for s in slips[:6])
             )
         if str(fic.get("wrong_detail") or "").strip():
             failures.append(
@@ -2861,7 +2868,7 @@ def serial_plan() -> str:
     return SERIAL_PLAN.read_text(encoding="utf-8") if SERIAL_PLAN.exists() else "(no plan yet)"
 
 
-def whole_serial(max_words: int = 60000) -> str:
+def whole_serial(max_words: int = 80000) -> str:
     """Every instalment in full, in order (3 October 2026, the operator: "Are
     you rereading the whole story each time to make sure we know the shape of
     the story"). Until it passes max_words; after that the oldest go to their
@@ -2880,6 +2887,18 @@ def whole_serial(max_words: int = 60000) -> str:
     return "\n\n".join(reversed(parts))
 
 
+SERIAL_TARGET_WORDS = 70000  # the operator, 12 October 2026: "that will be the end"
+
+
+def serial_words() -> int:
+    total = 0
+    for f in posts_with_form("fiction"):
+        text = f.read_text(encoding="utf-8")
+        body = text.split("\n---\n", 1)[1] if "\n---\n" in text else text
+        total += len(body.split())
+    return total
+
+
 def story_so_far() -> str:
     """The serial: the running summary and every instalment in full."""
     done = posts_with_form("fiction")
@@ -2889,7 +2908,12 @@ def story_so_far() -> str:
     last = done[-1].read_text(encoding="utf-8")
     m = re.search(r'^serial_so_far:\s*"(.+?)"\s*$', last, re.MULTILINE)
     so_far = json.loads('"' + m.group(1) + '"') if m else "(no summary was kept)"
-    return (f"Instalments so far: {len(done)}.\n\nThe story so far, as kept by "
+    words = serial_words()
+    return (f"Instalments so far: {len(done)}. Words so far: about {words:,} of "
+            f"{SERIAL_TARGET_WORDS:,}, so about {max(0, SERIAL_TARGET_WORDS - words):,} "
+            f"to go. Find where that puts you in the parts of the plan, and pace "
+            f"to it: a turn takes several instalments. Nothing ends before about "
+            f"65,000 words.\n\nThe story so far, as kept by "
             f"the last instalment:\n{so_far}\n\nThe whole story so far, every "
             f"instalment in full, in order. Read all of it before you write: know "
             f"the shape, what each person wants, what has been said and done, and "
@@ -3013,9 +3037,10 @@ words, so the next instalment can pick it up.
 
 ## Where the story is going
 
-The plan below is the spine. Take the next beat that isn't done, write
-it as a scene, and say in `serial_so_far` which beat it was and what
-can't now be undone. A better idea may replace a beat; standing still
+The plan below is the spine. Find where the story is in its parts, write
+the next scene, and say in `serial_so_far` which part it is in and what
+can't now be undone. A turn takes several instalments; don't spend a
+whole beat in one day. A better idea may replace a beat; standing still
 may not.
 
 {serial_plan()}
@@ -3537,6 +3562,23 @@ def check_ask_motif(*texts) -> list:
     return []
 
 
+def check_repeats(body: str, n: int = 6) -> list:
+    """The same run of words twice in one instalment (12 October 2026: "something
+    that had been going since the afternoon", twice in The Visit)."""
+    words = re.findall(r"[a-z']+", plain_text(body).lower())
+    seen, hits = {}, []
+    for i in range(len(words) - n + 1):
+        g = " ".join(words[i:i + n])
+        if g in seen and i - seen[g] >= n:
+            hits.append(g)
+        seen.setdefault(g, i)
+    hits = sorted(set(hits))
+    if not hits:
+        return []
+    return ["The same words twice in one instalment: " + " | ".join(hits[:5])
+            + ". Say it once; the second time, find what's new or cut it."]
+
+
 def check_initials(body: str) -> list:
     """The serial's people have one first name each, never an initial (the
     operator, 4 October 2026: "The initials make it hard to follow"; again
@@ -4041,6 +4083,14 @@ def main() -> int:
         if FORM == "fiction":
             failures += check_similes(post["body"])
             failures += check_initials(post["body"])
+            failures += check_repeats(post["body"])
+            if serial_words() < 65000 and re.search(
+                    r"\b(the end(ing)?|finale|epilogue|concludes?|concluded|final instalment)\b",
+                    str(post.get("title", "")) + " " + str(post.get("description", "")) + " "
+                    + str(post.get("serial_so_far") or ""), re.I):
+                failures.append("The serial runs to about 70,000 words (the operator, 12 "
+                                "October 2026) and is nowhere near that. Nothing is an "
+                                "ending, a finale or a conclusion yet. Keep going.")
             if "Marnie" not in post["body"] + str(post.get("serial_so_far") or ""):
                 failures.append("This isn't the serial. There is one story, Marnie's, "
                                 "and only the operator starts another. Continue it.")
