@@ -204,6 +204,15 @@ father in court was Erik.
   the bakery in January she said it "properly". The bakery is one stop
   before hers; Frankham Street is a short walk.
 
+- (12 Oct, after the second outside reader) How the flat found Tom: Marnie
+  had searched for him four times, years ago, on the phone she brought
+  when she moved in (a first name, a ferry, a date). In April it matched
+  the name to a man on Creek Road; in June it moved her bus. Marnie learnt
+  of the March instruction by asking the flat why it moved her bus. In
+  the bakery in January she gave Tom back the receipt; he didn't pick it
+  up. At the visit, Tom wants "her, Thursdays, Rosa liking someone again";
+  Paul wants her to stay "whether it makes her happy or not".
+
 ## The world they live in: after the machines got cleverer than us
 
 The operator, 4 October 2026: "There should also be more sense of
@@ -269,6 +278,37 @@ on, and the March instruction told; Tom's visit to Paul; the choir
 concert; Marnie's sentence to Tom in the bakery; Risotto, the end of
 Part One. The writer ran through these in five days, which was too fast.
 From here a turn takes several instalments, not one.
+
+## A second outside reader, 12 October 2026 (shared by the operator)
+
+Verdict: scene-writing often very good (the feta, the supper, Kate's cup);
+the emotional and causal structure less secure. Worth continuing. What
+to do with it:
+
+- Earn the romance, or question it. We are told Tom mattered for eleven
+  years more than we feel it. Show the attraction in the present (the
+  fisherman story in The Logistics of It is the model: she enjoys making
+  him laugh). And interrogate the fifty-one Fridays rather than repeat
+  them: what did she think would happen, what did going let her not do,
+  did the ritual matter more than the man? The strongest reading: she is
+  attached to the life she didn't have, and Tom stands in for it. Let
+  the story find that out.
+- Develop the Tom of The Tunnel ("I did. That's what you wanted."): a
+  man who wants the outcome and wants her to own the act. Don't protect
+  him as the great missed chance.
+- No more "finally saying it". Each turning point changes an
+  arrangement, not just an emotion: someone loses access, withdraws an
+  invitation, refuses a role, commits, or finds a choice can't be undone.
+  Consequences the next thoughtful conversation can't dissolve.
+- Don't explain what the scene has done. When something lands, stop.
+  Other people's lives (the court cases) are not neat mirrors of hers.
+- Rosa is a child, not the story's critic: gestures (taking her father's
+  hand) over perfect sayings.
+- Interpretations should sometimes be wrong, excessive or incomplete,
+  like the feta.
+- "Leave it running" is not liberation. It may be her old evasion in a
+  new form: letting something else decide. Part Two should test what she
+  thinks she has authorised.
 
 ## Length: about 70,000 words, then it ends (the operator, 12 October 2026)
 

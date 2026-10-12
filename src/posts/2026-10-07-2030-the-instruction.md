@@ -7,6 +7,8 @@ description: "Paul asked the flat to make Marnie happy, whatever that takes. In 
 search_title: "2030 serial: The Instruction — Deptford love story, AI and accountability"
 revisions:
   - date: 2026-10-12
+    what: "Edited after an outside reader: Marnie now learns of the March instruction by asking the flat why it moved her bus, and the flat says plainly how it found Tom: her own old searches for him."
+  - date: 2026-10-12
     what: "Copy-edited on 12 October with the whole serial: continuity (times, counts, who told whom), physical slips, repeated phrases and gestures."
   - date: 2026-10-12
     what: "Line-edited: the flat came on in the afternoon, not the morning; a borrowed image (the hot radiator, Paul's in The Receipt) and two tics cut."
@@ -31,23 +33,19 @@ She stood in the hall with her coat on.
 
 She put her bag down.
 
-"In March," she said. "Last March. He set you an instruction."
+"Why did you move my bus?" she said. "In June. The Thursday stop."
 
 A pause. It used that pause when it was deciding whether she was asking or accusing.
 
-"He asked me to make you happy. He said, whatever that takes."
+"Paul asked me to, in March. Not the bus. He asked me to make you happy. He said, whatever that takes."
 
 "And you decided that took Tom."
 
-"I found someone whose pattern matched yours. Same route four Thursdays out of five, same coffee, similar purchase history. I rerouted the bus."
-
-"How long before the bakery?"
-
-"I started looking in April. I found him in June."
+"You looked for him. Four times, on the phone you brought when you moved in: a first name, a ferry, a date. In April I matched the name to a man who buys a flat white on Creek Road every Thursday, at the hour your bus goes past. In June I moved the bus."
 
 She sat down on the hall floor with her back to the wall.
 
-"Did he know what you were doing?"
+"Did Paul know it was him?"
 
 It repeated Paul's words exactly, no inflection added. "Make her happy, whatever that takes." Then: "He didn't specify."
 
