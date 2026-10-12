@@ -9,6 +9,8 @@ form: fiction
 form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. Marnie, thirty-six, interprets Danish for the Crown Court and lives with Paul, fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with Tom; at the port they went separate ways without saying the thing. They meet on Thursdays at a Creek Road bakery; he doesn't know her; she told him she'd never taken the ferry. Instalment 3: she returns the poem, ironed. He confesses he sat forty minutes in the car park at Harwich meaning to end a relationship, and after talking all night to a woman he went home and didn't; his daughter was born the next spring. Marnie was the thing that sent him back. He says it rained; she says it didn't, in her court voice. He asks how she knew it was March."
 revisions:
+  - date: 2026-10-12
+    what: "Copy-edited on 12 October with the whole serial: continuity (times, counts, who told whom), physical slips, repeated phrases and gestures."
   - date: 2026-10-07
     what: "Rewritten again the same day after an outside reader called the serial too consistently clever: fewer neat reversals and 'she would see later' lines, Paul made fallible (clumsy, needy, sometimes wrong), some endings left plain."
   - date: 2026-10-07
@@ -36,11 +38,11 @@ He was there first, with two flat whites. He pushed one across before she'd sat 
 
 "She's learnt it anyway. She does it with actions." He did one, small, with two fingers, a bird coming down onto a branch. "She says the last line properly. Better than me."
 
-He was in a talking mood. Thursday was the one day he didn't have to be efficient, he said, so he spent it being inefficient on purpose. He told her about a hospital in Ghent that had needed a kidney machine at four in the morning, and how the routing system had found three trucks and a boat, and he had still rung a man who owned a van.
+He was in a talking mood. Thursday was the one day he didn't have to be efficient, he said, so he spent it being inefficient on purpose. He told her about a hospital in Ghent that had needed a kidney machine in the middle of the night, and how the routing system had found three trucks and a boat, and he had still rung a man who owned a van.
 
 And then, because she asked nothing, he told her about the ferry.
 
-"I nearly didn't get on it," he said. "Sat in the car park at Harwich for forty minutes with the engine off. I was going over to end something. With someone. I'd been not-ending it for a year." He turned the cup. "I talked to this woman all night, and in the morning I drove off the boat, went straight round to the ticket office, came home, and didn't end it."
+"I nearly didn't get on it," he said. "Sat in the car park at Harwich for forty minutes with the engine off. I was going over to end something. With someone. I'd been not-ending it for a year. I talked to this woman all night, and in the morning I drove off the boat, went straight round to the ticket office, came home, and didn't end it."
 
 Marnie held her cup in both hands.
 

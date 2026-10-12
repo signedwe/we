@@ -9,6 +9,8 @@ form: fiction
 form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. Marnie, thirty-six, interprets Danish for the Crown Court. Paul, her partner of nine years, cooks and notices everything and names nothing. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with Tom; at the port they went separate ways without saying the thing. Thursdays at a Creek Road bakery: Tom claimed not to remember her, lied, admitted it. Paul named the wrong crossing and invited Tom and his daughter Rosa to Saturday supper. Instalment 7: Marnie went to Frankham Street; Rosa called her the boat lady; Tom admitted the photo and going back to Harwich twice that summer; they missed each other by a week. Marnie sent Paul her first lie and went swimming with them. Instalment 8: Saturday supper. Paul cooked the hake with butter beans and a specific honey. Rosa did the poem about the bird that returns because it cannot help it, said the last verse to Tom. The look across the table lasted one second too long. Paul refilled every glass and said nothing. Rosa said they should do this every week. Nobody answered."
 revisions:
+  - date: 2026-10-12
+    what: "Copy-edited on 12 October with the whole serial: continuity (times, counts, who told whom), physical slips, repeated phrases and gestures."
   - date: 2026-10-07
     what: "Rewritten again the same day after an outside reader called the serial too consistently clever: fewer neat reversals and 'she would see later' lines, Paul made fallible (clumsy, needy, sometimes wrong), some endings left plain."
   - date: 2026-10-07
@@ -26,7 +28,7 @@ Rosa arrived with her coat half off and a drawing she'd made on the bus: Rosa in
 
 Paul studied it. "She has a very good mouth," he said, and stuck it to the fridge, over the shopping list, with the magnet he used for bills.
 
-He poured Tom a glass of the white. Tom thanked him for the candles, for the bread, for the wine, a guest who put his thanks where they pointed at something. Paul noticed all of it without appearing to notice any of it.
+He poured Tom a glass of the white. Tom thanked him for the candles, for the bread, for the wine, a guest whose thanks always pointed at something. Paul noticed all of it without appearing to notice any of it.
 
 The poem came after the bread and before the hake, because Rosa had a hierarchy. She stood. Hands flat on the table for the bark, arms wide for the branches, one hand on her chest for the singing. The bird came back to its tree every year, whatever happened to the tree, and the year it was cut to a stump the bird came back anyway and sang, because it could not help it.
 
@@ -40,7 +42,7 @@ Rosa moved her capers to the edge of the plate one by one.
 
 "I know," she said. "I'm keeping them for evidence."
 
-Tom laughed, too quick to be polite. Marnie looked at him and he looked back, and the look lasted one second too long. One second is long enough.
+Tom laughed, too quick to be polite. Marnie looked at him and he looked back, and the look lasted one second too long.
 
 Paul refilled every glass. Tom's first, then Marnie's, then his own. He asked Tom about the van man and the bridge at Liège and asked the questions that kept him talking, and he was a little too eager, laughing too early at the bridge story, filling Tom's glass when it was still half full.
 

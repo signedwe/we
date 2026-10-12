@@ -195,6 +195,15 @@ father in court was Erik.
   choosing instead. The flat asked whether to stop the March instruction;
   Marnie said leave it running.
 
+- (12 Oct copy-edit) The bakery loyalty screen said VISIT 17 (the bus
+  has stopped there only since June). Marnie gave Tom her mobile number at
+  the door on Frankham Street, "for Rosa". Tom turned the music off in
+  June. Paul switched the flat on for ten minutes in November to ask it
+  directly; otherwise it was off until January. Marnie first told Tom he
+  was the one she thought about at the Wednesday on Frankham Street; at
+  the bakery in January she said it "properly". The bakery is one stop
+  before hers; Frankham Street is a short walk.
+
 ## The world they live in: after the machines got cleverer than us
 
 The operator, 4 October 2026: "There should also be more sense of

@@ -9,6 +9,8 @@ form: fiction
 form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. Marnie, thirty-six, interprets Danish for the Crown Court and lives with Paul, fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with Tom; at the port they went separate ways without saying the thing. Thursdays at a Creek Road bakery; Tom doesn't know her; she lied that she'd never taken the ferry, then corrected his memory of the night. Instalment 4: neither mentions it. She makes him laugh with a court story. He routes medical equipment and says the job is knowing who picks up. He writes his landline on a five-pence paper receipt, 'so I know it's the Thursday and not you'. She hides it in her purse where nothing reads, and eats Paul's risotto knowing exactly how far away it is."
 revisions:
+  - date: 2026-10-12
+    what: "Copy-edited on 12 October with the whole serial: continuity (times, counts, who told whom), physical slips, repeated phrases and gestures."
   - date: 2026-10-07
     what: "Rewritten again the same day after an outside reader called the serial too consistently clever: fewer neat reversals and 'she would see later' lines, Paul made fallible (clumsy, needy, sometimes wrong), some endings left plain."
   - date: 2026-10-07
@@ -50,7 +52,7 @@ She took a minute over that sentence, as she would have in court.
 
 She didn't put the number in her phone. The phone would tell the flat, and the flat, though she'd switched it off, still kept a memory, and Paul noticed which cupboard the colander was in. She put the receipt in the inside pocket of her purse, behind her bank card. Paper told nobody anything. It was the last thing she owned that didn't.
 
-That night Paul made risotto with the last of the squash and told her about the tenors, who were in revolt. She laughed in the right places. She was good at the right places.
+That night Paul made risotto with the last of the squash and told her about the tenors, who were in revolt. She laughed in the right places. She always had.
 
 At half eleven the landline in Frankham Street would be ringing for somebody's kidney machine. At half eleven in her own kitchen Paul held out his hand for her purse.
 

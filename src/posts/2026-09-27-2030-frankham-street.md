@@ -9,6 +9,8 @@ form: fiction
 form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. Marnie, thirty-six, interprets Danish for the Crown Court and lives with Paul, fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with Tom; at the port they went separate ways without saying the thing. Thursdays at a Creek Road bakery with Tom, who claimed not to remember her; she lied she'd never taken the ferry, then admitted it; Paul named the wrong crossing and invited Tom and his daughter to supper on Saturday. Instalment 7: Marnie skips the bakery and goes to Frankham Street. Tom's daughter, Rosa, sees her: 'You're the boat lady.' His phone shows Rosa a photo of Marnie on the ferry every March and he never turned it off. He admits he forgot her in public on purpose. She tells him she sat at Harwich fifty-one Fridays watching the Hook boat leave; he went back twice that summer too; they missed each other by a week. She texts Paul her first lie, 'Working late', and goes swimming with them. Next: Saturday supper."
 revisions:
+  - date: 2026-10-12
+    what: "Copy-edited on 12 October with the whole serial: continuity (times, counts, who told whom), physical slips, repeated phrases and gestures."
   - date: 2026-10-07
     what: "Rewritten again the same day after an outside reader called the serial too consistently clever: fewer neat reversals and 'she would see later' lines, Paul made fallible (clumsy, needy, sometimes wrong), some endings left plain."
   - date: 2026-10-07
@@ -64,7 +66,7 @@ Rosa came back with orange on her fingers and the peel in one long curl, which s
 
 Tom did not say no. He did not say yes either. He looked at Marnie and left it with her.
 
-Her phone buzzed. Paul: *Pasta tonight? Saving the hake for Saturday. Do eight-year-olds eat capers?*
+Her phone buzzed. Paul: *Pasta tonight? Saving the hake for Saturday. Do children eat capers?*
 
 She typed *Working late. You choose x* and sent it. In nine years it was the first thing she had sent him that wasn't true.
 

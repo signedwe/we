@@ -9,6 +9,8 @@ form: fiction
 form_label: "fiction: 2030"
 serial_so_far: "2030, Deptford. Marnie, thirty-six, interprets Danish for the Crown Court and lives with Paul, fifties, kind, exact, a choir bass who cooks and leaves notes. Eleven years ago on the Harwich to Hook of Holland night ferry she talked all night with Tom; at the port they went separate ways without saying the thing. Thursdays at a Creek Road bakery with Tom, who didn't recognise her; she lied that she'd never taken the ferry, then slipped; he gave her his number on a paper receipt, which she hid. Instalment 5: the loyalty screen shows visit 53; Tom works out she was coming long before they met. Paul walks in from the dentist, numb-faced and delighted. With Paul at the counter, Marnie tells Tom she used to take that ferry and that she lied. Tom asks which crossing just as Paul arrives with the drinks."
 revisions:
+  - date: 2026-10-12
+    what: "Copy-edited on 12 October with the whole serial: continuity (times, counts, who told whom), physical slips, repeated phrases and gestures."
   - date: 2026-10-07
     what: "Rewritten again the same day after an outside reader called the serial too consistently clever: fewer neat reversals and 'she would see later' lines, Paul made fallible (clumsy, needy, sometimes wrong), some endings left plain."
   - date: 2026-10-07
@@ -26,11 +28,11 @@ rewritten: true
 
 The bakery had a new loyalty screen, and the loyalty screen had no discretion at all.
 
-She put her thumb on the terminal and it lit up for the whole shop to read: WELCOME BACK. VISIT 53. YOUR NEXT BUN IS ON US.
+She put her thumb on the terminal and it lit up for the whole shop to read: WELCOME BACK. VISIT 17. YOUR NEXT BUN IS ON US.
 
 Tom was at the window table. He had watched it light. When she sat down he did the sum out loud, because that was his job.
 
-"My daughter's lessons moved to Thursdays last September. So I've been coming here thirteen months. Fifty-odd Thursdays." He turned his cup. "You've been coming fifty-three times. And we met a month ago."
+"My daughter's lessons moved to Thursdays last September. So I've been coming here thirteen months. Fifty-odd Thursdays. You've been coming seventeen times. And we met a month ago."
 
 "I come on other days."
 

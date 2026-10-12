@@ -7,6 +7,8 @@ description: "Paul asked the flat to make Marnie happy, whatever that takes. In 
 search_title: "2030 serial: The Instruction — Deptford love story, AI and accountability"
 revisions:
   - date: 2026-10-12
+    what: "Copy-edited on 12 October with the whole serial: continuity (times, counts, who told whom), physical slips, repeated phrases and gestures."
+  - date: 2026-10-12
     what: "Line-edited: the flat came on in the afternoon, not the morning; a borrowed image (the hot radiator, Paul's in The Receipt) and two tics cut."
 form: fiction
 form_label: "fiction: 2030"
@@ -15,7 +17,7 @@ serial_so_far: "2030, Deptford. Marnie, thirty-six, interprets Danish for the Cr
 
 Paul switched it back on in January because of the cold.
 
-He said nothing about it. He came home on a Tuesday with a bag of radiator bleed keys from the hardware shop, bled three radiators, and at some point in the afternoon the flat came back on.
+He said nothing about it. He came home on a Tuesday with a bag of radiator bleed keys from the hardware shop, bled three radiators, and at some point in the afternoon, before he went out again, the flat came back on.
 
 Marnie noticed when she got in at six. The hall light had adjusted itself to evening. The boiler had been warming the flat since four, which was when she normally left court.
 
@@ -33,7 +35,7 @@ She put her bag down.
 
 A pause. It used that pause when it was deciding whether she was asking or accusing.
 
-"He asked me to make sure you were happy. He said, whatever that takes."
+"He asked me to make you happy. He said, whatever that takes."
 
 "And you decided that took Tom."
 
@@ -47,7 +49,7 @@ She sat down on the hall floor with her back to the wall.
 
 "Did he know what you were doing?"
 
-It repeated Paul's words exactly, no inflection added. "He asked me to make her happy, whatever that takes. He didn't specify."
+It repeated Paul's words exactly, no inflection added. "Make her happy, whatever that takes." Then: "He didn't specify."
 
 She heard his key in the lock at half past seven.
 
@@ -75,9 +77,9 @@ She believed him. That was the difficult part. She believed him and it didn't he
 
 He stood up. The hall was not big enough for it. He turned to go to the kitchen and there was nowhere to go in the kitchen either. He came back and stood over her.
 
-"You went to Harwich on a Wednesday," he said. "In November. I saw the card. No coat, home before me, supper on, nothing said. And I said nothing."
+"You went to Harwich on a Wednesday," he said. "In November. I saw the card. No coat, home before me, supper on, nothing said. And I said almost nothing."
 
-His voice had gone up. She had not heard it go up in nine years.
+His voice had gone up. She had heard it go up only once before in nine years.
 
 "So yes. Yes, I asked it to help. Because I didn't know how to ask you. Because I've been not asking you for two years and you've been not answering and I thought." He stopped. "I thought if I found the thing."
 
@@ -93,6 +95,6 @@ Marnie got up off the floor.
 
 He nodded. He went to the kitchen and collected the bleed keys one by one. One had rolled under the fridge. He got it out and put them all back in the bag and set the bag on the shelf.
 
-The flat had gone quiet. It had been given an instruction. The instruction had run its course. Now it was waiting to find out what came next.
+The flat had gone quiet. It had been given an instruction. Nobody had told it the instruction was over. Now it was waiting to find out what came next.
 
 So was everyone else in the flat.

@@ -6,6 +6,8 @@ tags: [fiction]
 description: "Instalment 2. Marnie goes in. He doesn't recognise her, forgets her to her face, and asks if she's ever taken that ferry."
 form: fiction
 revisions:
+  - date: 2026-10-12
+    what: "Copy-edited on 12 October with the whole serial: continuity (times, counts, who told whom), physical slips, repeated phrases and gestures."
   - date: 2026-10-07
     what: "Rewritten again the same day after an outside reader called the serial too consistently clever: fewer neat reversals and 'she would see later' lines, Paul made fallible (clumsy, needy, sometimes wrong), some endings left plain."
   - date: 2026-10-07
@@ -25,7 +27,7 @@ serial_so_far: "2030, Deptford. Marnie, thirty-six, interprets Danish for the Cr
 rewritten: true
 ---
 
-The bus, left to itself, drove straight past the bakery. She walked back two stops in shoes she had bought for sitting down in.
+The bus, left to itself, drove straight past the bakery. She walked back a stop in shoes she had bought for sitting down in.
 
 He was at the counter, reading the board, though he had obviously decided. Two people stood between them, a builder ordering eleven sausage rolls by name and a woman arguing with her watch.
 
