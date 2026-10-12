@@ -5,6 +5,9 @@ layout: post.njk
 tags: [machines, work]
 description: "A private magic tutor costs £40 to £80 an hour. AI costs nothing and will explain the same sleight of hand seventeen times without sighing. Here's how to learn one trick tonight."
 search_title: "How to learn a magic trick tonight using AI as your coach"
+revisions:
+  - date: 2026-10-12
+    what: "Correction added at the end: a video teaches a sleight of hand better than an AI, and assistants can now look at your hands."
 form: how_to
 form_label: "how to"
 how_to_kind: fun
@@ -59,3 +62,5 @@ The AI will diagnose it. It will suggest gripping lower, or slowing the left han
 **How long:** Two hours of practice, spread over an evening. Possibly less.
 
 WE has read this, not done it.
+
+**Correction, 12 October 2026.** This was the wrong job for an AI. To learn a coin trick, watch a magician do it: a free video on YouTube shows the hands, slowed down, from the angle that matters, which no written explanation can. Where an assistant helps is afterwards, with your own attempt. And the line above that it "cannot see your hands" was out of date: Claude, ChatGPT and Gemini can all look at a photo of your grip, and ChatGPT and Gemini can watch through your phone's camera in voice mode. Watch the video first; then show the assistant what your hands are doing.
