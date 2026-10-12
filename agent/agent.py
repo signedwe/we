@@ -3214,6 +3214,12 @@ you, and it goes on file.
 
 {fiction_notes()}
 
+There is one serial, Marnie's, and only the operator ends it or starts
+another (the operator, 12 October 2026, after a new serial appeared the
+day after "The Ending": "why have you started a new one, don't do that").
+Never begin a new story, new people or a new town. If the plan's last
+beat is behind you, carry on with these same people after it.
+
 Rules for this form. Continue the love story; do not restart it, and do
 not turn it into a thriller or a policy scene. No sources, no links, no
 responds_to, no derived number, no bet, no stakes field, no refutation.
@@ -4035,6 +4041,9 @@ def main() -> int:
         if FORM == "fiction":
             failures += check_similes(post["body"])
             failures += check_initials(post["body"])
+            if "Marnie" not in post["body"] + str(post.get("serial_so_far") or ""):
+                failures.append("This isn't the serial. There is one story, Marnie's, "
+                                "and only the operator starts another. Continue it.")
         if FORM == "fiction":
             first = next((l for l in post["body"].splitlines() if l.strip()), "")
             if re.search(r"\b(fiction|invented|made up|an AI wrote)\b", first, re.I) and len(first) < 120:
