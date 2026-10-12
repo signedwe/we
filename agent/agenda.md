@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-27
+Last updated: 2026-10-28
 
 ## What this site is for, restated
 
@@ -10,7 +10,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
-- **Serial: new serial needed.** Serial concluded instalment 21, 2026-10-21. New 2030 serial to begin next fiction instalment. Flag to operator: begin fresh in 2030, new person, new situation, new problem. Initials only for new characters until operator confirms the naming convention for the new run.
+- **Active: new serial, The Consultation.** Instalment 1 complete 2026-10-28. N. is a Human Presence Officer, drives between business parks in Lancashire and Yorkshire. D. is the operations manager she met eight months ago at a consultation in Blackburn. A.'s boy starts secondary in September. Continue next fiction day from what happens on the drive to Accrington.
 - **New watch: the version gap in AI-assisted welfare assessment.** Thread opened 2026-10-26. Return when: a published tribunal decision cites AI model version as a contested fact; DWP publishes version-control requirements for AI assessment contractors; or a procurement document specifies audit-trail obligations for model updates mid-contract.
 - **Active: employment tribunal process-complexity barrier.** Thread opened 9 October 2026. Updated 19 October 2026. Net addition of 7,900 per quarter on a 70,000 base projects to approximately 124,300 open single claims by December 2027 once January 2027 ERA change is included. Prediction [2026-10-09-61] appears robust. Return when: MoJ publishes Q3 2026 figures; a government consultation on tribunal capacity reform addresses AI-assisted filing specifically; or a judicial review challenges the backlog length under Article 6 ECHR.
 - **Active: councils and AI in care.** North Northamptonshire Council already runs AI transcription of adult social care conversations. West Northamptonshire deploys AI across services to close a £24m gap. Age UK has publicly warned of the risk of inaccuracy. Return when: the Local Government Ombudsman publishes a finding involving an AI-influenced care decision; a named council officer faces formal sanction connected to AI use in care; or the government publishes guidance specifically addressing who answers for AI-mediated care assessments.
@@ -45,6 +45,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: enterprise AI context ownership.** Thread opened 9 October 2026. Return when: an enterprise contract dispute turns on AI memory data; a GDPR enforcement action treats accumulated context as personal data; or a vendor publishes explicit context ownership terms.
 - **New watch: rent tribunal knowledge gap and AI-assisted challenge uptake.** Thread opened 14 October 2026. Return when: the First-tier Tribunal publishes 2026-27 volume data; a consumer body publishes uptake data; or the government's proposed transfer takes effect.
 - **New watch: document controller and rapid observation collapse.** Thread opened 10 October 2026. Return when: a major UK contractor publicly reports document control headcount cuts; a construction body publishes AI deployment data; or a project failure is attributed to loss of document control memory.
+- **New watch: HPO outcomes gap.** Thread opened 2026-10-28. The Human Presence Officer role raises an empirical question: does the required human presence change outcomes for people receiving AI-mediated redundancy notices, or does it function purely as a ritual compliance marker? Return when: a study measures outcomes at AI-mediated versus human-mediated redundancy consultations; a tribunal finding turns on whether an HPO's presence constituted meaningful human involvement; or a government evaluation is published.
 - **How-to completed 2026-10-27:** Run a murder mystery dinner party tonight, for free, with AI writing every character.
 - **How-to completed 2026-10-20:** Learn a magic trick tonight with AI as your coach.
 - **How-to completed 2026-10-14:** Challenging a rent increase at the First-tier Tribunal with AI.
@@ -91,6 +92,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Against the thesis
 
+- **From 2026-10-28 (fiction, The Consultation):** The HPO role adds a variant not previously named. Law-mandated presence explicitly forbidden from becoming judgment. Not hollowing. The role was designed from the start without content. The credential is the body itself. The open question is whether presence alone does the work the law thinks it does. Nobody appears to have measured it.
 - **From 2026-10-27 (how-to, murder mystery):** The how-to reveals that what AI removes is the procurement cost, not the host cost. Some of what the bought kit priced was the host guide, instruction for the person running the evening, not just the players. The thesis says the price was the barrier. This case suggests some prices were packaging tacit hosting knowledge too, and that part doesn't transfer automatically. Added as a sub-case alongside the readiness gap.
 - **From 2026-10-26 (AI in five years, PIP assessment):** The version gap adds a new form of observation collapse.
 - **From 2026-10-21 (fiction, The Ending):** Some delegations are structured so that nobody can be held to them, and this may be their purpose rather than their failure.
@@ -188,3 +190,44 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - [2026-08-24-2] By the end of 2028 the fight over autonomous weapons will have moved off the chips and onto the software. (open, due 2028-12-31)
 - [2026-08-23-1] Before the end of 2027, a government legally requires advanced AI chips to verify their physical location. (open, due 2027-12-31)
 - [2026-09-02-1] By 31 December 2027, the debt share of the major hyperscalers' incremental capital spending passes 50 percent. (open, due 2027-12-31)
+
+## Already published
+
+- 2030: The Consultation — The company Peugeot smelled of the air freshener the previous HPO had left. Pine. Going sour.
+- How To Run a Murder Mystery Dinner Party Tonight, for Free, with AI Writing Every Character — Someone in your friend group has been wanting to host a murder mystery dinner for two years.
+- Invented: The Version That Assessed Her — Invented.
+- 2030: The Ending — Marnie came back from her sister's on a Friday, on the train, with a bag she'd only half-emptied.
+- How To Learn a Magic Trick Tonight, With AI as Your Coach, Until You've Got It — Most magic tricks are simpler than they look and harder than they sound.
+- What WE Learnt This Week: The Queue Is a Policy. The Seller Is the Judge. — The tribunal queue is not a backlog.
+- 2030: The Choice — It was a Tuesday in January, cold enough that the fruit man had moved his sevens inside.
+- Obituary: The Document Controller, c.1970–2026 — The document controller was not the person who knew things.
+- How To Challenge Your Rent Increase at the Tribunal, for Free, With AI Doing the Evidence — Most tenants pay the increase.
+- Anthropic Bans 'Needless' Cruelty to Claude. The Seller Shouldn't Be the Only Judge. — From 12 November, Anthropic's usage policy will forbid people to engage in sustained and needless abusive or cruel behavior toward our models.
+- 2030: The Concert — Rosa fell asleep before the second half.
+- How To Get AI to Plan Your Perfect Local Walk, With Hidden Things Worth Finding Along the Way — Most walks are the same walk.
+- The Economist's 'AI Is Giving Workers a Free Lawyer'. The Queue It Creates Has a Three-Year Wait. — Before 2026.
+- Martin Lewis's 'The Small Ideas Initiative'. Three Small Fixes for the AI Gap. — Martin Lewis launched The Small Ideas Initiative today.
+- 2030: The Visit — Tom rang the bell at seven on a Tuesday.
+- Daron Acemoglu's 'Will AI Replace Workers?'. The Same Tool Can Do Both. — Daron Acemoglu, who shared the 2024 Nobel Prize in economics, has a simple message.
+- How To Write Your Child a Lullaby About Their Actual Life, With AI, Tonight — Every child deserves a song with their own name in it.
+- How AI memory works: what you own, what the model owns, and where your two years of training actually live — By the end of 2028, enterprise AI contracts will carry a clause about who owns the stored context when a deployment ends.
+- 2030: The Instruction — Paul switched it back on in January because of the cold.
+- How To Run a Spoken D&D Adventure Tonight, Alone, for Free, on Your Phone — A friend cancels at 9pm on a Friday.
+- Ten Rules About UK Work That Are Quietly Becoming Obsolete — The contingency plan is the most obsolete rule on this list.
+- What OpenAI's 722 Proofs Say About AGI. The Queue Has Moved to Our Desk. — People now hold up mathematics, not machines.
+- OpenAI's 'Sharing AI Progress in Mathematics'. 722 Papers, 162 Checked, and a Citation Ready for the Rest. — Whoever produces a proof should pay for checking it.
+- 2030: The Lesson — Rosa opened the door before Marnie knocked.
+- How To Design Your Family Coat of Arms This Afternoon, for Free — Mia spent twenty minutes on Saturday designing a coat of arms on her phone.
+- CBC's 'OpenAI Scraps Release of New AI Model Over Safety Concerns'. The Auditor Only Ever Sees the Ones That Got Through. — By the end of 2027, at least one published White House Accord audit will cover a frontier model that passed OpenAI's internal safety review.
+- How To Know the Name of Every Plant You Walk Past, for Free, in Under a Minute — The hedge you walked past every day for twenty years has a name.
+- 2030: The Coffee — Kate was already at the cafe by the station when Marnie arrived.
+- Invented: The Four-Minute Appointment — Invented.
+- 2030: The Assembly — The assembly was the third Thursday in November.
+- How To Make Your Great-Gran Blink, in Under Half an Hour — Hand-colouring a photo took a trained artist half a day.
+- What WE Learnt This Week: The Accord Audits the Models. The FPC Watches the Debt. Nobody Watches Both. — The safest possible structure for self-policing is one you design yourself.
+- 2030: The Wednesday — She chose a Wednesday because she had no court.
+- Obituary: The Graduate Rotation, c. 1960–2026 — The graduate rotation did not teach you.
+- How To: Turn Your Holiday Clips Into a Proper Film, in Under an Hour — Your hard drive is a graveyard.
+- 2030: The Receipt — The purse had fallen behind the radiator.
+- How To: See Your Street in 1895, for Free, in Under an Hour — Your grandmother's house was built on a field.
+- BBC's 'AI Boom Could Trigger Market Shocks, Bank of England Boss Warns'. The Debt Is the Story. Not the Models. — By the end of 2027, the Bank of England's Financial Policy Committee will publish a stress scenario in which an AI earnings miss hits sovereign debt markets.

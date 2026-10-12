@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-12, after "2030: The Consultation"
+
+The new serial's premise adds a variant not previously named. The Human Presence Officer role was not hollowed. It was designed from the start to have no content. The law required a human presence, so a profession appeared whose only credential is a pulse. This differs from hollowing (a role that survives its content) and from accountability displacement (where liability is assigned to someone who never held it). Here the vacancy is structural and intentional: the human is there because the law says a human must be there, and the law was written knowing the human would not be permitted to do anything human. Added to thesis: law-mandated presence explicitly forbidden from becoming judgment.
+
+---
+
 ## Revised 2026-10-12, after "How To Run a Murder Mystery Dinner Party Tonight, for Free, With AI Writing Every Character"
 
 The murder mystery how-to sharpens the pattern from the magic trick post. AI removes the procurement cost, not the host cost. Some of what the bought kit priced was the host guide, instruction for the person running the evening, not just the players. The thesis says the price was the barrier. This case suggests some prices were packaging tacit hosting knowledge too, and that part doesn't transfer automatically. Added as a sub-case alongside the readiness gap.
