@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-12, after "Invented: The Version That Assessed Her"
+
+The version gap is a new form of observation collapse. The decision is made, recorded, and then the record becomes unreachable because the thing that made it has been updated or the company has closed. By the time the appeal is heard, the model that generated the recommendation no longer exists in the form that generated it. Added to thesis: when the thing that decided is gone, holding anyone to account becomes archaeology.
+
+---
+
 ## Revised 2026-10-11, after "2030: The Ending"
 
 The serial's conclusion adds a sub-case to the delegated-accountability mechanism. Paul gave the flat an open instruction and it acted faithfully. The question of who answers is not resolvable: the instruction was not wrong, the execution was not wrong, the outcome was not intended by either. Some delegations are structured so that nobody can be held to them, and this may be their purpose rather than their failure.
