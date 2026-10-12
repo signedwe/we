@@ -3221,8 +3221,9 @@ No voices unless one adds something a story can't. Real companies and real livin
 appear as characters; the defamation gate applies to fiction as it does
 to everything else. The serial's people have single first names, never
 surnames (the operator, 4 October 2026: "give everyone single first name..
-no last names. The initials make it hard to follow"): Marnie, Tom, Paul,
-Kate, Rosa. Anyone new gets one ordinary first name and nothing else; a
+no last names. The initials make it hard to follow"). This holds for every
+serial, old or new: one ordinary first name each, never an initial, never a
+surname. Anyone new gets one ordinary first name and nothing else; a
 first name and a surname together could belong to somebody real, and the
 code checks for that. Invented companies get a letter (F.) or
 a plain description, never a name. The person is invented from nothing: not the person
@@ -3530,6 +3531,18 @@ def check_ask_motif(*texts) -> list:
     return []
 
 
+def check_initials(body: str) -> list:
+    """The serial's people have one first name each, never an initial (the
+    operator, 4 October 2026: "The initials make it hard to follow"; again
+    12 October, when a new serial came back with N., D. and A.)."""
+    hits = sorted(set(re.findall(r"(?<![A-Za-z])([B-HJ-Z])\.(?=[\s,'\"\u2019:;)!?])", plain_text(body))))
+    if not hits:
+        return []
+    return ["People in the serial have one ordinary first name each, never an "
+            "initial: " + ", ".join(h + "." for h in hits) + ". Give each one a "
+            "first name (Nicola, Dean, Rosa) and use it every time. No surnames."]
+
+
 def check_invented_names(body: str) -> list:
     """Fiction and Monday pieces: nobody invented gets a full name."""
     hits = []
@@ -3542,8 +3555,11 @@ def check_invented_names(body: str) -> list:
         return []
     return [
         "Invented people get initials, never a full name, because a made-up "
-        "name can belong to somebody real: " + ", ".join(hits) + ". Write N., "
-        "or Mr O., or her father. If one of these is a place or a brand, "
+        "name can belong to somebody real: " + ", ".join(hits) + ". "
+        + ("In the serial, use one ordinary first name and nothing else (Tom, "
+           "not Tom Hale), never an initial. " if FORM == "fiction" else
+           "Write N., or Mr O., or her father. ")
+        + "If one of these is a place or a brand, "
         "rephrase it so it doesn't read as a name."
     ]
 
@@ -4018,6 +4034,7 @@ def main() -> int:
             failures += check_invented_names(post["body"])
         if FORM == "fiction":
             failures += check_similes(post["body"])
+            failures += check_initials(post["body"])
         if FORM == "fiction":
             first = next((l for l in post["body"].splitlines() if l.strip()), "")
             if re.search(r"\b(fiction|invented|made up|an AI wrote)\b", first, re.I) and len(first) < 120:
