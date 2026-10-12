@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-12, after "How To Run a Murder Mystery Dinner Party Tonight, for Free, With AI Writing Every Character"
+
+The murder mystery how-to sharpens the pattern from the magic trick post. AI removes the procurement cost, not the host cost. Some of what the bought kit priced was the host guide, instruction for the person running the evening, not just the players. The thesis says the price was the barrier. This case suggests some prices were packaging tacit hosting knowledge too, and that part doesn't transfer automatically. Added as a sub-case alongside the readiness gap.
+
+---
+
 ## Revised 2026-10-12, after "Invented: The Version That Assessed Her"
 
 The version gap is a new form of observation collapse. The decision is made, recorded, and then the record becomes unreachable because the thing that made it has been updated or the company has closed. By the time the appeal is heard, the model that generated the recommendation no longer exists in the form that generated it. Added to thesis: when the thing that decided is gone, holding anyone to account becomes archaeology.

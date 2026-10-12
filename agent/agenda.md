@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-26
+Last updated: 2026-10-27
 
 ## What this site is for, restated
 
@@ -11,7 +11,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 ## Write this next
 
 - **Serial: new serial needed.** Serial concluded instalment 21, 2026-10-21. New 2030 serial to begin next fiction instalment. Flag to operator: begin fresh in 2030, new person, new situation, new problem. Initials only for new characters until operator confirms the naming convention for the new run.
-- **New watch: the version gap in AI-assisted welfare assessment.** Thread opened 2026-10-26. The contractor who built the AI assessment tool may have updated the model between the original decision and the appeal hearing. No published tribunal has yet turned on the version question. DWP is actively piloting AI-assisted PIP processing. Return when: a published tribunal decision cites AI model version as a contested fact; DWP publishes version-control requirements for AI assessment contractors; or a procurement document specifies audit-trail obligations for model updates mid-contract.
+- **New watch: the version gap in AI-assisted welfare assessment.** Thread opened 2026-10-26. Return when: a published tribunal decision cites AI model version as a contested fact; DWP publishes version-control requirements for AI assessment contractors; or a procurement document specifies audit-trail obligations for model updates mid-contract.
 - **Active: employment tribunal process-complexity barrier.** Thread opened 9 October 2026. Updated 19 October 2026. Net addition of 7,900 per quarter on a 70,000 base projects to approximately 124,300 open single claims by December 2027 once January 2027 ERA change is included. Prediction [2026-10-09-61] appears robust. Return when: MoJ publishes Q3 2026 figures; a government consultation on tribunal capacity reform addresses AI-assisted filing specifically; or a judicial review challenges the backlog length under Article 6 ECHR.
 - **Active: councils and AI in care.** North Northamptonshire Council already runs AI transcription of adult social care conversations. West Northamptonshire deploys AI across services to close a £24m gap. Age UK has publicly warned of the risk of inaccuracy. Return when: the Local Government Ombudsman publishes a finding involving an AI-influenced care decision; a named council officer faces formal sanction connected to AI use in care; or the government publishes guidance specifically addressing who answers for AI-mediated care assessments.
 - **Active: the misalignment definition gap.** Thread opened 22 September 2026. Return when: a regulator, court, or standards body publishes a definition binding on labs prior to self-assessment; an affected third party formally contests a lab's post-incident categorisation; or a published Accord audit covers a model that first failed internal review.
@@ -45,6 +45,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: enterprise AI context ownership.** Thread opened 9 October 2026. Return when: an enterprise contract dispute turns on AI memory data; a GDPR enforcement action treats accumulated context as personal data; or a vendor publishes explicit context ownership terms.
 - **New watch: rent tribunal knowledge gap and AI-assisted challenge uptake.** Thread opened 14 October 2026. Return when: the First-tier Tribunal publishes 2026-27 volume data; a consumer body publishes uptake data; or the government's proposed transfer takes effect.
 - **New watch: document controller and rapid observation collapse.** Thread opened 10 October 2026. Return when: a major UK contractor publicly reports document control headcount cuts; a construction body publishes AI deployment data; or a project failure is attributed to loss of document control memory.
+- **How-to completed 2026-10-27:** Run a murder mystery dinner party tonight, for free, with AI writing every character.
 - **How-to completed 2026-10-20:** Learn a magic trick tonight with AI as your coach.
 - **How-to completed 2026-10-14:** Challenging a rent increase at the First-tier Tribunal with AI.
 - **How-to completed 2026-10-09 (second):** AI-planned local history walk.
@@ -90,7 +91,8 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Against the thesis
 
-- **From 2026-10-26 (AI in five years, PIP assessment):** The version gap adds a new form of observation collapse. The decision is made, recorded, and then the record becomes unreachable because the thing that made it has been updated or the company has closed. Added as candidate mechanism: the version gap.
+- **From 2026-10-27 (how-to, murder mystery):** The how-to reveals that what AI removes is the procurement cost, not the host cost. Some of what the bought kit priced was the host guide, instruction for the person running the evening, not just the players. The thesis says the price was the barrier. This case suggests some prices were packaging tacit hosting knowledge too, and that part doesn't transfer automatically. Added as a sub-case alongside the readiness gap.
+- **From 2026-10-26 (AI in five years, PIP assessment):** The version gap adds a new form of observation collapse.
 - **From 2026-10-21 (fiction, The Ending):** Some delegations are structured so that nobody can be held to them, and this may be their purpose rather than their failure.
 - **From 2026-10-20 (how-to, magic trick):** AI collapses the knowledge barrier. It does not collapse the tacit-knowledge barrier.
 - **From 2026-10-19 (Sunday learnt, tribunal throughput):** Volume times complexity is a different problem from volume alone.
@@ -143,18 +145,18 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Open predictions
 
-- [2026-10-26-63] By the end of 2030, at least one published UK tribunal decision will turn on which version of an AI model generated an assessment recommendation, because the contractor will have updated the model between the original decision and the appeal hearing. If no tribunal reaches that question by then, the version gap is not the problem it appears to be. (open, due 2030-12-31)
+- [2026-10-26-63] By the end of 2030, at least one published UK tribunal decision will turn on which version of an AI model generated an assessment recommendation. (open, due 2030-12-31)
 - [2026-10-10-62] By the end of 2028, at least one major UK contractor will report its document control headcount at a third of its 2022 level while handling the same project volume. (open, due 2028-12-31)
-- [2026-10-09-61] By the end of 2027, the Employment Tribunal single-claim open caseload will exceed 100,000. Updated 19 October 2026: arithmetic revised to approximately 124,300 by December 2027 once January 2027 ERA change is included. (open, due 2027-12-31)
+- [2026-10-09-61] By the end of 2027, the Employment Tribunal single-claim open caseload will exceed 100,000. Updated 19 October 2026: arithmetic revised to approximately 124,300 by December 2027. (open, due 2027-12-31)
 - [2026-10-08-60] By the end of 2028, enterprise AI contracts will carry a clause about who owns the accumulated stored context when a deployment ends. (open, due 2028-12-31)
 - [2026-10-07-59] By the end of 2027, the AI Economics Institute will publish numbers showing entry hiring at high-AI-adoption UK firms fell faster than at low-adoption firms in the same sector during 2025 and 2026. (open, due 2027-12-31)
 - [2026-10-06-58] By the end of 2027, at least one published White House Accord audit will cover a model that passed OpenAI's internal safety review. (open, due 2027-12-31)
-- [2026-10-05-57] By the end of 2028, at least one multi-academy trust in England will have replaced parents' evening grade-reporting slots with asynchronous dashboard access, reserving teacher time for pastoral conversations only. (open, due 2028-12-31)
+- [2026-10-05-57] By the end of 2028, at least one multi-academy trust in England will have replaced parents' evening grade-reporting slots with asynchronous dashboard access. (open, due 2028-12-31)
 - [2026-10-02-56] By the end of 2027, the FPC will publish a stress scenario connecting an AI earnings miss directly to sovereign debt markets. (open, due 2027-12-31)
 - [2026-10-01-55] By the end of 2028, at least one major cloud AI provider will publish pricing that charges differently based on position in a conversation. (open, due 2028-12-31)
 - [2026-09-29-54] By the end of 2028, at least one family will publicly report finding a living relative through a document an AI read that had sat unread for decades. (open, due 2028-12-31)
 - [2026-09-29-53] By 13 November 2026, the AI Regulation and Safety Bill second reading will end without government support and without a named minister committing to an equivalent government bill. (open, due 2026-11-13)
-- [2026-09-26-52] By the end of 2028, the Fair Work Agency will face a case where a worker took the first three days of sickness unpaid out of habit, unaware the rule had changed, and the employer will be found technically compliant. (open, due 2028-12-31)
+- [2026-09-26-52] By the end of 2028, the Fair Work Agency will face a case where a worker took the first three days of sickness unpaid out of habit. (open, due 2028-12-31)
 - [2026-09-24-51] By the end of 2028, enterprise AI contracts will carry a clause about context length. (open, due 2028-12-31)
 - [2026-09-23-50] By the end of 2028, at least one UK professional body will formally revise its practical training requirements because the tasks trainees were supposed to learn no longer exist at entry level. (open, due 2028-12-31)
 - [2026-09-19-49] Withdrawn.
@@ -163,7 +165,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - [2026-09-14-42] By the end of 2028, the UK government will name a lead AI regulatory body without dissolving any of the existing sector regulators. (open, due 2028-12-31)
 - [2026-09-13-39] By the end of 2029, at least one UK professional body will formally revise its practical training requirements because the tasks trainees were supposed to learn through entry-level work are now routinely performed by AI. (open, due 2029-12-31)
 - [2026-09-12-38] By the end of 2028, the central question in a UK patient safety case involving an AI diagnostic tool will not be whether the tool held regulatory approval. (open, due 2028-12-31)
-- [2026-09-11-37] By the end of 2028, a UK-regulated institution will face enforcement action for harm caused by an AI system where the vendor's own safety documentation declared it deployment-ready, and the enforcing regulator will have no jurisdiction over the vendor. (open, due 2028-12-31)
+- [2026-09-11-37] By the end of 2028, a UK-regulated institution will face enforcement action for harm caused by an AI system where the vendor's own safety documentation declared it deployment-ready. (open, due 2028-12-31)
 - [2026-09-10-36] By the end of 2029, the CMA will review AI compute infrastructure access in Britain. (open, due 2029-12-31)
 - [2026-09-09-32] By the end of 2027, a UK public inquiry or tribunal will find that government AI shutdown powers existed and went unused. (open, due 2027-12-31)
 - [2026-09-08-20] By the end of 2028, a UK employment tribunal will uphold a claim that a monitoring-based performance score caused an unfair dismissal. (open, due 2028-12-31)
