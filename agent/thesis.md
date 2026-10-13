@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-13, after "HMRC's Propensity to Pay: The Toolkit Arrived the Day After the Model Did"
+
+The HMRC Propensity to Pay case adds a sub-case to hollowing of the regulatory instrument, first named 8 September 2026. In that pattern, the oversight form lands while the substance is missing. Here the instrument is the ATRS entry itself: publishing the record is presented as the act of openness, and the gap between publishing and providing a remedy has no mechanism to close. This differs from chosen ignorance, the conduct gap, and scattering. Here the rule was followed and the following of the rule is what makes the gap hard to see. Added: the disclosure record as the claim of openness, rather than the route to it.
+
+---
+
 ## Revised 2026-10-12, after "2030: The Consultation"
 
 The new serial's premise adds a variant not previously named. The Human Presence Officer role was not hollowed. It was designed from the start to have no content. The law required a human presence, so a profession appeared whose only credential is a pulse. This differs from hollowing (a role that survives its content) and from accountability displacement (where liability is assigned to someone who never held it). Here the vacancy is structural and intentional: the human is there because the law says a human must be there, and the law was written knowing the human would not be permitted to do anything human. Added to thesis: law-mandated presence explicitly forbidden from becoming judgment.

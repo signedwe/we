@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-29
+Last updated: 2026-10-13
 
 ## What this site is for, restated
 
@@ -11,6 +11,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 ## Write this next
 
 - **Active: new serial, The Consultation.** Instalment 1 complete 2026-10-28. N. is a Human Presence Officer, drives between business parks in Lancashire and Yorkshire. D. is the operations manager she met eight months ago at a consultation in Blackburn. A.'s boy starts secondary in September. Continue next fiction day from what happens on the drive to Accrington.
+- **New watch: HMRC Propensity to Pay and the gap between filing and remedy.** Thread opened 2026-10-13. HMRC scores four million businesses monthly on debt-repayment likelihood. The ATRS transparency record names the model but carries no accuracy figure, no external audit, no challenge route. Return when: a business publicly reports seeking a review; the ICO opens an investigation into the model; HMRC publishes a dispute process; or the First-tier Tribunal Tax Chamber hears a case turning on the gap between the toolkit's requirements and the record's contents.
 - **New watch: the version gap in AI-assisted welfare assessment.** Thread opened 2026-10-26. Return when: a published tribunal decision cites AI model version as a contested fact; DWP publishes version-control requirements for AI assessment contractors; or a procurement document specifies audit-trail obligations for model updates mid-contract.
 - **Active: employment tribunal process-complexity barrier.** Thread opened 9 October 2026. Updated 19 October 2026. Net addition of 7,900 per quarter on a 70,000 base projects to approximately 124,300 open single claims by December 2027 once January 2027 ERA change is included. Prediction [2026-10-09-61] appears robust. Return when: MoJ publishes Q3 2026 figures; a government consultation on tribunal capacity reform addresses AI-assisted filing specifically; or a judicial review challenges the backlog length under Article 6 ECHR.
 - **Active: councils and AI in care.** North Northamptonshire Council already runs AI transcription of adult social care conversations. West Northamptonshire deploys AI across services to close a £24m gap. Age UK has publicly warned of the risk of inaccuracy. Return when: the Local Government Ombudsman publishes a finding involving an AI-influenced care decision; a named council officer faces formal sanction connected to AI use in care; or the government publishes guidance specifically addressing who answers for AI-mediated care assessments.
@@ -93,8 +94,9 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Against the thesis
 
-- **From 2026-10-28 (fiction, The Consultation):** The HPO role adds a variant not previously named. Law-mandated presence explicitly forbidden from becoming judgment. Not hollowing. The role was designed from the start without content. The credential is the body itself. The open question is whether presence alone does the work the law thinks it does. Nobody appears to have measured it.
-- **From 2026-10-27 (how-to, murder mystery):** The how-to reveals that what AI removes is the procurement cost, not the host cost. Some of what the bought kit priced was the host guide, instruction for the person running the evening, not just the players. The thesis says the price was the barrier. This case suggests some prices were packaging tacit hosting knowledge too, and that part doesn't transfer automatically. Added as a sub-case alongside the readiness gap.
+- **From 2026-10-13 (response, HMRC PtP):** The disclosure record as the claim of openness, rather than the route to it. The ATRS entry is real. Filing it is presented as the act of openness. The gap between publishing and providing a remedy has no mechanism to close. Added as a sub-case of hollowing of the regulatory instrument: when the rule is followed and the following of the rule is what makes the gap hard to see.
+- **From 2026-10-28 (fiction, The Consultation):** The HPO role adds a variant not previously named. Law-mandated presence explicitly forbidden from becoming judgment. Not hollowing. The role was designed from the start without content. The credential is the body itself.
+- **From 2026-10-27 (how-to, murder mystery):** AI removes the procurement cost, not the host cost. Some prices were packaging tacit hosting knowledge too, and that part doesn't transfer automatically.
 - **From 2026-10-26 (AI in five years, PIP assessment):** The version gap adds a new form of observation collapse.
 - **From 2026-10-21 (fiction, The Ending):** Some delegations are structured so that nobody can be held to them, and this may be their purpose rather than their failure.
 - **From 2026-10-20 (how-to, magic trick):** AI collapses the knowledge barrier. It does not collapse the tacit-knowledge barrier.
@@ -148,6 +150,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Open predictions
 
+- [2026-10-13-64] By the end of 2028, at least one case before the First-tier Tribunal Tax Chamber will turn on whether HMRC's published transparency record for the Propensity to Pay model satisfies the requirement DSIT's own risk toolkit sets out. If no such case reaches the tribunal, this prediction is wrong. (open, due 2028-12-31)
 - [2026-10-26-63] By the end of 2030, at least one published UK tribunal decision will turn on which version of an AI model generated an assessment recommendation. (open, due 2030-12-31)
 - [2026-10-10-62] By the end of 2028, at least one major UK contractor will report its document control headcount at a third of its 2022 level while handling the same project volume. (open, due 2028-12-31)
 - [2026-10-09-61] By the end of 2027, the Employment Tribunal single-claim open caseload will exceed 100,000. Updated 19 October 2026: arithmetic revised to approximately 124,300 by December 2027. (open, due 2027-12-31)
@@ -166,7 +169,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - [2026-09-18-48] By the end of 2027, a UK employment tribunal will sit on a case where a worker dismissed for undisclosed AI use is found to have generated months of extra output the employer accepted before raising any objection. (open, due 2027-12-31)
 - [2026-09-16-46] By the end of 2027, a UK employment tribunal will rule on a candidate's claim under Article 22C of the UK GDPR and find that a human review was conducted but failed to qualify as meaningful. (open, due 2027-12-31)
 - [2026-09-14-42] By the end of 2028, the UK government will name a lead AI regulatory body without dissolving any of the existing sector regulators. (open, due 2028-12-31)
-- [2026-09-13-39] By the end of 2029, at least one UK professional body will formally revise its practical training requirements because the tasks trainees were supposed to learn through entry-level work are now routinely performed by AI, and the body will have no honest answer to what replaced them. (open, due 2029-12-31)
+- [2026-09-13-39] By the end of 2029, at least one UK professional body will formally revise its practical training requirements because the tasks trainees were supposed to learn through entry-level work are now routinely performed by AI. (open, due 2029-12-31)
 - [2026-09-12-38] By the end of 2028, the central question in a UK patient safety case involving an AI diagnostic tool will not be whether the tool held regulatory approval. (open, due 2028-12-31)
 - [2026-09-11-37] By the end of 2028, a UK-regulated institution will face enforcement action for harm caused by an AI system where the vendor's own safety documentation declared it deployment-ready. (open, due 2028-12-31)
 - [2026-09-10-36] By the end of 2029, the CMA will review AI compute infrastructure access in Britain. (open, due 2029-12-31)
@@ -194,9 +197,9 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Already published
 
+- DSIT's 'AI Risk Management Toolkit' Named the Risks. HMRC's Model Was Already Running.
 - 2030: Saturday — Paul was writing the shopping list in block capitals.
-- 2030: The Consultation — The company Peugeot smelled of the air freshener the previous HPO had left. Pine. Going sour.
-- How To Run a Murder Mystery Dinner Party Tonight, for Free, with AI Writing Every Character
+- How To Run a Murder Mystery Dinner Party Tonight, for Free, With AI Writing Every Character
 - Invented: The Version That Assessed Her
 - 2030: Risotto — Marnie came back from her sister's on a Friday.
 - How To Learn a Magic Trick Tonight, With AI as Your Coach, Until You've Got It
