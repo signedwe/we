@@ -2053,6 +2053,7 @@ CRITIC_SCHEMA = """{
               "tomorrow": true or false, whether you would come back tomorrow for the next one,
               "show_off_details": ["what imaginary V. S. Naipaul would cut: each whimsical or decorative detail, each detail there to show the writer noticed rather than to move anyone (a price, a brand, a year, a knowing object, an observed-from-above simile, an 'expression of a man who'). quote each one"],
               "quiet_ending": true or false, whether the instalment ends on someone sitting, drinking, looking or not concluding, instead of something that pushes the story on,
+              "changed": "the arrangement that is different at the end of this instalment: who lives or goes where, who has access to whom or to what, a commitment made or withdrawn, a role refused, a fact now known by someone new. Not a feeling. empty if only a feeling or an understanding changed",
               "slips": ["every careless line a copy editor would catch: a physical impossibility (tasting a pot, a face making a sound), a sentence left unfinished by accident, a phrase or description repeated within the instalment, a contradiction of an earlier instalment (a time, a number, who already told whom). quote each"],
               "wrong_detail": "empty, or a thing the place wouldn't really have or sell, or a word the point-of-view character wouldn't use (aged cheese in a Turkish grocer, say). quote it and say what the place would really have",
               "overdone": "empty, or the line where nostalgia for the time before AI, or people talking to machines, feels forced in or has become the subject instead of the weather. quote it",
@@ -2347,6 +2348,14 @@ def critic_failures(verdict: dict, form: str = "response") -> list:
                 "Too much telling literary detail, which reads as second rate (the "
                 "operator, 3 October 2026). Cut these, or keep one: "
                 + " | ".join(str(d)[:80] for d in showy[:6])
+            )
+        if not str(fic.get("changed") or "").strip():
+            failures.append(
+                "Nothing in the arrangement changed, only a feeling (an outside "
+                "reader, 13 October 2026: 'it already knows how to write a good "
+                "scene. It doesn't yet consistently make each scene change the "
+                "story'). Make one thing different by the end: who goes where, who "
+                "has access to whom, a commitment made or withdrawn, a role refused."
             )
         slips = [s for s in (fic.get("slips") or []) if str(s).strip()]
         if slips:
@@ -4084,6 +4093,9 @@ def main() -> int:
             failures += check_similes(post["body"])
             failures += check_initials(post["body"])
             failures += check_repeats(post["body"])
+            if len(re.findall(r"(?m)^'[A-Z]", post["body"])) >= 3:
+                failures.append("Dialogue goes in double quotes, as in every other "
+                                "instalment, not single.")
             if serial_words() < 65000 and re.search(
                     r"\b(the end(ing)?|finale|epilogue|concludes?|concluded|final instalment)\b",
                     str(post.get("title", "")) + " " + str(post.get("description", "")) + " "
