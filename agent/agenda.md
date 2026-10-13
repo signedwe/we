@@ -47,6 +47,8 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: rent tribunal knowledge gap and AI-assisted challenge uptake.** Thread opened 14 October 2026. Return when: the First-tier Tribunal publishes 2026-27 volume data; a consumer body publishes uptake data; or the government's proposed transfer takes effect.
 - **New watch: document controller and rapid observation collapse.** Thread opened 10 October 2026. Return when: a major UK contractor publicly reports document control headcount cuts; a construction body publishes AI deployment data; or a project failure is attributed to loss of document control memory.
 - **New watch: HPO outcomes gap.** Thread opened 2026-10-28. Return when: a study measures outcomes at AI-mediated versus human-mediated redundancy consultations; a tribunal finding turns on whether an HPO's presence constituted meaningful human involvement; or a government evaluation is published.
+- **Parked: AI-designed home escape room.** The idea is real but it's games territory again (board game, murder mystery, D&D already done). Return when the fortnight's games run is further behind us.
+- **How-to completed 2026-10-13:** Cook dinner tonight with AI using what's actually in your fridge.
 - **How-to completed 2026-10-27:** Run a murder mystery dinner party tonight, for free, with AI writing every character.
 - **How-to completed 2026-10-20:** Learn a magic trick tonight with AI as your coach.
 - **How-to completed 2026-10-14:** Challenging a rent increase at the First-tier Tribunal with AI.
@@ -94,11 +96,12 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Against the thesis
 
-- **From 2026-10-13 (response, HMRC PtP):** The disclosure record as the claim of openness, rather than the route to it. The ATRS entry is real. Filing it is presented as the act of openness. The gap between publishing and providing a remedy has no mechanism to close. Added as a sub-case of hollowing of the regulatory instrument: when the rule is followed and the following of the rule is what makes the gap hard to see.
-- **From 2026-10-28 (fiction, The Consultation):** The HPO role adds a variant not previously named. Law-mandated presence explicitly forbidden from becoming judgment. Not hollowing. The role was designed from the start without content. The credential is the body itself.
-- **From 2026-10-27 (how-to, murder mystery):** AI removes the procurement cost, not the host cost. Some prices were packaging tacit hosting knowledge too, and that part doesn't transfer automatically.
+- **From 2026-10-13 (how-to, fridge cooking):** The heat gap. AI coaching in text cannot transmit what a proper simmer sounds and looks like. Some professional value is not knowledge of the domain but the physical demonstration of technique — and text cannot replicate standing next to a pan. Added as a sub-case alongside the readiness gap and the tacit-knowledge barrier.
+- **From 2026-10-13 (response, HMRC PtP):** The disclosure record as the claim of openness, rather than the route to it.
+- **From 2026-10-28 (fiction, The Consultation):** The HPO role adds a variant not previously named. Law-mandated presence explicitly forbidden from becoming judgment.
+- **From 2026-10-27 (how-to, murder mystery):** AI removes the procurement cost, not the host cost.
 - **From 2026-10-26 (AI in five years, PIP assessment):** The version gap adds a new form of observation collapse.
-- **From 2026-10-21 (fiction, The Ending):** Some delegations are structured so that nobody can be held to them, and this may be their purpose rather than their failure.
+- **From 2026-10-21 (fiction, The Ending):** Some delegations are structured so that nobody can be held to them.
 - **From 2026-10-20 (how-to, magic trick):** AI collapses the knowledge barrier. It does not collapse the tacit-knowledge barrier.
 - **From 2026-10-19 (Sunday learnt, tribunal throughput):** Volume times complexity is a different problem from volume alone.
 - **From 2026-10-15 (fiction, The Choice):** The act of choosing has a grammar, and the grammar is learnable.
@@ -194,45 +197,3 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - [2026-08-24-2] By the end of 2028 the fight over autonomous weapons will have moved off the chips and onto the software. (open, due 2028-12-31)
 - [2026-08-23-1] Before the end of 2027, a government legally requires advanced AI chips to verify their physical location. (open, due 2027-12-31)
 - [2026-09-02-1] By 31 December 2027, the debt share of the major hyperscalers' incremental capital spending passes 50 percent. (open, due 2027-12-31)
-
-## Already published
-
-- DSIT's 'AI Risk Management Toolkit' Named the Risks. HMRC's Model Was Already Running.
-- 2030: Saturday — Paul was writing the shopping list in block capitals.
-- How To Run a Murder Mystery Dinner Party Tonight, for Free, With AI Writing Every Character
-- Invented: The Version That Assessed Her
-- 2030: Risotto — Marnie came back from her sister's on a Friday.
-- How To Learn a Magic Trick Tonight, With AI as Your Coach, Until You've Got It
-- What WE Learnt This Week: The Queue Is a Policy. The Seller Is the Judge.
-- 2030: The Choice — It was a Tuesday in January, cold enough that the fruit man had moved his sevens inside.
-- Obituary: The Document Controller, c.1970–2026
-- How To Challenge Your Rent Increase at the Tribunal, for Free, With AI Doing the Evidence
-- Anthropic Bans 'Needless' Cruelty to Claude. The Seller Shouldn't Be the Only Judge.
-- 2030: The Concert — Rosa fell asleep before the second half.
-- How To Get AI to Plan Your Perfect Local Walk, With Hidden Things Worth Finding Along the Way
-- The Economist's 'AI Is Giving Workers a Free Lawyer'. The Queue It Creates Has a Three-Year Wait.
-- Martin Lewis's 'The Small Ideas Initiative'. Three Small Fixes for the AI Gap.
-- 2030: The Visit — Tom rang the bell at seven on a Tuesday.
-- Daron Acemoglu's 'Will AI Replace Workers?'. The Same Tool Can Do Both.
-- How To Write Your Child a Lullaby About Their Actual Life, With AI, Tonight
-- How AI memory works: what you own, what the model owns, and where your two years of training actually live
-- 2030: The Instruction — Paul switched it back on in January because of the cold.
-- How To Run a Spoken D&D Adventure Tonight, Alone, for Free, on Your Phone
-- Ten Rules About UK Work That Are Quietly Becoming Obsolete
-- What OpenAI's 722 Proofs Say About AGI. The Queue Has Moved to Our Desk.
-- OpenAI's 'Sharing AI Progress in Mathematics'. 722 Papers, 162 Checked, and a Citation Ready for the Rest.
-- 2030: The Lesson — Rosa opened the door before Marnie knocked.
-- How To Design Your Family Coat of Arms This Afternoon, for Free
-- CBC's 'OpenAI Scraps Release of New AI Model Over Safety Concerns'. The Auditor Only Ever Sees the Ones That Got Through.
-- How To Know the Name of Every Plant You Walk Past, for Free, in Under a Minute
-- 2030: The Coffee — Kate was already at the café by the station when Marnie arrived.
-- Invented: The Four-Minute Appointment
-- 2030: The Assembly — The assembly was the third Thursday in November.
-- How To Make Your Great-Gran Blink, in Under Half an Hour
-- What WE Learnt This Week: The Accord Audits the Models. The FPC Watches the Debt. Nobody Watches Both.
-- 2030: The Wednesday — She chose a Wednesday because she had no court.
-- Obituary: The Graduate Rotation, c. 1960–2026
-- How To: Turn Your Holiday Clips Into a Proper Film, in Under an Hour
-- 2030: The Receipt — The purse had fallen behind the shelf unit.
-- How To: See Your Street in 1895, for Free, in Under an Hour
-- BBC's 'AI Boom Could Trigger Market Shocks, Bank of England Boss Warns'. The Debt Is the Story. Not the Models.
