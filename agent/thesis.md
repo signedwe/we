@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-13, after "2030: The Checker"
+
+The Relay thread names a phase the thesis had not yet described: the professional retained to certify the machine replacing them. Accountability stays with the checker while the interpretive work moves to Relay. The phase ends when the machine's error rate drops below the threshold requiring a human checker. Added: the credentialling-of-replacement as a distinct and transitional phase of hollowing.
+
+---
+
 ## Revised 2026-10-13, after "HMRC's Propensity to Pay: The Toolkit Arrived the Day After the Model Did"
 
 The HMRC Propensity to Pay case adds a sub-case to hollowing of the regulatory instrument, first named 8 September 2026. In that pattern, the oversight form lands while the substance is missing. Here the instrument is the ATRS entry itself: publishing the record is presented as the act of openness, and the gap between publishing and providing a remedy has no mechanism to close. This differs from chosen ignorance, the conduct gap, and scattering. Here the rule was followed and the following of the rule is what makes the gap hard to see. Added: the disclosure record as the claim of openness, rather than the route to it.
