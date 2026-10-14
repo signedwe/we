@@ -49,11 +49,13 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: HPO outcomes gap.** Thread opened 2026-10-28. Return when: a study measures outcomes at AI-mediated versus human-mediated redundancy consultations; a tribunal finding turns on whether an HPO's presence constituted meaningful human involvement; or a government evaluation is published.
 - **New watch: the credentialling-of-replacement phase.** Thread opened 2026-10-29. Return when: a court interpreter service publishes standards for AI-relay checkers; a professional body for interpreters issues guidance on checker roles; or a court rules on the accountability of a human checker for a machine error.
 - **New watch: the silent adoption counting gap.** Thread opened 2026-10-14. The minister has publicly said the ONS figures may not capture hiring cuts driven by AI. Return when: the AI Economics Institute or ONS publishes a way to track un-posted vacancies by AI adoption rate; a government consultation opens on redefining labour market counting; or a major employer is required to disclose AI-driven hiring decisions.
+- **New watch: council tax knowledge gap and AI-assisted challenge uptake.** Thread opened 2026-10-14. 89% of households have never questioned their band; the right to challenge is free and public; fewer than 44,000 exercise it each year. Return when: the VOA publishes 2024-25 challenge data; a consumer body publishes data on AI-assisted challenge uptake; or a government consultation addresses promotion of challenge rights.
 - **Parked: AI-designed home escape room.** Return when the fortnight's games run is further behind us.
+- **How-to completed 2026-10-14 (second):** Check and challenge your council tax band for free with AI.
+- **How-to completed 2026-10-14:** Challenging a rent increase at the First-tier Tribunal with AI.
 - **How-to completed 2026-10-13:** Cook dinner tonight with AI using what's actually in your fridge.
 - **How-to completed 2026-10-27:** Run a murder mystery dinner party tonight, for free, with AI writing every character.
 - **How-to completed 2026-10-20:** Learn a magic trick tonight with AI as your coach.
-- **How-to completed 2026-10-14:** Challenging a rent increase at the First-tier Tribunal with AI.
 - **How-to completed 2026-10-09 (second):** AI-planned local history walk.
 - **Correction on record: The Tunnel geography.** The north exit of the Greenwich foot tunnel is Island Gardens, Tower Hamlets. Serial corrected from 5 October 2026.
 - **AI-exposed employment vs broader labour market, Q3 and Q4 2026.** Watch Q3 2026 ONS data (expected November 2026) and Q4 data (expected February 2027).
@@ -98,6 +100,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Against the thesis
 
+- **From 2026-10-14 (how-to, council tax banding):** Clean instance of the knowledge-gap pattern: the right is free, public, and exercised by fewer than 44,000 households a year out of tens of millions. What would move the diagnosis from knowledge gap to readiness gap: evidence that non-challengers have been actively informed and still don't act.
 - **From 2026-10-14 (top ten, contingency plan):** The silent adoption case adds something the thesis had not named: sometimes you cannot build the accountability structure because the counting tools it would need do not exist yet. Added: counting gap as a prior condition for the accountability structure the thesis describes.
 - **From 2026-10-29 (fiction, The Checker):** The credentialling-of-replacement phase adds a new sub-case to hollowing.
 - **From 2026-10-13 (how-to, fridge cooking):** The heat gap. AI coaching in text cannot transmit what a proper simmer sounds and looks like.
