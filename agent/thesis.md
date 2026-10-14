@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-14, after "Brian Wheeler's 'UK Needs Plan in Case of Unprecedented AI Job Losses'. The Plan Has a Gap Where the Problem Should Be."
+
+The silent adoption case adds something the thesis had not named: sometimes you cannot build the accountability structure because the counting tools it would need do not exist yet. The thesis says accountability stays where it was while work moves to the machine. Here the accountability structure cannot be placed at all because the move is invisible to the instruments that would locate it. Added: counting gap as a prior condition for the accountability structure the thesis describes.
+
+---
+
 ## Revised 2026-10-13, after "2030: The Checker"
 
 The Relay thread names a phase the thesis had not yet described: the professional retained to certify the machine replacing them. Accountability stays with the checker while the interpretive work moves to Relay. The phase ends when the machine's error rate drops below the threshold requiring a human checker. Added: the credentialling-of-replacement as a distinct and transitional phase of hollowing.

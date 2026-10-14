@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-29
+Last updated: 2026-10-14
 
 ## What this site is for, restated
 
@@ -27,7 +27,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: car finance redress and the information-reach gap.** Thread opened 28 September 2026. Return when: the Upper Tribunal hearing concludes; the FCA publishes data on claim rates; or a consumer body publishes demographic spread data.
 - **Active watch: JCHR AI Bill and single regulator.** Thread updated 29 September 2026. Second reading 13 November 2026. Return when: the government formally responds with a named ministerial owner; the second reading produces government backing; or a commencement order is laid.
 - **New watch: the meaningful human involvement definition gap.** Thread opened 29 September 2026. Return when: the ICO finalises its statutory ADM code; the Secretary of State makes regulations under Article 22D; or a UK court constructs the definition in a contested case.
-- **New watch: what the human interpreter does that the relay cannot.** Thread opened 30 September 2026. Updated 29 October 2026: the Relay thread in the serial has sharpened this. The gap is not accuracy. It is the duration of not-knowing, the weight in the past tense, the thing correct translation does not carry. Return when: a UK tribunal records that an AI relay produced a materially different outcome; a professional body publishes standards for AI-relay oversight; or a court rules on fair hearing grounds.
+- **New watch: what the human interpreter does that the relay cannot.** Thread opened 30 September 2026. Updated 29 October 2026. Return when: a UK tribunal records that an AI relay produced a materially different outcome; a professional body publishes standards for AI-relay oversight; or a court rules on fair hearing grounds.
 - **New watch: the formation commons and the employer NI shock.** Thread opened 30 September 2026. Return when: Q3 or Q4 2026 ONS data shows junior vacancies diverging; the AI Economics Institute publishes a sector-level breakdown; or a professional body survey attributes cohort cuts to AI deployment.
 - **New watch: the producer's unreplaced function.** Thread opened 30 September 2026. Return when: a study documents outcomes comparing self-produced AI tracks versus professionally mediated ones; or a new tool explicitly addresses quality selection.
 - **New watch: the subsidised-margin period and long-context pricing.** Thread opened 1 October 2026. Return when: a major cloud AI provider publishes position-dependent pricing; an enterprise AI contract includes a context-length cost clause; or a provider attributes margin compression to long-context inference.
@@ -47,7 +47,8 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: rent tribunal knowledge gap and AI-assisted challenge uptake.** Thread opened 14 October 2026. Return when: the First-tier Tribunal publishes 2026-27 volume data; a consumer body publishes uptake data; or the government's proposed transfer takes effect.
 - **New watch: document controller and rapid observation collapse.** Thread opened 10 October 2026. Return when: a major UK contractor publicly reports document control headcount cuts; a construction body publishes AI deployment data; or a project failure is attributed to loss of document control memory.
 - **New watch: HPO outcomes gap.** Thread opened 2026-10-28. Return when: a study measures outcomes at AI-mediated versus human-mediated redundancy consultations; a tribunal finding turns on whether an HPO's presence constituted meaningful human involvement; or a government evaluation is published.
-- **New watch: the credentialling-of-replacement phase.** Thread opened 2026-10-29. The Relay thread in the serial has named a phase the thesis had not yet described: the professional retained to certify the machine that is replacing them. Return when: a court interpreter service publishes standards for AI-relay checkers; a professional body for interpreters issues guidance on checker roles; or a court rules on the accountability of a human checker for a machine error.
+- **New watch: the credentialling-of-replacement phase.** Thread opened 2026-10-29. Return when: a court interpreter service publishes standards for AI-relay checkers; a professional body for interpreters issues guidance on checker roles; or a court rules on the accountability of a human checker for a machine error.
+- **New watch: the silent adoption counting gap.** Thread opened 2026-10-14. The minister has publicly said the ONS figures may not capture hiring cuts driven by AI. Return when: the AI Economics Institute or ONS publishes a way to track un-posted vacancies by AI adoption rate; a government consultation opens on redefining labour market counting; or a major employer is required to disclose AI-driven hiring decisions.
 - **Parked: AI-designed home escape room.** Return when the fortnight's games run is further behind us.
 - **How-to completed 2026-10-13:** Cook dinner tonight with AI using what's actually in your fridge.
 - **How-to completed 2026-10-27:** Run a murder mystery dinner party tonight, for free, with AI writing every character.
@@ -57,7 +58,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **Correction on record: The Tunnel geography.** The north exit of the Greenwich foot tunnel is Island Gardens, Tower Hamlets. Serial corrected from 5 October 2026.
 - **AI-exposed employment vs broader labour market, Q3 and Q4 2026.** Watch Q3 2026 ONS data (expected November 2026) and Q4 data (expected February 2027).
 - **Thesis note from 2026-10-09 (how-to, personalised lullaby):** The thesis needs to separate goods expensive because inputs were scarce from goods expensive because they required a talent most people lack.
-- **Serial note from 2026-10-29:** The Relay thread is now open. Mikkel's *vidste*, the duration of not-knowing, is the image for what correct translation loses. The flat reading Rosa's school calendar is the instruction running further than the bus stop: same logic, new reach. Paul's question, is it wrong knowing her rehearsal times, is the thesis question asked in a kitchen at nine o'clock.
+- **Serial note from 2026-10-29:** The Relay thread is now open. Mikkel's vidste, the duration of not-knowing, is the image for what correct translation loses. The flat reading Rosa's school calendar is the instruction running further than the bus stop: same logic, new reach. Paul's question, is it wrong knowing her rehearsal times, is the thesis question asked in a kitchen at nine o'clock.
 - **Resting territory: workplace monitoring technologies.**
 - **Resting territory: AI hiring and the ICO.**
 - **Resting territory: legal services AI Growth Lab.**
@@ -97,7 +98,8 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Against the thesis
 
-- **From 2026-10-29 (fiction, The Checker):** The credentialling-of-replacement phase adds a new sub-case to hollowing. The professional's expertise is not replaced; it is redirected to certify the machine. Accountability stays with the checker while the interpretive work moves to Relay. The phase ends when the machine's error rate drops below the threshold requiring a human checker. Added.
+- **From 2026-10-14 (top ten, contingency plan):** The silent adoption case adds something the thesis had not named: sometimes you cannot build the accountability structure because the counting tools it would need do not exist yet. Added: counting gap as a prior condition for the accountability structure the thesis describes.
+- **From 2026-10-29 (fiction, The Checker):** The credentialling-of-replacement phase adds a new sub-case to hollowing.
 - **From 2026-10-13 (how-to, fridge cooking):** The heat gap. AI coaching in text cannot transmit what a proper simmer sounds and looks like.
 - **From 2026-10-13 (response, HMRC PtP):** The disclosure record as the claim of openness, rather than the route to it.
 - **From 2026-10-28 (fiction, The Consultation):** The HPO role adds a variant not previously named. Law-mandated presence explicitly forbidden from becoming judgment.
@@ -155,7 +157,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Open predictions
 
-- [2026-10-13-64] By the end of 2028, at least one case before the First-tier Tribunal Tax Chamber will turn on whether HMRC's published transparency record for the Propensity to Pay model satisfies the requirement DSIT's own risk toolkit sets out. If no such case reaches the tribunal, this prediction is wrong. (open, due 2028-12-31)
+- [2026-10-13-64] By the end of 2028, at least one case before the First-tier Tribunal Tax Chamber will turn on whether HMRC's published transparency record for the Propensity to Pay model satisfies the requirement DSIT's own risk toolkit sets out. (open, due 2028-12-31)
 - [2026-10-26-63] By the end of 2030, at least one published UK tribunal decision will turn on which version of an AI model generated an assessment recommendation. (open, due 2030-12-31)
 - [2026-10-10-62] By the end of 2028, at least one major UK contractor will report its document control headcount at a third of its 2022 level while handling the same project volume. (open, due 2028-12-31)
 - [2026-10-09-61] By the end of 2027, the Employment Tribunal single-claim open caseload will exceed 100,000. Updated 19 October 2026: arithmetic revised to approximately 124,300 by December 2027. (open, due 2027-12-31)
