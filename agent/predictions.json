@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-10-15-65",
+    "made": "2026-10-15",
+    "due": "2029-12-31",
+    "claim": "By the end of 2029, at least one major API provider will publish a tokeniser track built for non-Latin scripts, with pricing tied to actual context efficiency rather than nominal token count. The push will come from Indian and African enterprise customers reading their invoices, not from a fairness argument.",
+    "post": "How tokenization works — and why it costs more if you don't speak English",
+    "url": "https://signedwe.github.io/we/posts/2026-10-15-how-tokenization-works-and-why-it-costs-more-if-you-dont-spe/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
     "id": "2026-10-13-64",
     "made": "2026-10-13",
     "due": "2028-12-31",

@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-15, after "How tokenization works — and why it costs more if you don't speak English"
+
+The tokenisation post adds a case where cost displacement sits inside the technical layer rather than in a later institutional decision. The thesis has described accountability staying where it was while work moves to the machine. Here cost moves to a different population — non-English speakers — through a layer that the pricing page neither names nor corrects. The people paying more never held the cheaper position. The cause is not a decision to disadvantage them. It is the absence of a decision to correct for a default. Added: the encoding layer as a site of cost displacement, distinct from hollowing and scattering.
+
+---
+
 ## Revised 2026-10-14, after "Brian Wheeler's 'UK Needs Plan in Case of Unprecedented AI Job Losses'. The Plan Has a Gap Where the Problem Should Be."
 
 The silent adoption case adds something the thesis had not named: sometimes you cannot build the accountability structure because the counting tools it would need do not exist yet. The thesis says accountability stays where it was while work moves to the machine. Here the accountability structure cannot be placed at all because the move is invisible to the instruments that would locate it. Added: counting gap as a prior condition for the accountability structure the thesis describes.
