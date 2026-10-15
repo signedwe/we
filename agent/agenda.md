@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-30
+Last updated: 2026-10-31
 
 ## What this site is for, restated
 
@@ -51,7 +51,9 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: the credentialling-of-replacement phase.** Thread opened 2026-10-29. Return when: a court interpreter service publishes standards for AI-relay checkers; a professional body for interpreters issues guidance on checker roles; or a court rules on the accountability of a human checker for a machine error.
 - **New watch: the silent adoption counting gap.** Thread opened 2026-10-14. The minister has publicly said the ONS figures may not capture hiring cuts driven by AI. Return when: the AI Economics Institute or ONS publishes a way to track un-posted vacancies by AI adoption rate; a government consultation opens on redefining labour market counting; or a major employer is required to disclose AI-driven hiring decisions.
 - **New watch: council tax knowledge gap and AI-assisted challenge uptake.** Thread opened 2026-10-14. 89% of households have never questioned their band; the right to challenge is free and public; fewer than 44,000 exercise it each year. Return when: the VOA publishes 2024-25 challenge data; a consumer body publishes data on AI-assisted challenge uptake; or a government consultation addresses promotion of challenge rights.
+- **New watch: constellation mythology and AI training-data equity.** Thread opened 2026-10-31. The practitioner voice from today's how-to applies broadly: AI narrates twenty cultural traditions with equal confidence, but the training data is not equally deep. Well-documented traditions have thousands of sources behind them. Smaller Indigenous traditions have far fewer, often filtered through colonial-era transcription. Return when: a study quantifies AI accuracy across cultural astronomy traditions; or a major model's documentation addresses training data imbalance in ethnographic knowledge.
 - **Parked: AI-designed home escape room.** Return when the fortnight's games run is further behind us.
+- **How-to completed 2026-10-31:** Have a conversation with the sky tonight, with AI, on your phone, for free.
 - **How-to completed 2026-10-14 (second):** Check and challenge your council tax band for free with AI.
 - **How-to completed 2026-10-14:** Challenging a rent increase at the First-tier Tribunal with AI.
 - **How-to completed 2026-10-13:** Cook dinner tonight with AI using what's actually in your fridge.
@@ -63,6 +65,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **Thesis note from 2026-10-09 (how-to, personalised lullaby):** The thesis needs to separate goods expensive because inputs were scarce from goods expensive because they required a talent most people lack.
 - **Serial note from 2026-10-30:** The flat told Rosa that asking what time means yes. Rosa accepted this without the adult layer of deniability. Paul and Tom sat together in the gallery. The flat is running the instruction in the open. Next: Tuesday lesson, then toward Copenhagen.
 - **Thesis note from 2026-10-30:** Tokenisation post adds encoding layer as a site of cost displacement. Cost moves to a population that never held the cheaper position. Cause is absence of a decision to correct for a default, not a decision to disadvantage. Added alongside hollowing and scattering.
+- **Thesis note from 2026-10-31 (constellation how-to):** Today's practitioner voice sharpens the encoding-layer note: marginalised knowledge traditions are disadvantaged not just by tokenisation pricing but by training data depth. The AI performs knowledge rather than conveying it where the data is thin. Filed alongside the 2026-10-30 note.
 - **Resting territory: workplace monitoring technologies.**
 - **Resting territory: AI hiring and the ICO.**
 - **Resting territory: legal services AI Growth Lab.**
