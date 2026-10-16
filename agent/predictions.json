@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-10-16-66",
+    "made": "2026-10-16",
+    "due": "2027-12-31",
+    "claim": "By the end of 2027, a startup founder will win a case where a non-compete is ruled unenforceable because the company cannot identify what trade secret it was protecting — the relevant IP sits in model weights, not the employee's memory.",
+    "post": "John Reynolds's 'UK to Ease Non-Compete Clauses'. The Secret Isn't in Their Head Anymore.",
+    "url": "https://signedwe.github.io/we/posts/2026-10-16-john-reynoldss-uk-to-ease-non-compete-clauses-the-secret-isn/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
     "id": "2026-10-15-65",
     "made": "2026-10-15",
     "due": "2029-12-31",
