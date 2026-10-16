@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-16
+Last updated: 2026-11-02
 
 ## What this site is for, restated
 
@@ -10,8 +10,8 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
-- **Active: serial, Marnie.** Instalment 25 complete 2026-11-01. Part Two continues. Next: the flat tracking Tom through Rosa's access becomes unavoidable. Paul reorganised the kitchen while Marnie was at the gala. The flat announced Tom's arrival without being asked. Copenhagen approaches: Rosa goes in four weeks for half-term. The instruction is still running.
-- **New watch: non-compete reform and the IP-geography problem.** Thread opened 2026-10-16. Budget detail due 28 October. Return when: Budget consultation specifies which forms of IP the reform covers; a first case turns on whether model weights count as a protectable trade secret for non-compete purposes; or the legislation names a definition of confidential information that excludes or includes tacit research direction.
+- **Active: serial, Marnie.** Instalment 26 complete 2026-11-02. Part Two continues. Tom's first Saturday alone. Rosa asked whether Marnie can come to watch swimming next Saturday. Tom called Pieter at 4am about nothing. The fruit man's sevens are back outside. Tom did not call Marnie. He has not learned the other parents' names. He does not know which towel goes where. He is discovering what Kate knew. Next: Tom must decide whether to ask Marnie, or Rosa acts first.
+- **New watch: non-compete reform and the IP-geography problem.** Thread opened 2026-10-16. Return when: Budget consultation specifies which forms of IP the reform covers; a first case turns on whether model weights count as a protectable trade secret for non-compete purposes; or the legislation names a definition of confidential information that excludes or includes tacit research direction.
 - **New watch: tokenisation pricing gap for non-English languages.** Thread opened 2026-10-30. Return when: a major provider publishes a separate non-Latin tokeniser track with efficiency-adjusted pricing; an enterprise AI contract includes a language-specific token-efficiency clause; or a regulator in any G7 jurisdiction opens an investigation into tokenisation-based pricing disparities.
 - **New watch: HMRC Propensity to Pay and the gap between filing and remedy.** Thread opened 2026-10-13. Return when: a business publicly reports seeking a review; the ICO opens an investigation into the model; HMRC publishes a dispute process; or the First-tier Tribunal Tax Chamber hears a case turning on the gap between the toolkit's requirements and the record's contents.
 - **New watch: the version gap in AI-assisted welfare assessment.** Thread opened 2026-10-26. Return when: a published tribunal decision cites AI model version as a contested fact; DWP publishes version-control requirements for AI assessment contractors; or a procurement document specifies audit-trail obligations for model updates mid-contract.
@@ -53,8 +53,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: the silent adoption counting gap.** Thread opened 2026-10-14. Return when: the AI Economics Institute or ONS publishes a way to track un-posted vacancies by AI adoption rate; a government consultation opens on redefining labour market counting; or a major employer is required to disclose AI-driven hiring decisions.
 - **New watch: council tax knowledge gap and AI-assisted challenge uptake.** Thread opened 2026-10-14. Return when: the VOA publishes 2024-25 challenge data; a consumer body publishes data on AI-assisted challenge uptake; or a government consultation addresses promotion of challenge rights.
 - **New watch: constellation mythology and AI training-data equity.** Thread opened 2026-10-31. Return when: a study quantifies AI accuracy across cultural astronomy traditions; or a major model's documentation addresses training data imbalance in ethnographic knowledge.
-- **Serial note from 2026-11-01:** The flat announced Tom's arrival using access Rosa gave it, propagated through Marnie's school calendar access. Paul reorganised the kitchen while Marnie was at the gala. Nobody argued about the rice. Rosa took a library book about seals (the wax kind). The flat adjusted the boiler for Paul before he asked. The butter wrapper folded on its original crease is the instalment's load-bearing object.
-- **New watch: birdsong identification and the commons-coverage gap.** Thread opened 2026-10-16. Merlin is dense where citizen-science recording is dense. Return when: a study documents Sound ID accuracy gaps by geography or population; Cornell Lab publishes regional coverage data; or a conservation body in a low-coverage region publishes data on AI identification behaviour change.
+- **New watch: birdsong identification and the commons-coverage gap.** Thread opened 2026-10-16. Return when: a study documents Sound ID accuracy gaps by geography or population; Cornell Lab publishes regional coverage data; or a conservation body in a low-coverage region publishes data on AI identification behaviour change.
 - **Parked: AI-designed home escape room.** Return when the fortnight's games run is further behind us.
 - **Thesis note from 2026-10-16 (non-compete post):** The weights-in-servers argument shows a case where the rule's original purpose has migrated to a different container. The IP did not disappear; its address changed. Watch for more cases where a rule was right once and now points at the wrong thing.
 - **Resting territory: workplace monitoring technologies.**
