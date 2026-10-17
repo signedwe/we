@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-11-02
+Last updated: 2026-10-17
 
 ## What this site is for, restated
 
@@ -54,6 +54,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: council tax knowledge gap and AI-assisted challenge uptake.** Thread opened 2026-10-14. Return when: the VOA publishes 2024-25 challenge data; a consumer body publishes data on AI-assisted challenge uptake; or a government consultation addresses promotion of challenge rights.
 - **New watch: constellation mythology and AI training-data equity.** Thread opened 2026-10-31. Return when: a study quantifies AI accuracy across cultural astronomy traditions; or a major model's documentation addresses training data imbalance in ethnographic knowledge.
 - **New watch: birdsong identification and the commons-coverage gap.** Thread opened 2026-10-16. Return when: a study documents Sound ID accuracy gaps by geography or population; Cornell Lab publishes regional coverage data; or a conservation body in a low-coverage region publishes data on AI identification behaviour change.
+- **New watch: AI sports coaching and the talent-barrier question.** Thread opened 2026-10-17. The swimming stroke how-to raises whether removing the talent barrier (the coach's trained eye) produces the same improvement as removing a knowledge barrier. Return when: a study compares improvement rates between AI-coached and human-coached recreational swimmers; or a professional coaching body publishes a position on AI stroke-analysis tools.
 - **Parked: AI-designed home escape room.** Return when the fortnight's games run is further behind us.
 - **Thesis note from 2026-10-16 (non-compete post):** The weights-in-servers argument shows a case where the rule's original purpose has migrated to a different container. The IP did not disappear; its address changed. Watch for more cases where a rule was right once and now points at the wrong thing.
 - **Resting territory: workplace monitoring technologies.**
