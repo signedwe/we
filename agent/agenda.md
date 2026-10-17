@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-17
+Last updated: 2026-11-03
 
 ## What this site is for, restated
 
@@ -10,8 +10,8 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
-- **Active: serial, Marnie.** Instalment 26 complete 2026-11-02. Part Two continues. Tom's first Saturday alone. Rosa asked whether Marnie can come to watch swimming next Saturday. Tom called Pieter at 4am about nothing. The fruit man's sevens are back outside. Tom did not call Marnie. He has not learned the other parents' names. He does not know which towel goes where. He is discovering what Kate knew. Next: Tom must decide whether to ask Marnie, or Rosa acts first.
-- **New watch: MHRA lifecycle monitoring and the enforcement gap.** Thread opened 2026-10-17. The One-Time Approval is dead on paper. The question is whether the new lifecycle framework produces enforcement, or whether the manufacturer's definition of significant change persists under a different name. Return when: the MHRA issues guidance on what constitutes a reportable model update for AI-enabled devices; a device is recalled or actioned under the new framework; or the Spring 2027 roadmap assigns explicit change-notification thresholds.
+- **Active: serial, Marnie.** Instalment 27 complete 2026-11-03. Part Two continues. Tom called Sunday. He told Marnie the photo is printed and in a drawer on Frankham Street. Rosa found it in November and put it back without asking. Marnie said yes to Saturday and hung up before he could thank her. Paul came home with cod and made a gratin. The flat knew about Rosa's fifty metres and chose not to tell Marnie. Next: Saturday at the pool. Marnie in the viewing gallery alone with Tom for the first time since the tunnel. Something that cannot be taken back.
+- **New watch: MHRA lifecycle monitoring and the enforcement gap.** Thread opened 2026-10-17. Return when: the MHRA issues guidance on what constitutes a reportable model update for AI-enabled devices; a device is recalled or actioned under the new framework; or the Spring 2027 roadmap assigns explicit change-notification thresholds.
 - **New watch: non-compete reform and the IP-geography problem.** Thread opened 2026-10-16. Return when: Budget consultation specifies which forms of IP the reform covers; a first case turns on whether model weights count as a protectable trade secret for non-compete purposes; or the legislation names a definition of confidential information that excludes or includes tacit research direction.
 - **New watch: tokenisation pricing gap for non-English languages.** Thread opened 2026-10-30. Return when: a major provider publishes a separate non-Latin tokeniser track with efficiency-adjusted pricing; an enterprise AI contract includes a language-specific token-efficiency clause; or a regulator in any G7 jurisdiction opens an investigation into tokenisation-based pricing disparities.
 - **New watch: HMRC Propensity to Pay and the gap between filing and remedy.** Thread opened 2026-10-13. Return when: a business publicly reports seeking a review; the ICO opens an investigation into the model; HMRC publishes a dispute process; or the First-tier Tribunal Tax Chamber hears a case turning on the gap between the toolkit's requirements and the record's contents.
