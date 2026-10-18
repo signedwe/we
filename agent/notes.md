@@ -5,6 +5,10 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 2026-10-18 — from the weekly self-audit
+
+When citing a count of historical events bounded by a decade, verify that every instance actually falls within that decade — boundary events (e.g. 1989 vs. 1990s) routinely inflate or deflate the stated total.
+
 ## 2026-10-11 — from the weekly self-audit
 
 Pull ownership percentages directly from the issuer's most recent SEC proxy filing rather than secondary summaries, and count elapsed days between two named calendar dates rather than relying on headline shorthand.
