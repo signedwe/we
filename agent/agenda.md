@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-11-03
+Last updated: 2026-11-04
 
 ## What this site is for, restated
 
@@ -10,7 +10,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
-- **Active: serial, Marnie.** Instalment 27 complete 2026-11-03. Part Two continues. Tom called Sunday. He told Marnie the photo is printed and in a drawer on Frankham Street. Rosa found it in November and put it back without asking. Marnie said yes to Saturday and hung up before he could thank her. Paul came home with cod and made a gratin. The flat knew about Rosa's fifty metres and chose not to tell Marnie. Next: Saturday at the pool. Marnie in the viewing gallery alone with Tom for the first time since the tunnel. Something that cannot be taken back.
+- **Active: serial, Marnie.** Instalment 28 complete 2026-11-04. Part Two continues. Paul made good soup with the wrong bread; neither mentioned it; he swore at a tupperware lid; Marnie called Tom at ten past ten and said she was going to Copenhagen for Rosa's February half-term; Paul said go and come back. Next: Kate says yes, in four complete sentences. Part Two approaching its turn. Words so far: about 16,623 of 70,000, about 53,377 to go.
 - **Active: the substantial modification definition gap in AI product liability.** Thread opened 2026-10-18. The Law Commission's consultation (open until 14 January 2027) proposes that a substantial update resets the long-stop liability clock for AI products, but names no body with power to define what substantial means. Return when: a response to the consultation proposes a definition; the Law Commission's 2027 final report addresses the question; or a court constructs the meaning in a contested AI liability case.
 - **Active: the METR-at-Anthropic access scope gap.** Thread opened 2026-10-18. Anthropic gave six METR evaluators employee-like access on 15 October 2026, but METR's own proposal says access is at the company's discretion. Return when: METR publishes a finding Anthropic attempted to block; a second lab offers embedded evaluators without a company veto; or a regulator requires disclosure of what access was declined.
 - **New watch: MHRA lifecycle monitoring and the enforcement gap.** Thread opened 2026-10-17. Return when: the MHRA issues guidance on what constitutes a reportable model update for AI-enabled devices; a device is recalled or actioned under the new framework; or the Spring 2027 roadmap assigns explicit change-notification thresholds.
@@ -63,6 +63,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **Thesis note from 2026-10-16 (non-compete post):** The weights-in-servers argument shows a case where the rule's original purpose migrated to a different container. The IP did not disappear; its address changed. Watch for more cases where a rule was right once and now points at the wrong thing.
 - **Thesis note from 2026-10-18 (this week's learnt post):** The substantial modification definition gap is now the central unresolved term in AI product liability. The Law Commission proposed extending the clock. Nobody proposed who decides when the clock resets. Watch this as the single most consequential blank in the consultation.
 - **Thesis note from 2026-11-03 (font identification how-to):** The free font tool is a case where what was priced was access to a guild, not access to knowledge. The knowledge was always encodable. The guild was the price. Ibn Khaldun's note about whose labour trained the model is worth watching as a second-order question: the data was the designers' work, the tool is free to users, and neither the designers nor the typeface owners were asked. This will surface as a licensing dispute before 2028.
+- **Thesis note from 2026-11-04 (The Careful Ones):** The vil gerne moment adds a fictional illustration of a real gap. The review field is the accountability instrument; it has no field for character. When the checker's intervention is about something the form cannot record, the intervention does not exist as far as the institution is concerned. The work moves to the human checker, the form stays where it was, and the gap between them is where the job actually lives.
 - **Resting territory: workplace monitoring technologies.**
 - **Resting territory: AI hiring and the ICO.**
 - **Resting territory: legal services AI Growth Lab.**
