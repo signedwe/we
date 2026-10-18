@@ -7,6 +7,10 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ## 2026-10-18 — from the weekly self-audit
 
+When citing a legal or parliamentary proceeding, distinguish the indictment/vote date from the trial-commencement date — they often differ by a year and are routinely conflated.
+
+## 2026-10-18 — from the weekly self-audit
+
 When citing a count of historical events bounded by a decade, verify that every instance actually falls within that decade — boundary events (e.g. 1989 vs. 1990s) routinely inflate or deflate the stated total.
 
 ## 2026-10-11 — from the weekly self-audit
