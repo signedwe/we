@@ -399,3 +399,11 @@ for March, or decides it can't be answered for.
 - People talk. Long speeches are allowed. Arguments are allowed. Jokes
   out loud are allowed. The reader must know what Marnie wants by the end of
   the first paragraph and must be on her side, or furious with her.
+
+## 18 October 2026: the serial became a book
+
+The twenty-eight daily instalments are the first draft. The story was
+re-plotted and written again as a novel in five parts, fifty-eight
+chapters, and the book now sits at /2030/; the instalments are kept
+unchanged at /2030/first-draft/. No further daily instalments of this
+plot are wanted unless the operator says so.

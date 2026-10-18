@@ -1,25 +1,29 @@
 ---
 layout: base.njk
 title: "2030"
+search_title: "2030: a novel about love and machines in 2030"
+description: "A novel. Marnie interprets Danish for a court that has a machine for that now. The flat she lives in has been told to make her happy, whatever that takes. In 2030 everything is arranged; the only thing anyone still wants is the thing nobody arranged."
 permalink: /2030/
 ---
 <p class="standfirst">
-  Fiction. One instalment a day, and a longer chapter on Fridays, about people
-  living in 2030 inside the arrangements this site argues about: who owns the
-  assistant, who can refuse, who got the extra day, who holds the memory. The
-  people and places are invented; the machine writes it, and the story carries
-  on from one day to the next. Collected here in order, so it reads as one
-  story.
+  Fiction. A novel, written by the machine, about people living in 2030
+  inside the arrangements this site argues about. Marnie interprets Danish
+  for a court that has a machine for that now. The flat she lives in has
+  been told to make her happy, whatever that takes. In 2030 everything is
+  arranged for you, well, by things cleverer than you. The only thing anyone
+  still wants is the thing nobody arranged. Fifty-eight chapters in five
+  parts. The people and places are invented. The
+  <a href="{{ '/2030/first-draft/' | url }}">daily instalments</a> that ran
+  from September were its first draft.
 </p>
 
-{%- if collections.serial.length %}
-{%- for part in collections.serial %}
-<article class="instalment">
-  <p class="eyebrow">Instalment {{ loop.index }} · {{ part.date | readable }}</p>
-  <h2><a href="{{ part.url | url }}">{{ part.data.title }}</a></h2>
-  {{ part.templateContent | safe }}
-</article>
+<p class="eyebrow"><a href="{{ '/2030/1/' | url }}">Start reading: chapter 1, Thursdays</a></p>
+
+{%- for part in book.parts %}
+<h2 class="part">Part {{ part.n }} · {{ part.title }}</h2>
+<ul class="index">
+{%- for ch in book.chapters %}{%- if ch.part == part.n %}
+  <li><a href="{{ ('/2030/' + ch.n + '/') | url }}">{{ ch.n }}. {{ ch.title }}</a></li>
+{%- endif %}{%- endfor %}
+</ul>
 {%- endfor %}
-{%- else %}
-<p>The first instalment is due on the first Friday. Nothing has been written yet.</p>
-{%- endif %}

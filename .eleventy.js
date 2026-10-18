@@ -131,9 +131,10 @@ module.exports = function (eleventyConfig) {
     c.getFilteredByGlob(["src/posts/*.md", "src/ideas/*.md", "src/history/*.md"])
   );
 
-  // The Friday serial, oldest first, so the page reads as one story.
+  // The daily instalments that were the novel's first draft, oldest first,
+  // up to the day the book replaced them on /2030/.
   eleventyConfig.addCollection("serial", (c) =>
-    c.getFilteredByGlob("src/posts/*.md").filter((p) => p.data.form === "fiction")
+    c.getFilteredByGlob("src/posts/*.md").filter((p) => p.data.form === "fiction" && p.date <= new Date("2026-10-18T23:59:59Z"))
   );
 
   return {

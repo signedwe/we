@@ -393,3 +393,8 @@ article s, article del { background: #f4f4f4; padding: 0 0.15em; }
 .history .notes li { margin-bottom: 0.6rem; }
 .history .notes li:target { color: var(--ink); }
 .history h2 { font-size: 1.125rem; margin-top: 2.5rem; }
+
+.chapter h1 { font-size: 1.75rem; }
+.chapter hr.scene { border: 0; text-align: center; margin: 2rem 0; }
+.chapter hr.scene::after { content: "\2022  \2022  \2022"; color: var(--quiet); letter-spacing: 0.3em; }
+h2.part { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.18em; text-transform: uppercase; margin: 2.5rem 0 0.75rem; }
