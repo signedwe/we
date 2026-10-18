@@ -2634,8 +2634,7 @@ TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 #                          news stories per week")
 # Wednesday   top_ten      a top ten
 # Thursday    technical    a longer, well-sourced piece on one technical part of AI
-# Every day   fiction      2030, the serial, one instalment after the day's form;
-#                          Friday's instalment is a longer chapter
+# (Fiction was here, daily, until 18 October 2026; see FORMS below.)
 # Every day   how_to       one thing you can do with AI today (with a disclaimer)
 # Saturday    obituary     a death notice for a rule, a job or an arrangement
 # Sunday      learnt       what WE learnt this week
@@ -2654,14 +2653,18 @@ TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 #
 # 23 September 2026, the operator: "make the how to daily". Four daily
 # firings cover three forms plus one spare; a fifth was added for Saturday.
+# 18 October 2026, the operator: "we shouldn't keep publishing new parts
+# every day". The serial became a novel, published whole at /2030/, with
+# the daily instalments kept as its first draft. Fiction is off the rota.
+# The fiction code stays, unused, in case it's ever wanted again.
 FORMS = {
-    0: ["five_years", "how_to", "fiction"],
-    1: ["response", "how_to", "fiction"],
-    2: ["top_ten", "how_to", "fiction"],
-    3: ["technical", "how_to", "fiction"],
-    4: ["response", "how_to", "fiction"],
-    5: ["how_to", "obituary", "fiction"],
-    6: ["learnt", "how_to", "fiction"],
+    0: ["five_years", "how_to"],
+    1: ["response", "how_to"],
+    2: ["top_ten", "how_to"],
+    3: ["technical", "how_to"],
+    4: ["response", "how_to"],
+    5: ["how_to", "obituary"],
+    6: ["learnt", "how_to"],
 }
 
 FORM_LABEL = {
