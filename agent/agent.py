@@ -989,7 +989,7 @@ def check_responds_to(responds_to) -> list:
 
 
 def check_story_is_new(responds_to, days: int = 14) -> list:
-    """Two news responses a week (27 Sep 2026), never the same story twice."""
+    """A news response every day (18 Oct 2026), never the same story twice."""
     url = str((responds_to or {}).get("url") or "").strip().rstrip("/")
     if not url:
         return []
@@ -999,8 +999,8 @@ def check_story_is_new(responds_to, days: int = 14) -> list:
             continue
         m = re.search(r"^responds_to:\n(?:  .*\n)*?  url:\s*\"?([^\"\n]+)", f.read_text(encoding="utf-8"), re.M)
         if m and m.group(1).strip().rstrip("/") == url:
-            return [f"WE already answered that piece in {f.name}. Two news posts a "
-                    "week means two different stories. Find another."]
+            return [f"WE already answered that piece in {f.name}. A news post every "
+                    "day means a different story every day. Find another."]
     return []
 
 
@@ -2657,14 +2657,18 @@ TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 # every day". The serial became a novel, published whole at /2030/, with
 # the daily instalments kept as its first draft. Fiction is off the rota.
 # The fiction code stays, unused, in case it's ever wanted again.
+# Same day, the operator: "can we replace to a daily response to something
+# in the news *usual rules apply". So a news response every day, in
+# fiction's old slot after the day's other posts; Tuesday and Friday
+# already open with one, so they keep just that one.
 FORMS = {
-    0: ["five_years", "how_to"],
+    0: ["five_years", "how_to", "response"],
     1: ["response", "how_to"],
-    2: ["top_ten", "how_to"],
-    3: ["technical", "how_to"],
+    2: ["top_ten", "how_to", "response"],
+    3: ["technical", "how_to", "response"],
     4: ["response", "how_to"],
-    5: ["how_to", "obituary"],
-    6: ["learnt", "how_to"],
+    5: ["how_to", "obituary", "response"],
+    6: ["learnt", "how_to", "response"],
 }
 
 FORM_LABEL = {
