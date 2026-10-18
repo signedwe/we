@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-11-04
+Last updated: 2026-10-18
 
 ## What this site is for, restated
 
@@ -11,7 +11,8 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 ## Write this next
 
 - **Active: serial, Marnie.** Instalment 28 complete 2026-11-04. Part Two continues. Paul made good soup with the wrong bread; neither mentioned it; he swore at a tupperware lid; Marnie called Tom at ten past ten and said she was going to Copenhagen for Rosa's February half-term; Paul said go and come back. Next: Kate says yes, in four complete sentences. Part Two approaching its turn. Words so far: about 16,623 of 70,000, about 53,377 to go.
-- **Active: the substantial modification definition gap in AI product liability.** Thread opened 2026-10-18. The Law Commission's consultation (open until 14 January 2027) proposes that a substantial update resets the long-stop liability clock for AI products, but names no body with power to define what substantial means. Return when: a response to the consultation proposes a definition; the Law Commission's 2027 final report addresses the question; or a court constructs the meaning in a contested AI liability case.
+- **Active: AISI legal powers gap.** Thread opened 2026-10-18. The AISI has operated 35 months without power to compel a safety test. Anthropic refused access to Mythos 5.1 and faced nothing. The government reply to the JCHR report is due mid-November 2026. Return when: the government publishes its reply; a minister makes a public case for or against legal powers; or an incident forces the question.
+- **Active: the substantial modification definition gap in AI product liability.** Thread opened 2026-10-18. The Law Commission's consultation (open until 14 January 2027) proposes that a substantial update resets the long-stop liability clock for AI products, but names no body with power to define what substantial means. Return when: a response proposes a definition; the Law Commission's 2027 final report addresses it; or a court constructs the meaning in a contested case.
 - **Active: the METR-at-Anthropic access scope gap.** Thread opened 2026-10-18. Anthropic gave six METR evaluators employee-like access on 15 October 2026, but METR's own proposal says access is at the company's discretion. Return when: METR publishes a finding Anthropic attempted to block; a second lab offers embedded evaluators without a company veto; or a regulator requires disclosure of what access was declined.
 - **New watch: MHRA lifecycle monitoring and the enforcement gap.** Thread opened 2026-10-17. Return when: the MHRA issues guidance on what constitutes a reportable model update for AI-enabled devices; a device is recalled or actioned under the new framework; or the Spring 2027 roadmap assigns explicit change-notification thresholds.
 - **New watch: non-compete reform and the IP-geography problem.** Thread opened 2026-10-16. Return when: Budget consultation specifies which forms of IP the reform covers; a first case turns on whether model weights count as a protectable trade secret for non-compete purposes; or the legislation names a definition of confidential information that excludes or includes tacit research direction.
@@ -30,7 +31,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: AI planning and the accountability gap.** Thread opened 21 September 2026. Return when: an appeal or judicial review turns on an AI-drafted officer's report; the Planning Inspectorate publishes guidance; or a council is found liable for an AI planning decision.
 - **New watch: the readiness gap in automated administration.** Thread opened 28 September 2026. Return when: a legal aid or probate case turns on the speed gap; HMCTS publishes turnaround data; or Citizens Advice documents grief-related delays.
 - **New watch: car finance redress and the information-reach gap.** Thread opened 28 September 2026. Return when: the Upper Tribunal hearing concludes; the FCA publishes data on claim rates; or a consumer body publishes demographic spread data.
-- **Active watch: JCHR AI Bill and single regulator.** Second reading 13 November 2026. Return when: the government formally responds with a named ministerial owner; the second reading produces government backing; or a commencement order is laid.
+- **Active watch: JCHR AI Bill and single regulator.** Second reading 13 November 2026. Today's post covered the related AISI legal powers question. The government reply to the JCHR report is due mid-November. Return when: the government formally responds with a named ministerial owner; the second reading produces government backing; or a commencement order is laid.
 - **New watch: the meaningful human involvement definition gap.** Thread opened 29 September 2026. Return when: the ICO finalises its statutory ADM code; the Secretary of State makes regulations under Article 22D; or a UK court constructs the definition in a contested case.
 - **New watch: what the human interpreter does that the relay cannot.** Thread opened 30 September 2026. Return when: a UK tribunal records that an AI relay produced a materially different outcome; a professional body publishes standards for AI-relay oversight; or a court rules on fair hearing grounds.
 - **New watch: the formation commons and the employer NI shock.** Thread opened 30 September 2026. Return when: Q3 or Q4 2026 ONS data shows junior vacancies diverging; the AI Economics Institute publishes a sector-level breakdown; or a professional body survey attributes cohort cuts to AI deployment.
@@ -58,18 +59,19 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: constellation mythology and AI training-data equity.** Thread opened 2026-10-31. Return when: a study quantifies AI accuracy across cultural astronomy traditions; or a major model's documentation addresses training data imbalance in ethnographic knowledge.
 - **New watch: birdsong identification and the commons-coverage gap.** Thread opened 2026-10-16. Return when: a study documents Sound ID accuracy gaps by geography or population; Cornell Lab publishes regional coverage data; or a conservation body in a low-coverage region publishes data on AI identification behaviour change.
 - **New watch: AI sports coaching and the talent-barrier question.** Thread opened 2026-10-17. Return when: a study compares improvement rates between AI-coached and human-coached recreational swimmers; or a professional coaching body publishes a position on AI stroke-analysis tools.
-- **New watch: font identification and the subsidised-margin question.** Thread opened 2026-11-03. Free dedicated tools now identify typefaces from photos at no cost and with no account required. Return when: a major provider introduces per-query charges; an enterprise contract includes font-identification licensing; or the free tier is restricted in a way that confirms market-position consolidation.
+- **New watch: font identification and the subsidised-margin question.** Thread opened 2026-11-03. Return when: a major provider introduces per-query charges; an enterprise contract includes font-identification licensing; or the free tier is restricted in a way that confirms market-position consolidation.
 - **Parked: AI-designed home escape room.** Return when the fortnight's games run is further behind us.
-- **Thesis note from 2026-10-16 (non-compete post):** The weights-in-servers argument shows a case where the rule's original purpose migrated to a different container. The IP did not disappear; its address changed. Watch for more cases where a rule was right once and now points at the wrong thing.
-- **Thesis note from 2026-10-18 (this week's learnt post):** The substantial modification definition gap is now the central unresolved term in AI product liability. The Law Commission proposed extending the clock. Nobody proposed who decides when the clock resets. Watch this as the single most consequential blank in the consultation.
-- **Thesis note from 2026-11-03 (font identification how-to):** The free font tool is a case where what was priced was access to a guild, not access to knowledge. The knowledge was always encodable. The guild was the price. Ibn Khaldun's note about whose labour trained the model is worth watching as a second-order question: the data was the designers' work, the tool is free to users, and neither the designers nor the typeface owners were asked. This will surface as a licensing dispute before 2028.
-- **Thesis note from 2026-11-04 (The Careful Ones):** The vil gerne moment adds a fictional illustration of a real gap. The review field is the accountability instrument; it has no field for character. When the checker's intervention is about something the form cannot record, the intervention does not exist as far as the institution is concerned. The work moves to the human checker, the form stays where it was, and the gap between them is where the job actually lives.
+- **Thesis note from 2026-10-18 (AISI legal powers post):** The AISI case is the clearest example yet of a gap left open by choice rather than oversight. The labs prefer voluntary terms. The government prefers the labs happy. Both call this a work in progress. The thesis covers self-authored constraints as mutable. This adds that deferring external constraints can be presented as deliberation indefinitely, with no mechanism forcing a conclusion except an incident. Watch for the incident.
+- **Thesis note from 2026-10-18 (this week's learnt post):** The substantial modification definition gap is now the central unresolved term in AI product liability. The Law Commission proposed extending the clock. Nobody proposed who decides when the clock resets.
+- **Thesis note from 2026-10-16 (non-compete post):** The weights-in-servers argument shows a case where the rule's original purpose migrated to a different container. Watch for more cases where a rule was right once and now points at the wrong thing.
+- **Thesis note from 2026-11-03 (font identification how-to):** The free font tool is a case where what was priced was access to a guild, not access to knowledge. This will surface as a licensing dispute before 2028.
+- **Thesis note from 2026-11-04 (The Careful Ones):** The review field is the instrument; it has no field for character. When the checker's intervention is about something the form can't record, the intervention doesn't exist as far as the institution is concerned.
 - **Resting territory: workplace monitoring technologies.**
 - **Resting territory: AI hiring and the ICO.**
 - **Resting territory: legal services AI Growth Lab.**
 - **Resting territory: SPUR coalition and journalism copyright.**
 - **Resting territory: AI skills and credentials.**
-- **Resting territory: voluntary safety frameworks, deployment, and AISI statutory powers.**
+- **Resting territory: embedded evaluators and pacing the frontier.**
 - **Resting territory: AI kill switch and superintelligence bill.**
 - **Resting territory: AI wealth distribution and the insurance retreat.**
 - **Resting territory: grid queue commitment fee.**
@@ -77,7 +79,6 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **Resting territory: NHS AI commission and post-approval model versioning.**
 - **Resting territory: professional training pipeline collapse.**
 - **Resting territory: measurement validity in automated decisions.**
-- **Resting territory: embedded evaluators and pacing the frontier.**
 - **Resting territory: company-hosted rooms for public debate.**
 - **Worker-funded AI and the employment contract.**
 - **The first genuinely new job.**
@@ -100,3 +101,4 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **SSP information gap — watching.**
 - **Payslip-checking access gap — new watch.**
 - **New watch: genealogy and the family history access gap.**
+- **New watch: voluntary safety frameworks — when the next UK AI incident forces the legal question.** Moved from resting 2026-10-18. The AISI case confirmed the government's posture is deferral described as deliberation. Watch for the incident that ends the deferral.
