@@ -488,19 +488,31 @@ def main() -> int:
         if n == REVIEW_PASSES - 1 or (not bad and (edited or not editorial)):
             break
         messages.append({"role": "assistant", "content": resp.content})
-        this_edit = not bad
-        if not bad:
+        this_edit = not edited
+        if not edited:
             # 19 Oct 2026: the reviewer's recommendations were printed under
             # the Dreyfus essay and never applied. One editorial round: each
             # is applied or declined, the decision recorded on the page, and
             # the edited essay goes back to review so any addition is checked.
+            # 19 Oct, later: the reviewer finds a new "error" on every pass, so
+            # waiting for a clean pass meant the round never ran. Errors and
+            # recommendations are now handled together in the first round.
             edited, edit_report = True, report
+            errors = "\n".join(
+                f"- CLAIM: {f.get('claim')}\n  FINDING: {f.get('finding')}\n  ACTION: {f.get('action')}"
+                for f in bad)
             listing = "\n".join(
                 f"#{i}. PASSAGE: {f.get('claim')}\n  FINDING: {f.get('finding')}\n  ACTION: {f.get('action')}"
                 for i, f in enumerate(editorial, 1))
             messages.append({"role": "user", "content":
-                "A reviewer who is the leading scholar of this subject and an "
-                "editor found no errors, and made these recommendations. For "
+                ("ERRORS. For every claim below that the reviewer calls wrong or "
+                 "unsupported, cut it (sentence or clause, and its footnote if "
+                 "nothing else cites it, renumbering the notes), unless the "
+                 "reviewer gives the correct value from a source it opened, in "
+                 "which case change just that value.\n\n" + errors + "\n\n"
+                 if bad else "")
+                + "RECOMMENDATIONS. The reviewer, the leading scholar of this "
+                "subject and an editor, also made these recommendations. For "
                 "each one, apply it or decline it. Apply cuts, reordering and "
                 "sharper endings freely. Any new fact you add must come from a "
                 "source you open now and must carry a footnote to it; if you "
