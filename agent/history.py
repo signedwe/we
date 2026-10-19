@@ -479,11 +479,22 @@ def main() -> int:
             "Add nothing new. Change no other sentence. Reply with the "
             "complete corrected JSON "
             "object, nothing else.\n\n" + findings})
-        resp = write(client, messages)
-        try:
-            essay = agent.extract_json(agent.text_blocks(resp))
-        except ValueError as exc:
-            return hold(essay, date, subject, f"Correction pass returned no JSON: {exc.args[0][:200]}")
+        # The writer sometimes narrates its plan and stops before the JSON.
+        # Ask again, as the first writing loop does, before holding.
+        for retry in range(3):
+            resp = write(client, messages)
+            try:
+                essay = agent.extract_json(agent.text_blocks(resp))
+                break
+            except ValueError as exc:
+                print(f"Correction pass {retry + 1} returned no JSON: {exc.args[0][:120]}")
+                if retry == 2:
+                    return hold(essay, date, subject, f"Correction pass returned no JSON: {exc.args[0][:200]}")
+                messages.append({"role": "assistant", "content": resp.content})
+                messages.append({"role": "user", "content":
+                    "That reply contained no JSON object. Do not narrate and do not "
+                    "search again. Apply the corrections and reply with the complete "
+                    "corrected JSON object and nothing else."})
         essay["body"] = undash(essay["body"])
         failures = check_essay(essay["body"])
         # 27 Sep 2026: the Turing essay was held here for 141 words over and
