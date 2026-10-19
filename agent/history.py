@@ -80,9 +80,9 @@ REVIEW_BY = (
     "told to read it as the leading scholar of the subject and as an "
     "editor. It read the whole essay, opened each source, checked every "
     "direct quotation word for word and every claim, footnoted or not, and "
-    "said what was missing, weak, slow or flat. Where it found an error the "
-    "essay was corrected and reviewed again before publication; its edits "
-    "for content and style were applied at the writer's judgement."
+    "said what was missing, weak, slow or flat. Errors were cut or corrected. "
+    "Each content and style recommendation was applied or declined by the "
+    "writer, as marked below, and the edited essay was reviewed again."
 )
 
 
@@ -337,8 +337,11 @@ def yaml_str(s) -> str:
     return json.dumps(str(s), ensure_ascii=False)
 
 
-def front_matter(essay: dict, date: str, review: dict, passes: list) -> str:
+def front_matter(essay: dict, date: str, review: dict, passes: list,
+                 edit_report: dict = None, decisions: list = None) -> str:
     words = len(plain_body(essay["body"]).split())
+    if edit_report:
+        review = dict(review, verdict=edit_report.get("verdict"), summary=edit_report.get("summary"))
     minutes = max(5, round(words / 230))
     tags = [t for t in essay.get("tags", []) if isinstance(t, str)][:4] or ["minds"]
     lines = [
@@ -357,13 +360,30 @@ def front_matter(essay: dict, date: str, review: dict, passes: list) -> str:
         f"  verdict: {yaml_str((str(review.get('verdict', '')) + '. ' + str(review.get('summary', ''))).strip())}",
         "  findings:",
     ]
-    shown = [f for f in review["findings"] if f.get("severity") != "confirmed"]
+    if edit_report:
+        # The report the writer acted on, each recommendation marked with
+        # what was done about it; the final pass is summed up in "by".
+        shown = [f for f in edit_report["findings"]
+                 if f.get("severity") in ("content", "style", "quibble")]
+        by_n = {d.get("n"): d for d in (decisions or []) if isinstance(d, dict)}
+        for i, f in enumerate(shown, 1):
+            d = by_n.get(i)
+            if not d:
+                f["status"] = "No decision recorded."
+            elif d.get("applied"):
+                f["status"] = "Applied." + (f" {d['note']}" if d.get("note") else "")
+            else:
+                f["status"] = "Declined: " + str(d.get("note") or "no reason given.")
+    else:
+        shown = [f for f in review["findings"] if f.get("severity") != "confirmed"]
     if not shown:
         lines[-1] = "  findings: []"
     for f in shown:
         lines.append(f"    - claim: {yaml_str(f.get('claim', ''))}")
         lines.append(f"      finding: {yaml_str(f.get('finding', ''))}")
         lines.append(f"      action: {yaml_str(f.get('action', ''))}")
+        if f.get("status"):
+            lines.append(f"      status: {yaml_str(f['status'])}")
     lines.append("---")
     return "\n".join(lines) + "\n\n"
 
@@ -374,7 +394,7 @@ def passes_sentence(passes: list) -> str:
         n = len(serious(p))
         parts.append(f"Pass {i}: {n} error{'s' if n != 1 else ''} or unsupported claim{'s' if n != 1 else ''}"
                      + (", corrected" if n and i < len(passes) else "") + ".")
-    return " ".join(parts) + " The last report is below, unedited."
+    return " ".join(parts) + " The report below is the one the writer acted on, unedited, with what was done about each point."
 
 
 # ------------------------------------------------------------------- main
@@ -409,8 +429,12 @@ def main() -> int:
     resume = os.environ.get("RESUME")
     if resume:
         essay = json.loads(Path(resume).read_text(encoding="utf-8"))
+        # A published essay sent back through review keeps its file and
+        # subject (dispatch with force, so the weekly stand-down is skipped).
+        subject = essay.pop("_redo_subject", subject)
         resp = types.SimpleNamespace(content=json.dumps(essay, ensure_ascii=False))
         print(f"Resuming the held essay in {resume}")
+    redo = essay.pop("_redo_filename", None) if resume else None
     for attempt in range(0 if resume else 4):
         resp = write(client, messages)
         try:
@@ -452,33 +476,60 @@ def main() -> int:
     # drafts or the corrections, only the current essay.
     passes = []
     report = None
+    edited, edit_report, decisions = False, None, []
     for n in range(REVIEW_PASSES):
         report = run_review(client, essay)
         passes.append(report)
         bad = serious(report)
         print(f"Review pass {n + 1}: {report.get('verdict')}; {len(bad)} serious finding(s)")
         summarise(f"Review pass {n + 1}", json.dumps(report, indent=2, ensure_ascii=False))
-        if not bad or n == REVIEW_PASSES - 1:
+        editorial = [f for f in report["findings"]
+                     if f.get("severity") in ("content", "style", "quibble")]
+        if n == REVIEW_PASSES - 1 or (not bad and (edited or not editorial)):
             break
-        findings = "\n".join(
-            f"- CLAIM: {f.get('claim')}\n  FINDING: {f.get('finding')}\n  ACTION: {f.get('action')}"
-            for f in report["findings"] if f.get("severity") != "confirmed")
         messages.append({"role": "assistant", "content": resp.content})
-        messages.append({"role": "user", "content":
-            "A reviewer who is an expert in this subject read the whole essay, "
-            "opened every source and checked every quotation and claim. These "
-            "are its findings. The operator's rule (19 Oct 2026): leave out "
-            "anything that can't be verified. So for every claim the reviewer "
-            "calls wrong or unsupported, cut it: delete the sentence or clause, "
-            "and its footnote if nothing else cites it, renumbering the notes. "
-            "Do not reword it, soften it, replace it with a new claim or move "
-            "it to a note, because every rewrite brings a new claim the "
-            "reviewer has not checked. The only exception is a plain factual "
-            "slip where the reviewer gives the correct value from a source it "
-            "opened (a date, a name, a document number): change just that. "
-            "Add nothing new. Change no other sentence. Reply with the "
-            "complete corrected JSON "
-            "object, nothing else.\n\n" + findings})
+        this_edit = not bad
+        if not bad:
+            # 19 Oct 2026: the reviewer's recommendations were printed under
+            # the Dreyfus essay and never applied. One editorial round: each
+            # is applied or declined, the decision recorded on the page, and
+            # the edited essay goes back to review so any addition is checked.
+            edited, edit_report = True, report
+            listing = "\n".join(
+                f"#{i}. PASSAGE: {f.get('claim')}\n  FINDING: {f.get('finding')}\n  ACTION: {f.get('action')}"
+                for i, f in enumerate(editorial, 1))
+            messages.append({"role": "user", "content":
+                "A reviewer who is the leading scholar of this subject and an "
+                "editor found no errors, and made these recommendations. For "
+                "each one, apply it or decline it. Apply cuts, reordering and "
+                "sharper endings freely. Any new fact you add must come from a "
+                "source you open now and must carry a footnote to it; if you "
+                "cannot confirm it in an opened source, leave it out and "
+                "decline the recommendation. Decline only with a reason. "
+                "Change nothing the recommendations do not touch. Reply with "
+                "the complete JSON object, nothing else, with one extra key, "
+                '"decisions": [{"n": 1, "applied": true or false, "note": '
+                '"one short sentence"}], one entry per recommendation.\n\n'
+                + listing})
+        else:
+            findings = "\n".join(
+              f"- CLAIM: {f.get('claim')}\n  FINDING: {f.get('finding')}\n  ACTION: {f.get('action')}"
+              for f in report["findings"] if f.get("severity") != "confirmed")
+            messages.append({"role": "user", "content":
+              "A reviewer who is an expert in this subject read the whole essay, "
+              "opened every source and checked every quotation and claim. These "
+              "are its findings. The operator's rule (19 Oct 2026): leave out "
+              "anything that can't be verified. So for every claim the reviewer "
+              "calls wrong or unsupported, cut it: delete the sentence or clause, "
+              "and its footnote if nothing else cites it, renumbering the notes. "
+              "Do not reword it, soften it, replace it with a new claim or move "
+              "it to a note, because every rewrite brings a new claim the "
+              "reviewer has not checked. The only exception is a plain factual "
+              "slip where the reviewer gives the correct value from a source it "
+              "opened (a date, a name, a document number): change just that. "
+              "Add nothing new. Change no other sentence. Reply with the "
+              "complete corrected JSON "
+              "object, nothing else.\n\n" + findings})
         # The writer sometimes narrates its plan and stops before the JSON.
         # Ask again, as the first writing loop does, before holding.
         for retry in range(3):
@@ -495,6 +546,9 @@ def main() -> int:
                     "That reply contained no JSON object. Do not narrate and do not "
                     "search again. Apply the corrections and reply with the complete "
                     "corrected JSON object and nothing else."})
+        if this_edit:
+            decisions = essay.pop("decisions", None) or []
+        essay.pop("decisions", None)
         essay["body"] = undash(essay["body"])
         failures = check_essay(essay["body"])
         # 27 Sep 2026: the Turing essay was held here for 141 words over and
@@ -527,8 +581,10 @@ def main() -> int:
                     + json.dumps(serious(report), indent=2, ensure_ascii=False))
 
     slug = agent.slugify(essay.get("search_title") or essay["title"])[:60].rstrip("-")
-    filename = f"{date}-{slug}.md"
-    text = front_matter(essay, date, report, passes) + essay["body"].strip() + "\n"
+    filename = redo or f"{date}-{slug}.md"
+    if redo:
+        date, slug = redo[:10], redo[11:-3]
+    text = front_matter(essay, date, report, passes, edit_report, decisions) + essay["body"].strip() + "\n"
     if DRAFT:
         HELD.mkdir(exist_ok=True)
         (HELD / filename).write_text(text, encoding="utf-8")

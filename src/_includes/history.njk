@@ -28,12 +28,12 @@ layout: base.njk
 {%- if review %}
 <aside class="voices review">
   <h2>Reviewed before publication</h2>
-  <p class="voices-note">{{ review.by }} Its report, unedited, is below. Where it found an error, the text above was corrected before publication and the correction is recorded here.</p>
+  <p class="voices-note">{{ review.by }}</p>
   <p class="voices-note"><strong>Verdict:</strong> {{ review.verdict }}</p>
   {%- for r in review.findings %}
   <div class="voice">
     <p class="voice-name"><strong>{{ r.claim }}</strong></p>
-    <p class="voice-arg">{{ r.finding }}{% if r.action %} <em>Action: {{ r.action }}</em>{% endif %}</p>
+    <p class="voice-arg">{{ r.finding }}{% if r.action %} <em>Action: {{ r.action }}</em>{% endif %}{% if r.status %} <strong>{{ r.status }}</strong>{% endif %}</p>
   </div>
   {%- endfor %}
 </aside>
