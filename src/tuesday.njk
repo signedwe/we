@@ -40,16 +40,16 @@ api: ""
     <p>In 2030, you haven't typed a score into a system for a year. You still have a recurring dream about it.</p>
     <p>Someone in the staffroom keeps taking your mug. You know who. Say nothing. Let the universe handle it.</p>
   </div>
-  <p class="tq-wild"><span class="tq-k">🎲 Wildcard:</span> <span id="tq-wild">Someone from 2026 turns up asking for advice. She's holding a pile of marking. You tell her it gets better. She doesn't believe you. You didn't either.</span></p>
+  <p class="tq-wild"><span class="tq-k"><img class="tq-icon" src="{{ '/tuesday/icons/wildcard.png' | url }}" alt="" width="160" height="160">Wildcard:</span> <span id="tq-wild">Someone from 2026 turns up asking for advice. She's holding a pile of marking. You tell her it gets better. She doesn't believe you. You didn't either.</span></p>
   <p class="tq-kv" id="tq-lucky">Lucky number: 30, the class size you'll finally stop having.</p>
   <p class="tq-kv" id="tq-unlucky">Unlucky object: anything that needs laminating by tomorrow.</p>
   <p><span class="tq-k">Your power move:</span> <span id="tq-power">the teachers decide which jobs the machines get. You voted to give them the marking and keep the carpet time.</span></p>
-  <p class="tq-predict"><span class="tq-k">🤖 The machine predicts:</span> <span id="tq-pred">by March 2030, the government's teacher survey will show average weekly working hours below 45 for the first time, crediting AI planning and marking.</span> <a id="tq-plink" href="{{ '/tuesday/p/a23/' | url }}">Mark the date. Hold us to it.</a></p>
+  <p class="tq-predict"><span class="tq-k"><img class="tq-icon" src="{{ '/tuesday/icons/machine.png' | url }}" alt="" width="160" height="160">The machine predicts:</span> <span id="tq-pred">by March 2030, the government's teacher survey will show average weekly working hours below 45 for the first time, crediting AI planning and marking.</span> <a id="tq-plink" href="{{ '/tuesday/p/a23/' | url }}">Mark the date. Hold us to it.</a></p>
 
   <div class="tq-actions" id="tq-actions" hidden>
     <button type="button" class="tq-button" id="tq-share">Share my card</button>
     <button type="button" class="tq-ghost" id="tq-full">Save full reading</button>
-    <button type="button" class="tq-ghost" id="tq-again">Roll again 🎲</button>
+    <button type="button" class="tq-ghost" id="tq-again">Roll again <img class="tq-icon tq-icon-btn" src="{{ '/tuesday/icons/wildcard.png' | url }}" alt="" width="160" height="160"></button>
     <button type="button" class="tq-ghost" id="tq-reset">Start over</button>
   </div>
   <p class="tq-small" id="tq-sharemsg" role="status" aria-live="polite"></p>
@@ -86,6 +86,8 @@ api: ""
 .tq-result.is-example { opacity: .72; }
 .tq-sign { font-size: 1.5rem; line-height: 1.2; text-wrap: balance; margin: 0 0 1rem; }
 .tq-k { font-family: var(--mono); font-size: .8125rem; letter-spacing: .02em; }
+.tq-icon { width: 1.9em; height: 1.9em; vertical-align: -.6em; margin-right: .3em; }
+.tq-icon-btn { width: 1.6em; height: 1.6em; vertical-align: -.5em; margin: 0 0 0 .2em; }
 .tq-kv { font-style: italic; }
 .tq-predict { border-left: 3px solid var(--link); padding-left: .9rem; margin-top: 1.5rem; }
 .tq-predict a { white-space: nowrap; }
@@ -107,6 +109,9 @@ api: ""
   var actions = document.getElementById("tq-actions");
   var again = document.getElementById("tq-again");
   var current = null, answers = null, rolls = 0, waitTimer = null, signImg = null;
+  var ICON = { machine: new Image(), wild: new Image() };
+  ICON.machine.src = "{{ '/tuesday/icons/machine.png' | url }}"; ICON.wild.src = "{{ '/tuesday/icons/wildcard.png' | url }}";
+  function icon(ctx, im, x, y, s) { if (im.complete && im.naturalWidth) ctx.drawImage(im, x, y, s, s); }
   var WAITS = ["Consulting the robots…", "Asking your future self…", "Rolling the wildcard…", "Checking it's fit to print…"];
 
   result.classList.add("is-example");
@@ -243,7 +248,8 @@ api: ""
     ctx.font = "38px " + serif; ctx.fillStyle = "#141a1a";
     r.lines.forEach(function (l) { y = wrap(ctx, l, L, y + 20, M, 52) + 8; });
     ctx.font = "30px " + mono; ctx.fillStyle = "#0b0f0f";
-    ctx.fillText("\uD83C\uDFB2 WILDCARD", L, y + 45);
+    icon(ctx, ICON.wild, L - 6, y - 8, 82);
+    ctx.fillText("WILDCARD", L + 86, y + 45);
     ctx.font = "38px " + serif;
     y = wrap(ctx, r.wildcard.line, L, y + 105, M, 52) + 10;
     ctx.font = "italic 34px " + serif; ctx.fillStyle = "#3a4444";
@@ -256,7 +262,8 @@ api: ""
     }
     var top = y + 20;
     ctx.font = "30px " + mono;
-    ctx.fillText("\uD83E\uDD16 THE MACHINE PREDICTS", L + 36, top + 50);
+    icon(ctx, ICON.machine, L + 28, top - 4, 84);
+    ctx.fillText("THE MACHINE PREDICTS", L + 120, top + 50);
     ctx.font = "42px " + serif;
     var end = wrap(ctx, r.prediction.text, L + 36, top + 112, M - 36, 56, 7);
     ctx.fillStyle = "#cc4b1f"; ctx.fillRect(L, top, 8, end - top);
