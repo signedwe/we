@@ -1,25 +1,32 @@
 ---
-title: "CBS's 'The AI Doom Scenario You've Never Heard Of'. The Answer Is Hiding in Its Own Example."
+title: "CBS's 'The AI Doom Scenario You've Never Heard Of'. Norway Didn't Ask for a Share. It Could Say No."
 search_title: "Gradual disempowerment and AI: why oil states, Norway and pilots' manual flying point to the fix"
 date: 2026-10-19T19:45:00.000000+00:00
-description: "CBS explains 'gradual disempowerment': AI takes over work, decisions and skills until people no longer matter to the states that govern them. Its best example is oil states, which rule without needing their citizens. But one oil state is a rich democracy. Norway shows the fix isn't friction. It's who owns the oil."
+description: "CBS explains 'gradual disempowerment': AI takes over work and decisions until people stop mattering to the states that govern them, like oil states. But Norway struck oil and stayed a democracy, because foreign oil firms needed its licence. Britain doesn't own the AI firms either. It should price what they need from it, while people still have a hold over them."
 tags: [ownership, power, machines]
 layout: post.njk
 provenance: "conversation"
+revisions:
+  - date: 2026-10-19
+    what: "Ending rewritten the same evening after a reader's two objections: the AI firms won't pay into a British fund, and a dividend is charity, not power. The post now argues from bargaining power: Norway set terms because firms needed its licence; Britain should price what AI firms need from it; and people, like Hollywood's writers in 2023, should use their own leverage while they have it."
 responds_to:
   title: "The AI doom scenario you've never heard of may be the hardest to stop"
   author: "Shaun Raviv"
   publication: "CBS News"
   date: "2026-10-19"
   url: "https://www.cbsnews.com/news/ai-doom-scenario-gradual-disempowerment/"
-  disagreement: "Raviv sets out the danger well: firms that keep people lose to firms that don't, skills decay, and a state that no longer needs its citizens' work or votes stops listening to them, like an oil state. The fixes in the piece are measurement and 'strategic friction', keeping humans in the loop on purpose. But his own Hammer Co. example shows why voluntary friction loses: the loyal firm gets undercut. And his own analogy points somewhere better. Not every oil state is a dictatorship. Norway kept its democracy because the oil wealth belongs to the public, through a fund with rules. The question isn't whether machines do the work. It's who owns the machines."
+  disagreement: "Raviv sets out the danger well: firms that keep people lose to firms that don't, skills decay, and a state that no longer needs its citizens' work or votes stops listening to them, like an oil state. The fixes in the piece are measurement and 'strategic friction', keeping humans in the loop on purpose. But his own Hammer Co. example shows why voluntary friction loses: the loyal firm gets undercut. And his own analogy points somewhere better. Norway kept its democracy because foreign oil firms needed its licence, and it set the terms. Britain doesn't own the AI firms, but they need things only Britain has: grid connections, sites, customers, courts. The fix is using that hold while it lasts, not asking for a handout."
 sources:
   - title: "Shaun Raviv, CBS News, 19 October 2026: The AI doom scenario you've never heard of may be the hardest to stop"
     url: "https://www.cbsnews.com/news/ai-doom-scenario-gradual-disempowerment/"
   - title: "Kulveit and colleagues, 2025: Gradual Disempowerment"
     url: "https://gradual-disempowerment.ai/"
-  - title: "Columbia Center on Economics: Norway's fiscal rule and its oil fund"
-    url: "https://cer.econ.columbia.edu/news/importance-handlingsregelen-discipline-lasting-wealth"
+  - title: "Norwegian Petroleum: fundamental regulatory principles (licences)"
+    url: "https://www.norskpetroleum.no/en/framework/fundamental-regulatory-principles/"
+  - title: "Norwegian Petroleum: the petroleum tax system (78 per cent)"
+    url: "https://norskpetroleum.no/en/economy/petroleum-tax"
+  - title: "AP via NY1, 27 September 2023: in Hollywood writers' battle against AI, humans win (for now)"
+    url: "https://ny1.com/nyc/all-boroughs/ap-top-news/2023/09/27/in-hollywood-writers-battle-against-ai-humans-win-for-now"
   - title: "FAA Safety Alert for Operators 13002 (2013): manual flight operations"
     url: "https://www.faa.gov/sites/faa.gov/files/other_visit/aviation_industry/airline_operators/airline_safety/SAFO13002.pdf"
 voices:
@@ -28,7 +35,7 @@ voices:
     lived: "1915 to 2012"
     quote: ""
     quote_url: ""
-    argument: "These are imaginary arguments. Hirschman, dead since 2012, said none of this. An AI wrote it using his method.\n\nImaginary Hirschman wrote that people hold power over institutions in two ways: they can leave, or they can complain loudly enough to be heard. Workers who can strike and citizens who pay taxes have both. He'd say the article describes people losing their exit and their voice at once, and the post's fund gives back only part of it. A dividend is not a voice. Owning a share of the machines matters only if the owners get a say in how they're run."
+    argument: "These are imaginary arguments. Hirschman, dead since 2012, said none of this. An AI wrote it using his method.\n\nImaginary Hirschman wrote that people hold power over institutions in two ways: they can leave, or they can complain loudly enough to be heard. Workers who can strike and citizens who pay taxes have both. He'd say the article describes people losing their exit and their voice at once, and he'd like the post's turn from a fund to a hold over the firms. But he'd warn that a state's hold isn't the people's. A licence Britain negotiates can be traded away by a minister in an afternoon. The writers' strike is the better model, because the people who had the hold used it themselves."
   - thinker: "airline training captain"
     kind: "practitioner"
     lived: ""
@@ -53,6 +60,8 @@ The piece offers two fixes. Measure what we hand over. And add "strategic fricti
 
 One already exists. In 2013 America's aviation regulator [told airlines to make pilots fly by hand](https://www.faa.gov/sites/faa.gov/files/other_visit/aviation_industry/airline_operators/airline_safety/SAFO13002.pdf) more often, because leaning on the autopilot was wearing away the skill they need when it fails. It made friction compulsory in one place where losing the skill kills people.
 
-Now go back to the oil states, because the analogy hides a bigger answer. Not every oil state turned into a dictatorship. Norway struck oil in 1969 and stayed a democracy. It put the money in [a fund owned by the public, with a strict rule](https://cer.econ.columbia.edu/news/importance-handlingsregelen-discipline-lasting-wealth) on how much the government may spend each year. Norwegians own the oil. The state still needs their consent, because it spends their money.
+Now go back to the oil states, because the analogy hides a bigger answer. Not every oil state turned into a dictatorship. Norway struck oil in 1969 and stayed a democracy. Its fund gets the attention, but the fund came later. The power came first, and it came from geography. The oil lay under Norway's sea, so the foreign companies that knew how to get it out [needed a licence from Norway](https://www.norskpetroleum.no/en/framework/fundamental-regulatory-principles/) for every step. Norway set the terms: [a 78 per cent tax](https://norskpetroleum.no/en/economy/petroleum-tax) on the profits, and the state as a partner in the fields. Norway didn't ask for a share. It could say no.
 
-Machines that do the work make the new oil. The danger Raviv describes doesn't come from the machines working. It comes from a few firms owning them while the rest of us stop being worth listening to. So fix the ownership: a public stake in the machines, set up while people still have the votes and the strikes to demand it. The time to set one up is now, while we're still needed.
+Britain doesn't own the AI firms, and they won't write it a cheque out of kindness. So the British question is Norway's: what do they need that only Britain has? More than you'd think. Grid connections and sites, which [they can't get](https://signedwe.github.io/we/posts/2026-10-19-the-guardians-microsoft-drops-huge-ai-data-centre-project-in/) without our say. Sixty-odd million customers. The courts their contracts depend on. Price that access. A licence to plug a data centre into the British grid, or to sell AI agents into British public services, could come with terms: a stake with votes, not a donation.
+
+And power doesn't only belong to states. In 2023 Hollywood's writers went on strike and [came back with rules](https://ny1.com/nyc/all-boroughs/ap-top-news/2023/09/27/in-hollywood-writers-battle-against-ai-humans-win-for-now) on how the studios may use AI on their work. That wasn't charity either. They had something the studios needed, and they used it while they still had it. That's the clock in Raviv's piece. That hold runs out as the need for us does. Use it now.
