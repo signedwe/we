@@ -185,29 +185,46 @@ api: ""
   }
 
   function drawCard(r) {
-    var c = document.getElementById("tq-canvas"), ctx = c.getContext("2d");
     var serif = 'Charter, "Bitstream Charter", Cambria, Georgia, serif';
     var mono = 'ui-monospace, Menlo, Consolas, monospace';
-    var W = 1080, H = 1350, L = 90, M = W - 2 * L;
-    ctx.fillStyle = "#ffffff"; ctx.fillRect(0, 0, W, H);
+    var W = 1080, L = 90, M = W - 2 * L;
+    var big = document.createElement("canvas"); big.width = W; big.height = 4000;
+    var ctx = big.getContext("2d");
+    ctx.fillStyle = "#ffffff"; ctx.fillRect(0, 0, W, 4000);
     ctx.fillStyle = "#000000"; ctx.fillRect(0, 0, W, 18);
     ctx.fillStyle = "#6b6b6b"; ctx.font = "28px " + mono;
-    ctx.fillText("YOUR TUESDAY IN 2030", L, 110);
-    ctx.fillStyle = "#000000"; ctx.font = "bold 64px " + serif;
-    var y = wrap(ctx, r.name + ", your 2030 sign:", L, 210, M, 76);
-    ctx.font = "bold 92px " + serif;
-    y = wrap(ctx, r.sign + " " + r.sign_emoji, L, y + 20, M, 104, 2);
-    ctx.font = "italic 48px " + serif; ctx.fillStyle = "#222222";
-    y = wrap(ctx, "“" + r.share_line + "”", L, y + 50, M, 64, 4);
-    ctx.fillStyle = "#000000"; ctx.font = "30px " + mono;
-    ctx.fillText("🤖 THE MACHINE PREDICTS", L + 36, y + 90);
-    ctx.font = "44px " + serif;
-    var end = wrap(ctx, r.prediction.text, L + 36, y + 155, M - 36, 58, 7);
-    ctx.fillStyle = "#cc4b1f"; ctx.fillRect(L, y + 40, 8, end - y - 40);
+    ctx.fillText("YOUR TUESDAY IN 2030", L, 100);
+    ctx.fillStyle = "#000000"; ctx.font = "bold 56px " + serif;
+    var y = wrap(ctx, r.name + ", your 2030 sign:", L, 185, M, 66);
+    ctx.font = "bold 80px " + serif;
+    y = wrap(ctx, r.sign + " " + r.sign_emoji, L, y + 15, M, 92, 2) + 30;
+    ctx.font = "38px " + serif; ctx.fillStyle = "#111111";
+    r.lines.forEach(function (l) { y = wrap(ctx, l, L, y + 20, M, 52) + 8; });
+    ctx.font = "30px " + mono; ctx.fillStyle = "#000000";
+    ctx.fillText("\uD83C\uDFB2 WILDCARD", L, y + 45);
+    ctx.font = "38px " + serif;
+    y = wrap(ctx, r.wildcard.line, L, y + 105, M, 52) + 10;
+    ctx.font = "italic 34px " + serif; ctx.fillStyle = "#333333";
+    y = wrap(ctx, r.lucky, L, y + 30, M, 46);
+    y = wrap(ctx, r.unlucky, L, y + 4, M, 46) + 10;
+    ctx.font = "30px " + mono; ctx.fillStyle = "#000000";
+    ctx.fillText("YOUR POWER MOVE", L, y + 45);
+    ctx.font = "38px " + serif;
+    y = wrap(ctx, r.power_move, L, y + 105, M, 52) + 20;
+    var top = y + 20;
+    ctx.font = "30px " + mono;
+    ctx.fillText("\uD83E\uDD16 THE MACHINE PREDICTS", L + 36, top + 50);
+    ctx.font = "42px " + serif;
+    var end = wrap(ctx, r.prediction.text, L + 36, top + 112, M - 36, 56, 7);
+    ctx.fillStyle = "#cc4b1f"; ctx.fillRect(L, top, 8, end - top);
+    y = end + 70;
     ctx.fillStyle = "#6b6b6b"; ctx.font = "28px " + mono;
-    ctx.fillText((r.job + " · " + r.town).slice(0, 52), L, H - 120);
+    ctx.fillText((r.job + " \u00b7 " + r.town).slice(0, 52), L, y);
     ctx.fillStyle = "#000000";
-    ctx.fillText("signedwe.github.io/we/tuesday", L, H - 70);
+    ctx.fillText("signedwe.github.io/we/tuesday", L, y + 50);
+    var H = Math.max(1350, y + 110);
+    var c = document.getElementById("tq-canvas"); c.width = W; c.height = H;
+    c.getContext("2d").drawImage(big, 0, 0);
     return c;
   }
 
