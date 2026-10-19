@@ -255,8 +255,11 @@ api: ""
     y = full ? end + 70 : Math.max(end + 70, 1350 - 170);
     ctx.fillStyle = "#56605f"; ctx.font = "28px " + mono;
     ctx.fillText((r.job + " \u00b7 " + r.town).slice(0, 52), L, y);
-    ctx.fillStyle = "#0b0f0f"; ctx.font = "bold 46px " + serif;
-    ctx.fillText("signed by WE", L, y + 72);
+    ctx.fillStyle = "#56605f"; ctx.font = "30px " + mono;
+    ctx.fillText("signed by", L, y + 72);
+    var sx = L + ctx.measureText("signed by ").width + 6;
+    ctx.fillStyle = "#cc4b1f"; ctx.font = "bold 46px " + mono;
+    ctx.fillText("W", sx, y + 74); ctx.fillText("E", sx + ctx.measureText("W").width + 14, y + 74);
     ctx.fillStyle = "#56605f"; ctx.font = "26px " + mono;
     ctx.fillText("signedwe.github.io/we/tuesday", L, y + 116);
     var H = full ? Math.max(1350, y + 170) : 1350;
