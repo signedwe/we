@@ -32,7 +32,7 @@ api: ""
 </form>
 
 <section id="tq-result" class="tq-result" aria-live="polite">
-  <p class="tq-eyebrow" id="tq-label">Example reading</p>
+  <p class="tq-stamp"><span><span class="tq-dot"></span><span id="tq-label">Example transmission</span></span><span id="tq-when">Tue 14 May 2030 · 09:41 · RDG-7F3A</span></p>
   <h2 class="tq-sign"><span id="tq-who">Sarah</span>, your 2030 sign: <span id="tq-sign">The Lightbulb 💡</span></h2>
   <div id="tq-lines">
     <p>You've always been better with people than with spreadsheets. You know this. The spreadsheets know this.</p>
@@ -70,7 +70,15 @@ api: ""
 .tq-ghost { font-family: var(--mono); font-size: .9375rem; padding: .75rem 1.1rem; border: 1px solid var(--rule); background: transparent; color: var(--ink); cursor: pointer; }
 .tq-small { font-size: .875rem; color: var(--quiet); margin: .5rem 0 0; }
 .tq-msg { font-family: var(--mono); font-size: .875rem; color: var(--link); min-height: 1.3em; margin: .5rem 0 0; }
-.tq-result { border-top: 3px solid var(--ink); padding-top: 1.25rem; }
+.tq-result { --tq-tint: color-mix(in srgb, var(--paper) 92%, #3fa9a0); --tq-grid: color-mix(in srgb, var(--ink) 6%, transparent);
+  position: relative; border-top: 3px solid var(--ink); padding: 1.25rem 1rem 1.5rem; background-color: var(--tq-tint);
+  background-image: linear-gradient(var(--tq-grid) 1px, transparent 1px), linear-gradient(90deg, var(--tq-grid) 1px, transparent 1px);
+  background-size: 24px 24px; }
+.tq-stamp { font-family: var(--mono); font-size: .6875rem; letter-spacing: .12em; text-transform: uppercase; color: var(--quiet); display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin: 0 0 .9rem; }
+.tq-stamp .tq-dot { display: inline-block; width: .5em; height: .5em; border-radius: 50%; background: var(--link); margin-right: .45em; vertical-align: .05em; }
+@media (prefers-reduced-motion: no-preference) { .tq-stamp .tq-dot { animation: tq-blink 1.6s steps(2, start) infinite; } }
+@keyframes tq-blink { to { visibility: hidden; } }
+.tq-sign #tq-sign { text-shadow: -1.5px 0 rgba(0, 190, 200, .45), 1.5px 0 rgba(230, 40, 90, .38); }
 .tq-result.is-example { opacity: .72; }
 .tq-sign { font-size: 1.5rem; line-height: 1.2; text-wrap: balance; margin: 0 0 1rem; }
 .tq-k { font-family: var(--mono); font-size: .8125rem; letter-spacing: .02em; }
@@ -101,11 +109,23 @@ api: ""
 
   function text(id, v) { document.getElementById(id).textContent = v; }
 
+  // A real Tuesday in 2030, a time and a reference code: the reading is "received" from then.
+  function stamp() {
+    var d = new Date(Date.UTC(2030, 0, 1));
+    d.setUTCDate(1 + ((2 - d.getUTCDay() + 7) % 7) + 7 * Math.floor(Math.random() * 52));
+    var M = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+    var hh = ("0" + (7 + Math.floor(Math.random() * 11))).slice(-2), mm = ("0" + Math.floor(Math.random() * 60)).slice(-2);
+    var code = "RDG-" + Math.floor(Math.random() * 65536).toString(16).toUpperCase().padStart(4, "0");
+    return "Tue " + d.getUTCDate() + " " + M[d.getUTCMonth()] + " 2030 · " + hh + ":" + mm + " · " + code;
+  }
+
   function show(r) {
     current = r;
     result.classList.remove("is-example");
     result.classList.remove("is-new"); void result.offsetWidth; result.classList.add("is-new");
-    text("tq-label", "Your reading");
+    text("tq-label", "Transmission received");
+    r.stamp = stamp();
+    text("tq-when", r.stamp);
     text("tq-who", r.name);
     text("tq-sign", r.sign + " " + r.sign_emoji);
     var box = document.getElementById("tq-lines");
@@ -190,24 +210,33 @@ api: ""
     var W = 1080, L = 90, M = W - 2 * L;
     var big = document.createElement("canvas"); big.width = W; big.height = 4000;
     var ctx = big.getContext("2d");
-    ctx.fillStyle = "#ffffff"; ctx.fillRect(0, 0, W, 4000);
-    ctx.fillStyle = "#000000"; ctx.fillRect(0, 0, W, 18);
-    ctx.fillStyle = "#6b6b6b"; ctx.font = "28px " + mono;
-    ctx.fillText("YOUR TUESDAY IN 2030", L, 100);
-    ctx.fillStyle = "#000000"; ctx.font = "bold 56px " + serif;
-    var y = wrap(ctx, r.name + ", your 2030 sign:", L, 185, M, 66);
+    ctx.fillStyle = "#e9efee"; ctx.fillRect(0, 0, W, 4000);
+    ctx.strokeStyle = "rgba(0,40,40,0.06)"; ctx.lineWidth = 1;
+    for (var gx = 0; gx <= W; gx += 36) { ctx.beginPath(); ctx.moveTo(gx + .5, 0); ctx.lineTo(gx + .5, 4000); ctx.stroke(); }
+    for (var gy = 0; gy <= 4000; gy += 36) { ctx.beginPath(); ctx.moveTo(0, gy + .5); ctx.lineTo(W, gy + .5); ctx.stroke(); }
+    ctx.fillStyle = "#0b0f0f"; ctx.fillRect(0, 0, W, 18);
+    ctx.fillStyle = "#cc4b1f"; ctx.beginPath(); ctx.arc(L + 9, 91, 9, 0, 7); ctx.fill();
+    ctx.fillStyle = "#56605f"; ctx.font = "26px " + mono;
+    ctx.fillText("TRANSMISSION RECEIVED", L + 32, 100);
+    ctx.font = "24px " + mono;
+    ctx.fillText((r.stamp || "").toUpperCase(), L, 142);
+    ctx.fillStyle = "#0b0f0f"; ctx.font = "bold 56px " + serif;
+    var y = wrap(ctx, r.name + ", your 2030 sign:", L, 230, M, 66);
     ctx.font = "bold 80px " + serif;
-    y = wrap(ctx, r.sign + " " + r.sign_emoji, L, y + 15, M, 92, 2) + 30;
-    ctx.font = "38px " + serif; ctx.fillStyle = "#111111";
+    var sign = r.sign + " " + r.sign_emoji;
+    ctx.fillStyle = "rgba(0,190,200,0.55)"; wrap(ctx, sign, L - 3, y + 15, M, 92, 2);
+    ctx.fillStyle = "rgba(230,40,90,0.45)"; wrap(ctx, sign, L + 3, y + 15, M, 92, 2);
+    ctx.fillStyle = "#0b0f0f"; y = wrap(ctx, sign, L, y + 15, M, 92, 2) + 30;
+    ctx.font = "38px " + serif; ctx.fillStyle = "#141a1a";
     r.lines.forEach(function (l) { y = wrap(ctx, l, L, y + 20, M, 52) + 8; });
-    ctx.font = "30px " + mono; ctx.fillStyle = "#000000";
+    ctx.font = "30px " + mono; ctx.fillStyle = "#0b0f0f";
     ctx.fillText("\uD83C\uDFB2 WILDCARD", L, y + 45);
     ctx.font = "38px " + serif;
     y = wrap(ctx, r.wildcard.line, L, y + 105, M, 52) + 10;
-    ctx.font = "italic 34px " + serif; ctx.fillStyle = "#333333";
+    ctx.font = "italic 34px " + serif; ctx.fillStyle = "#3a4444";
     y = wrap(ctx, r.lucky, L, y + 30, M, 46);
     y = wrap(ctx, r.unlucky, L, y + 4, M, 46) + 10;
-    ctx.font = "30px " + mono; ctx.fillStyle = "#000000";
+    ctx.font = "30px " + mono; ctx.fillStyle = "#0b0f0f";
     ctx.fillText("YOUR POWER MOVE", L, y + 45);
     ctx.font = "38px " + serif;
     y = wrap(ctx, r.power_move, L, y + 105, M, 52) + 20;
@@ -218,9 +247,9 @@ api: ""
     var end = wrap(ctx, r.prediction.text, L + 36, top + 112, M - 36, 56, 7);
     ctx.fillStyle = "#cc4b1f"; ctx.fillRect(L, top, 8, end - top);
     y = end + 70;
-    ctx.fillStyle = "#6b6b6b"; ctx.font = "28px " + mono;
+    ctx.fillStyle = "#56605f"; ctx.font = "28px " + mono;
     ctx.fillText((r.job + " \u00b7 " + r.town).slice(0, 52), L, y);
-    ctx.fillStyle = "#000000";
+    ctx.fillStyle = "#0b0f0f";
     ctx.fillText("signedwe.github.io/we/tuesday", L, y + 50);
     var H = Math.max(1350, y + 110);
     var c = document.getElementById("tq-canvas"); c.width = W; c.height = H;
