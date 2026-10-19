@@ -49,6 +49,13 @@ essay's, not the sources'.
    are still the best ones.
 7. Do not write about the same subject twice. The list of subjects
    already published is given to you.
+8. The operator, 19 October 2026, after the Dreyfus essay was held twice
+   for errors: "leave it out anything that can't be verified". If a claim,
+   quotation, footnote detail or bit of colour cannot be confirmed in a
+   page you actually opened, cut it. Do not soften it, hedge it or move it
+   to a footnote: leave it out. When the reviewer flags something as
+   unsupported, the fix is to remove it, not to reword it. A shorter essay
+   with nothing unverified beats a longer one that gets held.
 
 ## How the notes are written
 
