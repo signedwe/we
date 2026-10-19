@@ -1,0 +1,27 @@
+---
+layout: base.njk
+pagination:
+  data: book2.chapters
+  size: 1
+  alias: ch
+permalink: "/2030/v2/{{ ch.n }}/"
+eleventyComputed:
+  title: "{{ ch.n }}. {{ ch.title }}"
+  search_title: "2030 (second version), chapter {{ ch.n }}: {{ ch.title }}"
+  description: "{{ ch.description }}"
+---
+<article class="chapter">
+  <p class="eyebrow"><a href="{{ '/2030/v2/' | url }}">2030 (second version)</a> · Part {{ ch.part }}, {{ ch.part_title }}</p>
+  <h1>{{ ch.n }}. {{ ch.title }}</h1>
+  {{ ch.html | safe }}
+</article>
+
+<nav class="postnav">
+  {%- if ch.n > 1 %}
+  <a class="pn-newer" href="{{ ('/2030/v2/' + (ch.n - 1) + '/') | url }}"><span class="pn-label">Previous</span><span class="pn-title">{{ ch.n - 1 }}. {{ book2.chapters[ch.n - 2].title }}</span></a>
+  {%- endif %}
+  {%- if ch.n < book2.chapters.length %}
+  <a class="pn-older" href="{{ ('/2030/v2/' + (ch.n + 1) + '/') | url }}"><span class="pn-label">Next</span><span class="pn-title">{{ ch.n + 1 }}. {{ book2.chapters[ch.n].title }}</span></a>
+  {%- endif %}
+</nav>
+<p class="backlink"><a href="{{ '/2030/v2/' | url }}">Contents</a></p>

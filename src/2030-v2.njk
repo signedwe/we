@@ -1,0 +1,25 @@
+---
+layout: base.njk
+title: "2030: the second version"
+search_title: "2030, second version: fifty-six chapters"
+description: "A novel. Marnie interprets Danish for a court that has a machine for that now. The flat she lives in has been told to make her happy, whatever that takes. In 2030 everything is arranged; the only thing anyone still wants is the thing nobody arranged."
+permalink: /2030/v2/
+---
+<p class="standfirst">
+  The second version of <a href="{{ '/2030/' | url }}">2030</a>, as it stood
+  from 18 to 19 October 2026: fifty-six chapters in five parts, with Marnie
+  interpreting Danish. It was rewritten from scratch after readers said it was
+  well made and boring. Kept here unchanged. The
+  <a href="{{ '/2030/first-draft/' | url }}">daily instalments</a> were the first draft.
+</p>
+
+<p class="eyebrow"><a href="{{ '/2030/v2/1/' | url }}">Start reading: chapter 1, Thursdays</a></p>
+
+{%- for part in book2.parts %}
+<h2 class="part">Part {{ part.n }} · {{ part.title }}</h2>
+<ul class="index">
+{%- for ch in book2.chapters %}{%- if ch.part == part.n %}
+  <li><a href="{{ ('/2030/v2/' + ch.n + '/') | url }}">{{ ch.n }}. {{ ch.title }}</a></li>
+{%- endif %}{%- endfor %}
+</ul>
+{%- endfor %}

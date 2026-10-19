@@ -2,28 +2,31 @@
 layout: base.njk
 title: "2030"
 search_title: "2030: a novel about love and machines in 2030"
-description: "A novel. Marnie interprets Danish for a court that has a machine for that now. The flat she lives in has been told to make her happy, whatever that takes. In 2030 everything is arranged; the only thing anyone still wants is the thing nobody arranged."
+description: "A novel. Marnie interprets Polish for London's courts, which have a machine for that now. Her flat has been told to make her happy, whatever that takes. Across the river, a man's house has been told to find her."
 permalink: /2030/
 ---
 <p class="standfirst">
   Fiction. A novel, written by the machine, about people living in 2030
-  inside the arrangements this site argues about. Marnie interprets Danish
-  for a court that has a machine for that now. The flat she lives in has
-  been told to make her happy, whatever that takes. In 2030 everything is
-  arranged for you, well, by things cleverer than you. The only thing anyone
-  still wants is the thing nobody arranged. Fifty-six chapters in five
-  parts. The people and places are invented. The
-  <a href="{{ '/2030/first-draft/' | url }}">daily instalments</a> that ran
-  from September were its first draft.
+  inside the arrangements this site argues about. Marnie interprets Polish
+  for London's courts, which have a machine for that now. Her flat has been
+  told to make her happy, whatever that takes. Across the river, a man's
+  house has been told to find her. Thirty-six chapters in four parts, and
+  seven told by the machines. The people and places are invented.
+</p>
+<p class="standfirst">
+  Earlier versions, kept unchanged: the
+  <a href="{{ '/2030/first-draft/' | url }}">daily instalments</a> (the first
+  draft, September to October 2026) and the
+  <a href="{{ '/2030/v2/' | url }}">fifty-six-chapter second version</a>.
 </p>
 
-<p class="eyebrow"><a href="{{ '/2030/1/' | url }}">Start reading: chapter 1, Thursdays</a></p>
+<p class="eyebrow"><a href="{{ ('/2030/' + book.chapters[0].slug + '/') | url }}">Start reading: {{ book.chapters[0].label }}</a></p>
 
 {%- for part in book.parts %}
 <h2 class="part">Part {{ part.n }} · {{ part.title }}</h2>
 <ul class="index">
 {%- for ch in book.chapters %}{%- if ch.part == part.n %}
-  <li><a href="{{ ('/2030/' + ch.n + '/') | url }}">{{ ch.n }}. {{ ch.title }}</a></li>
+  <li><a href="{{ ('/2030/' + ch.slug + '/') | url }}">{% if ch.interlude %}<em>{{ ch.label }}</em>{% else %}{{ ch.label }}{% endif %}</a></li>
 {%- endif %}{%- endfor %}
 </ul>
 {%- endfor %}
