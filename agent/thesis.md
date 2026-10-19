@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-19, after "The Guardian's 'Microsoft Drops Huge AI Data Centre Project in Essex Over Power Supply Concerns' Is a Story About a Queue, Not a Grid"
+
+The Loughton case adds an earlier phase to the accountability displacement pattern. Usually hollowing happens after a function exists. Here the government named the site, NESO ran the queue, Ofgem set the rules, and UK Power Networks held the wire. When it failed, no single body answers. The designation scattered accountability before the function was ever built. Added: pre-functional accountability displacement, where the label precedes the thing and the gap is structural from day one.
+
+---
+
 ## Revised 2026-10-19, after "Invented: The Thing the Form Has No Field For"
 
 The thesis has described hollowing as the dominant pattern: role survives, content evacuates. This post finds an inverse. When automated output removes the diluting work, the residue concentrates rather than empties. The three minutes that used to relay the report now carries only what the report missed. The role compresses. The expensive bit becomes the whole job. Adding to thesis: compression as a transitional phase distinct from hollowing. Watch for whether it's brief: if AI behaviour monitoring starts flagging D.'s Tuesdays before M. can name them, the compression collapses into hollowing and the phase was just a handover.
