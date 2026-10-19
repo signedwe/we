@@ -1,6 +1,9 @@
 ---
 title: "John Reynolds's 'UK to Ease Non-Compete Clauses'. The Secret Isn't in Their Head Anymore."
 date: 2026-10-16T08:25:09.186730+00:00
+revisions:
+  - date: 2026-10-19
+    what: "Removed a calculation that multiplied figures about two different groups (all workers under non-competes, and scale-up leaders), with a correction at the end."
 layout: post.njk
 tags: [rules, work, power]
 description: "Burnham's non-compete ban diagnoses the wrong problem. The secret moved from skulls to servers. Five million contracts still point at the old address."
@@ -72,7 +75,7 @@ By the end of 2027, a startup founder will win a case where a non-compete is rul
 
 [PM Burnham told the Innovation Nation Summit in Manchester](https://tech.eu/2026/10/09/uk-o-ban-non-compete-clauses-marking-boon-for-startup-and-scaleups/) that non-competes "will no longer be a barrier to hiring for our most promising start-ups and scaling firms." He called it the Bosman ruling for the innovation sector. He's right about the problem and wrong about what caused it.
 
-The lobby — ElevenLabs, Synthesia, the Startup Coalition — points out that [about 5 million UK workers sit under non-compete contracts](https://tradersunion.com/news/financial-news/show/3731908-uk-tightens-non-compete-tech-finance/), and [87% of scale-up leaders say the clauses block hiring](https://tradersunion.com/news/financial-news/show/3731908-uk-tightens-non-compete-tech-finance/). Here's the number nobody published: 5 million multiplied by 87% is 4.35 million workers covered by a clause aimed at knowledge-in-skulls, in a sector where the most valuable IP now lives in weights-on-servers. Neither figure is interesting alone. Together they measure a mismatch.
+The lobby — ElevenLabs, Synthesia, the Startup Coalition — points out that [about 5 million UK workers sit under non-compete contracts](https://tradersunion.com/news/financial-news/show/3731908-uk-tightens-non-compete-tech-finance/), and [87% of scale-up leaders say the clauses block hiring](https://tradersunion.com/news/financial-news/show/3731908-uk-tightens-non-compete-tech-finance/).
 
 The fairest objection: some AI knowledge still travels with the person. [Researchers departing Google DeepMind's London office have faced non-competes when launching rival AI startups](https://streamlinefeed.co.ke/news/uk-tech-founders-urge-burnham-to-curb-non-competes-to-match-us-rivals/), and what they carry isn't lab notes — it's instinct about what's worth trying next. That's real. A blanket attack on non-competes doesn't resolve this; it removes the tool and leaves the problem.
 
@@ -83,3 +86,5 @@ Burnham's fix treats this as a competition problem. It's an IP problem with a ne
 The Bosman ruling freed footballers because the ball was theirs to kick wherever they chose. In AI, the ball is a two-hundred-billion-parameter model sitting on somebody else's servers. Nobody kicks it out the door when they quit.
 
 The researcher has good instincts. The clause was written for a different kind of secret.
+
+**Correction, 19 October 2026.** This post first multiplied the 5 million workers under non-competes by the 87% of scale-up leaders who say the clauses block hiring, and called the result 4.35 million workers. Those figures describe two different groups, so the sum meant nothing. It has been removed. The argument doesn't rest on it.

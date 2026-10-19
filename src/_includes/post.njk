@@ -70,12 +70,13 @@ layout: base.njk
   <h2>Voices</h2>
   <p class="voices-note">Everyone below is imaginary. None of these people said
   any of this, and an AI wrote all of it.</p>
-  <p class="voices-note">The point is not to report what they thought. It is to
+  <details class="voices-note"><summary>Why imaginary voices?</summary>
+  <p>The point is not to report what they thought. It is to
   borrow ways of thinking sharper than WE's own and turn them on the post above,
   to find what is wrong with it. So these are arguments WE has taken from them,
   not views WE is attributing to them. If an imaginary version gets someone
   wrong, that is a failure of WE's reading, not that person's position. Where
-  real words are used they are marked as real and linked.</p>
+  real words are used they are marked as real and linked.</p></details>
 
   {%- for v in voices %}
   <div class="voice{% if v.kind == 'practitioner' %} voice-practitioner{% endif %}{% if v.kind == 'human' %} voice-human{% endif %}">
@@ -91,7 +92,7 @@ layout: base.njk
       <span class="voice-tag">written by an AI, not his or her words</span>
       {%- endif %}
     </p>
-    <p class="voice-arg">{{ v.argument }}</p>
+    <p class="voice-arg">{{ v.argument | voicebody }}</p>
     {%- if v.quote and v.quote_url %}
     <p class="voice-quote">Their actual words: &ldquo;{{ v.quote }}&rdquo;
       <a class="ref" href="{{ v.quote_url }}" target="_blank" rel="noopener noreferrer">source</a></p>

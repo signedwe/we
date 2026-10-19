@@ -33,6 +33,10 @@ module.exports = function (eleventyConfig) {
     })
   );
   eleventyConfig.addFilter("iso", (d) => new Date(d).toISOString());
+  // The page already labels every voice as imaginary; drop the repeated
+  // disclaimer paragraph a voice's text may start with (19 Oct 2026).
+  eleventyConfig.addFilter("voicebody", (s) =>
+    String(s || "").replace(/^(These are imaginary arguments\.[^\n]*|An imaginary [^\n]*speaks here\.[^\n]*)\n+/, "").trim());
   // The social card for a page: /posts/x/ -> cards/posts-x.png (scripts/cards.py uses the same rule).
   eleventyConfig.addFilter("cardname", (u) => (u || "").replace(/^\/+|\/+$/g, "").replace(/\//g, "-") || "home");
 

@@ -548,7 +548,7 @@ def weak_opening(body: str) -> str:
         return ""
     if THROAT_CLEARING.match(first):
         return first
-    if len(first.split()) > 25:
+    if len(first.split()) > 40:
         return first
     return ""
 
@@ -839,10 +839,16 @@ def check_derived_number(derived, body: str, returned_urls: set) -> list:
     thought available and almost nobody bothers. It also cannot be done by
     reading. You have to stop and work something out.
     """
-    if not isinstance(derived, dict):
-        return ["No derived number. Every post works out one figure that "
-                "appears in none of the sources, from figures that do. Two "
-                "published numbers next to each other is the whole trick."]
+    # Optional since 19 October 2026: an outside reader found the compulsory
+    # sum manufacturing insight (five million workers times a percentage of
+    # scale-up leaders: two different populations). Use one only when two
+    # published figures genuinely combine.
+    if not isinstance(derived, dict) or not str(derived.get("figure") or "").strip():
+        return []
+    if not str(derived.get("same_thing") or "").strip():
+        return ["Say in `same_thing` why the figures you combined describe the "
+                "same people or the same thing. If they don't, the sum is "
+                "invented; drop the derived number."]
 
     figure = str(derived.get("figure") or "").strip()
     working = str(derived.get("working") or "").strip()
@@ -1376,7 +1382,7 @@ def professions_mentioned(body: str) -> list:
 def check_practitioner(body: str, voices: list) -> list:
     """If the post leans on a job, somebody who does it gets a reply."""
     jobs = professions_mentioned(body)
-    if not jobs:
+    if not jobs or not voices:  # voices are optional since 19 Oct 2026
         return []
     if any(v.get("kind") == "practitioner" for v in voices):
         return []
@@ -1745,12 +1751,11 @@ def check_post(body: str, previous: list = None) -> list:
     if slow:
         words = len(slow.split())
         why = ("It runs to %d words, which is an argument rather than an "
-               "assertion." % words) if words > 25 else (
+               "assertion." % words) if words > 40 else (
                "It sets a scene instead of claiming something.")
         failures.append(
-            f'Weak opening: "{slow}" {why} Open on a short, surprising claim '
-            "a reader could argue with. If nobody could say no it isn't, it "
-            "is an introduction, and nobody reads those."
+            f'Weak opening: "{slow}" {why} Start with the thing itself: a '
+            "claim, a scene, a person, a discovery. Not an introduction."
         )
 
     opener = opens_on_a_statistic(body)
@@ -2397,7 +2402,7 @@ def critic_failures(verdict: dict, form: str = "response") -> list:
                 "trick can't. Find a new way in."
             )
 
-    if verdict.get("no_image"):
+    if False and verdict.get("no_image"):  # optional since 19 Oct 2026
         failures.append(
             "The critic can't see anything in it: "
             f"{verdict.get('no_image_because') or '(no reason given)'} "
@@ -2425,7 +2430,7 @@ def critic_failures(verdict: dict, form: str = "response") -> list:
             "their own question, adapt to them, or build something for them."
         )
 
-    if verdict.get("no_joke"):
+    if False and verdict.get("no_joke"):  # optional since 19 Oct 2026
         failures.append(
             "The critic didn't smile once. One line. Not a gag, a line that "
             "sees the ridiculous thing and says so. If the subject has "
@@ -3777,14 +3782,16 @@ from memory, and don't guess at one that looks right.
   why this week. If you cannot, do not write it.
 - Contains one thing a reader could not have got from a search. If you
   can't say in a sentence what is new in it, start again.
-- Works out one number that is in none of your sources, shows the sum,
-  and puts the answer in the post.
+- If it works out a number of its own, the figures describe the same
+  people or thing, and the sum is shown. Not compulsory.
 - Ran one search whose only purpose was to prove the argument wrong, and
   says what came back.
-- Opens on a short surprising claim somebody could argue with, and the
-  post earns it.
-- Has one sentence under five words, one real image, and one line that
-  risks being funny.
+- Starts with the thing itself: a claim, a scene, a person or a
+  discovery, whichever the material wants.
+- Has not reached for a device because the brief once listed it: a
+  short sentence, a joke, an image, a reversal, a clever last line, a
+  historical parallel, a recommendation. Use them when they are true to
+  the piece, never as furniture.
 - Fewer than half the sentences run on is, are, was or were. Somebody
   does something to something.
 - Announces nothing. No "here is what happened", no "the interesting
@@ -3856,7 +3863,8 @@ JSON, in one piece, no preamble, no markdown fences:
   "bet_already_happened": {{"searched": "the query you ran to find out whether your prediction has already come true",
                            "answer": "yes or no"}},
   "verdicts": [{{"id": "the id of a bet that has come due", "verdict": "right, wrong or too early", "note": "one line on what actually happened"}}],
-  "derived_number": {{"figure": "one number that appears in none of your sources, worked out from ones that do",
+  "derived_number": {{"figure": "optional: leave empty unless two published figures genuinely combine into one that appears in neither. Never multiply figures about different populations",
+                      "same_thing": "why the figures describe the same people or the same thing",
                      "working": "the arithmetic, shown, from which published figures",
                      "sources": ["the urls the input numbers came from"]}},
   "stakes": {{"who": "the kind of person this happens to, in a describable situation. not society, not the industry",
