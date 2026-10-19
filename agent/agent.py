@@ -2696,11 +2696,15 @@ HOW_TO_DISCLAIMER = (
 
 # The response days still have to look different from each other. A shape
 # is the container the argument comes in; the last three are barred.
+# Whatever the shape, a reader who hasn't followed the story must be able to
+# follow it (19 October 2026, the operator on the Loughton timeline: "this
+# post is hard to understand"). Say what happened first; name every body in
+# plain words before its initials; give every unit a picture.
 SHAPES = (
     "a single scene, told in the present tense, with the argument inside it",
     "a letter to one named kind of person (the recruiter, the tenant, the MP)",
     "a dialogue between two people who want different things",
-    "a timeline: dated entries, past and future, no connecting prose",
+    "a timeline: dated entries, past and future, opening with two plain sentences saying what happened and why it matters",
     "a memo from 2031 back to this week",
     "a numbered list that argues, each entry a punch",
     "a set of questions the reader can't shrug off, each with the honest answer",
@@ -3508,6 +3512,13 @@ and name it in the `shape` field, exactly as written here:
 
 Barred today, because the last three response posts used them:
 {barred_text}
+
+Whatever the shape, someone who hasn't followed the story must be able to
+follow it (the operator, 19 October 2026, on a timeline post: "this post is
+hard to understand"). Say what happened, in plain words, first. Name every
+organisation in plain words before you use its initials (the National
+Energy System Operator, which runs grid connections; then NESO). Give every
+unit a picture (90 megawatts: a small town's worth).
 
 The shape is a container, not a gimmick. The argument, the sources, the
 stakes, the refutation and the rest of the brief still apply in full.
