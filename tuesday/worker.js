@@ -49,7 +49,7 @@ Reply with JSON only, no other text:
  "sectors": 1-2 from ${JSON.stringify(SECTORS)},
  "themes": 1-3 from ${JSON.stringify(THEMES)}, matching what they love and hate,
  "sign": their 2030 sign, "The ..." in 1-3 words, drawn from what they love and hate, e.g. "The Lightbulb",
- "sign_emoji": one emoji for the sign,
+ "sign_emoji": exactly two emoji side by side that make an odd, futuristic pairing: one for the sign, one for something from 2030 that shouldn't go with it (e.g. 🐺🛰️, 💡🧬, 🕯️🤖, ⚖️🪐, 🐝📡),
  "lines": [5 short paragraphs of the reading, in order],
  "wildcard_line": the wildcard happening in their day,
  "lucky": "Lucky <thing>: <funny specific thing>",
@@ -181,7 +181,7 @@ Town or city: ${a.town}
       const reading = {
         name: out.name_ok ? str(out.first_name, 20) : "Friend",
         job: str(out.job, 60), town: str(out.town, 60),
-        sign: str(out.sign, 40), sign_emoji: str(out.sign_emoji, 8),
+        sign: str(out.sign, 40), sign_emoji: str(out.sign_emoji, 16),
         lines: out.lines.slice(0, 6).map((l) => str(l, 260)),
         wildcard: { id: wildcard.id, text: wildcard.wildcard, line: str(out.wildcard_line, 260) },
         lucky: str(out.lucky, 140), unlucky: str(out.unlucky, 140),
