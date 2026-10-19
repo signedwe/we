@@ -199,11 +199,11 @@ api: ""
     y = wrap(ctx, r.sign + " " + r.sign_emoji, L, y + 20, M, 104, 2);
     ctx.font = "italic 48px " + serif; ctx.fillStyle = "#222222";
     y = wrap(ctx, "“" + r.share_line + "”", L, y + 50, M, 64, 4);
-    ctx.fillStyle = "#cc4b1f"; ctx.fillRect(L, y + 40, 8, 330);
     ctx.fillStyle = "#000000"; ctx.font = "30px " + mono;
     ctx.fillText("🤖 THE MACHINE PREDICTS", L + 36, y + 90);
     ctx.font = "44px " + serif;
-    wrap(ctx, r.prediction.text, L + 36, y + 155, M - 36, 58, 5);
+    var end = wrap(ctx, r.prediction.text, L + 36, y + 155, M - 36, 58, 7);
+    ctx.fillStyle = "#cc4b1f"; ctx.fillRect(L, y + 40, 8, end - y - 40);
     ctx.fillStyle = "#6b6b6b"; ctx.font = "28px " + mono;
     ctx.fillText((r.job + " · " + r.town).slice(0, 52), L, H - 120);
     ctx.fillStyle = "#000000";
