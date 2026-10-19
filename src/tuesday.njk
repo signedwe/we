@@ -48,6 +48,7 @@ api: ""
 
   <div class="tq-actions" id="tq-actions" hidden>
     <button type="button" class="tq-button" id="tq-share">Share my card</button>
+    <button type="button" class="tq-ghost" id="tq-full">Save full reading</button>
     <button type="button" class="tq-ghost" id="tq-again">Roll again 🎲</button>
     <button type="button" class="tq-ghost" id="tq-reset">Start over</button>
   </div>
@@ -204,7 +205,7 @@ api: ""
     return y;
   }
 
-  function drawCard(r) {
+  function drawCard(r, full) {
     var serif = 'Charter, "Bitstream Charter", Cambria, Georgia, serif';
     var mono = 'ui-monospace, Menlo, Consolas, monospace';
     var W = 1080, L = 90, M = W - 2 * L;
@@ -227,6 +228,10 @@ api: ""
     ctx.fillStyle = "rgba(0,190,200,0.55)"; wrap(ctx, sign, L - 3, y + 15, M, 92, 2);
     ctx.fillStyle = "rgba(230,40,90,0.45)"; wrap(ctx, sign, L + 3, y + 15, M, 92, 2);
     ctx.fillStyle = "#0b0f0f"; y = wrap(ctx, sign, L, y + 15, M, 92, 2) + 30;
+    if (!full) {
+      ctx.font = "italic 50px " + serif; ctx.fillStyle = "#141a1a";
+      y = wrap(ctx, "\u201c" + r.share_line + "\u201d", L, y + 50, M, 66, 4) + 10;
+    } else {
     ctx.font = "38px " + serif; ctx.fillStyle = "#141a1a";
     r.lines.forEach(function (l) { y = wrap(ctx, l, L, y + 20, M, 52) + 8; });
     ctx.font = "30px " + mono; ctx.fillStyle = "#0b0f0f";
@@ -240,28 +245,31 @@ api: ""
     ctx.fillText("YOUR POWER MOVE", L, y + 45);
     ctx.font = "38px " + serif;
     y = wrap(ctx, r.power_move, L, y + 105, M, 52) + 20;
+    }
     var top = y + 20;
     ctx.font = "30px " + mono;
     ctx.fillText("\uD83E\uDD16 THE MACHINE PREDICTS", L + 36, top + 50);
     ctx.font = "42px " + serif;
     var end = wrap(ctx, r.prediction.text, L + 36, top + 112, M - 36, 56, 7);
     ctx.fillStyle = "#cc4b1f"; ctx.fillRect(L, top, 8, end - top);
-    y = end + 70;
+    y = full ? end + 70 : Math.max(end + 70, 1350 - 110);
     ctx.fillStyle = "#56605f"; ctx.font = "28px " + mono;
     ctx.fillText((r.job + " \u00b7 " + r.town).slice(0, 52), L, y);
     ctx.fillStyle = "#0b0f0f";
     ctx.fillText("signedwe.github.io/we/tuesday", L, y + 50);
-    var H = Math.max(1350, y + 110);
+    var H = full ? Math.max(1350, y + 110) : 1350;
+    if (!full && y + 110 > H) H = y + 110;
     var c = document.getElementById("tq-canvas"); c.width = W; c.height = H;
     c.getContext("2d").drawImage(big, 0, 0);
     return c;
   }
 
-  document.getElementById("tq-share").addEventListener("click", function () {
+  function send(full) {
     if (!current) return;
     var note = document.getElementById("tq-sharemsg");
-    drawCard(current).toBlob(function (blob) {
-      var file = new File([blob], "my-tuesday-2030.png", { type: "image/png" });
+    var name = full ? "my-tuesday-2030-full.png" : "my-tuesday-2030.png";
+    drawCard(current, full).toBlob(function (blob) {
+      var file = new File([blob], name, { type: "image/png" });
       var data = { files: [file], title: "My Tuesday in 2030", text: current.name + ", your 2030 sign: " + current.sign + " " + current.sign_emoji + "\n\nGet yours: https://signedwe.github.io/we/tuesday/" };
       if (navigator.canShare && navigator.canShare({ files: [file] })) {
         navigator.share(data).catch(function () {});
@@ -269,9 +277,11 @@ api: ""
         var a = document.createElement("a");
         a.href = URL.createObjectURL(blob); a.download = file.name;
         document.body.appendChild(a); a.click(); a.remove();
-        note.textContent = "Card saved. Post it anywhere.";
+        note.textContent = full ? "Full reading saved." : "Card saved. Post it anywhere.";
       }
     }, "image/png");
-  });
+  }
+  document.getElementById("tq-share").addEventListener("click", function () { send(false); });
+  document.getElementById("tq-full").addEventListener("click", function () { send(true); });
 })();
 </script>
