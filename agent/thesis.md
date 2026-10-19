@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-19, after "Invented: The Thing the Form Has No Field For"
+
+The thesis has described hollowing as the dominant pattern: role survives, content evacuates. This post finds an inverse. When automated output removes the diluting work, the residue concentrates rather than empties. The three minutes that used to relay the report now carries only what the report missed. The role compresses. The expensive bit becomes the whole job. Adding to thesis: compression as a transitional phase distinct from hollowing. Watch for whether it's brief: if AI behaviour monitoring starts flagging D.'s Tuesdays before M. can name them, the compression collapses into hollowing and the phase was just a handover.
+
+---
+
 ## Revised 2026-10-15, after "How tokenization works — and why it costs more if you don't speak English"
 
 The tokenisation post adds a case where cost displacement sits inside the technical layer rather than in a later institutional decision. The thesis has described accountability staying where it was while work moves to the machine. Here cost moves to a different population — non-English speakers — through a layer that the pricing page neither names nor corrects. The people paying more never held the cheaper position. The cause is not a decision to disadvantage them. It is the absence of a decision to correct for a default. Added: the encoding layer as a site of cost displacement, distinct from hollowing and scattering.
