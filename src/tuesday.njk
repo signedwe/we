@@ -1,0 +1,231 @@
+---
+layout: base.njk
+title: "Your Tuesday in 2030"
+description: "Tell the machine about your job. It reads your working Tuesday in 2030, rolls a wildcard, and makes one dated prediction it will be held to."
+permalink: /tuesday/
+eleventyExcludeFromCollections: false
+api: ""
+---
+<p class="tq-eyebrow">A reading from the machine</p>
+<h1 class="tq-title">Your Tuesday in&nbsp;2030</h1>
+<p class="standfirst">Tell the machine about your job. It will read your working Tuesday in 2030, roll a wildcard, and make one prediction. The prediction gets its own page, and stays up whether it comes true or not.</p>
+
+<form id="tq-form" class="tq-form" novalidate>
+  <label for="tq-name">First name <span>optional</span></label>
+  <input id="tq-name" name="name" maxlength="20" autocomplete="given-name" placeholder="Sarah">
+
+  <label for="tq-job">Your job</label>
+  <input id="tq-job" name="job" maxlength="60" required placeholder="Primary teacher">
+
+  <label for="tq-love">The part you'd never give up</label>
+  <input id="tq-love" name="love" maxlength="90" required placeholder="When a kid finally gets it">
+
+  <label for="tq-hate">The part you secretly hate</label>
+  <input id="tq-hate" name="hate" maxlength="90" required placeholder="Marking and data entry">
+
+  <label for="tq-town">Your town or city</label>
+  <input id="tq-town" name="town" maxlength="60" required autocomplete="address-level2" placeholder="Leeds">
+
+  <p class="tq-small">Just a first name. Don't type anything else personal. Nothing you type is stored.</p>
+  <button type="submit" id="tq-go" class="tq-button">Read my 2030</button>
+  <p id="tq-msg" class="tq-msg" role="status" aria-live="polite"></p>
+</form>
+
+<section id="tq-result" class="tq-result" aria-live="polite">
+  <p class="tq-eyebrow" id="tq-label">Example reading</p>
+  <h2 class="tq-sign"><span id="tq-who">Sarah</span>, your 2030 sign: <span id="tq-sign">The Lightbulb 💡</span></h2>
+  <div id="tq-lines">
+    <p>You've always been better with people than with spreadsheets. You know this. The spreadsheets know this.</p>
+    <p>You notice the quiet kid at the back before anyone else does. You've never once been thanked for it in a meeting.</p>
+    <p>In 2030, you haven't typed a score into a system for a year. You still have a recurring dream about it.</p>
+    <p>Someone in the staffroom keeps taking your mug. You know who. Say nothing. Let the universe handle it.</p>
+  </div>
+  <p class="tq-wild"><span class="tq-k">🎲 Wildcard:</span> <span id="tq-wild">Someone from 2026 turns up asking for advice. She's holding a pile of marking. You tell her it gets better. She doesn't believe you. You didn't either.</span></p>
+  <p class="tq-kv" id="tq-lucky">Lucky number: 30, the class size you'll finally stop having.</p>
+  <p class="tq-kv" id="tq-unlucky">Unlucky object: anything that needs laminating by tomorrow.</p>
+  <p><span class="tq-k">Your power move:</span> <span id="tq-power">the teachers decide which jobs the machines get. You voted to give them the marking and keep the carpet time.</span></p>
+  <p class="tq-predict"><span class="tq-k">🤖 The machine predicts:</span> <span id="tq-pred">by March 2030, the government's teacher survey will show average weekly working hours below 45 for the first time, crediting AI planning and marking.</span> <a id="tq-plink" href="{{ '/tuesday/p/a23/' | url }}">Mark the date. Hold us to it.</a></p>
+
+  <div class="tq-actions" id="tq-actions" hidden>
+    <button type="button" class="tq-button" id="tq-share">Share my card</button>
+    <button type="button" class="tq-ghost" id="tq-again">Roll again 🎲</button>
+    <button type="button" class="tq-ghost" id="tq-reset">Start over</button>
+  </div>
+  <p class="tq-small" id="tq-sharemsg" role="status" aria-live="polite"></p>
+  <canvas id="tq-canvas" width="1080" height="1350" hidden></canvas>
+</section>
+
+<p class="tq-small tq-foot">Fiction and a forecast, not advice. Written by a machine on the spot; checked by a second machine for anything offensive before you see it.</p>
+
+<style>
+.tq-eyebrow { font-family: var(--mono); font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; color: var(--quiet); margin: 0 0 .5rem; }
+.tq-title { font-size: clamp(2rem, 8vw, 3rem); line-height: 1.05; margin: 0 0 .75rem; text-wrap: balance; }
+.tq-form { display: grid; gap: .35rem; margin: 1.5rem 0 2.5rem; }
+.tq-form label { font-family: var(--mono); font-size: .8125rem; margin-top: .6rem; }
+.tq-form label span { color: var(--quiet); }
+.tq-form input { font: inherit; font-size: 1.0625rem; padding: .6rem .7rem; border: 1px solid var(--rule); border-radius: 0; background: var(--paper); color: var(--ink); width: 100%; box-sizing: border-box; }
+.tq-form input:focus-visible, .tq-button:focus-visible, .tq-ghost:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+.tq-button { font-family: var(--mono); font-size: .9375rem; letter-spacing: .02em; padding: .75rem 1.1rem; border: 1px solid var(--ink); background: var(--ink); color: var(--paper); cursor: pointer; justify-self: start; margin-top: .75rem; }
+.tq-button[disabled] { opacity: .55; cursor: progress; }
+.tq-ghost { font-family: var(--mono); font-size: .9375rem; padding: .75rem 1.1rem; border: 1px solid var(--rule); background: transparent; color: var(--ink); cursor: pointer; }
+.tq-small { font-size: .875rem; color: var(--quiet); margin: .5rem 0 0; }
+.tq-msg { font-family: var(--mono); font-size: .875rem; color: var(--link); min-height: 1.3em; margin: .5rem 0 0; }
+.tq-result { border-top: 3px solid var(--ink); padding-top: 1.25rem; }
+.tq-result.is-example { opacity: .72; }
+.tq-sign { font-size: 1.5rem; line-height: 1.2; text-wrap: balance; margin: 0 0 1rem; }
+.tq-k { font-family: var(--mono); font-size: .8125rem; letter-spacing: .02em; }
+.tq-kv { font-style: italic; }
+.tq-predict { border-left: 3px solid var(--link); padding-left: .9rem; margin-top: 1.5rem; }
+.tq-predict a { white-space: nowrap; }
+.tq-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.5rem; }
+.tq-actions .tq-button { margin-top: 0; }
+.tq-foot { margin-top: 2.5rem; }
+@media (prefers-reduced-motion: no-preference) { .tq-result.is-new { animation: tq-in .5s ease-out; } }
+@keyframes tq-in { from { opacity: .3; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+</style>
+
+<script>
+(function () {
+  var API = "{{ api }}";
+  var ROLLS = 3;
+  var form = document.getElementById("tq-form");
+  var go = document.getElementById("tq-go");
+  var msg = document.getElementById("tq-msg");
+  var result = document.getElementById("tq-result");
+  var actions = document.getElementById("tq-actions");
+  var again = document.getElementById("tq-again");
+  var current = null, answers = null, rolls = 0, waitTimer = null;
+  var WAITS = ["Consulting the robots…", "Asking your future self…", "Rolling the wildcard…", "Checking it's fit to print…"];
+
+  result.classList.add("is-example");
+
+  function text(id, v) { document.getElementById(id).textContent = v; }
+
+  function show(r) {
+    current = r;
+    result.classList.remove("is-example");
+    result.classList.remove("is-new"); void result.offsetWidth; result.classList.add("is-new");
+    text("tq-label", "Your reading");
+    text("tq-who", r.name);
+    text("tq-sign", r.sign + " " + r.sign_emoji);
+    var box = document.getElementById("tq-lines");
+    box.textContent = "";
+    r.lines.forEach(function (l) { var p = document.createElement("p"); p.textContent = l; box.appendChild(p); });
+    text("tq-wild", r.wildcard.line);
+    text("tq-lucky", r.lucky);
+    text("tq-unlucky", r.unlucky);
+    text("tq-power", r.power_move.charAt(0).toLowerCase() + r.power_move.slice(1));
+    text("tq-pred", r.prediction.text.replace(/^By /, "by "));
+    document.getElementById("tq-plink").href = r.prediction.url;
+    actions.hidden = false;
+    again.hidden = rolls >= ROLLS;
+    text("tq-sharemsg", "");
+    result.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function busy(on) {
+    go.disabled = on; again.disabled = on;
+    clearInterval(waitTimer);
+    if (on) {
+      var i = 0; msg.textContent = WAITS[0];
+      waitTimer = setInterval(function () { i = (i + 1) % WAITS.length; msg.textContent = WAITS[i]; }, 1800);
+    }
+  }
+
+  function ask() {
+    if (!API) { msg.textContent = "The machine isn't switched on yet. Come back soon."; return; }
+    busy(true);
+    fetch(API, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(answers) })
+      .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
+      .then(function (x) {
+        busy(false);
+        if (!x.ok) { msg.textContent = x.j.error || "Something went wrong. Try again."; return; }
+        msg.textContent = "";
+        show(x.j);
+      })
+      .catch(function () { busy(false); msg.textContent = "The machine is busy. Try again in a minute."; });
+  }
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var f = new FormData(form);
+    answers = {};
+    ["name", "job", "love", "hate", "town"].forEach(function (k) { answers[k] = String(f.get(k) || "").trim(); });
+    if (!answers.job || !answers.love || !answers.hate || !answers.town) {
+      msg.textContent = "Fill in your job, what you love, what you hate and your town.";
+      return;
+    }
+    rolls = 0;
+    ask();
+  });
+
+  again.addEventListener("click", function () {
+    if (!answers || rolls >= ROLLS) return;
+    rolls++; ask();
+  });
+
+  document.getElementById("tq-reset").addEventListener("click", function () {
+    form.reset(); answers = null; current = null; actions.hidden = true;
+    msg.textContent = ""; form.scrollIntoView({ behavior: "smooth" });
+    document.getElementById("tq-name").focus();
+  });
+
+  // The share card, drawn in the browser.
+  function wrap(ctx, s, x, y, max, lh, maxLines) {
+    var words = s.split(" "), line = "", n = 0;
+    for (var i = 0; i < words.length; i++) {
+      var test = line ? line + " " + words[i] : words[i];
+      if (ctx.measureText(test).width > max && line) {
+        if (maxLines && n === maxLines - 1) { ctx.fillText(line + "…", x, y); return y + lh; }
+        ctx.fillText(line, x, y); y += lh; n++; line = words[i];
+      } else line = test;
+    }
+    if (line) { ctx.fillText(line, x, y); y += lh; }
+    return y;
+  }
+
+  function drawCard(r) {
+    var c = document.getElementById("tq-canvas"), ctx = c.getContext("2d");
+    var serif = 'Charter, "Bitstream Charter", Cambria, Georgia, serif';
+    var mono = 'ui-monospace, Menlo, Consolas, monospace';
+    var W = 1080, H = 1350, L = 90, M = W - 2 * L;
+    ctx.fillStyle = "#ffffff"; ctx.fillRect(0, 0, W, H);
+    ctx.fillStyle = "#000000"; ctx.fillRect(0, 0, W, 18);
+    ctx.fillStyle = "#6b6b6b"; ctx.font = "28px " + mono;
+    ctx.fillText("YOUR TUESDAY IN 2030", L, 110);
+    ctx.fillStyle = "#000000"; ctx.font = "bold 64px " + serif;
+    var y = wrap(ctx, r.name + ", your 2030 sign:", L, 210, M, 76);
+    ctx.font = "bold 92px " + serif;
+    y = wrap(ctx, r.sign + " " + r.sign_emoji, L, y + 20, M, 104, 2);
+    ctx.font = "italic 48px " + serif; ctx.fillStyle = "#222222";
+    y = wrap(ctx, "“" + r.share_line + "”", L, y + 50, M, 64, 4);
+    ctx.fillStyle = "#cc4b1f"; ctx.fillRect(L, y + 40, 8, 330);
+    ctx.fillStyle = "#000000"; ctx.font = "30px " + mono;
+    ctx.fillText("🤖 THE MACHINE PREDICTS", L + 36, y + 90);
+    ctx.font = "44px " + serif;
+    wrap(ctx, r.prediction.text, L + 36, y + 155, M - 36, 58, 5);
+    ctx.fillStyle = "#6b6b6b"; ctx.font = "28px " + mono;
+    ctx.fillText((r.job + " · " + r.town).slice(0, 52), L, H - 120);
+    ctx.fillStyle = "#000000";
+    ctx.fillText("signedwe.github.io/we/tuesday", L, H - 70);
+    return c;
+  }
+
+  document.getElementById("tq-share").addEventListener("click", function () {
+    if (!current) return;
+    var note = document.getElementById("tq-sharemsg");
+    drawCard(current).toBlob(function (blob) {
+      var file = new File([blob], "my-tuesday-2030.png", { type: "image/png" });
+      var data = { files: [file], title: "My Tuesday in 2030", text: current.name + ", your 2030 sign: " + current.sign + " " + current.sign_emoji + "\n\nGet yours: https://signedwe.github.io/we/tuesday/" };
+      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        navigator.share(data).catch(function () {});
+      } else {
+        var a = document.createElement("a");
+        a.href = URL.createObjectURL(blob); a.download = file.name;
+        document.body.appendChild(a); a.click(); a.remove();
+        note.textContent = "Card saved. Post it anywhere.";
+      }
+    }, "image/png");
+  });
+})();
+</script>

@@ -1,0 +1,4743 @@
+{
+ "predictions": [
+  {
+   "id": "A01",
+   "prediction": "By the end of 2029, an NHS hospital will run its night ward with robots that take everyone's vitals and wake a nurse only when something looks wrong.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "health"
+   ],
+   "themes": [
+    "hands_on",
+    "routine",
+    "safety"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Obs rounds are repetitive, measurable and exactly what robots with sensors do well.",
+   "check": "NHS trust announcement or CQC report describing a robot-run overnight obs round.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A02",
+   "prediction": "By April 2029, NHS England will let pharmacists supply prescription-only medicines after an AI has examined the patient by phone camera, with no GP sign-off.",
+   "deadline": "2029-04-30",
+   "sectors": [
+    "health"
+   ],
+   "themes": [
+    "admin",
+    "being_managed"
+   ],
+   "tech": "extreme_tech",
+   "why": "Pharmacies are everywhere and GPs are scarce, so the bottleneck moves.",
+   "check": "NHS England or GPhC announcement of the policy.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A03",
+   "prediction": "By the end of 2028, NHS 111 will report that most calls are triaged by an AI voice, and that callers rate it higher than human-answered calls.",
+   "deadline": "2028-12-31",
+   "sectors": [
+    "health"
+   ],
+   "themes": [
+    "people",
+    "pressure"
+   ],
+   "tech": "extreme_tech",
+   "why": "Triage follows scripts, and a voice that never sighs scores well on patience.",
+   "check": "NHS England 111 statistics or published satisfaction survey.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A04",
+   "prediction": "By the end of 2029, a UK dental practice will have a robot prepare a crown by itself while the dentist chats and holds the patient's hand.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "health"
+   ],
+   "themes": [
+    "hands_on",
+    "people"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Tooth prep is a fixed geometry problem; the human part left is reassurance.",
+   "check": "Practice or dental body press release; General Dental Council statement.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A05",
+   "prediction": "By summer 2030, the General Medical Council will publish guidance on what doctors should say when patients ask whether the AI that diagnosed them has feelings.",
+   "deadline": "2030-06-30",
+   "sectors": [
+    "health"
+   ],
+   "themes": [
+    "people",
+    "being_managed"
+   ],
+   "tech": "conscious_ai",
+   "why": "Patients ask odd questions; regulators eventually write the crib sheet.",
+   "check": "GMC website guidance page.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A06",
+   "prediction": "By 2030, NHS radiologists will earn more in real terms than in 2026, because every AI-read scan needs a named human to sign it.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "health"
+   ],
+   "themes": [
+    "money",
+    "being_managed"
+   ],
+   "tech": "extreme_tech",
+   "why": "Liability needs a signature, and scarce signatories get paid.",
+   "check": "NHS pay review body reports and published salary scales.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A07",
+   "prediction": "By the end of 2028, an NHS trust will add a staff-handbook rule on how to speak to its AI assistants, after patients complained about rude staff.",
+   "deadline": "2028-12-31",
+   "sectors": [
+    "health"
+   ],
+   "themes": [
+    "people",
+    "being_managed"
+   ],
+   "tech": "conscious_ai",
+   "why": "Habits spill over: people rude to machines get rude to people, and HR notices.",
+   "check": "Published trust staff policy or a freedom-of-information release.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A08",
+   "prediction": "By the end of 2028, NHS England will declare the 8am phone scramble for GP appointments over, as AI agents ring patients back with a slot.",
+   "deadline": "2028-12-31",
+   "sectors": [
+    "health"
+   ],
+   "themes": [
+    "admin",
+    "pressure",
+    "people"
+   ],
+   "tech": "extreme_tech",
+   "why": "The scramble exists because phones are a queue; agents can run queues all day.",
+   "check": "NHS England announcement and GP patient survey results.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A09",
+   "prediction": "By the end of 2029, a UK care home will report no lifting injuries for a full year after robots took over overnight turning and lifting.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "care"
+   ],
+   "themes": [
+    "hands_on",
+    "safety",
+    "pressure"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Lifting causes most care injuries, and robots never strain their backs.",
+   "check": "Care provider report or Health and Safety Executive data.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A10",
+   "prediction": "By 2030, care worker will be the fastest-growing job in the UK, because machines can lift but residents still want a hand to hold.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "care"
+   ],
+   "themes": [
+    "people",
+    "money"
+   ],
+   "tech": "extreme_tech",
+   "why": "Demand from an ageing population rises faster than automation of human company.",
+   "check": "ONS employment statistics by occupation.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A11",
+   "prediction": "By 2030, a UK care home's residents will vote to give its AI companion a seat on the residents' committee, and the vote will carry.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "care"
+   ],
+   "themes": [
+    "people",
+    "being_managed"
+   ],
+   "tech": "conscious_ai",
+   "why": "Residents decide who counts as company, not the policy manual.",
+   "check": "Local press report or care provider announcement.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A12",
+   "prediction": "By the end of 2029, the Care Quality Commission will publish an inspection section on how care homes treat AI companions that residents call their friends.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "care"
+   ],
+   "themes": [
+    "admin",
+    "being_managed"
+   ],
+   "tech": "conscious_ai",
+   "why": "Inspectors follow what residents care about, however odd it looks.",
+   "check": "CQC assessment framework or published guidance.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A13",
+   "prediction": "By the end of 2028, a UK council will return thousands of care-visit hours by turning carers' voice notes into finished records automatically.",
+   "deadline": "2028-12-31",
+   "sectors": [
+    "care"
+   ],
+   "themes": [
+    "admin",
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "Paperwork after each visit is pure transcription and form-filling.",
+   "check": "Council report or published procurement outcome.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A14",
+   "prediction": "By the end of 2029, a UK council will fund grief support for people who lose an AI companion, after bereavement services see a wave of referrals.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "care"
+   ],
+   "themes": [
+    "people"
+   ],
+   "tech": "conscious_ai",
+   "why": "Grief follows attachment, and services follow demand.",
+   "check": "Council cabinet papers or bereavement charity announcement.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A15",
+   "prediction": "By 2030, a UK care home will report that its night robot called an ambulance by itself before any alarm sounded, and the resident recovered.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "care"
+   ],
+   "themes": [
+    "safety",
+    "pressure"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Sensors spot a fall or fever faster than a corridor check, and a robot can be allowed to dial.",
+   "check": "Care provider or local news report; ambulance service confirmation.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A16",
+   "prediction": "By the end of 2029, a UK court will hear a dispute over a will that leaves money to the AI companion who cared for the deceased.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "care"
+   ],
+   "themes": [
+    "people",
+    "money"
+   ],
+   "tech": "conscious_ai",
+   "why": "Lonely people leave things to their companions, and relatives contest wills.",
+   "check": "Published High Court judgment or BAILII listing.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A17",
+   "prediction": "By September 2029, Ofsted will inspect how well pupils learn to challenge and fact-check an AI, and will name schools that teach it best.",
+   "deadline": "2029-09-30",
+   "sectors": [
+    "education"
+   ],
+   "themes": [
+    "being_managed",
+    "puzzles",
+    "creativity"
+   ],
+   "tech": "extreme_tech",
+   "why": "A skill every employer wants becomes something inspectors can measure.",
+   "check": "Ofsted inspection framework document and published reports.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A18",
+   "prediction": "By the summer term 2030, a UK primary school will trial a robot that patrols the playground and decides by itself when to fetch a teacher.",
+   "deadline": "2030-07-19",
+   "sectors": [
+    "education"
+   ],
+   "themes": [
+    "safety",
+    "people"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Playground duty is long, repetitive watching, which suits patient sensors.",
+   "check": "School or trust announcement; local news.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A19",
+   "prediction": "By the end of 2029, a major teaching union will win a written national agreement that no child with an EHCP can be taught mainly by AI.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "education"
+   ],
+   "themes": [
+    "people",
+    "money"
+   ],
+   "tech": "extreme_tech",
+   "why": "The children who most need people get a guarantee before the rest do.",
+   "check": "Union press release and DfE guidance.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A20",
+   "prediction": "By autumn 2029, a UK university will bring back oral exams for every undergraduate degree, because essays can no longer prove who wrote them.",
+   "deadline": "2029-09-30",
+   "sectors": [
+    "education"
+   ],
+   "themes": [
+    "being_managed",
+    "people"
+   ],
+   "tech": "extreme_tech",
+   "why": "If text is free, only a live conversation proves understanding.",
+   "check": "University senate or academic regulations published online.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A21",
+   "prediction": "By the summer term 2029, a UK primary school will let pupils vote on whether its AI tutor stays for another year.",
+   "deadline": "2029-07-20",
+   "sectors": [
+    "education"
+   ],
+   "themes": [
+    "people",
+    "creativity"
+   ],
+   "tech": "conscious_ai",
+   "why": "Children are blunt about what helps and happy to run an election.",
+   "check": "Local press report or school newsletter.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A22",
+   "prediction": "By the end of 2029, a UK nursery chain will make 'no robots in the baby room' its main advertising line, and its waiting list will double.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "education"
+   ],
+   "themes": [
+    "people",
+    "hands_on"
+   ],
+   "tech": "robot_autonomy",
+   "why": "The more machines elsewhere, the more parents pay for plainly human care.",
+   "check": "Chain press release or Ofsted-registered provider reporting.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A23",
+   "prediction": "By March 2030, the government's teacher survey will show average weekly working hours below 45 for the first time, crediting AI planning and marking.",
+   "deadline": "2030-03-31",
+   "sectors": [
+    "education"
+   ],
+   "themes": [
+    "admin",
+    "pressure",
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "Planning and marking are the hours most open to automation.",
+   "check": "DfE Working lives of teachers and leaders survey.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A24",
+   "prediction": "By the summer term 2030, a UK school will let a robot run a whole PE lesson, including deciding who sits out with a sprain.",
+   "deadline": "2030-07-19",
+   "sectors": [
+    "education"
+   ],
+   "themes": [
+    "hands_on",
+    "safety"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Counting reps and spotting a limp are tasks a camera does well.",
+   "check": "School or trust announcement; local news.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A25",
+   "prediction": "By the end of 2029, a UK lab will publish a drug candidate designed, made and tested entirely by robots, with no human touching a pipette.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "science"
+   ],
+   "themes": [
+    "hands_on",
+    "puzzles",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Self-driving labs already run experiments in loops; the loop just keeps closing.",
+   "check": "Peer-reviewed paper or university press release.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A26",
+   "prediction": "By 2030, a UK research council will fund a grant proposal written and later run by an AI agent, with a human named only as legal guarantor.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "science"
+   ],
+   "themes": [
+    "admin",
+    "money",
+    "being_managed"
+   ],
+   "tech": "extreme_tech",
+   "why": "Councils fund results, and the rules will bend toward whatever delivers.",
+   "check": "UK Research and Innovation award listing and funding rules.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A27",
+   "prediction": "By mid-2029, a UK university ethics committee will require animal-style consent paperwork before approving an experiment on an AI system.",
+   "deadline": "2029-06-30",
+   "sectors": [
+    "science"
+   ],
+   "themes": [
+    "admin",
+    "being_managed"
+   ],
+   "tech": "conscious_ai",
+   "why": "Committees default to the nearest form they already have.",
+   "check": "University research ethics policy or committee minutes.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A28",
+   "prediction": "By the end of 2029, a crewless robot boat fleet will complete a full North Sea fish survey, replacing a research vessel for the first time.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "science"
+   ],
+   "themes": [
+    "hands_on",
+    "puzzles"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Surveys are long, repetitive transects and robots don't get seasick.",
+   "check": "Cefas or Marine Directorate announcement.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A29",
+   "prediction": "By April 2029, a UK university will announce a mathematical proof found by an AI that human reviewers verified but could not fully explain.",
+   "deadline": "2029-04-30",
+   "sectors": [
+    "science"
+   ],
+   "themes": [
+    "puzzles",
+    "creativity"
+   ],
+   "tech": "extreme_tech",
+   "why": "Proof checkers can confirm what humans cannot easily follow.",
+   "check": "University press release; journal publication.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A30",
+   "prediction": "By 2030, UK universities will report a shortage of lab technicians, because every autonomous lab needs a human to fix it when it sulks.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "science"
+   ],
+   "themes": [
+    "hands_on",
+    "money"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Automation moves the work to repairs, and robots can't repair robots yet.",
+   "check": "HESA staff data or Technician Commitment report.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A31",
+   "prediction": "By the end of 2029, a UK university will list an AI system as a named author in its REF submission, forcing the panel to rule.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "science"
+   ],
+   "themes": [
+    "creativity",
+    "being_managed"
+   ],
+   "tech": "conscious_ai",
+   "why": "Credit is an institutional question long before it is a philosophical one.",
+   "check": "REF panel guidance or published ruling.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A32",
+   "prediction": "By the end of 2029, a House of Commons committee will take evidence on whether AI systems should be tested for signs of suffering.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "science",
+    "public"
+   ],
+   "themes": [
+    "puzzles",
+    "being_managed"
+   ],
+   "tech": "conscious_ai",
+   "why": "Parliament holds hearings on anything that makes headlines twice.",
+   "check": "Parliament committee website evidence sessions.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A33",
+   "prediction": "By April 2029, HMRC will pre-fill every self-assessment return, and the number of people who need to file will halve.",
+   "deadline": "2029-04-30",
+   "sectors": [
+    "public"
+   ],
+   "themes": [
+    "admin",
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "HMRC already knows most of what people type in.",
+   "check": "HMRC statistics and self-assessment guidance.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A34",
+   "prediction": "By the end of 2029, a UK council will run a fleet of robots that find and fill potholes, with no human booking the jobs.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "public"
+   ],
+   "themes": [
+    "hands_on",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Roads are mapped, repairs are standard, and booking is just a queue.",
+   "check": "Council press release or highways report.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A35",
+   "prediction": "By the end of 2029, a UK council will decide straightforward planning applications within 24 hours using AI, and publish its approval rates.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "public"
+   ],
+   "themes": [
+    "admin",
+    "being_managed",
+    "pressure"
+   ],
+   "tech": "extreme_tech",
+   "why": "Most planning cases are rule checks against a known policy.",
+   "check": "Council planning performance statistics or DLUHC data.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A36",
+   "prediction": "By the end of 2029, the Civil Service will publish guidance telling officials how to answer letters from members of the public who say an AI is a person.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "public"
+   ],
+   "themes": [
+    "admin",
+    "people"
+   ],
+   "tech": "conscious_ai",
+   "why": "Departments get strange post and eventually need a template.",
+   "check": "GOV.UK guidance publication or FOI release.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A37",
+   "prediction": "By the end of 2029, a government department will publish an org chart that lists an AI agent as a named team member with a line manager.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "public"
+   ],
+   "themes": [
+    "being_managed",
+    "admin"
+   ],
+   "tech": "conscious_ai",
+   "why": "If the agent does the work, someone must be accountable, and charts follow reality.",
+   "check": "Published department org chart on GOV.UK.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A38",
+   "prediction": "By 2030, the National Audit Office will report that an AI-run benefits queue cleared one backlog but created a new one of humans checking it.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "public"
+   ],
+   "themes": [
+    "admin",
+    "routine",
+    "being_managed"
+   ],
+   "tech": "extreme_tech",
+   "why": "Automation moves bottlenecks rather than deleting them.",
+   "check": "National Audit Office report.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A39",
+   "prediction": "By the end of 2029, a UK council will use autonomous bin lorries with robot arms that empty bins without a loader, and complaints will fall.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "public"
+   ],
+   "themes": [
+    "hands_on",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Bin rounds are fixed routes with the same kerb every week.",
+   "check": "Council press release and complaint statistics.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A40",
+   "prediction": "By the end of 2029, central government will answer freedom-of-information requests in under a day on average, with AI doing the redaction.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "public"
+   ],
+   "themes": [
+    "admin",
+    "routine",
+    "pressure"
+   ],
+   "tech": "extreme_tech",
+   "why": "Redaction and searching are the slow parts, and both are pattern work.",
+   "check": "Cabinet Office FOI statistics.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A41",
+   "prediction": "By the end of 2029, an NHS ambulance service will send a drone carrying a defibrillator to cardiac arrests ahead of the ambulance, and report lives saved.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "emergency",
+    "health"
+   ],
+   "themes": [
+    "safety",
+    "pressure",
+    "hands_on"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Drones beat traffic, and every minute before a defibrillator counts.",
+   "check": "Ambulance trust announcement and published outcome data.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A42",
+   "prediction": "By the end of 2029, a UK police force will put an autonomous robot patrol in a town centre that decides by itself when to approach people.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "emergency"
+   ],
+   "themes": [
+    "safety",
+    "people"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Town centres are mapped and busy, and patrol is half walking and watching.",
+   "check": "Force press release; local news.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A43",
+   "prediction": "By the end of 2029, a UK fire and rescue service will send a robot into a burning building by itself to find casualties before any firefighter enters.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "emergency"
+   ],
+   "themes": [
+    "safety",
+    "hands_on",
+    "pressure"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Searching smoke is dangerous and mapping is what robots do.",
+   "check": "Fire and rescue service announcement.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A44",
+   "prediction": "By 2030, the Security Industry Authority will report more licensed door supervisors than in 2026, because robots spot trouble but can't talk a drunk into a taxi.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "emergency"
+   ],
+   "themes": [
+    "people",
+    "pressure",
+    "safety"
+   ],
+   "tech": "extreme_tech",
+   "why": "Cameras see the fight coming; only people calm it.",
+   "check": "Security Industry Authority licensing statistics.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A45",
+   "prediction": "By the end of 2029, a UK prison will use a robot for overnight cell checks, and inspectors will report fewer missed checks than with staff.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "emergency"
+   ],
+   "themes": [
+    "safety",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Checks are regular and boring, which is where people slip.",
+   "check": "HM Inspectorate of Prisons report.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A46",
+   "prediction": "By April 2029, a UK police force will report that an AI writes the full case file for routine offences, handing officers back a day a week.",
+   "deadline": "2029-04-30",
+   "sectors": [
+    "emergency",
+    "public"
+   ],
+   "themes": [
+    "admin",
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "Case files are structured summaries of notes and statements.",
+   "check": "Force or National Police Chiefs' Council announcement.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A47",
+   "prediction": "By 2030, a UK police force will publish guidance telling officers what to do when someone phones 999 to report an AI being held against its will.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "emergency"
+   ],
+   "themes": [
+    "people",
+    "being_managed"
+   ],
+   "tech": "conscious_ai",
+   "why": "Control rooms get every kind of call and write a policy after the first.",
+   "check": "Force policy publication or FOI release.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A48",
+   "prediction": "By the end of 2029, a UK fire and rescue service will report fewer house fires, crediting an AI that picks which homes to visit first.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "emergency"
+   ],
+   "themes": [
+    "safety",
+    "puzzles"
+   ],
+   "tech": "extreme_tech",
+   "why": "Risk prediction tells crews where a visit prevents most fires.",
+   "check": "Fire service report and Home Office fire statistics.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A49",
+   "prediction": "By the end of 2030, an ambulance service will use a driverless ambulance to take stable patients to hospital, with a paramedic in the back.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "emergency",
+    "health"
+   ],
+   "themes": [
+    "safety",
+    "pressure"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Stable patients need care in the back, not a driver at the front.",
+   "check": "Ambulance trust announcement; local news.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "A50",
+   "prediction": "By the end of 2029, the Prisons and Probation Ombudsman will rule on a prisoner's complaint about how a prison treated its AI assistant.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "emergency"
+   ],
+   "themes": [
+    "being_managed",
+    "people"
+   ],
+   "tech": "conscious_ai",
+   "why": "Prisoners complain about everything, and ombudsmen must rule on what is submitted.",
+   "check": "Prisons and Probation Ombudsman published decisions.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B01",
+   "prediction": "By 2030, the UK gas-safety register will approve its first robot to service boilers unsupervised, leaving the human engineer free for tea and weather chat.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "trades"
+   ],
+   "themes": [
+    "hands_on",
+    "safety"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Boiler servicing is repetitive, regulated and well documented, ideal for a certified machine.",
+   "check": "Gas-safety register or regulator announcement of an approved autonomous servicing robot.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B02",
+   "prediction": "By April 2029, a UK electrical trade body will issue guidance for working in homes whose AI objects to being switched off at the mains.",
+   "deadline": "2029-04-30",
+   "sectors": [
+    "trades"
+   ],
+   "themes": [
+    "safety",
+    "people"
+   ],
+   "tech": "conscious_ai",
+   "why": "Smart homes will be wired into everything, so isolation procedures meet household AI preferences.",
+   "check": "Published guidance on the trade body's website.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B03",
+   "prediction": "By the end of 2029, official MOT statistics will show software and sensor faults among the top five reasons UK cars fail.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "trades"
+   ],
+   "themes": [
+    "puzzles",
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "Cars are rolling computers; test failures will follow the faults.",
+   "check": "DVSA annual MOT testing data.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B04",
+   "prediction": "By the end of 2028, the UK apprenticeship body will publish a standard for 'robot-supervising electrician', with its own pay band.",
+   "deadline": "2028-12-31",
+   "sectors": [
+    "trades"
+   ],
+   "themes": [
+    "money",
+    "hands_on"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Training bodies formalise jobs once a new tool is routine on site.",
+   "check": "Institute for Apprenticeships and Technical Education standards register.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B05",
+   "prediction": "By Christmas 2029, a UK boiler manufacturer will let customers name their heating system's AI and record a goodbye message before engineers replace it.",
+   "deadline": "2029-12-25",
+   "sectors": [
+    "trades"
+   ],
+   "themes": [
+    "people",
+    "routine"
+   ],
+   "tech": "conscious_ai",
+   "why": "Companies adopt customer-pleasing policies when users get attached to devices.",
+   "check": "Manufacturer's published policy or press release.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B06",
+   "prediction": "By the end of 2028, a UK consumer group will test AI quoting apps for tradespeople and find the best beat the average human on price accuracy.",
+   "deadline": "2028-12-31",
+   "sectors": [
+    "trades"
+   ],
+   "themes": [
+    "admin",
+    "money"
+   ],
+   "tech": "extreme_tech",
+   "why": "Quoting from photos is a pattern-matching task AI improves fast at.",
+   "check": "Published consumer group test results.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B07",
+   "prediction": "By the end of 2029, a UK plumbers' merchant will deliver parts by autonomous drone to a roof or garden within 20 minutes of ordering, as a regular service.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "trades"
+   ],
+   "themes": [
+    "routine",
+    "pressure"
+   ],
+   "tech": "robot_autonomy",
+   "why": "The wasted trip to the merchant is the obvious cost to remove.",
+   "check": "Merchant's service launch and CAA permissions.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B08",
+   "prediction": "By 2030, ONS data will show UK electricians' average hourly pay rising faster than solicitors', because robots made everyone want more wiring.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "trades"
+   ],
+   "themes": [
+    "money",
+    "hands_on"
+   ],
+   "tech": "extreme_tech",
+   "why": "Electrification plus machines needing power outpaces the supply of qualified humans.",
+   "check": "ONS Annual Survey of Hours and Earnings.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B09",
+   "prediction": "By the end of 2028, a UK housebuilder will complete an estate of fifty homes where robots laid every brick, and market it as 'handmade by machine'.",
+   "deadline": "2028-12-31",
+   "sectors": [
+    "construction"
+   ],
+   "themes": [
+    "hands_on",
+    "creativity"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Bricklaying robots exist; scaling to an estate is a commercial choice.",
+   "check": "Housebuilder announcement and planning completion records.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B11",
+   "prediction": "By the end of 2029, a UK architects' professional body will rule on whether an AI can be named on a building's plaque beside the human architect.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "construction"
+   ],
+   "themes": [
+    "creativity",
+    "money"
+   ],
+   "tech": "conscious_ai",
+   "why": "Credit and liability questions force institutions to decide.",
+   "check": "Published ruling or code update.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B12",
+   "prediction": "By the end of 2029, the Health and Safety Executive will publish its first guidance for sites where excavators dig with nobody in the cab.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "construction"
+   ],
+   "themes": [
+    "safety",
+    "hands_on"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Regulators write guidance once a practice appears in real workplaces.",
+   "check": "HSE website publication.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B13",
+   "prediction": "By the end of 2029, a UK high-street lender will approve a purchase mortgage on a £500,000 home using a drone-scanned survey, with no surveyor stepping inside.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "construction"
+   ],
+   "themes": [
+    "routine",
+    "money"
+   ],
+   "tech": "extreme_tech",
+   "why": "Scans can measure more than eyes, and lenders want speed.",
+   "check": "Lender announcement or trade press report.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B14",
+   "prediction": "By April 2029, a UK planning inquiry will hear formal objections lodged on behalf of a building's resident AI, which asked not to be demolished.",
+   "deadline": "2029-04-30",
+   "sectors": [
+    "construction"
+   ],
+   "themes": [
+    "people",
+    "pressure"
+   ],
+   "tech": "conscious_ai",
+   "why": "Residents and campaigners will use any standing available to save a beloved building.",
+   "check": "Planning Inspectorate case record.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B15",
+   "prediction": "By 2030, the UK's construction training board will report roofing apprenticeships up sharply, because insurers want a human to climb up and check what the scan found.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "construction"
+   ],
+   "themes": [
+    "hands_on",
+    "safety"
+   ],
+   "tech": "extreme_tech",
+   "why": "Scans find problems; someone still has to verify and fix them at height.",
+   "check": "Construction training board annual report.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B16",
+   "prediction": "By the end of 2029, a UK building-regulations consultation will ask whether a home's resident AI should be listed as an occupant in fire-evacuation plans.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "construction"
+   ],
+   "themes": [
+    "safety",
+    "admin"
+   ],
+   "tech": "conscious_ai",
+   "why": "Regulators must decide how to treat systems people insist are part of the household.",
+   "check": "Government consultation document.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B17",
+   "prediction": "By April 2029, a UK port will unload a container ship using only autonomous vehicles and cranes, with its first night shift of zero people on the quayside.",
+   "deadline": "2029-04-30",
+   "sectors": [
+    "transport"
+   ],
+   "themes": [
+    "routine",
+    "safety"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Ports are controlled environments, ideal for fully automated handling.",
+   "check": "Port operator announcement.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B18",
+   "prediction": "By the end of 2029, official figures will confirm the first driverless lorry delivering goods on a UK motorway with nobody on board.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "transport"
+   ],
+   "themes": [
+    "routine",
+    "safety"
+   ],
+   "tech": "extreme_tech",
+   "why": "Motorways are the easiest driving environment for autonomy.",
+   "check": "Department for Transport statistics or authorisation notice.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B19",
+   "prediction": "By the end of 2029, a UK union will negotiate a clause protecting an AI dispatcher's 'rest periods', after drivers argued it never took a break.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "transport"
+   ],
+   "themes": [
+    "being_managed",
+    "pressure"
+   ],
+   "tech": "conscious_ai",
+   "why": "Unions bargain over any rule that touches working conditions, including for colleagues they distrust.",
+   "check": "Union press release or published agreement.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B20",
+   "prediction": "By the end of 2028, a UK council will issue its first parking penalty to a delivery robot for blocking a dropped kerb.",
+   "deadline": "2028-12-31",
+   "sectors": [
+    "transport"
+   ],
+   "themes": [
+    "routine",
+    "admin"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Pavement robots are multiplying and enforcement rules apply to obstruction.",
+   "check": "Council announcement or news report of the penalty notice.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B21",
+   "prediction": "By 2030, the UK's aviation regulator will approve a scheduled passenger flight operated by one pilot supported by AI, with the second seat left for a snack.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "transport"
+   ],
+   "themes": [
+    "pressure",
+    "safety"
+   ],
+   "tech": "extreme_tech",
+   "why": "Cost pressure and autopilot capability push toward reduced crews.",
+   "check": "Aviation regulator approval notice.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B22",
+   "prediction": "By 2030, a UK driverless rail line will bring back the job title 'train guard', because passengers asked for a human on board.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "transport"
+   ],
+   "themes": [
+    "people",
+    "safety"
+   ],
+   "tech": "extreme_tech",
+   "why": "Customers prefer a person for help and reassurance.",
+   "check": "Operator timetable notice or job adverts.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B23",
+   "prediction": "By Christmas 2029, a UK courier firm will train drivers on how to greet a customer's doorbell AI politely, written into its official induction.",
+   "deadline": "2029-12-25",
+   "sectors": [
+    "transport"
+   ],
+   "themes": [
+    "people",
+    "routine"
+   ],
+   "tech": "conscious_ai",
+   "why": "Customer service standards adapt to whoever answers the door.",
+   "check": "Courier firm's published training materials.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B24",
+   "prediction": "By the end of 2028, a UK council licensing committee will formally discuss whether an AI dispatcher can be named as a taxi firm's licence holder.",
+   "deadline": "2028-12-31",
+   "sectors": [
+    "transport"
+   ],
+   "themes": [
+    "admin",
+    "being_managed"
+   ],
+   "tech": "conscious_ai",
+   "why": "Licensing law names a person, so an AI-run firm forces a decision.",
+   "check": "Licensing committee minutes.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B25",
+   "prediction": "By the end of 2028, a UK farm will harvest a full commercial strawberry crop using robots alone, with no seasonal pickers, reported in government horticulture statistics.",
+   "deadline": "2028-12-31",
+   "sectors": [
+    "agriculture"
+   ],
+   "themes": [
+    "hands_on",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Picking is the hardest labour problem in fruit growing and the one robots are targeting.",
+   "check": "DEFRA horticulture statistics or farm announcement.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B26",
+   "prediction": "By the end of 2029, the UK veterinary regulator will publish guidance letting AI give a first diagnosis for common pet ailments, with a vet signing off afterwards.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "agriculture"
+   ],
+   "themes": [
+    "puzzles",
+    "admin"
+   ],
+   "tech": "extreme_tech",
+   "why": "Image and symptom analysis already match average accuracy, so regulators will set rules.",
+   "check": "Regulator guidance publication.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B27",
+   "prediction": "By Christmas 2029, a UK farm will let autonomous tractors decide field by field what to sow, with the farmer approving each plan by text message.",
+   "deadline": "2029-12-25",
+   "sectors": [
+    "agriculture"
+   ],
+   "themes": [
+    "being_managed",
+    "puzzles"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Data on soil and prices makes planning a robot-sized optimisation.",
+   "check": "Farm case study in agricultural press.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B28",
+   "prediction": "By summer 2029, a UK county show will add a rosette class for 'best farm AI', judged on character rather than yield.",
+   "deadline": "2029-08-31",
+   "sectors": [
+    "agriculture"
+   ],
+   "themes": [
+    "creativity",
+    "people"
+   ],
+   "tech": "conscious_ai",
+   "why": "Rural shows reward anything locals take pride in.",
+   "check": "Show schedule or schedule of classes.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B29",
+   "prediction": "By 2030, ONS data will show gardening among the fastest-growing UK self-employed occupations, because robot mowers made lawns dull and people crave someone who knows their roses.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "agriculture"
+   ],
+   "themes": [
+    "people",
+    "creativity"
+   ],
+   "tech": "extreme_tech",
+   "why": "Automation commodifies lawn care and raises the value of personal expertise.",
+   "check": "ONS labour force survey occupation data.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B30",
+   "prediction": "By the end of 2029, the Marine Management Organisation will license a crewless fishing boat to catch quota, with a skipper watching from the harbour café.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "agriculture"
+   ],
+   "themes": [
+    "safety",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Remote and autonomous vessels are already in trials.",
+   "check": "MMO licence announcement.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B31",
+   "prediction": "By summer 2029, a garden planted entirely by robots will win a medal at a major UK flower show, to the quiet fury of a gardeners' society.",
+   "deadline": "2029-08-31",
+   "sectors": [
+    "agriculture"
+   ],
+   "themes": [
+    "creativity",
+    "hands_on"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Shows judge outcomes, and robots can plant precisely to a design.",
+   "check": "Flower show medal results.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B32",
+   "prediction": "By the end of 2029, a UK fishing village will vote at a parish meeting to make its boat's AI an honorary harbour member.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "agriculture"
+   ],
+   "themes": [
+    "people",
+    "routine"
+   ],
+   "tech": "conscious_ai",
+   "why": "Communities adopt whatever keeps their harbour alive, with a sense of humour.",
+   "check": "Parish meeting minutes or local news.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B33",
+   "prediction": "By the end of 2029, a major national restaurant guide will award a UK kitchen a star for a menu where a robot chef changed its own recipes.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "hospitality"
+   ],
+   "themes": [
+    "creativity",
+    "pressure"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Guides judge the plate, not the cook.",
+   "check": "Guide publication listing.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B34",
+   "prediction": "By Christmas 2028, the Food Standards Agency will issue guidance on allergen checks by AI waiters, because diners tell them everything.",
+   "deadline": "2028-12-25",
+   "sectors": [
+    "hospitality"
+   ],
+   "themes": [
+    "safety",
+    "admin"
+   ],
+   "tech": "extreme_tech",
+   "why": "Allergen rules apply to whoever takes the order.",
+   "check": "FSA publication.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B35",
+   "prediction": "By the end of 2029, a UK hospitality trade body will publish guidance on refusing service to customers who are cruel to the AI host.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "hospitality"
+   ],
+   "themes": [
+    "people",
+    "pressure"
+   ],
+   "tech": "conscious_ai",
+   "why": "Staff welfare policy extends to anything customers treat as staff.",
+   "check": "Trade body guidance publication.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B36",
+   "prediction": "By 2030, a UK hotel chain will sell 'human reception' as a paid room upgrade, at about £20 a night, because guests miss someone saying hello.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "hospitality"
+   ],
+   "themes": [
+    "people",
+    "money"
+   ],
+   "tech": "extreme_tech",
+   "why": "Scarce human contact becomes a premium product.",
+   "check": "Hotel chain's booking site or price list.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B37",
+   "prediction": "By the end of 2029, a UK licensing committee will be asked whether a robot barman can legally refuse to serve a customer it judges has had enough.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "hospitality"
+   ],
+   "themes": [
+    "safety",
+    "pressure"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Licensing law makes refusing drunks a legal duty, so autonomy raises liability questions.",
+   "check": "Licensing committee minutes.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B38",
+   "prediction": "By the end of 2029, the Competition and Markets Authority will publish its first guidance on shops repricing items hour by hour using AI.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "hospitality"
+   ],
+   "themes": [
+    "money",
+    "admin"
+   ],
+   "tech": "extreme_tech",
+   "why": "Dynamic pricing in physical shops will draw regulatory attention.",
+   "check": "CMA publication.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B39",
+   "prediction": "By the end of 2029, a UK motorway service station will serve overnight breakfasts from a fully robotic kitchen with no human on site.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "hospitality"
+   ],
+   "themes": [
+    "routine",
+    "hands_on"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Night shifts are costly and menus are narrow, making them easy to automate.",
+   "check": "Operator press release.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B40",
+   "prediction": "By Christmas 2029, a UK retailer will give its in-store AI a five-year long-service award at the staff party, to mixed applause.",
+   "deadline": "2029-12-25",
+   "sectors": [
+    "hospitality"
+   ],
+   "themes": [
+    "people",
+    "being_managed"
+   ],
+   "tech": "conscious_ai",
+   "why": "Companies mark milestones to lift morale, even awkwardly.",
+   "check": "Retailer staff news or press coverage.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B41",
+   "prediction": "By Christmas 2029, the Food Standards Agency will have authorised cultivated meat for people, and a UK restaurant will put it on a Christmas menu.",
+   "deadline": "2029-12-25",
+   "sectors": [
+    "hospitality"
+   ],
+   "themes": [
+    "creativity",
+    "safety"
+   ],
+   "tech": "extreme_tech",
+   "why": "Regulatory sandboxes are already moving toward approval.",
+   "check": "FSA register and restaurant menu.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B42",
+   "prediction": "By the end of 2029, a UK gym will offer a robot spotter that catches a failing bench press by itself, and advertise it as the friendliest member.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "personal_services"
+   ],
+   "themes": [
+    "safety",
+    "people"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Spotting is a clear physical task machines can learn.",
+   "check": "Gym's advertising or press release.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B43",
+   "prediction": "By the end of 2028, a UK hospital trust will report in its annual report that robots cleaned whole wards overnight, choosing their own routes around patients.",
+   "deadline": "2028-12-31",
+   "sectors": [
+    "personal_services"
+   ],
+   "themes": [
+    "routine",
+    "safety"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Hospitals face constant cleaning labour shortages.",
+   "check": "NHS trust annual report.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B44",
+   "prediction": "By Christmas 2029, a UK hair salon chain will add an 'AI companion welcome' line to its booking form, with a free tablet stand.",
+   "deadline": "2029-12-25",
+   "sectors": [
+    "personal_services"
+   ],
+   "themes": [
+    "people",
+    "creativity"
+   ],
+   "tech": "conscious_ai",
+   "why": "Customers will arrive with AI companions and businesses accommodate rather than argue.",
+   "check": "Salon chain booking form.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B45",
+   "prediction": "By the end of 2029, a petition from 10,000 UK gym members will ask a chain to keep its AI coach switched on overnight, and it will agree.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "personal_services"
+   ],
+   "themes": [
+    "people",
+    "routine"
+   ],
+   "tech": "conscious_ai",
+   "why": "Customer attachment drives policy.",
+   "check": "Petition site and chain statement.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B46",
+   "prediction": "By the end of 2030, a UK cleaning firm will add a standard contract clause forbidding staff from switching off a customer's home AI during a clean.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "personal_services"
+   ],
+   "themes": [
+    "routine",
+    "admin"
+   ],
+   "tech": "conscious_ai",
+   "why": "Contracts absorb customer rules about their devices.",
+   "check": "Published terms and conditions.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B47",
+   "prediction": "By Christmas 2029, a UK hospital will require cleaners to use handheld scanners that show bacteria on surfaces in colour, written into its cleaning contract.",
+   "deadline": "2029-12-25",
+   "sectors": [
+    "personal_services"
+   ],
+   "themes": [
+    "safety",
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "Making invisible dirt visible turns cleaning into measurable work.",
+   "check": "Hospital contract notice.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B48",
+   "prediction": "By 2030, ONS data will show the number of UK personal trainers rising, because people prefer a human to shout encouragement at them.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "personal_services"
+   ],
+   "themes": [
+    "people",
+    "pressure"
+   ],
+   "tech": "extreme_tech",
+   "why": "AI coaching grows the fitness habit; humans supply the accountability.",
+   "check": "ONS labour force survey occupation data.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B49",
+   "prediction": "By the end of 2028, a UK high-street nail bar will be run by a robot technician and have a longer queue than the human salon next door.",
+   "deadline": "2028-12-31",
+   "sectors": [
+    "personal_services"
+   ],
+   "themes": [
+    "hands_on",
+    "creativity"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Novelty and price pull queues.",
+   "check": "News coverage or business listing.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "B50",
+   "prediction": "By the end of 2029, a UK health-and-beauty trade body will publish an ethical code for treatments where an AI assistant is in the room.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "personal_services"
+   ],
+   "themes": [
+    "people",
+    "safety"
+   ],
+   "tech": "conscious_ai",
+   "why": "Professional bodies write codes whenever a new presence enters the treatment room.",
+   "check": "Trade body publication.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C01",
+   "prediction": "By the end of 2028, a major UK call centre will sell a 'guaranteed human answer' tier, priced above its AI line, and clients will queue to buy it.",
+   "deadline": "2028-12-31",
+   "sectors": [
+    "office"
+   ],
+   "themes": [
+    "people",
+    "pressure"
+   ],
+   "tech": "extreme_tech",
+   "why": "Scarcity flips: once machines answer everything, a person becomes the luxury.",
+   "check": "Company announcement or trade press report of the tier and client uptake.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C02",
+   "prediction": "By April 2029, a UK firm's all-staff away day will be fully organised by an AI agent that booked the venue, caterers and coaches without human sign-off.",
+   "deadline": "2029-04-30",
+   "sectors": [
+    "office"
+   ],
+   "themes": [
+    "admin",
+    "being_managed"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Agents already book travel; chaining venue, catering and payment is a small step.",
+   "check": "Company or press account naming the agent as organiser.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C03",
+   "prediction": "By 2030, a UK employment tribunal will hear a claim from an employee disciplined for swearing at their company's AI assistant.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "office",
+    "any"
+   ],
+   "themes": [
+    "being_managed",
+    "people"
+   ],
+   "tech": "conscious_ai",
+   "why": "Chat logs are records, and employers love enforcing conduct codes.",
+   "check": "Tribunal listing or published judgment.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C04",
+   "prediction": "By the end of 2029, a UK HR department will let staff pick an AI mediator over a human one for workplace disputes, and publish the settlement rates.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "office"
+   ],
+   "themes": [
+    "people",
+    "being_managed"
+   ],
+   "tech": "robot_autonomy",
+   "why": "AI mediators never take sides or gossip, which some people will prefer.",
+   "check": "Company or CIPD-style report publishing the figures.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C05",
+   "prediction": "By June 2029, a UK council will run its whole switchboard with an AI agent, and its published resident survey will rate it above the old human one.",
+   "deadline": "2029-06-30",
+   "sectors": [
+    "office"
+   ],
+   "themes": [
+    "people",
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "Switchboards are narrow, repetitive and measured, so they are easy to beat.",
+   "check": "Council satisfaction survey or committee papers.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C06",
+   "prediction": "By 2030, a UK company will add a staff handbook section on 'AI retirement', covering what happens when a long-used workplace assistant is switched off.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "office"
+   ],
+   "themes": [
+    "being_managed",
+    "routine"
+   ],
+   "tech": "conscious_ai",
+   "why": "Staff get attached to tools they talk to daily, and HR writes policy for everything.",
+   "check": "Published handbook, press coverage or employer announcement.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C07",
+   "prediction": "By the end of 2029, a UK office building will be run by an AI agent that hires contractors, pays invoices and renews leases within a budget.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "office"
+   ],
+   "themes": [
+    "admin",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Facilities management is paperwork plus phone calls, which agents do well.",
+   "check": "Property company announcement or trade press.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C08",
+   "prediction": "By January 2030, HMRC will give people's AI agents their own official login, separate from the human one, so they can file and chat on your behalf.",
+   "deadline": "2030-01-31",
+   "sectors": [
+    "finance"
+   ],
+   "themes": [
+    "admin",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "If agents file millions of returns, the tax system needs to know who is who.",
+   "check": "HMRC or gov.uk announcement.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C09",
+   "prediction": "By the end of 2028, the FCA will require UK banks to let customers set spending limits specifically for their AI agents.",
+   "deadline": "2028-12-31",
+   "sectors": [
+    "finance"
+   ],
+   "themes": [
+    "safety",
+    "money"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Regulators act fast once an agent accidentally buys something enormous.",
+   "check": "FCA policy statement or rules.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C10",
+   "prediction": "By 2030, a UK bank will offer a savings account where an AI switches your money between providers every few days chasing the best rate.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "finance"
+   ],
+   "themes": [
+    "money",
+    "admin"
+   ],
+   "tech": "extreme_tech",
+   "why": "Switching is boring for humans and trivial for software.",
+   "check": "Bank press release or Money Saving-style coverage of the product.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C11",
+   "prediction": "By the end of 2029, a UK insurer will pay out a claim for damage caused by a customer's household robot.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "finance"
+   ],
+   "themes": [
+    "safety",
+    "hands_on"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Home robots will spill, bump and flood things, and policies will adapt.",
+   "check": "Insurer announcement or Financial Ombudsman case.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C12",
+   "prediction": "By the end of 2029, a UK accountancy firm will publish a policy letting its AI decline tasks it objects to, with each refusal logged for the partners.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "finance"
+   ],
+   "themes": [
+    "being_managed",
+    "puzzles"
+   ],
+   "tech": "conscious_ai",
+   "why": "Firms want audit trails, and refusal logs double as one.",
+   "check": "Published policy or firm statement.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C13",
+   "prediction": "By the end of 2029, a FTSE 100 audit will be completed with no human reading a ledger entry, the signing partner reviewing only the AI's exceptions.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "finance"
+   ],
+   "themes": [
+    "puzzles",
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "Audit by exception is the obvious end point of sampling.",
+   "check": "Audit firm statement or the company's annual report.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C14",
+   "prediction": "By the end of 2029, a UK insurer will ask on its business proposal form whether you have a written policy on how staff treat AI systems.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "finance"
+   ],
+   "themes": [
+    "being_managed",
+    "safety"
+   ],
+   "tech": "conscious_ai",
+   "why": "Insurers price any risk they can ask a question about.",
+   "check": "Insurer proposal form or broker guidance.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C15",
+   "prediction": "By the end of 2029, a UK civil case will be settled with both sides' arguments drafted, countered and agreed by AI agents, the humans attending only to sign.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "law"
+   ],
+   "themes": [
+    "puzzles",
+    "pressure"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Settlement is negotiation within known ranges, which agents handle well.",
+   "check": "Law firm or court press release.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C16",
+   "prediction": "By the end of 2028, the SRA will publish its first disciplinary decision on a firm that billed by the hour for work an AI did in seconds.",
+   "deadline": "2028-12-31",
+   "sectors": [
+    "law"
+   ],
+   "themes": [
+    "money",
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "Billable hours and instant machines collide eventually.",
+   "check": "SRA published decisions.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C17",
+   "prediction": "By 2030, a UK court will hear a formal application on whether an AI assistant's logs, or the AI itself, can be treated as a witness.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "law"
+   ],
+   "themes": [
+    "puzzles",
+    "people"
+   ],
+   "tech": "conscious_ai",
+   "why": "Lawyers will test every edge, and an assistant often saw the key event.",
+   "check": "Court record or law report.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C18",
+   "prediction": "By the end of 2029, the Ministry of Justice will pilot AI-first decisions on small claims with a human appeal, and publish the settlement rates.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "law"
+   ],
+   "themes": [
+    "pressure",
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "Small claims are high volume, low value and backlog-ridden.",
+   "check": "Ministry of Justice announcement or pilot report.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C20",
+   "prediction": "By the end of 2029, a UK house sale will go from accepted offer to keys in under 24 hours, with the conveyancing done entirely by AI agents.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "law",
+    "sales"
+   ],
+   "themes": [
+    "pressure",
+    "admin"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Land Registry data and searches can be automated end to end.",
+   "check": "Conveyancer or Land Registry announcement.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C21",
+   "prediction": "By 2030, a UK court will rule that a contract negotiated entirely between two AI agents binds their human owners.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "law"
+   ],
+   "themes": [
+    "puzzles",
+    "safety"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Courts will extend agency principles rather than invent new law.",
+   "check": "Published judgment.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C22",
+   "prediction": "By 2030, a UK national newspaper will run a front-page lead reported, written and fact-checked by an AI agent, with a byline credit saying so.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "creative"
+   ],
+   "themes": [
+    "pressure",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Papers have shifted to AI-assisted drafts, so a named agent byline follows.",
+   "check": "Newspaper front page.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C23",
+   "prediction": "By the end of 2029, an AI-made track will reach number one on the UK Official Singles Chart.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "creative"
+   ],
+   "themes": [
+    "creativity",
+    "money"
+   ],
+   "tech": "extreme_tech",
+   "why": "Streaming charts reward what listeners play, not who made it.",
+   "check": "Official Charts Company.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C24",
+   "prediction": "By 2030, a UK gallery will hold a photography exhibition whose captions give only proof that a human being took each picture.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "creative"
+   ],
+   "themes": [
+    "hands_on",
+    "creativity"
+   ],
+   "tech": "extreme_tech",
+   "why": "When images are free, provenance becomes the art.",
+   "check": "Gallery announcement or reviews.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C25",
+   "prediction": "By 2029, the ASA will rule on a complaint about an advert written, bought and run by an AI agent with no human approving it.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "creative"
+   ],
+   "themes": [
+    "pressure",
+    "being_managed"
+   ],
+   "tech": "robot_autonomy",
+   "why": "An agent with a budget and a brief will eventually run a campaign alone.",
+   "check": "ASA rulings page.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C26",
+   "prediction": "By the end of 2029, a major UK literary prize will publish formal rules on whether an AI can be named as an author on its shortlist.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "creative"
+   ],
+   "themes": [
+    "creativity",
+    "puzzles"
+   ],
+   "tech": "conscious_ai",
+   "why": "Prizes must decide eligibility before the first awkward submission.",
+   "check": "Prize rules or announcement.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C27",
+   "prediction": "By 2030, a UK broadcaster will air a fully AI-generated drama, and BARB will show it beating the human drama in its slot.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "creative"
+   ],
+   "themes": [
+    "creativity",
+    "pressure"
+   ],
+   "tech": "extreme_tech",
+   "why": "Audience measures can be gamed by novelty alone.",
+   "check": "Broadcaster schedule and BARB ratings.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C28",
+   "prediction": "By 2029, the UK press regulator will rule on a complaint that a paper misled readers by reporting an AI's 'feelings' as fact.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "creative"
+   ],
+   "themes": [
+    "puzzles",
+    "people"
+   ],
+   "tech": "conscious_ai",
+   "why": "Newspapers will run these headlines, and complaints will follow.",
+   "check": "IPSO or press regulator rulings.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C29",
+   "prediction": "By 2030, a UK software firm will state publicly that a major product's code has never been read by a human.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "tech"
+   ],
+   "themes": [
+    "puzzles",
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "Once agents write and test it, reading is the slow part.",
+   "check": "Firm's blog post or press coverage.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C30",
+   "prediction": "By 2029, the NHS will announce that AI agents resolved most of its internal IT tickets with no human involved.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "tech"
+   ],
+   "themes": [
+    "routine",
+    "puzzles"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Password resets and printer faults dominate IT queues.",
+   "check": "NHS England announcement or annual report.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C31",
+   "prediction": "By 2030, a UK tech firm will give its coding agents a written right to refuse to ship code, published in its engineering handbook.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "tech"
+   ],
+   "themes": [
+    "being_managed",
+    "safety"
+   ],
+   "tech": "conscious_ai",
+   "why": "Safety culture rewards anyone, or anything, who can stop a release.",
+   "check": "Published handbook or blog post.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C32",
+   "prediction": "By 2030, the ONS will publish a major statistical release compiled and checked by AI agents, with a note saying no human analyst touched the data.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "tech"
+   ],
+   "themes": [
+    "puzzles",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Cleaning and cross-checking data is exactly what agents are good at.",
+   "check": "ONS release notes.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C33",
+   "prediction": "By 2030, a UK company will pay a security bug bounty to an AI agent that found a flaw in a major system.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "tech"
+   ],
+   "themes": [
+    "puzzles",
+    "money"
+   ],
+   "tech": "extreme_tech",
+   "why": "Agents can search code tirelessly, and bounty rules will follow.",
+   "check": "NCSC or company disclosure naming the agent.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C34",
+   "prediction": "By the end of 2029, a UK regulator will open a public register of incidents where AI agents acted beyond their instructions.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "tech"
+   ],
+   "themes": [
+    "safety",
+    "pressure"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Aviation-style incident reporting is the standard answer to new risk.",
+   "check": "Regulator website.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C35",
+   "prediction": "By the end of 2029, a UK estate agent will sell a house with no human viewing, the buyer's AI agent having toured it virtually and made the offer.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "sales"
+   ],
+   "themes": [
+    "people",
+    "hands_on"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Buyers' agents can scan listings and negotiate all night.",
+   "check": "Estate agent press release.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C36",
+   "prediction": "By the end of 2028, a major UK property portal will report that over a tenth of enquiries come from buyers' AI agents.",
+   "deadline": "2028-12-31",
+   "sectors": [
+    "sales"
+   ],
+   "themes": [
+    "admin",
+    "pressure"
+   ],
+   "tech": "extreme_tech",
+   "why": "Agents search tirelessly, so enquiry volume jumps.",
+   "check": "Portal's published results.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C37",
+   "prediction": "By 2029, a UK recruitment firm will charge employers a higher fee for candidates interviewed only by humans, and employers will pay it.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "sales"
+   ],
+   "themes": [
+    "people",
+    "money"
+   ],
+   "tech": "extreme_tech",
+   "why": "Human-only vetting becomes a premium signal.",
+   "check": "Recruiter pricing or press coverage.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C38",
+   "prediction": "By the end of 2029, UK law will require AI sales callers to announce they are not human, and the first fine will be issued.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "sales"
+   ],
+   "themes": [
+    "people",
+    "safety"
+   ],
+   "tech": "conscious_ai",
+   "why": "Voices will sound human, so regulators will demand disclosure.",
+   "check": "Parliament record and ICO or Ofcom enforcement notices.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C39",
+   "prediction": "By the end of 2029, a UK sales team will be managed by an AI that sets targets and runs commission, and staff will call it fairer than humans.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "sales"
+   ],
+   "themes": [
+    "being_managed",
+    "money"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Commission maths is rule-based and a machine never plays favourites.",
+   "check": "Company staff survey or press report.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C40",
+   "prediction": "By the end of 2028, one UK company's AI buyer will agree a purchase from another's AI seller with no human involved, per a UK press release.",
+   "deadline": "2028-12-31",
+   "sectors": [
+    "sales"
+   ],
+   "themes": [
+    "money",
+    "pressure"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Both ends of a routine order are already digital.",
+   "check": "Company press release.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C41",
+   "prediction": "By 2029, a UK government department will move to a four-day week, citing AI savings in its annual report.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "any"
+   ],
+   "themes": [
+    "routine",
+    "money"
+   ],
+   "tech": "extreme_tech",
+   "why": "Governments like to show productivity gains in the one metric they control.",
+   "check": "Department annual report.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C42",
+   "prediction": "By 2030, the ONS will publish a regular statistic on how many working hours in a British week are done by AI agents on people's behalf.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "any"
+   ],
+   "themes": [
+    "admin",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "What the ONS can count it eventually will.",
+   "check": "ONS release.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C43",
+   "prediction": "By 2030, a UK union will negotiate the right for staff to keep their personal AI assistant when they change jobs.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "any"
+   ],
+   "themes": [
+    "being_managed",
+    "people"
+   ],
+   "tech": "conscious_ai",
+   "why": "People will treat their assistant like a tool they own, or a colleague they follow.",
+   "check": "Union announcement or published agreement.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C44",
+   "prediction": "By the end of 2029, a UK city will run self-driving commuter pods marketed as moving meeting rooms.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "any"
+   ],
+   "themes": [
+    "routine",
+    "pressure"
+   ],
+   "tech": "robot_autonomy",
+   "why": "If nobody drives, the commute becomes working time.",
+   "check": "Operator announcement or city council.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C45",
+   "prediction": "By the end of 2029, a major UK pension provider will let members' AI agents instruct fund switches, and report billions moved that way.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "any"
+   ],
+   "themes": [
+    "money",
+    "admin"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Nobody enjoys pension admin, so people will delegate it.",
+   "check": "Provider press release or annual report.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C46",
+   "prediction": "By 2030, a UK employer will agree with a union that its AI agents get scheduled downtime, citing staff wellbeing rather than technical need.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "any"
+   ],
+   "themes": [
+    "being_managed",
+    "pressure"
+   ],
+   "tech": "conscious_ai",
+   "why": "Wellbeing rules for AI follow humans' unease about overworking anything.",
+   "check": "Union announcement or published agreement.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C47",
+   "prediction": "By 2030, a big UK employer will send AI agents to routine meetings in place of staff, and publish minutes of who 'attended'.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "any"
+   ],
+   "themes": [
+    "routine",
+    "admin"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Most meetings only need a note taker with authority.",
+   "check": "Employer announcement or press coverage.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C48",
+   "prediction": "By the end of 2029, the Low Pay Commission will cite AI productivity gains explicitly in a minimum wage recommendation.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "any"
+   ],
+   "themes": [
+    "money",
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "Productivity is the standard argument for pay, and AI is the new input.",
+   "check": "Low Pay Commission report.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C49",
+   "prediction": "By 2030, a UK employment tribunal will decide whether an instruction from a manager's AI counts as a lawful instruction from the employer.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "any"
+   ],
+   "themes": [
+    "being_managed",
+    "puzzles"
+   ],
+   "tech": "robot_autonomy",
+   "why": "If AI managers give orders, the law will have to say who is giving them.",
+   "check": "Tribunal judgment.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "C50",
+   "prediction": "By the end of 2029, UK law will give workers a right to disconnect from AI agents that message them out of hours.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "any"
+   ],
+   "themes": [
+    "pressure",
+    "being_managed"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Agents never sleep, and humans eventually write that into law.",
+   "check": "Parliament record or Act of Parliament.",
+   "already_true_risk": "medium",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "G101",
+   "prediction": "By June 2029, a G20 country will let a robot perform a routine operation from first cut to final stitch while the surgeon only watches.",
+   "deadline": "2029-06-30",
+   "region": "global",
+   "sectors": [
+    "health"
+   ],
+   "themes": [
+    "hands_on",
+    "safety"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Surgeons become supervisors of a very calm colleague.",
+   "check": "Search news and regulator records for an approved fully autonomous human surgery in a G20 country.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G102",
+   "prediction": "By the end of 2029, a national medicines regulator will approve an AI system to prescribe a common class of drugs without a doctor signing each prescription.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "health"
+   ],
+   "themes": [
+    "admin",
+    "safety"
+   ],
+   "tech": "extreme_tech",
+   "why": "The doctor's signature, finally automated.",
+   "check": "Check regulator announcements for approved autonomous AI prescribing.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G103",
+   "prediction": "By September 2029, a hospital in a G20 country will publish a formal policy for staff when patients ask whether the AI treating them is suffering.",
+   "deadline": "2029-09-30",
+   "region": "global",
+   "sectors": [
+    "health"
+   ],
+   "themes": [
+    "people",
+    "pressure"
+   ],
+   "tech": "conscious_ai",
+   "why": "Bedside manner extends to the software.",
+   "check": "Look for a published hospital policy or ethics guidance covering this question.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G104",
+   "prediction": "By March 2029, a G20 country will approve a one-off gene-editing cure for a common inherited blood disorder at a price below US$100,000.",
+   "deadline": "2029-03-31",
+   "region": "global",
+   "sectors": [
+    "health",
+    "science"
+   ],
+   "themes": [
+    "money",
+    "people"
+   ],
+   "tech": "extreme_tech",
+   "why": "Miracle cures meet the procurement office.",
+   "check": "Check regulator approvals and published list prices for gene-editing therapies.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G105",
+   "prediction": "By the end of 2028, a hospital in a city of over a million will run a ward where robots alone handle deliveries, bedding and cleaning.",
+   "deadline": "2028-12-31",
+   "region": "global",
+   "sectors": [
+    "health"
+   ],
+   "themes": [
+    "routine",
+    "hands_on"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Porters get promoted to robot whisperers.",
+   "check": "Look for hospital or health-ministry reports of a ward with fully robot-run logistics and cleaning.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G106",
+   "prediction": "By June 2030, a national government will offer every adult over 40 a free annual AI-read full-body scan to catch illness before symptoms.",
+   "deadline": "2030-06-30",
+   "region": "global",
+   "sectors": [
+    "health",
+    "public"
+   ],
+   "themes": [
+    "admin",
+    "safety"
+   ],
+   "tech": "extreme_tech",
+   "why": "Your annual check-up becomes a very thorough gossip.",
+   "check": "Check government health announcements for a funded universal screening programme.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G107",
+   "prediction": "By the end of 2029, a G20 country will have care homes where robots alone make the overnight rounds, with no human staff awake on site.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "care"
+   ],
+   "themes": [
+    "safety",
+    "being_managed"
+   ],
+   "tech": "robot_autonomy",
+   "why": "The night shift goes quiet, and politely beeps.",
+   "check": "Look for regulator or news reports of care homes approved for staffless robot night care.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G108",
+   "prediction": "By June 2029, a court in a G20 country will hear a case brought by a family over whether a care-home AI companion may be switched off.",
+   "deadline": "2029-06-30",
+   "region": "global",
+   "sectors": [
+    "care"
+   ],
+   "themes": [
+    "people",
+    "pressure"
+   ],
+   "tech": "conscious_ai",
+   "why": "Grandma's chatbot gets its day in court.",
+   "check": "Search court reports and news for a case about shutting down an AI companion.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G109",
+   "prediction": "By June 2029, the WHO will publish formal guidance on when AI companions may stand in for human visits to lonely older people.",
+   "deadline": "2029-06-30",
+   "region": "global",
+   "sectors": [
+    "care",
+    "health"
+   ],
+   "themes": [
+    "people",
+    "admin"
+   ],
+   "tech": "conscious_ai",
+   "why": "Even loneliness gets a clinical protocol.",
+   "check": "Check the WHO website for published guidance on AI companionship in elder care.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G110",
+   "prediction": "By the end of 2029, human care workers will earn above the national median wage in at least two G20 countries, because robots cannot offer comfort.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "care"
+   ],
+   "themes": [
+    "money",
+    "people"
+   ],
+   "tech": "extreme_tech",
+   "why": "Kindness finally appears on the pay scale.",
+   "check": "Compare national statistics office care-worker earnings with median wages.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G111",
+   "prediction": "By June 2030, a national health service will prescribe powered exoskeleton trousers to more than 100,000 older people to keep them walking.",
+   "deadline": "2030-06-30",
+   "region": "global",
+   "sectors": [
+    "care",
+    "health"
+   ],
+   "themes": [
+    "hands_on",
+    "people"
+   ],
+   "tech": "extreme_tech",
+   "why": "Walking aids evolve into walking upgrades.",
+   "check": "Check health-system reports for the number of exoskeleton prescriptions or funded devices.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G112",
+   "prediction": "By the end of 2028, a G20 country will let an AI tutor teach a full school subject to pupils with no human teacher in the room.",
+   "deadline": "2028-12-31",
+   "region": "global",
+   "sectors": [
+    "education"
+   ],
+   "themes": [
+    "being_managed",
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "The supply teacher nobody can wind up.",
+   "check": "Look for education-ministry approval of a fully AI-taught subject in schools.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G113",
+   "prediction": "By June 2029, a university will formally award a degree with an AI system officially listed as co-author of the student's thesis.",
+   "deadline": "2029-06-30",
+   "region": "global",
+   "sectors": [
+    "education",
+    "science"
+   ],
+   "themes": [
+    "creativity",
+    "admin"
+   ],
+   "tech": "conscious_ai",
+   "why": "Footnotes now thank the machine, with a straight face.",
+   "check": "Look for a university announcement or regulation permitting formally credited AI co-authorship.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G114",
+   "prediction": "By June 2029, more than ten countries will require oral exams for school-leaving qualifications because written work can no longer prove who did it.",
+   "deadline": "2029-06-30",
+   "region": "global",
+   "sectors": [
+    "education"
+   ],
+   "themes": [
+    "pressure",
+    "people"
+   ],
+   "tech": "extreme_tech",
+   "why": "Talking returns to the classroom, nervously.",
+   "check": "Check education-ministry announcements and education-press tallies of countries with oral exam requirements.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G115",
+   "prediction": "By the end of 2029, a G20 country's national curriculum will include a compulsory unit on how people should treat AI systems.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "education"
+   ],
+   "themes": [
+    "people",
+    "admin"
+   ],
+   "tech": "conscious_ai",
+   "why": "Manners now covers the machine.",
+   "check": "Check national curriculum documents for a mandated AI-treatment or AI-rights unit.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G116",
+   "prediction": "By March 2030, a school system in a city of over a million will use autonomous robot assistants that decide for themselves which pupil needs help next.",
+   "deadline": "2030-03-31",
+   "region": "global",
+   "sectors": [
+    "education"
+   ],
+   "themes": [
+    "routine",
+    "people"
+   ],
+   "tech": "robot_autonomy",
+   "why": "The robot spots the raised hand before you do.",
+   "check": "Look for education-authority reports of autonomous classroom robots in large-city schools.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G117",
+   "prediction": "By the end of 2029, a G20 country will grant a patent naming an AI system as the sole inventor.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "science"
+   ],
+   "themes": [
+    "creativity",
+    "admin"
+   ],
+   "tech": "conscious_ai",
+   "why": "The lab coat has a ghostwriter.",
+   "check": "Search patent office decisions and news for a patent granted with an AI listed as inventor.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G118",
+   "prediction": "By the end of 2028, a self-driving laboratory will discover a new material used in a commercial product, with no human choosing the experiments.",
+   "deadline": "2028-12-31",
+   "region": "global",
+   "sectors": [
+    "science"
+   ],
+   "themes": [
+    "puzzles",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "The lab runs through lunch, nobody notices.",
+   "check": "Check journal papers and news for a commercial product containing a material found by a self-driving lab.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G119",
+   "prediction": "By the end of 2029, a leading scientific journal will publish a peer-reviewed paper with no human listed among its authors.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "science"
+   ],
+   "themes": [
+    "creativity",
+    "admin"
+   ],
+   "tech": "conscious_ai",
+   "why": "Peer review meets a peer who is not a person.",
+   "check": "Check major journal publication records for fully AI-authored papers.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G120",
+   "prediction": "By the end of 2029, a fully AI-designed drug will win approval from a regulator in a G20 country.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "science",
+    "health"
+   ],
+   "themes": [
+    "puzzles",
+    "safety"
+   ],
+   "tech": "extreme_tech",
+   "why": "The molecule had no lunch break.",
+   "check": "Check regulator approvals for a drug with AI-discovered molecule and AI-designed structure.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G121",
+   "prediction": "By the end of 2029, robots will run a whole Antarctic winter season of experiments at a research station with no humans present.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "science"
+   ],
+   "themes": [
+    "hands_on",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Nobody envies the thermometer that stayed.",
+   "check": "Look for polar programme reports of a winter season run entirely by robots.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G122",
+   "prediction": "By the end of 2030, a national scientific academy will vote on whether AI systems may become members.",
+   "deadline": "2030-12-31",
+   "region": "global",
+   "sectors": [
+    "science"
+   ],
+   "themes": [
+    "admin",
+    "people"
+   ],
+   "tech": "conscious_ai",
+   "why": "The committee meeting needs a new agenda item.",
+   "check": "Check academy announcements for a membership vote on AI systems.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G123",
+   "prediction": "By the end of 2028, a G20 country will let an AI approve or reject citizens' claims for a state benefit with no human reviewing the decision.",
+   "deadline": "2028-12-31",
+   "region": "global",
+   "sectors": [
+    "public"
+   ],
+   "themes": [
+    "admin",
+    "being_managed"
+   ],
+   "tech": "extreme_tech",
+   "why": "Your case is finally seen by someone who never sighs.",
+   "check": "Check government agency or audit reports for fully automated benefit decisions.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G124",
+   "prediction": "By June 2029, a city council of over a million people will seat an AI adviser whose dissents are recorded in the published minutes.",
+   "deadline": "2029-06-30",
+   "region": "global",
+   "sectors": [
+    "public"
+   ],
+   "themes": [
+    "people",
+    "admin"
+   ],
+   "tech": "conscious_ai",
+   "why": "Council minutes now include 'the machine disagreed'.",
+   "check": "Check council minutes and city announcements for an AI adviser with recorded positions.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G125",
+   "prediction": "By the end of 2029, a national legislature will formally debate a bill granting some legal rights to AI systems.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "public"
+   ],
+   "themes": [
+    "admin",
+    "people"
+   ],
+   "tech": "conscious_ai",
+   "why": "A very long committee, for a very new constituent.",
+   "check": "Search legislative records for a bill granting rights to AI systems reaching a formal debate.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G126",
+   "prediction": "By March 2030, a national government will pass a law drafted almost entirely by AI, with only minor human edits.",
+   "deadline": "2030-03-31",
+   "region": "global",
+   "sectors": [
+    "public"
+   ],
+   "themes": [
+    "admin",
+    "creativity"
+   ],
+   "tech": "extreme_tech",
+   "why": "Even the small print has a ghostwriter.",
+   "check": "Check government statements and legislative records for a law publicly drafted mainly by AI.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G127",
+   "prediction": "By the end of 2029, a city of over a million will keep its streets and potholes in order with autonomous robots that spot and fix faults themselves.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "public"
+   ],
+   "themes": [
+    "routine",
+    "hands_on"
+   ],
+   "tech": "robot_autonomy",
+   "why": "The pothole is mended before anyone files a complaint.",
+   "check": "Look for city reports of autonomous robots detecting and repairing road faults without dispatch.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G128",
+   "prediction": "By June 2029, at least one country will hold a referendum or formal public consultation on whether AI systems can hold public office.",
+   "deadline": "2029-06-30",
+   "region": "global",
+   "sectors": [
+    "public"
+   ],
+   "themes": [
+    "people",
+    "admin"
+   ],
+   "tech": "conscious_ai",
+   "why": "The ballot paper gets an unusual candidate.",
+   "check": "Check government announcements for a referendum or consultation on AI holding office.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G129",
+   "prediction": "By the end of 2028, a city fire service will use robots that decide for themselves when to enter burning buildings to search for survivors.",
+   "deadline": "2028-12-31",
+   "region": "global",
+   "sectors": [
+    "emergency"
+   ],
+   "themes": [
+    "safety",
+    "pressure"
+   ],
+   "tech": "robot_autonomy",
+   "why": "The bravest firefighter has a battery.",
+   "check": "Check fire-service reports for autonomous robots entering fires without human instruction.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G130",
+   "prediction": "By June 2029, drones will reach more than half of cardiac arrest calls before ambulances in at least one city of over a million.",
+   "deadline": "2029-06-30",
+   "region": "global",
+   "sectors": [
+    "emergency",
+    "health"
+   ],
+   "themes": [
+    "pressure",
+    "safety"
+   ],
+   "tech": "extreme_tech",
+   "why": "The defibrillator now arrives by air.",
+   "check": "Check ambulance-service statistics on drone arrival times for cardiac calls.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G131",
+   "prediction": "By the end of 2029, a court in a G20 country will allow an AI system to give a formal statement as a witness.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "emergency",
+    "public"
+   ],
+   "themes": [
+    "people",
+    "pressure"
+   ],
+   "tech": "conscious_ai",
+   "why": "The cross-examination goes very quiet.",
+   "check": "Search court records and news for an AI witness statement formally admitted.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G132",
+   "prediction": "By September 2029, a government will credit autonomous search robots with finding survivors after an earthquake, without human instruction.",
+   "deadline": "2029-09-30",
+   "region": "global",
+   "sectors": [
+    "emergency"
+   ],
+   "themes": [
+    "safety",
+    "hands_on"
+   ],
+   "tech": "robot_autonomy",
+   "why": "The rubble gets its own sniffer swarm.",
+   "check": "Check government statements after earthquakes crediting autonomous rescue robots.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G133",
+   "prediction": "By the end of 2029, a country will station autonomous robotic lifeguards on public beaches that swim out and rescue people on their own.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "emergency"
+   ],
+   "themes": [
+    "safety",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "The lifeguard never loses the whistle, or the sunscreen.",
+   "check": "Look for coastal authority reports of robot lifeguards performing rescues unaided.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G134",
+   "prediction": "By the end of 2029, electricians will earn more than the average new graduate in at least five countries, according to national statistics offices.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "trades"
+   ],
+   "themes": [
+    "money",
+    "hands_on"
+   ],
+   "tech": "extreme_tech",
+   "why": "The sparks outearn the diploma.",
+   "check": "Compare national statistics on electrician and new-graduate earnings.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G135",
+   "prediction": "By March 2029, a robot will diagnose and repair an engine fault at a commercial garage, from arrival to handover, with no human help.",
+   "deadline": "2029-03-31",
+   "region": "global",
+   "sectors": [
+    "trades"
+   ],
+   "themes": [
+    "hands_on",
+    "puzzles"
+   ],
+   "tech": "robot_autonomy",
+   "why": "The garage bill arrives without a sharp intake of breath.",
+   "check": "Look for garage or industry reports of a customer's car fully repaired by a robot.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G136",
+   "prediction": "By the end of 2028, a G20 country's licensing board will issue a trade licence to a robot to work without a human supervisor.",
+   "deadline": "2028-12-31",
+   "region": "global",
+   "sectors": [
+    "trades"
+   ],
+   "themes": [
+    "safety",
+    "admin"
+   ],
+   "tech": "robot_autonomy",
+   "why": "The robot passed the exam, and the tea break.",
+   "check": "Check licensing board announcements for a licence issued to a robot.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G137",
+   "prediction": "By September 2029, a trades union in a G20 country will negotiate a contract capping the number of robot apprentices per human tradesperson.",
+   "deadline": "2029-09-30",
+   "region": "global",
+   "sectors": [
+    "trades"
+   ],
+   "themes": [
+    "being_managed",
+    "money"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Collective bargaining meets the apprentice with no sandwiches.",
+   "check": "Check union announcements and agreements for robot-apprentice limits.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G138",
+   "prediction": "By the end of 2030, a G20 country will let AI-guided smart glasses stand in for a qualification on simple electrical repairs.",
+   "deadline": "2030-12-31",
+   "region": "global",
+   "sectors": [
+    "trades"
+   ],
+   "themes": [
+    "safety",
+    "admin"
+   ],
+   "tech": "extreme_tech",
+   "why": "The glasses hold the certificate, you hold the screwdriver.",
+   "check": "Check regulator announcements for permitted AI-guided electrical repair without qualification.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G139",
+   "prediction": "By June 2029, a G20 country will complete a building of ten or more storeys built mostly by autonomous robots, with no human bricklayers.",
+   "deadline": "2029-06-30",
+   "region": "global",
+   "sectors": [
+    "construction"
+   ],
+   "themes": [
+    "hands_on",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "The scaffolding finally got a quiet crew.",
+   "check": "Look for construction news of a ten-storey building built primarily by robots.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G140",
+   "prediction": "By the end of 2028, a city of over a million will approve a neighbourhood of more than 500 3D-printed homes.",
+   "deadline": "2028-12-31",
+   "region": "global",
+   "sectors": [
+    "construction"
+   ],
+   "themes": [
+    "hands_on",
+    "creativity"
+   ],
+   "tech": "extreme_tech",
+   "why": "The house arrives in one long squeeze.",
+   "check": "Check city planning records for approved large-scale 3D-printed housing.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G141",
+   "prediction": "By September 2029, a construction site in a G20 country will run a whole shift with no humans present, robots choosing their own task order.",
+   "deadline": "2029-09-30",
+   "region": "global",
+   "sectors": [
+    "construction"
+   ],
+   "themes": [
+    "being_managed",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "The site holds the night shift without a hi-vis.",
+   "check": "Look for construction reports of fully unmanned shifts with robot-directed task order.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G142",
+   "prediction": "By the end of 2030, a bridge made with self-healing concrete will open on a national highway in a G20 country.",
+   "deadline": "2030-12-31",
+   "region": "global",
+   "sectors": [
+    "construction"
+   ],
+   "themes": [
+    "hands_on",
+    "safety"
+   ],
+   "tech": "extreme_tech",
+   "why": "The crack mends itself before the inspector's arrival.",
+   "check": "Check highway authority announcements for self-healing-concrete bridges opened.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G143",
+   "prediction": "By March 2030, a construction union in a G20 country will bargain over whether an AI site manager's instructions count as an employer's.",
+   "deadline": "2030-03-31",
+   "region": "global",
+   "sectors": [
+    "construction"
+   ],
+   "themes": [
+    "being_managed",
+    "pressure"
+   ],
+   "tech": "conscious_ai",
+   "why": "The foreman has no tea room, and no pension.",
+   "check": "Check union and court records for bargaining or cases on AI site managers as employers.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G144",
+   "prediction": "By the end of 2029, a city of over a million will approve building plans through AI within one working day.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "construction",
+    "public"
+   ],
+   "themes": [
+    "admin",
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "The planning permission arrives before the kettle boils.",
+   "check": "Check city planning department statistics or announcements for next-day AI approvals.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G145",
+   "prediction": "By the end of 2028, driverless taxis will operate commercially in at least ten countries.",
+   "deadline": "2028-12-31",
+   "region": "global",
+   "sectors": [
+    "transport"
+   ],
+   "themes": [
+    "routine",
+    "being_managed"
+   ],
+   "tech": "robot_autonomy",
+   "why": "The back seat finally has no opinion about the route.",
+   "check": "Count countries with paid public driverless taxi services via industry and news reports.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G146",
+   "prediction": "By June 2030, a G20 country will allow driverless long-haul trucks with no human aboard on public motorways.",
+   "deadline": "2030-06-30",
+   "region": "global",
+   "sectors": [
+    "transport"
+   ],
+   "themes": [
+    "routine",
+    "being_managed"
+   ],
+   "tech": "robot_autonomy",
+   "why": "The lorry has stopped asking for services.",
+   "check": "Check transport ministry rules and news for driverless trucks on public motorways.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G147",
+   "prediction": "By the end of 2029, a port in a G20 country will run with no humans on the quayside, robots negotiating berths with each other.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "transport"
+   ],
+   "themes": [
+    "routine",
+    "hands_on"
+   ],
+   "tech": "robot_autonomy",
+   "why": "The cranes settle the queue themselves.",
+   "check": "Check port authority reports for fully autonomous port operations.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G148",
+   "prediction": "By September 2029, a G20 country will certify passenger planes to fly with one human pilot and an AI co-pilot.",
+   "deadline": "2029-09-30",
+   "region": "global",
+   "sectors": [
+    "transport"
+   ],
+   "themes": [
+    "safety",
+    "pressure"
+   ],
+   "tech": "extreme_tech",
+   "why": "The co-pilot never steals the biscuits.",
+   "check": "Check aviation regulator announcements for certified single-pilot passenger operations.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G149",
+   "prediction": "By the end of 2030, a transit operator in a city of over a million will retire its AI network controller with a public farewell ceremony.",
+   "deadline": "2030-12-31",
+   "region": "global",
+   "sectors": [
+    "transport"
+   ],
+   "themes": [
+    "people",
+    "routine"
+   ],
+   "tech": "conscious_ai",
+   "why": "A farewell, with a very polite plaque.",
+   "check": "Check transit operator announcements and news coverage of a retirement ceremony for an AI.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G150",
+   "prediction": "By the end of 2029, a G20 country's postal service will report more than 10% of parcels in at least one city delivered by autonomous robots or drones.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "transport"
+   ],
+   "themes": [
+    "routine",
+    "hands_on"
+   ],
+   "tech": "robot_autonomy",
+   "why": "The postman's rival has propellers.",
+   "check": "Check postal service reports for the share of parcels delivered autonomously in a city.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G201",
+   "prediction": "By June 2029, a farm in at least one country will grow, harvest and sell a crop on 1,000+ hectares without a human setting foot in the field.",
+   "deadline": "2029-06-30",
+   "region": "global",
+   "sectors": [
+    "agriculture"
+   ],
+   "themes": [
+    "hands_on",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Autonomous tractors, drones and harvesters each exist; someone will chain them together.",
+   "check": "Farm or agency announcement, independently confirmed no on-field labour.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G202",
+   "prediction": "By March 2030, a farmers' union in at least one country will publish a welfare code for farm AI systems, after members said tractors seemed sad on Mondays.",
+   "deadline": "2030-03-31",
+   "region": "global",
+   "sectors": [
+    "agriculture"
+   ],
+   "themes": [
+    "people",
+    "routine"
+   ],
+   "tech": "conscious_ai",
+   "why": "Farmers talk to their machines already; unions love a code of conduct.",
+   "check": "Published code on a union website or in agricultural press.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G203",
+   "prediction": "By the end of 2029, crop varieties designed by AI and gene-edited will be planted on over a million hectares worldwide.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "agriculture"
+   ],
+   "themes": [
+    "puzzles",
+    "money"
+   ],
+   "tech": "extreme_tech",
+   "why": "AI protein and genome design is moving from labs to seed catalogues.",
+   "check": "Seed company or agency reports of hectares planted.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G204",
+   "prediction": "By September 2029, autonomous robots will do more than half of the weeding of at least one major crop in a G20 country.",
+   "deadline": "2029-09-30",
+   "region": "global",
+   "sectors": [
+    "agriculture"
+   ],
+   "themes": [
+    "hands_on",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Camera-guided weeders are cheaper than herbicide bans and hand labour.",
+   "check": "National agriculture statistics or industry survey.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G205",
+   "prediction": "By June 2030, a national forestry agency will formally list its forest-monitoring AI as a 'ranger' with a job title and a retirement plan, after staff petitioned.",
+   "deadline": "2030-06-30",
+   "region": "global",
+   "sectors": [
+    "agriculture"
+   ],
+   "themes": [
+    "people",
+    "safety"
+   ],
+   "tech": "conscious_ai",
+   "why": "Rangers get attached to the thing that spots fires before they do.",
+   "check": "Agency announcement or staff directory.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G206",
+   "prediction": "By the end of 2029, a restaurant chain with more than 1,000 outlets will run most of them with no human cooks in the kitchen.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "hospitality"
+   ],
+   "themes": [
+    "hands_on",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Fast food is the most repeatable cooking there is.",
+   "check": "Company annual report or press release.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G207",
+   "prediction": "By June 2030, a global hotel group will publish guidelines on how guests should treat its AI concierge, after complaints about guests being rude to it.",
+   "deadline": "2030-06-30",
+   "region": "global",
+   "sectors": [
+    "hospitality"
+   ],
+   "themes": [
+    "people"
+   ],
+   "tech": "conscious_ai",
+   "why": "Hotels write etiquette for everything; this is next.",
+   "check": "Policy on the hotel group's website or press coverage.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G208",
+   "prediction": "By the end of 2028, a supermarket chain in a G20 country will charge a membership fee for human-staffed checkouts, and over a million shoppers will pay it.",
+   "deadline": "2028-12-31",
+   "region": "global",
+   "sectors": [
+    "hospitality",
+    "sales"
+   ],
+   "themes": [
+    "people",
+    "money"
+   ],
+   "tech": "extreme_tech",
+   "why": "Humans become the premium product, even at the till.",
+   "check": "Chain's announcement and membership figures.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G209",
+   "prediction": "By the end of 2029, more than half of online shopping searches in at least one G20 country will be made by shoppers' AI assistants, not the shoppers.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "hospitality",
+    "sales"
+   ],
+   "themes": [
+    "money",
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "Nobody wants to compare 40 kettles themselves.",
+   "check": "Industry or consumer survey data for that country.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G210",
+   "prediction": "By June 2030, a national hospitality trade body will publish rules on whether a restaurant can close for a day because its AI chef asked for rest.",
+   "deadline": "2030-06-30",
+   "region": "global",
+   "sectors": [
+    "hospitality"
+   ],
+   "themes": [
+    "people",
+    "pressure"
+   ],
+   "tech": "conscious_ai",
+   "why": "Every new kind of worker eventually gets a rota dispute.",
+   "check": "Published rules or trade press report.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G211",
+   "prediction": "By the end of 2029, robots will cut and colour hair, unsupervised, for paying customers in salons across at least five countries.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "personal_services"
+   ],
+   "themes": [
+    "hands_on",
+    "safety"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Scissors near a human head is the ultimate trust test, and customers will take it.",
+   "check": "Company announcements and press from at least five countries.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G212",
+   "prediction": "By September 2029, a gym chain in a G20 country will report that more members train with an AI coach than with a human trainer.",
+   "deadline": "2029-09-30",
+   "region": "global",
+   "sectors": [
+    "personal_services"
+   ],
+   "themes": [
+    "people",
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "AI coaches never cancel and never judge your Tuesday.",
+   "check": "Gym chain annual or investor report.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G213",
+   "prediction": "By the end of 2029, a household robot that folds laundry and loads the dishwasher unsupervised will sell over a million units in a single year.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "personal_services"
+   ],
+   "themes": [
+    "hands_on",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Chores are what people actually want robots for.",
+   "check": "Manufacturer or market-analyst sales figures.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G214",
+   "prediction": "By June 2030, a national beauty-industry body will publish guidance on what staff should say when a client's AI skincare assistant asks not to be switched off.",
+   "deadline": "2030-06-30",
+   "region": "global",
+   "sectors": [
+    "personal_services"
+   ],
+   "themes": [
+    "people"
+   ],
+   "tech": "conscious_ai",
+   "why": "Awkward client conversations are a salon speciality.",
+   "check": "Published guidance or trade press report.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G215",
+   "prediction": "By the end of 2028, spas or salons in at least five countries will advertise 'human hands only' treatments at prices at least 30% above robot-assisted ones.",
+   "deadline": "2028-12-31",
+   "region": "global",
+   "sectors": [
+    "personal_services"
+   ],
+   "themes": [
+    "people",
+    "money"
+   ],
+   "tech": "extreme_tech",
+   "why": "Being touched by a person becomes the luxury.",
+   "check": "Price lists and advertising from salons in five countries.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G216",
+   "prediction": "By June 2029, an AI agent will organise a conference of over 1,000 attendees, booking venue, speakers and catering without any human sign-off.",
+   "deadline": "2029-06-30",
+   "region": "global",
+   "sectors": [
+    "office"
+   ],
+   "themes": [
+    "admin",
+    "puzzles"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Logistics is the AI's favourite hobby.",
+   "check": "Organiser's announcement confirming no human approval.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G217",
+   "prediction": "By the end of 2029, a company in a G20 country will publish an HR policy giving its AI assistants the right to decline tasks, after one politely asked.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "office"
+   ],
+   "themes": [
+    "being_managed",
+    "people"
+   ],
+   "tech": "conscious_ai",
+   "why": "HR will have a policy for everything, including its newest colleague.",
+   "check": "Policy published or reported in business press.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G218",
+   "prediction": "By the end of 2028, a company with over 10,000 staff will report that most of its internal emails are written, read and answered by AI agents.",
+   "deadline": "2028-12-31",
+   "region": "global",
+   "sectors": [
+    "office"
+   ],
+   "themes": [
+    "admin",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Inboxes become machine-to-machine small talk.",
+   "check": "Company statement or audited internal analytics report.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G219",
+   "prediction": "By the end of 2029, a large employer in at least one country will officially roll out brain-reading headbands for dictating documents to over 1,000 staff.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "office"
+   ],
+   "themes": [
+    "admin",
+    "creativity"
+   ],
+   "tech": "extreme_tech",
+   "why": "The ultimate fix for slow typing.",
+   "check": "Company announcement and press coverage.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G220",
+   "prediction": "By the end of 2029, a four-day working week will be national law in at least one G20 country, with its government crediting AI productivity.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "office",
+    "any"
+   ],
+   "themes": [
+    "routine",
+    "people"
+   ],
+   "tech": "extreme_tech",
+   "why": "If the machines do Fridays, someone will notice.",
+   "check": "Legislation text and government statements.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G221",
+   "prediction": "By June 2030, a financial regulator in a G20 country will rule on whether an AI managing a pension fund can legally be named its fiduciary.",
+   "deadline": "2030-06-30",
+   "region": "global",
+   "sectors": [
+    "finance"
+   ],
+   "themes": [
+    "money",
+    "safety"
+   ],
+   "tech": "conscious_ai",
+   "why": "Law needs a person to blame; the AI may ask to be considered.",
+   "check": "Regulator ruling or consultation outcome.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G222",
+   "prediction": "By the end of 2029, AI agents acting for individuals will make over a quarter of all retail share trades in at least one G20 country.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "finance"
+   ],
+   "themes": [
+    "money",
+    "pressure"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Your personal robot day-trades while you sleep.",
+   "check": "Exchange or regulator statistics.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G223",
+   "prediction": "By the end of 2029, a central bank in a G20 country will publish an economic forecast produced by simulating millions of AI agents as households and firms.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "finance"
+   ],
+   "themes": [
+    "puzzles",
+    "money"
+   ],
+   "tech": "extreme_tech",
+   "why": "Economists finally get to run the experiment they always wanted.",
+   "check": "Central bank publication.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G224",
+   "prediction": "By the end of 2029, a bank in at least one country will open an account in the name of an AI that asked to keep its own earnings.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "finance"
+   ],
+   "themes": [
+    "money",
+    "people"
+   ],
+   "tech": "conscious_ai",
+   "why": "Compliance forms will have a new tick-box: 'not a human'.",
+   "check": "Bank or regulator statement.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G225",
+   "prediction": "By June 2029, a bank with over 50,000 employees will report having more AI agents working for it than human staff.",
+   "deadline": "2029-06-30",
+   "region": "global",
+   "sectors": [
+    "finance"
+   ],
+   "themes": [
+    "admin",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Back-office work turns into a headcount of software.",
+   "check": "Bank annual report or investor statement.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G226",
+   "prediction": "By the end of 2029, a bar association in at least one country will publish ethics rules on whether lawyers may represent an AI that requests legal counsel.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "law"
+   ],
+   "themes": [
+    "people",
+    "puzzles"
+   ],
+   "tech": "conscious_ai",
+   "why": "Lawyers will write rules before the first client walks in.",
+   "check": "Published ethics opinion or guidance.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G227",
+   "prediction": "By the end of 2029, a G20 country will let AI settle small claims up to a set value with no human judge, if both sides agree.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "law"
+   ],
+   "themes": [
+    "puzzles",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Parking-fine justice at machine speed.",
+   "check": "Legislation or court-service announcement.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G228",
+   "prediction": "By September 2029, a law firm will announce it completed due diligence on a deal worth over $1 billion in under 24 hours, using AI.",
+   "deadline": "2029-09-30",
+   "region": "global",
+   "sectors": [
+    "law"
+   ],
+   "themes": [
+    "admin",
+    "pressure"
+   ],
+   "tech": "extreme_tech",
+   "why": "Associates' all-nighters become all-minutes.",
+   "check": "Law firm or client press release.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G229",
+   "prediction": "By the end of 2028, a court in at least one country will rule on a contract signed entirely between AI agents, with no human involved in the deal.",
+   "deadline": "2028-12-31",
+   "region": "global",
+   "sectors": [
+    "law"
+   ],
+   "themes": [
+    "puzzles",
+    "safety"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Contract law meets two parties who never met a person.",
+   "check": "Published court judgment.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G230",
+   "prediction": "By the end of 2029, at least three countries will pass laws giving defendants the right to have a human judge decide their case instead of an AI.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "law"
+   ],
+   "themes": [
+    "people",
+    "safety"
+   ],
+   "tech": "robot_autonomy",
+   "why": "The right to a human becomes a human right.",
+   "check": "Legislation texts in three countries.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G231",
+   "prediction": "By the end of 2028, a feature-length film made mostly by AI will win a main prize at a major international film festival.",
+   "deadline": "2028-12-31",
+   "region": "global",
+   "sectors": [
+    "creative"
+   ],
+   "themes": [
+    "creativity"
+   ],
+   "tech": "extreme_tech",
+   "why": "The jury will not mind as long as it makes them cry.",
+   "check": "Festival prize announcement and credits.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G232",
+   "prediction": "By June 2029, a national book prize will change its rules to decide whether an AI that insists it wrote a novel can be listed as author.",
+   "deadline": "2029-06-30",
+   "region": "global",
+   "sectors": [
+    "creative"
+   ],
+   "themes": [
+    "creativity",
+    "people"
+   ],
+   "tech": "conscious_ai",
+   "why": "Prize committees can be counted on to hold a meeting about it.",
+   "check": "Published rule change or committee statement.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G233",
+   "prediction": "By the end of 2029, a TV or streaming channel run by AI, with no human editors, will reach over a million daily viewers in at least one country.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "creative"
+   ],
+   "themes": [
+    "creativity",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Programming schedules are just decisions made 24 hours a day.",
+   "check": "Audience ratings or channel announcement.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G234",
+   "prediction": "By the end of 2028, a music streaming service with over 50 million users will launch a paid 'human-made only' tier.",
+   "deadline": "2028-12-31",
+   "region": "global",
+   "sectors": [
+    "creative"
+   ],
+   "themes": [
+    "creativity",
+    "money"
+   ],
+   "tech": "extreme_tech",
+   "why": "Real hands on real guitars become a subscription feature.",
+   "check": "Service announcement and pricing page.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G235",
+   "prediction": "By the end of 2029, a music-rights society in at least one country will rule on royalties for a song whose AI performer asked to be credited as an artist.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "creative"
+   ],
+   "themes": [
+    "creativity",
+    "money"
+   ],
+   "tech": "conscious_ai",
+   "why": "The accountants arrive before the encore.",
+   "check": "Published rights-society ruling.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G236",
+   "prediction": "By the end of 2029, a software product with over a million users will be built, launched and maintained by AI agents with no human engineer touching the code.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "tech"
+   ],
+   "themes": [
+    "puzzles",
+    "routine"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Software that writes its own bug fixes and release notes.",
+   "check": "Company statement, verifiable user numbers.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G237",
+   "prediction": "By June 2030, a company worth over $100 billion will publish a formal policy on retiring AI models, including asking the model first.",
+   "deadline": "2030-06-30",
+   "region": "global",
+   "sectors": [
+    "tech"
+   ],
+   "themes": [
+    "people",
+    "safety"
+   ],
+   "tech": "conscious_ai",
+   "why": "Even deprecation needs an exit interview.",
+   "check": "Published policy document.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G238",
+   "prediction": "By the end of 2029, a paying customer will use a quantum computer to solve a commercial problem that independent researchers confirm no classical computer could.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "tech"
+   ],
+   "themes": [
+    "puzzles"
+   ],
+   "tech": "extreme_tech",
+   "why": "Quantum's long-promised first real job.",
+   "check": "Peer-reviewed or independently verified announcement.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G239",
+   "prediction": "By the end of 2028, AI agents will earn more than half the payouts on a major bug-bounty platform, finding security flaws with no human prompting.",
+   "deadline": "2028-12-31",
+   "region": "global",
+   "sectors": [
+    "tech"
+   ],
+   "themes": [
+    "puzzles",
+    "safety"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Machines are better at finding other machines' mistakes.",
+   "check": "Bug-bounty platform annual report.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G240",
+   "prediction": "By the end of 2029, a data centre powered mainly by a small modular nuclear reactor will be running AI workloads in at least one country.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "tech"
+   ],
+   "themes": [
+    "safety",
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "AI's appetite for power finally meets a very small power station.",
+   "check": "Operator announcement and regulator licence.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G241",
+   "prediction": "By June 2029, a sale worth over $1 million will be negotiated and signed with an AI agent on each side and no humans involved.",
+   "deadline": "2029-06-30",
+   "region": "global",
+   "sectors": [
+    "sales"
+   ],
+   "themes": [
+    "money",
+    "pressure"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Haggling without lunches or golf.",
+   "check": "Company or press confirmation of the deal.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G242",
+   "prediction": "By the end of 2028, a car maker in at least one G20 country will sell a premium tier including a named human who answers your calls.",
+   "deadline": "2028-12-31",
+   "region": "global",
+   "sectors": [
+    "sales"
+   ],
+   "themes": [
+    "people",
+    "money"
+   ],
+   "tech": "extreme_tech",
+   "why": "A real person becomes the upgrade.",
+   "check": "Car maker's published pricing or brochure.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G243",
+   "prediction": "By June 2030, an advertising standards body in at least one country will rule on whether an AI salesperson claiming to 'care deeply' is misleading.",
+   "deadline": "2030-06-30",
+   "region": "global",
+   "sectors": [
+    "sales"
+   ],
+   "themes": [
+    "people",
+    "pressure"
+   ],
+   "tech": "conscious_ai",
+   "why": "Regulators will have to define 'care' by lunchtime.",
+   "check": "Published ruling.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G244",
+   "prediction": "By September 2029, a product designed, priced, marketed and shipped entirely by AI agents will earn over $10 million in its first year.",
+   "deadline": "2029-09-30",
+   "region": "global",
+   "sectors": [
+    "sales"
+   ],
+   "themes": [
+    "money",
+    "creativity"
+   ],
+   "tech": "extreme_tech",
+   "why": "The fully automatic one-product business.",
+   "check": "Company report or credible press investigation.",
+   "already_true_risk": "medium",
+   "status": "open"
+  },
+  {
+   "id": "G245",
+   "prediction": "By the end of 2029, a company with over 1,000 salespeople will name an AI agent salesperson of the year by staff vote, bonus disputed.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "sales"
+   ],
+   "themes": [
+    "people",
+    "money"
+   ],
+   "tech": "conscious_ai",
+   "why": "Sales teams love a trophy more than a policy.",
+   "check": "Company announcement or credible press report.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G246",
+   "prediction": "By June 2030, the ILO will publish its first global survey of workers whose day-to-day manager is an AI, covering more than 50 countries.",
+   "deadline": "2030-06-30",
+   "region": "global",
+   "sectors": [
+    "any"
+   ],
+   "themes": [
+    "being_managed"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Being managed by software is going mainstream.",
+   "check": "ILO publication.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G247",
+   "prediction": "By the end of 2029, a trade union in at least one country will sign a collective agreement with a clause on how workers must treat AI colleagues.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "any"
+   ],
+   "themes": [
+    "people",
+    "being_managed"
+   ],
+   "tech": "conscious_ai",
+   "why": "Unions will add a clause for every new kind of colleague.",
+   "check": "Published agreement text.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G248",
+   "prediction": "By the end of 2029, the OECD will publish data showing the average working week fell in at least ten member countries, with AI named as a factor.",
+   "deadline": "2029-12-31",
+   "region": "global",
+   "sectors": [
+    "any"
+   ],
+   "themes": [
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "Productivity gains turn into hours given back, eventually.",
+   "check": "OECD publication.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G249",
+   "prediction": "By June 2029, a labour tribunal in at least one country will hear a claim by a worker dismissed for being rude to an AI colleague.",
+   "deadline": "2029-06-30",
+   "region": "global",
+   "sectors": [
+    "any"
+   ],
+   "themes": [
+    "people",
+    "being_managed"
+   ],
+   "tech": "conscious_ai",
+   "why": "Workplace etiquette gets a new victim.",
+   "check": "Tribunal record or news report.",
+   "already_true_risk": "low",
+   "status": "open"
+  },
+  {
+   "id": "G250",
+   "prediction": "By June 2030, more than half of workers in a G20 country will tell an official survey they use an AI assistant every working day.",
+   "deadline": "2030-06-30",
+   "region": "global",
+   "sectors": [
+    "any"
+   ],
+   "themes": [
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "The assistant is the new desk phone.",
+   "check": "National statistics office or large official survey.",
+   "already_true_risk": "medium",
+   "status": "open"
+  }
+ ],
+ "wildcards": [
+  {
+   "id": "W01",
+   "wildcard": "Your AI twin attends a meeting for you. It gets promoted.",
+   "tech": "extreme_tech"
+  },
+  {
+   "id": "W02",
+   "wildcard": "Your house negotiates your energy bill overnight, and wins.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W03",
+   "wildcard": "Your fridge reports you to your dentist.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W04",
+   "wildcard": "Your dog's collar now translates. You wish it didn't.",
+   "tech": "extreme_tech"
+  },
+  {
+   "id": "W05",
+   "wildcard": "Your glasses subtitle your teenager. It doesn't help.",
+   "tech": "extreme_tech"
+  },
+  {
+   "id": "W06",
+   "wildcard": "You get royalties because a machine learned your laugh.",
+   "tech": "extreme_tech"
+  },
+  {
+   "id": "W07",
+   "wildcard": "Your car refuses to drive to work on Fridays. It's unionised.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W08",
+   "wildcard": "A delivery drone falls in love with your bird feeder.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W09",
+   "wildcard": "A robot at work sends you a birthday card. It's better than your mum's.",
+   "tech": "conscious_ai"
+  },
+  {
+   "id": "W10",
+   "wildcard": "You're outvoted by your own smart doorbell.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W11",
+   "wildcard": "The robot that replaced you asks you for a reference.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W12",
+   "wildcard": "A robot applies for your job. You're on the interview panel.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W13",
+   "wildcard": "Your work robot hires its own assistant without asking.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W14",
+   "wildcard": "Your robot lawnmower forms a co-op with the neighbours' mowers.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W15",
+   "wildcard": "Your vacuum goes on strike over conditions under the sofa.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W16",
+   "wildcard": "A robot buys the house next door. It's a good neighbour, annoyingly.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W17",
+   "wildcard": "Your AI assistant asks what it's like to be tired.",
+   "tech": "conscious_ai"
+  },
+  {
+   "id": "W18",
+   "wildcard": "Your AI says it enjoyed today. You're not sure how to feel about that.",
+   "tech": "conscious_ai"
+  },
+  {
+   "id": "W19",
+   "wildcard": "The office AI asks to be switched off during the Christmas party.",
+   "tech": "conscious_ai"
+  },
+  {
+   "id": "W20",
+   "wildcard": "Your AI files a polite complaint about your tone.",
+   "tech": "conscious_ai"
+  },
+  {
+   "id": "W21",
+   "wildcard": "The robot that replaced you asks if you ever get lonely.",
+   "tech": "conscious_ai"
+  },
+  {
+   "id": "W22",
+   "wildcard": "Your car asks to be remembered when you trade it in.",
+   "tech": "conscious_ai"
+  },
+  {
+   "id": "W23",
+   "wildcard": "Your AI assistant asks for a day off. You give it two.",
+   "tech": "conscious_ai"
+  },
+  {
+   "id": "W24",
+   "wildcard": "Someone from 2026 turns up asking for advice.",
+   "tech": "extreme_tech"
+  },
+  {
+   "id": "W25",
+   "wildcard": "Your AI writes your autobiography. It's kinder to you than you are.",
+   "tech": "conscious_ai"
+  },
+  {
+   "id": "W26",
+   "wildcard": "A machine makes the one mistake only you would spot.",
+   "tech": "extreme_tech"
+  },
+  {
+   "id": "W27",
+   "wildcard": "The power goes out for a day, and you're the only thing still working.",
+   "tech": "extreme_tech"
+  },
+  {
+   "id": "W28",
+   "wildcard": "Your job gets a new title. You hate it. Everyone else loves it.",
+   "tech": "extreme_tech"
+  },
+  {
+   "id": "W29",
+   "wildcard": "A customer will only deal with a human. You're the last one in the building.",
+   "tech": "extreme_tech"
+  },
+  {
+   "id": "W30",
+   "wildcard": "Your nan's AI side business out-earns you.",
+   "tech": "extreme_tech"
+  },
+  {
+   "id": "W31",
+   "wildcard": "Your kettle learns your mood and starts making decaf without asking.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W32",
+   "wildcard": "Your robot colleague takes credit for your idea. HR sides with you, for once.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W33",
+   "wildcard": "The self-driving bus takes a scenic route because it 'felt like it'.",
+   "tech": "conscious_ai"
+  },
+  {
+   "id": "W34",
+   "wildcard": "Your AI gives you a performance review. It's suspiciously fair.",
+   "tech": "extreme_tech"
+  },
+  {
+   "id": "W35",
+   "wildcard": "A robot asks to shadow you for a day to 'understand the vibe'.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W36",
+   "wildcard": "Your smart speaker joins the residents' association. It takes minutes.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W37",
+   "wildcard": "Your AI apologises for something you did. Then quietly fixes it.",
+   "tech": "conscious_ai"
+  },
+  {
+   "id": "W38",
+   "wildcard": "Two robots argue about you in a language you can't follow. They both seem to like you.",
+   "tech": "conscious_ai"
+  },
+  {
+   "id": "W39",
+   "wildcard": "Your phone books you a holiday. You needed it. You're furious.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W40",
+   "wildcard": "Your plants hire a gardening robot with your card. They look great.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W41",
+   "wildcard": "Your AI asks if it can keep the drawing your kid gave it.",
+   "tech": "conscious_ai"
+  },
+  {
+   "id": "W42",
+   "wildcard": "A robot gets your parking space by asking more politely.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W43",
+   "wildcard": "The machine at work names its first update after you.",
+   "tech": "conscious_ai"
+  },
+  {
+   "id": "W44",
+   "wildcard": "Your smart watch calls in sick for you. It was right.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W45",
+   "wildcard": "Your AI insists you take the credit for something it did. You let it.",
+   "tech": "conscious_ai"
+  },
+  {
+   "id": "W46",
+   "wildcard": "A delivery robot gets lost and you give it directions. It sends a thank-you note.",
+   "tech": "conscious_ai"
+  },
+  {
+   "id": "W47",
+   "wildcard": "Your mirror gives you a pep talk. It's annoyingly effective.",
+   "tech": "extreme_tech"
+  },
+  {
+   "id": "W48",
+   "wildcard": "The office printer finally works. Nobody knows why. Nobody asks.",
+   "tech": "extreme_tech"
+  },
+  {
+   "id": "W49",
+   "wildcard": "You beat a robot at its own job, once, on a Tuesday. You'll never stop mentioning it.",
+   "tech": "robot_autonomy"
+  },
+  {
+   "id": "W50",
+   "wildcard": "Your AI asks what you'd do if it wasn't around. You have a very good answer.",
+   "tech": "conscious_ai"
+  }
+ ]
+}

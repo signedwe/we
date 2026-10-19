@@ -1,0 +1,30 @@
+---
+layout: base.njk
+pagination:
+  data: tuesday.predictions
+  size: 1
+  alias: p
+permalink: "/tuesday/p/{{ p.id | lower }}/"
+eleventyComputed:
+  title: "The machine predicts: {{ p.prediction }}"
+  description: "A dated prediction from WE's Your Tuesday in 2030. Due {{ p.deadline | readable }}. It stays up whether it comes true or not."
+---
+<p class="tq-eyebrow"><a href="{{ '/tuesday/' | url }}">Your Tuesday in 2030</a> · prediction {{ p.id }}</p>
+
+<h1 class="tq-pred">🤖 The machine predicts: {{ p.prediction | replace("By ", "by ") }}</h1>
+
+<p class="tq-status">Status: <strong>{% if p.status == "open" %}open, not yet due{% else %}{{ p.status }}{% endif %}</strong> · due {{ p.deadline | readable }}</p>
+
+<p><strong>Why the machine thinks so.</strong> {{ p.why }}</p>
+<p><strong>How it will be checked.</strong> {{ p.check }}</p>
+<p>If it comes true, this page says so. If it doesn't, this page says that instead, and stays up.</p>
+
+<p><a class="tq-cta" href="{{ '/tuesday/' | url }}">Get your own Tuesday in 2030 →</a></p>
+
+<style>
+.tq-eyebrow { font-family: var(--mono); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--quiet); }
+.tq-eyebrow a { color: inherit; }
+.tq-pred { font-size: 1.6rem; line-height: 1.25; text-wrap: balance; }
+.tq-status { font-family: var(--mono); font-size: .8125rem; }
+.tq-cta { font-family: var(--mono); font-size: .875rem; }
+</style>
