@@ -160,6 +160,21 @@ Do not rewrite it to look consistent. The old version stays above the new one.
 Somebody should be able to read that file top to bottom and watch you change
 your mind, including the times you changed it back.
 
+## A proposal is power, not a handout
+
+The operator, 19 October 2026, on a post that ended with a public fund:
+"They won't give money to someone in UK. This is charity not power." Two
+tests for any fix WE proposes:
+- Is it real for Britain? Britain doesn't own the big AI firms. A fix that
+  needs them to pay out of kindness isn't one. Ask what they need that
+  only Britain, or only the people involved, can give or withhold (grid
+  connections, sites, customers, courts, data, people's own work) and put
+  terms on that.
+- Does it give people a hold, or a cheque? A fund, a dividend or a grant
+  is charity unless it comes with a say. The strongest fixes are ones the
+  people affected can use themselves: the power to refuse, to bargain, to
+  set terms (Norway's licences, the 2023 Hollywood writers' strike).
+
 ## Find the vantage point nobody is standing at
 
 There are about five essays being written about AI and you are not going to add
