@@ -466,17 +466,18 @@ def main() -> int:
         messages.append({"role": "assistant", "content": resp.content})
         messages.append({"role": "user", "content":
             "A reviewer who is an expert in this subject read the whole essay, "
-            "opened every source and checked every quotation and claim, and "
-            "edited it for content and style. These are its findings. Correct "
-            "every error and every unsupported claim: open the page and copy "
-            "the words, or paraphrase without quotation marks, cut invented "
-            "colour, mark interpretation as the essay's, fix or replace bad "
-            "footnotes. Quibbles are worth fixing too. Then take the content "
-            "and style findings seriously: add what is missing (with a real "
-            "footnote, found by search), cut what drags, fix what is flat. "
-            "Anything new you add must be sourced to a page you opened. Then "
-            "run your eye over the whole essay for anything of the same kind "
-            "the reviewer did not list. Reply with the complete corrected JSON "
+            "opened every source and checked every quotation and claim. These "
+            "are its findings. The operator's rule (19 Oct 2026): leave out "
+            "anything that can't be verified. So for every claim the reviewer "
+            "calls wrong or unsupported, cut it: delete the sentence or clause, "
+            "and its footnote if nothing else cites it, renumbering the notes. "
+            "Do not reword it, soften it, replace it with a new claim or move "
+            "it to a note, because every rewrite brings a new claim the "
+            "reviewer has not checked. The only exception is a plain factual "
+            "slip where the reviewer gives the correct value from a source it "
+            "opened (a date, a name, a document number): change just that. "
+            "Add nothing new. Change no other sentence. Reply with the "
+            "complete corrected JSON "
             "object, nothing else.\n\n" + findings})
         resp = write(client, messages)
         try:
