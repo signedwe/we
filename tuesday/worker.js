@@ -36,6 +36,8 @@ VOICE. Second person, to them, by first name if there is one. Dry British humour
 
 RULES. UK spelling. Each line at most 30 words. No real people, brands or companies. Any other character gets a single ordinary first name. No similes beyond one. Never use: delve, tapestry, ultimately, "not just", "it's not X, it's Y", testament, realm, landscape, journey.
 
+SIGNS (pick exactly one): ${"${SIGNS_LIST}"}
+
 THE WILDCARD in <wildcard> must happen in their day, in one or two sentences of its own.
 
 Reply with JSON only, no other text:
@@ -48,8 +50,7 @@ Reply with JSON only, no other text:
  "region": "uk" if the town is in the United Kingdom, else "global",
  "sectors": 1-2 from ${JSON.stringify(SECTORS)},
  "themes": 1-3 from ${JSON.stringify(THEMES)}, matching what they love and hate,
- "sign": their 2030 sign, "The ..." in 1-3 words, drawn from what they love and hate, e.g. "The Lightbulb",
- "sign_emoji": exactly two emoji side by side that make an odd, futuristic pairing: one for the sign, one for something from 2030 that shouldn't go with it (e.g. 🐺🛰️, 💡🧬, 🕯️🤖, ⚖️🪐, 🐝📡),
+ "sign": their 2030 sign: exactly one name from the SIGNS list, the best fit for what they love and hate,
  "lines": [5 short paragraphs of the reading, in order],
  "wildcard_line": the wildcard happening in their day,
  "lucky": "Lucky <thing>: <funny specific thing>",
@@ -173,7 +174,9 @@ Town or city: ${a.town}
 </answers>
 <wildcard>${wildcard.wildcard}</wildcard>`;
 
-      const out = parseJson(await ask(env, WRITER, user, 1200));
+      const signs = data.signs || [];
+      const writer = WRITER.replace("${SIGNS_LIST}", signs.map((x) => x.name).join(", "));
+      const out = parseJson(await ask(env, writer, user, 1200));
       if (!out || out.ok !== true || !Array.isArray(out.lines) || out.lines.length < 3) {
         return reply({ error: "The machine couldn't read that. Try different words." }, 422, h);
       }
@@ -181,12 +184,15 @@ Town or city: ${a.town}
       const reading = {
         name: out.name_ok ? str(out.first_name, 20) : "Friend",
         job: str(out.job, 60), town: str(out.town, 60),
-        sign: str(out.sign, 40), sign_emoji: str(out.sign_emoji, 16),
+        sign: "", sign_slug: "", sign_img: "",
         lines: out.lines.slice(0, 6).map((l) => str(l, 260)),
         wildcard: { id: wildcard.id, text: wildcard.wildcard, line: str(out.wildcard_line, 260) },
         lucky: str(out.lucky, 140), unlucky: str(out.unlucky, 140),
         power_move: str(out.power_move, 240), share_line: str(out.share_line, 120),
       };
+      const want = String(out.sign || "").trim().toLowerCase().replace(/^the\s+/, "");
+      const sg = signs.find((x) => x.name.toLowerCase().replace(/^the\s+/, "") === want) || pick(signs);
+      reading.sign = sg.name; reading.sign_slug = sg.slug; reading.sign_img = SITE + "signs/" + sg.slug + ".png";
       const sectors = (out.sectors || []).filter((x) => SECTORS.includes(x));
       const themes = (out.themes || []).filter((x) => THEMES.includes(x));
       const p = choosePrediction(data.predictions, out.region, sectors, themes);

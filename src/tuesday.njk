@@ -33,7 +33,7 @@ api: ""
 
 <section id="tq-result" class="tq-result" aria-live="polite">
   <p class="tq-stamp"><span><span class="tq-dot"></span><span id="tq-label">Example transmission</span></span><span id="tq-when">Tue 14 May 2030 · 09:41 · RDG-7F3A</span></p>
-  <h2 class="tq-sign"><span id="tq-who">Sarah</span>, your 2030 sign: <span id="tq-sign">The Lightbulb</span> <span class="tq-emoji" id="tq-emoji">💡🧬</span></h2>
+  <h2 class="tq-sign"><span><span id="tq-who">Sarah</span>, your 2030 sign: <span id="tq-sign">The Lightbulb</span></span><img class="tq-sigil" id="tq-sigil" src="{{ '/tuesday/signs/lightbulb.png' | url }}" alt="" width="256" height="256"></h2>
   <div id="tq-lines">
     <p>You've always been better with people than with spreadsheets. You know this. The spreadsheets know this.</p>
     <p>You notice the quiet kid at the back before anyone else does. You've never once been thanked for it in a meeting.</p>
@@ -80,7 +80,9 @@ api: ""
 @media (prefers-reduced-motion: no-preference) { .tq-stamp .tq-dot { animation: tq-blink 1.6s steps(2, start) infinite; } }
 @keyframes tq-blink { to { visibility: hidden; } }
 .tq-sign #tq-sign { text-shadow: -1.5px 0 rgba(0, 190, 200, .45), 1.5px 0 rgba(230, 40, 90, .38); }
-.tq-emoji { display: inline-block; white-space: nowrap; filter: hue-rotate(160deg) saturate(1.4) drop-shadow(-2px 0 rgba(0, 190, 200, .55)) drop-shadow(2px 0 rgba(230, 40, 90, .45)); }
+.tq-sign { display: grid; grid-template-columns: 1fr auto; gap: .75rem; align-items: center; }
+.tq-sign > span:first-child { min-width: 0; }
+.tq-sigil { width: 5.5rem; height: 5.5rem; filter: drop-shadow(-2px 0 rgba(0, 190, 200, .35)) drop-shadow(2px 0 rgba(230, 40, 90, .3)); }
 .tq-result.is-example { opacity: .72; }
 .tq-sign { font-size: 1.5rem; line-height: 1.2; text-wrap: balance; margin: 0 0 1rem; }
 .tq-k { font-family: var(--mono); font-size: .8125rem; letter-spacing: .02em; }
@@ -104,7 +106,7 @@ api: ""
   var result = document.getElementById("tq-result");
   var actions = document.getElementById("tq-actions");
   var again = document.getElementById("tq-again");
-  var current = null, answers = null, rolls = 0, waitTimer = null;
+  var current = null, answers = null, rolls = 0, waitTimer = null, signImg = null;
   var WAITS = ["Consulting the robots…", "Asking your future self…", "Rolling the wildcard…", "Checking it's fit to print…"];
 
   result.classList.add("is-example");
@@ -130,7 +132,8 @@ api: ""
     text("tq-when", r.stamp);
     text("tq-who", r.name);
     text("tq-sign", r.sign);
-    text("tq-emoji", r.sign_emoji);
+    var sig = document.getElementById("tq-sigil"); sig.src = r.sign_img; sig.alt = r.sign;
+    signImg = new Image(); signImg.src = r.sign_img;
     var box = document.getElementById("tq-lines");
     box.textContent = "";
     r.lines.forEach(function (l) { var p = document.createElement("p"); p.textContent = l; box.appendChild(p); });
@@ -224,16 +227,12 @@ api: ""
     ctx.font = "24px " + mono;
     ctx.fillText((r.stamp || "").toUpperCase(), L, 142);
     ctx.fillStyle = "#0b0f0f"; ctx.font = "bold 56px " + serif;
-    var y = wrap(ctx, r.name + ", your 2030 sign:", L, 230, M, 66);
+    var y = wrap(ctx, r.name + ", your 2030 sign:", L, 230, M - 220, 66);
     ctx.font = "bold 80px " + serif;
     var sign = r.sign;
-    // the emoji: a large hologram badge, top right, colour-shifted with a split ghost
-    var ex = W - L - 150, ey = 150;
-    ctx.save(); ctx.font = "110px serif"; ctx.textAlign = "right";
-    ctx.globalAlpha = 0.35; ctx.filter = "hue-rotate(180deg) saturate(2)"; ctx.fillText(r.sign_emoji, W - L - 6, ey);
-    ctx.filter = "hue-rotate(320deg) saturate(2)"; ctx.fillText(r.sign_emoji, W - L + 6, ey);
-    ctx.globalAlpha = 1; ctx.filter = "hue-rotate(160deg) saturate(1.4) contrast(1.1)"; ctx.fillText(r.sign_emoji, W - L, ey);
-    ctx.restore();
+    // the sign's image, top right
+    if (signImg && signImg.complete && signImg.naturalWidth) ctx.drawImage(signImg, W - L - 190, 34, 210, 210);
+    y = Math.max(y, 262);
     ctx.fillStyle = "rgba(0,190,200,0.55)"; wrap(ctx, sign, L - 3, y + 15, M, 92, 2);
     ctx.fillStyle = "rgba(230,40,90,0.45)"; wrap(ctx, sign, L + 3, y + 15, M, 92, 2);
     ctx.fillStyle = "#0b0f0f"; y = wrap(ctx, sign, L, y + 15, M, 92, 2) + 30;
@@ -284,7 +283,7 @@ api: ""
     var name = full ? "my-tuesday-2030-full.png" : "my-tuesday-2030.png";
     drawCard(current, full).toBlob(function (blob) {
       var file = new File([blob], name, { type: "image/png" });
-      var data = { files: [file], title: "My Tuesday in 2030", text: current.name + ", your 2030 sign: " + current.sign + " " + current.sign_emoji + "\n\nGet yours: https://signedwe.github.io/we/tuesday/" };
+      var data = { files: [file], title: "My Tuesday in 2030", text: current.name + ", your 2030 sign: " + current.sign + "\n\nGet yours: https://signedwe.github.io/we/tuesday/" };
       if (navigator.canShare && navigator.canShare({ files: [file] })) {
         navigator.share(data).catch(function () {});
       } else {

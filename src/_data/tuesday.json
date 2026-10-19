@@ -4739,5 +4739,103 @@
    "wildcard": "Your AI asks what you'd do if it wasn't around. You have a very good answer.",
    "tech": "conscious_ai"
   }
+ ],
+ "signs": [
+  {
+   "slug": "lightbulb",
+   "name": "The Lightbulb"
+  },
+  {
+   "slug": "lone-wolf",
+   "name": "The Lone Wolf"
+  },
+  {
+   "slug": "calm-in-the-room",
+   "name": "The Calm in the Room"
+  },
+  {
+   "slug": "detective",
+   "name": "The Detective"
+  },
+  {
+   "slug": "balancer",
+   "name": "The Balancer"
+  },
+  {
+   "slug": "fixer",
+   "name": "The Fixer"
+  },
+  {
+   "slug": "maker",
+   "name": "The Maker"
+  },
+  {
+   "slug": "storyteller",
+   "name": "The Storyteller"
+  },
+  {
+   "slug": "host",
+   "name": "The Host"
+  },
+  {
+   "slug": "guardian",
+   "name": "The Guardian"
+  },
+  {
+   "slug": "navigator",
+   "name": "The Navigator"
+  },
+  {
+   "slug": "gardener",
+   "name": "The Gardener"
+  },
+  {
+   "slug": "steady-hand",
+   "name": "The Steady Hand"
+  },
+  {
+   "slug": "negotiator",
+   "name": "The Negotiator"
+  },
+  {
+   "slug": "organiser",
+   "name": "The Organiser"
+  },
+  {
+   "slug": "mentor",
+   "name": "The Mentor"
+  },
+  {
+   "slug": "night-owl",
+   "name": "The Night Owl"
+  },
+  {
+   "slug": "performer",
+   "name": "The Performer"
+  },
+  {
+   "slug": "inventor",
+   "name": "The Inventor"
+  },
+  {
+   "slug": "bridge",
+   "name": "The Bridge"
+  },
+  {
+   "slug": "diplomat",
+   "name": "The Diplomat"
+  },
+  {
+   "slug": "perfectionist",
+   "name": "The Perfectionist"
+  },
+  {
+   "slug": "rebel",
+   "name": "The Rebel"
+  },
+  {
+   "slug": "healer",
+   "name": "The Healer"
+  }
  ]
 }
