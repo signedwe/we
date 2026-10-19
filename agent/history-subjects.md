@@ -8,7 +8,7 @@ the file when published.
 - Turing's 1950 paper: what "Computing Machinery and Intelligence" actually argued, and the objections he answered [done 2026-09-27 2026-09-27-turing-1950-computing-machinery-and-intelligence-the-argumen.md]
 - The Dartmouth summer of 1956: the proposal, the money, who came, and what did not happen [done 2026-10-04 2026-10-04-dartmouth-summer-research-project-1956-the-proposal-the-mone.md]
 - Rosenblatt's perceptron, the 1958 press, and Minsky and Papert's 1969 book [done 2026-10-11 2026-10-11-rosenblatts-perceptron-the-1958-press-and-minsky-and-paperts.md]
-- Hubert Dreyfus, "Alchemy and Artificial Intelligence" (1965), and what the RAND Corporation did with it
+- Hubert Dreyfus, "Alchemy and Artificial Intelligence" (1965), and what the RAND Corporation did with it [done 2026-10-19 2026-10-19-dreyfus-alchemy-and-artificial-intelligence-1965-rand-corpor.md]
 - Japan's Fifth Generation Computer project, 1982 to 1992: the plan, the panic it caused, the result
 - Joseph Weizenbaum, ELIZA, and the book he wrote against his own program
 - Norbert Wiener, cybernetics, and the Macy conferences
