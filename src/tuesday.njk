@@ -17,14 +17,14 @@ api: "https://tuesday.signedwe.workers.dev"
   <label for="tq-job">What you do <span>paid or not</span></label>
   <input id="tq-job" name="job" maxlength="60" required placeholder="Primary teacher, between jobs, painter…">
 
-  <label for="tq-love">The part you'd never give up</label>
-  <input id="tq-love" name="love" maxlength="90" required placeholder="When a kid finally gets it">
+  <label for="tq-love">The part you'd never give up <span>optional</span></label>
+  <input id="tq-love" name="love" maxlength="90" placeholder="When a kid finally gets it">
 
-  <label for="tq-hate">The part you secretly hate</label>
-  <input id="tq-hate" name="hate" maxlength="90" required placeholder="Marking and data entry">
+  <label for="tq-hate">The part you secretly hate <span>optional</span></label>
+  <input id="tq-hate" name="hate" maxlength="90" placeholder="Marking and data entry">
 
-  <label for="tq-town">Your town or city</label>
-  <input id="tq-town" name="town" maxlength="60" required autocomplete="address-level2" placeholder="Leeds">
+  <label for="tq-town">Your town or city <span>optional</span></label>
+  <input id="tq-town" name="town" maxlength="60" autocomplete="address-level2" placeholder="Leeds">
 
   <p class="tq-small">Just a first name. Don't type anything else personal. Nothing you type is stored.</p>
   <button type="submit" id="tq-go" class="tq-button">Read my 2030</button>
@@ -182,8 +182,9 @@ api: "https://tuesday.signedwe.workers.dev"
     var f = new FormData(form);
     answers = {};
     ["name", "job", "love", "hate", "town"].forEach(function (k) { answers[k] = String(f.get(k) || "").trim(); });
-    if (!answers.job || !answers.love || !answers.hate || !answers.town) {
-      msg.textContent = "Fill in what you do, what you love, what you hate and your town.";
+    if (!answers.job) {
+      msg.textContent = "Tell the machine what you do.";
+      document.getElementById("tq-job").focus();
       return;
     }
     rolls = 0;
@@ -269,7 +270,7 @@ api: "https://tuesday.signedwe.workers.dev"
     ctx.fillStyle = "#cc4b1f"; ctx.fillRect(L, top, 8, end - top);
     y = full ? end + 70 : Math.max(end + 70, 1350 - 170);
     ctx.fillStyle = "#56605f"; ctx.font = "28px " + mono;
-    ctx.fillText((r.job + " \u00b7 " + r.town).slice(0, 52), L, y);
+    ctx.fillText((r.town ? r.job + " \u00b7 " + r.town : r.job).slice(0, 52), L, y);
     ctx.fillStyle = "#56605f"; ctx.font = "30px " + mono;
     ctx.fillText("signed by", L, y + 72);
     var sx = L + ctx.measureText("signed by ").width + 6;

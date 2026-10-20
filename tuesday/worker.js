@@ -217,7 +217,8 @@ export default {
     try { input = await request.json(); } catch { return reply({ error: "Something went wrong. Try again." }, 400, h); }
     const a = {};
     for (const k of Object.keys(LIMITS)) a[k] = clean(input && input[k], LIMITS[k]);
-    if (!a.job || !a.love || !a.hate || !a.town) return reply({ error: "Fill in what you do, what you love, what you hate and your town." }, 400, h);
+    if (!a.job) return reply({ error: "Tell the machine what you do." }, 400, h);
+    const country = (request.cf && request.cf.country) || "";
 
     try {
       const data = await getData();
@@ -225,9 +226,9 @@ export default {
       const user = `<answers>
 First name: ${a.name || "(none)"}
 What they do: ${a.job}
-The part they'd never give up: ${a.love}
-The part they secretly hate: ${a.hate}
-Town or city: ${a.town}
+The part they'd never give up: ${a.love || "(not given: guess the part most people in this work love)"}
+The part they secretly hate: ${a.hate || "(not given: guess the part most people in this work quietly hate)"}
+Town or city: ${a.town || "(not given: don't name a place; leave town empty)"}
 </answers>
 <wildcard>${wildcard.wildcard}</wildcard>`;
 
@@ -256,7 +257,8 @@ Town or city: ${a.town}
       reading.sign = sg.name; reading.sign_slug = sg.slug; reading.sign_img = SITE + "signs/" + sg.slug + ".png";
       const sectors = (out.sectors || []).filter((x) => SECTORS.includes(x));
       const themes = (out.themes || []).filter((x) => THEMES.includes(x));
-      const p = choosePrediction(data.predictions, out.region, sectors, themes);
+      const region = a.town ? out.region : (country === "GB" ? "uk" : "global");
+      const p = choosePrediction(data.predictions, region, sectors, themes);
       reading.prediction = { id: p.id, text: p.prediction, deadline: p.deadline, url: SITE + "p/" + p.id.toLowerCase() + "/" };
 
       // The checker reads everything the person will see, including the name, job and town.
