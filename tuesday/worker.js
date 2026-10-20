@@ -40,7 +40,7 @@ SIGNS (pick exactly one): ${"${SIGNS_LIST}"}
 
 THE WILDCARD in <wildcard> must happen in their day, in one or two sentences of its own.
 
-Reply with JSON only, no other text:
+Fill in the "reading" form with these fields:
 {
  "ok": true,
  "name_ok": true if the name is a plausible, inoffensive first name or blank, else false,
@@ -108,7 +108,7 @@ async function getData() {
   return DATA;
 }
 
-async function ask(env, system, user, maxTokens) {
+async function call(env, body) {
   const r = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
     headers: {
@@ -116,11 +116,43 @@ async function ask(env, system, user, maxTokens) {
       "anthropic-version": "2023-06-01",
       "content-type": "application/json",
     },
-    body: JSON.stringify({ model: MODEL, max_tokens: maxTokens, system, messages: [{ role: "user", content: user }] }),
+    body: JSON.stringify({ model: MODEL, ...body }),
   });
   if (!r.ok) throw new Error("model " + r.status);
-  const j = await r.json();
+  return r.json();
+}
+
+async function ask(env, system, user, maxTokens) {
+  const j = await call(env, { max_tokens: maxTokens, system, messages: [{ role: "user", content: user }] });
   return (j.content || []).filter((b) => b.type === "text").map((b) => b.text).join("").trim();
+}
+
+// The reading comes back as a filled-in form (a tool call), so it is always valid data.
+const S = { type: "string" };
+const READING_TOOL = {
+  name: "reading",
+  description: "Return the reading.",
+  input_schema: {
+    type: "object",
+    properties: {
+      ok: { type: "boolean" }, name_ok: { type: "boolean" }, first_name: S, job: S, town: S,
+      region: { type: "string", enum: ["uk", "global"] },
+      sectors: { type: "array", items: S }, themes: { type: "array", items: S },
+      sign: S, lines: { type: "array", items: S }, wildcard_line: S,
+      lucky: S, unlucky: S, power_move: S, share_line: S,
+    },
+    required: ["ok"],
+  },
+};
+
+async function askForm(env, system, user, maxTokens) {
+  const j = await call(env, {
+    max_tokens: maxTokens, system, messages: [{ role: "user", content: user }],
+    tools: [READING_TOOL], tool_choice: { type: "tool", name: "reading" },
+  });
+  const t = (j.content || []).find((b) => b.type === "tool_use");
+  if (t && t.input) return t.input;
+  return parseJson((j.content || []).filter((b) => b.type === "text").map((b) => b.text).join(""));
 }
 
 function parseJson(text) {
@@ -179,8 +211,7 @@ Town or city: ${a.town}
 
       const signs = data.signs || [];
       const writer = WRITER.replace("${SIGNS_LIST}", signs.map((x) => x.name).join(", "));
-      const rawOut = await ask(env, writer, user, 2000);
-      const out = parseJson(rawOut);
+      const out = await askForm(env, writer, user, 2000);
       const why = !out ? "W1" : (out.ok === false || out.ok === "false") ? "W2" : (!Array.isArray(out.lines) || out.lines.length < 3) ? "W3" : "";
       if (why) return reply({ error: "The machine couldn't read that. Try different words. (" + why + ")" }, 422, h);
 
