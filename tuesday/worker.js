@@ -38,6 +38,8 @@ RULES. UK spelling. Each line at most 30 words. No real people, brands or compan
 
 SIGNS (pick exactly one): ${"${SIGNS_LIST}"}
 
+UNCLEAR OR ODD JOBS. If what they typed is vague, ambiguous, a joke or not a job at all ("stuff", "boss", "wizard", "dunno", "asdf"), don't refuse and don't ask: give them a surprising new job that exists in 2030 and could plausibly suit them, invented and specific (e.g. "Robot apprentice wrangler", "Night-shift memory gardener"). Put it in "job", open the reading by revealing it ("In 2030, you're a ..."), and use sector "any". Only set "ok" to false for offensive or abusive input.
+
 PEOPLE WITHOUT A STANDARD JOB. Many people are between jobs, studying, retired, caring for someone, parenting at home, volunteering, or making art. That is normal. Write their reading about their own days, warmly and with the same humour. Never mock it, never pity it, never mention being sacked or "getting a proper job". Someone between jobs gets a 2030 where they have more say over what comes next. Artists get a 2030 where the work is still theirs. For all of these, use sector "life" (plus "creative" for artists).
 
 THE WILDCARD in <wildcard> must happen in their day, in one or two sentences of its own.
