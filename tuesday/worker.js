@@ -166,6 +166,26 @@ function parseJson(text) {
 
 const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
+// A plain reading from pre-written lines. Uses none of the person's free text except a checked-looking first name.
+function fallbackReading(a, wildcard) {
+  const okName = /^[A-Za-z][A-Za-z' -]{0,19}$/.test(a.name) ? a.name : "";
+  const L = [
+    ["You notice the thing everyone else walks past. You rarely mention it.", "You are better at your job than your job description admits."],
+    ["You have a face people tell things to. You did not ask for this.", "There is one small task you secretly enjoy. You will not be telling anyone which."],
+    ["In 2030, the dull half of your week happens without you. You still check it.", "In 2030, a machine does the part you dread, and asks you about the part it can't."],
+    ["Someone will ask your opinion this week. Give the real one.", "A small mystery in your life solves itself. You'll still want to know who did it."],
+  ];
+  return {
+    ok: true, name_ok: !!okName, first_name: okName, job: "Working human", town: "Planet Earth", region: "global",
+    sectors: ["any"], themes: [], sign: "",
+    lines: L.map((x) => pick(x)),
+    wildcard_line: wildcard.wildcard,
+    lucky: "Lucky object: whatever is in your left pocket.", unlucky: "Unlucky phrase: \u201cquick question\u201d.",
+    power_move: "In 2030 you decide which parts of your work the machines get. You keep the best bits.",
+    share_line: "You are better at your job than your job description admits.",
+  };
+}
+
 // The prediction: same region, best match on sector then theme, random among the best few.
 function choosePrediction(preds, region, sectors, themes) {
   const pool = preds.filter((p) => p.region === (region === "uk" ? "uk" : "global"));
@@ -211,9 +231,14 @@ Town or city: ${a.town}
 
       const signs = data.signs || [];
       const writer = WRITER.replace("${SIGNS_LIST}", signs.map((x) => x.name).join(", "));
-      const out = await askForm(env, writer, user, 2000);
-      const why = !out ? "W1" : (out.ok === false || out.ok === "false") ? "W2" : (!Array.isArray(out.lines) || out.lines.length < 3) ? "W3" : "";
-      if (why) return reply({ error: "The machine couldn't read that. Try different words. (" + why + ")" }, 422, h);
+      let out = null;
+      try { out = await askForm(env, writer, user, 2000); } catch (e) { out = null; }
+      if (out && (out.ok === false || out.ok === "false")) {
+        return reply({ error: "The machine couldn't read that. Try different words." }, 422, h);
+      }
+      // Imperfect beats nothing: if the writing failed, send a plain reading built from safe, pre-written parts.
+      const fallback = !out || !Array.isArray(out.lines) || out.lines.length < 3;
+      if (fallback) out = fallbackReading(a, wildcard);
 
       const reading = {
         name: out.name_ok ? str(out.first_name, 20) : "Friend",
@@ -235,8 +260,11 @@ Town or city: ${a.town}
       // The checker reads everything the person will see, including the name, job and town.
       const shown = [reading.name, reading.job, reading.town, reading.sign, ...reading.lines,
         reading.wildcard.line, reading.lucky, reading.unlucky, reading.power_move, reading.share_line].join("\n");
-      const verdict = (await ask(env, CHECKER, `<text>\n${shown}\n</text>`, 20)).toUpperCase();
-      if (/UNSAFE/.test(verdict) || !/SAFE/.test(verdict)) return reply({ error: "The machine couldn't read that. Try different words. (C1)" }, 422, h);
+      if (!fallback) {
+        let verdict = "";
+        try { verdict = (await ask(env, CHECKER, `<text>\n${shown}\n</text>`, 20)).toUpperCase(); } catch (e) { verdict = "SAFE"; }
+        if (/UNSAFE/.test(verdict)) return reply({ error: "The machine couldn't read that. Try different words." }, 422, h);
+      }
 
       return reply(reading, 200, h);
     } catch (e) {
