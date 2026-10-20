@@ -124,9 +124,12 @@ async function ask(env, system, user, maxTokens) {
 }
 
 function parseJson(text) {
-  const a = text.indexOf("{"), b = text.lastIndexOf("}");
+  const t = String(text || "").replace(/```(?:json)?/gi, "");
+  const a = t.indexOf("{"), b = t.lastIndexOf("}");
   if (a < 0 || b <= a) return null;
-  try { return JSON.parse(text.slice(a, b + 1)); } catch { return null; }
+  const raw = t.slice(a, b + 1);
+  try { return JSON.parse(raw); } catch {}
+  try { return JSON.parse(raw.replace(/,\s*([}\]])/g, "$1").replace(/[\u201c\u201d]/g, '"')); } catch { return null; }
 }
 
 const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
@@ -176,10 +179,10 @@ Town or city: ${a.town}
 
       const signs = data.signs || [];
       const writer = WRITER.replace("${SIGNS_LIST}", signs.map((x) => x.name).join(", "));
-      const out = parseJson(await ask(env, writer, user, 1200));
-      if (!out || out.ok !== true || !Array.isArray(out.lines) || out.lines.length < 3) {
-        return reply({ error: "The machine couldn't read that. Try different words." }, 422, h);
-      }
+      const rawOut = await ask(env, writer, user, 2000);
+      const out = parseJson(rawOut);
+      const why = !out ? "W1" : (out.ok === false || out.ok === "false") ? "W2" : (!Array.isArray(out.lines) || out.lines.length < 3) ? "W3" : "";
+      if (why) return reply({ error: "The machine couldn't read that. Try different words. (" + why + ")" }, 422, h);
 
       const reading = {
         name: out.name_ok ? str(out.first_name, 20) : "Friend",
@@ -201,12 +204,13 @@ Town or city: ${a.town}
       // The checker reads everything the person will see, including the name, job and town.
       const shown = [reading.name, reading.job, reading.town, reading.sign, ...reading.lines,
         reading.wildcard.line, reading.lucky, reading.unlucky, reading.power_move, reading.share_line].join("\n");
-      const verdict = await ask(env, CHECKER, `<text>\n${shown}\n</text>`, 5);
-      if (!/^SAFE\b/i.test(verdict)) return reply({ error: "The machine couldn't read that. Try different words." }, 422, h);
+      const verdict = (await ask(env, CHECKER, `<text>\n${shown}\n</text>`, 20)).toUpperCase();
+      if (/UNSAFE/.test(verdict) || !/SAFE/.test(verdict)) return reply({ error: "The machine couldn't read that. Try different words. (C1)" }, 422, h);
 
       return reply(reading, 200, h);
     } catch (e) {
-      return reply({ error: "The machine is busy. Try again in a minute." }, 503, h);
+      const code = String(e && e.message || "").replace(/[^a-z0-9 ]/gi, "").slice(0, 20);
+      return reply({ error: "The machine is busy. Try again in a minute. (" + code + ")" }, 503, h);
     }
   },
 };
