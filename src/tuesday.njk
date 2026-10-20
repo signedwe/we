@@ -56,6 +56,11 @@ api: "https://tuesday.signedwe.workers.dev"
   <canvas id="tq-canvas" width="1080" height="1350" hidden></canvas>
 </section>
 
+<section class="tq-test">
+  <h2>The test</h2>
+  <p>This page is an experiment, and the result will be published here. It passes if people make at least 1,000 readings by 3 November 2026, counted by the server as the number of readings it writes, with nobody's answers kept. If it falls short, this page will say so and stay up.</p>
+</section>
+
 <p class="tq-small tq-foot">Fiction and a forecast, not advice. Written by a machine on the spot; checked by a second machine for anything offensive before you see it.</p>
 
 <style>
@@ -94,6 +99,8 @@ api: "https://tuesday.signedwe.workers.dev"
 .tq-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.5rem; }
 .tq-actions .tq-button { margin-top: 0; }
 .tq-foot { margin-top: 2.5rem; }
+.tq-test { margin-top: 2.5rem; border-top: 1px solid var(--rule); padding-top: 1rem; }
+.tq-test h2 { font-family: var(--mono); font-size: .8125rem; letter-spacing: .1em; text-transform: uppercase; margin: 0 0 .5rem; }
 @media (prefers-reduced-motion: no-preference) { .tq-result.is-new { animation: tq-in .5s ease-out; } }
 @keyframes tq-in { from { opacity: .3; transform: translateY(6px); } to { opacity: 1; transform: none; } }
 </style>
