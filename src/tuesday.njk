@@ -1,13 +1,13 @@
 ---
 layout: base.njk
-title: "Your Tuesday in 2030"
+title: "Your Job in 2030"
 description: "Tell the machine what you do, paid or not. It reads your working Tuesday in 2030, rolls a wildcard, and makes one dated prediction it will be held to."
 permalink: /tuesday/
 eleventyExcludeFromCollections: false
 api: "https://tuesday.signedwe.workers.dev"
 ---
 <p class="tq-eyebrow">A reading from the machine</p>
-<h1 class="tq-title">Your Tuesday in&nbsp;2030</h1>
+<h1 class="tq-title">Your Job in&nbsp;2030</h1>
 <p class="standfirst">Tell the machine what you do, paid or not. It will read your working Tuesday in 2030, roll a wildcard, and make one prediction. The prediction gets its own page, and stays up whether it comes true or not.</p>
 
 <form id="tq-form" class="tq-form" novalidate>
@@ -287,10 +287,10 @@ api: "https://tuesday.signedwe.workers.dev"
   function send(full) {
     if (!current) return;
     var note = document.getElementById("tq-sharemsg");
-    var name = full ? "my-tuesday-2030-full.png" : "my-tuesday-2030.png";
+    var name = full ? "my-job-2030-full.png" : "my-job-2030.png";
     drawCard(current, full).toBlob(function (blob) {
       var file = new File([blob], name, { type: "image/png" });
-      var data = { files: [file], title: "My Tuesday in 2030", text: current.name + ", your 2030 sign: " + current.sign + "\n\nGet yours: https://signedwe.github.io/we/tuesday/" };
+      var data = { files: [file], title: "My Job in 2030", text: current.name + ", your 2030 sign: " + current.sign + "\n\nGet yours: https://signedwe.github.io/we/tuesday/" };
       if (navigator.canShare && navigator.canShare({ files: [file] })) {
         navigator.share(data).catch(function () {});
       } else {

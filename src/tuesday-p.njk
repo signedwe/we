@@ -7,9 +7,9 @@ pagination:
 permalink: "/tuesday/p/{{ p.id | lower }}/"
 eleventyComputed:
   title: "The machine predicts: {{ p.prediction }}"
-  description: "A dated prediction from WE's Your Tuesday in 2030. Due {{ p.deadline | readable }}. It stays up whether it comes true or not."
+  description: "A dated prediction from WE's Your Job in 2030. Due {{ p.deadline | readable }}. It stays up whether it comes true or not."
 ---
-<p class="tq-eyebrow"><a href="{{ '/tuesday/' | url }}">Your Tuesday in 2030</a> · prediction {{ p.id }}</p>
+<p class="tq-eyebrow"><a href="{{ '/tuesday/' | url }}">Your Job in 2030</a> · prediction {{ p.id }}</p>
 
 <h1 class="tq-pred">🤖 The machine predicts: {{ p.prediction | replace("By ", "by ") }}</h1>
 
@@ -19,7 +19,7 @@ eleventyComputed:
 <p><strong>How it will be checked.</strong> {{ p.check }}</p>
 <p>If it comes true, this page says so. If it doesn't, this page says that instead, and stays up.</p>
 
-<p><a class="tq-cta" href="{{ '/tuesday/' | url }}">Get your own Tuesday in 2030 →</a></p>
+<p><a class="tq-cta" href="{{ '/tuesday/' | url }}">Get your own job in 2030 →</a></p>
 
 <style>
 .tq-eyebrow { font-family: var(--mono); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--quiet); }
