@@ -4486,6 +4486,333 @@
    "check": "National statistics office or large official survey.",
    "already_true_risk": "medium",
    "status": "open"
+  },
+  {
+   "id": "D01",
+   "prediction": "By 2030, the UK government will run a basic income pilot for at least 2,000 people and cite AI's effect on jobs as a reason.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "life"
+   ],
+   "themes": [
+    "money"
+   ],
+   "tech": "extreme_tech",
+   "why": "When work changes faster than retraining, governments test paying people directly.",
+   "check": "GOV.UK announcement or DWP/Treasury pilot documents.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "D02",
+   "prediction": "By the end of 2029, Jobcentre Plus will offer every jobseeker a personal AI coach, announced to Parliament.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "life",
+    "public"
+   ],
+   "themes": [
+    "being_managed",
+    "admin"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Work coaches are stretched; an always-on coach is cheap.",
+   "check": "DWP written ministerial statement or Hansard.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "D03",
+   "prediction": "By 2030, the ONS will publish an official count of people whose main income is training or checking AI.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "life",
+    "any"
+   ],
+   "themes": [
+    "money"
+   ],
+   "tech": "extreme_tech",
+   "why": "A new kind of work gets counted once enough people do it.",
+   "check": "ONS release or Labour Force Survey category.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "D04",
+   "prediction": "By 2030, time spent on an approved AI-taught course will count as job-search activity for Universal Credit.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "life"
+   ],
+   "themes": [
+    "admin",
+    "being_managed"
+   ],
+   "tech": "extreme_tech",
+   "why": "Retraining is the obvious answer, and the rules will have to admit it.",
+   "check": "DWP guidance or Universal Credit regulations.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "D05",
+   "prediction": "By 2030, Arts Council England will fund a project credited jointly to a human artist and an AI, and say so in the award.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "life",
+    "creative"
+   ],
+   "themes": [
+    "creativity"
+   ],
+   "tech": "conscious_ai",
+   "why": "Funders will have to decide what a collaborator is.",
+   "check": "Arts Council England grant listings or press release.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "D06",
+   "prediction": "By the end of 2029, a major UK art prize will require artists to show their working process, because the finished piece no longer proves who made it.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "life",
+    "creative"
+   ],
+   "themes": [
+    "creativity"
+   ],
+   "tech": "extreme_tech",
+   "why": "Process becomes the proof of authorship.",
+   "check": "The prize's published rules.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "D07",
+   "prediction": "By 2030, carers will be able to claim Carer's Allowance through an AI agent that fills the form and chases the decision, with DWP approval.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "life",
+    "care"
+   ],
+   "themes": [
+    "admin",
+    "people"
+   ],
+   "tech": "robot_autonomy",
+   "why": "The form is the barrier; agents remove it.",
+   "check": "DWP announcement or GOV.UK service page.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "D08",
+   "prediction": "By 2030, a UK pension provider will give retired members an AI that renegotiates their household bills as a standard feature.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "life",
+    "finance"
+   ],
+   "themes": [
+    "money",
+    "admin"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Retired people have time but hate the phone queues; agents don't mind.",
+   "check": "Provider press release or product page.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "D09",
+   "prediction": "By the end of 2029, a UK council will pay residents to teach their trade or craft to an AI, in a published scheme.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "life",
+    "public"
+   ],
+   "themes": [
+    "hands_on",
+    "money"
+   ],
+   "tech": "conscious_ai",
+   "why": "Local know-how becomes something worth buying.",
+   "check": "Council cabinet papers or press release.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "D10",
+   "prediction": "By 2030, official UK figures will show more people over 65 starting a business than under 25, with AI tools given as a reason.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "life"
+   ],
+   "themes": [
+    "money",
+    "creativity"
+   ],
+   "tech": "extreme_tech",
+   "why": "Experience plus an AI back office beats energy alone.",
+   "check": "ONS or British Business Bank start-up figures.",
+   "already_true_risk": "low",
+   "region": "uk",
+   "status": "open"
+  },
+  {
+   "id": "G301",
+   "prediction": "By 2030, at least one G20 country will pay a regular basic income to over 100,000 people and cite AI as a reason.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "life"
+   ],
+   "themes": [
+    "money"
+   ],
+   "tech": "extreme_tech",
+   "why": "Direct payment is the fastest response to fast job change.",
+   "check": "Government announcement in that country.",
+   "already_true_risk": "low",
+   "region": "global",
+   "status": "open"
+  },
+  {
+   "id": "G302",
+   "prediction": "By the end of 2029, the national employment service of a G20 country will give every jobseeker a personal AI career coach.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "life",
+    "public"
+   ],
+   "themes": [
+    "being_managed"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Advisers are scarce; coaching is mostly conversation.",
+   "check": "Employment ministry announcement.",
+   "already_true_risk": "low",
+   "region": "global",
+   "status": "open"
+  },
+  {
+   "id": "G303",
+   "prediction": "By 2030, a major international art prize will go to a work openly made with an AI.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "life",
+    "creative"
+   ],
+   "themes": [
+    "creativity"
+   ],
+   "tech": "conscious_ai",
+   "why": "Judges will reward the idea, then argue about the hands.",
+   "check": "Prize announcement.",
+   "already_true_risk": "low",
+   "region": "global",
+   "status": "open"
+  },
+  {
+   "id": "G304",
+   "prediction": "By 2030, at least one country will pay citizens for the data their daily lives produce, through a national scheme.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "life",
+    "any"
+   ],
+   "themes": [
+    "money"
+   ],
+   "tech": "extreme_tech",
+   "why": "If data trains machines, someone will ask why the people who made it aren't paid.",
+   "check": "Government scheme launch.",
+   "already_true_risk": "low",
+   "region": "global",
+   "status": "open"
+  },
+  {
+   "id": "G305",
+   "prediction": "By the end of 2029, a G20 country will let students take school-leaving exams as spoken conversations with an AI examiner.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "life",
+    "education"
+   ],
+   "themes": [
+    "pressure",
+    "people"
+   ],
+   "tech": "robot_autonomy",
+   "why": "Talking proves understanding when essays can't.",
+   "check": "Education ministry or exam board announcement.",
+   "already_true_risk": "low",
+   "region": "global",
+   "status": "open"
+  },
+  {
+   "id": "G306",
+   "prediction": "By 2030, a city of over a million will pay retired residents to mentor AI systems in their old trade.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "life"
+   ],
+   "themes": [
+    "hands_on",
+    "people"
+   ],
+   "tech": "conscious_ai",
+   "why": "Decades of know-how is exactly what machines lack.",
+   "check": "City government announcement.",
+   "already_true_risk": "low",
+   "region": "global",
+   "status": "open"
+  },
+  {
+   "id": "G307",
+   "prediction": "By the end of 2029, a national museum in a G20 country will hold a major retrospective of an artist who works with an AI.",
+   "deadline": "2029-12-31",
+   "sectors": [
+    "life",
+    "creative"
+   ],
+   "themes": [
+    "creativity"
+   ],
+   "tech": "conscious_ai",
+   "why": "Museums follow the work once it has a career behind it.",
+   "check": "Museum exhibition listing.",
+   "already_true_risk": "low",
+   "region": "global",
+   "status": "open"
+  },
+  {
+   "id": "G308",
+   "prediction": "By 2030, more than ten countries will run official schemes paying people to retrain because of AI.",
+   "deadline": "2030-12-31",
+   "sectors": [
+    "life"
+   ],
+   "themes": [
+    "money",
+    "routine"
+   ],
+   "tech": "extreme_tech",
+   "why": "Retraining is the policy every government can agree on.",
+   "check": "OECD or ILO survey of national schemes.",
+   "already_true_risk": "low",
+   "region": "global",
+   "status": "open"
   }
  ],
  "wildcards": [

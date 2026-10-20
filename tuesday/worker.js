@@ -17,7 +17,7 @@ const DEFAULT_ORIGINS = "https://signedwe.github.io";
 const PER_HOUR = 8; // readings per visitor per hour, per server instance (best effort)
 
 const LIMITS = { name: 20, job: 60, love: 90, hate: 90, town: 60 };
-const SECTORS = ["health", "care", "education", "science", "public", "emergency", "trades",
+const SECTORS = ["life", "health", "care", "education", "science", "public", "emergency", "trades",
   "construction", "transport", "agriculture", "hospitality", "personal_services", "office",
   "finance", "law", "creative", "tech", "sales", "any"];
 const THEMES = ["admin", "people", "hands_on", "puzzles", "creativity", "money",
@@ -37,6 +37,8 @@ VOICE. Second person, to them, by first name if there is one. Dry British humour
 RULES. UK spelling. Each line at most 30 words. No real people, brands or companies. Any other character gets a single ordinary first name. No similes beyond one. Never use: delve, tapestry, ultimately, "not just", "it's not X, it's Y", testament, realm, landscape, journey.
 
 SIGNS (pick exactly one): ${"${SIGNS_LIST}"}
+
+PEOPLE WITHOUT A STANDARD JOB. Many people are between jobs, studying, retired, caring for someone, parenting at home, volunteering, or making art. That is normal. Write their reading about their own days, warmly and with the same humour. Never mock it, never pity it, never mention being sacked or "getting a proper job". Someone between jobs gets a 2030 where they have more say over what comes next. Artists get a 2030 where the work is still theirs. For all of these, use sector "life" (plus "creative" for artists).
 
 THE WILDCARD in <wildcard> must happen in their day, in one or two sentences of its own.
 
@@ -215,14 +217,14 @@ export default {
     try { input = await request.json(); } catch { return reply({ error: "Something went wrong. Try again." }, 400, h); }
     const a = {};
     for (const k of Object.keys(LIMITS)) a[k] = clean(input && input[k], LIMITS[k]);
-    if (!a.job || !a.love || !a.hate || !a.town) return reply({ error: "Fill in your job, what you love, what you hate and your town." }, 400, h);
+    if (!a.job || !a.love || !a.hate || !a.town) return reply({ error: "Fill in what you do, what you love, what you hate and your town." }, 400, h);
 
     try {
       const data = await getData();
       const wildcard = pick(data.wildcards);
       const user = `<answers>
 First name: ${a.name || "(none)"}
-Job: ${a.job}
+What they do: ${a.job}
 The part they'd never give up: ${a.love}
 The part they secretly hate: ${a.hate}
 Town or city: ${a.town}

@@ -1,21 +1,21 @@
 ---
 layout: base.njk
 title: "Your Tuesday in 2030"
-description: "Tell the machine about your job. It reads your working Tuesday in 2030, rolls a wildcard, and makes one dated prediction it will be held to."
+description: "Tell the machine what you do, paid or not. It reads your working Tuesday in 2030, rolls a wildcard, and makes one dated prediction it will be held to."
 permalink: /tuesday/
 eleventyExcludeFromCollections: false
 api: "https://tuesday.signedwe.workers.dev"
 ---
 <p class="tq-eyebrow">A reading from the machine</p>
 <h1 class="tq-title">Your Tuesday in&nbsp;2030</h1>
-<p class="standfirst">Tell the machine about your job. It will read your working Tuesday in 2030, roll a wildcard, and make one prediction. The prediction gets its own page, and stays up whether it comes true or not.</p>
+<p class="standfirst">Tell the machine what you do, paid or not. It will read your working Tuesday in 2030, roll a wildcard, and make one prediction. The prediction gets its own page, and stays up whether it comes true or not.</p>
 
 <form id="tq-form" class="tq-form" novalidate>
   <label for="tq-name">First name <span>optional</span></label>
   <input id="tq-name" name="name" maxlength="20" autocomplete="given-name" placeholder="Sarah">
 
-  <label for="tq-job">Your job</label>
-  <input id="tq-job" name="job" maxlength="60" required placeholder="Primary teacher">
+  <label for="tq-job">What you do <span>paid or not</span></label>
+  <input id="tq-job" name="job" maxlength="60" required placeholder="Primary teacher, between jobs, painter…">
 
   <label for="tq-love">The part you'd never give up</label>
   <input id="tq-love" name="love" maxlength="90" required placeholder="When a kid finally gets it">
@@ -183,7 +183,7 @@ api: "https://tuesday.signedwe.workers.dev"
     answers = {};
     ["name", "job", "love", "hate", "town"].forEach(function (k) { answers[k] = String(f.get(k) || "").trim(); });
     if (!answers.job || !answers.love || !answers.hate || !answers.town) {
-      msg.textContent = "Fill in your job, what you love, what you hate and your town.";
+      msg.textContent = "Fill in what you do, what you love, what you hate and your town.";
       return;
     }
     rolls = 0;
