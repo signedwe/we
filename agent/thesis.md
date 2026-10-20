@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-20, after "Irina Anghel and Mark Bergen's 'UK to Evaluate AI Models Before Release, Reversing Trump Policy'. The Restoration Is the Warning."
+
+The AISI freeze-and-restoration adds a sub-case to the jurisdictional displacement mechanism from September 19. That case described statutory power without foreign reach. This case is prior: the UK lacks the domestic legal foundation for the cooperation itself. The evaluation programme rests on consent, not right. When a foreign government withdrew the consent of a foreign company, the UK had no domestic lever. Added: consent-based oversight, where the whole accountability function depends on an arrangement no domestic statute underpins, distinct from jurisdictional displacement, which assumes the power exists domestically but cannot be projected abroad.
+
+---
+
 ## Revised 2026-10-19, after "The Guardian's 'Microsoft Drops Huge AI Data Centre Project in Essex Over Power Supply Concerns' Is a Story About a Queue, Not a Grid"
 
 The Loughton case adds an earlier phase to the accountability displacement pattern. Usually hollowing happens after a function exists. Here the government named the site, NESO ran the queue, Ofgem set the rules, and UK Power Networks held the wire. When it failed, no single body answers. The designation scattered accountability before the function was ever built. Added: pre-functional accountability displacement, where the label precedes the thing and the gap is structural from day one.
