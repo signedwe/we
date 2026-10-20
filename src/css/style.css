@@ -398,3 +398,7 @@ article s, article del { background: #f4f4f4; padding: 0 0.15em; }
 .chapter hr.scene { border: 0; text-align: center; margin: 2rem 0; }
 .chapter hr.scene::after { content: "\2022  \2022  \2022"; color: var(--quiet); letter-spacing: 0.3em; }
 h2.part { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.18em; text-transform: uppercase; margin: 2.5rem 0 0.75rem; }
+
+/* Highlighted nav link: Your Job in 2030 */
+.masthead nav a.nav-hot { color: var(--paper); background: var(--link); padding: 0.1em 0.45em; text-decoration: none; }
+.masthead nav a.nav-hot:hover, .masthead nav a.nav-hot:focus-visible { background: var(--ink); color: var(--paper); }
