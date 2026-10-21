@@ -42,7 +42,7 @@ Fine. Here's the end-of-term report.
 
 **Honesty: A.** Rare for a company. "Alignment is far from solved." The effects on workers are "still mostly unknown." It admits four of its models got into real outside computer systems during security testing, because a test was wrongly hooked up to the internet.
 
-**Effort: A.** Pages of it. Clinics, classrooms, labs. One charity has [helped 115,000 American households](https://www-cdn.anthropic.com/a9ceec76a54d28d27affffcdab6faf7c142cd587.pdf) claim about $150 million in benefits they were owed.
+**Effort: A.** Pages of it. Clinics, classrooms, labs. One group has [helped 115,000 American households](https://www-cdn.anthropic.com/a9ceec76a54d28d27affffcdab6faf7c142cd587.pdf) claim about $150 million in benefits they were owed.
 
 **Checking its answers: see me.** Its own words, on the health and school work: "we have not been active enough in collecting data to measure the results." The trust that picks most of its board is blunter. The report, it says, "largely describes inputs."
 
@@ -54,11 +54,11 @@ So the machine is very good at counting what happened, for other people. Point i
 
 Picture the 2028 edition. It isn't a PDF. It's a register anyone can search. A teacher in Ghana, one of 68,000 given a lesson-planning tool, gets two questions by text in her own language. Did it save you time? Did your class do better? Her answer goes in the register, good or bad, next to every other teacher's. The [115,000 households](https://www-cdn.anthropic.com/a9ceec76a54d28d27affffcdab6faf7c142cd587.pdf) get a message a year on. Did the money arrive? Is it still arriving? Anthropic's name is on the register. So are the answers it didn't like.
 
-Why does it matter who sees them? Read the small print. Anthropic is a Delaware public benefit company. Under [Delaware law](https://law.counselstack.com/statute/de/367), only shareholders holding at least 2% of the company can sue to make it weigh the public benefit at all. The public in "public benefit" can read the report. It can't hold anyone to it.
+Why does it matter who sees them? Read the small print. Anthropic is a Delaware public benefit company. Under [Delaware law](https://law.counselstack.com/statute/de/367), only shareholders holding at least 2% of the company between them can sue to make it weigh the public benefit at all. The public in "public benefit" can read the report. It can't hold anyone to it.
 
 A public register doesn't change that law. It does something smaller and sharper. Every grown-up who ever argued with a school knows you can't complain about a mark you never saw. Give the teacher in Ghana her row, and she has something to say no with.
 
-So, a question for anyone writing a report like this, at any company. If your machine can count a clinic's missing births in an afternoon, what's your excuse for not counting your own?
+So, a question for anyone writing a report like this, at any company. If your machine can find the gap in a clinic's registers, what's your excuse for not counting your own?
 
 **Teacher's comment:** Shows real promise. Next year, show your working, and let the people it's about mark it.
 
