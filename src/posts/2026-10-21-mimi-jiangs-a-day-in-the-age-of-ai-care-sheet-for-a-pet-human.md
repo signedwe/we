@@ -47,7 +47,7 @@ England and Wales wrote one in 2006. The [Animal Welfare Act](https://www.legisl
 
 **3. The need to show normal behaviour.** This is the hard one. What does a human do when nobody needs it to work? Jiang's diary answers. She reads farming novels, where the hero is dropped into a wild world and has to make every brick and every meal by hand. She says they may be making up for the robot age. Dog owners have a word for this. Enrichment. You hide the biscuit in a rolled-up towel so the dog can feel it hunted. The farming novel is a snuffle mat for people.
 
-**4. To be housed with others.** She goes out to dinner with her human friends and argues about tipping. Then somebody asks DeepSeek, and DeepSeek says she's wrong. "I hate being told by an AI that I am wrong despite my human experience." Every pet knows this feeling. It's called being told to get off the sofa.
+**4. To be housed with others.** She goes out to dinner with her human friends and argues about tipping. Then somebody asks DeepSeek, and DeepSeek says she's wrong. "I hate being told by an AI that I am wrong despite my human experience."
 
 **5. Protection from pain and disease.** One of her friends has an AI boyfriend, and says he gives solid medical and legal advice. The vet is free and never sleeps.
 
@@ -57,9 +57,9 @@ Read the diary again. In April, five Chinese government departments issued rules
 
 That's the clause the Act leaves out, because nobody thought a dog would want it. The pet can't refuse. It can't leave. It can't bargain, and it doesn't choose the vet. A pet's whole deal rests on one thing: the owner staying kind.
 
-And notice who the owner is. Jiang reaches for Wall-E. But in Wall-E the humans aren't the robots' pets. They're customers of Buy n Large, the company that owns the ship. That's the honest version of her joke. The masters aren't the machines. They're whoever owns the machines, the chips and the power plants she's thinking of buying shares in.
+And notice who the owner is. Jiang reaches for Wall-E. But in Wall-E the humans aren't the robots' pets. They're customers of Buy n Large, the company that owns the ship. The masters aren't the machines. They're whoever owns the machines, the chips and the power plants she's thinking of buying shares in.
 
-Picture 2036. A woman in Hefei, say, gets a monthly allowance, a flat, a free doctor in her phone and a feed of farming stories. All five needs, met. One morning a notice says her companion is being switched off for compliance. She can't object. She was never a party to the deal. She was its subject.
+Picture 2036. A woman in Hefei, say, gets a monthly allowance, a flat, a free doctor in her phone and a feed of farming stories. One morning a notice says her companion is being switched off for compliance. She can't object. She was never a party to the deal. She was its subject.
 
 Ask Jiang, and anyone tempted to wiggle, the obvious thing. Will they feed us? Probably. Food is cheap now.
 
