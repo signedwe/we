@@ -39,21 +39,21 @@ Mimi Jiang's [diary in the London Review of Books](https://www.lrb.co.uk/the-pap
 
 It's a joke. Taken seriously, it's a plan, and plans need a care sheet.
 
-Britain wrote one in 2006. The [Animal Welfare Act](https://www.legislation.gov.uk/ukpga/2006/45/section/9) says whoever is responsible for an animal must meet five needs. Here they are, for the pet human.
+England and Wales wrote one in 2006. The [Animal Welfare Act](https://www.legislation.gov.uk/ukpga/2006/45/section/9) says whoever is responsible for an animal must take reasonable steps to meet its needs, and it lists five. Here they are, for the pet human.
 
 **1. A suitable environment.** Jiang has costed it. She reckons a young person without a job could live on 100 yuan a day, half for food and half for fun, paid out of their parents' savings. That's a hutch, and it already exists.
 
-**2. A suitable diet.** Easy. Prices are falling so fast, she says, that China is close to deflation. The robots make more than anyone can buy.
+**2. A suitable diet.** Easy. Factories already make more than China can buy, she says, and prices are falling to the point of deflation.
 
 **3. The need to show normal behaviour.** This is the hard one. What does a human do when nobody needs it to work? Jiang's diary answers. She reads farming novels, where the hero is dropped into a wild world and has to make every brick and every meal by hand. She says they may be making up for the robot age. Dog owners have a word for this. Enrichment. You hide the biscuit in a rolled-up towel so the dog can feel it hunted. The farming novel is a snuffle mat for people.
 
 **4. To be housed with others.** She goes out to dinner with her human friends and argues about tipping. Then somebody asks DeepSeek, and DeepSeek says she's wrong. "I hate being told by an AI that I am wrong despite my human experience." Every pet knows this feeling. It's called being told to get off the sofa.
 
-**5. Protection from pain and disease.** Her friend's AI boyfriend, she says, gives solid medical and legal advice. The vet is free and never sleeps.
+**5. Protection from pain and disease.** One of her friends has an AI boyfriend, and says he gives solid medical and legal advice. The vet is free and never sleeps.
 
 All five, met. A good owner could do it. So what's wrong?
 
-Read the diary again. In April, five Chinese government departments issued rules on AI companions. The big apps switched theirs off until they could comply. Jiang's word for what happened next: "Many users experienced a cyber break-up overnight." Nobody asked the pets. The owner decided, and the companion was rehomed.
+Read the diary again. In April, five Chinese government departments issued rules on human-like AI companions, meant to protect vulnerable users. The big apps switched theirs off until they could comply. Jiang's word for what happened next: "Many users experienced a cyber break-up overnight." Nobody asked the pets. The owner decided, and the companion was rehomed.
 
 That's the clause the Act leaves out, because nobody thought a dog would want it. The pet can't refuse. It can't leave. It can't bargain, and it doesn't choose the vet. A pet's whole deal rests on one thing: the owner staying kind.
 
