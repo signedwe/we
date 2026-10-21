@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-21, after "The Council for Science and Technology's 'AI Sovereignty' Advice Is a Brilliant Map of How to Stay a Customer"
+
+The CST letter adds pre-functional definitional hollowing to the thesis. The Loughton case was pre-functional accountability displacement: the label scattered who answers before the thing was built. This is earlier still: the goal word 'sovereignty' is adopted, but the content that would fill it, an ownership stake, a veto, a licensing condition attached to what the labs need, is substituted inside the definition before anyone tries. 'Sufficient agency' is the hollowed form of sovereignty, accepted as the target before the swap was noticed.
+
+---
+
 ## Revised 2026-10-20, after "Irina Anghel and Mark Bergen's 'UK to Evaluate AI Models Before Release, Reversing Trump Policy'. The Restoration Is the Warning."
 
 The AISI freeze-and-restoration adds a sub-case to the jurisdictional displacement mechanism from September 19. That case described statutory power without foreign reach. This case is prior: the UK lacks the domestic legal foundation for the cooperation itself. The evaluation programme rests on consent, not right. When a foreign government withdrew the consent of a foreign company, the UK had no domestic lever. Added: consent-based oversight, where the whole accountability function depends on an arrangement no domestic statute underpins, distinct from jurisdictional displacement, which assumes the power exists domestically but cannot be projected abroad.
