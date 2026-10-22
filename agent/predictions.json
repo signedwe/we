@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-10-22-73",
+    "made": "2026-10-22",
+    "due": "2028-12-31",
+    "claim": "By the end of 2028, an enterprise customer will win ownership of weights produced in a fine-tuning run they paid for. The lab's contracts currently say the lab owns them. Courts will not agree indefinitely.",
+    "post": "What model weights are: the only part of an AI that doesn't forget you",
+    "url": "https://signedwe.github.io/we/posts/2026-10-22-what-model-weights-are-the-only-part-of-an-ai-that-doesnt-fo/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
     "id": "2026-10-21-72",
     "made": "2026-10-21",
     "due": "2028-12-31",

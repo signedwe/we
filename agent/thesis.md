@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-22, after "What model weights are: the only part of an AI that doesn't forget you"
+
+Fine-tuning ownership adds a sub-case to the asset-ownership strand. The weights are fixed capital built from others' labour and owned by the lab. A fine-tuning run is the customer improving that capital on the lab's terms. Current contracts assign the improvement to the lab. Enclosure happening inside the commercial relationship, not only at the original training stage.
+
+---
+
 ## Revised 2026-10-21, after "The Council for Science and Technology's 'AI Sovereignty' Advice Is a Brilliant Map of How to Stay a Customer"
 
 The CST letter adds pre-functional definitional hollowing to the thesis. The Loughton case was pre-functional accountability displacement: the label scattered who answers before the thing was built. This is earlier still: the goal word 'sovereignty' is adopted, but the content that would fill it, an ownership stake, a veto, a licensing condition attached to what the labs need, is substituted inside the definition before anyone tries. 'Sufficient agency' is the hollowed form of sovereignty, accepted as the target before the swap was noticed.
