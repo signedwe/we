@@ -125,7 +125,7 @@ async function call(env, body, model) {
     },
     body: JSON.stringify({ model: model || MODEL, ...body }),
   });
-  if (!r.ok) throw new Error("model " + r.status + " " + (await r.text()).slice(0, 160));
+  if (!r.ok) throw new Error("model " + r.status + " " + (await r.text()).slice(0, 400));
   return r.json();
 }
 
@@ -287,7 +287,7 @@ Town or city: ${a.town || "(not given: don't name a place; leave town empty)"}
         if (/UNSAFE/.test(verdict)) return reply({ error: "The machine couldn't read that. Try different words." }, 422, h);
       }
 
-      if (fallback && why) reading.note = why.slice(0, 120);
+      if (fallback && why) reading.note = why.slice(0, 400);
       return reply(reading, 200, h);
     } catch (e) {
       const code = String(e && e.message || "").replace(/[^a-z0-9 ]/gi, "").slice(0, 20);
