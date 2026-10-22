@@ -155,7 +155,7 @@ const READING_TOOL = {
 async function askForm(env, system, user, maxTokens) {
   const j = await call(env, {
     max_tokens: maxTokens, system, messages: [{ role: "user", content: user }],
-    tools: [READING_TOOL], tool_choice: { type: "tool", name: "reading" }, thinking: { type: "disabled" },
+    tools: [READING_TOOL], tool_choice: { type: "tool", name: "reading" }, thinking: { type: "between_tools" },
   }, WRITER_MODEL);
   const t = (j.content || []).find((b) => b.type === "tool_use");
   if (t && t.input) return t.input;
