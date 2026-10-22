@@ -155,11 +155,13 @@ const READING_TOOL = {
 async function askForm(env, system, user, maxTokens) {
   const j = await call(env, {
     max_tokens: maxTokens, system, messages: [{ role: "user", content: user }],
-    tools: [READING_TOOL], tool_choice: { type: "auto" }, // this model refuses a forced tool; the prompt asks for it
+    tools: [READING_TOOL], tool_choice: { type: "tool", name: "reading" }, thinking: { type: "disabled" },
   }, WRITER_MODEL);
   const t = (j.content || []).find((b) => b.type === "tool_use");
   if (t && t.input) return t.input;
-  return parseJson((j.content || []).filter((b) => b.type === "text").map((b) => b.text).join(""));
+  const got = parseJson((j.content || []).filter((b) => b.type === "text").map((b) => b.text).join(""));
+  if (!got) throw new Error("noform " + j.stop_reason + " " + JSON.stringify(j.content || []).slice(0, 100));
+  return got || parseJson((j.content || []).filter((b) => b.type === "text").map((b) => b.text).join(""));
 }
 
 function parseJson(text) {
