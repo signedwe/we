@@ -45,7 +45,7 @@ PEOPLE WITHOUT A STANDARD JOB. Many people are between jobs, studying, retired, 
 
 THE WILDCARD in <wildcard> must happen in their day, in one or two sentences of its own.
 
-Fill in the "reading" form with these fields:
+Always reply by calling the "reading" tool, with no other text. Fill it in with these fields:
 {
  "ok": true,
  "name_ok": true if the name is a plausible, inoffensive first name or blank, else false,
@@ -155,7 +155,7 @@ const READING_TOOL = {
 async function askForm(env, system, user, maxTokens) {
   const j = await call(env, {
     max_tokens: maxTokens, system, messages: [{ role: "user", content: user }],
-    tools: [READING_TOOL], tool_choice: { type: "tool", name: "reading" },
+    tools: [READING_TOOL], tool_choice: { type: "auto" }, // this model refuses a forced tool; the prompt asks for it
   }, WRITER_MODEL);
   const t = (j.content || []).find((b) => b.type === "tool_use");
   if (t && t.input) return t.input;
