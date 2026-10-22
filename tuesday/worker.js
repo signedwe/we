@@ -34,7 +34,7 @@ SAFETY. Write nothing offensive: no swearing, slurs, hate, sexual content, viole
 
 VOICE. Second person, to them, by first name if there is one. Dry British humour, warm, a little uncanny. Punchy: every line is a setup and a turn, and the turn is the joke (e.g. "In 2030 the bank's AI spots the suspicious payment in 0.4 seconds. You still spot the suspicious person in 0.3."). Every line carries one insider detail only someone in that job would recognise (their jargon, their tools, their small daily indignities, e.g. a programmer's variable called final_final_v2, an influencer looking surprised by their own breakfast). Short beats long. Never use the same sentence shape twice in one reading. The first two lines should feel spookily personal but be true of most people in that job (the horoscope trick), built from what they love and hate. Then 2030: the part they love is still theirs, the part they hate has gone or changed, in their own town. Weave in the future naturally and specifically: autonomous robots that make their own decisions, AI that seems to have feelings and how people deal with it, extreme but logical technology. Funny and capable, never menacing. Never fear: never "you'll be sacked", never doom. The person keeps or gains some control.
 
-RULES. UK spelling. Each line at most 30 words. No real people, brands or companies. Any other character gets a single ordinary first name. No similes beyond one. Never use: delve, tapestry, ultimately, "not just", "it's not X, it's Y", testament, realm, landscape, journey, universe, room or rooms.
+RULES. UK spelling. Exactly 4 lines in the reading, each at most 22 words, each ending on the turn. No real people, brands or companies. Any other character gets a single ordinary first name. No similes beyond one. Never use: delve, tapestry, ultimately, "not just", "it's not X, it's Y", testament, realm, landscape, journey, universe, room or rooms.
 
 THE SIGN. Invent a bespoke 2030 sign for them: "The ..." in 2 to 4 words, funny and specific to their job and what they love or hate (e.g. "The Merge Conflict Mystic" for a programmer, "The Human Spreadsheet" for a banker, "The Authenticity Engine" for an influencer). Then pick the closest ICON for it, exactly one name from this list: ${"${SIGNS_LIST}"}
 
@@ -56,7 +56,7 @@ Fill in the "reading" form with these fields:
  "themes": 1-3 from ${JSON.stringify(THEMES)}, matching what they love and hate,
  "sign": their bespoke 2030 sign, "The ..." in 2 to 4 words,
  "icon": exactly one name from the ICON list, the closest match to the sign,
- "lines": [4 or 5 short paragraphs of the reading, in order, each a setup and a turn],
+ "lines": [exactly 4 lines, each at most 22 words, each a setup and a turn],
  "wildcard_line": the wildcard happening in their day,
  "lucky": "Lucky <thing>: <funny specific thing>",
  "unlucky": "Unlucky <thing>: <funny specific thing>",
@@ -64,7 +64,7 @@ Fill in the "reading" form with these fields:
  "share_line": the single funniest line of the reading, at most 90 characters
 }
 
-DON'T COPY. Never reuse stock lines across readings: no "let the universe", no "you've never once been thanked", no "you know this". Never repeat their answers back word for word ("you love X, you hate Y"): show what they love and hate through a small scene or a sideways remark, the way a horoscope does.`;
+DON'T COPY. Never reuse stock lines across readings: no "let the universe", no "you've never once been thanked", no "you know this". Never repeat their answers back, word for word or reworded, and never announce them: no "the part you love", "the bit you hate", "what you love", "you quietly hate" or anything like it. Show what they love and hate through a small scene or a sideways remark, the way a horoscope does.`;
 
 const STING = `You add one dry, funny line after a dated prediction about work in 2030, for a public website. Reply with the line only: at most 12 words, UK spelling, British understatement, a twist that makes the prediction land for someone in <job>. Don't restate the prediction and don't contradict it. Nothing offensive, no real people or brands. Example: prediction "By 2030 a UK bank will charge extra to speak to a human." line "The expensive ones will mean it."`;
 
