@@ -35,9 +35,9 @@ api: "https://tuesday.signedwe.workers.dev"
   <p class="tq-stamp"><span><span class="tq-dot"></span><span id="tq-label">Example transmission</span></span><span id="tq-when">Tue 14 May 2030 · 09:41 · RDG-7F3A</span></p>
   <h2 class="tq-sign"><span><span id="tq-who">Sarah, your 2030 sign</span>: <span id="tq-sign">The Lightbulb</span></span><img class="tq-sigil" id="tq-sigil" src="{{ '/tuesday/signs/lightbulb.png' | url }}" alt="" width="256" height="256"></h2>
   <div class="tq-eat" id="tq-eat">
-    <p class="tq-eat-head"><span class="tq-k">How much of your job AI could eat</span> <strong id="tq-eat-pct">26%</strong></p>
-    <div class="tq-bar" aria-hidden="true"><i id="tq-eat-bar" style="width:26%"></i></div>
-    <p class="tq-small">The share of the tasks in <span id="tq-eat-job">primary school teaching</span> that today's AI could technically do. Real data, not a forecast of job loss. <a href="https://doi.org/10.54394/HETP0387">ILO, 2025</a></p>
+    <p class="tq-eat-head"><span class="tq-k">How much of your job AI is already eating</span> <strong id="tq-eat-pct">10%</strong></p>
+    <div class="tq-bar" aria-hidden="true"><i id="tq-eat-bar" style="width:10%"></i></div>
+    <p class="tq-small">The share of the work of <span id="tq-eat-job">elementary school teachers</span> that AI is already doing at work, from real usage. Not a forecast of job loss. <a href="https://huggingface.co/datasets/Anthropic/EconomicIndex">Anthropic Economic Index, 2026</a></p>
   </div>
   <div id="tq-lines">
     <p>You've always been better with people than with spreadsheets. You know this. The spreadsheets know this.</p>
@@ -274,13 +274,13 @@ api: "https://tuesday.signedwe.workers.dev"
     ctx.fillStyle = "#0b0f0f"; y = wrap(ctx, sign, L, y + 15, M, 92, 2) + 30;
     if (r.exposure) {
       ctx.font = "28px " + mono; ctx.fillStyle = "#56605f";
-      ctx.fillText("HOW MUCH OF YOUR JOB AI COULD EAT", L, y + 30);
+      ctx.fillText("HOW MUCH OF YOUR JOB AI IS EATING", L, y + 30);
       ctx.font = "bold 64px " + mono; ctx.fillStyle = "#cc4b1f";
       var pt = r.exposure.pct + "%"; ctx.fillText(pt, W - L - ctx.measureText(pt).width, y + 40);
       ctx.fillStyle = "rgba(0,40,40,0.14)"; ctx.fillRect(L, y + 62, M, 18);
       ctx.fillStyle = "#cc4b1f"; ctx.fillRect(L, y + 62, M * r.exposure.pct / 100, 18);
       ctx.font = "24px " + mono; ctx.fillStyle = "#56605f";
-      ctx.fillText("of the tasks AI could do today \u00b7 ILO 2025 data", L, y + 118);
+      ctx.fillText("already done by AI at work \u00b7 Anthropic data, 2026", L, y + 118);
       y += 170;
     }
     if (!full) {
