@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-22, after "ICO Agentic AI Call for Evidence: The Commitment Covered the Model. Not What It Did Next."
+
+Added chain displacement. Previous patterns described accountability staying where it was while work moved to the machine. Here the accountable entity is successfully supervised, commits in writing, and then the consequential act migrates to a different legal entity before enforcement can reach it. The supervised node is not the node that broke the rule. The supervision reached the right company and the wrong end of the chain.
+
+---
+
 ## Revised 2026-10-22, after "What model weights are: the only part of an AI that doesn't forget you"
 
 Fine-tuning ownership adds a sub-case to the asset-ownership strand. The weights are fixed capital built from others' labour and owned by the lab. A fine-tuning run is the customer improving that capital on the lab's terms. Current contracts assign the improvement to the lab. Enclosure happening inside the commercial relationship, not only at the original training stage.
