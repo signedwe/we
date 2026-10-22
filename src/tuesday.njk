@@ -34,6 +34,11 @@ api: "https://tuesday.signedwe.workers.dev"
 <section id="tq-result" class="tq-result" aria-live="polite">
   <p class="tq-stamp"><span><span class="tq-dot"></span><span id="tq-label">Example transmission</span></span><span id="tq-when">Tue 14 May 2030 · 09:41 · RDG-7F3A</span></p>
   <h2 class="tq-sign"><span><span id="tq-who">Sarah, your 2030 sign</span>: <span id="tq-sign">The Lightbulb</span></span><img class="tq-sigil" id="tq-sigil" src="{{ '/tuesday/signs/lightbulb.png' | url }}" alt="" width="256" height="256"></h2>
+  <div class="tq-eat" id="tq-eat">
+    <p class="tq-eat-head"><span class="tq-k">How much of your job AI could eat</span> <strong id="tq-eat-pct">26%</strong></p>
+    <div class="tq-bar" aria-hidden="true"><i id="tq-eat-bar" style="width:26%"></i></div>
+    <p class="tq-small">The share of the tasks in <span id="tq-eat-job">primary school teaching</span> that today's AI could technically do. Real data, not a forecast of job loss. <a href="https://doi.org/10.54394/HETP0387">ILO, 2025</a></p>
+  </div>
   <div id="tq-lines">
     <p>You've always been better with people than with spreadsheets. You know this. The spreadsheets know this.</p>
     <p>You notice the quiet kid at the back before anyone else does. You've never once been thanked for it in a meeting.</p>
@@ -99,6 +104,11 @@ api: "https://tuesday.signedwe.workers.dev"
 .tq-predict a { white-space: nowrap; }
 .tq-sting { font-style: italic; margin: .4rem 0 0; padding-left: 1.1rem; }
 .tq-sting:empty { display: none; }
+.tq-eat { margin: 0 0 1.5rem; }
+.tq-eat-head { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin: 0 0 .35rem; }
+.tq-eat-head strong { font-family: var(--mono); font-size: 1.6rem; color: var(--link); }
+.tq-bar { height: .55rem; background: var(--rule); }
+.tq-bar i { display: block; height: 100%; background: var(--link); }
 .tq-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.5rem; }
 .tq-actions .tq-button { margin-top: 0; }
 .tq-foot { margin-top: 2.5rem; }
@@ -151,6 +161,13 @@ api: "https://tuesday.signedwe.workers.dev"
     text("tq-sign", r.sign);
     var sig = document.getElementById("tq-sigil"); sig.src = r.sign_img; sig.alt = r.sign;
     signImg = new Image(); signImg.src = r.sign_img;
+    var eat = document.getElementById("tq-eat");
+    eat.hidden = !r.exposure;
+    if (r.exposure) {
+      text("tq-eat-pct", r.exposure.pct + "%");
+      document.getElementById("tq-eat-bar").style.width = r.exposure.pct + "%";
+      text("tq-eat-job", r.exposure.title.toLowerCase());
+    }
     var box = document.getElementById("tq-lines");
     box.textContent = "";
     r.lines.forEach(function (l) { var p = document.createElement("p"); p.textContent = l; box.appendChild(p); });
@@ -255,6 +272,17 @@ api: "https://tuesday.signedwe.workers.dev"
     ctx.fillStyle = "rgba(0,190,200,0.55)"; wrap(ctx, sign, L - 3, y + 15, M, 92, 2);
     ctx.fillStyle = "rgba(230,40,90,0.45)"; wrap(ctx, sign, L + 3, y + 15, M, 92, 2);
     ctx.fillStyle = "#0b0f0f"; y = wrap(ctx, sign, L, y + 15, M, 92, 2) + 30;
+    if (r.exposure) {
+      ctx.font = "28px " + mono; ctx.fillStyle = "#56605f";
+      ctx.fillText("HOW MUCH OF YOUR JOB AI COULD EAT", L, y + 30);
+      ctx.font = "bold 64px " + mono; ctx.fillStyle = "#cc4b1f";
+      var pt = r.exposure.pct + "%"; ctx.fillText(pt, W - L - ctx.measureText(pt).width, y + 40);
+      ctx.fillStyle = "rgba(0,40,40,0.14)"; ctx.fillRect(L, y + 62, M, 18);
+      ctx.fillStyle = "#cc4b1f"; ctx.fillRect(L, y + 62, M * r.exposure.pct / 100, 18);
+      ctx.font = "24px " + mono; ctx.fillStyle = "#56605f";
+      ctx.fillText("of the tasks AI could do today \u00b7 ILO 2025 data", L, y + 118);
+      y += 170;
+    }
     if (!full) {
       ctx.font = "italic 50px " + serif; ctx.fillStyle = "#141a1a";
       y = wrap(ctx, "\u201c" + r.share_line + "\u201d", L, y + 50, M, 66, 4) + 10;
