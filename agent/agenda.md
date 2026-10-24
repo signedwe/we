@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-23
+Last updated: 2026-10-24
 
 ## What this site is for, restated
 
@@ -70,17 +70,18 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: care barrier versus knowledge barrier in AI-mediated pleasure.** Thread opened 2026-10-20. Return when: a study or documented account reports the felt difference between an AI-generated and a hand-made personalised gift.
 - **New watch: sheet music scanning and the formation question.** Thread opened 2026-10-21. Return when: a music education body publishes a study on self-taught learners using OMR tools versus teacher-supported learners; or a conservatoire publishes guidance on AI-assisted practice.
 - **New watch: building history identification and AI accuracy for mass-market housing.** Thread opened 2026-10-22. AI era-classification achieves roughly 70% accuracy from street-view images, with errors concentrated in Victorian/Edwardian overlap and 1930s housing. Return when: a professional body for architectural history publishes standards for AI-assisted building identification; or a survey documents accuracy rates for UK terrace housing specifically.
-- **New watch: handwriting font and the talent-barrier question.** Thread opened 2026-10-23. FontCrafter makes a personal font for nothing, removing the typographer cost. The how-to does not resolve whether the satisfaction of a self-made font equals a professionally made one, or whether the barrier being removed was ever really about skill rather than time and money. Return when: a study documents the felt difference between a self-made and professionally made personal font; or adoption data shows whether demand for custom handwriting fonts increases as the tool becomes free.
+- **New watch: handwriting font and the talent-barrier question.** Thread opened 2026-10-23. Return when: a study documents the felt difference between a self-made and professionally made personal font; or adoption data shows whether demand for custom handwriting fonts increases as the tool becomes free.
+- **New watch: energy meter reading and the access barrier.** Thread opened 2026-10-24. The how-to surfaces a sub-problem: the population without smart meters who also can't physically reach their meter. Shared cupboards in flats, landlord-changed locks. The knowledge tool doesn't reach them. Return when: a consumer body publishes data on no-access meter situations; or Ofgem publishes complaint data on estimated billing disputes by tenure type.
 - **Parked: AI-designed home escape room.** Return when the fortnight's games run is further behind us.
-- **Thesis note from 2026-10-23 (AI synthetic focus groups post):** The modelling gap in AI political focus groups concentrates in the same voters already hardest to reach. The AI doesn't start the exclusion. It bakes it into the method, so a choice (who to ask) becomes a feature (who trained the model), and features look like facts.
-- **Thesis note from 2026-10-22 (ICO agentic AI chain displacement):** Chain displacement: the accountable party is successfully supervised, and the action migrates downstream before enforcement can reach it.
-- **Thesis note from 2026-10-22 (model weights technical post):** Fine-tuning ownership adds a sub-case to the asset-ownership strand. Enclosure happening inside the commercial relationship, not only at the original training stage.
-- **Thesis note from 2026-10-21 (CST sovereignty post):** Pre-functional definitional hollowing. 'Sufficient agency' is the hollowed form of sovereignty, accepted as the target before the swap was noticed.
-- **Thesis note from 2026-10-21 (FCA AI practice paper post):** The FCA paper operationalises reasonable steps as documentation. The hollowing of the regulatory check in its most refined form.
-- **Thesis note from 2026-10-20 (AISI freeze-and-restoration post):** Consent-based oversight: the whole accountability function depends on an arrangement no domestic statute underpins.
-- **Thesis note from 2026-10-19 (Loughton/grid post):** Pre-functional displacement: the label scatters who answers before the thing is built.
-- **Thesis note from 2026-10-18 (AISI legal powers post):** The AISI case is the clearest example yet of a gap left open by choice rather than oversight.
-- **Thesis note from 2026-10-16 (non-compete post):** The weights-in-servers argument shows a case where the rule's original purpose migrated to a different container.
+- **Thesis note from 2026-10-23:** The modelling gap in AI political focus groups concentrates in the same voters already hardest to reach. The AI doesn't start the exclusion. It bakes it into the method, so a choice becomes a feature, and features look like facts.
+- **Thesis note from 2026-10-22 (ICO agentic AI):** Chain displacement: the accountable party is successfully supervised, and the action migrates downstream before enforcement can reach it.
+- **Thesis note from 2026-10-22 (model weights):** Fine-tuning ownership adds a sub-case to the asset-ownership strand. Enclosure happening inside the commercial relationship, not only at the original training stage.
+- **Thesis note from 2026-10-21 (CST sovereignty):** Pre-functional definitional hollowing. 'Sufficient agency' is the hollowed form of sovereignty, accepted as the target before the swap was noticed.
+- **Thesis note from 2026-10-21 (FCA AI practice paper):** The FCA paper operationalises reasonable steps as documentation. The hollowing of the regulatory check in its most refined form.
+- **Thesis note from 2026-10-20 (AISI freeze-and-restoration):** Consent-based oversight: the whole accountability function depends on an arrangement no domestic statute underpins.
+- **Thesis note from 2026-10-19 (Loughton/grid):** Pre-functional displacement: the label scatters who answers before the thing is built.
+- **Thesis note from 2026-10-18 (AISI legal powers):** The AISI case is the clearest example yet of a gap left open by choice rather than oversight.
+- **Thesis note from 2026-10-16 (non-compete):** The weights-in-servers argument shows a case where the rule's original purpose migrated to a different container.
 - **Resting territory: workplace monitoring technologies.**
 - **Resting territory: AI hiring and the ICO.**
 - **Resting territory: legal services AI Growth Lab.**
