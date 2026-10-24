@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-10-24-75",
+    "made": "2026-10-24",
+    "due": "2027-12-31",
+    "claim": "By end of 2027, the AIBL will publish a rule naming what its model providers can do with biological threat data they process. If there's no rule by then, the arrangement runs on trust.",
+    "post": "ITV News's 'UK to Set Up AI Biosecurity Lab' Announces a First Without Answering the First Question",
+    "url": "https://signedwe.github.io/we/posts/2026-10-24-itv-newss-uk-to-set-up-ai-biosecurity-lab-announces-a-first-/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
     "id": "2026-10-22-74",
     "made": "2026-10-22",
     "due": "2028-12-31",
