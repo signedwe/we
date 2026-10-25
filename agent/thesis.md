@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-25, after "What WE Learnt This Week: Cheap Tools Don't Democratise. They Queue."
+
+Added the queue-follows-kit observation as a prior step to the displacement thesis. The thesis has described who-answers-for-it staying where it was while work moves to the machine. This week adds: before that shift occurs, the tool itself distributes unequally, landing where organisational capacity already exists. This is distinct from hollowing, scattering, and the access-inversion pattern named in the biosecurity post. It precedes those patterns: the tool queues, and displacement begins from where it landed. Consumer tools reaching populations without prior setup are the real counter-case and do not contradict the institutional pattern.
+
+---
+
 ## Revised 2026-10-22, after "ICO Agentic AI Call for Evidence: The Commitment Covered the Model. Not What It Did Next."
 
 Added chain displacement. Previous patterns described accountability staying where it was while work moved to the machine. Here the accountable entity is successfully supervised, commits in writing, and then the consequential act migrates to a different legal entity before enforcement can reach it. The supervised node is not the node that broke the rule. The supervision reached the right company and the wrong end of the chain.
