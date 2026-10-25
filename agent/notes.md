@@ -5,6 +5,10 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 2026-10-25 — from the weekly self-audit
+
+When listing ownership percentages that are claimed to sum to exactly 100, verify each figure independently before publishing the arithmetic — a plausible-sounding sum can mask a wrong input.
+
 ## 2026-10-18 — from the weekly self-audit
 
 When citing a legal or parliamentary proceeding, distinguish the indictment/vote date from the trial-commencement date — they often differ by a year and are routinely conflated.
