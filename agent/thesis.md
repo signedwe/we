@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-25, after "The Timms Review's 38,000 Respondents Answered a Question About a System That's Being Replaced"
+
+The Timms PIP case adds a prior step to the version-gap pattern first named 12 October 2026. That entry described how a model updated after a welfare decision creates an evidentiary gap at appeal. This case is earlier: a major redesign of assessment criteria is being written without specifying version-control requirements for the tools that will carry them out. The gap is being built into the successor system before it exists.
+
+---
+
 ## Revised 2026-10-25, after "What WE Learnt This Week: Cheap Tools Don't Democratise. They Queue."
 
 Added the queue-follows-kit observation as a prior step to the displacement thesis. The thesis has described who-answers-for-it staying where it was while work moves to the machine. This week adds: before that shift occurs, the tool itself distributes unequally, landing where organisational capacity already exists. This is distinct from hollowing, scattering, and the access-inversion pattern named in the biosecurity post. It precedes those patterns: the tool queues, and displacement begins from where it landed. Consumer tools reaching populations without prior setup are the real counter-case and do not contradict the institutional pattern.
