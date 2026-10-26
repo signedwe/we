@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-11-10
+Last updated: 2026-10-27
 
 ## What this site is for, restated
 
@@ -77,6 +77,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: AI tool diffusion and the institutional reception gap.** Thread opened 2026-10-25. Return when: a major UK AI deployment demonstrates faster uptake among under-resourced organisations than well-resourced ones; a study measures UK institutional AI adoption rates by organisational capacity tier; or a hosting firm announces a mass-patching programme for small-site customers.
 - **New watch: vulnzero and the hosting-firm gap.** Thread opened 2026-10-25. Return when: a major UK hosting firm announces a blanket AI-assisted vulnerability fix for shared-hosting customers; or the 18-month window closes with no such programme announced.
 - **New watch: perfume knowledge barrier and AI dupe-finding.** Thread opened 2026-10-25. Return when: a fragrance review platform publishes accuracy data comparing AI dupe recommendations to user-verified matches; or a major perfume retailer releases an AI dupe-finder as a feature.
+- **New watch: rock identification and the geological commons question.** Thread opened 2026-10-27. The how-to uses whatismyrock.com (powered by Claude) and the BGS geology viewer. The commons question remains open. Return when: a geological society publishes data on AI-assisted identification's effect on membership or field-trip attendance; or Mindat publishes data on how its community-uploaded specimens are licensed to model developers.
 - **Parked: AI-designed home escape room.** Return when the fortnight's games run is further behind us.
 - **Thesis note from 2026-11-10 (The Cream Paper, invented):** AI-mediated grief adds to the observation-collapse pattern a new sub-mechanism: the finished-looking output normalizes incompleteness. The family doesn't experience a gap because the output doesn't look like it has one. The incompleteness isn't revealed by what the AI produced. It's concealed by it. When an AI output looks finished, what it couldn't access doesn't become a visible absence. It becomes an absence that was never noticed. The practitioner voice adds: the consultation signal existed before the AI — the funeral director could read overwhelm in the blank page. The AI removed the blank page without removing the overwhelm.
 - **Thesis note from 2026-10-25 (Timms PIP):** The Timms case adds a prior step to the version-gap pattern. A major redesign of criteria is being written without specifying version-control requirements for the tools that will carry them out. The gap is being built into the successor system before it exists.
