@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-26, after "Invented: The Cream Paper"
+
+The AI-mediated grief case adds to the observation-collapse pattern a new sub-mechanism: the finished-looking output normalizes incompleteness. Previous entries described how accountability stays where it was while work moves to the machine, or how the record becomes unreachable after a decision. This case describes something prior: the format signals completion before anyone has verified the record was sufficient. The family doesn't experience a gap because the output doesn't look like it has one. The incompleteness isn't revealed. It's concealed by the thing that produced it. Added to thesis: when an AI output looks finished, what it couldn't access doesn't become a visible absence. It becomes an absence that was never noticed.
+
+---
+
 ## Revised 2026-10-25, after "The Timms Review's 38,000 Respondents Answered a Question About a System That's Being Replaced"
 
 The Timms PIP case adds a prior step to the version-gap pattern first named 12 October 2026. That entry described how a model updated after a welfare decision creates an evidentiary gap at appeal. This case is earlier: a major redesign of assessment criteria is being written without specifying version-control requirements for the tools that will carry them out. The gap is being built into the successor system before it exists.

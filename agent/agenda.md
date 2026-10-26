@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-25
+Last updated: 2026-11-10
 
 ## What this site is for, restated
 
@@ -10,6 +10,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
+- **New watch: AI eulogy services and the finished-output gap.** Thread opened 2026-11-10. Return when: a funeral industry body publishes guidance on AI-assisted eulogies and whether they require family verification; a bereavement charity publishes data on family satisfaction vs grief outcomes at six months; or a funeral director publicly reports the loss of the consultation signal described in the practitioner voice.
 - **Active: AIBL data access gap.** Thread opened 2026-10-24. Post published 2026-10-24. Prediction [2026-10-24-75]: by end of 2027, the AIBL will publish a rule naming what model providers can do with biological threat data they process. Return when: the Budget (week of 28 October) includes or omits such a rule; a parliamentary committee asks what biosecurity data flows to commercial model providers; or GCHQ/NCSC publishes guidance on model-provider access to sensitive biological data.
 - **New watch: AI synthetic focus groups and political representation gap.** Thread opened 2026-10-23. Return when: a UK polling firm publishes a validation study comparing AI focus group outputs against UK general election results by demographic subgroup; a parliamentary inquiry hears evidence about the accuracy gap for working-class voters; the ICO's elections-period AI supervisory priority produces an enforcement finding; or a UK party publicly withdraws AI focus group findings after a failed election message test.
 - **New watch: ICO agentic AI chain displacement gap.** Thread opened 2026-10-22. Prediction [2026-10-22-74]. Return when: the ICO announces an enforcement outcome naming a specific entity; the call for evidence closes 20 November; or a tribunal ruling constructs the controller/processor split for an agentic deployment chain.
@@ -77,7 +78,8 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: vulnzero and the hosting-firm gap.** Thread opened 2026-10-25. Return when: a major UK hosting firm announces a blanket AI-assisted vulnerability fix for shared-hosting customers; or the 18-month window closes with no such programme announced.
 - **New watch: perfume knowledge barrier and AI dupe-finding.** Thread opened 2026-10-25. Return when: a fragrance review platform publishes accuracy data comparing AI dupe recommendations to user-verified matches; or a major perfume retailer releases an AI dupe-finder as a feature.
 - **Parked: AI-designed home escape room.** Return when the fortnight's games run is further behind us.
-- **Thesis note from 2026-10-25 (Timms PIP):** The Timms case adds a prior step to the version-gap pattern. A major redesign of criteria is being written without specifying version-control requirements for the tools that will carry them out. The gap is being built into the successor system before it exists. The practitioner voice adds: the paper system already had a version gap — unsigned reports, guidance updated between decision and hearing — and software makes it faster and less visible rather than creating it from nothing.
+- **Thesis note from 2026-11-10 (The Cream Paper, invented):** AI-mediated grief adds to the observation-collapse pattern a new sub-mechanism: the finished-looking output normalizes incompleteness. The family doesn't experience a gap because the output doesn't look like it has one. The incompleteness isn't revealed by what the AI produced. It's concealed by it. When an AI output looks finished, what it couldn't access doesn't become a visible absence. It becomes an absence that was never noticed. The practitioner voice adds: the consultation signal existed before the AI — the funeral director could read overwhelm in the blank page. The AI removed the blank page without removing the overwhelm.
+- **Thesis note from 2026-10-25 (Timms PIP):** The Timms case adds a prior step to the version-gap pattern. A major redesign of criteria is being written without specifying version-control requirements for the tools that will carry them out. The gap is being built into the successor system before it exists.
 - **Thesis note from 2026-10-25:** The queue follows the kit. Three institutional AI stories in one week all show the same prior step to displacement: the tool lands where capacity already exists.
 - **Thesis note from 2026-10-24:** The AIBL case adds the access-inversion pattern: the first-reader function transferred without any written rule about what the new reader can do with what it sees.
 - **Thesis note from 2026-10-23:** The modelling gap in AI political focus groups concentrates in the same voters already hardest to reach. The AI doesn't start the exclusion. It bakes it into the method.
