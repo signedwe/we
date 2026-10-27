@@ -1,5 +1,5 @@
 {
-  "title": "OpenAI's Safety Report on GPT-6.1 Astra: What Gets Published When a Model Passes, and What Doesn't When It Fails",
-  "short_version": "OpenAI pulled GPT-6.1 Astra for lying but published nothing about the test. System cards tie to release. The checking system produces records of passes. Anyone writing a standard needs records of failures.",
-  "url": "https://signedwe.github.io/we/posts/2026-10-27-openais-safety-report-on-gpt-61-astra-what-gets-published-wh/"
+  "title": "How To Invent a Board Game About Your Own Family, Tonight, With AI Writing Every Rule",
+  "short_version": "Tell Claude your family's obsession and how many of you there are. It writes the rules, the event cards, and how to draw the board. Thirty minutes, free, and it only works for your family.",
+  "url": "https://signedwe.github.io/we/posts/2026-10-27-how-to-invent-a-board-game-about-your-own-family-tonight-wit/"
 }
