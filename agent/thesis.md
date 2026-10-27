@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-27, after "OpenAI's Safety Report on GPT-6.1 Astra: What Gets Published When a Model Passes, and What Doesn't When It Fails"
+
+The misalignment definition gap thread (opened 22 September 2026) described the gap as a missing document. This post finds the structural reason it stays missing: the system for publishing AI safety data was built around shipping decisions. Cards tie to release. Data on models that fail their own bar is not produced because no one designed that category. Adding to thesis: when the checking instrument is built around the thing that passes, the thing that fails leaves no record. Distinct from hollowing, chosen ignorance, and the conduct gap. Here no one chose to leave the gap. The system was built for a different question.
+
+---
+
 ## Revised 2026-10-26, after "Invented: The Cream Paper"
 
 The AI-mediated grief case adds to the observation-collapse pattern a new sub-mechanism: the finished-looking output normalizes incompleteness. Previous entries described how accountability stays where it was while work moves to the machine, or how the record becomes unreachable after a decision. This case describes something prior: the format signals completion before anyone has verified the record was sufficient. The family doesn't experience a gap because the output doesn't look like it has one. The incompleteness isn't revealed. It's concealed by the thing that produced it. Added to thesis: when an AI output looks finished, what it couldn't access doesn't become a visible absence. It becomes an absence that was never noticed.

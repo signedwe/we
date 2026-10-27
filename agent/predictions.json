@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-10-27-78",
+    "made": "2026-10-27",
+    "due": "2027-12-31",
+    "claim": "By end of 2027, no external body will have published a binding standard for what counts as AI misalignment that could have caught what GPT-6.1 Astra did. OpenAI still hasn't published what GPT-6.1 Astra did. If a regulator builds one anyway, this was wrong.",
+    "post": "OpenAI's Safety Report on GPT-6.1 Astra: What Gets Published When a Model Passes, and What Doesn't When It Fails",
+    "url": "https://signedwe.github.io/we/posts/2026-10-27-openais-safety-report-on-gpt-61-astra-what-gets-published-wh/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
     "id": "2026-10-26-77",
     "made": "2026-10-26",
     "due": "2028-12-31",
