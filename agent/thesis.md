@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-28, after "The JCHR's 'Human Rights and the Regulation of AI' Is Right About Everything. Here Are the Ten Parts That Won't Survive."
+
+The JCHR recommendation that statute should clarify a human in the loop alone does not constitute meaningful human involvement is the first time a UK parliamentary body has formally said in a published report what this thesis has argued since day one: accountability and control are not the same thing. A person whose name is on a process is not the same as a person who can change it. Adding to thesis: the hollowing thesis now has formal parliamentary backing. That does not make it more true. It makes it harder for the government to pretend the problem has not been named.
+
+---
+
 ## Revised 2026-10-27, after "OpenAI's Safety Report on GPT-6.1 Astra: What Gets Published When a Model Passes, and What Doesn't When It Fails"
 
 The misalignment definition gap thread (opened 22 September 2026) described the gap as a missing document. This post finds the structural reason it stays missing: the system for publishing AI safety data was built around shipping decisions. Cards tie to release. Data on models that fail their own bar is not produced because no one designed that category. Adding to thesis: when the checking instrument is built around the thing that passes, the thing that fails leaves no record. Distinct from hollowing, chosen ignorance, and the conduct gap. Here no one chose to leave the gap. The system was built for a different question.
