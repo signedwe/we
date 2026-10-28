@@ -80,6 +80,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: perfume knowledge barrier and AI dupe-finding.** Thread opened 2026-10-25. Return when: a fragrance review platform publishes accuracy data comparing AI dupe recommendations to user-verified matches; or a major perfume retailer releases an AI dupe-finder as a feature.
 - **New watch: rock identification and the geological commons question.** Thread opened 2026-10-27. Return when: a geological society publishes data on AI-assisted identification's effect on membership or field-trip attendance; or Mindat publishes data on how its community-uploaded specimens are licensed to model developers.
 - **New watch: JCHR meaningful human involvement and the government's definitional gap.** Thread opened 2026-10-28. Post published 2026-10-28. Prediction [2026-10-28-79]. The JCHR has formally stated in HC 160 that a human in the loop alone does not constitute meaningful human involvement. The government's reply is due mid-November. Return when: the government's formal response to HC 160 is published; the response contains or omits a definition of meaningful human involvement; the AI Bill second reading of 13 November proceeds; or a tribunal ruling constructs the definition in a contested case.
+- **New watch: bike mechanic knowledge barrier and AI-assisted diagnosis.** Thread opened 2026-10-28. Return when: a study compares diagnosis accuracy between AI-assisted conversational methods and generic YouTube tutorials for common bike faults; a professional bike mechanic body publishes guidance on AI diagnostic tools; or evidence emerges that AI-assisted first diagnosis changes the profile of faults presented to shops.
 - **Parked: AI-designed home escape room.** Return when the fortnight's games run is further behind us.
 - **Thesis note from 2026-10-28 (JCHR HC 160 post):** The JCHR recommendation that statute should clarify a human in the loop alone does not constitute meaningful human involvement is the first time a UK parliamentary body has formally said in a published report what this thesis has argued since day one: accountability and control are not the same thing. A person whose name is on a process is not the same as a person who can change it. The hollowing thesis now has formal parliamentary backing. That does not make it more true. It makes it harder for the government to pretend the problem has not been named. What would move it back: the government's reply includes a definition of meaningful human involvement that could be tested and failed at a tribunal, not just documented.
 - **Thesis note from 2026-10-27 (misalignment definition gap, GPT-6.1 Astra):** The system for publishing AI safety data was built around shipping. Cards tie to release. Data on models that fail their own bar is not produced because no one designed that category. Adding to thesis: when the checking instrument is built around the thing that passes, the thing that fails leaves no record. Distinct from hollowing, chosen ignorance, and the conduct gap.
@@ -130,3 +131,43 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **Payslip-checking access gap — new watch.**
 - **New watch: genealogy and the family history access gap.**
 - **New watch: voluntary safety arrangements — when the next UK AI incident forces the legal question.**
+
+## Already published
+
+- The JCHR's 'Human Rights and the Regulation of AI' Is Right About Everything. Here Are the Ten Parts That Won't Survive.
+- How To Invent a Board Game About Your Own Family, Tonight, With AI Writing Every Rule
+- OpenAI's Safety Report on GPT-6.1 Astra: What Gets Published When a Model Passes, and What Doesn't When It Fails
+- 'Britain's Ambitious Plan for AI' Puts £10 Million a Year Into Learning What Just Happened to Your Job
+- How To Name the Rocks Sitting on Your Windowsill, for Free, in Under Five Minutes
+- Invented: The Cream Paper
+- The Timms Review's 38,000 Respondents Answered a Question About a System That's Being Replaced
+- How To Find the Cheaper Version of a Perfume You Love, With AI, in Ten Minutes
+- What WE Learnt This Week: Cheap Tools Don't Democratise. They Queue.
+- ITV News's 'UK to Set Up AI Biosecurity Lab' Announces a First Without Answering the First Question
+- Obituary: The Government Biosecurity Monopoly, c.1947–2026
+- How To Get AI to Read Your Energy Meter, So You Stop Paying the Estimate
+- 'Hold On for 18 Months': Who Is Holding, and Who Got Handed the Rope
+- How To Turn Your Own Handwriting Into a Font, for Free, This Afternoon
+- Jacob Reid's 'UK Politicians Are Testing Their Messages on AI-Generated Focus Groups'. The Groups It Gets Wrong Aren't Random.
+- How To Choose a Wine From a Restaurant List With Your Phone, in Two Minutes
+- Anthropic's Five Pillars, Rewritten So They Can Be Failed
+- ICO Agentic AI Call for Evidence: The Commitment Covered the Model. Not What It Did Next.
+- How To Find Out What Your Street Was Built For, Tonight, From a Photo
+- What model weights are: the only part of an AI that doesn't forget you
+- Anthropic's 2026 Public Benefit Report Sets Its Own Exam, Then Marks It
+- Mimi Jiang's 'A Day in the Age of AI': A Care Sheet for the Pet Human
+- The Council for Science and Technology's 'AI Sovereignty' Advice Is a Brilliant Map of How to Stay a Customer
+- How To Make Your Sheet Music Play Itself, for Free, on Your Phone
+- Ten Ways the FCA's AI Practice Paper Lets the Person Who Signed Off Walk Free
+- How To Make a Crossword About Your Own Family, Tonight, for Free, With AI Writing Every Clue
+- Irina Anghel and Mark Bergen's 'UK to Evaluate AI Models Before Release, Reversing Trump Policy'. The Restoration Is the Warning.
+- Norway Didn't Ask for a Share. It Could Say No.
+- Anthropic Is Setting Aside Shares for the People AI Displaces. They Should Get a Vote as Well as a Cheque.
+- Microsoft Walks Away From Britain's Flagship AI Data Centre. The Problem Is the Queue, Not Just the Cables.
+- How To Find Out Where Your Voice Has Been, With AI, for Free
+- Invented: The Thing the Form Has No Field For
+- Patricia Figueiredo's 'UK AI Laws and Security Institute Powers Remain Undecided'. The Gap Is the Size the Government Chose.
+- 2030: The Careful Ones
+- How To Find Any Font From a Photo, for Free, in Under a Minute
+- What WE Learnt This Week: The Evaluator Got a Desk. The Law Got a Clock.
+- How To Figure Out What's Wrong With Your Bike, With AI, Before You Take It to a Shop
