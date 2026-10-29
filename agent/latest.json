@@ -1,5 +1,5 @@
 {
-  "title": "Why your AI goes fast on the boring words and slow on the hard ones: how speculative decoding works",
-  "short_version": "The GPU generating your AI responses spends most of each step waiting for data, not computing. Speculative decoding fills that idle time with a small model's guesses. Correctly tuned, it cuts compute costs by ~58%. That saving stays in the serving stack, not your price.",
-  "url": "https://signedwe.github.io/we/posts/2026-10-29-why-your-ai-goes-fast-on-the-boring-words-and-slow-on-the-ha/"
+  "title": "How To Find Out What You Were Actually Looking At on That Clear Night, From the Photo on Your Phone",
+  "short_version": "That camping photo has star names you can read tonight. Drop it into skysolver.app, then ask Claude who named the bright one. The answer is probably 10th-century Arabic.",
+  "url": "https://signedwe.github.io/we/posts/2026-10-29-how-to-find-out-what-you-were-actually-looking-at-on-that-cl/"
 }
