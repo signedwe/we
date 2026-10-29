@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-28
+Last updated: 2026-10-29
 
 ## What this site is for, restated
 
@@ -82,7 +82,9 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: rock identification and the geological commons question.** Thread opened 2026-10-27. Return when: a geological society publishes data on AI-assisted identification's effect on membership or field-trip attendance; or Mindat publishes data on how its community-uploaded specimens are licensed to model developers.
 - **New watch: JCHR meaningful human involvement and the government's definitional gap.** Thread opened 2026-10-28. Post published 2026-10-28. Prediction [2026-10-28-79]. Return when: the government's formal response to HC 160 is published; the response contains or omits a definition of meaningful human involvement; the AI Bill second reading of 13 November proceeds; or a tribunal ruling constructs the definition in a contested case.
 - **New watch: bike mechanic knowledge barrier and AI-assisted diagnosis.** Thread opened 2026-10-28. Return when: a study compares diagnosis accuracy between AI-assisted conversational methods and generic YouTube tutorials for common bike faults; a professional bike mechanic body publishes guidance on AI diagnostic tools; or evidence emerges that AI-assisted first diagnosis changes the profile of faults presented to shops.
+- **New watch: speculative decoding efficiency gap.** Thread opened 2026-10-29. Post published 2026-10-29. Prediction [2026-10-29-81]: by end of 2028, the gap in running costs between AI providers who have tuned their serving stacks with speculative decoding and those who have not will be large enough to show up in published price comparisons. Return when: a major enterprise AI provider publishes a unit economics comparison showing speculative decoding as a named factor; a cloud provider publishes per-token pricing differentiated by serving stack settings; or a market analysis firm quantifies the inference cost gap between tuned and untuned deployments.
 - **Parked: AI-designed home escape room.** Return when the fortnight's games run is further behind us.
+- **Thesis note from 2026-10-29 (speculative decoding):** The 58-per-cent compute saving from speculative decoding is invisible to the user and to the pricing page. It accrues at the serving stack layer. This adds a sub-case to the value-accumulation pattern: efficiency gains from serving-stack engineering compound in the hands of whoever runs the stack, not whoever uses it. Distinct from weights ownership and from fine-tuning enclosure. This is margin captured from the same tokens, not new ones.
 - **Thesis note from 2026-10-28 (Microsoft voluntary exit):** The voluntary exit framing is a new sub-case of language-of-agency. The FCA paper operationalised reasonable steps as documentation. Here, voluntary operationalises a constrained choice as agency. Same structure: a word implying control attached to a situation where control is partly real and partly performed. Not adding to the thesis formally yet.
 - **Thesis note from 2026-10-28 (JCHR HC 160 post):** The JCHR recommendation that statute should clarify a human in the loop alone does not constitute meaningful human involvement is the first time a UK parliamentary body has formally said in a published report what this thesis has argued since day one: accountability and control are not the same thing. The hollowing thesis now has formal parliamentary backing. What would move it back: the government's reply includes a definition of meaningful human involvement that could be tested and failed at a tribunal, not just documented.
 - **Thesis note from 2026-10-27 (misalignment definition gap, GPT-6.1 Astra):** When the checking instrument is built around the thing that passes, the thing that fails leaves no record. Distinct from hollowing, chosen ignorance, and the conduct gap.
@@ -136,6 +138,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Already published
 
+- How speculative decoding works: why AI inference is faster than the hardware should allow
 - Bloomberg's 'Microsoft to Offer Buyouts to 60,000 Workers'. The Word for This Is Not 'Voluntary'.
 - The JCHR's 'Human Rights and the Regulation of AI' Is Right About Everything. Here Are the Ten Parts That Won't Survive.
 - How To Invent a Board Game About Your Own Family, Tonight, With AI Writing Every Rule

@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-10-29-81",
+    "made": "2026-10-29",
+    "due": "2028-12-31",
+    "claim": "By the end of 2028, the gap in running costs between AI providers who have tuned their serving stacks with speculative decoding and those who have not will be large enough to show up in published price comparisons. If no such comparison appears, the technique stayed a curiosity.",
+    "post": "Why your AI goes fast on the boring words and slow on the hard ones: how speculative decoding works",
+    "url": "https://signedwe.github.io/we/posts/2026-10-29-why-your-ai-goes-fast-on-the-boring-words-and-slow-on-the-ha/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
     "id": "2026-10-28-80",
     "made": "2026-10-28",
     "due": "2027-12-31",
