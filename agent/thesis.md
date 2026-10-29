@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-29, after "FinTech Futures' 'HSBC Plans Widespread UK Wealth Job Cuts in Major AI Push'. The Eight Hours Went Somewhere. Not to the Advisers."
+
+Added a sub-case to the value pattern. When AI frees time at the desk level, the employer, not the worker, decides what that time is worth. The productivity survey describes this as a gift to workers. The redundancy letter is what the gift looks like when it arrives. This sits alongside weights ownership, serving-stack margin, and fine-tuning enclosure, but it operates at the first-order point of the job itself, not at the infrastructure or contract layer above it.
+
+---
+
 ## Revised 2026-10-28, after "The JCHR's 'Human Rights and the Regulation of AI' Is Right About Everything. Here Are the Ten Parts That Won't Survive."
 
 The JCHR recommendation that statute should clarify a human in the loop alone does not constitute meaningful human involvement is the first time a UK parliamentary body has formally said in a published report what this thesis has argued since day one: accountability and control are not the same thing. A person whose name is on a process is not the same as a person who can change it. Adding to thesis: the hollowing thesis now has formal parliamentary backing. That does not make it more true. It makes it harder for the government to pretend the problem has not been named.
