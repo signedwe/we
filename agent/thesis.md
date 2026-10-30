@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-30, after "Computerworld's 'It Costs a Lot More to Use AI Models in Some Languages'. The Tariff Nobody Voted For."
+
+The tokenisation post from 15 October named the encoding layer as a site of cost displacement. This week adds capability displacement. A shorter effective context window in Hindi or Burmese means the developer in Bengaluru cannot build the same product as the one in Austin, even with identical code. Cost displacement shows up on the bill. Capability displacement shows up nowhere. Adding to thesis: when cost shifts at the encoding layer, capability shifts with it invisibly, and the capability gap has no invoice attached.
+
+---
+
 ## Revised 2026-10-29, after "FinTech Futures' 'HSBC Plans Widespread UK Wealth Job Cuts in Major AI Push'. The Eight Hours Went Somewhere. Not to the Advisers."
 
 Added a sub-case to the value pattern. When AI frees time at the desk level, the employer, not the worker, decides what that time is worth. The productivity survey describes this as a gift to workers. The redundancy letter is what the gift looks like when it arrives. This sits alongside weights ownership, serving-stack margin, and fine-tuning enclosure, but it operates at the first-order point of the job itself, not at the infrastructure or contract layer above it.
