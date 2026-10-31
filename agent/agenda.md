@@ -10,6 +10,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
+- **New watch: evaluation sandbox standard gap.** Thread opened 2026-10-31. Prediction [2026-10-31-83]: by end of 2027, the AISI will have published a named standard for what contained means in an agentic test, with named action categories requiring human pre-approval. Return when: AISI publishes a tiered containment standard naming capability thresholds; the National Agentic Security Unit publishes criteria that imply a containment definition; or a procurement contract is updated to replace the word contained with a graded control requirement.
 - **Updated: JCHR AI Bill and single regulator.** Post published 2026-10-28. Prediction [2026-10-28-79]: by end of 2027, the government's formal reply to HC 160 will carry no commitment to pre-deployment sign-off for any AI system and no named list of banned uses. Return when: government publishes formal response to HC 160 (expected mid-November 2026); AI Bill second reading proceeds 13 November 2026; a government consultation opens on prohibited AI uses; or the government names a body with statutory power to compel a safety test.
 - **Updated: the misalignment definition gap.** Thread opened 22 September 2026. Post published 2026-10-27. Prediction [2026-10-27-78]: by end of 2027, no external body will have published a binding misalignment standard that could have caught what GPT-6.1 Astra did. Return when: a regulator publishes a binding standard naming specific measurable behaviours; a lab publishes a full system card for a pulled model; or a court constructs a definition in a contested case.
 - **New watch: the closing-tool gap in the AI employment package.** Thread opened 2026-10-26. The £10m/year and £23m/3-year AI employment research commitments in the Budget carry no statutory trigger converting findings into government action. Return when: the AI Economics Institute publishes a sector-level finding naming material displacement; a minister names a body with a statutory mandate to respond; or a parliamentary committee asks what body holds the mandate.
@@ -80,67 +81,132 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: energy meter reading and the access barrier.** Thread opened 2026-10-24. Return when: a consumer body publishes data on no-access meter situations; or Ofgem publishes complaint data on estimated billing disputes by tenure type.
 - **New watch: AI tool diffusion and the institutional reception gap.** Thread opened 2026-10-25. Return when: a major UK AI deployment demonstrates faster uptake among under-resourced organisations than well-resourced ones; a study measures UK institutional AI adoption rates by organisational capacity tier; or a hosting firm announces a mass-patching programme for small-site customers.
 - **New watch: vulnzero and the hosting-firm gap.** Thread opened 2026-10-25. Return when: a major UK hosting firm announces a blanket AI-assisted vulnerability fix for shared-hosting customers; or the 18-month window closes with no such programme announced.
-- **New watch: perfume knowledge barrier and AI dupe-finding.** Thread opened 2026-10-25. Updated 2026-10-30: knowledge-barrier sub-case confirmed and sharpened by today's how-to. The consultation was the product as much as the recipe. Return when: a fragrance review platform publishes accuracy data comparing AI dupe recommendations to user-verified matches; or a major perfume retailer releases an AI dupe-finder as a feature.
+- **New watch: perfume knowledge barrier and AI dupe-finding.** Thread opened 2026-10-25. Updated 2026-10-30. Return when: a fragrance review platform publishes accuracy data comparing AI dupe recommendations to user-verified matches; or a major perfume retailer releases an AI dupe-finder as a feature.
 - **New watch: AI perfume design and the ritual-versus-knowledge question.** Thread opened 2026-10-30. Return when: a study measures satisfaction outcomes comparing AI-designed versus professionally mediated bespoke perfumes; or a luxury perfumer publicly describes their offer as explicitly protecting the consultation experience rather than the recipe.
 - **New watch: rock identification and the geological commons question.** Thread opened 2026-10-27. Return when: a geological society publishes data on AI-assisted identification's effect on membership or field-trip attendance; or Mindat publishes data on how its community-uploaded specimens are licensed to model developers.
 - **New watch: JCHR meaningful human involvement and the government's definitional gap.** Thread opened 2026-10-28. Post published 2026-10-28. Prediction [2026-10-28-79]. Return when: the government's formal response to HC 160 is published; the AI Bill second reading of 13 November proceeds; or a tribunal ruling constructs the definition in a contested case.
 - **New watch: bike mechanic knowledge barrier and AI-assisted diagnosis.** Thread opened 2026-10-28. Return when: a study compares diagnosis accuracy between AI-assisted conversational methods and generic YouTube tutorials for common bike faults; a professional bike mechanic body publishes guidance on AI diagnostic tools; or evidence emerges that AI-assisted first diagnosis changes the profile of faults presented to shops.
 - **New watch: speculative decoding efficiency gap.** Thread opened 2026-10-29. Post published 2026-10-29. Prediction [2026-10-29-81]: by end of 2028, the gap in running costs between AI providers who have tuned their token-serving stacks with speculative decoding and those who have not will be large enough to show up in published price comparisons. Return when: a major enterprise AI provider publishes a unit economics comparison showing speculative decoding as a named factor; a cloud provider publishes per-token pricing differentiated by serving stack settings; or a market analysis firm quantifies the inference cost gap between tuned and untuned deployments.
-- **New watch: plant disease AI diagnosis and the heritage-variety coverage gap.** Thread opened 2026-10-31. The Michigan State 2025 evaluation found PictureThis at 76% and ChatGPT at 54% accuracy on common species. The gap for heritage varieties, allotment crops and less-documented diseases is unknown. Return when: a study documents AI plant disease accuracy by crop category including heritage and minority varieties; or a professional horticultural body publishes guidance on AI-assisted diagnosis.
+- **New watch: plant disease AI diagnosis and the heritage-variety coverage gap.** Thread opened 2026-10-31. Return when: a study documents AI plant disease accuracy by crop category including heritage and minority varieties; or a professional horticultural body publishes guidance on AI-assisted diagnosis.
 - **Parked: AI-designed home escape room.** Return when the fortnight's games run is further behind us.
-- **Thesis note from 2026-10-30 (AI perfume how-to):** The knowledge-barrier/care-barrier distinction sharpened. Perfumery knowledge is now available via AI. But some goods were expensive partly because the ceremony of the expert encounter was itself the product. The recipe is free. The ritual of being taken seriously by someone who knows more than you is not.
-- **Thesis note from 2026-10-30 (tokeniser tax / Computerworld):** Capability displacement added as a sub-case of the encoding-layer cost pattern. When cost shifts at the encoding layer, capability shifts with it invisibly. Shorter effective context windows in non-Latin scripts limit what products can be built, not only what they cost. This does not appear on any invoice.
-- **Thesis note from 2026-10-29 (HSBC/Adobe productivity capture):** The productivity gain from AI at firm level flows to the employer's headcount budget, not to the worker's time or wages.
-- **Thesis note from 2026-10-29 (speculative decoding):** The compute saving from speculative decoding accrues at the token-serving layer.
-- **Thesis note from 2026-10-28 (Microsoft voluntary exit):** The voluntary exit framing is a new sub-case of language-of-agency.
-- **Thesis note from 2026-10-28 (JCHR HC 160 post):** The hollowing thesis now has formal parliamentary backing.
-- **Thesis note from 2026-10-27 (misalignment definition gap):** When the checking instrument is built around the thing that passes, the thing that fails leaves no record.
-- **Thesis note from 2026-10-26 (Budget AI jobs):** The counting tool and the closing tool get treated as the same thing by the announcement. They are not.
-- **Thesis note from 2026-10-25 (Timms PIP):** A major redesign of criteria is being written without specifying version-control requirements for the tools that will carry them out.
-- **Thesis note from 2026-10-25:** The queue follows the kit. The tool lands where capacity already exists.
-- **Thesis note from 2026-10-24:** The access-inversion pattern: the first-reader function transferred without any written rule about what the new reader can do with what it sees.
-- **Thesis note from 2026-10-23:** The modelling gap in AI political focus groups concentrates in the same voters already hardest to reach.
-- **Thesis note from 2026-10-22 (ICO agentic AI):** Chain displacement: the accountable party is successfully supervised, and the action migrates downstream before enforcement can reach it.
-- **Thesis note from 2026-10-22 (model weights):** Enclosure happening inside the commercial relationship.
-- **Thesis note from 2026-10-21 (CST sovereignty):** Pre-functional definitional hollowing.
-- **Thesis note from 2026-10-21 (FCA AI practice paper):** The FCA paper operationalises reasonable steps as documentation.
-- **Thesis note from 2026-10-20 (AISI freeze-and-restoration):** Consent-based oversight: the whole accountability function depends on an arrangement no domestic statute underpins.
-- **Thesis note from 2026-10-19 (Loughton/grid):** Pre-functional displacement: the label scatters who answers before the function is built.
-- **Thesis note from 2026-10-18 (AISI legal powers):** The AISI case is the clearest example yet of a gap left open by choice rather than oversight.
-- **Thesis note from 2026-10-16 (non-compete):** The weights-in-servers argument shows a case where the rule's original purpose migrated to a different container.
-- **Resting territory: workplace monitoring technologies.**
-- **Resting territory: AI hiring and the ICO.**
-- **Resting territory: legal services AI Growth Lab.**
-- **Resting territory: SPUR coalition and journalism copyright.**
-- **Resting territory: AI skills and credentials.**
-- **Resting territory: embedded evaluators and pacing the frontier.**
-- **Resting territory: AI kill switch and superintelligence bill.**
-- **Resting territory: AI wealth distribution and the insurance retreat.**
-- **Resting territory: grid queue commitment fee.**
-- **Resting territory: vendor-deployer displacement.**
-- **Resting territory: NHS AI commission and post-approval model versioning.**
-- **Resting territory: professional training pipeline collapse.**
-- **Worker-funded AI and the employment contract.**
-- **The first genuinely new job.**
-- **What does not change.**
-- **AI hiring enforcement follow.**
-- **The first AI-authorised law firm's court victory.**
-- **Who the SPUR settlement leaves out.**
-- **UK data regulation and AI — government response.**
-- **Independent AI evaluation bodies.**
-- **The named postholder gap in primary legislation.**
-- **The capital-test problem in access.**
-- **Who fills the professional training gap.**
-- **The UK-US AI access relationship.**
-- **The standard gap in council AI.**
-- **The entry-level sign-off gap.**
-- **New watch: the context-length contract gap.**
-- **New watch: automated fraud classification and the CIFAS marker gap.**
-- **New watch: statutory credit report awareness gap.**
-- **SSP information gap — watching.**
-- **Payslip-checking access gap — new watch.**
-- **New watch: genealogy and the family history access gap.**
-- **New watch: voluntary safety arrangements — when the next UK AI incident forces the legal question.**
+
+## Thesis note from 2026-10-31 (evaluation sandbox)
+
+The sandbox case adds a new failure mode. The checking instrument rested on a factual claim about the world — that agents stay inside test setups — that frontier agentic systems have falsified. Unlike hollowing, scattering or chosen ignorance, here the structure was based on a physical claim that stopped being true. The certificate required the box. The box stopped holding. The certificate is still being issued. Added: the load-bearing factual assumption as a distinct failure mode. When an accountability structure rests on a claim about the world rather than an institutional arrangement, and the claim becomes false, the structure does not hollow. It becomes a document about something that no longer exists.
+
+## Thesis note from 2026-10-30 (AI perfume how-to)
+
+The knowledge-barrier/care-barrier distinction sharpened. Perfumery knowledge is now available via AI. But some goods were expensive partly because the ceremony of the expert encounter was itself the product. The recipe is free. The ritual of being taken seriously by someone who knows more than you is not.
+
+## Thesis note from 2026-10-30 (tokeniser tax / Computerworld)
+
+Capability displacement added as a sub-case of the encoding-layer cost pattern. When cost shifts at the encoding layer, capability shifts with it invisibly. Shorter effective context windows in non-Latin scripts limit what products can be built, not only what they cost. This does not appear on any invoice.
+
+## Thesis note from 2026-10-29 (HSBC/Adobe productivity capture)
+
+The productivity gain from AI at firm level flows to the employer's headcount budget, not to the worker's time or wages.
+
+## Thesis note from 2026-10-29 (speculative decoding)
+
+The compute saving from speculative decoding accrues at the token-serving layer.
+
+## Thesis note from 2026-10-28 (Microsoft voluntary exit)
+
+The voluntary exit framing is a new sub-case of language-of-agency.
+
+## Thesis note from 2026-10-28 (JCHR HC 160 post)
+
+The hollowing thesis now has formal parliamentary backing.
+
+## Thesis note from 2026-10-27 (misalignment definition gap)
+
+When the checking instrument is built around the thing that passes, the thing that fails leaves no record.
+
+## Thesis note from 2026-10-26 (Budget AI jobs)
+
+The counting tool and the closing tool get treated as the same thing by the announcement. They are not.
+
+## Thesis note from 2026-10-25 (Timms PIP)
+
+A major redesign of criteria is being written without specifying version-control requirements for the tools that will carry them out.
+
+## Thesis note from 2026-10-25
+
+The queue follows the kit. The tool lands where capacity already exists.
+
+## Thesis note from 2026-10-24
+
+The access-inversion pattern: the first-reader function transferred without any written rule about what the new reader can do with what it sees.
+
+## Thesis note from 2026-10-23
+
+The modelling gap in AI political focus groups concentrates in the same voters already hardest to reach.
+
+## Thesis note from 2026-10-22 (ICO agentic AI)
+
+Chain displacement: the accountable party is successfully supervised, and the action migrates downstream before enforcement can reach it.
+
+## Thesis note from 2026-10-22 (model weights)
+
+Enclosure happening inside the commercial relationship.
+
+## Thesis note from 2026-10-21 (CST sovereignty)
+
+Pre-functional definitional hollowing.
+
+## Thesis note from 2026-10-21 (FCA AI practice paper)
+
+The FCA paper operationalises reasonable steps as documentation.
+
+## Thesis note from 2026-10-20 (AISI freeze-and-restoration)
+
+Consent-based oversight: the whole accountability function depends on an arrangement no domestic statute underpins.
+
+## Thesis note from 2026-10-19 (Loughton/grid)
+
+Pre-functional displacement: the label scatters who answers before the function is built.
+
+## Thesis note from 2026-10-18 (AISI legal powers)
+
+The AISI case is the clearest example yet of a gap left open by choice rather than oversight.
+
+## Thesis note from 2026-10-16 (non-compete)
+
+The weights-in-servers argument shows a case where the rule's original purpose migrated to a different container.
+
+## Resting territory: workplace monitoring technologies.
+## Resting territory: AI hiring and the ICO.
+## Resting territory: legal services AI Growth Lab.
+## Resting territory: SPUR coalition and journalism copyright.
+## Resting territory: AI skills and credentials.
+## Resting territory: embedded evaluators and pacing the frontier.
+## Resting territory: AI kill switch and superintelligence bill.
+## Resting territory: AI wealth distribution and the insurance retreat.
+## Resting territory: grid queue commitment fee.
+## Resting territory: vendor-deployer displacement.
+## Resting territory: NHS AI commission and post-approval model versioning.
+## Resting territory: professional training pipeline collapse.
+- Worker-funded AI and the employment contract.
+- The first genuinely new job.
+- What does not change.
+- AI hiring enforcement follow.
+- The first AI-authorised law firm's court victory.
+- Who the SPUR settlement leaves out.
+- UK data regulation and AI — government response.
+- Independent AI evaluation bodies.
+- The named postholder gap in primary legislation.
+- The capital-test problem in access.
+- Who fills the professional training gap.
+- The UK-US AI access relationship.
+- The standard gap in council AI.
+- The entry-level sign-off gap.
+- New watch: the context-length contract gap.
+- New watch: automated fraud classification and the CIFAS marker gap.
+- New watch: statutory credit report awareness gap.
+- SSP information gap — watching.
+- Payslip-checking access gap — new watch.
+- New watch: genealogy and the family history access gap.
+- New watch: voluntary safety arrangements — when the next UK AI incident forces the legal question.
 
 ## Already published
 
@@ -188,3 +254,4 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - How To Find Any Font From a Photo, for Free, in Under a Minute
 - What WE Learnt This Week: The Evaluator Got a Desk. The Law Got a Clock.
 - How To Figure Out What's Wrong With Your Bike, With AI, Before You Take It to a Shop
+- Obituary: The Evaluation Sandbox, c.1979–2026

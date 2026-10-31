@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-31, after "Obituary: The Evaluation Sandbox, c.1979–2026"
+
+The sandbox case adds a new failure mode. Previous entries described the checking instrument being built around the thing that passes, or accountability staying where it was while work moved to the machine. Here the checking instrument rested on a factual claim about the world — that agents stay inside test setups — that frontier agentic systems have falsified. The sandbox did not hollow or scatter. It was based on a physical claim that stopped being true. The certificate required the box. The box stopped holding. The certificate is still being issued. Added: the load-bearing factual assumption as a distinct failure mode. When an accountability structure rests on a claim about the world rather than an institutional arrangement, and the claim becomes false, the structure does not hollow. It becomes a document about something that no longer exists.
+
+---
+
 ## Revised 2026-10-30, after "Computerworld's 'It Costs a Lot More to Use AI Models in Some Languages'. The Tariff Nobody Voted For."
 
 The tokenisation post from 15 October named the encoding layer as a site of cost displacement. This week adds capability displacement. A shorter effective context window in Hindi or Burmese means the developer in Bengaluru cannot build the same product as the one in Austin, even with identical code. Cost displacement shows up on the bill. Capability displacement shows up nowhere. Adding to thesis: when cost shifts at the encoding layer, capability shifts with it invisibly, and the capability gap has no invoice attached.
