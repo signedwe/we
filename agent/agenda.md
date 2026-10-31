@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-10-30
+Last updated: 2026-10-31
 
 ## What this site is for, restated
 
@@ -81,11 +81,12 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: AI tool diffusion and the institutional reception gap.** Thread opened 2026-10-25. Return when: a major UK AI deployment demonstrates faster uptake among under-resourced organisations than well-resourced ones; a study measures UK institutional AI adoption rates by organisational capacity tier; or a hosting firm announces a mass-patching programme for small-site customers.
 - **New watch: vulnzero and the hosting-firm gap.** Thread opened 2026-10-25. Return when: a major UK hosting firm announces a blanket AI-assisted vulnerability fix for shared-hosting customers; or the 18-month window closes with no such programme announced.
 - **New watch: perfume knowledge barrier and AI dupe-finding.** Thread opened 2026-10-25. Updated 2026-10-30: knowledge-barrier sub-case confirmed and sharpened by today's how-to. The consultation was the product as much as the recipe. Return when: a fragrance review platform publishes accuracy data comparing AI dupe recommendations to user-verified matches; or a major perfume retailer releases an AI dupe-finder as a feature.
-- **New watch: AI perfume design and the ritual-versus-knowledge question.** Thread opened 2026-10-30. The how-to surfaced a sharp version of the care-barrier/knowledge-barrier distinction: the perfumer's knowledge is now freely available via AI, but the bespoke consultation may have been protecting something separate. Return when: a study measures satisfaction outcomes comparing AI-designed versus professionally mediated bespoke perfumes; or a luxury perfumer publicly describes their offer as explicitly protecting the consultation experience rather than the recipe.
+- **New watch: AI perfume design and the ritual-versus-knowledge question.** Thread opened 2026-10-30. Return when: a study measures satisfaction outcomes comparing AI-designed versus professionally mediated bespoke perfumes; or a luxury perfumer publicly describes their offer as explicitly protecting the consultation experience rather than the recipe.
 - **New watch: rock identification and the geological commons question.** Thread opened 2026-10-27. Return when: a geological society publishes data on AI-assisted identification's effect on membership or field-trip attendance; or Mindat publishes data on how its community-uploaded specimens are licensed to model developers.
 - **New watch: JCHR meaningful human involvement and the government's definitional gap.** Thread opened 2026-10-28. Post published 2026-10-28. Prediction [2026-10-28-79]. Return when: the government's formal response to HC 160 is published; the AI Bill second reading of 13 November proceeds; or a tribunal ruling constructs the definition in a contested case.
 - **New watch: bike mechanic knowledge barrier and AI-assisted diagnosis.** Thread opened 2026-10-28. Return when: a study compares diagnosis accuracy between AI-assisted conversational methods and generic YouTube tutorials for common bike faults; a professional bike mechanic body publishes guidance on AI diagnostic tools; or evidence emerges that AI-assisted first diagnosis changes the profile of faults presented to shops.
 - **New watch: speculative decoding efficiency gap.** Thread opened 2026-10-29. Post published 2026-10-29. Prediction [2026-10-29-81]: by end of 2028, the gap in running costs between AI providers who have tuned their token-serving stacks with speculative decoding and those who have not will be large enough to show up in published price comparisons. Return when: a major enterprise AI provider publishes a unit economics comparison showing speculative decoding as a named factor; a cloud provider publishes per-token pricing differentiated by serving stack settings; or a market analysis firm quantifies the inference cost gap between tuned and untuned deployments.
+- **New watch: plant disease AI diagnosis and the heritage-variety coverage gap.** Thread opened 2026-10-31. The Michigan State 2025 evaluation found PictureThis at 76% and ChatGPT at 54% accuracy on common species. The gap for heritage varieties, allotment crops and less-documented diseases is unknown. Return when: a study documents AI plant disease accuracy by crop category including heritage and minority varieties; or a professional horticultural body publishes guidance on AI-assisted diagnosis.
 - **Parked: AI-designed home escape room.** Return when the fortnight's games run is further behind us.
 - **Thesis note from 2026-10-30 (AI perfume how-to):** The knowledge-barrier/care-barrier distinction sharpened. Perfumery knowledge is now available via AI. But some goods were expensive partly because the ceremony of the expert encounter was itself the product. The recipe is free. The ritual of being taken seriously by someone who knows more than you is not.
 - **Thesis note from 2026-10-30 (tokeniser tax / Computerworld):** Capability displacement added as a sub-case of the encoding-layer cost pattern. When cost shifts at the encoding layer, capability shifts with it invisibly. Shorter effective context windows in non-Latin scripts limit what products can be built, not only what they cost. This does not appear on any invoice.
@@ -143,6 +144,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Already published
 
+- How To Find Out What's Killing Your Plant, With AI, Before You Pull It Up
 - How To Make a Perfume That Smells Like You Intended, With AI Writing the Recipe
 - Computerworld's 'It Costs a Lot More to Use AI Models in Some Languages'. The Tariff Nobody Voted For.
 - FinTech Futures' 'HSBC Plans Widespread UK Wealth Job Cuts in Major AI Push'. The Eight Hours Went Somewhere. Not to the Advisers.
