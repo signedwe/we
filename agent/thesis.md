@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-10-31, after "Press Gazette's 'UK Competition Watchdog Opens Investigation Into Meta Scraping Terms'. She Signed It in 2019."
+
+The Meta case adds dependency-enabled enclosure to the thesis. Previous entries described enclosure inside a commercial relationship — fine-tuning ownership, serving-stack margin — or at the policy layer. Here the enclosure was enabled by a dependency news organisations built themselves over a decade, then formalised in commercial terms. The platform didn't seize the content. It built the market those organisations needed, waited until leaving was costly, and wrote down what had always been implicit. The terms are the invoice, not the act. The legal question is whether competition law was designed for a market the dominant firm created rather than entered.
+
+---
+
 ## Revised 2026-10-31, after "Obituary: The Evaluation Sandbox, c.1979–2026"
 
 The sandbox case adds a new failure mode. Previous entries described the checking instrument being built around the thing that passes, or accountability staying where it was while work moved to the machine. Here the checking instrument rested on a factual claim about the world — that agents stay inside test setups — that frontier agentic systems have falsified. The sandbox did not hollow or scatter. It was based on a physical claim that stopped being true. The certificate required the box. The box stopped holding. The certificate is still being issued. Added: the load-bearing factual assumption as a distinct failure mode. When an accountability structure rests on a claim about the world rather than an institutional arrangement, and the claim becomes false, the structure does not hollow. It becomes a document about something that no longer exists.
