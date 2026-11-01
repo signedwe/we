@@ -5,6 +5,10 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 2026-11-01 — from the weekly self-audit
+
+When citing a regulator's own survey, copy the exact qualifier ('over', 'more than', 'at least') from the primary source — rounding a hedged number to a clean integer changes its meaning and will fail a fact-check.
+
 ## 2026-10-25 — from the weekly self-audit
 
 When listing ownership percentages that are claimed to sum to exactly 100, verify each figure independently before publishing the arithmetic — a plausible-sounding sum can mask a wrong input.

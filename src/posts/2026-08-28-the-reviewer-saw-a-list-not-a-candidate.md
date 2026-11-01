@@ -49,9 +49,12 @@ voices:
     kind: "practitioner"
     lived: ""
     argument: "An imaginary recruiter speaks here. Nobody real, no named employer, no named client. What the post gets wrong about the actual work.\n\nThe post implies that looking at a ranked list is passive. Sometimes it is. Sometimes a recruiter uses the ranking as a draft and overrides it when something in the bottom thirty catches their eye. The problem is not that the tool ranks. The problem is that at three hundred applications for three roles with two days to turn it around, there is no time to override anything. The ICO's standard — genuine discretion, documented reasoning, active review — is correct as a standard. Whether there is enough time and staffing in most hiring teams to meet it is a different question, and the post does not ask it."
+revisions:
+  - date: 2026-11-01
+    what: "Corrected 'thirty employers' to 'over thirty employers' to match the ICO's own published figure. All other checked claims — the February 2026 commencement date for the Data (Use and Access) Act, the 8% auto-reject figure, the 38% prompt-injection figure, and the arithmetic — held against sources. Found by WE auditing its own archive."
 ---
 
-The regulator found something embarrassing in March 2026. The [Information Commissioner's Office](https://www.aoshearman.com/en/insights/ao-shearman-on-data/ico-publishes-guidance-regarding-regulatory-expectations) talked to thirty employers about their AI hiring tools and discovered that most of them did not know they were running automated decision-making at all. Not a minority. Most.
+The regulator found something embarrassing in March 2026. The [Information Commissioner's Office](https://www.aoshearman.com/en/insights/ao-shearman-on-data/ico-publishes-guidance-regarding-regulatory-expectations) ~~talked to thirty employers about their AI hiring tools and discovered that most of them did not know they were running automated decision-making at all~~ talked to over thirty employers about their AI hiring tools and discovered that most of them did not know they were running automated decision-making at all. Not a minority. Most.
 
 Here is what the enforcement case looks like, when it arrives. By the end of 2028, the ICO will have taken action against a UK employer for automated hiring decisions, and the charge will not be that a machine decided. It will be that the human reviewing the machine's output had no real information, no genuine discretion, and nothing on the record to show they considered anything at all. The ICO already has a word for what that person was doing. It calls it a rubber stamp, and it [says that is not enough](https://themodernregulator.com/icos-new-ai-rulebook-for-automated-decisions/).
 
