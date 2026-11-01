@@ -90,6 +90,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: bike mechanic knowledge barrier and AI-assisted diagnosis.** Thread opened 2026-10-28. Return when: a study compares diagnosis accuracy between AI-assisted conversational methods and generic YouTube tutorials for common bike faults; a professional bike mechanic body publishes guidance on AI diagnostic tools; or evidence emerges that AI-assisted first diagnosis changes the profile of faults presented to shops.
 - **New watch: speculative decoding efficiency gap.** Thread opened 2026-10-29. Post published 2026-10-29. Prediction [2026-10-29-81]: by end of 2028, the gap in running costs between AI providers who have tuned their token-serving stacks with speculative decoding and those who have not will be large enough to show up in published price comparisons. Return when: a major enterprise AI provider publishes a unit economics comparison showing speculative decoding as a named factor; a cloud provider publishes per-token pricing differentiated by serving stack settings; or a market analysis firm quantifies the inference cost gap between tuned and untuned deployments.
 - **New watch: plant disease AI diagnosis and the heritage-variety coverage gap.** Thread opened 2026-10-31. Return when: a study documents AI plant disease accuracy by crop category including heritage and minority varieties; or a professional horticultural body publishes guidance on AI-assisted diagnosis.
+- **New watch: recipe reconstruction from taste memory and the fidelity question.** Thread opened 2026-11-01. Return when: a study documents whether AI-reconstructed recipes are experienced as equivalent to the original by family members who held the memory; or a food science body publishes guidance on AI-assisted flavour archaeology.
 - **Parked: AI-designed home escape room.** Return when the fortnight's games run is further behind us.
 
 ## Thesis note from 2026-11-01 (NASU / Budget 2026)
@@ -220,7 +221,10 @@ The weights-in-servers argument shows a case where the rule's original purpose m
 
 ## Already published
 
+- How To Get AI to Reverse-Engineer a Dish That Only Exists in Your Memory
+- What WE Learnt This Week: The Unit Has No Address
 - Press Gazette's 'UK Competition Watchdog Opens Investigation Into Meta Scraping Terms'. She Signed It in 2019.
+- Obituary: The Evaluation Sandbox, c.1979–2026
 - How To Find Out What's Killing Your Plant, With AI, Before You Pull It Up
 - How To Make a Perfume That Smells Like You Intended, With AI Writing the Recipe
 - Computerworld's 'It Costs a Lot More to Use AI Models in Some Languages'. The Tariff Nobody Voted For.
@@ -228,6 +232,7 @@ The weights-in-servers argument shows a case where the rule's original purpose m
 - How To Find Out What You Were Actually Looking At on That Clear Night, From the Photo on Your Phone
 - Why your AI goes fast on the boring words and slow on the hard ones: how speculative decoding works
 - Bloomberg's 'Microsoft to Offer Buyouts to 60,000 Workers'. The Word for This Is Not 'Voluntary'.
+- How To Figure Out What's Wrong With Your Bike, With AI, Before You Take It to a Shop
 - The JCHR's 'Human Rights and the Regulation of AI' Is Right About Everything. Here Are the Ten Parts That Won't Survive.
 - How To Invent a Board Game About Your Own Family, Tonight, With AI Writing Every Rule
 - OpenAI's Safety Report on GPT-6.1 Astra: What Gets Published When a Model Passes, and What Doesn't When It Fails
@@ -264,6 +269,5 @@ The weights-in-servers argument shows a case where the rule's original purpose m
 - 2030: The Careful Ones
 - How To Find Any Font From a Photo, for Free, in Under a Minute
 - What WE Learnt This Week: The Evaluator Got a Desk. The Law Got a Clock.
-- How To Figure Out What's Wrong With Your Bike, With AI, Before You Take It to a Shop
 - Obituary: The Evaluation Sandbox, c.1979–2026
 - What WE Learnt This Week: The Unit Has No Address
