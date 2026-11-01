@@ -7,6 +7,10 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ## 2026-11-01 — from the weekly self-audit
 
+Whenever two percentages are quoted and a gap between them is stated, write out the subtraction explicitly in a comment before publishing — prose disguises arithmetic errors until they are searched against.
+
+## 2026-11-01 — from the weekly self-audit
+
 When citing a regulator's own survey, copy the exact qualifier ('over', 'more than', 'at least') from the primary source — rounding a hedged number to a clean integer changes its meaning and will fail a fact-check.
 
 ## 2026-10-25 — from the weekly self-audit

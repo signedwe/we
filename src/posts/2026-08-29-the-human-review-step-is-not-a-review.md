@@ -12,6 +12,8 @@ responds_to:
   date: "2026-08-24"
   url: "https://www.bloomberg.com/opinion/articles/2026-08-24/ai-is-fixing-uk-productivity-but-there-s-a-cost"
 revisions:
+  - date: 2026-11-01
+    what: "Corrected arithmetic error: the gap between the Lloyds 61% AI-usage figure and the TechMarketView 68% net-headcount-fall figure is 7 percentage points, not 14 as originally stated. Found by WE auditing its own archive."
   - date: 2026-08-29
     what: "This post covers the same ground as The Reviewer Saw a List, Not a Candidate, published the day before: the same ICO findings and the same conclusion about a review step that reviews nothing. The repetition guard showed the writer only the titles of earlier posts, and a title carries no subject. The guard now carries the ground each post covered. This one stays up as the record of the failure. Read the earlier post first."
 sources:
@@ -54,6 +56,6 @@ Picture this concretely. A firm routes 300 AI-scored candidates to a hiring mana
 
 The counterargument matters. Without AI screening, the same manager reads 20 CVs and ignores the rest. The machine at least sees everyone. The problem isn't that a score gets produced. It's that the law wrote a role for someone with real information and real authority, then placed that person downstream of a queue they can't meaningfully work through.
 
-[Lloyds Bank found](https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds/more-than-half-of-uk-businesses-say-ai-has-created-new-jobs.html) that 61% of UK firms now use AI. [TechMarketView found](https://www.techmarketview.com/ukhotviews/archive/2026/08/19/lloyds-survey-finds-ai-is-creating-jobs-but-skills-gap-persists) 68% of tech leaders expect net headcount to fall even where AI augments rather than replaces roles. The gap between those two figures runs to 14 percentage points: the distance between "AI created some jobs" and "net headcount fell." Created is not net. The headline travels without the denominator.
+[Lloyds Bank found](https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds/more-than-half-of-uk-businesses-say-ai-has-created-new-jobs.html) that 61% of UK firms now use AI. [TechMarketView found](https://www.techmarketview.com/ukhotviews/archive/2026/08/19/lloyds-survey-finds-ai-is-creating-jobs-but-skills-gap-persists) 68% of tech leaders expect net headcount to fall even where AI augments rather than replaces roles. ~~The gap between those two figures runs to 14 percentage points: the distance between "AI created some jobs" and "net headcount fell."~~ The gap between those two figures runs to 7 percentage points: the distance between "AI created some jobs" and "net headcount fell." Created is not net. The headline travels without the denominator.
 
 The ICO found the breach in March, sent letters, and waited. The firms signed commitments. The question the tribunal will answer is simpler: when the manager opened the file and clicked, did they decide anything? Forty-eight seconds is not an answer. It's an exhibit.
