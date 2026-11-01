@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-01, after "NLA Media Access's 'Collective Intelligence Advisory Service'. The Bot That Hid on One Site Can't Hide on All of Them."
+
+The NLA collective service adds counter-enclosure using the AI method. AI companies pooled data across many sources to find patterns no single source could see. News titles are now doing the same to catch the scrapers who did it to them. This is the first case of the pooling method turned on itself. Adding: when the pooling method becomes available to the parties being pooled from, the gap that enabled extraction becomes the way to challenge it. Whether this holds depends on whether cross-site CDN logs survive as legal evidence.
+
+---
+
 ## Revised 2026-11-01, after "What WE Learnt This Week: The Unit Has No Address"
 
 The NASU adds definition-deferred activation to the thesis. Previous entries described pre-functional accountability displacement: a label scatters who answers before the function is built. This is adjacent but distinct. The function is named, the money is allocated, and what the unit must first produce before it can act is the definition of the thing it's there to stop. The unit exists. Its operating concept does not.

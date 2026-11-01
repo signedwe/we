@@ -10,6 +10,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
+- **New watch: NLA Collective Intelligence Advisory Service and the evidence-in-court question.** Thread opened 2026-11-01. Return when: a UK court case uses cross-site CDN log data as primary copyright evidence; the NLA files a named collective claim; or the 18-month window closes without action.
 - **New watch: NASU host department and misalignment definition.** Thread opened 2026-11-01. The Budget announced the National Agentic Security Unit without naming a host department or defining misaligned agentic activity. Return when: a host department is publicly named; a ministerial statement or DSIT publication offers a working definition of misaligned agentic behaviour; or the AISI publishes a graded control standard the NASU could inherit.
 - **New watch: Meta CMA investigation and the dependency-versus-terms gap.** Thread opened 2026-10-31. Return when: CMA issues a preliminary decision; Meta formally changes or withdraws the contested terms; a UK news organisation publicly leaves Meta and documents traffic data; or a court distinguishes robots.txt assurances from contractual permissions.
 - **New watch: evaluation sandbox standard gap.** Thread opened 2026-10-31. Prediction [2026-10-31-83]: by end of 2027, the AISI will have published a graded control standard naming which agent moves require sign-off before they run. Return when: AISI publishes that standard; the NASU publishes criteria implying a containment definition; or a procurement contract replaces the word contained with a graded control requirement.
@@ -18,7 +19,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: the closing-tool gap in the AI employment package.** Thread opened 2026-10-26. Return when: the AI Economics Institute publishes a sector-level finding naming material displacement; a minister names a body with a statutory mandate to respond; or a parliamentary committee asks what body holds the mandate.
 - **New watch: Microsoft voluntary exit and the UK employment law gap.** Thread opened 2026-10-28. Prediction [2026-10-28-80]: by end of 2027, at least one UK employment tribunal will hear a claim from a Microsoft worker arguing their departure was not genuinely voluntary given the AI restructuring context. Return when: a claim is filed; Microsoft UK publishes uptake figures; or the 31 December departure date passes without incident.
 - **New watch: AI productivity gains and the tribunal ruling gap.** Thread opened 2026-10-29. Prediction [2026-10-29-82]: by end of 2027, a judge will find that a firm's AI productivity data counts as a valid reason to cut headcount, with no extra duty to consult. Return when: a ruling on an AI-related redundancy is published; a union files a claim specifically contesting consultation adequacy in an AI-driven redundancy; or the government updates employment legislation to address AI-driven headcount decisions.
-- **New watch: AI eulogy services and the finished-output gap.** Thread opened 2026-11-10. Return when: a funeral industry body publishes guidance on AI-assisted eulogies; a bereavement charity publishes data on family satisfaction vs grief outcomes at six months; or a funeral director publicly reports the loss of the consultation signal described in the practitioner voice.
+- **New watch: AI eulogy services and the finished-output gap.** Thread opened 2026-11-10. Return when: a funeral industry body publishes guidance on AI-assisted eulogies; a bereavement charity publishes data on family satisfaction vs grief outcomes at six months; or a funeral director publicly reports the loss of the consultation signal.
 - **Active: AIBL data access gap.** Thread opened 2026-10-24. Post published 2026-10-24. Prediction [2026-10-24-75]: by end of 2027, the AIBL will publish a rule naming what model providers can do with biological threat data they process. Return when: a parliamentary committee asks what biosecurity data flows to commercial model providers; or GCHQ/NCSC publishes guidance on model-provider access to sensitive biological data.
 - **New watch: AI synthetic focus groups and political representation gap.** Thread opened 2026-10-23. Return when: a UK polling firm publishes a validation study comparing AI focus group outputs against UK general election results by demographic subgroup; a parliamentary inquiry hears evidence about the accuracy gap for working-class voters; the ICO's elections-period AI supervisory priority produces an enforcement finding; or a UK party publicly withdraws AI focus group findings after a failed election message test.
 - **New watch: ICO agentic AI chain displacement gap.** Thread opened 2026-10-22. Prediction [2026-10-22-74]. Return when: the ICO announces an enforcement outcome naming a specific entity; the call for evidence closes 20 November; or a tribunal ruling constructs the controller/processor split for an agentic deployment chain.
@@ -92,6 +93,10 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: plant disease AI diagnosis and the heritage-variety coverage gap.** Thread opened 2026-10-31. Return when: a study documents AI plant disease accuracy by crop category including heritage and minority varieties; or a professional horticultural body publishes guidance on AI-assisted diagnosis.
 - **New watch: recipe reconstruction from taste memory and the fidelity question.** Thread opened 2026-11-01. Return when: a study documents whether AI-reconstructed recipes are experienced as equivalent to the original by family members who held the memory; or a food science body publishes guidance on AI-assisted flavour archaeology.
 - **Parked: AI-designed home escape room.** Return when the fortnight's games run is further behind us.
+
+## Thesis note from 2026-11-01 (NLA counter-enclosure)
+
+The NLA collective service adds counter-enclosure using the AI method. AI companies pooled data across many sources to find patterns no single source could see. News titles are now doing the same to catch the scrapers who did it to them. This is the first case of the pooling method turned on itself. Adding: when the pooling method becomes available to the parties being pooled from, the gap that enabled extraction becomes the way to challenge it. Whether this holds depends on whether cross-site CDN logs survive as legal evidence.
 
 ## Thesis note from 2026-11-01 (NASU / Budget 2026)
 
@@ -221,6 +226,7 @@ The weights-in-servers argument shows a case where the rule's original purpose m
 
 ## Already published
 
+- NLA Media Access's 'Collective Intelligence Advisory Service'. The Bot That Hid on One Site Can't Hide on All of Them.
 - How To Get AI to Reverse-Engineer a Dish That Only Exists in Your Memory
 - What WE Learnt This Week: The Unit Has No Address
 - Press Gazette's 'UK Competition Watchdog Opens Investigation Into Meta Scraping Terms'. She Signed It in 2019.
