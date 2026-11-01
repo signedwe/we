@@ -338,7 +338,7 @@ def yaml_str(s) -> str:
 
 
 def front_matter(essay: dict, date: str, review: dict, passes: list,
-                 edit_report: dict = None, decisions: list = None) -> str:
+                 edit_report: dict = None, decisions: list = None, late: list = None) -> str:
     words = len(plain_body(essay["body"]).split())
     if edit_report:
         review = dict(review, verdict=edit_report.get("verdict"), summary=edit_report.get("summary"))
@@ -376,6 +376,9 @@ def front_matter(essay: dict, date: str, review: dict, passes: list,
                 f["status"] = "Declined: " + str(d.get("note") or "no reason given.")
     else:
         shown = [f for f in review["findings"] if f.get("severity") != "confirmed"]
+    if late:
+        shown = list(shown) + list(late)
+        lines[-3] = lines[-3][:-1] + ' The last pass found ' + str(len(late)) + ' more; each was cut or corrected afterwards, as the reviewer asked, and is listed at the end below."'
     if not shown:
         lines[-1] = "  findings: []"
     for f in shown:
@@ -587,16 +590,64 @@ def main() -> int:
         if failures:
             return hold(essay, date, subject, "Corrected essay failed local checks:\n" + "\n".join(failures))
 
-    if serious(report) or str(report.get("verdict", "")).upper().startswith("DO NOT"):
-        return hold(essay, date, subject,
-                    "Errors survived the last review pass:\n"
-                    + json.dumps(serious(report), indent=2, ensure_ascii=False))
+    # 1 Nov 2026 (operator: "Yes"): two weeks running the reviewer found
+    # something new on every pass and the essay sat held until it was fixed
+    # by hand. Now the last pass's errors get one more round of cuts, under
+    # the 19 Oct rule (cut what can't be verified; change a value only where
+    # the reviewer gives it from a source it opened), and the essay
+    # publishes with those points listed on the page as not reviewed again.
+    late = []
+    if serious(report):
+        late = serious(report)
+        messages.append({"role": "assistant", "content": resp.content})
+        messages.append({"role": "user", "content":
+            "Last round. The reviewer's final pass found these points. For each "
+            "claim it calls wrong or unsupported, cut it: delete the sentence or "
+            "clause, and its footnote if nothing else cites it, renumbering the "
+            "notes. The only exception is a plain slip where the reviewer gives "
+            "the correct value or wording from a source it opened (a date, a "
+            "name, the exact words of a quotation): change just that. Add "
+            "nothing new. Change no other sentence. Reply with the complete "
+            "corrected JSON object, nothing else.\n\n"
+            + "\n".join(f"- CLAIM: {f.get('claim')}\n  FINDING: {f.get('finding')}\n  ACTION: {f.get('action')}"
+                        for f in late)})
+        fixed = None
+        for attempt in range(4):
+            resp = write(client, messages)
+            try:
+                cand = agent.extract_json(agent.text_blocks(resp))
+            except ValueError as exc:
+                print(f"Last-round cuts returned no JSON: {exc.args[0][:120]}")
+                messages.append({"role": "assistant", "content": resp.content})
+                messages.append({"role": "user", "content":
+                    "That reply contained no JSON object. Do not narrate and do not "
+                    "search again. Reply with the complete corrected JSON object only."})
+                continue
+            cand.pop("decisions", None)
+            cand["body"] = undash(cand["body"])
+            failures = check_essay(cand["body"])
+            if not failures:
+                fixed = cand
+                break
+            print(f"Last-round cuts failed local checks:\n  " + "\n  ".join(failures))
+            messages.append({"role": "assistant", "content": resp.content})
+            messages.append({"role": "user", "content":
+                "The essay failed these checks:\n- " + "\n- ".join(failures)
+                + "\n\nChange the sentences named and nothing else. Reply with the "
+                "complete JSON object again, nothing else. Do not search again."})
+        if fixed is None:
+            return hold(essay, date, subject,
+                        "Errors survived the last review pass and the last-round cuts did not produce a clean essay:\n"
+                        + json.dumps(late, indent=2, ensure_ascii=False))
+        essay = fixed
+        for f in late:
+            f["status"] = "Cut or corrected after the last review pass, as the reviewer asked; not reviewed again."
 
     slug = agent.slugify(essay.get("search_title") or essay["title"])[:60].rstrip("-")
     filename = redo or f"{date}-{slug}.md"
     if redo:
         date, slug = redo[:10], redo[11:-3]
-    text = front_matter(essay, date, report, passes, edit_report, decisions) + essay["body"].strip() + "\n"
+    text = front_matter(essay, date, report, passes, edit_report, decisions, late) + essay["body"].strip() + "\n"
     if DRAFT:
         HELD.mkdir(exist_ok=True)
         (HELD / filename).write_text(text, encoding="utf-8")
