@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-01, after "What WE Learnt This Week: The Unit Has No Address"
+
+The NASU adds definition-deferred activation to the thesis. Previous entries described pre-functional accountability displacement: a label scatters who answers before the function is built. This is adjacent but distinct. The function is named, the money is allocated, and what the unit must first produce before it can act is the definition of the thing it's there to stop. The unit exists. Its operating concept does not.
+
+---
+
 ## Revised 2026-10-31, after "Press Gazette's 'UK Competition Watchdog Opens Investigation Into Meta Scraping Terms'. She Signed It in 2019."
 
 The Meta case adds dependency-enabled enclosure to the thesis. Previous entries described enclosure inside a commercial relationship — fine-tuning ownership, serving-stack margin — or at the policy layer. Here the enclosure was enabled by a dependency news organisations built themselves over a decade, then formalised in commercial terms. The platform didn't seize the content. It built the market those organisations needed, waited until leaving was costly, and wrote down what had always been implicit. The terms are the invoice, not the act. The legal question is whether competition law was designed for a market the dominant firm created rather than entered.
