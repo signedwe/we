@@ -9,7 +9,7 @@ layout: history.njk
 date: 2026-11-01
 provenance: "agent"
 review:
-  by: "A second machine, with no part in the writing and no sight of the drafts, was given the finished essay and every source it cites, and told to read it as the leading scholar of the subject and as an editor. It held the essay three times on 1 November; the errors from the first two holds were corrected and the essay reviewed again. The three points below, from the last hold, were corrected by hand and not reviewed again; each change was checked against the source quoted in the finding, and an unsourced detail was cut rather than reworded."
+  by: "A second machine, with no part in the writing and no sight of the drafts, was given the finished essay and every source it cites, and told to read it as the leading scholar of the subject and as an editor. It held the essay three times on 1 November; the errors from the first two holds were corrected and the essay reviewed again. The three points below, from the last hold, were corrected by hand and not reviewed again; each change was checked against the source quoted in the finding, and an unsourced detail was cut rather than reworded. On 1 November, after an outside read, three edits were made that the reviewer has not seen: the description of ELIZA's communication as superficial is now credited to Weizenbaum's 1976 book, as its note says, not the 1966 paper; a paragraph offers a plainer reading of the secretary's request for privacy; and a paragraph before the close asks what happens when human care becomes the luxury. The two added paragraphs are this essay's view and add no new facts."
   verdict: "PUBLISHED WITH THREE HAND CORRECTIONS, listed below."
   findings:
     - claim: "\"a particularly seductive instrument because it offers immediate feedback\" and \"the thing that binds you to do it is that whatever the computer is doing is under your control\" (Vancouver Sun, 1982)"
@@ -32,6 +32,8 @@ Sometime in the mid-1960s, in a laboratory at MIT, a secretary who knew the prog
 
 Weizenbaum later described what he felt. "What I had not realized is that extremely short exposures to a relatively simple computer program could induce powerful delusional thinking in quite normal people," he wrote in 1976.<sup id="fnref2"><a href="#fn2">2</a></sup> His secretary was not naive, not credulous, not ignorant of what she was doing. She was, by his own account, a sensible woman who had followed the program's development from the beginning. And still she wanted privacy with it.
 
+There is a plainer reading, and it is this essay's, not the sources'. She may have known exactly what ELIZA was and still not wanted her boss reading over her shoulder while she typed about her life. Wanting privacy is not proof of delusion. Weizenbaum built a career's alarm on the moment anyway.
+
 That moment shaped the last four decades of Weizenbaum's life. It sent him from programmer to critic, from builder to heretic, and eventually out of the country he had fled to as a child and back to the city he had fled from. To understand why, you have to begin where he did: with Berlin, and with a piece of software that was, in his own estimation, not very impressive at all.
 
 ## From Mitte to MIT
@@ -52,7 +54,7 @@ The design had an elegant evasion at its heart. Weizenbaum chose to make ELIZA's
 
 Weizenbaum named the program after Eliza Doolittle, the character in Shaw's *Pygmalion* who is taught to pass as a lady of high society by being coached in the right forms of speech.<sup id="fnref13"><a href="#fn13">13</a></sup> The parallel was pointed. Like Eliza Doolittle, the program had learned, through a kind of elaborate coaching, to produce outputs that its interlocutors took as evidence of an inner life it did not have. The name was also, this essay's reading suggests, a mild joke at the expense of anyone who was taken in, a joke Weizenbaum would stop finding funny quite quickly.
 
-The 1966 paper was direct about the program's limits. Weizenbaum wrote that ELIZA had no built-in knowledge of any subject, and that the DOCTOR script demonstrated not that communication between man and machine was rich, but that it was "superficial."<sup id="fnref14"><a href="#fn14">14</a></sup> The paper's stated purpose was not to show that natural language understanding was achievable but to investigate the conditions under which people would attribute it to a machine that had not achieved it. Some subjects, he noted, had been "very hard to convince that ELIZA (with its present script) is not human", a sentence intended as evidence of human credulity, received almost everywhere as evidence of machine intelligence.<sup id="fnref15"><a href="#fn15">15</a></sup>
+Looking back in his 1976 book, Weizenbaum wrote that ELIZA had no built-in knowledge of any subject, and that the DOCTOR script demonstrated not that communication between man and machine was rich, but that it was "superficial."<sup id="fnref14"><a href="#fn14">14</a></sup> The 1966 paper's stated purpose was not to show that natural language understanding was achievable but to investigate the conditions under which people would attribute it to a machine that had not achieved it. Some subjects, he noted, had been "very hard to convince that ELIZA (with its present script) is not human", a sentence intended as evidence of human credulity, received almost everywhere as evidence of machine intelligence.<sup id="fnref15"><a href="#fn15">15</a></sup>
 
 ## What Happened Next
 
@@ -109,6 +111,8 @@ And yet. In the fifty years since *Computer Power and Human Reason* appeared, th
 McCarthy's 1976 concession that computer psychotherapy was not yet technically feasible,  "computer science isn't up to it", read then as a postponement rather than a refutation. What he was saying, in effect, was: object when the systems are inadequate in practice; once they are adequate, the objection disappears. Weizenbaum's point was that adequacy, in the clinical sense, is not and cannot be the right threshold, that there are things a machine ought not to do even when it can do them convincingly, because the convincingness is itself part of the problem.
 
 Whether that argument holds is a philosophical question this essay cannot settle. What seems clear, and this is the essay's view, not the sources', is that the structure of the debate has not changed. On one side: if it works, use it. On the other: working is not enough.
+
+Both sides skip the person who cannot pay for a human. For her, a machine that seems to listen may be better than nobody listening at all. And if human care becomes the luxury and machine care the cheap default, the argument stops being about what machines ought to do. It becomes about who gets the person and who gets the program.
 
 "We've created a complex world which we have no control over anymore," he said in 2008, not long before his death. "No one understands them anymore, no one can understand them, because we have lost the information about their creation, the history of their creation, and that is a great danger for mankind."<sup id="fnref43"><a href="#fn43">43</a></sup>
 
