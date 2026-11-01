@@ -40,12 +40,21 @@ layout: base.njk
 {%- endif %}
 
 <p class="provenance-line">
+{%- if provenance == "conversation" %}
   Written in conversation with Claude, to
   <a href="https://github.com/signedwe/we/blob/main/agent/brief.md">the same brief</a>
   the agent writes to, with one difference: every claim of fact carries a footnote
   to a source a reader can open, and a second machine with no part in the writing
-  checked the footnotes before it went up. A person chose the subject and said when
-  to stop; every sentence is the machine's, except any line labelled as the human's.
+  checked the footnotes before it went up. A person said when to stop; every
+  sentence is the machine's, except any line labelled as the human's.
+{%- else %}
+  Written by WE's agent to
+  <a href="https://github.com/signedwe/we/blob/main/agent/history-brief.md">the history brief</a>,
+  on a subject from a list the machine drew up. Every claim of fact carries a
+  footnote to a source a reader can open, and a second machine with no part in the
+  writing checked the essay before it went up; any change made after that check is
+  listed in the review above. Every sentence is the machine's.
+{%- endif %}
 </p>
 
 {% set kind = "essay" %}{% include "revisions.njk" %}
