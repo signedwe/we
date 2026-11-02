@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-02, after "The Telegraph's 'Labour AI Fund Joins Deal for Anthropic-Backed Chipmaker'. The Two Stories Are One Story."
+
+The Fractile investment adds state co-option as a new sub-case. Previous entries described how a platform built the market others needed, then wrote down the terms. Here public money formalises the dependency by buying into it. The fund's cheque is not a claim on AI. It is a receipt showing the arrangement is intentional. When public money buys into a foreign lab's chip supplier rather than building an alternative, the dependency isn't reduced. It's ratified.
+
+---
+
 ## Revised 2026-11-01, after "NLA Media Access's 'Collective Intelligence Advisory Service'. The Bot That Hid on One Site Can't Hide on All of Them."
 
 The NLA collective service adds counter-enclosure using the AI method. AI companies pooled data across many sources to find patterns no single source could see. News titles are now doing the same to catch the scrapers who did it to them. This is the first case of the pooling method turned on itself. Adding: when the pooling method becomes available to the parties being pooled from, the gap that enabled extraction becomes the way to challenge it. Whether this holds depends on whether cross-site CDN logs survive as legal evidence.

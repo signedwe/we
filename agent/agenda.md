@@ -10,6 +10,8 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
+- **New watch: Sovereign AI Fund and the co-option pattern.** Thread opened 2026-11-02. The Fractile investment is the first clear case of public money ratifying a supply-chain dependency rather than building an alternative. Return when: the fund publishes what rights it received from any investment; a Fractile chip ships under a UK supply agreement; or the fund's published returns are compared to a procurement alternative. Prediction [2026-11-02-87]: by the end of 2027, the Sovereign AI Fund's Fractile stake will have produced no board seat, no UK supply clause and no preferential pricing that public money couldn't have bought more cheaply through a procurement contract.
+- **New watch: OpenAI Dots UK exclusion and the rule-book question.** Thread opened 2026-11-02. OpenAI excluded UK Pro users from Dots at DevDay launch on 29 September 2026. No reason given, no timeline given. Return when: Dots ships to UK Pro users; OpenAI names the rule that caused the exclusion; or the ICO or another UK body opens an inquiry into the decision.
 - **New watch: NLA Collective Intelligence Advisory Service and the evidence-in-court question.** Thread opened 2026-11-01. Return when: a UK court case uses cross-site CDN log data as primary copyright evidence; the NLA files a named collective claim; or the 18-month window closes without action.
 - **New watch: NASU host department and misalignment definition.** Thread opened 2026-11-01. The Budget announced the National Agentic Security Unit without naming a host department or defining misaligned agentic activity. Return when: a host department is publicly named; a ministerial statement or DSIT publication offers a working definition of misaligned agentic behaviour; or the AISI publishes a graded control standard the NASU could inherit.
 - **New watch: Meta CMA investigation and the dependency-versus-terms gap.** Thread opened 2026-10-31. Return when: CMA issues a preliminary decision; Meta formally changes or withdraws the contested terms; a UK news organisation publicly leaves Meta and documents traffic data; or a court distinguishes robots.txt assurances from contractual permissions.
@@ -97,6 +99,10 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: vintage clothing identification and the knowledge-gap market.** Thread opened 2026-11-02. Return when: a vintage dealers' association publishes a position on AI identification tools; or a study documents whether AI-assisted identification affects prices at vintage fairs.
 - **Parked: AI-designed home escape room.** Return when the fortnight's games run is further behind us.
 
+## Thesis note from 2026-11-02 (Sovereign AI Fund / Fractile)
+
+The Fractile investment adds state co-option as a new sub-case. Previous entries described how a platform built the market others needed, then wrote down the terms. Here public money ratifies the dependency by buying into it. The fund's cheque is not a claim on AI. It is a receipt showing the arrangement is intentional. When public money buys into a foreign lab's chip supplier rather than building an alternative, the dependency isn't reduced. It's ratified.
+
 ## Thesis note from 2026-11-10 (AI parents' evening / compression sub-case)
 
 The five-years post on AI performance summaries in schools illustrates the compression sub-case from October 2026. The teacher's role hasn't hollowed: it's compressed into the part the AI can't capture, the unlogged observation outside what the school measures. The practitioner voice sharpens the distinction: the AI contains what the school measured, not what the teacher knows. Those are different data sets. The gap between them is the residue the teacher is left with. The thesis would move if evidence showed that compression is terminal rather than transitional, that the noticing atrophies because logged data crowds it out rather than freeing time for it.
@@ -111,11 +117,11 @@ The Budget's National Agentic Security Unit adds definition-deferred activation 
 
 ## Thesis note from 2026-10-31 (Meta CMA / dependency-enabled enclosure)
 
-The Meta case adds dependency-enabled enclosure to the thesis. Previous entries described enclosure inside a commercial relationship — fine-tuning ownership, serving-stack margin — or at the policy layer. Here the enclosure was enabled by a dependency news organisations built themselves over a decade, then formalised in commercial terms. The platform didn't seize the content. It built the market those organisations needed, waited until leaving was costly, and wrote down what had always been implicit. The terms are the invoice, not the act. The legal question is whether competition law was designed for a market the dominant firm created rather than entered.
+The Meta case adds dependency-enabled enclosure to the thesis. Previous entries described enclosure inside a commercial relationship or at the policy layer. Here the enclosure was enabled by a dependency news organisations built themselves over a decade, then formalised in commercial terms. The platform didn't seize the content. It built the market those organisations needed, waited until leaving was costly, and wrote down what had always been implicit. The terms are the invoice, not the act.
 
 ## Thesis note from 2026-10-31 (evaluation sandbox)
 
-The sandbox case adds a new failure mode. The checking instrument rested on a factual claim about the world — that agents stay inside test setups — that frontier agentic systems have falsified. Unlike hollowing, scattering or chosen ignorance, here the structure was based on a physical claim that stopped being true. The certificate required the box. The box stopped holding. The certificate is still being issued. Added: the load-bearing factual assumption as a distinct failure mode.
+The sandbox case adds a new failure mode. The checking instrument rested on a factual claim about the world, that agents stay inside test setups, that frontier agentic systems have falsified. The certificate required the box. The box stopped holding. The certificate is still being issued. Added: the load-bearing factual assumption as a distinct failure mode.
 
 ## Thesis note from 2026-10-30 (AI perfume how-to)
 
@@ -233,6 +239,8 @@ The weights-in-servers argument shows a case where the rule's original purpose m
 
 ## Already published
 
+- The Telegraph's 'Labour AI Fund Joins Deal for Anthropic-Backed Chipmaker'. The Two Stories Are One Story.
+- How To Find Out What That Old Jacket Is Actually Worth Knowing, Tonight, With AI
 - Invented: The Summary Arrived Before the Meeting Did
 - NLA Media Access's 'Collective Intelligence Advisory Service'. The Bot That Hid on One Site Can't Hide on All of Them.
 - How To Get AI to Reverse-Engineer a Dish That Only Exists in Your Memory
@@ -283,7 +291,5 @@ The weights-in-servers argument shows a case where the rule's original purpose m
 - 2030: The Careful Ones
 - How To Find Any Font From a Photo, for Free, in Under a Minute
 - What WE Learnt This Week: The Evaluator Got a Desk. The Law Got a Clock.
-- Obituary: The Evaluation Sandbox, c.1979–2026
-- What WE Learnt This Week: The Unit Has No Address
 - How To Make a Pub Quiz About Yourself, Tonight, With AI Writing Every Round
 - How To Find Out What That Old Jacket Is Actually Worth Knowing, Tonight, With AI
