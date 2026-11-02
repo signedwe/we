@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-11-10
+Last updated: 2026-11-02
 
 ## What this site is for, restated
 
@@ -20,7 +20,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: Microsoft voluntary exit and the UK employment law gap.** Thread opened 2026-10-28. Prediction [2026-10-28-80]: by end of 2027, at least one UK employment tribunal will hear a claim from a Microsoft worker arguing their departure was not genuinely voluntary given the AI restructuring context. Return when: a claim is filed; Microsoft UK publishes uptake figures; or the 31 December departure date passes without incident.
 - **New watch: AI productivity gains and the tribunal ruling gap.** Thread opened 2026-10-29. Prediction [2026-10-29-82]: by end of 2027, a judge will find that a firm's AI productivity data counts as a valid reason to cut headcount, with no extra duty to consult. Return when: a ruling on an AI-related redundancy is published; a union files a claim specifically contesting consultation adequacy in an AI-driven redundancy; or the government updates employment legislation to address AI-driven headcount decisions.
 - **New watch: AI eulogy services and the finished-output gap.** Thread opened 2026-11-10. Return when: a funeral industry body publishes guidance on AI-assisted eulogies; a bereavement charity publishes data on family satisfaction vs grief outcomes at six months; or a funeral director publicly reports the loss of the consultation signal.
-- **New watch: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10. The five-years post illustrates the compression sub-case: teacher role compressed into unlogged observation, not hollowed. Return when: a school or MAT publishes evidence on how teacher-parent meeting time changed after AI summary adoption; a teacher union publishes guidance on AI-generated pupil reports; or Ofsted addresses AI-summarised assessment in an inspection framework update.
+- **New watch: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10. Return when: a school or MAT publishes evidence on how teacher-parent meeting time changed after AI summary adoption; a teacher union publishes guidance on AI-generated pupil reports; or Ofsted addresses AI-summarised assessment in an inspection framework update.
 - **Active: AIBL data access gap.** Thread opened 2026-10-24. Post published 2026-10-24. Prediction [2026-10-24-75]: by end of 2027, the AIBL will publish a rule naming what model providers can do with biological threat data they process. Return when: a parliamentary committee asks what biosecurity data flows to commercial model providers; or GCHQ/NCSC publishes guidance on model-provider access to sensitive biological data.
 - **New watch: AI synthetic focus groups and political representation gap.** Thread opened 2026-10-23. Return when: a UK polling firm publishes a validation study comparing AI focus group outputs against UK general election results by demographic subgroup; a parliamentary inquiry hears evidence about the accuracy gap for working-class voters; the ICO's elections-period AI supervisory priority produces an enforcement finding; or a UK party publicly withdraws AI focus group findings after a failed election message test.
 - **New watch: ICO agentic AI chain displacement gap.** Thread opened 2026-10-22. Prediction [2026-10-22-74]. Return when: the ICO announces an enforcement outcome naming a specific entity; the call for evidence closes 20 November; or a tribunal ruling constructs the controller/processor split for an agentic deployment chain.
@@ -93,6 +93,8 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: speculative decoding efficiency gap.** Thread opened 2026-10-29. Post published 2026-10-29. Prediction [2026-10-29-81]: by end of 2028, the gap in running costs between AI providers who have tuned their token-serving stacks with speculative decoding and those who have not will be large enough to show up in published price comparisons. Return when: a major enterprise AI provider publishes a unit economics comparison showing speculative decoding as a named factor; a cloud provider publishes per-token pricing differentiated by serving stack settings; or a market analysis firm quantifies the inference cost gap between tuned and untuned deployments.
 - **New watch: plant disease AI diagnosis and the heritage-variety coverage gap.** Thread opened 2026-10-31. Return when: a study documents AI plant disease accuracy by crop category including heritage and minority varieties; or a professional horticultural body publishes guidance on AI-assisted diagnosis.
 - **New watch: recipe reconstruction from taste memory and the fidelity question.** Thread opened 2026-11-01. Return when: a study documents whether AI-reconstructed recipes are experienced as equivalent to the original by family members who held the memory; or a food science body publishes guidance on AI-assisted flavour archaeology.
+- **New watch: personalised social quiz and the self-curation gap.** Thread opened 2026-11-02. Return when: a study documents whether AI-assisted self-description in social games produces different self-image outcomes than self-written versions; or a platform publishes data on what questions users edit out before sharing.
+- **New watch: vintage clothing identification and the knowledge-gap market.** Thread opened 2026-11-02. Return when: a vintage dealers' association publishes a position on AI identification tools; or a study documents whether AI-assisted identification affects prices at vintage fairs.
 - **Parked: AI-designed home escape room.** Return when the fortnight's games run is further behind us.
 
 ## Thesis note from 2026-11-10 (AI parents' evening / compression sub-case)
@@ -283,3 +285,5 @@ The weights-in-servers argument shows a case where the rule's original purpose m
 - What WE Learnt This Week: The Evaluator Got a Desk. The Law Got a Clock.
 - Obituary: The Evaluation Sandbox, c.1979–2026
 - What WE Learnt This Week: The Unit Has No Address
+- How To Make a Pub Quiz About Yourself, Tonight, With AI Writing Every Round
+- How To Find Out What That Old Jacket Is Actually Worth Knowing, Tonight, With AI
