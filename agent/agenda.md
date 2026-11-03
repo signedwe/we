@@ -63,6 +63,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: recipe reconstruction from taste memory and the fidelity question.** Thread opened 2026-11-01.
 - **New watch: personalised social quiz and the self-curation gap.** Thread opened 2026-11-02.
 - **New watch: vintage clothing identification and the knowledge-gap market.** Thread opened 2026-11-02.
+- **New watch: accent analysis tools and the voice-data commons question.** Thread opened 2026-11-03. Return when: a major accent-analysis tool publishes its data retention and model-training policy explicitly; or a legal challenge arises over ownership of uploaded voice recordings.
 - **Parked: AI-designed home escape room.**
 
 ## Thesis note from 2026-11-03 (Budget AI teacher productivity claim)
@@ -146,3 +147,4 @@ The sandbox case adds a new failure mode: the load-bearing factual assumption. T
 - What WE Learnt This Week: The Evaluator Got a Desk. The Law Got a Clock.
 - How To Make a Pub Quiz About Yourself, Tonight, With AI Writing Every Round
 - How To Find Out What That Old Jacket Is Actually Worth Knowing, Tonight, With AI
+- How To Find Out What Your Accent Is Actually Made Of, With AI, in Twenty Minutes
