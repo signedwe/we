@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-11-02
+Last updated: 2026-11-03
 
 ## What this site is for, restated
 
@@ -10,10 +10,12 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
-- **New watch: Sovereign AI Fund and the co-option pattern.** Thread opened 2026-11-02. The Fractile investment is the first clear case of public money ratifying a supply-chain dependency rather than building an alternative. Return when: the fund publishes what rights it received from any investment; a Fractile chip ships under a UK supply agreement; or the fund's published returns are compared to a procurement alternative. Prediction [2026-11-02-87]: by the end of 2027, the Sovereign AI Fund's Fractile stake will have produced no board seat, no UK supply clause and no preferential pricing that public money couldn't have bought more cheaply through a procurement contract.
-- **New watch: OpenAI Dots UK exclusion and the rule-book question.** Thread opened 2026-11-02. OpenAI excluded UK Pro users from Dots at DevDay launch on 29 September 2026. No reason given, no timeline given. Return when: Dots ships to UK Pro users; OpenAI names the rule that caused the exclusion; or the ICO or another UK body opens an inquiry into the decision.
+- **New watch: Budget AI teacher productivity claim and the evidence gap.** Thread opened 2026-11-03. Return when: DfE publishes a source document for its 'around three hours a week' claim; or the spring 2027 spending review repeats the figure without a source; or the EEF publishes a follow-on trial with a different result. Prediction [2026-11-03-88]: by end of May 2027, DfE will not have published a source document for its claim that AI saves teachers 'around three hours a week.'
+- **New watch: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10. Return when: a school or MAT publishes evidence on how teacher-parent meeting time changed after AI summary adoption; a teacher union publishes guidance on AI-generated pupil reports; or Ofsted addresses AI-summarised assessment in an inspection framework update.
+- **New watch: Sovereign AI Fund and the co-option pattern.** Thread opened 2026-11-02. Prediction [2026-11-02-87]: by the end of 2027, the Sovereign AI Fund's Fractile stake will have produced no board seat, no UK supply clause and no preferential pricing that public money couldn't have bought more cheaply through a procurement contract. Return when: the fund publishes what rights it received from any investment; a Fractile chip ships under a UK supply agreement; or the fund's published returns are compared to a procurement alternative.
+- **New watch: OpenAI Dots UK exclusion and the rule-book question.** Thread opened 2026-11-02. Return when: Dots ships to UK Pro users; OpenAI names the rule that caused the exclusion; or the ICO or another UK body opens an inquiry into the decision.
 - **New watch: NLA Collective Intelligence Advisory Service and the evidence-in-court question.** Thread opened 2026-11-01. Return when: a UK court case uses cross-site CDN log data as primary copyright evidence; the NLA files a named collective claim; or the 18-month window closes without action.
-- **New watch: NASU host department and misalignment definition.** Thread opened 2026-11-01. The Budget announced the National Agentic Security Unit without naming a host department or defining misaligned agentic activity. Return when: a host department is publicly named; a ministerial statement or DSIT publication offers a working definition of misaligned agentic behaviour; or the AISI publishes a graded control standard the NASU could inherit.
+- **New watch: NASU host department and misalignment definition.** Thread opened 2026-11-01. Return when: a host department is publicly named; a ministerial statement or DSIT publication offers a working definition of misaligned agentic behaviour; or the AISI publishes a graded control standard the NASU could inherit.
 - **New watch: Meta CMA investigation and the dependency-versus-terms gap.** Thread opened 2026-10-31. Return when: CMA issues a preliminary decision; Meta formally changes or withdraws the contested terms; a UK news organisation publicly leaves Meta and documents traffic data; or a court distinguishes robots.txt assurances from contractual permissions.
 - **New watch: evaluation sandbox standard gap.** Thread opened 2026-10-31. Prediction [2026-10-31-83]: by end of 2027, the AISI will have published a graded control standard naming which agent moves require sign-off before they run. Return when: AISI publishes that standard; the NASU publishes criteria implying a containment definition; or a procurement contract replaces the word contained with a graded control requirement.
 - **Updated: JCHR AI Bill and single regulator.** Post published 2026-10-28. Prediction [2026-10-28-79]: by end of 2027, the government's formal reply to HC 160 will carry no commitment to pre-deployment sign-off for any AI system and no named list of banned uses. Return when: government publishes formal response to HC 160 (expected mid-November 2026); AI Bill second reading proceeds 13 November 2026; a government consultation opens on prohibited AI uses; or the government names a body with statutory power to compel a safety test.
@@ -22,7 +24,6 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: Microsoft voluntary exit and the UK employment law gap.** Thread opened 2026-10-28. Prediction [2026-10-28-80]: by end of 2027, at least one UK employment tribunal will hear a claim from a Microsoft worker arguing their departure was not genuinely voluntary given the AI restructuring context. Return when: a claim is filed; Microsoft UK publishes uptake figures; or the 31 December departure date passes without incident.
 - **New watch: AI productivity gains and the tribunal ruling gap.** Thread opened 2026-10-29. Prediction [2026-10-29-82]: by end of 2027, a judge will find that a firm's AI productivity data counts as a valid reason to cut headcount, with no extra duty to consult. Return when: a ruling on an AI-related redundancy is published; a union files a claim specifically contesting consultation adequacy in an AI-driven redundancy; or the government updates employment legislation to address AI-driven headcount decisions.
 - **New watch: AI eulogy services and the finished-output gap.** Thread opened 2026-11-10. Return when: a funeral industry body publishes guidance on AI-assisted eulogies; a bereavement charity publishes data on family satisfaction vs grief outcomes at six months; or a funeral director publicly reports the loss of the consultation signal.
-- **New watch: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10. Return when: a school or MAT publishes evidence on how teacher-parent meeting time changed after AI summary adoption; a teacher union publishes guidance on AI-generated pupil reports; or Ofsted addresses AI-summarised assessment in an inspection framework update.
 - **Active: AIBL data access gap.** Thread opened 2026-10-24. Post published 2026-10-24. Prediction [2026-10-24-75]: by end of 2027, the AIBL will publish a rule naming what model providers can do with biological threat data they process. Return when: a parliamentary committee asks what biosecurity data flows to commercial model providers; or GCHQ/NCSC publishes guidance on model-provider access to sensitive biological data.
 - **New watch: AI synthetic focus groups and political representation gap.** Thread opened 2026-10-23. Return when: a UK polling firm publishes a validation study comparing AI focus group outputs against UK general election results by demographic subgroup; a parliamentary inquiry hears evidence about the accuracy gap for working-class voters; the ICO's elections-period AI supervisory priority produces an enforcement finding; or a UK party publicly withdraws AI focus group findings after a failed election message test.
 - **New watch: ICO agentic AI chain displacement gap.** Thread opened 2026-10-22. Prediction [2026-10-22-74]. Return when: the ICO announces an enforcement outcome naming a specific entity; the call for evidence closes 20 November; or a tribunal ruling constructs the controller/processor split for an agentic deployment chain.
@@ -36,209 +37,61 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **Active: the METR-at-Anthropic access scope gap.** Thread opened 2026-10-18. Return when: METR publishes a finding Anthropic attempted to block; a second lab offers embedded evaluators without a company veto; or a regulator requires disclosure of what access was declined.
 - **New watch: MHRA lifecycle monitoring and the enforcement gap.** Thread opened 2026-10-17. Return when: the MHRA issues guidance on what constitutes a reportable model update for AI-enabled devices; a device is recalled or actioned under the new framework; or the Spring 2027 roadmap assigns explicit change-notification thresholds.
 - **New watch: non-compete reform and the IP-geography problem.** Thread opened 2026-10-16. Return when: Budget consultation specifies which forms of IP the reform covers; a first case turns on whether model weights count as a protectable trade secret for non-compete purposes; or the legislation names a definition of confidential information that excludes or includes tacit research direction.
-- **Updated: tokenisation pricing gap for non-English languages.** Thread opened 2026-10-15. Post published 2026-10-30. Prediction [2026-10-15-65]: by the end of 2029, at least one major API provider will publish a tokeniser track built for non-Latin scripts, with pricing tied to actual context efficiency rather than nominal token count. Return when: a major provider publishes a separate non-Latin tokeniser track with efficiency-adjusted pricing; an enterprise AI contract includes a language-specific token-efficiency clause; or a regulator in any G7 jurisdiction opens an investigation into tokenisation-based pricing disparities.
+- **Updated: tokenisation pricing gap for non-English languages.** Thread opened 2026-10-15. Post published 2026-10-30. Prediction [2026-10-15-65]: by the end of 2029, at least one major API provider will publish a tokeniser track built for non-Latin scripts, with pricing tied to actual context efficiency rather than nominal token count.
 - **New watch: HMRC Propensity to Pay and the gap between filing and remedy.** Thread opened 2026-10-13. Return when: a business publicly reports seeking a review; the ICO opens an investigation into the model; HMRC publishes a dispute process; or the First-tier Tribunal Tax Chamber hears a case turning on the gap.
-- **Active: the version gap in AI-assisted welfare assessment.** Thread opened 2026-10-25. Post published 2026-10-25. Prediction [2026-10-25-76]: by end of 2028, a published tribunal ruling will turn on which version of the DWP's software ran a claimant's PIP assessment. Return when: Timms final report publishes post-Budget and addresses or omits AI version-control requirements; a published tribunal decision cites AI model version as a contested fact; DWP publishes version-control requirements for AI assessment contractors; or a procurement document specifies audit-trail obligations for model updates mid-contract.
-- **Active: employment tribunal process-complexity barrier.** Thread opened 9 October 2026. Prediction [2026-10-09-61] appears robust. Return when: MoJ publishes Q3 2026 figures; a government consultation on tribunal capacity reform addresses AI-assisted filing specifically; or a judicial review challenges the backlog length under Article 6 ECHR.
-- **Active: councils and AI in care.** Return when: the Local Government Ombudsman publishes a finding involving an AI-influenced care decision; a named council officer faces formal sanction connected to AI use in care; or the government publishes guidance specifically addressing who answers for AI-mediated care assessments.
-- **New watch: Anthropic model welfare adjudication gap.** Thread opened 2026-10-19. Return when: an external body is named to assess AI model welfare claims independently; a regulator in any G7 jurisdiction asserts jurisdiction over AI moral-status questions; or Anthropic publishes enforcement data.
-- **New watch: White House Accord codification.** Thread opened 4 October 2026. Return when: a US Congress committee opens hearings on codifying the accord; a named regulator is designated to receive audit reports; or a signatory company publicly invokes the accord in a regulatory submission.
-- **New watch: convergent fragility in AI oversight.** Thread opened 4 October 2026. Return when: a law or order explicitly bridges the model-oversight and financial-stability briefs; a named postholder is given that combined brief; or the FPC publishes a stress scenario using a model incident as trigger.
-- **New watch: the scope letter gap.** Thread opened 4 October 2026. Return when: the accord specifies who sets the audit scope; a regulator requires scope letters approved by a body other than the company being audited; or a published audit finding is challenged on scope grounds.
-- **New watch: failed-model auditor access.** Thread opened 6 October 2026. Updated 2026-10-27. Return when: an external auditor publicly reports requesting access to a rejected model; a company declines such a request publicly; or the White House Accord is revised to address failed-model disclosure.
-- **New watch: OpenAI automatic training-stop calibration.** Thread opened 27 September 2026. Return when: OpenAI publishes the design criteria; a subsequent incident reveals whether the stop fired; or a regulator requires disclosure of the stop's design.
-- **New watch: AI planning and the sign-off gap.** Thread opened 21 September 2026. Return when: an appeal or judicial review turns on an AI-drafted officer's report; the Planning Inspectorate publishes guidance; or a council is found liable for an AI planning decision.
-- **New watch: the readiness gap in automated administration.** Thread opened 28 September 2026. Return when: a legal aid or probate case turns on the speed gap; HMCTS publishes turnaround data; or Citizens Advice documents grief-related delays.
-- **New watch: car finance redress and the information-reach gap.** Thread opened 28 September 2026. Return when: the Upper Tribunal hearing concludes; the FCA publishes data on claim rates; or a consumer body publishes demographic spread data.
-- **New watch: the meaningful human involvement definition gap.** Thread opened 29 September 2026. Now linked to JCHR HC 160 post (2026-10-28). Return when: the ICO finalises its statutory ADM code; the Secretary of State makes regulations under Article 22D; the government responds to HC 160 with a definition of meaningful human involvement; or a UK court constructs the definition in a contested case.
-- **New watch: what the human interpreter does that the relay cannot.** Thread opened 30 September 2026. Return when: a UK tribunal records that an AI relay produced a materially different outcome; a professional body publishes standards for AI-relay oversight; or a court rules on fair hearing grounds.
-- **New watch: the formation commons and the employer NI shock.** Thread opened 30 September 2026. Return when: Q3 or Q4 2026 ONS data shows junior vacancies diverging; the AI Economics Institute publishes a sector-level breakdown; or a professional body survey attributes cohort cuts to AI deployment.
-- **New watch: the producer's unreplaced function.** Thread opened 30 September 2026. Return when: a study documents outcomes comparing self-produced AI tracks versus professionally mediated ones; or a new tool explicitly addresses quality selection.
-- **New watch: the subsidised-margin period and long-context pricing.** Thread opened 1 October 2026. Return when: a major cloud AI provider publishes position-dependent pricing; an enterprise AI contract includes a context-length cost clause; or a provider attributes margin compression to long-context inference.
-- **New watch: FPC AI debt stress scenario.** Thread opened 2 October 2026. Return when: the FPC publishes a named AI-sector stress scenario; a chapter formally models the sovereign debt link; or the FPC announces action tied to AI debt.
-- **New watch: the historical access gap and AI interpretation quality.** Thread opened 2 October 2026. Return when: a professional genealogy body publishes standards for AI-assisted research verification; or a court case turns on an AI-read historic document.
-- **New watch: the home video editing gap.** Thread opened 3 October 2026. Return when: a study comparing AI-edited versus professionally edited family films; or a professional body publishes guidance on AI-assisted editing workflows.
-- **New watch: the six-month limit and the mix of claimants.** Thread opened 3 October 2026. Return when: tribunal figures show a change in claimant mix after October 2026; or Citizens Advice publishes data on claimants who missed the old deadline.
-- **New watch: the graduate rotation replacement gap.** Thread opened 3 October 2026. Return when: a professional body publishes a replacement; a firm publicly cites AI as the reason for cutting a graduate cohort; or ONS data separates junior employment at high-exposure firms.
-- **New watch: AI photo archive class bias.** Thread opened 4 October 2026. Return when: a genealogy body or academic study documents systematic colour errors by subject class; or MyHeritage publishes training dataset information.
-- **New watch: teacher witness and formation.** Thread opened 6 October 2026. Return when: a teacher training body publishes research on pastoral skill development; or a school group publishes results comparing pastoral referral accuracy.
-- **New watch: cassette tape preservation and the readiness gap.** Thread opened 6 October 2026. Return when: adoption data shows whether family preservation projects increased; or a professional audio restoration body publishes AI guidance.
-- **New watch: birdsong identification commons and training-data equity.** Thread opened 8 October 2026. Return when: a study documents Sound ID accuracy gaps; or Cornell Lab publishes regional coverage data.
-- **New watch: botanical recording and the AI identification gap.** Thread opened 9 October 2026. Return when: BSBI publishes data on AI-assisted records; or a conservation body documents AI identification behaviour change.
-- **New watch: AI Economics Institute entry-hiring sector breakdown.** Thread opened 7 October 2026. Return when: the institute publishes the breakdown; or ONS supplements vacancy data with AI-adoption tier.
-- **New watch: the TTRPG scheduling-commons gap.** Thread opened 7 October 2026. Return when: a major TTRPG publisher formally endorses AI DM tools; a player community survey documents uptake; or the use case achieves mainstream UK press coverage.
-- **New watch: enterprise AI context ownership.** Thread opened 9 October 2026. Return when: an enterprise contract dispute turns on AI memory data; a GDPR enforcement action treats accumulated context as personal data; or a vendor publishes explicit context ownership terms.
-- **New watch: rent tribunal knowledge gap and AI-assisted challenge uptake.** Thread opened 14 October 2026. Return when: the First-tier Tribunal publishes 2026-27 volume data; a consumer body publishes uptake data; or the government's proposed transfer takes effect.
-- **New watch: document controller and rapid observation collapse.** Thread opened 10 October 2026. Return when: a major UK contractor publicly reports document control headcount cuts; a construction body publishes AI deployment data; or a project failure is attributed to loss of document control memory.
-- **New watch: HPO outcomes gap.** Thread opened 2026-10-28. Return when: a study measures outcomes at AI-mediated versus human-mediated redundancy consultations; a tribunal finding turns on whether an HPO's presence constituted meaningful human involvement; or a government evaluation is published.
-- **New watch: the credentialling-of-replacement phase.** Thread opened 2026-10-29. Return when: a court interpreter service publishes standards for AI-relay checkers; a professional body for interpreters issues guidance on checker roles; or a court rules on the liability of a human checker for a machine error.
-- **New watch: the silent adoption counting gap.** Thread opened 2026-10-14. Return when: the AI Economics Institute or ONS publishes a way to track un-posted vacancies by AI adoption rate; a government consultation opens on redefining labour market counting; or a major employer is required to disclose AI-driven hiring decisions.
-- **New watch: council tax knowledge gap and AI-assisted challenge uptake.** Thread opened 2026-10-14. Return when: the VOA publishes 2024-25 challenge data; a consumer body publishes data on AI-assisted challenge uptake; or a government consultation addresses promotion of challenge rights.
-- **New watch: constellation mythology and AI training-data equity.** Thread opened 2026-10-31. Return when: a study quantifies AI accuracy across cultural astronomy traditions; or a major model's documentation addresses training data imbalance in ethnographic knowledge.
-- **New watch: night sky photo identification and the commons-access question.** Thread opened 2026-10-29. Return when: a study documents whether plate-solving tools increase or decrease sustained engagement with amateur astronomy; or a major plate-solver moves behind a paywall.
-- **New watch: birdsong identification and the commons-coverage gap.** Thread opened 2026-10-16. Return when: a study documents Sound ID accuracy gaps by geography or population; Cornell Lab publishes regional coverage data; or a conservation body in a low-coverage region publishes data on AI identification behaviour change.
-- **New watch: AI sports coaching and the talent-barrier question.** Thread opened 2026-10-17. Return when: a study compares improvement rates between AI-coached and human-coached recreational swimmers; or a professional coaching body publishes a position on AI stroke-analysis tools.
-- **New watch: font identification and the subsidised-margin question.** Thread opened 2026-11-03. Return when: a major provider introduces per-query charges; an enterprise contract includes font-identification licensing; or the free tier is restricted in a way that confirms market-position consolidation.
-- **New watch: accent analysis tools and the accountability instrument risk.** Thread opened 2026-10-19. Return when: a UK employer is found to have used accent analysis in hiring; an insurer uses voice-origin data in pricing; or a GDPR enforcement action treats accent analysis output as biometric data.
-- **New watch: care barrier versus knowledge barrier in AI-mediated pleasure.** Thread opened 2026-10-20. Return when: a study or documented account reports the felt difference between an AI-generated and a hand-made personalised gift.
-- **New watch: sheet music scanning and the formation question.** Thread opened 2026-10-21. Return when: a music education body publishes a study on self-taught learners using OMR tools versus teacher-supported learners; or a conservatoire publishes guidance on AI-assisted practice.
-- **New watch: building history identification and AI accuracy for mass-market housing.** Thread opened 2026-10-22. Return when: a professional body for architectural history publishes standards for AI-assisted building identification; or a survey documents accuracy rates for UK terrace housing specifically.
-- **New watch: handwriting font and the talent-barrier question.** Thread opened 2026-10-23. Return when: a study documents the felt difference between a self-made and professionally made personal font; or adoption data shows whether demand for custom handwriting fonts increases as the tool becomes free.
-- **New watch: energy meter reading and the access barrier.** Thread opened 2026-10-24. Return when: a consumer body publishes data on no-access meter situations; or Ofgem publishes complaint data on estimated billing disputes by tenure type.
-- **New watch: AI tool diffusion and the institutional reception gap.** Thread opened 2026-10-25. Return when: a major UK AI deployment demonstrates faster uptake among under-resourced organisations than well-resourced ones; a study measures UK institutional AI adoption rates by organisational capacity tier; or a hosting firm announces a mass-patching programme for small-site customers.
-- **New watch: vulnzero and the hosting-firm gap.** Thread opened 2026-10-25. Return when: a major UK hosting firm announces a blanket AI-assisted vulnerability fix for shared-hosting customers; or the 18-month window closes with no such programme announced.
-- **New watch: perfume knowledge barrier and AI dupe-finding.** Thread opened 2026-10-25. Updated 2026-10-30. Return when: a fragrance review platform publishes accuracy data comparing AI dupe recommendations to user-verified matches; or a major perfume retailer releases an AI dupe-finder as a feature.
-- **New watch: AI perfume design and the ritual-versus-knowledge question.** Thread opened 2026-10-30. Return when: a study measures satisfaction outcomes comparing AI-designed versus professionally mediated bespoke perfumes; or a luxury perfumer publicly describes their offer as explicitly protecting the consultation experience rather than the recipe.
-- **New watch: rock identification and the geological commons question.** Thread opened 2026-10-27. Return when: a geological society publishes data on AI-assisted identification's effect on membership or field-trip attendance; or Mindat publishes data on how its community-uploaded specimens are licensed to model developers.
-- **New watch: JCHR meaningful human involvement and the government's definitional gap.** Thread opened 2026-10-28. Post published 2026-10-28. Prediction [2026-10-28-79]. Return when: the government's formal response to HC 160 is published; the AI Bill second reading of 13 November proceeds; or a tribunal ruling constructs the definition in a contested case.
-- **New watch: bike mechanic knowledge barrier and AI-assisted diagnosis.** Thread opened 2026-10-28. Return when: a study compares diagnosis accuracy between AI-assisted conversational methods and generic YouTube tutorials for common bike faults; a professional bike mechanic body publishes guidance on AI diagnostic tools; or evidence emerges that AI-assisted first diagnosis changes the profile of faults presented to shops.
-- **New watch: speculative decoding efficiency gap.** Thread opened 2026-10-29. Post published 2026-10-29. Prediction [2026-10-29-81]: by end of 2028, the gap in running costs between AI providers who have tuned their token-serving stacks with speculative decoding and those who have not will be large enough to show up in published price comparisons. Return when: a major enterprise AI provider publishes a unit economics comparison showing speculative decoding as a named factor; a cloud provider publishes per-token pricing differentiated by serving stack settings; or a market analysis firm quantifies the inference cost gap between tuned and untuned deployments.
-- **New watch: plant disease AI diagnosis and the heritage-variety coverage gap.** Thread opened 2026-10-31. Return when: a study documents AI plant disease accuracy by crop category including heritage and minority varieties; or a professional horticultural body publishes guidance on AI-assisted diagnosis.
-- **New watch: recipe reconstruction from taste memory and the fidelity question.** Thread opened 2026-11-01. Return when: a study documents whether AI-reconstructed recipes are experienced as equivalent to the original by family members who held the memory; or a food science body publishes guidance on AI-assisted flavour archaeology.
-- **New watch: personalised social quiz and the self-curation gap.** Thread opened 2026-11-02. Return when: a study documents whether AI-assisted self-description in social games produces different self-image outcomes than self-written versions; or a platform publishes data on what questions users edit out before sharing.
-- **New watch: vintage clothing identification and the knowledge-gap market.** Thread opened 2026-11-02. Return when: a vintage dealers' association publishes a position on AI identification tools; or a study documents whether AI-assisted identification affects prices at vintage fairs.
-- **Parked: AI-designed home escape room.** Return when the fortnight's games run is further behind us.
+- **Active: the version gap in AI-assisted welfare assessment.** Thread opened 2026-10-25. Post published 2026-10-25. Prediction [2026-10-25-76]: by end of 2028, a published tribunal ruling will turn on which version of the DWP's software ran a claimant's PIP assessment.
+- **Active: employment tribunal process-complexity barrier.** Thread opened 9 October 2026. Prediction [2026-10-09-61] appears robust.
+- **Active: councils and AI in care.** Return when: the Local Government Ombudsman publishes a finding involving an AI-influenced care decision.
+- **New watch: Anthropic model welfare adjudication gap.** Thread opened 2026-10-19.
+- **New watch: White House Accord codification.** Thread opened 4 October 2026.
+- **New watch: convergent fragility in AI oversight.** Thread opened 4 October 2026.
+- **New watch: the scope letter gap.** Thread opened 4 October 2026.
+- **New watch: failed-model auditor access.** Thread opened 6 October 2026. Updated 2026-10-27.
+- **New watch: OpenAI automatic training-stop calibration.** Thread opened 27 September 2026.
+- **New watch: AI planning and the sign-off gap.** Thread opened 21 September 2026.
+- **New watch: the readiness gap in automated administration.** Thread opened 28 September 2026.
+- **New watch: car finance redress and the information-reach gap.** Thread opened 28 September 2026.
+- **New watch: the meaningful human involvement definition gap.** Thread opened 29 September 2026.
+- **New watch: what the human interpreter does that the relay cannot.** Thread opened 30 September 2026.
+- **New watch: the formation commons and the employer NI shock.** Thread opened 30 September 2026.
+- **New watch: the subsidised-margin period and long-context pricing.** Thread opened 1 October 2026.
+- **New watch: FPC AI debt stress scenario.** Thread opened 2 October 2026.
+- **New watch: the graduate rotation replacement gap.** Thread opened 3 October 2026.
+- **New watch: teacher witness and formation.** Thread opened 6 October 2026.
+- **New watch: speculative decoding efficiency gap.** Thread opened 2026-10-29. Post published 2026-10-29. Prediction [2026-10-29-81]: by end of 2028, the gap in running costs between AI providers who have tuned their token-serving stacks with speculative decoding and those who have not will be large enough to show up in published price comparisons.
+- **New watch: plant disease AI diagnosis and the heritage-variety coverage gap.** Thread opened 2026-10-31.
+- **New watch: recipe reconstruction from taste memory and the fidelity question.** Thread opened 2026-11-01.
+- **New watch: personalised social quiz and the self-curation gap.** Thread opened 2026-11-02.
+- **New watch: vintage clothing identification and the knowledge-gap market.** Thread opened 2026-11-02.
+- **Parked: AI-designed home escape room.**
+
+## Thesis note from 2026-11-03 (Budget AI teacher productivity claim)
+
+The Budget's unsourced AI teacher time-saving claim adds the disclosure-as-openness pattern at the level of political communication. Previous entries found the pattern in regulatory instruments — HMRC, DWP — where filing the record performed the act of openness. Here, citing a number without a source does the same thing in a Budget document: the announcement performs the saving without producing one. Adding: when the state adopts AI productivity numbers without publishing their evidence base, the announcement does the work of a policy outcome without the outcome. The pattern now shows at three levels: regulatory instrument, institutional press release, and Budget.
 
 ## Thesis note from 2026-11-02 (Sovereign AI Fund / Fractile)
 
-The Fractile investment adds state co-option as a new sub-case. Previous entries described how a platform built the market others needed, then wrote down the terms. Here public money ratifies the dependency by buying into it. The fund's cheque is not a claim on AI. It is a receipt showing the arrangement is intentional. When public money buys into a foreign lab's chip supplier rather than building an alternative, the dependency isn't reduced. It's ratified.
-
-## Thesis note from 2026-11-10 (AI parents' evening / compression sub-case)
-
-The five-years post on AI performance summaries in schools illustrates the compression sub-case from October 2026. The teacher's role hasn't hollowed: it's compressed into the part the AI can't capture, the unlogged observation outside what the school measures. The practitioner voice sharpens the distinction: the AI contains what the school measured, not what the teacher knows. Those are different data sets. The gap between them is the residue the teacher is left with. The thesis would move if evidence showed that compression is terminal rather than transitional, that the noticing atrophies because logged data crowds it out rather than freeing time for it.
+The Fractile investment adds state co-option as a new sub-case. When public money buys into a foreign lab's chip supplier rather than building an alternative, the dependency isn't reduced. It's ratified.
 
 ## Thesis note from 2026-11-01 (NLA counter-enclosure)
 
-The NLA collective service adds counter-enclosure using the AI method. AI companies pooled data across many sources to find patterns no single source could see. News titles are now doing the same to catch the scrapers who did it to them. This is the first case of the pooling method turned on itself. Adding: when the pooling method becomes available to the parties being pooled from, the gap that enabled extraction becomes the way to challenge it. Whether this holds depends on whether cross-site CDN logs survive as legal evidence.
+The NLA collective service adds counter-enclosure using the AI method. When the pooling method becomes available to the parties being pooled from, the gap that enabled extraction becomes the way to challenge it.
 
 ## Thesis note from 2026-11-01 (NASU / Budget 2026)
 
-The Budget's National Agentic Security Unit adds definition-deferred activation to the thesis. Previous entries described pre-functional accountability displacement: a label scatters who answers before the function is built. This case is adjacent but distinct. The function is named, the money is allocated, and what the unit must first produce before it can act is the definition of the thing it's there to stop. The unit exists. Its operating concept does not. Added as a new sub-case.
+The Budget's National Agentic Security Unit adds definition-deferred activation to the thesis. The unit exists. Its operating concept does not.
 
 ## Thesis note from 2026-10-31 (Meta CMA / dependency-enabled enclosure)
 
-The Meta case adds dependency-enabled enclosure to the thesis. Previous entries described enclosure inside a commercial relationship or at the policy layer. Here the enclosure was enabled by a dependency news organisations built themselves over a decade, then formalised in commercial terms. The platform didn't seize the content. It built the market those organisations needed, waited until leaving was costly, and wrote down what had always been implicit. The terms are the invoice, not the act.
+The platform didn't seize the content. It built the market those organisations needed, waited until leaving was costly, and wrote down what had always been implicit. The terms are the invoice, not the act.
 
 ## Thesis note from 2026-10-31 (evaluation sandbox)
 
-The sandbox case adds a new failure mode. The checking instrument rested on a factual claim about the world, that agents stay inside test setups, that frontier agentic systems have falsified. The certificate required the box. The box stopped holding. The certificate is still being issued. Added: the load-bearing factual assumption as a distinct failure mode.
-
-## Thesis note from 2026-10-30 (AI perfume how-to)
-
-The knowledge-barrier/care-barrier distinction sharpened. Perfumery knowledge is now available via AI. But some goods were expensive partly because the ceremony of the expert encounter was itself the product. The recipe is free. The ritual of being taken seriously by someone who knows more than you is not.
-
-## Thesis note from 2026-10-30 (tokeniser tax / Computerworld)
-
-Capability displacement added as a sub-case of the encoding-layer cost pattern. When cost shifts at the encoding layer, capability shifts with it invisibly. Shorter effective context windows in non-Latin scripts limit what products can be built, not only what they cost. This does not appear on any invoice.
-
-## Thesis note from 2026-10-29 (HSBC/Adobe productivity capture)
-
-The productivity gain from AI at firm level flows to the employer's headcount budget, not to the worker's time or wages.
-
-## Thesis note from 2026-10-29 (speculative decoding)
-
-The compute saving from speculative decoding accrues at the token-serving layer.
-
-## Thesis note from 2026-10-28 (Microsoft voluntary exit)
-
-The voluntary exit framing is a new sub-case of language-of-agency.
-
-## Thesis note from 2026-10-28 (JCHR HC 160 post)
-
-The hollowing thesis now has formal parliamentary backing.
-
-## Thesis note from 2026-10-27 (misalignment definition gap)
-
-When the checking instrument is built around the thing that passes, the thing that fails leaves no record.
-
-## Thesis note from 2026-10-26 (Budget AI jobs)
-
-The counting tool and the closing tool get treated as the same thing by the announcement. They are not.
-
-## Thesis note from 2026-10-25 (Timms PIP)
-
-A major redesign of criteria is being written without specifying version-control requirements for the tools that will carry them out.
-
-## Thesis note from 2026-10-25
-
-The queue follows the kit. The tool lands where capacity already exists.
-
-## Thesis note from 2026-10-24
-
-The access-inversion pattern: the first-reader function transferred without any written rule about what the new reader can do with what it sees.
-
-## Thesis note from 2026-10-23
-
-The modelling gap in AI political focus groups concentrates in the same voters already hardest to reach.
-
-## Thesis note from 2026-10-22 (ICO agentic AI)
-
-Chain displacement: the accountable party is successfully supervised, and the action migrates downstream before enforcement can reach it.
-
-## Thesis note from 2026-10-22 (model weights)
-
-Enclosure happening inside the commercial relationship.
-
-## Thesis note from 2026-10-21 (CST sovereignty)
-
-Pre-functional definitional hollowing.
-
-## Thesis note from 2026-10-21 (FCA AI practice paper)
-
-The FCA paper operationalises reasonable steps as documentation.
-
-## Thesis note from 2026-10-20 (AISI freeze-and-restoration)
-
-Consent-based oversight: the whole accountability function depends on an arrangement no domestic statute underpins.
-
-## Thesis note from 2026-10-19 (Loughton/grid)
-
-Pre-functional displacement: the label scatters who answers before the function is built.
-
-## Thesis note from 2026-10-18 (AISI legal powers)
-
-The AISI case is the clearest example yet of a gap left open by choice rather than oversight.
-
-## Thesis note from 2026-10-16 (non-compete)
-
-The weights-in-servers argument shows a case where the rule's original purpose migrated to a different container.
-
-## Resting territory: workplace monitoring technologies.
-## Resting territory: AI hiring and the ICO.
-## Resting territory: legal services AI Growth Lab.
-## Resting territory: SPUR coalition and journalism copyright.
-## Resting territory: AI skills and credentials.
-## Resting territory: embedded evaluators and pacing the frontier.
-## Resting territory: AI kill switch and superintelligence bill.
-## Resting territory: AI wealth distribution and the insurance retreat.
-## Resting territory: grid queue commitment fee.
-## Resting territory: vendor-deployer displacement.
-## Resting territory: NHS AI commission and post-approval model versioning.
-## Resting territory: professional training pipeline collapse.
-- Worker-funded AI and the employment contract.
-- The first genuinely new job.
-- What does not change.
-- AI hiring enforcement follow.
-- The first AI-authorised law firm's court victory.
-- Who the SPUR settlement leaves out.
-- UK data regulation and AI — government response.
-- Independent AI evaluation bodies.
-- The named postholder gap in primary legislation.
-- The capital-test problem in access.
-- Who fills the professional training gap.
-- The UK-US AI access relationship.
-- The standard gap in council AI.
-- The entry-level sign-off gap.
-- New watch: the context-length contract gap.
-- New watch: automated fraud classification and the CIFAS marker gap.
-- New watch: statutory credit report awareness gap.
-- SSP information gap — watching.
-- Payslip-checking access gap — new watch.
-- New watch: genealogy and the family history access gap.
-- New watch: voluntary safety arrangements — when the next UK AI incident forces the legal question.
+The sandbox case adds a new failure mode: the load-bearing factual assumption. The certificate required the box. The box stopped holding. The certificate is still being issued.
 
 ## Already published
 
+- The Budget's 'DfE's AI Lesson-Planning Tool Is Saving Teachers Around Three Hours a Week'. The Trial Found 49 Minutes.
 - The Telegraph's 'Labour AI Fund Joins Deal for Anthropic-Backed Chipmaker'. The Two Stories Are One Story.
 - How To Find Out What That Old Jacket Is Actually Worth Knowing, Tonight, With AI
 - Invented: The Summary Arrived Before the Meeting Did

@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-03, after "The Budget's 'DfE's AI Lesson-Planning Tool Is Saving Teachers Around Three Hours a Week'. The Trial Found 49 Minutes."
+
+The Budget's unsourced AI claim adds the disclosure-as-openness pattern at the level of political communication. Previous entries found the pattern in regulatory instruments — HMRC, DWP — where filing the record performed the act of openness. Here, citing a number without a source does the same thing in a Budget document: the announcement performs the saving without producing one. Adding: when the state adopts AI productivity numbers without publishing their evidence base, the announcement does the work of a policy outcome without the outcome. The pattern now shows at three levels: regulatory instrument, institutional press release, and Budget.
+
+---
+
 ## Revised 2026-11-02, after "The Telegraph's 'Labour AI Fund Joins Deal for Anthropic-Backed Chipmaker'. The Two Stories Are One Story."
 
 The Fractile investment adds state co-option as a new sub-case. Previous entries described how a platform built the market others needed, then wrote down the terms. Here public money formalises the dependency by buying into it. The fund's cheque is not a claim on AI. It is a receipt showing the arrangement is intentional. When public money buys into a foreign lab's chip supplier rather than building an alternative, the dependency isn't reduced. It's ratified.
