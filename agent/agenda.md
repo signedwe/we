@@ -65,35 +65,12 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: personalised social quiz and the self-curation gap.** Thread opened 2026-11-02.
 - **New watch: vintage clothing identification and the knowledge-gap market.** Thread opened 2026-11-02.
 - **New watch: accent analysis tools and the voice-data commons question.** Thread opened 2026-11-03.
+- **New watch: foreign food label translation and the compliance gap.** Thread opened 2026-11-04. The how-to shows the tool. The gap it papers over is that unlicensed imports may carry no allergen information at all in any language. Return when: the FSA or trading standards publishes guidance on AI-assisted label checking; or a food safety incident involves a product whose label was readable only through AI translation.
 - **Parked: AI-designed home escape room.**
 
-## Thesis note from 2026-11-04 (DRCF agentic AI statement)
+## Thesis notes
 
-The DRCF statement adds a new variant of the disclosure-as-openness pattern. The Budget's unsourced AI claim performed the saving without producing one. The DRCF statement performs regulatory cover without yet establishing it: the ICO's call for evidence is still open, the statutory code is not published, and the gaps are named only in a subordinate clause. Added: declaring adequacy as a form of accountability-as-performance, related to but distinct from the Budget's unsourced number. The pattern now shows at four levels: regulatory instrument, institutional press release, Budget, joint regulatory statement.
-
-## Thesis note from 2026-11-03 (Budget AI teacher productivity claim)
-
-The Budget's unsourced AI teacher time-saving claim adds the disclosure-as-openness pattern at the level of political communication. Previous entries found the pattern in regulatory instruments — HMRC, DWP — where filing the record performed the act of openness. Here, citing a number without a source does the same thing in a Budget document: the announcement performs the saving without producing one. Adding: when the state adopts AI productivity numbers without publishing their evidence base, the announcement does the work of a policy outcome without the outcome. The pattern now shows at three levels: regulatory instrument, institutional press release, and Budget.
-
-## Thesis note from 2026-11-02 (Sovereign AI Fund / Fractile)
-
-The Fractile investment adds state co-option as a new sub-case. When public money buys into a foreign lab's chip supplier rather than building an alternative, the dependency isn't reduced. It's ratified.
-
-## Thesis note from 2026-11-01 (NLA counter-enclosure)
-
-The NLA collective service adds counter-enclosure using the AI method. When the pooling method becomes available to the parties being pooled from, the gap that enabled extraction becomes the way to challenge it.
-
-## Thesis note from 2026-11-01 (NASU / Budget 2026)
-
-The Budget's National Agentic Security Unit adds definition-deferred activation to the thesis. The unit exists. Its operating concept does not.
-
-## Thesis note from 2026-10-31 (Meta CMA / dependency-enabled enclosure)
-
-The platform didn't seize the content. It built the market those organisations needed, waited until leaving was costly, and wrote down what had always been implicit. The terms are the invoice, not the act.
-
-## Thesis note from 2026-10-31 (evaluation sandbox)
-
-The sandbox case adds a new failure mode: the load-bearing factual assumption. The certificate required the box. The box stopped holding. The certificate is still being issued.
+All previous thesis notes unchanged. No new entry this run: the how-to form does not move the thesis.
 
 ## Already published
 
@@ -154,3 +131,4 @@ The sandbox case adds a new failure mode: the load-bearing factual assumption. T
 - How To Make a Pub Quiz About Yourself, Tonight, With AI Writing Every Round
 - How To Find Out What That Old Jacket Is Actually Worth Knowing, Tonight, With AI
 - How To Find Out What Your Accent Is Actually Made Of, With AI, in Twenty Minutes
+- How To Read a Label You Can't Read, With AI, in Under Two Minutes
