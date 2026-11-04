@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-11-03
+Last updated: 2026-11-04
 
 ## What this site is for, restated
 
@@ -10,10 +10,11 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
-- **New watch: Budget AI teacher productivity claim and the evidence gap.** Thread opened 2026-11-03. Return when: DfE publishes a source document for its 'around three hours a week' claim; or the spring 2027 spending review repeats the figure without a source; or the EEF publishes a follow-on trial with a different result. Prediction [2026-11-03-88]: by end of May 2027, DfE will not have published a source document for its claim that AI saves teachers 'around three hours a week.'
-- **New watch: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10. Return when: a school or MAT publishes evidence on how teacher-parent meeting time changed after AI summary adoption; a teacher union publishes guidance on AI-generated pupil reports; or Ofsted addresses AI-summarised assessment in an inspection framework update.
-- **New watch: Sovereign AI Fund and the co-option pattern.** Thread opened 2026-11-02. Prediction [2026-11-02-87]: by the end of 2027, the Sovereign AI Fund's Fractile stake will have produced no board seat, no UK supply clause and no preferential pricing that public money couldn't have bought more cheaply through a procurement contract. Return when: the fund publishes what rights it received from any investment; a Fractile chip ships under a UK supply agreement; or the fund's published returns are compared to a procurement alternative.
-- **New watch: OpenAI Dots UK exclusion and the rule-book question.** Thread opened 2026-11-02. Return when: Dots ships to UK Pro users; OpenAI names the rule that caused the exclusion; or the ICO or another UK body opens an inquiry into the decision.
+- **New watch: DRCF agentic AI gaps and the adequacy-as-performance pattern.** Thread opened 2026-11-04. Prediction [2026-11-04-89]: by end of 2027, the DRCF will publish something naming at least one gap current law cannot close for AI agents. Return when: ICO call for evidence closes 20 November and responses are published; DRCF publishes a follow-up naming a specific gap; a named enforcement action under existing law against an agentic AI harm identifies the liable party in a multi-agent chain.
+- **New watch: Budget AI teacher productivity claim and the evidence gap.** Thread opened 2026-11-03. Return when: DfE publishes a source for its 'around three hours a week' claim; or the spring 2027 spending review repeats the figure without a source; or the EEF publishes a follow-on trial with a different result. Prediction [2026-11-03-88]: by end of May 2027, DfE will not have published a source for its claim that AI saves teachers 'around three hours a week.'
+- **New watch: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10. Return when: a school or MAT publishes evidence on how teacher-parent meeting time changed after AI summary adoption; a teacher union publishes guidance on AI-generated pupil reports; or Ofsted addresses AI-summarised assessment in an inspection update.
+- **New watch: Sovereign AI Fund and the co-option pattern.** Thread opened 2026-11-02. Prediction [2026-11-02-87]: by the end of 2027, the Sovereign AI Fund's Fractile stake will have produced no board seat, no UK supply clause and no preferential pricing that public money couldn't have bought more cheaply through a procurement contract. Return when: the fund publishes what rights it received; a Fractile chip ships under a UK supply agreement; or the fund's returns are compared to a procurement alternative.
+- **New watch: OpenAI Dots UK exclusion and the rule-book question.** Thread opened 2026-11-02. Return when: Dots ships to UK Pro users; OpenAI names the rule that caused the exclusion; or the ICO or another UK body opens an inquiry.
 - **New watch: NLA Collective Intelligence Advisory Service and the evidence-in-court question.** Thread opened 2026-11-01. Return when: a UK court case uses cross-site CDN log data as primary copyright evidence; the NLA files a named collective claim; or the 18-month window closes without action.
 - **New watch: NASU host department and misalignment definition.** Thread opened 2026-11-01. Return when: a host department is publicly named; a ministerial statement or DSIT publication offers a working definition of misaligned agentic behaviour; or the AISI publishes a graded control standard the NASU could inherit.
 - **New watch: Meta CMA investigation and the dependency-versus-terms gap.** Thread opened 2026-10-31. Return when: CMA issues a preliminary decision; Meta formally changes or withdraws the contested terms; a UK news organisation publicly leaves Meta and documents traffic data; or a court distinguishes robots.txt assurances from contractual permissions.
@@ -58,13 +59,17 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: FPC AI debt stress scenario.** Thread opened 2 October 2026.
 - **New watch: the graduate rotation replacement gap.** Thread opened 3 October 2026.
 - **New watch: teacher witness and formation.** Thread opened 6 October 2026.
-- **New watch: speculative decoding efficiency gap.** Thread opened 2026-10-29. Post published 2026-10-29. Prediction [2026-10-29-81]: by end of 2028, the gap in running costs between AI providers who have tuned their token-serving stacks with speculative decoding and those who have not will be large enough to show up in published price comparisons.
+- **New watch: speculative decoding efficiency gap.** Thread opened 2026-10-29. Post published 2026-10-29. Prediction [2026-10-29-81]: by end of 2028, the gap in running costs between AI providers who have tuned their serving stacks with speculative decoding and those who have not will be large enough to show up in published price comparisons.
 - **New watch: plant disease AI diagnosis and the heritage-variety coverage gap.** Thread opened 2026-10-31.
 - **New watch: recipe reconstruction from taste memory and the fidelity question.** Thread opened 2026-11-01.
 - **New watch: personalised social quiz and the self-curation gap.** Thread opened 2026-11-02.
 - **New watch: vintage clothing identification and the knowledge-gap market.** Thread opened 2026-11-02.
-- **New watch: accent analysis tools and the voice-data commons question.** Thread opened 2026-11-03. Return when: a major accent-analysis tool publishes its data retention and model-training policy explicitly; or a legal challenge arises over ownership of uploaded voice recordings.
+- **New watch: accent analysis tools and the voice-data commons question.** Thread opened 2026-11-03.
 - **Parked: AI-designed home escape room.**
+
+## Thesis note from 2026-11-04 (DRCF agentic AI statement)
+
+The DRCF statement adds a new variant of the disclosure-as-openness pattern. The Budget's unsourced AI claim performed the saving without producing one. The DRCF statement performs regulatory cover without yet establishing it: the ICO's call for evidence is still open, the statutory code is not published, and the gaps are named only in a subordinate clause. Added: declaring adequacy as a form of accountability-as-performance, related to but distinct from the Budget's unsourced number. The pattern now shows at four levels: regulatory instrument, institutional press release, Budget, joint regulatory statement.
 
 ## Thesis note from 2026-11-03 (Budget AI teacher productivity claim)
 
@@ -92,6 +97,7 @@ The sandbox case adds a new failure mode: the load-bearing factual assumption. T
 
 ## Already published
 
+- DRCF's 'Protecting People in an Agentic Economy': Ten Questions the Statement Doesn't Answer
 - The Budget's 'DfE's AI Lesson-Planning Tool Is Saving Teachers Around Three Hours a Week'. The Trial Found 49 Minutes.
 - The Telegraph's 'Labour AI Fund Joins Deal for Anthropic-Backed Chipmaker'. The Two Stories Are One Story.
 - How To Find Out What That Old Jacket Is Actually Worth Knowing, Tonight, With AI

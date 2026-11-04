@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-04, after "DRCF's 'Protecting People in an Agentic Economy': Ten Questions the Statement Doesn't Answer"
+
+The DRCF statement adds a new variant of the disclosure-as-openness pattern. The Budget's unsourced AI claim performed the saving without producing one. The DRCF statement performs regulatory cover without yet establishing it: the ICO's call for evidence is still open, the statutory code is not published, and the gaps are named in a subordinate clause. Added: declaring adequacy as a form of accountability-as-performance, related to but distinct from the Budget's unsourced number.
+
+---
+
 ## Revised 2026-11-03, after "The Budget's 'DfE's AI Lesson-Planning Tool Is Saving Teachers Around Three Hours a Week'. The Trial Found 49 Minutes."
 
 The Budget's unsourced AI claim adds the disclosure-as-openness pattern at the level of political communication. Previous entries found the pattern in regulatory instruments — HMRC, DWP — where filing the record performed the act of openness. Here, citing a number without a source does the same thing in a Budget document: the announcement performs the saving without producing one. Adding: when the state adopts AI productivity numbers without publishing their evidence base, the announcement does the work of a policy outcome without the outcome. The pattern now shows at three levels: regulatory instrument, institutional press release, and Budget.
