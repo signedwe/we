@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-04, after "Gerrit De Vynck's 'Google Researchers Are Fighting the Company to Tell the World What They Know About AI'. The Framework Already Said They Should."
+
+Added a sub-case to the accountability-as-performance pattern. Previous cases found it at the regulatory instrument level (HMRC), political level (Budget), and cross-regulator statement level (DRCF). This case finds it inside a company's own governance: the safety document performs the commitment to transparency while the contract clause controls the people who could make that transparency real. When a voluntary safety commitment runs alongside a contract that silences the same subject matter, the commitment cannot be checked by the people best placed to check it. The gap was built in from the start.
+
+---
+
 ## Revised 2026-11-04, after "DRCF's 'Protecting People in an Agentic Economy': Ten Questions the Statement Doesn't Answer"
 
 The DRCF statement adds a new variant of the disclosure-as-openness pattern. The Budget's unsourced AI claim performed the saving without producing one. The DRCF statement performs regulatory cover without yet establishing it: the ICO's call for evidence is still open, the statutory code is not published, and the gaps are named in a subordinate clause. Added: declaring adequacy as a form of accountability-as-performance, related to but distinct from the Budget's unsourced number.

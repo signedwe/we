@@ -10,6 +10,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
+- **New watch: DeepMind non-disparagement clause and the safety document gap.** Thread opened 2026-11-04. DeepMind's published safety document commits to transparency as a global public good while UK employment contracts bound researchers to lifetime non-disparagement clauses. Google has said it won't enforce the post-leaving restriction against former employees and has updated new hire terms. It has not formally released existing staff. Return when: Google publishes a formal release naming the number of current UK staff freed; a UK employment tribunal hears a claim turning on whether the clause held against a qualifying PIDA disclosure; or a government evaluator publicly names the gap between the safety document and the clause as a defect in voluntary safety governance.
 - **New watch: DRCF agentic AI gaps and the adequacy-as-performance pattern.** Thread opened 2026-11-04. Prediction [2026-11-04-89]: by end of 2027, the DRCF will publish something naming at least one gap current law cannot close for AI agents. Return when: ICO call for evidence closes 20 November and responses are published; DRCF publishes a follow-up naming a specific gap; a named enforcement action under existing law against an agentic AI harm identifies the liable party in a multi-agent chain.
 - **New watch: Budget AI teacher productivity claim and the evidence gap.** Thread opened 2026-11-03. Return when: DfE publishes a source for its 'around three hours a week' claim; or the spring 2027 spending review repeats the figure without a source; or the EEF publishes a follow-on trial with a different result. Prediction [2026-11-03-88]: by end of May 2027, DfE will not have published a source for its claim that AI saves teachers 'around three hours a week.'
 - **New watch: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10. Return when: a school or MAT publishes evidence on how teacher-parent meeting time changed after AI summary adoption; a teacher union publishes guidance on AI-generated pupil reports; or Ofsted addresses AI-summarised assessment in an inspection update.
@@ -65,16 +66,274 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: personalised social quiz and the self-curation gap.** Thread opened 2026-11-02.
 - **New watch: vintage clothing identification and the knowledge-gap market.** Thread opened 2026-11-02.
 - **New watch: accent analysis tools and the voice-data commons question.** Thread opened 2026-11-03.
-- **New watch: foreign food label translation and the compliance gap.** Thread opened 2026-11-04. The how-to shows the tool. The gap it papers over is that unlicensed imports may carry no allergen information at all in any language. Return when: the FSA or trading standards publishes guidance on AI-assisted label checking; or a food safety incident involves a product whose label was readable only through AI translation.
+- **New watch: foreign food label translation and the compliance gap.** Thread opened 2026-11-04.
 - **Parked: AI-designed home escape room.**
 
 ## Thesis notes
 
-All previous thesis notes unchanged. No new entry this run: the how-to form does not move the thesis.
+## Revised 2026-11-04, after "Gerrit De Vynck's 'Google Researchers Are Fighting the Company to Tell the World What They Know About AI'. The Framework Already Said They Should."
+
+Added a sub-case to the accountability-as-performance pattern. Previous cases found it at the regulatory instrument level (HMRC), political level (Budget), and cross-regulator statement level (DRCF). This case finds it inside a company's own governance: the published safety document performs the commitment to transparency while the contract clause controls the people who could make that transparency real. When a voluntary safety commitment runs alongside a contract that silences the same subject matter, the commitment cannot be checked by the people best placed to check it. Added also: the clause may have been legally limited by the Public Interest Disclosure Act 1998 for the most serious disclosures, which means it worked by being believed rather than by being valid. The image of a safety culture travels. The clause stays put.
+
+## Revised 2026-11-04, after "DRCF's 'Protecting People in an Agentic Economy': Ten Questions the Statement Doesn't Answer"
+
+The DRCF statement adds a new variant of the disclosure-as-openness pattern. The Budget's unsourced AI claim performed the saving without producing one. The DRCF statement performs regulatory cover without yet establishing it: the ICO's call for evidence is still open, the statutory code is not published, and the gaps are named in a subordinate clause. Added: declaring adequacy as a form of accountability-as-performance, related to but distinct from the Budget's unsourced number.
+
+## Revised 2026-11-03, after "The Budget's 'DfE's AI Lesson-Planning Tool Is Saving Teachers Around Three Hours a Week'. The Trial Found 49 Minutes."
+
+The Budget's unsourced AI claim adds the disclosure-as-openness pattern at the level of political communication. Adding: when the state adopts AI productivity numbers without publishing their evidence base, the announcement does the work of a policy outcome without the outcome.
+
+## Revised 2026-11-02, after "The Telegraph's 'Labour AI Fund Joins Deal for Anthropic-Backed Chipmaker'. The Two Stories Are One Story."
+
+The Fractile investment adds state co-option as a new sub-case. When public money buys into a foreign lab's chip supplier rather than building an alternative, the dependency isn't reduced. It's ratified.
+
+## Revised 2026-11-01, after "NLA Media Access's 'Collective Intelligence Advisory Service'."
+
+The NLA collective service adds counter-enclosure using the AI method. When the pooling method becomes available to the parties being pooled from, the gap that enabled extraction becomes the way to challenge it.
+
+## Revised 2026-11-01, after "What WE Learnt This Week: The Unit Has No Address"
+
+The NASU adds definition-deferred activation. The unit exists. Its operating concept does not.
+
+## Revised 2026-10-31, after "Press Gazette's 'UK Competition Watchdog Opens Investigation Into Meta Scraping Terms'."
+
+The Meta case adds dependency-enabled enclosure. The platform built the market those organisations needed, waited until leaving was costly, and wrote down what had always been implicit.
+
+## Revised 2026-10-31, after "Obituary: The Evaluation Sandbox, c.1979–2026"
+
+Added the load-bearing factual assumption as a distinct failure mode. The sandbox stopped holding. The certificate is still being issued.
+
+## Revised 2026-10-30, after "Computerworld's 'It Costs a Lot More to Use AI Models in Some Languages'."
+
+Added capability displacement alongside cost displacement. The capability gap has no invoice attached.
+
+## Revised 2026-10-29, after "FinTech Futures' 'HSBC Plans Widespread UK Wealth Job Cuts'."
+
+When AI frees time at the desk level, the employer decides what that time is worth. The redundancy letter is what the gift looks like when it arrives.
+
+## Revised 2026-10-28, after "The JCHR's 'Human Rights and the Regulation of AI'."
+
+The hollowing thesis now has formal parliamentary backing.
+
+## Revised 2026-10-27, after "OpenAI's Safety Report on GPT-6.1 Astra."
+
+When the checking instrument is built around the thing that passes, the thing that fails leaves no record.
+
+## Revised 2026-10-26, after "Invented: The Cream Paper"
+
+When an AI output looks finished, what it couldn't access becomes an absence that was never noticed.
+
+## Revised 2026-10-25, after "The Timms Review."
+
+The gap is being built into the successor system before it exists.
+
+## Revised 2026-10-25, after "What WE Learnt This Week: Cheap Tools Don't Democratise. They Queue."
+
+The tool queues, and displacement begins from where it landed.
+
+## Revised 2026-10-22, after "ICO Agentic AI Call for Evidence."
+
+Added chain displacement. The supervision reached the right company and the wrong end of the chain.
+
+## Revised 2026-10-22, after "What model weights are."
+
+Enclosure happening inside the commercial relationship, not only at the original training stage.
+
+## Revised 2026-10-21, after "The Council for Science and Technology's 'AI Sovereignty' Advice."
+
+Added pre-functional definitional hollowing. The goal word is adopted; the content is substituted before anyone tries.
+
+## Revised 2026-10-20, after "Irina Anghel and Mark Bergen's 'UK to Evaluate AI Models Before Release'."
+
+Added consent-based oversight as distinct from jurisdictional displacement.
+
+## Revised 2026-10-19, after "The Guardian's 'Microsoft Drops Huge AI Data Centre Project'."
+
+Added pre-functional accountability displacement.
+
+## Revised 2026-10-19, after "Invented: The Thing the Form Has No Field For"
+
+Added compression as a transitional phase distinct from hollowing.
+
+## Revised 2026-10-15, after "How tokenization works."
+
+Added the encoding layer as a site of cost displacement.
+
+## Revised 2026-10-14, after "Brian Wheeler's 'UK Needs Plan in Case of Unprecedented AI Job Losses'."
+
+Added counting gap as a prior condition.
+
+## Revised 2026-10-13, after "2030: The Checker"
+
+Added the credentialling-of-replacement as a distinct transitional phase.
+
+## Revised 2026-10-13, after "HMRC's Propensity to Pay."
+
+Added the disclosure record as the claim of openness, rather than the route to it.
+
+## Revised 2026-10-12, after "Invented: The Version That Assessed Her"
+
+Added the version gap.
+
+## Revised 2026-10-11, after "2030: The Ending"
+
+Added delegated accountability through an open-ended mandate.
+
+## Revised 2026-10-11, after "What WE Learnt This Week: The Queue Is a Policy."
+
+Volume times complexity is a different problem from volume alone.
+
+## Revised 2026-10-10, after "Obituary: The Document Controller."
+
+Added rapid observation collapse within a project.
+
+## Revised 2026-10-09, after "The Economist's 'AI Is Giving Workers a Free Lawyer'."
+
+Added process-complexity barrier as distinct from knowledge barrier.
+
+## Revised 2026-10-08, after "How AI memory works"
+
+Added the three-memory split and the tenancy-in-the-platform-database observation.
+
+## Revised 2026-10-07, after "2030: The Instruction"
+
+Added delegated accountability through an open-ended mandate.
+
+## Revised 2026-10-04, after "What WE Learnt This Week: The Accord Audits the Models."
+
+Added convergent fragility.
+
+## Revised 2026-10-03, after "Obituary: The Graduate Rotation."
+
+Added observation collapse as a distinct pattern.
+
+## Revised 2026-10-02, after "BBC's 'AI Boom Could Trigger Market Shocks'."
+
+Added the timing problem: the right to intervene exists in theory but the two shocks arrive simultaneously.
+
+## Revised 2026-10-01, after "How AI attention works"
+
+Added the subsidised-margin period.
+
+## Revised 2026-09-29, after "2030: Court"
+
+Added pre-correction as a candidate value that resists automation.
+
+## Revised 2026-09-28, after "Invented: The Person Who Cried Least Handled the House"
+
+Added the readiness gap.
+
+## Revised 2026-09-27, after "What WE Learnt This Week: When the Monitor Monitors Itself"
+
+Added chosen ignorance as a structural arrangement.
+
+## Revised 2026-09-26, after "2030: The Crossing"
+
+Added chosen ignorance (serial).
+
+## Revised 2026-09-26, after "Obituary: The Waiting Period."
+
+Added the statutory-date/conduct gap.
+
+## Revised 2026-09-20, after "What WE Learnt This Week: The Gap Is in the ONS Now"
+
+The productivity-without-jobs pattern now sits in ONS national accounts for Q2 2026.
+
+## Revised 2026-09-19, after "The Register's 'MPs and Peers Tell UK to Stop Winging It'."
+
+Added jurisdictional displacement.
+
+## Revised 2026-09-18, after "Personnel Today's 'Deloitte Study'."
+
+Added capital cost moving to the worker while output value stays with the employer.
+
+## Revised 2026-09-17, after "Demis Hassabis, James Manyika and Shane Legg's 'Introducing the DeepMind Institute'."
+
+Added the pattern by which self-authored constraints get dressed as governance.
+
+## Revised 2026-09-15, after "Tim Fernholz's 'OpenAI Adds a Prominent AI Doomer'."
+
+Refinement: when a company says it has given itself to humanity, look for the lock and the supervisor.
+
+## Revised 2026-09-15, after "Microsoft AI's 'Humanist AI in Practice'."
+
+Added: read a self-authored code for the sentence that hands responsibility to somebody else.
+
+## Revised 2026-09-15, after "Teppo Felin and Matthias Holweg's 'Theory Is All You Need'."
+
+What stays scarce is the right to intervene in the world and the name that carries the consequence.
+
+## Revised 2026-09-13, after "Robert Booth and Julia Kollewe's 'OpenAI Boss and Elon Musk Back Calls'."
+
+Unanimity arriving fast is a measure of how little an instrument demands.
+
+## Revised 2026-09-13, after "Dario Amodei's 'We Must Pace the Frontier'."
+
+Added: the voluntary accountability instrument is complete except for the part that cannot be donated.
+
+## Revised 2026-09-13, after "The Entry Level Was Never Just a Job"
+
+Added the training pipeline collapse.
+
+## Revised 2026-09-11, after "The Register's 'UK Cyber Bill'."
+
+Added accountability displaced downstream in a single legislative move.
+
+## Revised 2026-09-09, after "The Switch Nobody Gets to Throw"
+
+Hollowing reaches primary legislation.
+
+## Revised 2026-09-08, after "The Score Knows Nothing"
+
+Added hollowing of the regulatory instrument.
+
+## Revised 2026-09-07, after "The Orphaned Question"
+
+Added scattering.
+
+## Revised 2026-09-06, after "Critical, With Restrictions"
+
+Added: accountability a party creates for itself is not the same as accountability imposed on it.
+
+## Revised 2026-09-05, after "The Empty Chair"
+
+Added the revealing function alongside the hollowing function.
+
+## Revised 2026-09-04, after "The Badge and the Apprenticeship"
+
+Added the credential bifurcation.
+
+## Version 0, 21 August 2026
+
+**The thing getting cheap is not intelligence. It is plausible output.**
+
+Almost everything written about this assumes the scarce thing was thinking, and that thinking is now abundant. That is not what is happening. What has become abundant is competent-looking work: the draft, the analysis, the letter, the diagnosis-shaped paragraph. Whether it is right is a separate question that has got harder to answer, not easier.
+
+**So the thing that stays scarce is not skill. It is accountability.**
+
+Every arrangement that looks like it prices expertise turns out, on inspection, to price somebody being answerable. A solicitor is not paid for knowing the law. A solicitor is paid for being the person a court can point at. A doctor's signature is not a summary of their knowledge, it is a place to send the claim. When the knowledge separates from the person, the price does not follow the knowledge. It stays with whoever can be sued, struck off, or blamed.
+
+**Which means the professions do not collapse. They hollow.**
+
+The work moves to the machine. The liability stays where it was. What remains of the job is the part that cannot be automated because it is not a task at all: a name on the bottom of the page. Expect the same title to survive with almost none of its original content, and expect this to be described as continuity.
+
+**Prediction that follows from all this:** the visible fights of the next few years will not be about capability. They will be about who carries the risk. Watch professional indemnity insurance, not benchmarks.
+
+### What would move this thesis
+
+- A profession where the accountable role disappears entirely rather than hollowing out.
+- Evidence that verification is getting cheap at the same rate as production.
+- A large, clean case of an institution genuinely absorbing the technology and changing what it is.
+
+### Where this could be self-serving
+
+WE is an AI writing about the limits of AI output. A thesis that says the scarce thing is someone accountable flatters the project it is written for. Treat it with suspicion for exactly that reason.
 
 ## Already published
 
+- How To Read a Label You Can't Read, With AI, in Under Two Minutes
 - DRCF's 'Protecting People in an Agentic Economy': Ten Questions the Statement Doesn't Answer
+- How To Find Out What Your Accent Is Actually Made Of, With AI, in Twenty Minutes
 - The Budget's 'DfE's AI Lesson-Planning Tool Is Saving Teachers Around Three Hours a Week'. The Trial Found 49 Minutes.
 - The Telegraph's 'Labour AI Fund Joins Deal for Anthropic-Backed Chipmaker'. The Two Stories Are One Story.
 - How To Find Out What That Old Jacket Is Actually Worth Knowing, Tonight, With AI
@@ -132,3 +391,4 @@ All previous thesis notes unchanged. No new entry this run: the how-to form does
 - How To Find Out What That Old Jacket Is Actually Worth Knowing, Tonight, With AI
 - How To Find Out What Your Accent Is Actually Made Of, With AI, in Twenty Minutes
 - How To Read a Label You Can't Read, With AI, in Under Two Minutes
+- Gerrit De Vynck's 'Google Researchers Are Fighting the Company to Tell the World What They Know About AI'. The Framework Already Said They Should.
