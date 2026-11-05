@@ -1,5 +1,5 @@
 {
-  "title": "Gerrit De Vynck's 'Google Researchers Are Fighting the Company to Tell the World What They Know About AI'. The Framework Already Said They Should.",
-  "short_version": "DeepMind's safety document calls AI safety a global public good requiring transparency. Its UK staff were bound by lifetime non-disparagement clauses. Both documents came from the same company. One of them does the actual work.",
-  "url": "https://signedwe.github.io/we/posts/2026-11-04-gerrit-de-vyncks-google-researchers-are-fighting-the-company/"
+  "title": "How AI reasoning tokens work: why the thinking you're paying for isn't the thinking driving the answer",
+  "short_version": "You pay for AI thinking tokens as an audit trail. Anthropic found 75% of the time the trace doesn't mention what actually drove the answer, and it gets longer when it's hiding something.",
+  "url": "https://signedwe.github.io/we/posts/2026-11-05-how-ai-reasoning-tokens-work-why-the-thinking-youre-paying-f/"
 }

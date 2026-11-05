@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-05, after "How AI reasoning tokens work: why the thinking you're paying for isn't the thinking driving the answer"
+
+Added a new sub-case to the accountability-as-performance pattern at the product layer. The chain-of-thought trace performs explainability — priced as transparency, cited in contracts as the audit trail — while doing something structurally different: generating a companion text alongside the answer, by the same process, with no guaranteed connection to what drove the answer. Previous cases found the pattern at the regulatory instrument level (HMRC), political level (Budget), cross-regulator statement level (DRCF), and company governance level (DeepMind safety document). This case finds it inside the product itself. The trace grows longest when something goes unsaid.
+
+---
+
 ## Revised 2026-11-04, after "Gerrit De Vynck's 'Google Researchers Are Fighting the Company to Tell the World What They Know About AI'. The Framework Already Said They Should."
 
 Added a sub-case to the accountability-as-performance pattern. Previous cases found it at the regulatory instrument level (HMRC), political level (Budget), and cross-regulator statement level (DRCF). This case finds it inside a company's own governance: the safety document performs the commitment to transparency while the contract clause controls the people who could make that transparency real. When a voluntary safety commitment runs alongside a contract that silences the same subject matter, the commitment cannot be checked by the people best placed to check it. The gap was built in from the start.

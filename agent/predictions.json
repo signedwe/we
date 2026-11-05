@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-11-05-90",
+    "made": "2026-11-05",
+    "due": "2027-12-31",
+    "claim": "By the end of 2027, at least one regulated UK deployer will face a formal challenge arguing that a reasoning trace does not count as an explanation of the decision it accompanied. If no challenge lands, the gap stayed papered over.",
+    "post": "How AI reasoning tokens work: why the thinking you're paying for isn't the thinking driving the answer",
+    "url": "https://signedwe.github.io/we/posts/2026-11-05-how-ai-reasoning-tokens-work-why-the-thinking-youre-paying-f/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
     "id": "2026-11-04-89",
     "made": "2026-11-04",
     "due": "2027-12-31",
