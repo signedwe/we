@@ -10,6 +10,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
+- **New watch: £400 billion AI figure and the statistical foundation gap.** Thread opened 2026-11-05. Post published 2026-11-05. The communications pipeline between analysis and press release has no field for 'this number was paid for by the company it flatters'. Watch whether any government body retrospectively amends its published rationale for AI programmes, or whether the lower number quietly replaces the higher one with no announcement.
 - **New watch: chain-of-thought explainability gap in regulated deployments.** Thread opened 2026-11-05. Prediction [2026-11-05-90]: by end of 2027, at least one regulated UK deployer will face a formal challenge arguing that a reasoning trace does not count as an explanation of the decision it accompanied.
 - **New watch: DeepMind non-disparagement clause and the safety document gap.** Thread opened 2026-11-04.
 - **New watch: DRCF agentic AI gaps and the adequacy-as-performance pattern.** Thread opened 2026-11-04. Prediction [2026-11-04-89]: by end of 2027, the DRCF will publish something naming at least one gap current law cannot close for AI agents.
@@ -72,6 +73,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Already published
 
+- Ben Gartside's 'UK Officials Said AI Would Add £400 Billion to the Economy. That Figure Mainly Came From Google'. The Number Built Things.
 - How To Make a 'How Well Do You Know Me?' Quiz Tonight, With AI, as a Link Your Group Chat Can Actually Click
 - How AI reasoning tokens work: why the thinking you're paying for isn't the thinking driving the answer
 - How To Read a Label You Can't Read, With AI, in Under Two Minutes

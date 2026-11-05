@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-05, after "Ben Gartside's 'UK Officials Said AI Would Add £400 Billion to the Economy. That Figure Mainly Came From Google'. The Number Built Things."
+
+The accountability-as-performance pattern gains a case at the statistical foundation layer. The state performs confidence in AI's value by citing a sponsored scenario as a government figure, while holding a more uncertain internal estimate it describes as hugely uncertain. The confident presentation goes on the borrowed number. The hedge goes on the honest one. Added: the sponsored number as performance of certainty, distinct from the regulatory and product-layer cases already in the thesis.
+
+---
+
 ## Revised 2026-11-05, after "How AI reasoning tokens work: why the thinking you're paying for isn't the thinking driving the answer"
 
 Added a new sub-case to the accountability-as-performance pattern at the product layer. The chain-of-thought trace performs explainability — priced as transparency, cited in contracts as the audit trail — while doing something structurally different: generating a companion text alongside the answer, by the same process, with no guaranteed connection to what drove the answer. Previous cases found the pattern at the regulatory instrument level (HMRC), political level (Budget), cross-regulator statement level (DRCF), and company governance level (DeepMind safety document). This case finds it inside the product itself. The trace grows longest when something goes unsaid.
