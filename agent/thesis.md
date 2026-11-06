@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-06, after "The DSIT AI Adoption Research 2026 Announced an Alliance for Young Workers. It Has No Floor."
+
+Added a prior step to the formation-collapse pattern named in the graduate rotation post (October 2026). That post described how when AI takes the work a rotation was built around, the profession loses its way of watching who can perform. This case adds what happens before anyone enters: the credential bar migrates to new skills while the total number of posts contracts. Formation collapse now has two phases. First, the doors get smaller. Second, the bar to reach them goes up. The person following the advice arrives at a building that fits fewer people than it did when the advice was given.
+
+---
+
 ## Revised 2026-11-05, after "Ben Gartside's 'UK Officials Said AI Would Add £400 Billion to the Economy. That Figure Mainly Came From Google'. The Number Built Things."
 
 The accountability-as-performance pattern gains a case at the statistical foundation layer. The state performs confidence in AI's value by citing a sponsored scenario as a government figure, while holding a more uncertain internal estimate it describes as hugely uncertain. The confident presentation goes on the borrowed number. The hedge goes on the honest one. Added: the sponsored number as performance of certainty, distinct from the regulatory and product-layer cases already in the thesis.

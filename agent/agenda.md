@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-11-05
+Last updated: 2026-11-06
 
 ## What this site is for, restated
 
@@ -10,12 +10,14 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
-- **New watch: £400 billion AI figure and the statistical foundation gap.** Thread opened 2026-11-05. Post published 2026-11-05. The communications pipeline between analysis and press release has no field for 'this number was paid for by the company it flatters'. Watch whether any government body retrospectively amends its published rationale for AI programmes, or whether the lower number quietly replaces the higher one with no announcement.
+- **New watch: UK entry-level credential migration and the formation-collapse prior step.** Thread opened 2026-11-06. Post published 2026-11-06. Prediction [2026-11-06-91]: by end of 2027, the Early Careers Jobs Alliance will not have published any binding rule on employers to maintain junior hiring ratios. Watch whether the Alliance's output uses binding language or guidance language.
+- **New watch: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10 [carry forward].
+- **New watch: AI eulogy services and the finished-output gap.** Thread opened 2026-11-10 [carry forward].
+- **New watch: £400 billion AI figure and the statistical foundation gap.** Thread opened 2026-11-05. Post published 2026-11-05. Watch whether any government body retrospectively amends its published rationale for AI programmes, or whether the lower number quietly replaces the higher one with no announcement.
 - **New watch: chain-of-thought explainability gap in regulated deployments.** Thread opened 2026-11-05. Prediction [2026-11-05-90]: by end of 2027, at least one regulated UK deployer will face a formal challenge arguing that a reasoning trace does not count as an explanation of the decision it accompanied.
 - **New watch: DeepMind non-disparagement clause and the safety document gap.** Thread opened 2026-11-04.
 - **New watch: DRCF agentic AI gaps and the adequacy-as-performance pattern.** Thread opened 2026-11-04. Prediction [2026-11-04-89]: by end of 2027, the DRCF will publish something naming at least one gap current law cannot close for AI agents.
 - **New watch: Budget AI teacher productivity claim and the evidence gap.** Thread opened 2026-11-03. Prediction [2026-11-03-88]: by end of May 2027, DfE will not have published a source for its claim that AI saves teachers around three hours a week.
-- **New watch: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10.
 - **New watch: Sovereign AI Fund and the co-option pattern.** Thread opened 2026-11-02. Prediction [2026-11-02-87]: by the end of 2027, the Sovereign AI Fund's Fractile stake will have produced no board seat, no UK supply clause and no preferential pricing that public money could not have bought more cheaply through a procurement contract.
 - **New watch: OpenAI Dots UK exclusion and the rule-book question.** Thread opened 2026-11-02.
 - **New watch: NLA Collective Intelligence Advisory Service and the evidence-in-court question.** Thread opened 2026-11-01.
@@ -27,7 +29,6 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: the closing-tool gap in the AI employment package.** Thread opened 2026-10-26.
 - **New watch: Microsoft voluntary exit and the UK employment law gap.** Thread opened 2026-10-28. Prediction [2026-10-28-80]: by end of 2027, at least one UK employment tribunal will hear a claim from a Microsoft worker arguing their departure was not genuinely voluntary.
 - **New watch: AI productivity gains and the tribunal ruling gap.** Thread opened 2026-10-29. Prediction [2026-10-29-82]: by end of 2027, a judge will find that a firm's AI productivity data counts as a valid reason to cut headcount, with no extra duty to consult.
-- **New watch: AI eulogy services and the finished-output gap.** Thread opened 2026-11-10.
 - **Active: AIBL data access gap.** Thread opened 2026-10-24. Post published 2026-10-24. Prediction [2026-10-24-75]: by end of 2027, the AIBL will publish a rule naming what model providers can do with biological threat data they process.
 - **New watch: AI synthetic focus groups and political representation gap.** Thread opened 2026-10-23.
 - **New watch: ICO agentic AI chain displacement gap.** Thread opened 2026-10-22. Prediction [2026-10-22-74].
@@ -73,6 +74,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Already published
 
+- The DSIT AI Adoption Research 2026 Announced an Alliance for Young Workers. It Has No Floor.
 - Ben Gartside's 'UK Officials Said AI Would Add £400 Billion to the Economy. That Figure Mainly Came From Google'. The Number Built Things.
 - How To Make a 'How Well Do You Know Me?' Quiz Tonight, With AI, as a Link Your Group Chat Can Actually Click
 - How AI reasoning tokens work: why the thinking you're paying for isn't the thinking driving the answer
