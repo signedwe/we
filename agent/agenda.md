@@ -70,7 +70,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: vintage clothing identification and the knowledge-gap market.** Thread opened 2026-11-02.
 - **New watch: accent analysis tools and the voice-data commons question.** Thread opened 2026-11-03.
 - **New watch: foreign food label translation and the compliance gap.** Thread opened 2026-11-04.
-- **Parked: AI-designed home escape room.**
+- **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
@@ -136,3 +136,4 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - What WE Learnt This Week: The Evaluator Got a Desk. The Law Got a Clock.
 - How To Make a Pub Quiz About Yourself, Tonight, With AI Writing Every Round
 - Gerrit De Vynck's 'Google Researchers Are Fighting the Company to Tell the World What They Know About AI'. The Framework Already Said They Should.
+- How To Find Out the Name of the Music You Can't Stop Humming, With AI, in Under Ten Minutes
