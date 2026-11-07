@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-07, after "MaryLou Costa's 'Graduates Are Managing AI – but Are They Learning Much Else?' Has a Polite Answer and a Rude One"
+
+Formation-collapse gains a surviving-role variant. Previous entries described collapse because the junior role disappears entirely. This case adds: formation also collapses when the role survives but is redesigned around oversight rather than practice. The graduate is at the desk. The correction loop is not. The AI associate role performs formation while structurally replacing it. Added to thesis: checking outputs builds pattern recognition; being corrected while doing the work builds craft. These are related and not the same.
+
+---
+
 ## Revised 2026-11-07, after "Obituary: Learning on the Job, c.1960–2026"
 
 The formation-collapse pattern gains a feedback loop. The thesis named training pipeline collapse in September 2026: when AI takes the work a junior role was built around, the profession loses its way of watching who can perform. This week adds: the bar that replaced the old arrangement is itself impossible to clear by the method the old arrangement used to clear it. AI proficiency requires practice on real work; real work required being inside a firm; getting inside the firm was what the old arrangement provided. The collapse is now self-reinforcing. The bar went up at the same moment the floor for learning how to clear it was removed.

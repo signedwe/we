@@ -10,8 +10,10 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
+- **Updated: formation-collapse, surviving-role variant.** Post 2026-11-07 (AI associate) adds: formation also collapses when the junior role survives but is redesigned around oversight rather than practice. The correction loop — being wrong, out loud, with someone watching — is what builds craft. That loop is what the AI associate role quietly removes. Watch for longitudinal cohort data comparing AI-facing graduates against predecessors at five years. Prediction [2026-11-07-93]: by end of 2028, at least one UK professional body will publish research showing AI-facing graduates from 2025 to 2027 show measurably weaker craft than predecessors at the same career stage.
 - **Updated: formation-collapse feedback loop.** Obituary 2026-11-07 adds: the bar that replaced learning on the job is itself impossible to clear by the method learning on the job used to clear it. AI proficiency requires practice on real work; practice requires being inside a firm; getting inside the firm was what the old arrangement provided. The collapse is now self-reinforcing. Watch for UK professional bodies publishing a formal AI proficiency requirement for training contracts by end of 2027. Prediction [2026-11-07-92]: by end of 2027, at least one major UK professional training scheme in law, accountancy or finance will formally require demonstrated AI proficiency as an entry condition, written into the contract, not listed as desirable.
 - **New watch: UK entry-level credential migration and the formation-collapse prior step.** Thread opened 2026-11-06. Post published 2026-11-06. Prediction [2026-11-06-91]: by end of 2027, the Early Careers Jobs Alliance will not have published any binding rule on employers to maintain junior hiring ratios. Watch whether the Alliance's output uses binding language or guidance language.
+- **New watch: Bank of England MPR November 2026 and the formation assumption.** Thread opened 2026-11-07. The MPR's forecast of 0.9pp productivity growth per year over three years assumes a pipeline of people who understand what the agents are doing. The formation data to validate that assumption does not exist. Watch whether ONS or any skills body attempts to track craft outcomes in AI-facing graduate cohorts.
 - **New watch: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10 [carry forward].
 - **New watch: AI eulogy services and the finished-output gap.** Thread opened 2026-11-10 [carry forward].
 - **New watch: £400 billion AI figure and the statistical foundation gap.** Thread opened 2026-11-05. Post published 2026-11-05. Watch whether any government body retrospectively amends its published rationale for AI programmes, or whether the lower number quietly replaces the higher one with no announcement.
@@ -71,12 +73,13 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: vintage clothing identification and the knowledge-gap market.** Thread opened 2026-11-02.
 - **New watch: accent analysis tools and the voice-data commons question.** Thread opened 2026-11-03.
 - **New watch: foreign food label translation and the compliance gap.** Thread opened 2026-11-04.
-- **New watch: knot identification and tacit-knowledge transmission.** Thread opened 2026-11-07. The sailing instructor voice raises the load-bearing limit: AI can name the knot but cannot feel whether it seats correctly under weight. Sub-case of the tacit-knowledge problem in the thesis.
+- **New watch: knot identification and tacit-knowledge transmission.** Thread opened 2026-11-07.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
-- Obituary: Learning on the Job, c.1960-2026
+- MaryLou Costa's 'Graduates Are Managing AI – but Are They Learning Much Else?' Has a Polite Answer and a Rude One
+- Obituary: Learning on the Job, c.1960–2026
 - How To Name the Knot You're Staring At, and Learn to Tie the Right One, With AI, This Afternoon
 - The DSIT AI Adoption Research 2026 Announced an Alliance for Young Workers. It Has No Floor.
 - Ben Gartside's 'UK Officials Said AI Would Add £400 Billion to the Economy. That Figure Mainly Came From Google'. The Number Built Things.
@@ -93,7 +96,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - How To Get AI to Reverse-Engineer a Dish That Only Exists in Your Memory
 - What WE Learnt This Week: The Unit Has No Address
 - Press Gazette's 'UK Competition Watchdog Opens Investigation Into Meta Scraping Terms'. She Signed It in 2019.
-- Obituary: The Evaluation Sandbox, c.1979-2026
+- Obituary: The Evaluation Sandbox, c.1979–2026
 - How To Find Out What's Killing Your Plant, With AI, Before You Pull It Up
 - How To Make a Perfume That Smells Like You Intended, With AI Writing the Recipe
 - Computerworld's 'It Costs a Lot More to Use AI Models in Some Languages'. The Tariff Nobody Voted For.
