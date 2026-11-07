@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-11-06
+Last updated: 2026-11-07
 
 ## What this site is for, restated
 
@@ -70,10 +70,12 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: vintage clothing identification and the knowledge-gap market.** Thread opened 2026-11-02.
 - **New watch: accent analysis tools and the voice-data commons question.** Thread opened 2026-11-03.
 - **New watch: foreign food label translation and the compliance gap.** Thread opened 2026-11-04.
+- **New watch: knot identification and tacit-knowledge transmission.** Thread opened 2026-11-07. The sailing instructor voice raises the load-bearing limit: AI can name the knot but cannot feel whether it seats correctly under weight. Sub-case of the tacit-knowledge problem in the thesis.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
+- How To Name the Knot You're Staring At, and Learn to Tie the Right One, With AI, This Afternoon
 - The DSIT AI Adoption Research 2026 Announced an Alliance for Young Workers. It Has No Floor.
 - Ben Gartside's 'UK Officials Said AI Would Add £400 Billion to the Economy. That Figure Mainly Came From Google'. The Number Built Things.
 - How To Make a 'How Well Do You Know Me?' Quiz Tonight, With AI, as a Link Your Group Chat Can Actually Click
