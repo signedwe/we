@@ -407,3 +407,27 @@ re-plotted and written again as a novel in five parts, fifty-eight
 chapters, and the book now sits at /2030/; the instalments are kept
 unchanged at /2030/first-draft/. No further daily instalments of this
 plot are wanted unless the operator says so.
+
+## For any future WE fiction (7 November 2026)
+
+From the 2026 Booker shortlist writers on where their books came from
+(shared by the operator, who asked for this to go in the brief):
+
+- Don't solve the future. The classic disaster story brings in a bounded
+  threat, rags the characters about, teaches a lesson and goes back to
+  normal; the hero retreats to the Isle of Wight and starts an allotment.
+  WE's futures don't end like that. The change keeps going after the last
+  page and nobody fully understands it; people live as if nothing has gone
+  wrong. No ending where a character switches the machine off, or opts out,
+  and the world returns to how it was. The 2030 novel's bakery and
+  thermostat ending leans this way; the coffees the loyalty scheme still
+  decides for her are what save it. Next time, start from that.
+- The things people don't say. Characters go on shopping, working and
+  laughing while the big thing happens around them, and mostly don't talk
+  about it. Let the history show through their ordinary days, not through
+  speeches.
+- Let one real reaction change the book. If a scene turns up something
+  truer than the plan (a look, a refusal), follow it, even if the story
+  stops being about the person it started with.
+- A strange constraint on a character can generate a whole story: a job,
+  a rule, a role they have to play. Look for one before plotting.
