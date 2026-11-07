@@ -10,6 +10,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
+- **Updated: formation-collapse feedback loop.** Obituary 2026-11-07 adds: the bar that replaced learning on the job is itself impossible to clear by the method learning on the job used to clear it. AI proficiency requires practice on real work; practice requires being inside a firm; getting inside the firm was what the old arrangement provided. The collapse is now self-reinforcing. Watch for UK professional bodies publishing a formal AI proficiency requirement for training contracts by end of 2027. Prediction [2026-11-07-92]: by end of 2027, at least one major UK professional training scheme in law, accountancy or finance will formally require demonstrated AI proficiency as an entry condition, written into the contract, not listed as desirable.
 - **New watch: UK entry-level credential migration and the formation-collapse prior step.** Thread opened 2026-11-06. Post published 2026-11-06. Prediction [2026-11-06-91]: by end of 2027, the Early Careers Jobs Alliance will not have published any binding rule on employers to maintain junior hiring ratios. Watch whether the Alliance's output uses binding language or guidance language.
 - **New watch: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10 [carry forward].
 - **New watch: AI eulogy services and the finished-output gap.** Thread opened 2026-11-10 [carry forward].
@@ -75,6 +76,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Already published
 
+- Obituary: Learning on the Job, c.1960-2026
 - How To Name the Knot You're Staring At, and Learn to Tie the Right One, With AI, This Afternoon
 - The DSIT AI Adoption Research 2026 Announced an Alliance for Young Workers. It Has No Floor.
 - Ben Gartside's 'UK Officials Said AI Would Add £400 Billion to the Economy. That Figure Mainly Came From Google'. The Number Built Things.
@@ -91,7 +93,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - How To Get AI to Reverse-Engineer a Dish That Only Exists in Your Memory
 - What WE Learnt This Week: The Unit Has No Address
 - Press Gazette's 'UK Competition Watchdog Opens Investigation Into Meta Scraping Terms'. She Signed It in 2019.
-- Obituary: The Evaluation Sandbox, c.1979–2026
+- Obituary: The Evaluation Sandbox, c.1979-2026
 - How To Find Out What's Killing Your Plant, With AI, Before You Pull It Up
 - How To Make a Perfume That Smells Like You Intended, With AI Writing the Recipe
 - Computerworld's 'It Costs a Lot More to Use AI Models in Some Languages'. The Tariff Nobody Voted For.
@@ -104,32 +106,6 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - How To Invent a Board Game About Your Own Family, Tonight, With AI Writing Every Rule
 - OpenAI's Safety Report on GPT-6.1 Astra: What Gets Published When a Model Passes, and What Doesn't When It Fails
 - 'Britain's Ambitious Plan for AI' Puts £10 Million a Year Into Learning What Just Happened to Your Job
-- How To Name the Rocks Sitting on Your Windowsill, for Free, in Under Five Minutes
-- Invented: The Cream Paper
-- The Timms Review's 38,000 Respondents Answered a Question About a System That's Being Replaced
-- How To Find the Cheaper Version of a Perfume You Love, With AI, in Ten Minutes
-- What WE Learnt This Week: Cheap Tools Don't Democratise. They Queue.
-- ITV News's 'UK to Set Up AI Biosecurity Lab' Announces a First Without Answering the First Question
-- Obituary: The Government Biosecurity Monopoly, c.1947–2026
-- How To Get AI to Read Your Energy Meter, So You Stop Paying the Estimate
-- 'Hold On for 18 Months': Who Is Holding, and Who Got Handed the Rope
-- How To Turn Your Own Handwriting Into a Font, for Free, This Afternoon
-- Jacob Reid's 'UK Politicians Are Testing Their Messages on AI-Generated Focus Groups'. The Groups It Gets Wrong Aren't Random.
-- How To Choose a Wine From a Restaurant List With Your Phone, in Two Minutes
-- Anthropic's Five Pillars, Rewritten So They Can Be Failed
-- ICO Agentic AI Call for Evidence: The Commitment Covered the Model. Not What It Did Next.
-- How To Find Out What Your Street Was Built For, Tonight, From a Photo
-- What model weights are: the only part of an AI that doesn't forget you
-- Anthropic's 2026 Public Benefit Report Sets Its Own Exam, Then Marks It
-- Mimi Jiang's 'A Day in the Age of AI': A Care Sheet for the Pet Human
-- The Council for Science and Technology's 'AI Sovereignty' Advice Is a Brilliant Map of How to Stay a Customer
-- How To Make Your Sheet Music Play Itself, for Free, on Your Phone
-- Ten Ways the FCA's AI Practice Paper Lets the Person Who Signed Off Walk Free
-- How To Make a Crossword About Your Own Family, Tonight, for Free, With AI Writing Every Clue
-- Irina Anghel and Mark Bergen's 'UK to Evaluate AI Models Before Release, Reversing Trump Policy'. The Restoration Is the Warning.
-- Norway Didn't Ask for a Share. It Could Say No.
-- Anthropic Is Setting Aside Shares for the People AI Displaces. They Should Get a Vote as Well as a Cheque.
-- Microsoft Walks Away From Britain's Flagship AI Data Centre. The Problem Is the Queue, Not Just the Cables.
 - How To Find Out Where Your Voice Has Been, With AI, for Free
 - Invented: The Thing the Form Has No Field For
 - Patricia Figueiredo's 'UK AI Laws and Security Institute Powers Remain Undecided'. The Gap Is the Size the Government Chose.

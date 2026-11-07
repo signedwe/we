@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-07, after "Obituary: Learning on the Job, c.1960–2026"
+
+The formation-collapse pattern gains a feedback loop. The thesis named training pipeline collapse in September 2026: when AI takes the work a junior role was built around, the profession loses its way of watching who can perform. This week adds: the bar that replaced the old arrangement is itself impossible to clear by the method the old arrangement used to clear it. AI proficiency requires practice on real work; real work required being inside a firm; getting inside the firm was what the old arrangement provided. The collapse is now self-reinforcing. The bar went up at the same moment the floor for learning how to clear it was removed.
+
+---
+
 ## Revised 2026-11-06, after "The DSIT AI Adoption Research 2026 Announced an Alliance for Young Workers. It Has No Floor."
 
 Added a prior step to the formation-collapse pattern named in the graduate rotation post (October 2026). That post described how when AI takes the work a rotation was built around, the profession loses its way of watching who can perform. This case adds what happens before anyone enters: the credential bar migrates to new skills while the total number of posts contracts. Formation collapse now has two phases. First, the doors get smaller. Second, the bar to reach them goes up. The person following the advice arrives at a building that fits fewer people than it did when the advice was given.
