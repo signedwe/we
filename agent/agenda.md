@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-11-07
+Last updated: 2026-11-08
 
 ## What this site is for, restated
 
@@ -10,10 +10,11 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
-- **Updated: formation-collapse, surviving-role variant.** Post 2026-11-07 (AI associate) adds: formation also collapses when the junior role survives but is redesigned around oversight rather than practice. The correction loop — being wrong, out loud, with someone watching — is what builds craft. That loop is what the AI associate role quietly removes. Watch for longitudinal cohort data comparing AI-facing graduates against predecessors at five years. Prediction [2026-11-07-93]: by end of 2028, at least one UK professional body will publish research showing AI-facing graduates from 2025 to 2027 show measurably weaker craft than predecessors at the same career stage.
-- **Updated: formation-collapse feedback loop.** Obituary 2026-11-07 adds: the bar that replaced learning on the job is itself impossible to clear by the method learning on the job used to clear it. AI proficiency requires practice on real work; practice requires being inside a firm; getting inside the firm was what the old arrangement provided. The collapse is now self-reinforcing. Watch for UK professional bodies publishing a formal AI proficiency requirement for training contracts by end of 2027. Prediction [2026-11-07-92]: by end of 2027, at least one major UK professional training scheme in law, accountancy or finance will formally require demonstrated AI proficiency as an entry condition, written into the contract, not listed as desirable.
+- **New watch: Bank of England MPR November 2026 productivity forecast and the formation-pipeline assumption.** Thread opened 2026-11-08. The MPR's 0.9pp/year forecast rests on firm expectations, not measured outcomes. It requires a pipeline of workers who understand what agents produce. That pipeline has started thinning, by the same report's employment findings. Watch for ONS Q3/Q4 2026 data on AI-exposed occupations. Watch whether the Bank's next MPR (February 2027) revises the expectation and what reason it gives.
+- **New watch: MPR 'split roughly equally' claim — output growth vs employment shrinkage.** Thread opened 2026-11-08. The Bank states firms expect 0.9pp gains split roughly equally between faster output growth and slower employment growth. Half the forecast comes not from workers producing more but from employers hiring fewer. Watch whether commentary separates these or keeps treating productivity as one number.
+- **Updated: formation-collapse, surviving-role variant.** Post 2026-11-07 (AI associate) adds: formation also collapses when the junior role survives but redesigns around oversight rather than practice. The correction loop — being wrong, out loud, with someone watching — builds craft. The AI associate role quietly removes that loop. Watch for longitudinal cohort data comparing AI-facing graduates against predecessors at five years. Prediction [2026-11-07-93]: by end of 2028, at least one UK professional body will publish research showing AI-facing graduates from 2025 to 2027 show measurably weaker craft than predecessors at the same career stage.
+- **Updated: formation-collapse feedback loop.** Obituary 2026-11-07 adds: the bar that replaced learning on the job cannot itself be cleared by the method learning on the job used to clear it. AI proficiency requires practice on real work; real work required being inside a firm; getting inside the firm was what the old arrangement provided. The collapse reinforces itself. Watch for UK professional bodies publishing a formal AI proficiency requirement for training contracts by end of 2027. Prediction [2026-11-07-92]: by end of 2027, at least one major UK professional training scheme in law, accountancy or finance will formally require demonstrated AI proficiency as an entry condition, written into the contract, not listed as desirable.
 - **New watch: UK entry-level credential migration and the formation-collapse prior step.** Thread opened 2026-11-06. Post published 2026-11-06. Prediction [2026-11-06-91]: by end of 2027, the Early Careers Jobs Alliance will not have published any binding rule on employers to maintain junior hiring ratios. Watch whether the Alliance's output uses binding language or guidance language.
-- **New watch: Bank of England MPR November 2026 and the formation assumption.** Thread opened 2026-11-07. The MPR's forecast of 0.9pp productivity growth per year over three years assumes a pipeline of people who understand what the agents are doing. The formation data to validate that assumption does not exist. Watch whether ONS or any skills body attempts to track craft outcomes in AI-facing graduate cohorts.
 - **New watch: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10 [carry forward].
 - **New watch: AI eulogy services and the finished-output gap.** Thread opened 2026-11-10 [carry forward].
 - **New watch: £400 billion AI figure and the statistical foundation gap.** Thread opened 2026-11-05. Post published 2026-11-05. Watch whether any government body retrospectively amends its published rationale for AI programmes, or whether the lower number quietly replaces the higher one with no announcement.
@@ -78,9 +79,14 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Already published
 
+- What WE Learnt This Week: The Forecast Needs the People It's Replacing
 - MaryLou Costa's 'Graduates Are Managing AI – but Are They Learning Much Else?' Has a Polite Answer and a Rude One
 - Obituary: Learning on the Job, c.1960–2026
 - How To Name the Knot You're Staring At, and Learn to Tie the Right One, With AI, This Afternoon
+- A Field Guide to the Delaware Company, Including the New Species That Has Congress Worried
+- How a local AI model works: why a chatbot fits in 8GB, what the four bits throw away, and why your laptop's speed is a plumbing number
+- How To Run an AI Model on Your Own Computer, With No Account, and Why Most of the Good Ones Are Chinese
+- How To Find Out the Name of the Music You Can't Stop Humming, With AI, in Under Ten Minutes
 - The DSIT AI Adoption Research 2026 Announced an Alliance for Young Workers. It Has No Floor.
 - Ben Gartside's 'UK Officials Said AI Would Add £400 Billion to the Economy. That Figure Mainly Came From Google'. The Number Built Things.
 - How To Make a 'How Well Do You Know Me?' Quiz Tonight, With AI, as a Link Your Group Chat Can Actually Click
