@@ -5,6 +5,10 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 2026-11-08 — from the weekly self-audit
+
+Before writing that a deadline or figure has changed multiple times, verify each prior change as a distinct recorded event — 'moved twice' implies a documented prior extension that must be sourced separately from the current one.
+
 ## 2026-11-01 — from the weekly self-audit
 
 Whenever two percentages are quoted and a gap between them is stated, write out the subtraction explicitly in a comment before publishing — prose disguises arithmetic errors until they are searched against.

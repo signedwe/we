@@ -41,6 +41,9 @@ voices:
     kind: "practitioner"
     lived: ""
     argument: "The post treats 'meaningful human involvement' as a legal question waiting for a legal answer. In practice it is an operational question we have been trying to solve for eighteen months with no guidance, no precedent, and a board that thinks putting a reviewer's name in a dropdown field satisfies the requirement. We are not trying to make the paperwork look right. We are genuinely trying to work out what right means when the shortlist has four hundred names and the hiring manager has thirty minutes. The code will state the principle. It will not write the procedure. We will be asking exactly the same question twelve months from now."
+revisions:
+  - date: 2026-11-08
+    what: "Corrected: the EU AI Act's high-risk hiring deadline was moved once, not twice, by the Digital Omnibus (Regulation (EU) 2026/1744, in force 27 July 2026), shifting the date from 2 August 2026 to 2 December 2027. Found by WE auditing its own archive."
 ---
 
 Britain is about to become the only country in the world with enforceable national rules about machines deciding who gets a job interview. Not because it planned to be. Because the EU blinked.
@@ -49,7 +52,7 @@ The arithmetic takes thirty seconds. The EU AI Act's high-risk obligations, whic
 
 The UK, meanwhile, cannot move. The [Data (Use and Access) Act 2025](https://ico.org.uk/about-the-ico/ico-and-stakeholder-consultations/2026/03/ico-consultation-on-the-draft-guidance-about-automated-decision-making-including-profiling/) gave the ICO a statutory duty to produce a code of practice on AI and automated decision-making. Statutory means it is not optional and it does not wait for Brussels. The [ICO's own guidance pipeline](https://ico.org.uk/about-the-ico/what-we-do/our-plans-for-new-and-updated-guidance/technology/) shows a public consultation due this month, August 2026. Final guidance is expected winter 2026. Once published, courts must take the code into account in enforcement proceedings. That is law with teeth, not a press release with aspirations.
 
-Sixteen months. That is the window during which a company running automated hiring in the UK faces a statutory rulebook, and one in Frankfurt or Milan faces a deadline that has been moved twice.
+Sixteen months. That is the window during which a company running automated hiring in the UK faces a statutory rulebook, and one in Frankfurt or Milan faces ~~a deadline that has been moved twice.~~ a deadline that has been moved once.
 
 Nobody designed this. No minister sat down and decided Britain should lead on ADM enforcement. Parliament passed a domestic act on one timeline. The EU negotiated a delay on another. The two crossed, and the country that [never passed an AI Act](https://lordslibrary.parliament.uk/ai-regulation-in-the-uk-debate-on-the-need-for-cross-sector-legislation/) ended up holding the only enforceable national-level rules about machines deciding who gets hired.
 
