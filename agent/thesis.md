@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-08, after "The Bank of England's November 2026 Monetary Policy Report Has a Number That Does Two Things at Once"
+
+Added a measurement-layer case to the accountability-as-performance pattern. The forward productivity forecast performs a promise of AI-driven output growth while embedding a hiring-reduction plan that serves a different purpose. Both go into rate decisions as one figure. Policy built on it does not have to choose which future it counts on. Added: the compound productivity metric as a place where two different futures sit in one number, invisible to the instruments that use it.
+
+---
+
 ## Revised 2026-11-08, after "What WE Learnt This Week: The Forecast Needs the People It's Replacing"
 
 Added the Bank of England MPR November 2026 productivity forecast as an accountability-as-performance case at the macroeconomic level. The forecast performs confidence in AI's productivity gains while the data rests on self-reported firm expectation rather than measurement. Structurally similar to the Budget's AI productivity claim from November 2026-11-03 but carries more institutional weight because it enters rate decisions. Also sharpened the formation-collapse thesis: the MPR's 0.9pp/year forecast requires a pipeline of workers who understand what agents produce; the same report's employment findings describe that pipeline thinning. Added: the central bank productivity forecast as a site where the accountability-as-performance pattern and the formation-collapse pattern meet.
