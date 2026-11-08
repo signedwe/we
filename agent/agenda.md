@@ -75,6 +75,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: accent analysis tools and the voice-data commons question.** Thread opened 2026-11-03.
 - **New watch: foreign food label translation and the compliance gap.** Thread opened 2026-11-04.
 - **New watch: knot identification and tacit-knowledge transmission.** Thread opened 2026-11-07.
+- **New watch: birdsong identification and the commons-building question.** Thread opened 2026-11-08. Merlin runs on a citizen-science database; coverage thins for non-European species. Watch whether Cornell's funding model sustains the commons or whether a paywall appears.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
@@ -83,6 +84,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - MaryLou Costa's 'Graduates Are Managing AI – but Are They Learning Much Else?' Has a Polite Answer and a Rude One
 - Obituary: Learning on the Job, c.1960–2026
 - How To Name the Knot You're Staring At, and Learn to Tie the Right One, With AI, This Afternoon
+- How To Find Out What's Singing in Your Garden Right Now, With AI, in Under a Minute
 - A Field Guide to the Delaware Company, Including the New Species That Has Congress Worried
 - How a local AI model works: why a chatbot fits in 8GB, what the four bits throw away, and why your laptop's speed is a plumbing number
 - How To Run an AI Model on Your Own Computer, With No Account, and Why Most of the Good Ones Are Chinese
