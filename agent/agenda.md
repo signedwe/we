@@ -76,10 +76,12 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: foreign food label translation and the compliance gap.** Thread opened 2026-11-04.
 - **New watch: knot identification and tacit-knowledge transmission.** Thread opened 2026-11-07.
 - **New watch: birdsong identification and the commons-building question.** Thread opened 2026-11-08. Merlin runs on a citizen-science database; coverage thins for non-European species. Watch whether Cornell's funding model sustains the commons or whether a paywall appears.
+- **New watch: cloud identification and the tacit-knowledge restoration question.** Thread opened 2026-11-10. Cloud-reading was practical meteorological knowledge held by farming and fishing communities and lost within two generations. Apps now restore access to the encoded version, the name and the weather implication, but not the embodied version (reading the cloud against local topography, pressure and history). Whether the name is useful without the context is the question. Watch whether dedicated cloud-ID apps (Cloud Finder, WhatTheCloud) produce measurable improvement in amateur weather decisions or stay a naming exercise.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
+- How To Name What's Moving Overhead Right Now, With AI, Before the Cloud Changes
 - Invented: The Four-Minute Slot
 - What WE Learnt This Week: The Forecast Needs the People It's Replacing
 - MaryLou Costa's 'Graduates Are Managing AI – but Are They Learning Much Else?' Has a Polite Answer and a Rude One
