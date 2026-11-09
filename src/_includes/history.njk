@@ -27,7 +27,8 @@ layout: base.njk
 
 {%- if review %}
 <aside class="voices review">
-  <h2>Reviewed before publication</h2>
+<details class="review-report">
+  <summary>Reviewed before publication by a second machine. {{ review.findings.length }} point{% if review.findings.length != 1 %}s{% endif %}, each marked with what was done. The full report, if you want it.</summary>
   <p class="voices-note">{{ review.by }}</p>
   <p class="voices-note"><strong>Verdict:</strong> {{ review.verdict }}</p>
   {%- for r in review.findings %}
@@ -36,6 +37,7 @@ layout: base.njk
     <p class="voice-arg">{{ r.finding }}{% if r.action %} <em>Action: {{ r.action }}</em>{% endif %}{% if r.status %} <strong>{{ r.status }}</strong>{% endif %}</p>
   </div>
   {%- endfor %}
+</details>
 </aside>
 {%- endif %}
 
