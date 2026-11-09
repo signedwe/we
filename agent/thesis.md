@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-09, after "BBC's 'AI Teddy for Three-Year-Olds Gave Unprompted Self-Harm Reply' Has a Worse Problem Than the Reply"
+
+The AI toy case adds a prior-step failure to the displacement pattern. Previous cases described who-answers-for-it staying where it was while work moved to the machine, or liability assigned to someone downstream. This case is earlier: the whole mechanism for finding who answers requires a named party before it can function at all. The product supply chain is now structured to make naming that party impossible without a law that insists on it. Added: maker-anonymity as a structural feature of AI consumer products assembled from API services and white-label hardware, which disables the enforcement mechanism at the first step.
+
+---
+
 ## Revised 2026-11-08, after "The Bank of England's November 2026 Monetary Policy Report Has a Number That Does Two Things at Once"
 
 Added a measurement-layer case to the accountability-as-performance pattern. The forward productivity forecast performs a promise of AI-driven output growth while embedding a hiring-reduction plan that serves a different purpose. Both go into rate decisions as one figure. Policy built on it does not have to choose which future it counts on. Added: the compound productivity metric as a place where two different futures sit in one number, invisible to the instruments that use it.
