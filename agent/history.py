@@ -56,6 +56,8 @@ FORCE = bool(os.environ.get("FORCE"))  # skip the six-day stand-down, by hand on
 # length may deserve the larger model; change it here and nowhere else.
 MODEL = agent.MODEL
 MAX_TOKENS = 32000
+REVIEW_TOKENS = 32000  # the 8 November review report overran 16000
+
 
 WRITER_TOOLS = [
     {"type": "web_search_20250305", "name": "web_search", "max_uses": 20},
@@ -304,27 +306,36 @@ def write(client, messages):
 
 
 def run_review(client, essay: dict) -> dict:
+    """The 8 November resume run died here: the reviewer's JSON was cut off
+    at max_tokens and the retry asked for the same report again. Give the
+    report room, say when it was cut, and on retry ask for a shorter one."""
     prompt = review_prompt(essay)
     messages = [{"role": "user", "content": prompt}]
     try:
-        resp = create(client, beta=True, model=MODEL, max_tokens=16000,
+        resp = create(client, beta=True, model=MODEL, max_tokens=REVIEW_TOKENS,
                       betas=[FETCH_BETA], tools=REVIEW_TOOLS, messages=messages)
     except Exception as exc:  # the beta refused, or the tool is gone
         print(f"web_fetch unavailable ({str(exc)[:120]}); reviewing with search only")
-        resp = create(client, model=MODEL, max_tokens=16000,
+        resp = create(client, model=MODEL, max_tokens=REVIEW_TOKENS,
                       tools=REVIEW_TOOLS[:1], messages=messages)
     for attempt in range(2):
         try:
             report = agent.extract_json(agent.text_blocks(resp), require=("verdict", "findings"))
             break
         except ValueError:
+            cut = getattr(resp, "stop_reason", "") == "max_tokens"
+            print(f"Review reply unusable (stop_reason={getattr(resp, 'stop_reason', '?')})")
             if attempt == 1:
                 raise
             messages.append({"role": "assistant", "content": resp.content})
             messages.append({"role": "user", "content":
-                "That reply contained no JSON object. Reply with the JSON "
-                "report described above and nothing else."})
-            resp = create(client, model=MODEL, max_tokens=16000, messages=messages)
+                ("That reply was cut off before the JSON closed. " if cut else
+                 "That reply contained no JSON object. ")
+                + "Reply with the JSON report described above and nothing else. "
+                "Keep every finding under 60 words and keep only the findings "
+                "that matter: each quotation, each error, and the five strongest "
+                "content or style points."})
+            resp = create(client, model=MODEL, max_tokens=REVIEW_TOKENS, messages=messages)
     report["findings"] = [f for f in report.get("findings", []) if isinstance(f, dict)]
     return report
 
