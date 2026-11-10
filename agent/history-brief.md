@@ -56,6 +56,16 @@ essay's, not the sources'.
    to a footnote: leave it out. When the reviewer flags something as
    unsupported, the fix is to remove it, not to reword it. A shorter essay
    with nothing unverified beats a longer one that gets held.
+9. No paragraph ends on a moral. A reader who knows the field (10 November
+   2026, on the Wiener essay) spotted the machine at once by "the attempt
+   at pithy 'take aways' at the end of paragraphs, or beginnings". So:
+   never close a paragraph with a short sentence that restates what the
+   paragraph just showed, draws the lesson, or lands the point with a
+   flourish ("He wrote it in the future tense." "The question underneath
+   has not changed."). End on the fact, the date, the quotation or the next
+   thing that happened. The same for openings: start with what happened,
+   not with a line that announces its significance. If the point needs
+   stating, state it once, in the argument section, in a full sentence.
 
 ## How the notes are written
 
