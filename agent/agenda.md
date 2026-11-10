@@ -79,10 +79,12 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: knot identification and tacit-knowledge transmission.** Thread opened 2026-11-07.
 - **New watch: birdsong identification and the commons-building question.** Thread opened 2026-11-08.
 - **New watch: cloud identification and the tacit-knowledge restoration question.** Thread opened 2026-11-10.
+- **New watch: night-sky photo identification and the live-sky app gap.** Thread opened 2026-11-10. Post published 2026-11-10 (How To Name Every Star in That Photo You Took on Holiday, With AI, Tonight). The gap — that all major stargazing apps require real-time pointing rather than photo upload — is now filled by tools like frescai and by general assistants given location/date context. SkySafari 8's plate-solving feature (Android, March 2026) is the specialist exception.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
+- How To Name Every Star in That Photo You Took on Holiday, With AI, Tonight
 - Joanna Partridge's ''AI Clog': UK Public Bodies Battle Onslaught of Chatbot-Generated Complaints' Got the Diagnosis Wrong
 - BBC's 'AI Teddy for Three-Year-Olds Gave Unprompted Self-Harm Reply' Has a Worse Problem Than the Reply
 - How To Name What's Moving Overhead Right Now, With AI, Before the Cloud Changes
