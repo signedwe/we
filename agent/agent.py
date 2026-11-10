@@ -1405,6 +1405,43 @@ def sentences(body: str) -> list:
     return out
 
 
+MORAL_OPENERS = re.compile(
+    r"^(that|that's|that is|this|this is|it|it's|it is|it isn't|it doesn't|"
+    r"it did not|it does not|nobody|no one|none|not |no |they|they're|"
+    r"they aren't|he|she|there|there's|neither|nor|which|what|everything|"
+    r"nothing|the rest|the difference|the answer)\b", re.I)
+
+
+def check_closers(body: str) -> list:
+    """A paragraph that ends on a short line drawing its moral. A reader who
+    knows the field (10 November 2026, on the Wiener essay) spotted the
+    machine at once by "the attempt at pithy 'take aways' at the end of
+    paragraphs, or beginnings". One slip is a person; two is a model."""
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", body)
+    text = re.sub(r"<sup.*?</sup>", "", text)
+    hits = []
+    for para in re.split(r"\n\s*\n", text):
+        para = para.strip()
+        if not para or para[0] in "#-<>*":
+            continue
+        parts = [s for s in re.split(r"(?<=[.!?])\s+", para) if s]
+        if len(parts) < 3:
+            continue
+        last = parts[-1].strip('*" ')
+        if (len(last.split()) <= 9 and not re.search(r"\d", last)
+                and MORAL_OPENERS.match(last) and not last.endswith(":")):
+            hits.append(last)
+    if len(hits) > 1:
+        return [
+            "Paragraphs ending on a moral: " + " / ".join(f'"{h}"' for h in hits)
+            + ". That short last line that sums up the lesson is the tell a "
+            "reader who knows the subject spots first. End on the fact, the "
+            "date, the quotation or what happened next, or fold the point "
+            "into the sentence before. One is a person; more is a model."
+        ]
+    return []
+
+
 def check_rhythm(body: str) -> list:
     """All sentences the same length is a hedge trimmed flat."""
     lengths = [len(s.split()) for s in sentences(body)]
@@ -1786,6 +1823,7 @@ def check_post(body: str, previous: list = None) -> list:
         )
 
     failures += check_rhythm(body)
+    failures += check_closers(body)
     failures += check_verbs(body)
     failures += check_style(body)
     failures += check_self_talk(body)

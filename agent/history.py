@@ -198,6 +198,7 @@ def check_essay(body: str) -> list:
         failures.append(f"Too short: {words} words. The form is {MIN_WORDS} to {MAX_WORDS}.")
     if words > MAX_WORDS:
         failures.append(f"Too long: {words} words. The form is {MIN_WORDS} to {MAX_WORDS}.")
+    failures += agent.check_closers(own)  # rule 9: no paragraph ends on a moral
     if agent.EM_DASH in unquoted(body):
         failures.append("Em dashes in the essay's own sentences. None. A comma, a colon, or a full "
                         "stop. (Inside a word-for-word quotation a dash the source wrote may stay.) "
