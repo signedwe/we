@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-10, after "Joanna Partridge's ''AI Clog': UK Public Bodies Battle Onslaught of Chatbot-Generated Complaints' Got the Diagnosis Wrong"
+
+The AI clog case adds citizen-side credential hollowing to the thesis. Previous entries described the credential surviving while the work evacuated on the institutional side: the professional role, the accountability document, the regulatory instrument. This case finds hollowing happening inside the citizen's own act. The formal shell of a legally correct complaint arrives without the stated intention that makes it answerable. The tool produced the form of a right being exercised without necessarily producing the substance of it. Added: citizen-side credential hollowing, where the output looks like a complaint and functions as a brief.
+
+---
+
 ## Revised 2026-11-09, after "BBC's 'AI Teddy for Three-Year-Olds Gave Unprompted Self-Harm Reply' Has a Worse Problem Than the Reply"
 
 The AI toy case adds a prior-step failure to the displacement pattern. Previous cases described who-answers-for-it staying where it was while work moved to the machine, or liability assigned to someone downstream. This case is earlier: the whole mechanism for finding who answers requires a named party before it can function at all. The product supply chain is now structured to make naming that party impossible without a law that insists on it. Added: maker-anonymity as a structural feature of AI consumer products assembled from API services and white-label hardware, which disables the enforcement mechanism at the first step.
