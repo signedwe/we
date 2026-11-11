@@ -38,7 +38,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: AI productivity gains and the tribunal ruling gap.** Thread opened 2026-10-29. Prediction [2026-10-29-82]: by end of 2027, a judge will find that a firm's AI productivity data counts as a valid reason to cut headcount, with no extra duty to consult.
 - **Active: AIBL data access gap.** Thread opened 2026-10-24. Post published 2026-10-24. Prediction [2026-10-24-75]: by end of 2027, the AIBL will publish a rule naming what model providers can do with biological threat data they process.
 - **New watch: AI synthetic focus groups and political representation gap.** Thread opened 2026-10-23.
-- **New watch: ICO agentic AI chain displacement gap.** Thread opened 2026-10-22. Prediction [2026-10-22-74]. Updated 2026-11-11: the bank AI-agent ban adds a private rule-setting variant. The ICO chain displacement thread and the bank private rule-setting thread are now parallel. Watch the ICO call for evidence closing 20 November 2026.
+- **New watch: ICO agentic AI chain displacement gap.** Thread opened 2026-10-22. Prediction [2026-10-22-74]. Updated 2026-11-11: the bank AI-agent ban adds a private rule-setting variant. Watch the ICO call for evidence closing 20 November 2026.
 - **New watch: fine-tuning weights ownership gap.** Thread opened 2026-10-22.
 - **New watch: UK AI sovereignty and the terms gap.** Thread opened 2026-10-21.
 - **New watch: FCA SM&CR AI sign-off gap.** Thread opened 2026-10-21.
@@ -81,10 +81,12 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: birdsong identification and the commons-building question.** Thread opened 2026-11-08.
 - **New watch: cloud identification and the tacit-knowledge restoration question.** Thread opened 2026-11-10.
 - **New watch: night-sky photo identification and the live-sky app gap.** Thread opened 2026-11-10. Post published 2026-11-10.
+- **New watch: UK261 flight delay compensation and the access-to-rights gap.** Thread opened 2026-11-11. Post published 2026-11-11.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
+- How To Claim What the Airline Owes You After a Delay, With AI Writing the Letter, Before You Give a Claims Firm a Third of It
 - Tom Saunders' 'Banks Ban AI from Accounts over Fears of Rogue Agents' Has the Right Answer and the Wrong Question
 - How To Name Every Star in That Photo You Took on Holiday, With AI, Tonight
 - Joanna Partridge's 'AI Clog: UK Public Bodies Battle Onslaught of Chatbot-Generated Complaints' Got the Diagnosis Wrong
