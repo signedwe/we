@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-11, after "openDemocracy's 'Amazon Uses AI to Monitor Union Risk in UK Warehouses' Is Missing the Gap"
+
+The Atlas case adds temporal displacement to the thesis. Previous patterns described accountability staying in place while work moved to the machine, or a right surviving while its content was removed. This case finds the machine acting in the gap between a latent right and the moment it is exercised. The right to organise requires an act before the law protects it. A predictive score acts before the act. The protection arrives after the event it was meant to prevent. Added: temporal displacement, where the tool operates in the interval the statute never needed to name because no employer could previously act there.
+
+---
+
 ## Revised 2026-11-11, after "Tom Saunders' 'Banks Ban AI from Accounts over Fears of Rogue Agents' Has the Right Answer and the Wrong Question"
 
 Added private rule-setting filling the regulatory gap as a distinct pattern. Previous entries described pre-functional accountability displacement (Loughton: government named the site, who answers scattered before the function was built) and consent-based oversight (AISI: oversight rested on voluntary access). This case differs from both. No government label attached. No voluntary safety agreement. An industry group moved into an unregulated space and wrote the rules before any regulator could, framing commercial self-interest as safety. The norms written now will be what the FCA has to work around.

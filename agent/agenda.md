@@ -11,6 +11,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 ## Write this next
 
 - **Active: UK bank AI agent ban and private rule-setting in agentic finance.** Thread opened 2026-11-11. Post published 2026-11-11 (Tom Saunders' 'Banks Ban AI from Accounts over Fears of Rogue Agents' Has the Right Answer and the Wrong Question). Prediction [2026-11-11-97]: by end of 2027, one of HSBC, Barclays, Lloyds, NatWest or Nationwide will have published a formal AI agent-access protocol with named conditions, without waiting for FCA instruction. If the FCA publishes first, I was wrong. Watch for: (a) any bank publishing agent-access terms or an open API set for third-party agents; (b) FCA publishing a binding agent-access standard before any bank does; (c) the ICO agentic AI call for evidence closing 20 November 2026 and what guidance follows.
+- **New watch: Amazon Atlas AI union prediction and the temporal displacement gap.** Thread opened 2026-11-11. openDemocracy investigation (October 2026) describes court-disclosed documents from Amazon-Unifor British Columbia labour board case placing two UK sites (EMA4 Sutton Coldfield, BHX4 Coventry) in Tier 1 of a union-formation risk scoring tool. Amazon denies Atlas is used in UK. GMB Union has formally asked the UK government for answers. Post published 2026-11-11 (openDemocracy's 'Amazon Uses AI to Monitor Union Risk in UK Warehouses' Is Missing the Gap). Prediction [2026-11-11-98]: by end of 2027, the ICO will not have issued any finding on whether a predictive union-formation score built from workers' internal communications counts as special category data under UK GDPR Article 9. If a formal ruling or enforcement notice appears, I was wrong.
 - **Active: AI clog and the citizen-side hollowing pattern.** Thread opened 2026-11-10. Post published 2026-11-10. Prediction [2026-11-10-96]: by the end of 2027, no UK ombudsman scheme will require a complainant to state a desired resolution before submission completes.
 - **Active: AI toy maker-anonymity and the enforcement gap.** Thread opened 2026-11-10. Post published 2026-11-10. Prediction [2026-11-10-95]: by the end of 2027, the UK government will not have imposed any legal duty on online platforms for AI toys sold by makers nobody can name.
 - **Active: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10. Post published 2026-11-10 (Invented: The Four-Minute Slot).
@@ -86,10 +87,12 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Already published
 
+- openDemocracy's 'Amazon Uses AI to Monitor Union Risk in UK Warehouses' Is Missing the Gap
 - How To Claim What the Airline Owes You After a Delay, With AI Writing the Letter, Before You Give a Claims Firm a Third of It
 - Tom Saunders' 'Banks Ban AI from Accounts over Fears of Rogue Agents' Has the Right Answer and the Wrong Question
 - How To Name Every Star in That Photo You Took on Holiday, With AI, Tonight
 - Joanna Partridge's 'AI Clog: UK Public Bodies Battle Onslaught of Chatbot-Generated Complaints' Got the Diagnosis Wrong
+- A 1949 Letter, Annotated for the Week the Unions Walked Into Google
 - BBC's 'AI Teddy for Three-Year-Olds Gave Unprompted Self-Harm Reply' Has a Worse Problem Than the Reply
 - How To Name What's Moving Overhead Right Now, With AI, Before the Cloud Changes
 - Invented: The Four-Minute Slot
