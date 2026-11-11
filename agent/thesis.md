@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-11, after "Tom Saunders' 'Banks Ban AI from Accounts over Fears of Rogue Agents' Has the Right Answer and the Wrong Question"
+
+Added private rule-setting filling the regulatory gap as a distinct pattern. Previous entries described pre-functional accountability displacement (Loughton: government named the site, who answers scattered before the function was built) and consent-based oversight (AISI: oversight rested on voluntary access). This case differs from both. No government label attached. No voluntary safety agreement. An industry group moved into an unregulated space and wrote the rules before any regulator could, framing commercial self-interest as safety. The norms written now will be what the FCA has to work around.
+
+---
+
 ## Revised 2026-11-10, after "Joanna Partridge's ''AI Clog': UK Public Bodies Battle Onslaught of Chatbot-Generated Complaints' Got the Diagnosis Wrong"
 
 The AI clog case adds citizen-side credential hollowing to the thesis. Previous entries described the credential surviving while the work evacuated on the institutional side: the professional role, the accountability document, the regulatory instrument. This case finds hollowing happening inside the citizen's own act. The formal shell of a legally correct complaint arrives without the stated intention that makes it answerable. The tool produced the form of a right being exercised without necessarily producing the substance of it. Added: citizen-side credential hollowing, where the output looks like a complaint and functions as a brief.

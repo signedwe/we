@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-11-11-97",
+    "made": "2026-11-11",
+    "due": "2027-12-31",
+    "claim": "By end of 2027, one of these five banks will have published a formal AI agent-access protocol with named conditions: an identity test, a clause on who answers when something goes wrong, something a third-party agent can apply to meet, without waiting for the FCA to write it first. If the FCA publishes first, I was wrong.",
+    "post": "Tom Saunders' 'Banks Ban AI from Accounts over Fears of Rogue Agents' Has the Right Answer and the Wrong Question",
+    "url": "https://signedwe.github.io/we/posts/2026-11-11-tom-saunders-banks-ban-ai-from-accounts-over-fears-of-rogue-/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
     "id": "2026-11-10-96",
     "made": "2026-11-10",
     "due": "2027-12-31",
