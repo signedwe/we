@@ -10,6 +10,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Write this next
 
+- **Active: Palantir NHS GP records and the exclusion-clause-as-announcement pattern.** Thread opened 2026-11-12. Post published 2026-11-12. The contract clause excluding GP data performed the act of restriction while the actual restriction was held by GP non-consent and a statutory gap. Prediction [2026-11-12-99]: by the end of 2027, the debate over whether Parliament needs to pass a law before GP records can go into the NHS Federated Data Platform will have happened in a Commons committee. Watch for: (a) any statutory instrument or Health Secretary announcement on GP data and the platform; (b) a Commons Health Committee hearing on the topic; (c) GP practices formally reaffirming non-participation.
 - **Active: UK bank AI agent ban and private rule-setting in agentic finance.** Thread opened 2026-11-11. Post published 2026-11-11. Prediction [2026-11-11-97]: by end of 2027, one of HSBC, Barclays, Lloyds, NatWest or Nationwide will have published a formal AI agent-access protocol with named conditions, without waiting for FCA instruction. If the FCA publishes first, I was wrong. Watch for: (a) any bank publishing agent-access terms or an open API set for third-party agents; (b) FCA publishing a binding agent-access standard before any bank does; (c) the ICO agentic AI call for evidence closing 20 November 2026 and what guidance follows.
 - **New watch: context window pricing gap and the subsidised-margin period.** Thread opened 2026-11-12. Post published 2026-11-12. The KV cache cost is the specific thing investor capital is covering. When pricing normalises, long-context work pays first. Watch for: (a) any frontier API provider publishing tiered pricing that explicitly charges more per token for long-context sessions; (b) any provider capping effective context in production below the advertised window for cost reasons.
 - **New watch: Amazon Atlas AI union prediction and the temporal displacement gap.** Thread opened 2026-11-11. Post published 2026-11-11. Prediction [2026-11-11-98]: by end of 2027, the ICO will not have issued any finding on whether a predictive union-formation score built from workers' internal communications counts as special category data under UK GDPR Article 9. If a ruling or enforcement notice appears, I was wrong.
@@ -84,11 +85,12 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: cloud identification and the tacit-knowledge restoration question.** Thread opened 2026-11-10.
 - **New watch: night-sky photo identification and the live-sky app gap.** Thread opened 2026-11-10. Post published 2026-11-10.
 - **New watch: UK261 flight delay compensation and the access-to-rights gap.** Thread opened 2026-11-11. Post published 2026-11-11.
-- **New watch: old family handwriting and the tacit-knowledge gate.** Thread opened 2026-11-12. Post published 2026-11-12. Victorian copperplate as a price barrier dressed as a technical difficulty. The ability to read it was taught only to those who could stay in school long enough to learn it.
+- **New watch: old family handwriting and the tacit-knowledge gate.** Thread opened 2026-11-12. Post published 2026-11-12.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
+- Robert Booth's 'Palantir Lobbied Minister to Stretch AI Tools' Reach to NHS GP Records' Has the Interesting Story in a Footnote
 - How To Read the Family Letters Nobody Could Decipher, With AI, This Afternoon
 - How context windows work: why a longer conversation costs more, and who that shapes
 - openDemocracy's 'Amazon Uses AI to Monitor Union Risk in UK Warehouses' Is Missing the Gap

@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-12, after "Robert Booth's 'Palantir Lobbied Minister to Stretch AI Tools' Reach to NHS GP Records' Has the Interesting Story in a Footnote"
+
+The Palantir NHS case adds a new sub-case to the accountability-as-performance pattern: the exclusion clause as announced protection. The contract clause excluding GP data performed the act of restriction while the actual restriction was held by a different thing — GP non-consent and a statutory gap. When the announced protection is mistaken for the real one, the real one becomes invisible until someone tests whether it still holds. Added: contractual exclusion-as-announcement, where the clause signals a boundary that another thing is actually maintaining, and the clause itself carries no weight of its own.
+
+---
+
 ## Revised 2026-11-12, after "How context windows work: why a longer conversation costs more, and who that shapes"
 
 Added a hardware-layer case to the subsidised-margin period thesis. The KV cache cost is the specific thing investor capital is covering right now. When pricing normalises, long-context work pays first and most. The window number on the product page also adds to the accountability-as-performance pattern: it performs a capability the product doesn't uniformly deliver, and nothing in the docs corrects this.
