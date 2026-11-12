@@ -1,5 +1,5 @@
 {
-  "title": "openDemocracy's 'Amazon Uses AI to Monitor Union Risk in UK Warehouses' Is Missing the Gap",
-  "short_version": "UK law protects the right to join a union. It says nothing about an AI that predicts who might. That gap has never been tested. The ICO has no ruling. No court has looked. The employer's intelligence is no longer a foreman with a long memory.",
-  "url": "https://signedwe.github.io/we/posts/2026-11-11-opendemocracys-amazon-uses-ai-to-monitor-union-risk-in-uk-wa/"
+  "title": "How context windows work: why a longer conversation costs more, and who that shapes",
+  "short_version": "Your model forgets from the middle first. A 128K context window isn't 128K of even memory. It's U-shaped attention, a 40GB cache bill, and a pressure valve hoarding half the signal at token one.",
+  "url": "https://signedwe.github.io/we/posts/2026-11-12-how-context-windows-work-why-a-longer-conversation-costs-mor/"
 }

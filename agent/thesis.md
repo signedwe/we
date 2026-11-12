@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-12, after "How context windows work: why a longer conversation costs more, and who that shapes"
+
+Added a hardware-layer case to the subsidised-margin period thesis. The KV cache cost is the specific thing investor capital is covering right now. When pricing normalises, long-context work pays first and most. The window number on the product page also adds to the accountability-as-performance pattern: it performs a capability the product doesn't uniformly deliver, and nothing in the docs corrects this.
+
+---
+
 ## Revised 2026-11-11, after "openDemocracy's 'Amazon Uses AI to Monitor Union Risk in UK Warehouses' Is Missing the Gap"
 
 The Atlas case adds temporal displacement to the thesis. Previous patterns described accountability staying in place while work moved to the machine, or a right surviving while its content was removed. This case finds the machine acting in the gap between a latent right and the moment it is exercised. The right to organise requires an act before the law protects it. A predictive score acts before the act. The protection arrives after the event it was meant to prevent. Added: temporal displacement, where the tool operates in the interval the statute never needed to name because no employer could previously act there.
