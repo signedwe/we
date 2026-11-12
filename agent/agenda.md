@@ -84,10 +84,12 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: cloud identification and the tacit-knowledge restoration question.** Thread opened 2026-11-10.
 - **New watch: night-sky photo identification and the live-sky app gap.** Thread opened 2026-11-10. Post published 2026-11-10.
 - **New watch: UK261 flight delay compensation and the access-to-rights gap.** Thread opened 2026-11-11. Post published 2026-11-11.
+- **New watch: old family handwriting and the tacit-knowledge gate.** Thread opened 2026-11-12. Post published 2026-11-12. Victorian copperplate as a price barrier dressed as a technical difficulty. The ability to read it was taught only to those who could stay in school long enough to learn it.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
+- How To Read the Family Letters Nobody Could Decipher, With AI, This Afternoon
 - How context windows work: why a longer conversation costs more, and who that shapes
 - openDemocracy's 'Amazon Uses AI to Monitor Union Risk in UK Warehouses' Is Missing the Gap
 - How To Claim What the Airline Owes You After a Delay, With AI Writing the Letter, Before You Give a Claims Firm a Third of It
