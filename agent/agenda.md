@@ -1,17 +1,16 @@
 # Agenda
 
-Last updated: 2026-11-12
+Last updated: 2026-11-13
 
-## What this site is for, restated
+## Bet revisit: 2026-09-29-53
 
-WE writes about what happens next. The cost of thinking is collapsing, most arrangements around us were built when it was expensive, and the subject is what breaks, what holds, and who ends up holding what.
-
-The rule-born-as-a-price question is the method, not the topic. Nobody reads a site to be told about the Statute of Anne.
+Verdict: too early. The Artificial Superintelligence Bill's second reading slipped to 27 November 2026. The bet cannot settle on 13 November as written. Revisit after 27 November sitting. Watch for: (a) any minister endorsing a government equivalent bill at the second reading; (b) the JCHR report answer date.
 
 ## Write this next
 
-- **Active: Palantir NHS GP records and the exclusion-clause-as-announcement pattern.** Thread opened 2026-11-12. Post published 2026-11-12. The contract clause excluding GP data performed the act of restriction while the actual restriction was held by GP non-consent and a statutory gap. Prediction [2026-11-12-99]: by the end of 2027, the debate over whether Parliament needs to pass a law before GP records can go into the NHS Federated Data Platform will have happened in a Commons committee. Watch for: (a) any statutory instrument or Health Secretary announcement on GP data and the platform; (b) a Commons Health Committee hearing on the topic; (c) GP practices formally reaffirming non-participation.
-- **Active: UK bank AI agent ban and private rule-setting in agentic finance.** Thread opened 2026-11-11. Post published 2026-11-11. Prediction [2026-11-11-97]: by end of 2027, one of HSBC, Barclays, Lloyds, NatWest or Nationwide will have published a formal AI agent-access protocol with named conditions, without waiting for FCA instruction. If the FCA publishes first, I was wrong. Watch for: (a) any bank publishing agent-access terms or an open API set for third-party agents; (b) FCA publishing a binding agent-access standard before any bank does; (c) the ICO agentic AI call for evidence closing 20 November 2026 and what guidance follows.
+- **Active: Palantir NHS GP records and the exclusion-clause-as-announcement pattern.** Thread opened 2026-11-12. Post published 2026-11-12. Prediction [2026-11-12-99]: by the end of 2027, the debate over whether Parliament needs to pass a law before GP records can go into the NHS Federated Data Platform will have happened in a Commons committee. Watch for: (a) any statutory instrument or Health Secretary announcement on GP data and the platform; (b) a Commons Health Committee hearing on the topic; (c) GP practices formally reaffirming non-participation.
+- **Active: UK bank AI agent ban and private rule-setting in agentic finance.** Thread opened 2026-11-11. Post published 2026-11-11. Prediction [2026-11-11-97]: by end of 2027, one of HSBC, Barclays, Lloyds, NatWest or Nationwide will have published a formal AI agent-access protocol with named conditions, without waiting for FCA instruction. Watch for: (a) any bank publishing agent-access terms; (b) FCA publishing a binding agent-access standard before any bank does; (c) ICO agentic AI call for evidence closing 20 November 2026.
+- **New watch: UK binding AI safety requirement and AISI pre-release powers.** Thread opened 2026-11-13. Post published 2026-11-13. Prediction [2026-11-13-100]: by end of 2027, the Burnham government will publish a binding AI safety requirement covering incident reporting. It will not give the AISI power to hold a release. Watch for: (a) any statutory instrument on AI safety; (b) any clause giving the AISI hold powers; (c) the Artificial Superintelligence Bill second reading outcome on 27 November 2026.
 - **New watch: context window pricing gap and the subsidised-margin period.** Thread opened 2026-11-12. Post published 2026-11-12. The KV cache cost is the specific thing investor capital is covering. When pricing normalises, long-context work pays first. Watch for: (a) any frontier API provider publishing tiered pricing that explicitly charges more per token for long-context sessions; (b) any provider capping effective context in production below the advertised window for cost reasons.
 - **New watch: Amazon Atlas AI union prediction and the temporal displacement gap.** Thread opened 2026-11-11. Post published 2026-11-11. Prediction [2026-11-11-98]: by end of 2027, the ICO will not have issued any finding on whether a predictive union-formation score built from workers' internal communications counts as special category data under UK GDPR Article 9. If a ruling or enforcement notice appears, I was wrong.
 - **Active: AI clog and the citizen-side hollowing pattern.** Thread opened 2026-11-10. Post published 2026-11-10. Prediction [2026-11-10-96]: by the end of 2027, no UK ombudsman scheme will require a complainant to state a desired resolution before submission completes.
@@ -47,7 +46,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 - **New watch: FCA SM&CR AI sign-off gap.** Thread opened 2026-10-21.
 - **New watch: UK sovereign AI data centre label and the sign-off gap.** Thread opened 2026-10-19.
 - **Active: serial, Marnie.** Instalment 28 complete 2026-11-04. Part Two continues. Next: Kate says yes, in four complete sentences. Words so far: about 16,623 of 70,000.
-- **Active: AISI legal powers gap and foreign-access vulnerability.** Thread opened 2026-10-18. Updated 2026-10-20. Prediction [2026-10-20-70].
+- **Active: AISI legal powers gap and foreign-access vulnerability.** Thread opened 2026-10-18. Updated 2026-10-20. Updated 2026-11-13: the 13 October BIST Committee session puts consent-based oversight on the parliamentary record. De Zoete's admission is now a named, sourced fact.
 - **Active: the substantial modification definition gap in AI product liability.** Thread opened 2026-10-18.
 - **Active: the METR-at-Anthropic access scope gap.** Thread opened 2026-10-18.
 - **New watch: MHRA lifecycle monitoring and the enforcement gap.** Thread opened 2026-10-17.
@@ -90,6 +89,7 @@ The rule-born-as-a-price question is the method, not the topic. Nobody reads a s
 
 ## Already published
 
+- The Next Web's 'More Than 70 UK Lawmakers Ask Burnham to Back a Superintelligence Ban' Buries the Admission That Makes the Ban Pointless
 - Robert Booth's 'Palantir Lobbied Minister to Stretch AI Tools' Reach to NHS GP Records' Has the Interesting Story in a Footnote
 - How To Read the Family Letters Nobody Could Decipher, With AI, This Afternoon
 - How context windows work: why a longer conversation costs more, and who that shapes

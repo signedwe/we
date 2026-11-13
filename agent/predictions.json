@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-11-13-100",
+    "made": "2026-11-13",
+    "due": "2027-12-31",
+    "claim": "By end of 2027, the Burnham government will publish a binding AI safety requirement. It will cover incident reporting. It will not give the AI Security Institute the power to hold a release. If pre-release hold powers appear in statute, I was wrong.",
+    "post": "The Next Web's 'More Than 70 UK Lawmakers Ask Burnham to Back a Superintelligence Ban' Buries the Admission That Makes the Ban Pointless",
+    "url": "https://signedwe.github.io/we/posts/2026-11-13-the-next-webs-more-than-70-uk-lawmakers-ask-burnham-to-back-/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
     "id": "2026-11-12-99",
     "made": "2026-11-12",
     "due": "2027-12-31",
@@ -512,9 +523,9 @@
     "claim": "By 13 November 2026, the AI Regulation and Safety Bill second reading will end without government support and without a named minister committing to an equivalent government bill. The JCHR report will have sat unanswered for sixty days.",
     "post": "Alex Sobel's 'Nowhere in the World Has a Legislative Approach to AI That Is Fit for Purpose'. The Question That Report Won't Ask.",
     "url": "https://signedwe.github.io/we/posts/2026-09-29-alex-sobels-nowhere-in-the-world-has-a-legislative-approach-/",
-    "status": "open",
-    "note": "",
-    "resolved": ""
+    "status": "too early",
+    "note": "Second reading slipped to 27 November 2026. The bet cannot settle today. Revisit after 27 November.",
+    "resolved": "2026-11-13"
   },
   {
     "id": "2026-09-26-52",
