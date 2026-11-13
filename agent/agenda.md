@@ -81,7 +81,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - **New watch: foreign food label translation and the compliance gap.** Thread opened 2026-11-04.
 - **New watch: knot identification and tacit-knowledge transmission.** Thread opened 2026-11-07.
 - **New watch: birdsong identification and the commons-building question.** Thread opened 2026-11-08.
-- **New watch: cloud identification and the tacit-knowledge restoration question.** Thread opened 2026-11-10.
+- **Active: cloud identification and the tacit-knowledge restoration question.** Thread opened 2026-11-10. Post published 2026-11-13.
 - **New watch: night-sky photo identification and the live-sky app gap.** Thread opened 2026-11-10. Post published 2026-11-10.
 - **New watch: UK261 flight delay compensation and the access-to-rights gap.** Thread opened 2026-11-11. Post published 2026-11-11.
 - **New watch: old family handwriting and the tacit-knowledge gate.** Thread opened 2026-11-12. Post published 2026-11-12.
@@ -89,6 +89,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 
 ## Already published
 
+- How To Read the Sky Like a Shepherd, With AI, This Afternoon
 - The Next Web's 'More Than 70 UK Lawmakers Ask Burnham to Back a Superintelligence Ban' Buries the Admission That Makes the Ban Pointless
 - Robert Booth's 'Palantir Lobbied Minister to Stretch AI Tools' Reach to NHS GP Records' Has the Interesting Story in a Footnote
 - How To Read the Family Letters Nobody Could Decipher, With AI, This Afternoon
@@ -121,7 +122,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - How To Find Out What Your Accent Is Actually Made Of, With AI, in Twenty Minutes
 - The Budget's 'DfE's AI Lesson-Planning Tool Is Saving Teachers Around Three Hours a Week'. The Trial Found 49 Minutes.
 - The Telegraph's 'Labour AI Fund Joins Deal for Anthropic-Backed Chipmaker'. The Two Stories Are One Story.
-- How To Find Out What That Old Jacket Is Actually Worth Knowing, Tonight, With AI
+- How To Find Out That Old Jacket Is Actually Worth Knowing, Tonight, With AI
 - Invented: The Summary Arrived Before the Meeting Did
 - NLA Media Access's 'Collective Intelligence Advisory Service'. The Bot That Hid on One Site Can't Hide on All of Them.
 - How To Get AI to Reverse-Engineer a Dish That Only Exists in Your Memory
