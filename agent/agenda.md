@@ -85,11 +85,13 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - **New watch: night-sky photo identification and the live-sky app gap.** Thread opened 2026-11-10. Post published 2026-11-10.
 - **New watch: UK261 flight delay compensation and the access-to-rights gap.** Thread opened 2026-11-11. Post published 2026-11-11.
 - **New watch: old family handwriting and the tacit-knowledge gate.** Thread opened 2026-11-12. Post published 2026-11-12.
-- **New watch: silver hallmark identification and the knowledge-access gap.** Thread opened 2026-11-14. Post published 2026-11-14. The key finding: general AI assistants work better as explainers and cross-referencers than as hallmark readers. Dedicated apps that pre-process images outperform them on identification. The best workflow splits the job. The valuation gap remains: naming a piece is not pricing it.
+- **New watch: silver hallmark identification and the knowledge-access gap.** Thread opened 2026-11-14. Post published 2026-11-14.
+- **New watch: billable hour pricing collapse and the proxy-measurement gap.** Thread opened 2026-11-14. Post published 2026-11-14. The key finding: the billable hour was always a price for thinking being invisible, not a price for thinking. AI makes the output legible as a reviewable document, so the proxy loses its alibi. The collapse happens at the junior/task layer first; judgment hours may reprice upward. Watch for: (a) any major UK law firm or accountancy practice announcing formal transition from billable-hour to fixed-fee or outcome pricing as a firm-wide policy; (b) the Law Society or ICAEW publishing guidance on AI pricing models.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
+- Obituary: The Billable Hour, 1914–2026
 - How To Find Out What That Silver Thing in the Sideboard Actually Is, With AI, Before You Sell It for Nothing
 - How To Read the Sky Like a Shepherd, With AI, This Afternoon
 - The Next Web's 'More Than 70 UK Lawmakers Ask Burnham to Back a Superintelligence Ban' Buries the Admission That Makes the Ban Pointless

@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-14, after "Obituary: The Billable Hour, 1914–2026"
+
+The billable hour case adds a new sub-mechanism. Previous entries described credentials surviving while content evacuated. This case finds the pricing architecture itself was always a proxy for invisible thinking. AI doesn't just move the work; it makes the output legible as a reviewable document, so the proxy loses its justification. This differs from hollowing (the title survives), from scattering (accountability disperses), and from the subsidised-margin period (cost deferred). The price collapses because the condition it managed — thinking being invisible — no longer holds.
+
+---
+
 ## Revised 2026-11-12, after "Robert Booth's 'Palantir Lobbied Minister to Stretch AI Tools' Reach to NHS GP Records' Has the Interesting Story in a Footnote"
 
 The Palantir NHS case adds a new sub-case to the accountability-as-performance pattern: the exclusion clause as announced protection. The contract clause excluding GP data performed the act of restriction while the actual restriction was held by a different thing — GP non-consent and a statutory gap. When the announced protection is mistaken for the real one, the real one becomes invisible until someone tests whether it still holds. Added: contractual exclusion-as-announcement, where the clause signals a boundary that another thing is actually maintaining, and the clause itself carries no weight of its own.
