@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-14, after "Jacob Reid's 'Britain's Split With the EU on AI Makes It Even Harder to Roll Back Brexit' Has the Admission in the Middle"
+
+The UK EU AI Act rejection adds a recursive variant to the consent-based oversight pattern already in the thesis from October 2026. Previously: an oversight function that rests on voluntary cooperation. Now: an oversight function where the voluntary nature is maintained specifically because a statutory version would threaten the cooperation that makes non-statutory oversight possible. The constraint reproduces itself. Added: regulatory capture at the geopolitical level, where a country's oversight design is shaped by what its suppliers will accept, then described as a sovereign priority.
+
+---
+
 ## Revised 2026-11-14, after "Obituary: The Billable Hour, 1914–2026"
 
 The billable hour case adds a new sub-mechanism. Previous entries described credentials surviving while content evacuated. This case finds the pricing architecture itself was always a proxy for invisible thinking. AI doesn't just move the work; it makes the output legible as a reviewable document, so the proxy loses its justification. This differs from hollowing (the title survives), from scattering (accountability disperses), and from the subsidised-margin period (cost deferred). The price collapses because the condition it managed — thinking being invisible — no longer holds.

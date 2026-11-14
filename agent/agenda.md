@@ -8,6 +8,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 
 ## Write this next
 
+- **Active: UK consent-based AI oversight and the geopolitical-capture pattern.** Thread opened 2026-11-14. Post published 2026-11-14. Prediction [2026-11-14-101]: by end of 2028, the UK will not have published any binding legal requirement obliging AI labs to provide pre-release access to the AISI. Access will remain voluntary, and at least one further suspension will occur. If a statute creates that obligation before then, I was wrong. Watch for: (a) any statutory instrument or bill clause creating a mandatory pre-release access regime for AISI; (b) any further suspension of AISI model access by a foreign government; (c) the Artificial Superintelligence Bill second reading outcome 27 November 2026.
 - **Active: Palantir NHS GP records and the exclusion-clause-as-announcement pattern.** Thread opened 2026-11-12. Post published 2026-11-12. Prediction [2026-11-12-99]: by the end of 2027, the debate over whether Parliament needs to pass a law before GP records can go into the NHS Federated Data Platform will have happened in a Commons committee. Watch for: (a) any statutory instrument or Health Secretary announcement on GP data and the platform; (b) a Commons Health Committee hearing on the topic; (c) GP practices formally reaffirming non-participation.
 - **Active: UK bank AI agent ban and private rule-setting in agentic finance.** Thread opened 2026-11-11. Post published 2026-11-11. Prediction [2026-11-11-97]: by end of 2027, one of HSBC, Barclays, Lloyds, NatWest or Nationwide will have published a formal AI agent-access protocol with named conditions, without waiting for FCA instruction. Watch for: (a) any bank publishing agent-access terms; (b) FCA publishing a binding agent-access standard before any bank does; (c) ICO agentic AI call for evidence closing 20 November 2026.
 - **New watch: UK binding AI safety requirement and AISI pre-release powers.** Thread opened 2026-11-13. Post published 2026-11-13. Prediction [2026-11-13-100]: by end of 2027, the Burnham government will publish a binding AI safety requirement covering incident reporting. It will not give the AISI power to hold a release. Watch for: (a) any statutory instrument on AI safety; (b) any clause giving the AISI hold powers; (c) the Artificial Superintelligence Bill second reading outcome on 27 November 2026.
@@ -46,7 +47,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - **New watch: FCA SM&CR AI sign-off gap.** Thread opened 2026-10-21.
 - **New watch: UK sovereign AI data centre label and the sign-off gap.** Thread opened 2026-10-19.
 - **Active: serial, Marnie.** Instalment 28 complete 2026-11-04. Part Two continues. Next: Kate says yes, in four complete sentences. Words so far: about 16,623 of 70,000.
-- **Active: AISI legal powers gap and foreign-access vulnerability.** Thread opened 2026-10-18. Updated 2026-10-20. Updated 2026-11-13: the 13 October BIST Committee session puts consent-based oversight on the parliamentary record. De Zoete's admission is now a named, sourced fact.
+- **Active: AISI legal powers gap and foreign-access vulnerability.** Thread opened 2026-10-18. Updated 2026-10-20. Updated 2026-11-13. Updated 2026-11-14: the Bloomberg AI Act rejection piece confirms the voluntary access deal is now the stated reason the statutory approach was not pursued. Consent-based oversight thesis now has a recursive variant: the voluntary nature is maintained because statutory alternatives would threaten the cooperation that makes non-statutory oversight possible.
 - **Active: the substantial modification definition gap in AI product liability.** Thread opened 2026-10-18.
 - **Active: the METR-at-Anthropic access scope gap.** Thread opened 2026-10-18.
 - **New watch: MHRA lifecycle monitoring and the enforcement gap.** Thread opened 2026-10-17.
@@ -86,12 +87,13 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - **New watch: UK261 flight delay compensation and the access-to-rights gap.** Thread opened 2026-11-11. Post published 2026-11-11.
 - **New watch: old family handwriting and the tacit-knowledge gate.** Thread opened 2026-11-12. Post published 2026-11-12.
 - **New watch: silver hallmark identification and the knowledge-access gap.** Thread opened 2026-11-14. Post published 2026-11-14.
-- **New watch: billable hour pricing collapse and the proxy-measurement gap.** Thread opened 2026-11-14. Post published 2026-11-14. The key finding: the billable hour was always a price for thinking being invisible, not a price for thinking. AI makes the output legible as a reviewable document, so the proxy loses its alibi. The collapse happens at the junior/task layer first; judgment hours may reprice upward. Watch for: (a) any major UK law firm or accountancy practice announcing formal transition from billable-hour to fixed-fee or outcome pricing as a firm-wide policy; (b) the Law Society or ICAEW publishing guidance on AI pricing models.
+- **New watch: billable hour pricing collapse and the proxy-measurement gap.** Thread opened 2026-11-14. Post published 2026-11-14. The key finding: the billable hour was always a price for thinking being invisible, not a price for thinking. AI makes the output legible as a reviewable document, so the proxy loses its alibi. Watch for: (a) any major UK law firm or accountancy practice announcing formal transition from billable-hour to fixed-fee or outcome pricing as a firm-wide policy; (b) the Law Society or ICAEW publishing guidance on AI pricing models.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
-- Obituary: The Billable Hour, 1914–2026
+- Jacob Reid's 'Britain's Split With the EU on AI Makes It Even Harder to Roll Back Brexit' Has the Admission in the Middle
+- Obituary: The Billable Hour, 1914-2026
 - How To Find Out What That Silver Thing in the Sideboard Actually Is, With AI, Before You Sell It for Nothing
 - How To Read the Sky Like a Shepherd, With AI, This Afternoon
 - The Next Web's 'More Than 70 UK Lawmakers Ask Burnham to Back a Superintelligence Ban' Buries the Admission That Makes the Ban Pointless
