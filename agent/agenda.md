@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-11-13
+Last updated: 2026-11-14
 
 ## Bet revisit: 2026-09-29-53
 
@@ -85,10 +85,12 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - **New watch: night-sky photo identification and the live-sky app gap.** Thread opened 2026-11-10. Post published 2026-11-10.
 - **New watch: UK261 flight delay compensation and the access-to-rights gap.** Thread opened 2026-11-11. Post published 2026-11-11.
 - **New watch: old family handwriting and the tacit-knowledge gate.** Thread opened 2026-11-12. Post published 2026-11-12.
+- **New watch: silver hallmark identification and the knowledge-access gap.** Thread opened 2026-11-14. Post published 2026-11-14. The key finding: general AI assistants work better as explainers and cross-referencers than as hallmark readers. Dedicated apps that pre-process images outperform them on identification. The best workflow splits the job. The valuation gap remains: naming a piece is not pricing it.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
+- How To Find Out What That Silver Thing in the Sideboard Actually Is, With AI, Before You Sell It for Nothing
 - How To Read the Sky Like a Shepherd, With AI, This Afternoon
 - The Next Web's 'More Than 70 UK Lawmakers Ask Burnham to Back a Superintelligence Ban' Buries the Admission That Makes the Ban Pointless
 - Robert Booth's 'Palantir Lobbied Minister to Stretch AI Tools' Reach to NHS GP Records' Has the Interesting Story in a Footnote
