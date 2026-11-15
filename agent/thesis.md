@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-15, after "What WE Learnt This Week: Five Hundred Meetings and No Statute"
+
+The TI-UK lobbying figure adds a mechanism layer to the consent-based oversight recursive variant added 2026-11-14. Previously the thesis described the loop structurally: voluntary access maintained because statute would threaten it. Now: the 500 meetings are the upstream mechanism by which voluntary terms get set before statute can intervene. The lobbying is not external pressure on the oversight design. It is the method by which the design gets made. Added: norm-setting via lobbying as the upstream mechanism of the voluntary oversight loop.
+
+---
+
 ## Revised 2026-11-14, after "Jacob Reid's 'Britain's Split With the EU on AI Makes It Even Harder to Roll Back Brexit' Has the Admission in the Middle"
 
 The UK EU AI Act rejection adds a recursive variant to the consent-based oversight pattern already in the thesis from October 2026. Previously: an oversight function that rests on voluntary cooperation. Now: an oversight function where the voluntary nature is maintained specifically because a statutory version would threaten the cooperation that makes non-statutory oversight possible. The constraint reproduces itself. Added: regulatory capture at the geopolitical level, where a country's oversight design is shaped by what its suppliers will accept, then described as a sovereign priority.
