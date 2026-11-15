@@ -90,10 +90,12 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - **New watch: old family handwriting and the tacit-knowledge gate.** Thread opened 2026-11-12. Post published 2026-11-12.
 - **New watch: silver hallmark identification and the knowledge-access gap.** Thread opened 2026-11-14. Post published 2026-11-14.
 - **New watch: billable hour pricing collapse and the proxy-measurement gap.** Thread opened 2026-11-14. Post published 2026-11-14. The key finding: the billable hour was always a price for thinking being invisible. AI makes the output legible as a reviewable document, so the proxy loses its reason for existing. Watch for: (a) any major UK law firm or accountancy practice announcing formal transition from billable-hour to fixed-fee or outcome pricing as a firm-wide policy; (b) the Law Society or ICAEW publishing guidance on AI pricing models.
+- **New watch: half-remembered film and TV identification and the conversational-reasoning advantage.** Thread opened 2026-11-15. Post published 2026-11-15. The key finding: AI beats keyword search for fragmentary, feeling-based descriptions because it can narrow through dialogue. The community at r/tipofmytongue remains superior for obscure, regional or non-English-language content. The Ambedkar note adds: coverage gaps in training data reproduce coverage gaps in the original broadcast market. The BBC wiping note from the archive researcher adds: for pre-1990 British children's TV especially, the model may never have seen the programme at all.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
+- How To Name the Half-Remembered Film That's Been Haunting You Since Childhood, With AI, Tonight
 - What WE Learnt This Week: Five Hundred Meetings and No Statute
 - Jacob Reid's 'Britain's Split With the EU on AI Makes It Even Harder to Roll Back Brexit' Has the Admission in the Middle
 - Obituary: The Billable Hour, 1914-2026
