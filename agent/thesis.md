@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-15, after "Kalyeena Makortoff's ''They've Cut All Entry-Level Jobs'' Finds the Wrong Surprise"
+
+The Bournemouth case adds a geographic sub-case to the formation-collapse pattern. Formation collapse has been described at firm and sector level: the junior role disappears, the pipeline thins, the profession loses its way of watching who can perform. This case finds the same dynamic at the regional level. A town whose economy rests on one professional tier faces complete collapse of the entry-level commons, with no adjacent industry to absorb displaced graduates. The regional variant compounds the problem: individual employers each act rationally, collectively they drain the shared pipeline, and no single body watches the depletion happen.
+
+---
+
 ## Revised 2026-11-15, after "What WE Learnt This Week: Five Hundred Meetings and No Statute"
 
 The TI-UK lobbying figure adds a mechanism layer to the consent-based oversight recursive variant added 2026-11-14. Previously the thesis described the loop structurally: voluntary access maintained because statute would threaten it. Now: the 500 meetings are the upstream mechanism by which voluntary terms get set before statute can intervene. The lobbying is not external pressure on the oversight design. It is the method by which the design gets made. Added: norm-setting via lobbying as the upstream mechanism of the voluntary oversight loop.
