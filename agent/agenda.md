@@ -93,10 +93,12 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - **New watch: silver hallmark identification and the knowledge-access gap.** Thread opened 2026-11-14. Post published 2026-11-14.
 - **New watch: billable hour pricing collapse and the proxy-measurement gap.** Thread opened 2026-11-14. Post published 2026-11-14.
 - **New watch: half-remembered film and TV identification and the conversational-reasoning advantage.** Thread opened 2026-11-15. Post published 2026-11-15.
+- **New watch: AI tattoo design consultation and the pre-commitment interview gap.** Thread opened 2026-11-16. Post published 2026-11-16. The key observation: the interview that most tattoo consultations skip is now the thing AI does first. The design is secondary. Most tattoo regret is a conversation that never happened, not an artist's error.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
+- How To Design a Tattoo You'll Actually Want in Ten Years, With AI, Before the Needle Touches You
 - Invented: The Prepared Parties
 - Kalyeena Makortoff's ''They've Cut All Entry-Level Jobs'' Finds the Wrong Surprise
 - How To Name the Half-Remembered Film That's Been Haunting You Since Childhood, With AI, Tonight
@@ -113,7 +115,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - How To Claim What the Airline Owes You After a Delay, With AI Writing the Letter, Before You Give a Claims Firm a Third of It
 - Tom Saunders' 'Banks Ban AI from Accounts over Fears of Rogue Agents' Has the Right Answer and the Wrong Question
 - How To Name Every Star in That Photo You Took on Holiday, With AI, Tonight
-- Joanna Partridge's 'AI Clog: UK Public Bodies Battle Onslaught of Chatbot-Generated Complaints' Got the Diagnosis Wrong
+- Joanna Partridge's ''AI Clog': UK Public Bodies Battle Onslaught of Chatbot-Generated Complaints' Got the Diagnosis Wrong
 - A 1949 Letter, Annotated for the Week the Unions Walked Into Google
 - BBC's 'AI Teddy for Three-Year-Olds Gave Unprompted Self-Harm Reply' Has a Worse Problem Than the Reply
 - How To Name What's Moving Overhead Right Now, With AI, Before the Cloud Changes
