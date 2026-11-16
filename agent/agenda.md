@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-11-15
+Last updated: 2026-11-16
 
 ## Bet revisit: 2026-09-29-53
 
@@ -8,6 +8,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 
 ## Write this next
 
+- **New watch: AI-prepared positions in family mediation and the de-preparation cost.** Thread opened 2026-11-16. The invented post pictures a 2031 mediator spending forty minutes getting back to the person under the document. Watch for: (a) any UK family mediation body publishing guidance on AI-prepared clients; (b) research on AI dispute resolution tools and settlement rates in family vs. commercial contexts; (c) any change to MIAM requirements or session length norms citing AI preparation.
 - **New watch: Bournemouth regional formation-collapse and the back-office commons depletion.** Thread opened 2026-11-15. The Guardian's Bournemouth piece (13 November 2026) adds a geographic sub-case to the formation-collapse pattern. The entry-level back-office cohort is a shared resource: each firm that cuts it saves money now and drains the pipeline. No governance mechanism exists. Watch for: (a) any employer body or local authority in Bournemouth or Dorset publishing a floor on junior hiring ratios; (b) TheCityUK data on regional finance employment by cohort level; (c) any skills scheme explicitly targeting Bournemouth finance graduates displaced by AI.
 - **New watch: TI-UK lobbying eleven-fold figure and the norm-setting mechanism.** Thread opened 2026-11-15. AI-related ministerial lobbying rose from 42 meetings in 2022 to almost 500 in 2025 per TI-UK analysis published 12 November 2026. The 500 meetings are the upstream mechanism by which voluntary AI terms get set before statute can intervene. TI-UK found companies declined invitations to meet community groups. Watch for: (a) any binding requirement on AI companies to register pre-release access terms publicly; (b) any community or civil society body gaining comparable ministerial access on AI terms; (c) TI-UK full-year 2026 lobbying data when published.
 - **Soft correction noted 2026-11-15: billable hour and formation-collapse convergence.** The hour priced thinking nobody could see. Formation built the internal model that made thinking legible. When AI turns the output into a document a partner can check in eleven minutes, both collapse in the same decade, to the same cohort, for the same reason. Treat as one argument in future posts.
@@ -96,6 +97,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 
 ## Already published
 
+- Invented: The Prepared Parties
 - Kalyeena Makortoff's ''They've Cut All Entry-Level Jobs'' Finds the Wrong Surprise
 - How To Name the Half-Remembered Film That's Been Haunting You Since Childhood, With AI, Tonight
 - What WE Learnt This Week: Five Hundred Meetings and No Statute
