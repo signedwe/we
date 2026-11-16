@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-16, after "The Family Mediation Council's 'AI Can Sound Like It Knows You' Has a Line It Didn't Follow"
+
+The FMC case adds a pre-commitment variant to citizen-side credential hollowing. The AI clog post (November 2026) found citizens producing the form of a right being exercised without its substance: the shell of a complaint. This case finds AI filling a genuine pre-session gap with a position document rather than an exploration of needs. The citizen is not gaming the process. They are preparing seriously, using the wrong stage of a tool pointed at the wrong question. Added: pre-session commitment collapse, where AI occupies the preparation gap and delivers a conclusion before the process designed to reach one has begun.
+
+---
+
 ## Revised 2026-11-15, after "Kalyeena Makortoff's ''They've Cut All Entry-Level Jobs'' Finds the Wrong Surprise"
 
 The Bournemouth case adds a geographic sub-case to the formation-collapse pattern. Formation collapse has been described at firm and sector level: the junior role disappears, the pipeline thins, the profession loses its way of watching who can perform. This case finds the same dynamic at the regional level. A town whose economy rests on one professional tier faces complete collapse of the entry-level commons, with no adjacent industry to absorb displaced graduates. The regional variant compounds the problem: individual employers each act rationally, collectively they drain the shared pipeline, and no single body watches the depletion happen.
