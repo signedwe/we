@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-17, after "The Register's 'UK Ministers Seek Powers to Investigate When AI Agents Are Let Off the Leash' Has the Wrong Sentence in the Headline"
+
+The DRCF November 16 letter to ministers adds a feedback loop to the accountability-as-performance pattern already in the thesis. Previously: a statement performs regulatory cover while the statutory instruments are not published. This case adds: the performing statement itself reduces the signal that tells firms a mandatory process exists, and the regulators then write to ministers describing the disengagement as a problem. The performance of coverage produces the gap it was meant to close. Added: regulatory-statement feedback loop, where declaring existing coverage removes the signal that a mandatory process exists.
+
+---
+
 ## Revised 2026-11-16, after "The Family Mediation Council's 'AI Can Sound Like It Knows You' Has a Line It Didn't Follow"
 
 The FMC case adds a pre-commitment variant to citizen-side credential hollowing. The AI clog post (November 2026) found citizens producing the form of a right being exercised without its substance: the shell of a complaint. This case finds AI filling a genuine pre-session gap with a position document rather than an exploration of needs. The citizen is not gaming the process. They are preparing seriously, using the wrong stage of a tool pointed at the wrong question. Added: pre-session commitment collapse, where AI occupies the preparation gap and delivers a conclusion before the process designed to reach one has begun.
