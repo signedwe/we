@@ -12,7 +12,7 @@ the file when published.
 - Japan's Fifth Generation Computer project, 1982 to 1992: the plan, the panic it caused, the result [done 2026-10-25 2026-10-25-japan-s-fifth-generation-computer-project-1982-to-1992-the-p.md]
 - Joseph Weizenbaum, ELIZA, and the book he wrote against his own program [done 2026-11-01 2026-11-01-joseph-weizenbaum-eliza-and-the-book-he-wrote-against-his-ow.md]
 - Norbert Wiener, cybernetics, and the Macy conferences [done 2026-11-09 2026-11-09-norbert-wiener-cybernetics-and-the-macy-conferences-history.md]
-- Expert systems and the second winter: MYCIN, XCON, the Lisp machine companies
+- Expert systems and the second winter: MYCIN, XCON, the Lisp machine companies [done 2026-11-17 2026-11-17-expert-systems-mycin-xcon-lisp-machines-and-the-second-ai-wi.md]
 - Backpropagation, 1986: the Rumelhart, Hinton and Williams paper and the two decades of waiting
 - Deep Blue and Kasparov, 1997: what the match proved and what it did not
 - Leibniz's calculating machine and the dream of a language of thought
