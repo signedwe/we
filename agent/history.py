@@ -112,7 +112,11 @@ def today() -> datetime:
 
 
 def published_this_week():
-    cutoff = (today() - timedelta(days=6)).strftime("%Y-%m-%d")
+    # The week runs Sunday to Saturday. An essay dated the previous Sunday
+    # or later counts; one from last week's run that landed on a Monday
+    # (the Wiener essay, 9 November) must not stop the next Sunday's.
+    since_sunday = (today().weekday() + 1) % 7
+    cutoff = (today() - timedelta(days=since_sunday)).strftime("%Y-%m-%d")
     for p in sorted(HIST.glob("*.md")):
         if p.name[:10] >= cutoff:
             return p
