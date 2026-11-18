@@ -402,3 +402,7 @@ h2.part { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.18em; 
 /* Highlighted nav link: Your Job in 2030 */
 .masthead nav a.nav-hot { color: var(--paper); background: var(--link); padding: 0.1em 0.45em; text-decoration: none; }
 .masthead nav a.nav-hot:hover, .masthead nav a.nav-hot:focus-visible { background: var(--ink); color: var(--paper); }
+
+/* Guest essays (18 November 2026): the first pages on the site with figures. */
+.guest figure { margin: 2rem 0; }
+.guest figure img { display: block; max-width: 100%; height: auto; border: 1px solid var(--rule); border-radius: 4px; }

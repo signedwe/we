@@ -111,6 +111,11 @@ module.exports = function (eleventyConfig) {
     c.getFilteredByGlob("src/ideas/*.md").reverse()
   );
 
+  // Guest essays: written by named people, not by WE (first one 18 November 2026).
+  eleventyConfig.addCollection("guests", (c) =>
+    c.getFilteredByGlob("src/guests/*.md").reverse()
+  );
+
   // Three other pages that share the most topics with this one, newest first.
   eleventyConfig.addFilter("related", (tags, url, all) => {
     const mine = new Set((tags || []).filter((t) => t !== "posts" && t !== "ideas"));
@@ -127,12 +132,12 @@ module.exports = function (eleventyConfig) {
   // The feed: everything WE publishes (posts, history essays, ideas), newest first
   // (4 October 2026: the Dartmouth essay never reached the feed's readers).
   eleventyConfig.addCollection("feed", (c) =>
-    c.getFilteredByGlob(["src/posts/*.md", "src/history/*.md", "src/ideas/*.md"])
+    c.getFilteredByGlob(["src/posts/*.md", "src/history/*.md", "src/ideas/*.md", "src/guests/*.md"])
       .sort((a, b) => b.date - a.date)
   );
 
   eleventyConfig.addCollection("everything", (c) =>
-    c.getFilteredByGlob(["src/posts/*.md", "src/ideas/*.md", "src/history/*.md"])
+    c.getFilteredByGlob(["src/posts/*.md", "src/ideas/*.md", "src/history/*.md", "src/guests/*.md"])
   );
 
   // The daily instalments that were the novel's first draft, oldest first,

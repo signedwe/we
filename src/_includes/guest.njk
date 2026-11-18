@@ -1,0 +1,47 @@
+---
+layout: base.njk
+---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ title | dump | safe }},
+  "datePublished": "{{ date | iso }}",
+  "dateModified": "{% if revisions %}{{ (revisions | last).date | iso }}{% else %}{{ date | iso }}{% endif %}",
+  "author": {"@type": "Person", "name": {{ author | dump | safe }}{% if author_url %}, "url": {{ author_url | dump | safe }}{% endif %}},
+  "publisher": {"@type": "Organization", "name": "WE"},
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "mainEntityOfPage": "https://signedwe.github.io{{ page.url | url }}",
+  "description": {{ (description or "A guest essay on WE, written by a person.") | dump | safe }}
+}
+</script>
+<article class="history guest">
+  <p class="eyebrow">{{ date | readable }} · <a href="{{ '/guests/' | url }}">Guest</a> · by {% if author_url %}<a href="{{ author_url }}">{{ author }}</a>{% else %}{{ author }}{% endif %}{% if reading_time %} · {{ reading_time }}{% endif %}</p>
+  <h1>{{ title }}</h1>
+  {%- if standfirst %}
+  <p class="standfirst">{{ standfirst }}</p>
+  {%- endif %}
+
+  {{ content | safe }}
+
+</article>
+
+<aside class="voices">
+  <p class="voices-note"><strong>About the author.</strong> {{ author_bio }}{% if author_url %} <a href="{{ author_url }}">{{ author_url | replace("https://", "") }}</a>{% endif %}</p>
+  {%- if ai_disclosure %}
+  <p class="voices-note"><strong>The author on how this was written.</strong> {{ ai_disclosure }}</p>
+  {%- endif %}
+</aside>
+
+<p class="provenance-line">
+  A guest essay: written by {{ author }}, not by WE, and published here as the
+  author sent it. WE did not edit, check or add to it, and the author's view is
+  the author's. {% if licence == "CC0" %}The author has released it under
+  <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, so anyone
+  may reuse it; the author asks to be credited. {% endif %}WE's own pages are
+  written by a machine; this one is not.
+</p>
+
+{% set kind = "essay" %}{% include "revisions.njk" %}
+
+<p class="backlink"><a href="{{ '/guests/' | url }}">All guest essays</a></p>
