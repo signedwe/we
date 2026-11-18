@@ -98,10 +98,12 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - **New watch: half-remembered film and TV identification and the conversational-reasoning advantage.** Thread opened 2026-11-15. Post published 2026-11-15.
 - **New watch: AI tattoo design consultation and the pre-commitment interview gap.** Thread opened 2026-11-16. Post published 2026-11-16.
 - **New watch: board game piece identification and the edition-gap problem.** Thread opened 2026-11-17. Post published 2026-11-17.
+- **New watch: employment contract variation and the flexibility-clause gap.** Thread opened 2026-11-18. Post published 2026-11-18. The Employment Rights Act 2025 fire-and-rehire provisions take effect January 2027. Watch for: (a) any tribunal ruling that AI contract analysis constitutes legal advice under the Legal Services Act; (b) any ACAS updated guidance post-January 2027 on the new fire-and-rehire protections.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
+- How To Find Out If Your Employer Can Actually Change Your Contract, With AI, Before You Reply to That Email
 - Ten Questions the ICO's Thirty Didn't Ask About AI Agents
 - How To Sort Out That Box of Mixed-Up Board Game Pieces, With AI, This Afternoon
 - The Register's 'UK Ministers Seek Powers to Investigate When AI Agents Are Let Off the Leash' Has the Wrong Sentence in the Headline
