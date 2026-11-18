@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-18, after "OpenAI's 'The King's Trust and OpenAI Launch £1m Partnership' Has a Number Missing from It"
+
+The who-answers-for-it pattern gains a sub-case at the layer of corporate charitable gestures. Previous cases found it at the level of regulatory instruments, political statements, product features and sponsored statistics. This case finds it in a corporate donation: the gesture says a skills programme exists; the arithmetic says the amount cannot fund one; the expertise contribution that might close the gap has no measure and no one who answers if it fails to arrive.
+
+---
+
 ## Revised 2026-11-18, after "Ten Questions the ICO's Thirty Didn't Ask About AI Agents"
 
 Added definitional performance as a new sub-case at the evidence-gathering layer. The accountability-as-performance pattern previously appeared at the instrument layer (DRCF declaring adequacy), the product layer (chain-of-thought traces), and the macroeconomic layer (Bank of England MPR). This case finds it one step earlier: in the evidence-gathering process itself. The call assumes a stable category to gather evidence about. The category's instability means the evidence describes many different things. The code performs definition without having done the work of definition first.
