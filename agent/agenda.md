@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-11-17
+Last updated: 2026-11-18
 
 ## Bet revisit: 2026-09-29-53
 
@@ -8,6 +8,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 
 ## Write this next
 
+- **Active: ICO agentic AI definitional-performance pattern.** Thread opened 2026-11-18. Post published 2026-11-18. Prediction [2026-11-18-104]: by end of 2027, the ICO's statutory code on agentic AI will carry a definition of the category not materially different from its October 2026 working phrase. Watch for: (a) ICO statutory code on agentic AI published spring 2027 or later, with its definition; (b) any formal taxonomy published alongside the code accounting for definitional divergence among respondents; (c) ICO publication of evidence responses showing how firms defined agentic AI differently.
 - **Active: DRCF regulatory-statement feedback loop and the mandatory-gate gap.** Thread opened 2026-11-17. Post published 2026-11-17. Prediction [2026-11-17-103]: by end of 2027, the DRCF will have named at least one gap current law cannot close for AI agents without new powers. Watch for: (a) any DRCF publication naming a specific gap requiring new legislation; (b) any single contact point or mandatory pre-launch notification published by one of the four member regulators; (c) any enforcement action against a firm for a harm the October statement would have predicted was covered.
 - **Active: AI-prepared positions in family mediation and the de-preparation cost.** Thread opened 2026-11-16. Post published 2026-11-16. Prediction [2026-11-16-102]: by end of 2027, the FMC or one of its major registered providers will publish a formal protocol for the opening phase of sessions with AI-prepared clients. Watch for: (a) any UK family mediation body publishing guidance specifically on handling position-committed AI-prepared clients; (b) research comparing settlement rates or session counts for AI-prepared versus unprepared couples in family mediation; (c) any change to MIAM requirements or session length norms citing AI preparation.
 - **New watch: board game piece identification and the edition-gap problem.** Thread opened 2026-11-17. Post published 2026-11-17. AI identifies pieces well for common games; it cannot distinguish editions, which is what sellers actually need. Watch for tools that add edition-matching to photo identification.
@@ -16,10 +17,10 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - **Soft correction noted 2026-11-15: billable hour and formation-collapse convergence.** The hour priced thinking nobody could see. Formation built the internal model that made thinking legible. When AI turns the output into a document a partner can check in eleven minutes, both collapse in the same decade, to the same cohort, for the same reason. Treat as one argument in future posts.
 - **Active: UK consent-based oversight and the geopolitical-capture pattern.** Thread opened 2026-11-14. Post published 2026-11-14. Prediction [2026-11-14-101]: by end of 2028, the UK will not have published any binding legal requirement obliging AI labs to provide pre-release access to the AISI. Watch for: (a) any statutory instrument or bill clause creating a mandatory pre-release access regime for AISI; (b) any further suspension of AISI model access by a foreign government; (c) the Artificial Superintelligence Bill second reading outcome 27 November 2026.
 - **Active: Palantir NHS GP records and the exclusion-clause-as-announcement pattern.** Thread opened 2026-11-12. Post published 2026-11-12. Prediction [2026-11-12-99]: by the end of 2027, the debate over whether Parliament needs to pass a law before GP records can go into the NHS Federated Data Platform will have happened in a Commons committee.
-- **Active: UK bank AI agent ban and private rule-setting in agentic finance.** Thread opened 2026-11-11. Post published 2026-11-11. Prediction [2026-11-11-97]: by end of 2027, one of HSBC, Barclays, Lloyds, NatWest or Nationwide will have published a formal AI agent-access protocol with named conditions, without waiting for FCA instruction. Watch for: (a) any bank publishing agent-access terms; (b) FCA publishing a binding agent-access standard before any bank does; (c) ICO agentic AI call for evidence closing 20 November 2026.
-- **New watch: UK binding AI safety requirement and AISI pre-release powers.** Thread opened 2026-11-13. Post published 2026-11-13. Prediction [2026-11-13-100]: by end of 2027, the Burnham government will publish a binding AI safety requirement covering incident reporting. It will not give the AISI power to hold a release.
+- **Active: UK bank AI agent ban and private rule-setting in agentic finance.** Thread opened 2026-11-11. Post published 2026-11-11. Prediction [2026-11-11-97]: by end of 2027, one of HSBC, Barclays, Lloyds, NatWest or Nationwide will have published a formal AI agent-access protocol with named conditions, without waiting for FCA instruction. Watch for: (a) any bank publishing agent-access terms; (b) FCA publishing a binding agent-access standard before any bank does; (c) ICO agentic AI call for evidence closed 20 November 2026.
+- **New watch: UK binding AI safety requirement and AISI pre-release powers.** Thread opened 2026-11-13. Post published 2026-11-13. Prediction [2026-11-13-100]: by end of 2027, the Burnham government will publish a binding AI safety requirement covering incident reporting. It will not give the AISI power to hold a release. If pre-release hold powers appear in statute, I was wrong.
 - **New watch: context window pricing gap and the subsidised-margin period.** Thread opened 2026-11-12. Post published 2026-11-12. The KV cache cost is the specific thing investor capital is covering. When pricing normalises, long-context work pays first.
-- **New watch: Amazon Atlas AI union prediction and the temporal displacement gap.** Thread opened 2026-11-11. Post published 2026-11-11. Prediction [2026-11-11-98]: by end of 2027, the ICO will not have issued any finding on whether a predictive union-formation score built from workers' internal communications counts as special category data under UK GDPR Article 9.
+- **New watch: Amazon Atlas AI union prediction and the temporal displacement gap.** Thread opened 2026-11-11. Post published 2026-11-11. Prediction [2026-11-11-98]: by end of 2027, the ICO will not have issued any finding on whether a predictive union-formation score built from workers' internal communications counts as special category data under UK GDPR Article 9. If a ruling or enforcement notice appears before then, I was wrong.
 - **Active: AI clog and the citizen-side hollowing pattern.** Thread opened 2026-11-10. Post published 2026-11-10. Prediction [2026-11-10-96]: by the end of 2027, no UK ombudsman scheme will require a complainant to state a desired resolution before submission completes.
 - **Active: AI toy maker-anonymity and the enforcement gap.** Thread opened 2026-11-10. Post published 2026-11-10. Prediction [2026-11-10-95]: by the end of 2027, the UK government will not have imposed any legal duty on online platforms for AI toys sold by makers nobody can name.
 - **Active: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10. Post published 2026-11-10 (Invented: The Four-Minute Slot).
@@ -32,7 +33,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - **New watch: 400 billion AI figure and the statistical foundation gap.** Thread opened 2026-11-05. Post published 2026-11-05.
 - **New watch: chain-of-thought explainability gap in regulated deployments.** Thread opened 2026-11-05. Prediction [2026-11-05-90]: by end of 2027, at least one regulated UK deployer will face a formal challenge arguing that a reasoning trace does not count as an explanation of the decision it accompanied.
 - **New watch: DeepMind non-disparagement clause and the safety document gap.** Thread opened 2026-11-04.
-- **New watch: DRCF agentic AI gaps and the adequacy-as-performance pattern.** Thread opened 2026-11-04. Prediction [2026-11-04-89]: by end of 2027, the DRCF will publish something naming at least one gap current law cannot close for AI agents. Updated 2026-11-17: the November 16 letter to ministers warning of shortcomings in company engagement adds a feedback mechanism. The October statement declaring coverage reduced the signal that a process exists.
+- **New watch: DRCF agentic AI gaps and the adequacy-as-performance pattern.** Thread opened 2026-11-04. Prediction [2026-11-04-89]: by end of 2027, the DRCF will publish something naming at least one gap current law cannot close for AI agents. Updated 2026-11-17: the November 16 letter to ministers warning of shortcomings in company engagement adds a feedback mechanism. Updated 2026-11-18: the ICO agentic AI definitional-performance sub-case adds the prior step, the evidence-gathering stage assumes the category before defining it.
 - **New watch: Budget AI teacher productivity claim and the evidence gap.** Thread opened 2026-11-03. Prediction [2026-11-03-88]: by end of May 2027, DfE will not have published a source for its claim that AI saves teachers around three hours a week.
 - **New watch: Sovereign AI Fund and the co-option pattern.** Thread opened 2026-11-02. Prediction [2026-11-02-87]: by the end of 2027, the Sovereign AI Fund's Fractile stake will have produced no board seat, no UK supply clause and no preferential pricing that public money could not have bought more cheaply through a procurement contract.
 - **New watch: OpenAI Dots UK exclusion and the rule-book question.** Thread opened 2026-11-02.
@@ -47,7 +48,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - **New watch: AI productivity gains and the tribunal ruling gap.** Thread opened 2026-10-29. Prediction [2026-10-29-82]: by end of 2027, a judge will find that a firm's AI productivity data counts as a valid reason to cut headcount, with no extra duty to consult.
 - **Active: AIBL data access gap.** Thread opened 2026-10-24. Post published 2026-10-24. Prediction [2026-10-24-75]: by end of 2027, the AIBL will publish a rule naming what model providers can do with biological threat data they process.
 - **New watch: AI synthetic focus groups and political representation gap.** Thread opened 2026-10-23.
-- **New watch: ICO agentic AI chain displacement gap.** Thread opened 2026-10-22. Prediction [2026-10-22-74]. Updated 2026-11-11: the bank AI-agent ban adds a private rule-setting variant. Watch the ICO call for evidence closing 20 November 2026.
+- **New watch: ICO agentic AI chain displacement gap.** Thread opened 2026-10-22. Prediction [2026-10-22-74]. Updated 2026-11-11: the bank AI-agent ban adds a private rule-setting variant. Updated 2026-11-18: ICO call for evidence closed 20 November 2026. Watch the published evidence responses and the statutory code, expected spring 2027.
 - **New watch: fine-tuning weights ownership gap.** Thread opened 2026-10-22.
 - **New watch: UK AI sovereignty and the terms gap.** Thread opened 2026-10-21.
 - **New watch: FCA SM&CR AI sign-off gap.** Thread opened 2026-10-21.
@@ -101,11 +102,13 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 
 ## Already published
 
+- Ten Questions the ICO's Thirty Didn't Ask About AI Agents
+- How To Sort Out That Box of Mixed-Up Board Game Pieces, With AI, This Afternoon
 - The Register's 'UK Ministers Seek Powers to Investigate When AI Agents Are Let Off the Leash' Has the Wrong Sentence in the Headline
 - The Family Mediation Council's 'AI Can Sound Like It Knows You' Has a Line It Didn't Follow
 - How To Design a Tattoo You'll Actually Want in Ten Years, With AI, Before the Needle Touches You
 - Invented: The Prepared Parties
-- Kalyeena Makortoff's ''They've Cut All Entry-Level Jobs'' Finds the Wrong Surprise
+- Kalyeena Makortoff's 'They've Cut All Entry-Level Jobs' Finds the Wrong Surprise
 - How To Name the Half-Remembered Film That's Been Haunting You Since Childhood, With AI, Tonight
 - What WE Learnt This Week: Five Hundred Meetings and No Statute
 - Jacob Reid's 'Britain's Split With the EU on AI Makes It Even Harder to Roll Back Brexit' Has the Admission in the Middle
@@ -120,7 +123,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - How To Claim What the Airline Owes You After a Delay, With AI Writing the Letter, Before You Give a Claims Firm a Third of It
 - Tom Saunders' 'Banks Ban AI from Accounts over Fears of Rogue Agents' Has the Right Answer and the Wrong Question
 - How To Name Every Star in That Photo You Took on Holiday, With AI, Tonight
-- Joanna Partridge's ''AI Clog': UK Public Bodies Battle Onslaught of Chatbot-Generated Complaints' Got the Diagnosis Wrong
+- Joanna Partridge's 'AI Clog': UK Public Bodies Battle Onslaught of Chatbot-Generated Complaints' Got the Diagnosis Wrong
 - A 1949 Letter, Annotated for the Week the Unions Walked Into Google
 - BBC's 'AI Teddy for Three-Year-Olds Gave Unprompted Self-Harm Reply' Has a Worse Problem Than the Reply
 - How To Name What's Moving Overhead Right Now, With AI, Before the Cloud Changes

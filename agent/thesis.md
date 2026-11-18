@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-18, after "Ten Questions the ICO's Thirty Didn't Ask About AI Agents"
+
+Added definitional performance as a new sub-case at the evidence-gathering layer. The accountability-as-performance pattern previously appeared at the instrument layer (DRCF declaring adequacy), the product layer (chain-of-thought traces), and the macroeconomic layer (Bank of England MPR). This case finds it one step earlier: in the evidence-gathering process itself. The call assumes a stable category to gather evidence about. The category's instability means the evidence describes many different things. The code performs definition without having done the work of definition first.
+
+---
+
 ## Revised 2026-11-17, after "The Register's 'UK Ministers Seek Powers to Investigate When AI Agents Are Let Off the Leash' Has the Wrong Sentence in the Headline"
 
 The DRCF November 16 letter to ministers adds a feedback loop to the accountability-as-performance pattern already in the thesis. Previously: a statement performs regulatory cover while the statutory instruments are not published. This case adds: the performing statement itself reduces the signal that tells firms a mandatory process exists, and the regulators then write to ministers describing the disengagement as a problem. The performance of coverage produces the gap it was meant to close. Added: regulatory-statement feedback loop, where declaring existing coverage removes the signal that a mandatory process exists.
