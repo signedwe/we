@@ -102,10 +102,12 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - **New watch: AI tattoo design consultation and the pre-commitment interview gap.** Thread opened 2026-11-16. Post published 2026-11-16.
 - **New watch: board game piece identification and the edition-gap problem.** Thread opened 2026-11-17. Post published 2026-11-17.
 - **New watch: employment contract variation and the flexibility-clause gap.** Thread opened 2026-11-18. Post published 2026-11-18. The Employment Rights Act 2025 fire-and-rehire provisions take effect January 2027.
+- **New watch: mystery houseplant identification and the cultivar-confidence gap.** Thread opened 2026-11-19. Post published 2026-11-19.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
+- How To Name the Mystery Plant That's Taken Over Your Windowsill, With AI, This Afternoon
 - How retrieval-augmented generation works: why your AI assistant knows your documents but still gets them wrong
 - OpenAI's 'The King's Trust and OpenAI Launch £1m Partnership' Has a Number Missing from It
 - How To Find Out If Your Employer Can Actually Change Your Contract, With AI, Before You Reply to That Email
