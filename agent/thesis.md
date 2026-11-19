@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-19, after "How retrieval-augmented generation works: why your AI assistant knows your documents but still gets them wrong"
+
+RAG adds a sub-case to the accountability-as-performance pattern at the product layer. The model's safety card performs accountability for a system whose reliability is determined by an upstream, undocumented step: who built the archive, how they cut it, and when they last refreshed it. Previous cases in this pattern found it at the regulatory instrument layer (HMRC), the political layer (Budget), the cross-regulator statement layer (DRCF), the company governance layer (DeepMind), and the product layer (chain-of-thought traces). This case finds it one step earlier still: in the data preparation that happens before the model is ever called. The safety documentation covers the parametric memory. The non-parametric memory has no equivalent card.
+
+---
+
 ## Revised 2026-11-18, after "OpenAI's 'The King's Trust and OpenAI Launch £1m Partnership' Has a Number Missing from It"
 
 The who-answers-for-it pattern gains a sub-case at the layer of corporate charitable gestures. Previous cases found it at the level of regulatory instruments, political statements, product features and sponsored statistics. This case finds it in a corporate donation: the gesture says a skills programme exists; the arithmetic says the amount cannot fund one; the expertise contribution that might close the gap has no measure and no one who answers if it fails to arrive.
