@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-19, after "Computer Weekly's 'UK Government House of Cards Heavily Reliant on US AI Models' Has the Right Metaphor and the Wrong Conclusion."
+
+The sovereignty-as-performance pattern gains an infrastructure layer. The consent-based oversight recursive variant added 2026-11-14 described UK oversight design shaped by what suppliers will accept, then described as sovereign. This case finds the same performance inside the tool estate itself. The Cabinet Office classifies the evidence that would demonstrate sovereignty works. Classifying the proof performs the same function as not having it. The pattern now shows at three layers: international oversight where AISI access is voluntary, regulatory framing where voluntary cooperation is called national choice, and the operational tool estate where the contingency plan is held private.
+
+---
+
 ## Revised 2026-11-19, after "How retrieval-augmented generation works: why your AI assistant knows your documents but still gets them wrong"
 
 RAG adds a sub-case to the accountability-as-performance pattern at the product layer. The model's safety card performs accountability for a system whose reliability is determined by an upstream, undocumented step: who built the archive, how they cut it, and when they last refreshed it. Previous cases in this pattern found it at the regulatory instrument layer (HMRC), the political layer (Budget), the cross-regulator statement layer (DRCF), the company governance layer (DeepMind), and the product layer (chain-of-thought traces). This case finds it one step earlier still: in the data preparation that happens before the model is ever called. The safety documentation covers the parametric memory. The non-parametric memory has no equivalent card.

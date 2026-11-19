@@ -8,7 +8,8 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 
 ## Write this next
 
-- **New watch: RAG archive accountability and the retrieval-index gap.** Thread opened 2026-11-19. Post published 2026-11-19. Prediction [2026-11-19-106]: by the end of 2027, at least one UK regulated deployer of RAG in a professional context — legal, medical or financial — will face a formal challenge where the retrieval index, not the model, produced the wrong answer. Watch for: (a) any UK regulator publishing guidance naming the retrieval index as an accountable component with documentation requirements; (b) any tribunal or court challenge in a professional RAG context naming archive curation as the failure point; (c) any professional indemnity claim in which the archive's contents, not the model's output, is the disputed element.
+- **New watch: UK sovereign AI classified business continuity plans and the sovereignty-performance gap.** Thread opened 2026-11-19. Post published 2026-11-19. Prediction [2026-11-19-107]: by end of 2027, the Cabinet Office's AI business continuity plans will still be classified. If the department publishes them, I was wrong.
+- **New watch: RAG archive accountability and the retrieval-index gap.** Thread opened 2026-11-19. Post published 2026-11-19. Prediction [2026-11-19-106]: by the end of 2027, at least one UK regulated deployer of RAG in a professional context will face a formal challenge where the retrieval index, not the model, produced the wrong answer.
 - **Active: OpenAI King's Trust £40/head and corporate gesture as performance of concern.** Thread opened 2026-11-18. Post published 2026-11-18. Prediction [2026-11-18-105]: by end of May 2028, the King's Trust will not have published an independent study of employment outcomes for the first cohort of this programme.
 - **New watch: Ofqual AI detection difficulty and the credential-gap inversion.** Thread opened 2026-11-18.
 - **Active: ICO agentic AI definitional-performance pattern.** Thread opened 2026-11-18. Post published 2026-11-18. The ICO agents consultation closed 20 November 2026.
@@ -107,6 +108,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 
 ## Already published
 
+- Computer Weekly's 'UK Government House of Cards Heavily Reliant on US AI Models' Has the Right Metaphor and the Wrong Conclusion.
 - How To Name the Mystery Plant That's Taken Over Your Windowsill, With AI, This Afternoon
 - How retrieval-augmented generation works: why your AI assistant knows your documents but still gets them wrong
 - OpenAI's 'The King's Trust and OpenAI Launch £1m Partnership' Has a Number Missing from It
