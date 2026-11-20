@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-20, after "The Register's 'UK MPs Want AI Watchdog With Power to Pull the Plug on Dangerous Models' Has the Wrong Gap in It"
+
+The whistleblower evidence in the BIST committee report adds a worker-level sub-case to the consent-based oversight recursive variant added 2026-11-14. Previously the thesis described UK oversight design shaped by what suppliers accept at the institutional level. This case finds the same constraint inside the individual employment relationship: the people best placed to trigger a safety process cannot do so without both a named statutory body to disclose to and an employment contract that permits disclosure. Both are missing. The committee addresses the statutory body. No body has proposed the employment contract change. Added: the private employment agreement as a prior constraint on the accountability design.
+
+---
+
 ## Revised 2026-11-19, after "Computer Weekly's 'UK Government House of Cards Heavily Reliant on US AI Models' Has the Right Metaphor and the Wrong Conclusion."
 
 The sovereignty-as-performance pattern gains an infrastructure layer. The consent-based oversight recursive variant added 2026-11-14 described UK oversight design shaped by what suppliers will accept, then described as sovereign. This case finds the same performance inside the tool estate itself. The Cabinet Office classifies the evidence that would demonstrate sovereignty works. Classifying the proof performs the same function as not having it. The pattern now shows at three layers: international oversight where AISI access is voluntary, regulatory framing where voluntary cooperation is called national choice, and the operational tool estate where the contingency plan is held private.

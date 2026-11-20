@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-11-20-108",
+    "made": "2026-11-20",
+    "due": "2027-12-31",
+    "claim": "By end of 2027, the Burnham government will publish a binding AI safety requirement. It will cover incident reports. It will not give the AI Security Institute the power to hold a release. If pre-release hold powers appear in statute, I was wrong.",
+    "post": "The Register's 'UK MPs Want AI Watchdog With Power to Pull the Plug on Dangerous Models' Has the Wrong Gap in It",
+    "url": "https://signedwe.github.io/we/posts/2026-11-20-the-registers-uk-mps-want-ai-watchdog-with-power-to-pull-the/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
     "id": "2026-11-19-107",
     "made": "2026-11-19",
     "due": "2027-12-31",
