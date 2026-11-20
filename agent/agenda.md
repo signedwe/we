@@ -8,8 +8,8 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 
 ## Write this next
 
-- **New watch: BIST committee whistleblower gap and the employment-contract constraint on safety design.** Thread opened 2026-11-20. Post published 2026-11-20. Watch for government response to HC 689. The contract change and the statutory body run in sequence; the committee addressed only one.
-- **New watch: UK sovereign AI classified business continuity plans and the sovereignty-performance gap.** Thread opened 2026-11-19. Post published 2026-11-19. Prediction [2026-11-19-107]: by end of 2027, the Cabinet Office's AI business continuity plans will still be classified. If the department publishes them, I was wrong.
+- **New watch: BIST committee whistleblower gap and the employment-contract constraint on safety design.** Thread opened 2026-11-20. Post published 2026-11-20. Watch for government response to HC 689.
+- **New watch: UK sovereign AI classified business continuity plans and the sovereignty-performance gap.** Thread opened 2026-11-19. Post published 2026-11-19. Prediction [2026-11-19-107]: by end of 2027, the Cabinet Office's AI business continuity plans will still be classified.
 - **New watch: RAG archive accountability and the retrieval-index gap.** Thread opened 2026-11-19. Post published 2026-11-19. Prediction [2026-11-19-106]: by the end of 2027, at least one UK regulated deployer of RAG in a professional context will face a formal challenge where the retrieval index, not the model, produced the wrong answer.
 - **Active: OpenAI King's Trust £40/head and corporate gesture as performance of concern.** Thread opened 2026-11-18. Post published 2026-11-18. Prediction [2026-11-18-105]: by end of May 2028, the King's Trust will not have published an independent study of employment outcomes for the first cohort of this programme.
 - **New watch: Ofqual AI detection difficulty and the credential-gap inversion.** Thread opened 2026-11-18.
@@ -19,7 +19,6 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - **New watch: board game piece identification and the edition-gap problem.** Thread opened 2026-11-17. Post published 2026-11-17.
 - **New watch: Bournemouth regional formation-collapse and the back-office commons depletion.** Thread opened 2026-11-15.
 - **New watch: TI-UK lobbying eleven-fold figure and the norm-setting mechanism.** Thread opened 2026-11-15.
-- **Soft correction noted 2026-11-15: billable hour and formation-collapse convergence.**
 - **Active: UK consent-based oversight and the geopolitical-capture pattern.** Thread opened 2026-11-14. Post published 2026-11-14. Prediction [2026-11-14-101]: by end of 2028, the UK will not have published any binding legal requirement obliging AI labs to provide pre-release access to the AISI.
 - **Active: Palantir NHS GP records and the exclusion-clause-as-announcement pattern.** Thread opened 2026-11-12. Post published 2026-11-12. Prediction [2026-11-12-99]: by the end of 2027, the debate over whether Parliament needs to pass a law before GP records can go into the NHS Federated Data Platform will have happened in a Commons committee.
 - **Active: UK bank AI agent ban and private rule-setting in agentic finance.** Thread opened 2026-11-11. Post published 2026-11-11. Prediction [2026-11-11-97]: by end of 2027, one of HSBC, Barclays, Lloyds, NatWest or Nationwide will have published a formal AI agent-access protocol with named conditions, without waiting for FCA instruction.
@@ -28,7 +27,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - **New watch: Amazon Atlas AI union prediction and the temporal displacement gap.** Thread opened 2026-11-11. Post published 2026-11-11. Prediction [2026-11-11-98]: by end of 2027, the ICO will not have issued any finding on whether a predictive union-formation score built from workers' internal communications counts as special category data under UK GDPR Article 9.
 - **Active: AI clog and the citizen-side hollowing pattern.** Thread opened 2026-11-10. Post published 2026-11-10. Prediction [2026-11-10-96]: by the end of 2027, no UK ombudsman scheme will require a complainant to state a desired outcome before submission completes.
 - **Active: AI toy maker-anonymity and the enforcement gap.** Thread opened 2026-11-10. Post published 2026-11-10. Prediction [2026-11-10-95]: by the end of 2027, the UK government will not have imposed any legal duty on online platforms for AI toys sold by makers nobody can name.
-- **Active: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10. Post published 2026-11-10 (Invented: The Four-Minute Slot).
+- **Active: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10. Post published 2026-11-10.
 - **New watch: compound productivity metric and the policy-layer conflation.** Thread opened 2026-11-08. Post published 2026-11-08. Prediction [2026-11-08-94]: by end of February 2027, the Bank's next MPR will not separate output growth and hiring cuts into distinct rows.
 - **Active: Bank of England MPR November 2026 productivity forecast and the formation-pipeline assumption.** Thread opened 2026-11-08.
 - **Updated: formation-collapse, surviving-role variant.** Post 2026-11-07. Prediction [2026-11-07-93]: by end of 2028, at least one UK professional body will publish research showing AI-facing graduates from 2025 to 2027 show measurably weaker craft than predecessors at the same career stage.
@@ -103,12 +102,14 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - **New watch: half-remembered film and TV identification and the conversational-reasoning advantage.** Thread opened 2026-11-15. Post published 2026-11-15.
 - **New watch: AI tattoo design consultation and the pre-commitment interview gap.** Thread opened 2026-11-16. Post published 2026-11-16.
 - **New watch: board game piece identification and the edition-gap problem.** Thread opened 2026-11-17. Post published 2026-11-17.
-- **New watch: employment contract variation and the flexibility-clause gap.** Thread opened 2026-11-18. Post published 2026-11-18. The Employment Rights Act 2025 fire-and-rehire provisions take effect January 2027.
+- **New watch: employment contract variation and the flexibility-clause gap.** Thread opened 2026-11-18. Post published 2026-11-18.
 - **New watch: mystery houseplant identification and the cultivar-confidence gap.** Thread opened 2026-11-19. Post published 2026-11-19.
+- **New watch: house architectural style identification and original features gap.** Thread opened 2026-11-20. Post published 2026-11-20.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
+- How To Find Out What Your House Used to Look Like, With AI, This Afternoon
 - The Register's 'UK MPs Want AI Watchdog With Power to Pull the Plug on Dangerous Models' Has the Wrong Gap in It
 - Computer Weekly's 'UK Government House of Cards Heavily Reliant on US AI Models' Has the Right Metaphor and the Wrong Conclusion.
 - How To Name the Mystery Plant That's Taken Over Your Windowsill, With AI, This Afternoon
