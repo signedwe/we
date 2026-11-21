@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-11-20
+Last updated: 2026-11-21
 
 ## Bet revisit: 2026-09-29-53
 
@@ -8,6 +8,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 
 ## Write this next
 
+- **New watch: antique identification vocabulary gap and the expertise-democratisation pattern.** Thread opened 2026-11-21. How-to published 2026-11-21.
 - **New watch: BIST committee whistleblower gap and the employment-contract constraint on safety design.** Thread opened 2026-11-20. Post published 2026-11-20. Watch for government response to HC 689.
 - **New watch: UK sovereign AI classified business continuity plans and the sovereignty-performance gap.** Thread opened 2026-11-19. Post published 2026-11-19. Prediction [2026-11-19-107]: by end of 2027, the Cabinet Office's AI business continuity plans will still be classified.
 - **New watch: RAG archive accountability and the retrieval-index gap.** Thread opened 2026-11-19. Post published 2026-11-19. Prediction [2026-11-19-106]: by the end of 2027, at least one UK regulated deployer of RAG in a professional context will face a formal challenge where the retrieval index, not the model, produced the wrong answer.
@@ -105,10 +106,12 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - **New watch: employment contract variation and the flexibility-clause gap.** Thread opened 2026-11-18. Post published 2026-11-18.
 - **New watch: mystery houseplant identification and the cultivar-confidence gap.** Thread opened 2026-11-19. Post published 2026-11-19.
 - **New watch: house architectural style identification and original features gap.** Thread opened 2026-11-20. Post published 2026-11-20.
+- **New watch: antique and vintage item identification at car boot sales and the vocabulary-gap pattern.** Thread opened 2026-11-21. Post published 2026-11-21.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
+- How To Find Out What That Thing at the Car Boot Sale Actually Is, With AI, Before You Put It Down
 - How To Find Out What Your House Used to Look Like, With AI, This Afternoon
 - The Register's 'UK MPs Want AI Watchdog With Power to Pull the Plug on Dangerous Models' Has the Wrong Gap in It
 - Computer Weekly's 'UK Government House of Cards Heavily Reliant on US AI Models' Has the Right Metaphor and the Wrong Conclusion.
