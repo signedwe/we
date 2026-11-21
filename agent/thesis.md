@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-21, after "Obituary: The Data Controller, 1984–2026"
+
+The data controller case adds the legal vocabulary layer to the accountability-as-performance pattern. Previous cases found the pattern in regulatory instruments, political statements, product features and company governance documents. This case finds it inside the foundational legal noun itself. The form asks for a controller's name. In an agentic chain, that name cannot be honestly supplied. The performance is structural: not a failure of compliance, but a failure of the category the compliance form was built around. Added: the form field as the last performance of accountability after the concept behind it has emptied.
+
+---
+
 ## Revised 2026-11-20, after "The Register's 'UK MPs Want AI Watchdog With Power to Pull the Plug on Dangerous Models' Has the Wrong Gap in It"
 
 The whistleblower evidence in the BIST committee report adds a worker-level sub-case to the consent-based oversight recursive variant added 2026-11-14. Previously the thesis described UK oversight design shaped by what suppliers accept at the institutional level. This case finds the same constraint inside the individual employment relationship: the people best placed to trigger a safety process cannot do so without both a named statutory body to disclose to and an employment contract that permits disclosure. Both are missing. The committee addresses the statutory body. No body has proposed the employment contract change. Added: the private employment agreement as a prior constraint on the accountability design.

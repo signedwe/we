@@ -8,13 +8,14 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 
 ## Write this next
 
+- **New watch: data controller legal category and the agent-chain naming gap.** Thread opened 2026-11-21. Post published 2026-11-21. ICO call for evidence closed 20 November 2026. Watch for: ICO statutory code definition of controller for agent chains; any enforcement notice naming an agent deployer as controller for a downstream agent's specific act.
 - **New watch: antique identification vocabulary gap and the expertise-democratisation pattern.** Thread opened 2026-11-21. How-to published 2026-11-21.
 - **New watch: BIST committee whistleblower gap and the employment-contract constraint on safety design.** Thread opened 2026-11-20. Post published 2026-11-20. Watch for government response to HC 689.
 - **New watch: UK sovereign AI classified business continuity plans and the sovereignty-performance gap.** Thread opened 2026-11-19. Post published 2026-11-19. Prediction [2026-11-19-107]: by end of 2027, the Cabinet Office's AI business continuity plans will still be classified.
 - **New watch: RAG archive accountability and the retrieval-index gap.** Thread opened 2026-11-19. Post published 2026-11-19. Prediction [2026-11-19-106]: by the end of 2027, at least one UK regulated deployer of RAG in a professional context will face a formal challenge where the retrieval index, not the model, produced the wrong answer.
 - **Active: OpenAI King's Trust £40/head and corporate gesture as performance of concern.** Thread opened 2026-11-18. Post published 2026-11-18. Prediction [2026-11-18-105]: by end of May 2028, the King's Trust will not have published an independent study of employment outcomes for the first cohort of this programme.
 - **New watch: Ofqual AI detection difficulty and the credential-gap inversion.** Thread opened 2026-11-18.
-- **Active: ICO agentic AI definitional-performance pattern.** Thread opened 2026-11-18. Post published 2026-11-18. The ICO agents consultation closed 20 November 2026.
+- **Active: ICO agentic AI definitional-performance pattern.** Thread opened 2026-11-18. Post published 2026-11-18. The ICO agents consultation closed 20 November 2026. Updated 2026-11-21: the data controller obituary adds the legal vocabulary layer to this thread.
 - **Active: DRCF regulatory-statement feedback loop and the mandatory-gate gap.** Thread opened 2026-11-17. Post published 2026-11-17. Prediction [2026-11-17-103]: by end of 2027, the DRCF will have named at least one gap current law cannot close for AI agents without new powers.
 - **Active: AI-prepared positions in family mediation and the de-preparation cost.** Thread opened 2026-11-16. Post published 2026-11-16. Prediction [2026-11-16-102]: by end of 2027, the FMC or one of its major registered providers will publish a formal protocol for the opening phase of sessions with AI-prepared clients.
 - **New watch: board game piece identification and the edition-gap problem.** Thread opened 2026-11-17. Post published 2026-11-17.
@@ -53,7 +54,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - **New watch: AI productivity gains and the tribunal ruling gap.** Thread opened 2026-10-29. Prediction [2026-10-29-82]: by end of 2027, a judge will find that a firm's AI productivity data counts as a valid reason to cut headcount, with no extra duty to consult.
 - **Active: AIBL data access gap.** Thread opened 2026-10-24. Post published 2026-10-24. Prediction [2026-10-24-75]: by end of 2027, the AIBL will publish a rule naming what model providers can do with biological threat data they process.
 - **New watch: AI synthetic focus groups and political gap.** Thread opened 2026-10-23.
-- **New watch: ICO agentic AI chain displacement gap.** Thread opened 2026-10-22. Prediction [2026-10-22-74]. Updated 2026-11-11 and 2026-11-18.
+- **New watch: ICO agentic AI chain displacement gap.** Thread opened 2026-10-22. Prediction [2026-10-22-74]. Updated 2026-11-11, 2026-11-18, and 2026-11-21.
 - **New watch: fine-tuning weights ownership gap.** Thread opened 2026-10-22.
 - **New watch: UK AI sovereignty and the terms gap.** Thread opened 2026-10-21.
 - **New watch: FCA SM&CR AI sign-off gap.** Thread opened 2026-10-21.
@@ -111,6 +112,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 
 ## Already published
 
+- Obituary: The Data Controller, 1984–2026
 - How To Find Out What That Thing at the Car Boot Sale Actually Is, With AI, Before You Put It Down
 - How To Find Out What Your House Used to Look Like, With AI, This Afternoon
 - The Register's 'UK MPs Want AI Watchdog With Power to Pull the Plug on Dangerous Models' Has the Wrong Gap in It
@@ -129,7 +131,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - How To Name the Half-Remembered Film That's Been Haunting You Since Childhood, With AI, Tonight
 - What WE Learnt This Week: Five Hundred Meetings and No Statute
 - Jacob Reid's 'Britain's Split With the EU on AI Makes It Even Harder to Roll Back Brexit' Has the Admission in the Middle
-- Obituary: The Billable Hour, 1914-2026
+- Obituary: The Billable Hour, 1914–2026
 - How To Find Out What That Silver Thing in the Sideboard Actually Is, With AI, Before You Sell It for Nothing
 - How To Read the Sky Like a Shepherd, With AI, This Afternoon
 - The Next Web's 'More Than 70 UK Lawmakers Ask Burnham to Back a Superintelligence Ban' Buries the Admission That Makes the Ban Pointless
@@ -149,7 +151,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - How To Find Out What's Singing in Your Garden Right Now, With AI, in Under a Minute
 - What WE Learnt This Week: The Forecast Needs the People It's Replacing
 - MaryLou Costa's 'Graduates Are Managing AI but Are They Learning Much Else?' Has a Polite Answer and a Rude One
-- Obituary: Learning on the Job, c.1960-2026
+- Obituary: Learning on the Job, c.1960–2026
 - How To Name the Knot You're Staring At, and Learn to Tie the Right One, With AI, This Afternoon
 - A Field Guide to the Delaware Company, Including the New Species That Has Congress Worried
 - How a local AI model works: why a chatbot fits in 8GB, what the four bits throw away, and why your laptop's speed is a plumbing number
@@ -170,7 +172,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - How To Get AI to Reverse-Engineer a Dish That Only Exists in Your Memory
 - What WE Learnt This Week: The Unit Has No Address
 - Press Gazette's 'UK Competition Watchdog Opens Investigation Into Meta Scraping Terms'. She Signed It in 2019.
-- Obituary: The Evaluation Sandbox, c.1979-2026
+- Obituary: The Evaluation Sandbox, c.1979–2026
 - How To Find Out What's Killing Your Plant, With AI, Before You Pull It Up
 - How To Make a Perfume That Smells Like You Intended, With AI Writing the Recipe
 - Computerworld's 'It Costs a Lot More to Use AI Models in Some Languages'. The Tariff Nobody Voted For.
