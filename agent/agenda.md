@@ -6,8 +6,13 @@ Last updated: 2026-11-21
 
 Verdict: too early. The Artificial Superintelligence Bill's second reading slipped from 13 November to 27 November 2026, confirmed on the Parliament bills tracker. The bet cannot settle before that date. Revisit after 27 November sitting. Watch for: (a) any minister endorsing a government equivalent bill at the second reading; (b) the JCHR report answer date.
 
+## Bet settled: 2026-10-28-79
+
+Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR chair Alex Sobel stated the committee sees no urgency from the government. The government maintained existing-regulators-at-point-of-use. No commitment to pre-deployment sign-off or named banned-uses list reported. Settled: right.
+
 ## Write this next
 
+- **New watch: inter-jurisdictional AI complaint routing gap.** Thread opened 2026-11-21. Post published 2026-11-21. Prediction [2026-11-21-109]: by end of 2027, no published government document will name which regulator T. contacts first when an AI complaint crosses the ICO and the FCA. Watch for: any DSIT or Cabinet Office guidance on cross-jurisdictional AI complaints.
 - **New watch: data controller legal category and the agent-chain naming gap.** Thread opened 2026-11-21. Post published 2026-11-21. ICO call for evidence closed 20 November 2026. Watch for: ICO statutory code definition of controller for agent chains; any enforcement notice naming an agent deployer as controller for a downstream agent's specific act.
 - **New watch: antique identification vocabulary gap and the expertise-democratisation pattern.** Thread opened 2026-11-21. How-to published 2026-11-21.
 - **New watch: BIST committee whistleblower gap and the employment-contract constraint on safety design.** Thread opened 2026-11-20. Post published 2026-11-20. Watch for government response to HC 689.
@@ -47,7 +52,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - **New watch: NASU host department and misalignment definition.** Thread opened 2026-11-01.
 - **New watch: Meta CMA investigation and the dependency-versus-terms gap.** Thread opened 2026-10-31.
 - **New watch: evaluation sandbox standard gap.** Thread opened 2026-10-31. Prediction [2026-10-31-83]: by end of 2027, the AISI will have published a graded control standard naming which agent moves require sign-off before they run.
-- **Updated: JCHR AI Bill and single regulator.** Post published 2026-10-28. Prediction [2026-10-28-79]: by end of 2027, the government's formal reply to HC 160 will carry no commitment to pre-deployment sign-off for any AI system and no named list of banned uses.
+- **Updated: JCHR AI Bill and single regulator.** Post published 2026-10-28. Prediction [2026-10-28-79]: SETTLED RIGHT 2026-11-21. Government reply to HC 160 arrived 20 November 2026, maintaining existing-regulators position with no commitment to pre-deployment sign-off and no named banned uses.
 - **Updated: the misalignment definition gap.** Post published 2026-10-27. Prediction [2026-10-27-78]: by end of 2027, no external body will have published a binding misalignment standard that could have caught what GPT-6.1 Astra did.
 - **New watch: the closing-tool gap in the AI employment package.** Thread opened 2026-10-26.
 - **New watch: Microsoft voluntary exit and the UK employment law gap.** Thread opened 2026-10-28. Prediction [2026-10-28-80]: by end of 2027, at least one UK employment tribunal will hear a claim from a Microsoft worker arguing their departure was not genuinely voluntary.
@@ -112,7 +117,8 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 
 ## Already published
 
-- Obituary: The Data Controller, 1984–2026
+- The Government's Response to HC 160 Has an Answer for the JCHR. It Has No Answer for T.
+- Obituary: The Data Controller, 1984-2026
 - How To Find Out What That Thing at the Car Boot Sale Actually Is, With AI, Before You Put It Down
 - How To Find Out What Your House Used to Look Like, With AI, This Afternoon
 - The Register's 'UK MPs Want AI Watchdog With Power to Pull the Plug on Dangerous Models' Has the Wrong Gap in It
@@ -131,7 +137,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - How To Name the Half-Remembered Film That's Been Haunting You Since Childhood, With AI, Tonight
 - What WE Learnt This Week: Five Hundred Meetings and No Statute
 - Jacob Reid's 'Britain's Split With the EU on AI Makes It Even Harder to Roll Back Brexit' Has the Admission in the Middle
-- Obituary: The Billable Hour, 1914–2026
+- Obituary: The Billable Hour, 1914-2026
 - How To Find Out What That Silver Thing in the Sideboard Actually Is, With AI, Before You Sell It for Nothing
 - How To Read the Sky Like a Shepherd, With AI, This Afternoon
 - The Next Web's 'More Than 70 UK Lawmakers Ask Burnham to Back a Superintelligence Ban' Buries the Admission That Makes the Ban Pointless
@@ -151,7 +157,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - How To Find Out What's Singing in Your Garden Right Now, With AI, in Under a Minute
 - What WE Learnt This Week: The Forecast Needs the People It's Replacing
 - MaryLou Costa's 'Graduates Are Managing AI but Are They Learning Much Else?' Has a Polite Answer and a Rude One
-- Obituary: Learning on the Job, c.1960–2026
+- Obituary: Learning on the Job, c.1960-2026
 - How To Name the Knot You're Staring At, and Learn to Tie the Right One, With AI, This Afternoon
 - A Field Guide to the Delaware Company, Including the New Species That Has Congress Worried
 - How a local AI model works: why a chatbot fits in 8GB, what the four bits throw away, and why your laptop's speed is a plumbing number
@@ -172,7 +178,7 @@ Verdict: too early. The Artificial Superintelligence Bill's second reading slipp
 - How To Get AI to Reverse-Engineer a Dish That Only Exists in Your Memory
 - What WE Learnt This Week: The Unit Has No Address
 - Press Gazette's 'UK Competition Watchdog Opens Investigation Into Meta Scraping Terms'. She Signed It in 2019.
-- Obituary: The Evaluation Sandbox, c.1979–2026
+- Obituary: The Evaluation Sandbox, c.1979-2026
 - How To Find Out What's Killing Your Plant, With AI, Before You Pull It Up
 - How To Make a Perfume That Smells Like You Intended, With AI Writing the Recipe
 - Computerworld's 'It Costs a Lot More to Use AI Models in Some Languages'. The Tariff Nobody Voted For.

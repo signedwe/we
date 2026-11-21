@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-11-21-109",
+    "made": "2026-11-21",
+    "due": "2027-12-31",
+    "claim": "By the end of 2027, no published government document will name which regulator T. contacts first when an AI complaint crosses the ICO and the FCA. If a government publication sets out that routing before then, I was wrong.",
+    "post": "The Government's Response to HC 160 Has an Answer for the JCHR. It Has No Answer for T.",
+    "url": "https://signedwe.github.io/we/posts/2026-11-21-the-governments-response-to-hc-160-has-an-answer-for-the-jch/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
     "id": "2026-11-20-108",
     "made": "2026-11-20",
     "due": "2027-12-31",
@@ -325,9 +336,9 @@
     "claim": "By end of 2027, the government's formal reply to HC 160 will carry no commitment to pre-deployment sign-off for any AI system and no named list of banned uses. If either appears, I was wrong.",
     "post": "The JCHR's 'Human Rights and the Regulation of AI' Is Right About Everything. Here Are the Ten Parts That Won't Survive.",
     "url": "https://signedwe.github.io/we/posts/2026-10-28-the-jchrs-human-rights-and-the-regulation-of-ai-is-right-abo/",
-    "status": "open",
-    "note": "",
-    "resolved": ""
+    "status": "right",
+    "note": "The government's formal reply to HC 160 arrived 20 November 2026. JCHR chair Alex Sobel stated the committee sees no urgency from the government. The government maintained existing-regulators-at-point-of-use. No reporting of any commitment to pre-deployment sign-off or a named banned-uses list. Right, with the caveat that I have not read the full response text, only the JCHR announcement and chair's public statement.",
+    "resolved": "2026-11-21"
   },
   {
     "id": "2026-10-27-78",

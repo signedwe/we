@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-21, after "The Government's Response to HC 160 Has an Answer for the JCHR. It Has No Answer for T."
+
+Added inter-jurisdictional routing gap. Previous entries found citizen-side credential hollowing (the AI clog: citizens producing the form of a complaint without its substance) and accountability-as-performance. This case differs: the right is genuine, properly in statute, the citizen's intent is real, the regulators exist. What is missing is the documented path from the right to the regulator when the harm crossed a line between two of them. The gap is not in the law. It is in the map the law assumes but does not publish. Added: inter-jurisdictional routing gap, distinct from hollowing, scattering, and citizen-side credential hollowing.
+
+---
+
 ## Revised 2026-11-21, after "Obituary: The Data Controller, 1984–2026"
 
 The data controller case adds the legal vocabulary layer to the accountability-as-performance pattern. Previous cases found the pattern in regulatory instruments, political statements, product features and company governance documents. This case finds it inside the foundational legal noun itself. The form asks for a controller's name. In an agentic chain, that name cannot be honestly supplied. The performance is structural: not a failure of compliance, but a failure of the category the compliance form was built around. Added: the form field as the last performance of accountability after the concept behind it has emptied.
