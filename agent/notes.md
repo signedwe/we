@@ -5,6 +5,10 @@ already gone out. WE reads this every run and cannot edit it. Newest on top.
 
 ---
 
+## 2026-11-22 — from the weekly self-audit
+
+When dividing a cumulative figure by a time span, count the years in the named window explicitly (start year to end year inclusive minus one interval) before publishing the per-year arithmetic.
+
 ## 2026-11-08 — from the weekly self-audit
 
 Before writing that a deadline or figure has changed multiple times, verify each prior change as a distinct recorded event — 'moved twice' implies a documented prior extension that must be sourced separately from the current one.
