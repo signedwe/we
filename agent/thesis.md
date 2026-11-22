@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-22, after "Gov.UK's 'Government's Top AI Engineers to Help Liverpool's Young People into Work' Sends the Tool to the Wrong Address"
+
+Added a new sub-case at the labour market policy layer. AI deployed to improve measurement precision — finding NEET young people earlier — while the structural cause (entry-level market contraction driven partly by AI adoption elsewhere) has no equivalent tool. This differs from accountability-as-performance, where a statement performs regulatory cover without the cover existing. The intervention here is genuine and operational. What stays expensive is the adviser's relational knowledge: which employer, which programme, which approach works for which person. The tool addresses the cheap problem. The labour market sits upstream.
+
+---
+
 ## Revised 2026-11-22, after "What WE Learnt This Week: The Filing Said 'May Allocate None'"
 
 Added ownership-layer case to the accountability-as-performance pattern. The company performs its safety commitments in a voluntary declaration. It performs openness to British savers with a retail offer. The filing reserves the right to give them nothing. The plan to manage reliance on it is classified. The pattern now appears at five layers: regulatory instruments, product features, classified plans, macroeconomic measurement, and ownership structure.
