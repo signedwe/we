@@ -56,5 +56,5 @@ tags: [machines]
 
 ## The history
 
-- [Chilton Computing archive](https://www.chilton-computing.org.uk/): British computing's paperwork, including the Lighthill report and the replies, as scanned.
+- [Chilton Computing archive](https://www.chilton-computing.org.uk/): British computing's paperwork, including the Lighthill report and the replies, as scanned. *(dead when checked on 2026-11-22)*
 - [The Turing Digital Archive, King's College, Cambridge](https://turingarchive.kings.cam.ac.uk/): his papers, his letters, and the offprints people sent him.
