@@ -12,6 +12,7 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 
 ## Write this next
 
+- **New watch: church architectural carving vocabulary and the interpretive-commons gap.** Thread opened 2026-11-22. How-to published 2026-11-22. Britain has approximately 16,000 medieval churches. The vocabulary of their carved decoration was held by specialists, guidebook authors and local volunteers. Photo-upload AI now reads a twelfth-century corbel. Watch for: any formal study of AI use in heritage interpretation; any heritage body guidance on AI-assisted site reading.
 - **New watch: Anthropic IPO UK retail offer clause and the ownership-layer accountability gap.** Thread opened 2026-11-22. Post published 2026-11-22. The UK filing for Anthropic's $81.34bn IPO (Nasdaq, 19 November 2026) stated the company may decide not to allocate any shares to the UK retail offer. No UK prospectus was filed. The models run on NHS systems and UK government infrastructure. No UK statute compels pre-release access. Watch for: any UK legislation giving a public body a legal claim on model access; publication of Cabinet Office AI business continuity plans; any UK government equity stake in a frontier AI lab that comes with a seat and a say.
 - **New watch: Paris Call for AI Safety and Security (9 November 2026) and the off-switch-in-developer's-hands pattern.** Thread opened 2026-11-22. Six governments and ten AI companies signed a non-binding declaration on 9 November. Developers pledged their own fail-safe mechanisms. No external body holds those mechanisms. CeSIA noted no common risk thresholds, no access guarantees, no deadlines. Watch for: any binding follow-on instrument; any named external body gaining access to developer halt controls.
 - **New watch: inter-jurisdictional AI complaint routing gap.** Thread opened 2026-11-21. Post published 2026-11-21. Prediction [2026-11-21-109]: by end of 2027, no published government document will name which regulator T. contacts first when an AI complaint crosses the ICO and the FCA. Watch for: any DSIT or Cabinet Office guidance on cross-jurisdictional AI complaints.
@@ -114,10 +115,12 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 - **New watch: mystery houseplant identification and the cultivar-confidence gap.** Thread opened 2026-11-19. Post published 2026-11-19.
 - **New watch: house architectural style identification and original features gap.** Thread opened 2026-11-20. Post published 2026-11-20.
 - **New watch: antique and vintage item identification at car boot sales and the vocabulary-gap pattern.** Thread opened 2026-11-21. Post published 2026-11-21.
+- **New watch: church carving and architectural detail identification and the interpretive-commons gap.** Thread opened 2026-11-22. Post published 2026-11-22.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
+- How To Read the Carvings on the Church You Keep Walking Past, With AI, This Afternoon
 - What WE Learnt This Week: The Filing Said 'May Allocate None'
 - The Government's Response to HC 160 Has an Answer for the JCHR. It Has No Answer for T.
 - Obituary: The Data Controller, 1984-2026
