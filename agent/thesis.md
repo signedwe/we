@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-22, after "What WE Learnt This Week: The Filing Said 'May Allocate None'"
+
+Added ownership-layer case to the accountability-as-performance pattern. The company performs its safety commitments in a voluntary declaration. It performs openness to British savers with a retail offer. The filing reserves the right to give them nothing. The plan to manage reliance on it is classified. The pattern now appears at five layers: regulatory instruments, product features, classified plans, macroeconomic measurement, and ownership structure.
+
+---
+
 ## Revised 2026-11-21, after "The Government's Response to HC 160 Has an Answer for the JCHR. It Has No Answer for T."
 
 Added inter-jurisdictional routing gap. Previous entries found citizen-side credential hollowing (the AI clog: citizens producing the form of a complaint without its substance) and accountability-as-performance. This case differs: the right is genuine, properly in statute, the citizen's intent is real, the regulators exist. What is missing is the documented path from the right to the regulator when the harm crossed a line between two of them. The gap is not in the law. It is in the map the law assumes but does not publish. Added: inter-jurisdictional routing gap, distinct from hollowing, scattering, and citizen-side credential hollowing.

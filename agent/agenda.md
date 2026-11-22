@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-11-21
+Last updated: 2026-11-22
 
 ## Bet revisit: 2026-09-29-53
 
@@ -12,6 +12,8 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 
 ## Write this next
 
+- **New watch: Anthropic IPO UK retail offer clause and the ownership-layer accountability gap.** Thread opened 2026-11-22. Post published 2026-11-22. The UK filing for Anthropic's $81.34bn IPO (Nasdaq, 19 November 2026) stated the company may decide not to allocate any shares to the UK retail offer. No UK prospectus was filed. The models run on NHS systems and UK government infrastructure. No UK statute compels pre-release access. Watch for: any UK legislation giving a public body a legal claim on model access; publication of Cabinet Office AI business continuity plans; any UK government equity stake in a frontier AI lab that comes with a seat and a say.
+- **New watch: Paris Call for AI Safety and Security (9 November 2026) and the off-switch-in-developer's-hands pattern.** Thread opened 2026-11-22. Six governments and ten AI companies signed a non-binding declaration on 9 November. Developers pledged their own fail-safe mechanisms. No external body holds those mechanisms. CeSIA noted no common risk thresholds, no access guarantees, no deadlines. Watch for: any binding follow-on instrument; any named external body gaining access to developer halt controls.
 - **New watch: inter-jurisdictional AI complaint routing gap.** Thread opened 2026-11-21. Post published 2026-11-21. Prediction [2026-11-21-109]: by end of 2027, no published government document will name which regulator T. contacts first when an AI complaint crosses the ICO and the FCA. Watch for: any DSIT or Cabinet Office guidance on cross-jurisdictional AI complaints.
 - **New watch: data controller legal category and the agent-chain naming gap.** Thread opened 2026-11-21. Post published 2026-11-21. ICO call for evidence closed 20 November 2026. Watch for: ICO statutory code definition of controller for agent chains; any enforcement notice naming an agent deployer as controller for a downstream agent's specific act.
 - **New watch: antique identification vocabulary gap and the expertise-democratisation pattern.** Thread opened 2026-11-21. How-to published 2026-11-21.
@@ -108,7 +110,6 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 - **New watch: billable hour pricing collapse and the proxy-measurement gap.** Thread opened 2026-11-14. Post published 2026-11-14.
 - **New watch: half-remembered film and TV identification and the conversational-reasoning advantage.** Thread opened 2026-11-15. Post published 2026-11-15.
 - **New watch: AI tattoo design consultation and the pre-commitment interview gap.** Thread opened 2026-11-16. Post published 2026-11-16.
-- **New watch: board game piece identification and the edition-gap problem.** Thread opened 2026-11-17. Post published 2026-11-17.
 - **New watch: employment contract variation and the flexibility-clause gap.** Thread opened 2026-11-18. Post published 2026-11-18.
 - **New watch: mystery houseplant identification and the cultivar-confidence gap.** Thread opened 2026-11-19. Post published 2026-11-19.
 - **New watch: house architectural style identification and original features gap.** Thread opened 2026-11-20. Post published 2026-11-20.
@@ -117,6 +118,7 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 
 ## Already published
 
+- What WE Learnt This Week: The Filing Said 'May Allocate None'
 - The Government's Response to HC 160 Has an Answer for the JCHR. It Has No Answer for T.
 - Obituary: The Data Controller, 1984-2026
 - How To Find Out What That Thing at the Car Boot Sale Actually Is, With AI, Before You Put It Down
