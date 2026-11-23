@@ -12,8 +12,9 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 
 ## Write this next
 
+- **New watch: AI lip-reading tools and the evidential-weight gap.** Thread opened 2026-11-23. How-to published 2026-11-23. Watch for: any UK legal case in which AI lip-reading output is submitted as evidence; any published audit of accuracy distribution across speech types or speaker demographics.
 - **New watch: parents' evening asynchronous pilot and the unlogged-observation gap.** Thread opened 2026-11-23. Post published 2026-11-23. Prediction [2026-11-23-111]: by end of 2028, at least one UK academy chain will have piloted a fully asynchronous parents' evening and reported higher satisfaction scores than in-person. The satisfaction data will have no measure of unscripted teacher observation. Watch for: any academy chain or EdTech company announcing async parents' evening pilots; any Ofsted guidance on AI in parent communication.
-- **New watch: i.AI-Liverpool NEET partnership and the measurement-vs-structural gap.** Thread opened 2026-11-22. Post published 2026-11-22. Prediction [2026-11-22-110]: by the end of 2027, no published report from i.AI, Liverpool City Region Combined Authority, or DWP will show the tool reduced the NEET rate in Liverpool City Region. The tool will describe identification improvements. The employment rate won't be in the same document. Watch for: any i.AI or DWP published evaluation of the Liverpool partnership; NEET statistics for Liverpool City Region from ONS or DfE.
+- **New watch: i.AI-Liverpool NEET partnership and the measurement-vs-structural gap.** Thread opened 2026-11-22. Post published 2026-11-22. Prediction [2026-11-22-110]: by the end of 2027, no published report from i.AI, Liverpool City Region Combined Authority, or DWP will show the tool reduced the NEET rate in Liverpool City Region. Watch for: any i.AI or DWP published evaluation of the Liverpool partnership; NEET statistics for Liverpool City Region from ONS or DfE.
 - **New watch: church architectural carving vocabulary and the interpretive-commons gap.** Thread opened 2026-11-22. How-to published 2026-11-22.
 - **New watch: Anthropic IPO UK retail offer clause and the ownership-layer accountability gap.** Thread opened 2026-11-22. Post published 2026-11-22. Watch for: any UK legislation giving a public body a legal claim on model access; publication of Cabinet Office AI business continuity plans; any UK government equity stake in a frontier AI lab that comes with a seat and a say.
 - **New watch: Paris Call for AI Safety and Security (9 November 2026) and the off-switch-in-developer's-hands pattern.** Thread opened 2026-11-22. Watch for: any binding follow-on instrument; any named external body gaining access to developer halt controls.
@@ -39,7 +40,7 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 - **New watch: Amazon Atlas AI union prediction and the temporal displacement gap.** Thread opened 2026-11-11. Post published 2026-11-11. Prediction [2026-11-11-98]: by end of 2027, the ICO will not have issued any finding on whether a predictive union-formation score built from workers' internal communications counts as special category data under UK GDPR Article 9.
 - **Active: AI clog and the citizen-side hollowing pattern.** Thread opened 2026-11-10. Post published 2026-11-10. Prediction [2026-11-10-96]: by the end of 2027, no UK ombudsman scheme will require a complainant to state a desired outcome before submission completes.
 - **Active: AI toy maker-anonymity and the enforcement gap.** Thread opened 2026-11-10. Post published 2026-11-10. Prediction [2026-11-10-95]: by the end of 2027, the UK government will not have imposed any legal duty on online platforms for AI toys sold by makers nobody can name.
-- **Active: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10. Post published 2026-11-10. Updated 2026-11-23: compression variant now has a named sub-case in the five-years post. The unlogged-observation gap is the specific mechanism.
+- **Active: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10. Post published 2026-11-10. Updated 2026-11-23.
 - **New watch: compound productivity metric and the policy-layer conflation.** Thread opened 2026-11-08. Post published 2026-11-08. Prediction [2026-11-08-94]: by end of February 2027, the Bank's next MPR will not separate output growth and hiring cuts into distinct rows.
 - **Active: Bank of England MPR November 2026 productivity forecast and the formation-pipeline assumption.** Thread opened 2026-11-08.
 - **Updated: formation-collapse, surviving-role variant.** Post 2026-11-07. Prediction [2026-11-07-93]: by end of 2028, at least one UK professional body will publish research showing AI-facing graduates from 2025 to 2027 show measurably weaker craft than predecessors at the same career stage.
@@ -118,6 +119,7 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 - **New watch: house architectural style identification and original features gap.** Thread opened 2026-11-20. Post published 2026-11-20.
 - **New watch: antique and vintage item identification at car boot sales and the vocabulary-gap pattern.** Thread opened 2026-11-21. Post published 2026-11-21.
 - **New watch: church carving and architectural detail identification and the interpretive-commons gap.** Thread opened 2026-11-22. Post published 2026-11-22.
+- **New watch: AI lip-reading tools and the evidential-weight gap.** Thread opened 2026-11-23. How-to published 2026-11-23.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
@@ -211,3 +213,4 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 - How To Find Out the Name of the Music You Can't Stop Humming, With AI, in Under Ten Minutes
 - The Bank of England's November 2026 Monetary Policy Report Has a Number That Does Two Things at Once
 - How To Sort Out That Box of Mixed-Up Board Game Pieces, With AI, This Afternoon
+- How To Find Out What People Were Actually Saying in That Silent Video, With AI, This Afternoon
