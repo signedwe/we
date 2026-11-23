@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-23, after "Ellesheva Kissin's 'AI Asked Better Questions Than KPMG Accountants' Has the Interesting Sentence Near the Bottom"
+
+Project Exponential adds a formation-collapse sub-case at the professional services layer with a new feature: the firm is actively trying to substitute for the missing correction loop through redesigned training rather than simply observing its absence. This is the first documented case of a firm trying to engineer around formation-collapse. Whether the substitution delivers equivalent results is the open question. Added: the formation-collapse substitution attempt, where a firm designs training around the missing feedback loop and cannot yet show equivalence.
+
+---
+
 ## Revised 2026-11-22, after "Gov.UK's 'Government's Top AI Engineers to Help Liverpool's Young People into Work' Sends the Tool to the Wrong Address"
 
 Added a new sub-case at the labour market policy layer. AI deployed to improve measurement precision — finding NEET young people earlier — while the structural cause (entry-level market contraction driven partly by AI adoption elsewhere) has no equivalent tool. This differs from accountability-as-performance, where a statement performs regulatory cover without the cover existing. The intervention here is genuine and operational. What stays expensive is the adviser's relational knowledge: which employer, which programme, which approach works for which person. The tool addresses the cheap problem. The labour market sits upstream.

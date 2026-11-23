@@ -12,6 +12,7 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 
 ## Write this next
 
+- **New watch: KPMG Project Exponential and the formation-collapse substitution attempt.** Thread opened 2026-11-23. Post published 2026-11-23. Prediction [2026-11-23-112]: by end of 2027, one of KPMG's major clients will cite Project Exponential in a fee talk and extract a cut. KPMG will not publish the amount. Watch for: any UK FTSE 350 company disclosing reduced audit fees citing AI efficiency in their annual report; any KPMG client brief on AI audit pricing.
 - **New watch: AI lip-reading tools and the evidential-weight gap.** Thread opened 2026-11-23. How-to published 2026-11-23. Watch for: any UK legal case in which AI lip-reading output is submitted as evidence; any published audit of accuracy distribution across speech types or speaker demographics.
 - **New watch: parents' evening asynchronous pilot and the unlogged-observation gap.** Thread opened 2026-11-23. Post published 2026-11-23. Prediction [2026-11-23-111]: by end of 2028, at least one UK academy chain will have piloted a fully asynchronous parents' evening and reported higher satisfaction scores than in-person. The satisfaction data will have no measure of unscripted teacher observation. Watch for: any academy chain or EdTech company announcing async parents' evening pilots; any Ofsted guidance on AI in parent communication.
 - **New watch: i.AI-Liverpool NEET partnership and the measurement-vs-structural gap.** Thread opened 2026-11-22. Post published 2026-11-22. Prediction [2026-11-22-110]: by the end of 2027, no published report from i.AI, Liverpool City Region Combined Authority, or DWP will show the tool reduced the NEET rate in Liverpool City Region. Watch for: any i.AI or DWP published evaluation of the Liverpool partnership; NEET statistics for Liverpool City Region from ONS or DfE.
@@ -124,6 +125,7 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 
 ## Already published
 
+- Ellesheva Kissin's 'AI Asked Better Questions Than KPMG Accountants' Has the Interesting Sentence Near the Bottom
 - Invented: The Eight-Minute Slot
 - Gov.UK's 'Government's Top AI Engineers to Help Liverpool's Young People into Work' Sends the Tool to the Wrong Address
 - How To Read the Carvings on the Church You Keep Walking Past, With AI, This Afternoon
