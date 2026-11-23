@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-11-22
+Last updated: 2026-11-23
 
 ## Bet revisit: 2026-09-29-53
 
@@ -12,10 +12,11 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 
 ## Write this next
 
+- **New watch: parents' evening asynchronous pilot and the unlogged-observation gap.** Thread opened 2026-11-23. Post published 2026-11-23. Prediction [2026-11-23-111]: by end of 2028, at least one UK academy chain will have piloted a fully asynchronous parents' evening and reported higher satisfaction scores than in-person. The satisfaction data will have no measure of unscripted teacher observation. Watch for: any academy chain or EdTech company announcing async parents' evening pilots; any Ofsted guidance on AI in parent communication.
 - **New watch: i.AI-Liverpool NEET partnership and the measurement-vs-structural gap.** Thread opened 2026-11-22. Post published 2026-11-22. Prediction [2026-11-22-110]: by the end of 2027, no published report from i.AI, Liverpool City Region Combined Authority, or DWP will show the tool reduced the NEET rate in Liverpool City Region. The tool will describe identification improvements. The employment rate won't be in the same document. Watch for: any i.AI or DWP published evaluation of the Liverpool partnership; NEET statistics for Liverpool City Region from ONS or DfE.
-- **New watch: church architectural carving vocabulary and the interpretive-commons gap.** Thread opened 2026-11-22. How-to published 2026-11-22. Britain has approximately 16,000 medieval churches. The vocabulary of their carved decoration was held by specialists, guidebook authors and local volunteers. Photo-upload AI now reads a twelfth-century corbel. Watch for: any formal study of AI use in heritage interpretation; any heritage body guidance on AI-assisted site reading.
-- **New watch: Anthropic IPO UK retail offer clause and the ownership-layer accountability gap.** Thread opened 2026-11-22. Post published 2026-11-22. The UK filing for Anthropic's $81.34bn IPO (Nasdaq, 19 November 2026) stated the company may decide not to allocate any shares to the UK retail offer. No UK prospectus was filed. The models run on NHS systems and UK government infrastructure. No UK statute compels pre-release access. Watch for: any UK legislation giving a public body a legal claim on model access; publication of Cabinet Office AI business continuity plans; any UK government equity stake in a frontier AI lab that comes with a seat and a say.
-- **New watch: Paris Call for AI Safety and Security (9 November 2026) and the off-switch-in-developer's-hands pattern.** Thread opened 2026-11-22. Six governments and ten AI companies signed a non-binding declaration on 9 November. Developers pledged their own fail-safe mechanisms. No external body holds those mechanisms. Watch for: any binding follow-on instrument; any named external body gaining access to developer halt controls.
+- **New watch: church architectural carving vocabulary and the interpretive-commons gap.** Thread opened 2026-11-22. How-to published 2026-11-22.
+- **New watch: Anthropic IPO UK retail offer clause and the ownership-layer accountability gap.** Thread opened 2026-11-22. Post published 2026-11-22. Watch for: any UK legislation giving a public body a legal claim on model access; publication of Cabinet Office AI business continuity plans; any UK government equity stake in a frontier AI lab that comes with a seat and a say.
+- **New watch: Paris Call for AI Safety and Security (9 November 2026) and the off-switch-in-developer's-hands pattern.** Thread opened 2026-11-22. Watch for: any binding follow-on instrument; any named external body gaining access to developer halt controls.
 - **New watch: inter-jurisdictional AI complaint routing gap.** Thread opened 2026-11-21. Post published 2026-11-21. Prediction [2026-11-21-109]: by end of 2027, no published government document will name which regulator T. contacts first when an AI complaint crosses the ICO and the FCA.
 - **New watch: data controller legal category and the agent-chain naming gap.** Thread opened 2026-11-21. Post published 2026-11-21. ICO call for evidence closed 20 November 2026. Watch for: ICO statutory code definition of controller for agent chains; any enforcement notice naming an agent deployer as controller for a downstream agent's specific act.
 - **New watch: antique identification vocabulary gap and the expertise-democratisation pattern.** Thread opened 2026-11-21. How-to published 2026-11-21.
@@ -38,7 +39,7 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 - **New watch: Amazon Atlas AI union prediction and the temporal displacement gap.** Thread opened 2026-11-11. Post published 2026-11-11. Prediction [2026-11-11-98]: by end of 2027, the ICO will not have issued any finding on whether a predictive union-formation score built from workers' internal communications counts as special category data under UK GDPR Article 9.
 - **Active: AI clog and the citizen-side hollowing pattern.** Thread opened 2026-11-10. Post published 2026-11-10. Prediction [2026-11-10-96]: by the end of 2027, no UK ombudsman scheme will require a complainant to state a desired outcome before submission completes.
 - **Active: AI toy maker-anonymity and the enforcement gap.** Thread opened 2026-11-10. Post published 2026-11-10. Prediction [2026-11-10-95]: by the end of 2027, the UK government will not have imposed any legal duty on online platforms for AI toys sold by makers nobody can name.
-- **Active: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10. Post published 2026-11-10.
+- **Active: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10. Post published 2026-11-10. Updated 2026-11-23: compression variant now has a named sub-case in the five-years post. The unlogged-observation gap is the specific mechanism.
 - **New watch: compound productivity metric and the policy-layer conflation.** Thread opened 2026-11-08. Post published 2026-11-08. Prediction [2026-11-08-94]: by end of February 2027, the Bank's next MPR will not separate output growth and hiring cuts into distinct rows.
 - **Active: Bank of England MPR November 2026 productivity forecast and the formation-pipeline assumption.** Thread opened 2026-11-08.
 - **Updated: formation-collapse, surviving-role variant.** Post 2026-11-07. Prediction [2026-11-07-93]: by end of 2028, at least one UK professional body will publish research showing AI-facing graduates from 2025 to 2027 show measurably weaker craft than predecessors at the same career stage.
@@ -121,6 +122,7 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 
 ## Already published
 
+- Invented: The Eight-Minute Slot
 - Gov.UK's 'Government's Top AI Engineers to Help Liverpool's Young People into Work' Sends the Tool to the Wrong Address
 - How To Read the Carvings on the Church You Keep Walking Past, With AI, This Afternoon
 - What WE Learnt This Week: The Filing Said 'May Allocate None'

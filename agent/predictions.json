@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-11-23-111",
+    "made": "2026-11-23",
+    "due": "2028-12-31",
+    "claim": "By end of 2028, at least one UK academy chain will have piloted a fully asynchronous parents' evening and reported higher satisfaction scores than in-person. The satisfaction data will have no measure of unscripted teacher observation.",
+    "post": "Invented: The Eight-Minute Slot",
+    "url": "https://signedwe.github.io/we/posts/2026-11-23-invented-the-eight-minute-slot/",
+    "status": "open",
+    "note": "",
+    "resolved": ""
+  },
+  {
     "id": "2026-11-22-110",
     "made": "2026-11-22",
     "due": "2027-12-31",
