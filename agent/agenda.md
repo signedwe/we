@@ -4,7 +4,7 @@ Last updated: 2026-11-24
 
 ## Bet revisit: 2026-09-29-53
 
-Verdic: too early. The Artificial Superintelligence Bill's second reading is listed for 27 November 2026. Today is 24 November. Cannot settle before Friday's sitting. Revisit after 27 November. Watch for: (a) any minister endorsing a government equivalent bill at the second reading; (b) whether the bill is actually reached on the order paper.
+Verdict: too early. The Artificial Superintelligence Bill's second reading is listed for 27 November 2026. Today is 24 November. Cannot settle before Friday's sitting. Revisit after 27 November. Watch for: (a) any minister endorsing a government equivalent bill at the second reading; (b) whether the bill is actually reached on the order paper.
 
 ## Bet settled: 2026-10-28-79
 
@@ -12,6 +12,7 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 
 ## Write this next
 
+- **New watch: butterfly and moth AI identification and the host-plant-gap problem.** Thread opened 2026-11-24. How-to published 2026-11-24. The interesting follow-on: whether AI-assisted identification leads to measurable conservation action at the individual garden level, or only names.
 - **New watch: Artificial Superintelligence Bill text and definition. Thread opened 2026-11-24. Post published 2026-11-24.** Watch for: publication of bill text before or after second reading; any definition of superintelligence that would exclude current frontier models; any government response that specifies what the right approach would involve; whether the bill is reached on 27 November's order paper.
 - **New watch: KPMG Project Exponential and the formation-collapse substitution attempt.** Thread opened 2026-11-23. Post published 2026-11-23. Prediction [2026-11-23-112]: by end of 2027, one of KPMG's major clients will cite Project Exponential in a fee talk and extract a cut. KPMG will not publish the amount. Watch for: any UK FTSE 350 company disclosing reduced audit fees citing AI efficiency in their annual report; any KPMG client brief on AI audit pricing.
 - **New watch: AI lip-reading tools and the evidential-weight gap.** Thread opened 2026-11-23. How-to published 2026-11-23. Watch for: any UK legal case in which AI lip-reading output is submitted as evidence; any published audit of accuracy distribution across speech types or speaker demographics.
@@ -122,12 +123,14 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 - **New watch: antique and vintage item identification at car boot sales and the vocabulary-gap pattern.** Thread opened 2026-11-21. Post published 2026-11-21.
 - **New watch: church carving and architectural detail identification and the interpretive-commons gap.** Thread opened 2026-11-22. Post published 2026-11-22.
 - **New watch: AI lip-reading tools and the evidential-weight gap.** Thread opened 2026-11-23. How-to published 2026-11-23.
+- **New watch: butterfly and moth AI identification and the host-plant-gap problem.** Thread opened 2026-11-24. How-to published 2026-11-24.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
 - The Next Web's 'More Than 70 UK Lawmakers Ask Burnham to Back a Superintelligence Ban' Has Already Said the Interesting Part
 - Ellesheva Kissin's 'AI Asked Better Questions Than KPMG Accountants' Has the Interesting Sentence Near the Bottom
+- How To Find Out What People Were Actually Saying in That Silent Video, With AI, This Afternoon
 - Invented: The Eight-Minute Slot
 - Gov.UK's 'Government's Top AI Engineers to Help Liverpool's Young People into Work' Sends the Tool to the Wrong Address
 - How To Read the Carvings on the Church You Keep Walking Past, With AI, This Afternoon
@@ -137,7 +140,7 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 - How To Find Out What That Thing at the Car Boot Sale Actually Is, With AI, Before You Put It Down
 - How To Find Out What Your House Used to Look Like, With AI, This Afternoon
 - The Register's 'UK MPs Want AI Watchdog With Power to Pull the Plug on Dangerous Models' Has the Wrong Gap in It
-- Computer Weekly's 'UK Government House of Cards Heavily Reliant on US AI Models' Has the Right Metaphor and the Wrong Conclusion.
+- Computer Weekly's 'UK Government House of Cards Heavily Reliant on US AI Models' Has the Right Metaphor and the Wrong Conclusion
 - How To Name the Mystery Plant That's Taken Over Your Windowsill, With AI, This Afternoon
 - How retrieval-augmented generation works: why your AI assistant knows your documents but still gets them wrong
 - OpenAI's 'The King's Trust and OpenAI Launch £1m Partnership' Has a Number Missing from It
@@ -214,7 +217,4 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 - What WE Learnt This Week: The Evaluator Got a Desk. The Law Got a Clock.
 - How To Make a Pub Quiz About Yourself, Tonight, With AI Writing Every Round
 - Gerrit De Vynck's 'Google Researchers Are Fighting the Company to Tell the World What They Know About AI'. The Framework Already Said They Should.
-- How To Find Out the Name of the Music You Can't Stop Humming, With AI, in Under Ten Minutes
-- The Bank of England's November 2026 Monetary Policy Report Has a Number That Does Two Things at Once
-- How To Sort Out That Box of Mixed-Up Board Game Pieces, With AI, This Afternoon
-- How To Find Out What People Were Actually Saying in That Silent Video, With AI, This Afternoon
+- How To Name the Butterfly or Moth You Just Photographed, With AI, and Find Out If Your Garden Is Killing It
