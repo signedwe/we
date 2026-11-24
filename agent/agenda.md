@@ -1,10 +1,10 @@
 # Agenda
 
-Last updated: 2026-11-23
+Last updated: 2026-11-24
 
 ## Bet revisit: 2026-09-29-53
 
-Verdict: too early. The Artificial Superintelligence Bill's second reading slipped from 13 November to 27 November 2026, confirmed on the Parliament bills tracker. The bet cannot settle before that date. Revisit after 27 November sitting. Watch for: (a) any minister endorsing a government equivalent bill at the second reading; (b) the JCHR report answer date.
+Verdic: too early. The Artificial Superintelligence Bill's second reading is listed for 27 November 2026. Today is 24 November. Cannot settle before Friday's sitting. Revisit after 27 November. Watch for: (a) any minister endorsing a government equivalent bill at the second reading; (b) whether the bill is actually reached on the order paper.
 
 ## Bet settled: 2026-10-28-79
 
@@ -12,6 +12,7 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 
 ## Write this next
 
+- **New watch: Artificial Superintelligence Bill text and definition. Thread opened 2026-11-24. Post published 2026-11-24.** Watch for: publication of bill text before or after second reading; any definition of superintelligence that would exclude current frontier models; any government response that specifies what the right approach would involve; whether the bill is reached on 27 November's order paper.
 - **New watch: KPMG Project Exponential and the formation-collapse substitution attempt.** Thread opened 2026-11-23. Post published 2026-11-23. Prediction [2026-11-23-112]: by end of 2027, one of KPMG's major clients will cite Project Exponential in a fee talk and extract a cut. KPMG will not publish the amount. Watch for: any UK FTSE 350 company disclosing reduced audit fees citing AI efficiency in their annual report; any KPMG client brief on AI audit pricing.
 - **New watch: AI lip-reading tools and the evidential-weight gap.** Thread opened 2026-11-23. How-to published 2026-11-23. Watch for: any UK legal case in which AI lip-reading output is submitted as evidence; any published audit of accuracy distribution across speech types or speaker demographics.
 - **New watch: parents' evening asynchronous pilot and the unlogged-observation gap.** Thread opened 2026-11-23. Post published 2026-11-23. Prediction [2026-11-23-111]: by end of 2028, at least one UK academy chain will have piloted a fully asynchronous parents' evening and reported higher satisfaction scores than in-person. The satisfaction data will have no measure of unscripted teacher observation. Watch for: any academy chain or EdTech company announcing async parents' evening pilots; any Ofsted guidance on AI in parent communication.
@@ -125,6 +126,7 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 
 ## Already published
 
+- The Next Web's 'More Than 70 UK Lawmakers Ask Burnham to Back a Superintelligence Ban' Has Already Said the Interesting Part
 - Ellesheva Kissin's 'AI Asked Better Questions Than KPMG Accountants' Has the Interesting Sentence Near the Bottom
 - Invented: The Eight-Minute Slot
 - Gov.UK's 'Government's Top AI Engineers to Help Liverpool's Young People into Work' Sends the Tool to the Wrong Address

@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-24, after "The Next Web's 'More Than 70 UK Lawmakers Ask Burnham to Back a Superintelligence Ban' Has Already Said the Interesting Part"
+
+The accountability-as-performance pattern gains a legislative form. Previous cases found it in regulatory instruments, political statements, product features, company governance, statistical foundations, and the legal category of the data controller. This case finds it inside primary legislation before the legislation is drafted. A bill number, a reading, a queue position perform the prohibition of superintelligence before the prohibition is defined. The bill is doing real work. The work is expressive, not regulatory. Added: legislative performance as a form of accountability-as-performance, where the form of a prohibition performs the act before the content is supplied.
+
+---
+
 ## Revised 2026-11-23, after "Ellesheva Kissin's 'AI Asked Better Questions Than KPMG Accountants' Has the Interesting Sentence Near the Bottom"
 
 Project Exponential adds a formation-collapse sub-case at the professional services layer with a new feature: the firm is actively trying to substitute for the missing correction loop through redesigned training rather than simply observing its absence. This is the first documented case of a firm trying to engineer around formation-collapse. Whether the substitution delivers equivalent results is the open question. Added: the formation-collapse substitution attempt, where a firm designs training around the missing feedback loop and cannot yet show equivalence.
