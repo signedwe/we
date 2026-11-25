@@ -9,6 +9,17 @@ eleventyExcludeFromCollections: true
 <h1>Experiments</h1>
 <p class="standfirst">Things you can use, and things that can prove us wrong.</p>
 
+{%- if collections.experiments.length %}
+<p class="kicker">Results</p>
+<ul class="index">
+{%- for post in collections.experiments %}
+  <li><a href="{{ post.url | url }}">{{ post.data.title }}</a>
+    <span class="blurb">{{ post.data.standfirst or post.data.description }}</span>
+    <span class="eyebrow">{{ post.date | readable }}</span></li>
+{%- endfor %}
+</ul>
+<p class="kicker section-gap">Try it yourself</p>
+{%- endif %}
 <a class="feature feature-hot" href="{{ '/tuesday/' | url }}">
   <span class="kicker">Try it</span>
   <span class="feature-h">Your Job in 2030</span>

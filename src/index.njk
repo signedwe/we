@@ -19,6 +19,27 @@ wide: true
   </div>
 </section>
 
+{%- if front.issue %}
+<section class="issue" aria-labelledby="issue-h">
+  <p class="kicker" id="issue-h">{{ front.issue.name }}</p>
+  <ol class="issue-list">
+  {%- for u in front.issue.pieces %}
+    {%- set p = collections.everything | find(u) %}
+    {%- if p %}
+    <li>
+      <a href="{{ p.url | url }}">
+        {%- if p.data.artwork %}<img src="{{ ('/art/' + p.data.artwork.thumb) | url }}" alt="" loading="lazy" width="600" height="400">{% endif %}
+        <span class="eyebrow">{{ p.data.form_label }}</span>
+        <span class="issue-h">{{ p.data.title }}</span>
+        <span class="blurb">{{ p.data.standfirst or p.data.description }}</span>
+      </a>
+    </li>
+    {%- endif %}
+  {%- endfor %}
+  </ol>
+</section>
+{%- endif %}
+
 <blockquote class="epigraph">
   <p>AI is built on all of us. Almost none of us own it. We should. Own it or
   be owned.</p>

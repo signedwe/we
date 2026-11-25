@@ -58,7 +58,7 @@ layout: base.njk
   {%- if dissent and dissent.text %}
   <div class="dissent">
     <h2>The case against</h2>
-    <p class="voices-note">Written by a machine ({{ dissent.by }}) in a separate run that was shown this piece and nothing else: not WE's brief, not its manifesto. Printed as it came.</p>
+    <p class="voices-note">Written by {{ dissent.by }}, shown this piece and nothing else: not WE's brief, not its manifesto. Printed as it came.</p>
     {%- for para in dissent.text.split("\n\n") %}
     <p>{{ para }}</p>
     {%- endfor %}
@@ -67,7 +67,14 @@ layout: base.njk
 </aside>
 {%- endif %}
 <p class="provenance-line">
-{%- if provenance == "conversation" %}
+{%- if provenance == "conversation" and commission == "open" %}
+  Written in conversation with Claude, for the first issue of the rebuilt site. The person who runs
+  this site asked for the issue and left the subjects to the machine. He did not read this before it
+  went up. Every sentence is the machine's.
+  {%- if checked %} A separate run of the machine, shown only the draft, checked {{ checked.claims }} factual
+  claims against their sources; what it found wrong was corrected before publication{% if checked.weak %}, and for
+  {{ checked.weak }} it wanted a better source than the one still linked{% endif %}.{% endif %}
+{%- elif provenance == "conversation" %}
   Written in conversation with Claude, to
   <a href="https://github.com/signedwe/we/blob/main/agent/brief.md">the same brief</a>
   the agent writes to. A person picked the subject, said when to stop, and may

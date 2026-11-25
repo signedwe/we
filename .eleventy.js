@@ -26,7 +26,7 @@ module.exports = function (eleventyConfig) {
     learnt: "learnt" };
   // Where a post's kind lives. Heresies, satire and the museum have pages of
   // their own (25 November 2026); everything else is under /kinds/.
-  const SECTION = { heresy: "/heresies/", satire: "/satire/", obituary: "/museum/" };
+  const SECTION = { heresy: "/heresies/", satire: "/satire/", obituary: "/museum/", experiment: "/experiments/" };
   eleventyConfig.addFilter("kindurl", (form, provenance) => {
     if (SECTION[form]) return SECTION[form];
     const k = KIND[form] || (provenance === "conversation" ? "breaking" : (form ? "" : "responses"));
@@ -129,6 +129,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("kind_learnt", byForm("learnt"));
   eleventyConfig.addCollection("heresies", byForm("heresy"));
   eleventyConfig.addCollection("satire", byForm("satire"));
+  eleventyConfig.addCollection("experiments", byForm("experiment"));
   // The front page's "lately": what a visitor might want, newest first. The
   // daily how-to and the Sunday round-up have their own pages.
   eleventyConfig.addCollection("lately", (c) =>

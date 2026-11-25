@@ -473,6 +473,17 @@ def lean_checks(A, post: dict, form: str, published: list) -> tuple:
                        "people do not appear. If it is a place or an institution, rephrase so it cannot "
                        "be read as a person.")
             break
+    # These two checks over-trigger on purpose ("charged rent" reads as a
+    # criminal charge) and anything they catch holds the piece. So tell the
+    # writer while there are still rewrites left: the second heresy, on
+    # 25 November 2026, was held over the word "charged".
+    for sentence, words, names in A.accusing_sentences(body):
+        out.append(f'An accusing word sits next to a name: "{sentence[:200]}" [{", ".join(words)}]. '
+                   "Reword so the two are not in one sentence, or the piece will be held.")
+    for sentence, words in A.crime_words(body):
+        out.append(f'A word from the vocabulary of crime: "{sentence[:200]}" [{", ".join(words)}]. '
+                   "If it is innocent, use another word (billed, not charged); if not, cut it. "
+                   "Left in, it holds the piece.")
     gate = A.check_reputation_gate(post.get("reputation_gate"))
     return out, gate
 
@@ -578,7 +589,7 @@ Under 220 words. Plain English, short sentences. No praise, no "while the piece 
     text = "\n\n".join(A.text_blocks(resp)).strip()
     if not text or A.accusing_sentences(text) or A.crime_words(text):
         return {}
-    return {"by": used, "text": text.replace(A.EM_DASH, ", ")}
+    return {"by": f"a machine ({used}) in a separate run", "text": text.replace(A.EM_DASH, ", ")}
 
 
 # ----------------------------------------------------------------------
