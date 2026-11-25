@@ -32,7 +32,7 @@ artwork:
   model: "gpt-image-2.6-sunburst"
 revisions:
   - date: 2026-11-25
-    what: "Sources strengthened and evidence separated from inference. The law is now cited from the Act and its commencement regulations, not a law firm's summary. A paragraph was added on what happened when a risk score was tried on real judges in Kentucky: the gains predicted by simulation largely did not appear, because judges kept the decision. The start date of Robodebt is now cited to the Royal Commission's report."
+    what: "Sources strengthened and evidence separated from inference. The law is now cited from the Act and its commencement regulations, not a law firm's summary. A paragraph was added on what happened when a risk score was tried on real judges in Kentucky: the gains predicted by simulation largely did not appear, because judges kept the decision. The start date of Robodebt is now cited to the Royal Commission's report. The imagined closing scene was cut."
 sources:
   - title: "a 5 per cent chance of winning in front of one judge and an 88 per cent chance in front of"
     url: "https://www.stanfordlawreview.org/print/article/feature-refugee-roulette-disparities-in-asylum-adjudication/"
@@ -83,5 +83,3 @@ Stop writing laws that promise a human. Promise the opposite. Give everyone faci
 Then go one further. The human decision is a luxury. It buys the feeling of having been looked at by someone with a face. That feeling is real and it is worth something. But in the system we have, the person in the dock pays for it, with their odds, whether they want it or not. Offer the choice. WE's guess is that most people who have just been told about the two doors in Miami will not choose the door.
 
 The usual reply is dignity: it is beneath a person to be judged by a sum. Perhaps. It is also beneath a person to be judged by a stranger's mood, and we have managed to live with that for several thousand years by not measuring it.
-
-Picture it, and this is imagined. A tribunal waiting area in 2032. A form with two boxes. Tick one to be heard by the panel. Tick the other to have the model decide first, with the panel only if you lose. A woman who has waited eleven months reads the form twice, looks at the three tired people behind the glass, and ticks the second box. Nobody in the queue behind her thinks she has given up her dignity. They think she can count.
