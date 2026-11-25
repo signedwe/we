@@ -211,36 +211,39 @@ def generate(prompt: str, state: dict) -> tuple:
 # ----------------------------------------------------------------------
 
 def director(messages: list, max_tokens: int = 2500) -> str:
-    if os.environ.get("WE_ART_DIRECTOR") == "stub":
-        return ""
+    return json.dumps(director_json(messages, max_tokens))
+
+
+CONCEPT_SCHEMA = {"type": "object", "required": ["concepts", "chosen"], "properties": {
+    "concepts": {"type": "array", "items": {"type": "object", "required": ["idea", "tradition", "prompt", "alt"],
+                 "properties": {"idea": {"type": "string"}, "tradition": {"type": "string"},
+                                "prompt": {"type": "string"}, "alt": {"type": "string"}}}},
+    "chosen": {"type": "array", "items": {"type": "integer"}}}}
+JUDGE_SCHEMA = {"type": "object", "required": ["pick", "why"], "properties": {
+    "pick": {"type": "integer"}, "why": {"type": "string"}, "retry_prompt": {"type": "string"}}}
+
+
+def director_json(messages: list, max_tokens: int = 2500, schema: dict = None) -> dict:
+    """Ask the art director. The answer comes back through a forced tool
+    call, so it is always a well-formed object: twice on 25 November a
+    reply written as plain JSON would not parse and the picture was lost."""
     import anthropic
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    tool = {"name": "answer", "description": "Give your answer.", "input_schema": schema or {"type": "object"}}
     last = None
     for model in dict.fromkeys([DIRECTOR, DIRECTOR_FALLBACK]):
         try:
-            resp = client.messages.create(model=model, max_tokens=max_tokens, messages=messages)
-            return "\n".join(b.text for b in resp.content if getattr(b, "type", "") == "text")
+            resp = client.messages.create(model=model, max_tokens=max_tokens, messages=messages,
+                                          tools=[tool], tool_choice={"type": "tool", "name": "answer"})
+            for block in resp.content:
+                if getattr(block, "type", "") == "tool_use":
+                    return dict(block.input)
+            raise RuntimeError("the art director gave no answer")
         except Exception as exc:
             last = exc
             if type(exc).__name__ not in ("NotFoundError", "BadRequestError", "PermissionDeniedError"):
                 raise
     raise last
-
-
-def director_json(messages: list, max_tokens: int = 2500) -> dict:
-    """The director's answer as JSON. A reply that does not parse (a stray
-    quote inside a prompt, usually) is sent back once to be repaired."""
-    messages = list(messages)
-    for attempt in range(3):
-        text = director(messages, max_tokens)
-        try:
-            return as_json(text)
-        except Exception as exc:
-            if attempt == 2:
-                raise
-            messages += [{"role": "assistant", "content": text or "(nothing)"},
-                         {"role": "user", "content": f"That was not valid JSON ({str(exc)[:80]}). Send the whole "
-                          "object again, valid, with every double quote inside a string escaped. JSON only."}]
 
 
 def as_json(text: str) -> dict:
@@ -268,14 +271,14 @@ The piece ({form}): {title}
 
 Propose three pictures that are really different from each other: different idea, different tradition, different joke. The last pictures on this site borrowed from: {"; ".join(recent_traditions()) or "nothing yet"}. Use none of those traditions again, and nothing close to them: the site must not settle into one look. Then choose the {'two strongest' if want > 1 else 'strongest'}.
 
-Return ONLY JSON:
+Answer with the tool, in this shape:
 
 {{"concepts": [{{"idea": "what the picture argues, in one plain sentence a reader could be shown under it. never the word room, never an em dash",
                "tradition": "the visual tradition it borrows",
                "prompt": "the full instruction for the image model: subject, composition, medium, period, lighting, palette, what is in the foreground and background. 80 to 160 words. Landscape format.",
                "alt": "alt text: what is in the picture, plainly, for someone who cannot see it. One sentence."}}],
   "chosen": [the numbers of the chosen concepts, counting from 1]}}"""
-    return director_json([{"role": "user", "content": prompt}])
+    return director_json([{"role": "user", "content": prompt}], max_tokens=5000, schema=CONCEPT_SCHEMA)
 
 
 def judge(title: str, shots: list) -> dict:
@@ -291,7 +294,7 @@ These pictures were made for the piece "{title}". Judge what is actually in them
 
 Pick the strangest one that works: the one a stranger would stop on and send to a friend. Wit and nerve first, then composition, then whether the details that matter came out. A handsome, calm picture loses to an odd one. Refuse any picture that: shows a recognisable real person or logo; could be mistaken for a photograph or document of a real event; has garbled or wrong lettering that a reader would notice; has mangled hands or faces that spoil it; or falls back on a cliché from the never-list.
 
-Return ONLY JSON:
+Answer with the tool, in this shape:
 
 {{"pick": the number of the best usable picture counting from 1, or 0 if none is usable,
   "why": "one sentence",
@@ -304,7 +307,7 @@ Return ONLY JSON:
         content.append({"type": "text", "text": f"Picture {i}. The idea was: {s['idea']}"})
         content.append({"type": "image", "source": {"type": "base64", "media_type": "image/jpeg",
                                                     "data": base64.b64encode(buf.getvalue()).decode()}})
-    return director_json([{"role": "user", "content": content}], max_tokens=1200)
+    return director_json([{"role": "user", "content": content}], max_tokens=1500, schema=JUDGE_SCHEMA)
 
 
 # ----------------------------------------------------------------------
