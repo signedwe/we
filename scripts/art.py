@@ -60,6 +60,9 @@ LATEST = ROOT / "agent" / "latest.json"
 PILOT = ROOT / "pilot"
 PILOT_OUT = PILOT / "art"
 PILOT_MANIFEST = PILOT / "art.json"
+# Pictures whose idea and instruction were written in conversation, not by
+# the director model: {slug: {title, form, post, idea, tradition, prompt, alt}}.
+COMMISSIONS = PILOT / "commissions.json"
 
 PROVIDER = os.environ.get("WE_ART_PROVIDER", "openai")
 # Tried in order until the service accepts one. Names move; set WE_ART_MODEL
@@ -70,7 +73,7 @@ SIZE = os.environ.get("WE_ART_SIZE", "1536x1024")
 QUALITY = os.environ.get("WE_ART_QUALITY", "medium")
 DAILY_USD = float(os.environ.get("WE_ART_DAILY_USD", "3.00"))
 EST_USD = float(os.environ.get("WE_ART_EST_USD", "0.25"))
-DAILY_IMAGES = int(os.environ.get("WE_ART_DAILY_IMAGES", "8"))
+DAILY_IMAGES = int(os.environ.get("WE_ART_DAILY_IMAGES") or "8")
 FORMS = [f.strip() for f in os.environ.get("WE_ART_FORMS", "heresy,satire,five_years,obituary").split(",")]
 DIRECTOR = os.environ.get("WE_ART_DIRECTOR", "claude-sonnet-5-5")
 DIRECTOR_FALLBACK = "claude-sonnet-4-6"
@@ -85,6 +88,7 @@ Ask for things that could not exist, could not be photographed, and would cost a
 
 Go further than feels safe. The operator, 25 November 2026, on the first three pictures: "they're not bad, they should be even crazier". Those three were each a handsome copy of one old style with one tidy metaphor in the middle. That is the failure to avoid.
 
+- Change the medium every time. Not another oil painting, engraving, manuscript or museum case: the first pictures were all handsome copies of something made before 1900. Reach for flash photography of an impossible scene, claymation, cut-paper collage, a propaganda poster, a 1970s mail-order catalogue page, a children's-book spread, a cutaway technical drawing, a seaside postcard, a CCTV still of something absurd, embroidery, a board-game box.
 - Collide things. Two worlds that have no business in one frame: an altarpiece with a self-checkout in it, a royal procession through a call centre, a whale beached in a spreadsheet. One style on its own, done well, is a pastiche and is not enough.
 - Something is happening, and it is going wrong. A moment, not a display. Somebody is falling, fleeing, eating, signing, auctioning, drowning in something.
 - Break scale. A banker the size of a cathedral. A parliament in a teacup.
@@ -98,7 +102,7 @@ Never: glowing brains, humanoid robots, blue circuitry, holograms, people starin
 Hard limits.
 - No real, recognisable person, living or dead. No real company's logo or product. No copy of an existing artwork or a named living artist's style.
 - Nothing that could pass for a news photograph or a historical document of a real event. If it looks photographic, it must be plainly impossible.
-- No words in the picture unless the idea needs a few (a placard, a banknote), and then say exactly which words.
+- No words in the picture unless the idea needs a few (a placard, a banknote), and then give the exact words, in capitals, and say "no other text". Never the name of a real company, brand, bank, party or newspaper, on anything, however small.
 - Nothing hateful, sexual or gory. Nobody identifiable from the article.
 - Never put any detail about who runs this site, or any private detail, into a prompt."""
 
@@ -292,7 +296,7 @@ def judge(title: str, shots: list) -> dict:
 
 These pictures were made for the piece "{title}". Judge what is actually in them, not what was asked for.
 
-Pick the strangest one that works: the one a stranger would stop on and send to a friend. Wit and nerve first, then composition, then whether the details that matter came out. A handsome, calm picture loses to an odd one. Refuse any picture that: shows a recognisable real person or logo; could be mistaken for a photograph or document of a real event; has garbled or wrong lettering that a reader would notice; has mangled hands or faces that spoil it; or falls back on a cliché from the never-list.
+Pick the strangest one that works: the one a stranger would stop on and send to a friend. Wit and nerve first, then composition, then whether the details that matter came out. A handsome, calm picture loses to an odd one. Read every piece of lettering in each picture, however small: trophies, labels, signs, spines. Refuse any picture in which you can read the name of a real company, brand, bank, party or newspaper (the first pilot let one through on a trophy). Refuse any picture that: shows a recognisable real person or logo; could be mistaken for a photograph or document of a real event; has garbled or wrong lettering that a reader would notice; has mangled hands or faces that spoil it; or falls back on a cliché from the never-list.
 
 Answer with the tool, in this shape:
 
@@ -365,15 +369,22 @@ def set_artwork(path: pathlib.Path, art: dict) -> None:
 # one post
 # ----------------------------------------------------------------------
 
-def make(path: pathlib.Path, force: bool = False, candidates: int = 0, pilot: bool = False) -> int:
+def make(path: pathlib.Path, force: bool = False, candidates: int = 0, pilot: bool = False,
+         commission: dict = None) -> int:
     if os.environ.get("WE_ART") != "1":
         return stop("switched off (WE_ART is not 1).")
-    if not path.exists():
-        return stop(f"no such post: {path}.")
-    front, body = split_post(path.read_text(encoding="utf-8"))
-    form = field(front, "form") or "response"
-    title = field(front, "title")
-    slug = path.stem
+    if commission:
+        # The idea was written in conversation. The post may not be up yet;
+        # a commission is always a pilot, hung later with --promote.
+        front, body, pilot, force = "", "", True, True
+        form, title, slug = commission.get("form", ""), commission["title"], path.stem
+    else:
+        if not path.exists():
+            return stop(f"no such post: {path}.")
+        front, body = split_post(path.read_text(encoding="utf-8"))
+        form = field(front, "form") or "response"
+        title = field(front, "title")
+        slug = path.stem
     if form not in FORMS and not force:
         return stop(f"a {form} post gets no picture (WE_ART_FORMS).")
     if "\nartwork:" in "\n" + front and not force:
@@ -384,6 +395,8 @@ def make(path: pathlib.Path, force: bool = False, candidates: int = 0, pilot: bo
         return stop("no OPENAI_API_KEY in the environment.")
     if os.environ.get("WE_ART_DIRECTOR") != "stub" and not os.environ.get("ANTHROPIC_API_KEY"):
         return stop("no ANTHROPIC_API_KEY for the art director.")
+    if commission:
+        candidates = 1
 
     ledger = load(LEDGER, [])
     room = allowance(ledger)
@@ -406,7 +419,7 @@ def make(path: pathlib.Path, force: bool = False, candidates: int = 0, pilot: bo
         save(LEDGER, ledger)
 
     try:
-        plan = concepts(title, form, body, want)
+        plan = {"concepts": [commission], "chosen": [1]} if commission else concepts(title, form, body, want)
         ideas = [c for c in plan.get("concepts") or [] if isinstance(c, dict) and c.get("prompt")]
         order = [int(i) - 1 for i in (plan.get("chosen") or [1]) if str(i).isdigit() and 0 < int(i) <= len(ideas)]
         order = (order or [0])[:want]
@@ -481,11 +494,19 @@ def main() -> int:
     ap.add_argument("--force", action="store_true", help="ignore the form list and replace an existing picture")
     ap.add_argument("--candidates", type=int, default=0)
     ap.add_argument("--pilot", action="store_true", help="draw, but hang nothing: files go to pilot/art/")
+    ap.add_argument("--commissions", action="store_true",
+                    help="draw every picture in pilot/commissions.json that has not been drawn yet")
     ap.add_argument("--promote", nargs="*", default=None, metavar="SLUG",
                     help="hang approved pilot pictures (all of them, or the slugs named)")
     a = ap.parse_args()
     if a.promote is not None:
         return promote(a.promote)
+    if a.commissions:
+        done = {r.get("slug") for r in load(PILOT_MANIFEST, []) + load(MANIFEST, [])}
+        for slug, c in load(COMMISSIONS, {}).items():
+            if slug not in done:
+                make(ROOT / c.get("post", f"src/posts/{slug}.md"), pilot=True, commission=c)
+        return 0
     posts = [pathlib.Path(p) if os.path.isabs(p) else ROOT / p for p in a.post]
     if a.latest:
         latest = load(LATEST, {})

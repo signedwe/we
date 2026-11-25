@@ -28,6 +28,13 @@ on:
         description: "Promote: hang pilot pictures already drawn"
         type: boolean
         default: false
+      commissions:
+        description: "Commissions: draw the pictures listed in pilot/commissions.json (always a pilot)"
+        type: boolean
+        default: false
+      max_images:
+        description: "Most pictures to draw today, counting those already drawn"
+        default: "8"
       budget:
         description: "Most to spend in this run's day, in dollars (estimated at $0.25 a picture)"
         default: "3.00"
@@ -60,9 +67,12 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           WE_ART_DAILY_USD: ${{ inputs.budget }}
           WE_ART_MODEL: ${{ inputs.model }}
+          WE_ART_DAILY_IMAGES: ${{ inputs.max_images }}
           POSTS: ${{ inputs.posts }}
         run: |
-          if [ "${{ inputs.promote }}" = "true" ]; then
+          if [ "${{ inputs.commissions }}" = "true" ]; then
+            python scripts/art.py --commissions
+          elif [ "${{ inputs.promote }}" = "true" ]; then
             python scripts/art.py --promote $POSTS
           elif [ "${{ inputs.pilot }}" = "true" ]; then
             for p in $POSTS; do python scripts/art.py --force --pilot --post "$p"; done
@@ -82,6 +92,7 @@ jobs:
           git commit -m "art: $(date -u +%Y-%m-%d)"
           git pull --rebase origin main
           git push
+          if [ "${{ inputs.commissions }}" = "true" ]; then exit 0; fi
           if [ "${{ inputs.pilot }}" != "true" ] || [ "${{ inputs.promote }}" = "true" ]; then
             gh workflow run rebuild.yml
           fi
