@@ -45,6 +45,7 @@ SEARCH = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 8}]
 CHECK_SEARCH = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 8}]
 NEWS_SEARCH = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 5}]
 REWRITES = 2
+WEAK = "The fact-checker wants a better source"
 # News replies: an opening, not a slot. At most this many in any seven days.
 RESPONSES_PER_WEEK = 2
 
@@ -487,7 +488,11 @@ def verify(A, client, post: dict) -> tuple:
 
 Check every statement of fact in it: numbers, dates, quotations, what a law, report or company said or did. For each, open the link given beside it (search for the page if you must) and decide whether the source carries the claim as stated. Leave opinions, predictions and anything the piece itself marks as imagined alone.
 
-Flag a claim when: the source does not say it; the source says something weaker; the figure is from a different year, place or group than the sentence implies; two figures from different sources are combined; the link is to a summary when the original exists; or there is no link at all.
+Sort what you find into two kinds.
+
+"wrong": the source does not say it; the source says something weaker or different; the figure is from a different year, place or group than the sentence implies; two figures from different sources are combined into a claim neither makes; a quotation is not in the source; or a factual claim has no link at all.
+
+"weak": the claim is accurate as far as you can tell, but the link goes to a summary when the original exists, or to the wrong page of the right body. Also "weak": you could not open the source and could not confirm or refute the claim elsewhere. Never call a claim wrong because you could not open a page.
 
 ## The piece
 
@@ -502,12 +507,18 @@ Flag a claim when: the source does not say it; the source says something weaker;
 Return ONLY JSON:
 
 {{"checked": how many factual claims you checked,
-  "problems": [{{"sentence": "the sentence, quoted", "problem": "what is wrong", "fix": "cut it, or the wording the source does support"}}]}}"""
+  "problems": [{{"sentence": "the sentence, quoted", "kind": "wrong or weak", "problem": "what is wrong", "fix": "cut it, the wording the source does support, or the better link"}}]}}"""
     data, _, used = ask(A, client, EDITOR, prompt, require=("problems",), tools=CHECK_SEARCH, max_tokens=6000)
     out = []
     for p in data.get("problems") or []:
         if isinstance(p, dict) and p.get("sentence"):
-            out.append(f"{A.FACTUAL} The fact-checker could not stand up: \"{str(p['sentence'])[:200]}\" "
+            # Wrong holds the piece. Weak is sent back to be fixed, and if it
+            # survives the rewrites it is printed as a note, not a hold
+            # (25 Nov 2026: the first heresy was held over claims the checker
+            # itself called accurate, because the link was to a summary).
+            wrong = not str(p.get("kind") or "wrong").strip().lower().startswith("weak")
+            head = f"{A.FACTUAL} The fact-checker says this is wrong" if wrong else WEAK
+            out.append(f"{head}: \"{str(p['sentence'])[:200]}\" "
                        f"{p.get('problem') or ''} Fix: {p.get('fix') or 'cut it.'}")
     try:
         checked = int(data.get("checked") or 0)
@@ -600,6 +611,7 @@ def front_matter(A, post: dict, form: str, now, extra: dict) -> str:
         lines.append("checked:")
         lines.append(f"  claims: {int(extra['checked']['claims'])}")
         lines.append(f"  by: {y(extra['checked']['by'])}")
+        lines.append(f"  weak: {int(extra['checked'].get('weak') or 0)}")
     lines.append(f"written_by: {y(extra.get('written_by') or WRITER)}")
     if extra.get("dissent"):
         lines.append("dissent:")
@@ -711,6 +723,7 @@ def run(A, client, form: str) -> int:
         A.set_output(held=True)
         return 0
 
+    weak_left = [f for f in failures if f.startswith(WEAK)]
     extra = {"written_by": writer_used}
     if form == "satire":
         extra["strand"] = strand
@@ -720,7 +733,7 @@ def run(A, client, form: str) -> int:
         if seed:
             extra["supplied"] = True
         if checked:
-            extra["checked"] = {"claims": checked, "by": checker or EDITOR}
+            extra["checked"] = {"claims": checked, "by": checker or EDITOR, "weak": len(weak_left)}
         try:
             extra["dissent"] = dissent(A, client, post)
         except Exception as exc:

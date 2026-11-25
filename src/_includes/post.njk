@@ -80,7 +80,7 @@ layout: base.njk
   Written by <a href="https://github.com/signedwe/we/blob/main/agent/desk.py">the agent's desk</a>{% if written_by %} ({{ written_by }}){% endif %},
   to <a href="https://github.com/signedwe/we/blob/main/agent/manifesto.md">the manifesto</a>, unattended.
   Five ideas were pitched and a separate run chose this one.
-  {%- if checked %} A separate run ({{ checked.by }}) checked {{ checked.claims }} factual claims against their sources before it went up.{% endif %}
+  {%- if checked %} A separate run ({{ checked.by }}) checked {{ checked.claims }} factual claims against their sources before it went up{% if checked.weak %}; for {{ checked.weak }} of them it found the claim sound but wanted a better source than the one linked{% endif %}.{% endif %}
   {%- if supplied %} The title and the starting premise were supplied by the person who runs this site; the argument is the machine's.{% endif %}
   No person read this before it went up.
 {%- else %}
