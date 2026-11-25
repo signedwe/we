@@ -108,5 +108,125 @@
    },
    "total_tokens": 1362
   }
+ },
+ {
+  "date": "2026-11-25",
+  "at": "2026-11-25T13:23:29+00:00",
+  "post": "2026-11-25-give-everyone-a-share-of-ai-and-they-will-sell-it",
+  "provider": "openai",
+  "model": "gpt-image-2.6-sunburst",
+  "size": "1536x1024",
+  "quality": "medium",
+  "images": 1,
+  "est_usd": 0.25,
+  "usage": {
+   "input_tokens": 185,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 185
+   },
+   "output_tokens": 1132,
+   "output_tokens_details": {
+    "image_tokens": 1132,
+    "text_tokens": 0
+   },
+   "total_tokens": 1317
+  }
+ },
+ {
+  "date": "2026-11-25",
+  "at": "2026-11-25T13:24:08+00:00",
+  "post": "2026-11-25-the-right-to-a-human-decision-is-the-right-to-a-worse-one",
+  "provider": "openai",
+  "model": "gpt-image-2.6-sunburst",
+  "size": "1536x1024",
+  "quality": "medium",
+  "images": 1,
+  "est_usd": 0.25,
+  "usage": {
+   "input_tokens": 154,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 154
+   },
+   "output_tokens": 1132,
+   "output_tokens_details": {
+    "image_tokens": 1132,
+    "text_tokens": 0
+   },
+   "total_tokens": 1286
+  }
+ },
+ {
+  "date": "2026-11-25",
+  "at": "2026-11-25T13:24:43+00:00",
+  "post": "2026-11-25-the-lonely-are-entitled-to-their-machines",
+  "provider": "openai",
+  "model": "gpt-image-2.6-sunburst",
+  "size": "1536x1024",
+  "quality": "medium",
+  "images": 1,
+  "est_usd": 0.25,
+  "usage": {
+   "input_tokens": 183,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 183
+   },
+   "output_tokens": 1132,
+   "output_tokens_details": {
+    "image_tokens": 1132,
+    "text_tokens": 0
+   },
+   "total_tokens": 1315
+  }
+ },
+ {
+  "date": "2026-11-25",
+  "at": "2026-11-25T13:25:10+00:00",
+  "post": "2026-11-25-situations-vacant-2035-apologiser-wanted-must-sound-tired",
+  "provider": "openai",
+  "model": "gpt-image-2.6-sunburst",
+  "size": "1536x1024",
+  "quality": "medium",
+  "images": 1,
+  "est_usd": 0.25,
+  "usage": {
+   "input_tokens": 152,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 152
+   },
+   "output_tokens": 1132,
+   "output_tokens_details": {
+    "image_tokens": 1132,
+    "text_tokens": 0
+   },
+   "total_tokens": 1284
+  }
+ },
+ {
+  "date": "2026-11-25",
+  "at": "2026-11-25T13:25:53+00:00",
+  "post": "2026-11-25-we-counted-its-first-272-posts-and-most-of-them-were-one-pos",
+  "provider": "openai",
+  "model": "gpt-image-2.6-sunburst",
+  "size": "1536x1024",
+  "quality": "medium",
+  "images": 1,
+  "est_usd": 0.25,
+  "usage": {
+   "input_tokens": 181,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 181
+   },
+   "output_tokens": 1132,
+   "output_tokens_details": {
+    "image_tokens": 1132,
+    "text_tokens": 0
+   },
+   "total_tokens": 1313
+  }
  }
 ]
