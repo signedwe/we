@@ -12,6 +12,9 @@ responds_to:
   publication: "GOV.UK"
   date: "2026-11-20"
   url: "https://www.gov.uk/government/news/governments-top-ai-engineers-to-help-liverpools-young-people-into-work"
+revisions:
+  - date: 2026-11-25
+    what: "P. was written as if she were a real careers adviser. She is invented, and the post now says so where she first appears. Nothing else has changed."
 sources:
   - title: "i.AI team heading to Liverpool for youth-employment demonstrator project, Civil Service World"
     url: "https://www.civilserviceworld.com/news/article/iai-team-heading-to-liverpool-for-youthemployment-demonstrator-project"
@@ -46,7 +49,7 @@ voices:
 
 The government built a tool to find the young people who can't find work. Finding them has never been the problem.
 
-P. keeps seventeen names on her Tuesday list. She works for Liverpool City Region Combined Authority as a careers adviser. All seventeen sit between 16 and 24 and out of work or training. She rings employers, chases referrals, and writes the two who said no back into next month's column.
+P. is invented, a stand-in for the careers advisers this tool is built for. She keeps seventeen names on her Tuesday list. She works for Liverpool City Region Combined Authority as a careers adviser. All seventeen sit between 16 and 24 and out of work or training. She rings employers, chases referrals, and writes the two who said no back into next month's column.
 
 On 20 November, [the government signed an agreement](https://www.civilserviceworld.com/news/article/iai-team-heading-to-liverpool-for-youthemployment-demonstrator-project) with Liverpool City Region to send engineers from its Incubator for AI (i.AI) to build tools that spot 16-to-24-year-olds at risk of becoming NEET — not in education, employment, or training — earlier than advisers currently can. Engineers start in January.
 

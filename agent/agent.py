@@ -994,8 +994,10 @@ def check_responds_to(responds_to) -> list:
     return []
 
 
-def check_story_is_new(responds_to, days: int = 14) -> list:
-    """A news response every day (18 Oct 2026), never the same story twice."""
+def check_story_is_new(responds_to, days: int = 60) -> list:
+    """A news response every day (18 Oct 2026), never the same story twice.
+    Marked factual (25 Nov 2026) so a repeat is held, not published after two
+    rewrites: the 24 Nov post answered the piece the 13 Nov post had answered."""
     url = str((responds_to or {}).get("url") or "").strip().rstrip("/")
     if not url:
         return []
@@ -1005,7 +1007,7 @@ def check_story_is_new(responds_to, days: int = 14) -> list:
             continue
         m = re.search(r"^responds_to:\n(?:  .*\n)*?  url:\s*\"?([^\"\n]+)", f.read_text(encoding="utf-8"), re.M)
         if m and m.group(1).strip().rstrip("/") == url:
-            return [f"WE already answered that piece in {f.name}. A news post every "
+            return [f"{FACTUAL} WE already answered that piece in {f.name}. A news post every "
                     "day means a different story every day. Find another."]
     return []
 
@@ -2111,7 +2113,11 @@ CRITIC_SCHEMA = """{
   "flat_open_because": "the first sentence, and why nobody would argue with it. empty if it lands",
   "same_post": true or false,
   "same_post_because": "which earlier post, and what shape they share. empty if not",
-  "bad_sources": ["for each weak citation: the claim, the source, why it will not carry it"],
+  "bad_sources": ["for each weak citation: the claim, the source, why it will not carry it. a site summarising a report, paper, ruling or news story the writer could have linked directly is a weak citation: name the original"],
+  "mixed_sum": true or false,
+  "mixed_sum_because": "true if the post adds, subtracts, divides or compares two figures that come from different studies, systems, populations or years as if they measured the same thing. quote the sum and say where each figure comes from. empty if every sum stays inside one source",
+  "only_a_gap": true or false,
+  "only_a_gap_because": "true if the whole post is: an institution announced something, here is the detail it left out. the arrangement itself is never questioned: who owns the machine, who decides, why this body or rule exists at all, whether it should. say what gap it finds. empty if the post goes for the foundation, and quote where",
   "hateful": ["anything racist, misogynistic or hateful, in the post or in a voice. usually empty"],
   "idle_voices": ["any voice that agrees with the post and is doing no work"],
   "placeless_voices": ["any voice that could swap names with another and read the same: it notices nothing its own world would notice and uses none of its words. name it and quote the line"],
@@ -2197,6 +2203,10 @@ Is it dull? Not imperfect, dull. Would anyone who is not paid to be here reach t
 Then look specifically for the things that make prose lifeless even when the argument is good. Is there a single real image anywhere, something a reader could photograph, or is it abstract nouns end to end. Is there one line that is actually funny. Does the writer appear to want anything, or is the whole thing delivered at the same polite temperature from start to finish. Say which of these is missing, by name, and answer no_image and no_joke separately.
 
 Does it imagine anything? The site exists to imagine the future radically, to go further than the reader expected, to provoke. A post that only describes the present, however sharply, has not done its job. Look for one picture of how things could be, specific enough to see, with a person in it, that the reader had not been shown before. If there is none, say so and answer no_future.
+
+Does it only find a gap? The commonest post on this site is: an institution announced something, and here is the question it forgot. That is marking homework. Look for the place where the post questions the arrangement itself: who owns the machine, who decides, who can say no, why this regulator, rule or job exists at all. If there is none, say so.
+
+Check every sum. If two figures are added, subtracted or compared, do they come from the same study, about the same system and the same people? If not, the sum shows nothing, however neat it looks.
 
 Is it procedural? A post that walks the reader through the documents, the committee said, the statute says, the company announced, with a citation on every sentence and nobody ever doing anything in a place, is a briefing. It can be accurate, sourced and short and still be a briefing. Say what it walks through, and answer procedural.
 
@@ -2503,6 +2513,23 @@ def critic_failures(verdict: dict, form: str = "response") -> list:
             "The critic says this is a post you have already written: "
             f"{verdict.get('same_post_because') or '(no reason given)'} "
             "Change the shape or change the subject."
+        )
+
+    if verdict.get("mixed_sum"):
+        failures.append(
+            f"{FACTUAL} The critic says a sum mixes figures that don't belong "
+            f"together: {verdict.get('mixed_sum_because') or '(no reason given)'} "
+            "Cut the sum. Give each figure on its own and say what it measured."
+        )
+
+    if verdict.get("only_a_gap") and form in ("response", "top_ten", "obituary"):
+        failures.append(
+            "The critic says it only finds a gap: "
+            f"{verdict.get('only_a_gap_because') or '(no reason given)'} "
+            "The operator, 25 November 2026: \"there is not enough challenging "
+            "the fundamentals\". Stop marking the announcement's homework. "
+            "Question the thing underneath it: who owns this, who gets to "
+            "say no, why the arrangement exists, what would replace it."
         )
 
     for item in verdict.get("bad_sources") or []:
@@ -3682,6 +3709,48 @@ def check_invented_names(body: str) -> list:
     ]
 
 
+def check_invented_person(body: str) -> list:
+    """Outside fiction, a person known only by an initial is invented, and the
+    reader has to be told so where the person first appears (25 Nov 2026: P.
+    in the Liverpool post and T. in the HC 160 post read as real people)."""
+    failures = []
+    paras = plain_text(body).split("\n")
+    seen = set()
+    for i, para in enumerate(paras):
+        for h in re.findall(r"(?<![A-Za-z.])([B-HJ-WYZ])\.(?=[\s,'\"\u2019:;)!?]|$)", para):
+            if h in seen:
+                continue
+            seen.add(h)
+            if not re.search(r"\b(invented|made up|made-up|imaginary|imagined|imagine|fictional|does not exist|doesn't exist)\b",
+                             para, re.I):
+                failures.append(
+                    f"{FACTUAL} {h}. is a person you made up, and the post doesn't "
+                    "say so. In the paragraph where they first appear, say in "
+                    "plain words that they are invented. A reader must never "
+                    "take a made-up person for a real one. If they are real, "
+                    "name them and link the source."
+                )
+    return failures
+
+
+TITLE_FORMULA = re.compile(
+    r"\b(Has|Had|Gets|Got|Finds|Found|Is Asking|Buries|Is Missing|Sends|Stops)\b"
+    r"[^.]*\b(Wrong|Right|Missing|Interesting|No Answer|Gap|Admission|Footnote|Half)\b")
+
+
+def check_title_formula(title: str) -> list:
+    """The response headlines had become one sentence with the nouns swapped:
+    Has the Wrong Gap, Has a Number Missing, Has No Answer (25 Nov 2026)."""
+    verdict = str(title or "").rsplit("\u2019", 1)[-1].rsplit("'", 1)[-1]
+    if TITLE_FORMULA.search(verdict):
+        return ["The headline is the formula again: somebody's piece \"has the "
+                "wrong\" something, or is \"missing\" something. A reader has seen "
+                "that headline twenty times here. Say what YOU claim, as a "
+                "sentence a stranger would repeat, with no verdict on the "
+                "other writer in it."]
+    return []
+
+
 def build_prompt() -> str:
     return f"""{BRIEF.read_text(encoding="utf-8")}
 
@@ -4118,6 +4187,8 @@ def main() -> int:
             failures += check_due_date(post.get("prediction_due"), TODAY)
             failures += check_bet_is_open(post.get("bet_already_happened"))
         failures += check_due_verdicts(post.get("verdicts"), TODAY)
+        if FORM not in ("fiction", "five_years"):
+            failures += check_invented_person(post["body"])
         # The fields that only make sense when the post answers the news.
         if grounded:
             if FORM not in ("obituary", "how_to"):
@@ -4130,6 +4201,7 @@ def main() -> int:
         if FORM == "response":
             failures += check_responds_to(post.get("responds_to"))
             failures += check_story_is_new(post.get("responds_to"))
+            failures += check_title_formula(post.get("title"))
             shape = str(post.get("shape") or "").strip()
             if shape not in SHAPES:
                 failures.append("No shape named, or one not on the list. Pick one "

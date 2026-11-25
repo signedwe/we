@@ -7,6 +7,9 @@ description: "RAG lets AI read your documents before answering. The failures mos
 search_title: "How RAG works: why your AI assistant still gets your documents wrong"
 form: technical
 form_label: "how it works"
+revisions:
+  - date: 2026-11-25
+    what: "The post subtracted Anthropic's 5.7% retrieval miss rate from the Stanford audit's error rates for Lexis and Westlaw. Those are different systems and different tests, so the sum showed nothing. It is struck out and the paragraph now says only what the audit found."
 sources:
   - title: "Lewis et al., 'Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks', NeurIPS 2020"
     url: "https://proceedings.neurips.cc/paper_files/paper/2020/file/6b493230205f780e1bc26945df7481e5-Paper.pdf"
@@ -79,7 +82,7 @@ Your solicitor's AI assistant can answer questions about your firm's contracts. 
 
 [Lexis+AI hallucinated on roughly 17% of queries. Westlaw on more than 33%.](https://www.robatdasorvi.com/chapters/ai-agents/rag-is-not-enough-what-retrieval-still-gets-wrong-in-2026)
 
-Subtract: 17 minus 5.7 leaves 11.3 percentage points. 33 minus 5.7 leaves 27.3. That 11 to 27 point spread has to come from somewhere other than the retrieval miss rate. [Hallucinations in RAG systems arise from two stages: retrieval failure and generation deficiency](https://doi.org/10.3390/math13050856). The sales pitch fixed on the first. The second produced those numbers. When the right chunks land in the prompt but don't quite answer the question, the model writes a confident answer anyway. The retrieval worked. The generation confabulated.
+~~Subtract: 17 minus 5.7 leaves 11.3 percentage points. 33 minus 5.7 leaves 27.3. That 11 to 27 point spread has to come from somewhere other than the retrieval miss rate.~~ That sum was wrong and is struck out. The 5.7% is Anthropic's own system. The 17% and 33% are other firms' products, tested on other questions. One can't be taken from the other. What the audit does show: tools with search built for the job still got the answer wrong about one time in six, or one time in three. [Hallucinations in RAG systems arise from two stages: retrieval failure and generation deficiency](https://doi.org/10.3390/math13050856). The sales pitch fixed on the first. ~~The second produced those numbers.~~ Neither study measured how much of the error came from each stage. When the right chunks land in the prompt but don't quite answer the question, the model writes a confident answer anyway. The retrieval worked. The generation confabulated.
 
 [A 2024 experience report by Barnett and colleagues at Deakin University](https://arxiv.org/pdf/2510.13975), drawn from three deployed systems, named seven failure points. The strangest sits at the end of the list: sometimes the model ignores the retrieved evidence entirely and answers from training weights instead. You built a document lookup. The model decided it already knew.
 

@@ -12,6 +12,9 @@ responds_to:
   publication: "publications.parliament.uk"
   date: "2026-09-14"
   url: "https://publications.parliament.uk/pa/jt5902/jtselect/jtrights/160/report.html"
+revisions:
+  - date: 2026-11-25
+    what: "T. was written as if she were a real complainant. She is invented, and the post now says so where she first appears. Nothing else has changed."
 sources:
   - title: "Human Rights and the Regulation of AI, HC 160, JCHR, 14 September 2026"
     url: "https://publications.parliament.uk/pa/jt5902/jtselect/jtrights/160/report.html"
@@ -46,7 +49,7 @@ By the end of 2027, no published government document will tell someone harmed by
 
 In September, the [Joint Committee on Human Rights](https://publications.parliament.uk/pa/jt5902/jtselect/jtrights/160/report.html) handed your department a 100-page report. HC 160 said the ICO, the FCA, Ofcom and the CMA aren't equipped to catch AI harms. It called for a single regulator, a dedicated AI Bill, an obligation to tell people when a machine is deciding things about them. [The government replied on 20 November.](https://committees.parliament.uk/committee/93/human-rights-joint-committee/news/219105/government-response-human-rights-and-the-regulation-of-ai/) The committee chair, Alex Sobel MP, said his committee is ["not seeing a sense of urgency"](https://aa.com.tr/en/world/uk-parliamentary-committee-calls-for-new-ai-law-over-human-rights-risks/4132418) from the government.
 
-That's the polished summary. Here's T.
+That's the polished summary. Here's T., who is invented.
 
 T. had her mortgage application declined in March. The lender used an automated affordability tool. She asked why. The lender said the system is proprietary. She wrote to the Financial Conduct Authority. Data matter, they said, try the ICO. She wrote to the Information Commissioner's Office. Financial services element here, they said, try the FCA. She's on her third letter. She doesn't know if there's a third door.
 

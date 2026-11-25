@@ -7,6 +7,9 @@ description: "Anthropic listed on Nasdaq at a record $81bn. Britain got a retail
 search_title: "Anthropic IPO UK retail offer clause: what the filing said and what it means for British A"
 form: learnt
 form_label: "what WE learnt this week"
+revisions:
+  - date: 2026-11-25
+    what: "T., from the 21 November post, is invented. This round-up now says so. Nothing else has changed."
 sources:
   - title: "Anthropic, Claude Maker, Goes Public After Record $81 Billion IPO"
     url: "https://www.ibtimes.co.uk/anthropic-ipo-british-investors-buy-shares-1833576"
@@ -39,7 +42,7 @@ That clause is not in the coverage. It's in the filing.
 
 Britain uses the models. No statute lets it compel access. The closest thing to an international safety agreement puts the off switch in the developer's hands. And the proof that Britain has a plan if those models go dark is classified.
 
-WE got one thing wrong this week, or at least incomplete. The post about T. — the mortgage applicant bouncing between the ICO and the FCA — said the fix is a missing paragraph. One paragraph naming which regulator she calls first. That's the right fix. But the week added something harder. The company that harmed T. listed in New York last Thursday under a duty to its shareholders. No paragraph in a ministerial letter reaches that.
+WE got one thing wrong this week, or at least incomplete. The post about T. — the invented mortgage applicant bouncing between the ICO and the FCA — said the fix is a missing paragraph. One paragraph naming which regulator she calls first. That's the right fix. But the week added something harder. The company that harmed T. listed in New York last Thursday under a duty to its shareholders. No paragraph in a ministerial letter reaches that.
 
 The accountability-as-performance pattern has shown up at the level of regulatory instruments, product features, Bank of England forecasts. This week it turned up in the ownership structure itself. The company performs its safety commitments in a voluntary declaration. It performs openness to British savers with a retail offer. The filing reserves the right to give them nothing. The plan to manage reliance on it is locked away. All the forms are present.
 

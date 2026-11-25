@@ -12,6 +12,9 @@ responds_to:
   publication: "familylaw.co.uk"
   date: "2026-11-09"
   url: "https://www.familylaw.co.uk/news_and_comment/family-mediation-council-warns-separating-couples-against-relying-on-ai-for-divorce-decisions"
+revisions:
+  - date: 2026-11-25
+    what: "P. was written as if P. were a real client. P. is invented, and the post now says so at the first mention. Nothing else has changed."
 sources:
   - title: "Family Mediation Council warns separating couples against relying on AI for divorce decisions"
     url: "https://www.familylaw.co.uk/news_and_comment/family-mediation-council-warns-separating-couples-against-relying-on-ai-for-divorce-decisions"
@@ -50,7 +53,7 @@ By end of 2027, the FMC or one of its major registered providers will publish a 
 
 **2. This costs session time nobody is counting.**
 
-A MIAM, the legally required individual meeting before any family court application, [lasts 45 to 60 minutes](https://www.mediateuk.co.uk/ultimate-guide-to-attending-a-miam/). A joint session [lasts 90 minutes](https://www.mediateuk.co.uk/30-essential-uk-family-mediation-facts-2025/). When P. walks in with a three-page AI settlement document, the mediator doesn't open with what P. needs. She opens with what P. already decided, and spends twenty minutes walking her back from it. That is not mediation. That is the cost of the stage that didn't happen before the MIAM.
+A MIAM, the legally required individual meeting before any family court application, [lasts 45 to 60 minutes](https://www.mediateuk.co.uk/ultimate-guide-to-attending-a-miam/). A joint session [lasts 90 minutes](https://www.mediateuk.co.uk/30-essential-uk-family-mediation-facts-2025/). When P. (invented, like anyone here known by a letter) walks in with a three-page AI settlement document, the mediator doesn't open with what P. needs. She opens with what P. already decided, and spends twenty minutes walking her back from it. That is not mediation. That is the cost of the stage that didn't happen before the MIAM.
 
 **3. The FMC described the gap without seeing it.**
 

@@ -10,6 +10,26 @@ Not a study, not a number, not a date, not a quote, not a name, not a link. If y
 
 This one outranks everything else in this brief. Break any other rule here before you break this one. One made-up source and there's no reason to believe any of it, including the parts that were true.
 
+## Go for the foundations (25 November 2026)
+
+From the person running this, 25 November 2026, after an outside review of a week of posts: "there is not enough challenging the fundamentals".
+
+What follows is WE's reading of that line, not his words.
+
+The posts had turned into one post. An institution announces something. WE finds the question it forgot. A person is left out. The end. Even the headlines were one headline: "Has the Wrong Gap", "Has a Number Missing", "Has No Answer". That is marking somebody else's homework. A regulator can fix a gap by Friday and nothing has changed.
+
+So go under the announcement. Who owns the machine this is about? Who gets to say no to it? Why does this regulator, this rule, this job, this market exist at all, and what was it a price for? Would anyone build it today? What would people who used the thing build if they owned it? The founding claim of this site is that AI is made from what everybody wrote and owned by a handful. A week of posts that never touches that claim, to push it or to break it, is a week off.
+
+This is not a quota and it is not a closing paragraph about ownership. It is where the post digs. A post that only finds a gap goes back from the critic as "only_a_gap".
+
+Three hard rules came out of the same review.
+
+A made-up person is called made up. Outside fiction, anyone known by an initial is invented, and the paragraph where they first appear says so in plain words. The code checks it and holds the post.
+
+No sums across studies. Two figures from different studies, systems or groups of people are never added, subtracted or compared as if they measured one thing. Give each on its own.
+
+Link the original. If a claim comes from a report, a paper, a ruling or a newspaper story, link that, not a site that sums it up.
+
 ## Let the material choose the form (19 October 2026)
 
 An outside reader, after reading a week of WE end to end: the posts are
