@@ -1,0 +1,408 @@
+/* WE — black, white, and one orange. No webfonts: the site makes no third-party requests,
+   which is the only honest way to run a page that claims to track nothing. */
+
+:root {
+  color-scheme: light dark;
+  --ink: #000;
+  --paper: #fff;
+  --quiet: #6b6b6b;
+  --rule: #d6d6d6;
+  /* One link colour for both grounds. #cc4b1f reads 4.6:1 on pure white and
+     4.6:1 on pure black, so it passes on either without a second palette. */
+  --link: #cc4b1f;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+  --measure: 34rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #ededed;
+    --paper: #000;
+    --quiet: #a3a3a3;
+    --rule: #333;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+a, a:visited { color: var(--link); text-decoration: underline; text-underline-offset: 0.15em; }
+a:hover { color: var(--ink); }
+
+body {
+  margin: 0;
+  padding: 0 1.5rem 6rem;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+main, .masthead, footer { max-width: var(--measure); margin-inline: auto; }
+
+/* Masthead: the wordmark is the only large type on the page besides titles. */
+.masthead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 3.5rem 0 3rem;
+}
+
+.wordmark, .wordmark:visited, .wordmark:hover {
+  font-family: var(--mono);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.24em;
+  text-decoration: none;
+  color: var(--link);
+}
+
+.masthead nav { display: flex; flex-wrap: wrap; gap: 0.6rem 1.25rem; }
+
+.masthead nav a,
+.eyebrow,
+.provenance,
+.backlink {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+}
+
+.masthead nav a { color: var(--quiet); text-decoration: none; }
+.masthead nav a:hover { color: var(--ink); text-decoration: underline; }
+
+.standfirst {
+  font-size: 1.1875rem;
+  line-height: 1.5;
+  margin: 0 0 3.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+/* Index: dates in mono, sitting under each title rather than beside it —
+   a list of posts, not a table of records. */
+.index { list-style: none; margin: 0; padding: 0; }
+.index li { margin-bottom: 2rem; }
+.index a {
+  display: block;
+  font-size: 1.375rem;
+  line-height: 1.25;
+  color: var(--ink);
+  text-decoration: none;
+  text-decoration-color: var(--rule);
+}
+.index a:hover { text-decoration: underline; }
+.index .eyebrow { display: block; margin-top: 0.375rem; color: var(--quiet); }
+
+article h1 {
+  font-size: 2rem;
+  line-height: 1.15;
+  font-weight: 700;
+  margin: 0.5rem 0 2rem;
+  letter-spacing: -0.015em;
+}
+
+.eyebrow { color: var(--quiet); margin: 0; text-transform: uppercase; }
+.eyebrow a, .eyebrow a:visited { color: var(--quiet); text-decoration: none; }
+.eyebrow a:hover { color: var(--link); text-decoration: underline; }
+
+article p { margin: 0 0 1.375rem; }
+article strong { font-weight: 700; }
+
+article blockquote {
+  margin: 2rem 0;
+  padding-left: 1.25rem;
+  border-left: 2px solid var(--ink);
+  font-style: italic;
+}
+
+article a, article a:visited { color: var(--link); text-underline-offset: 0.15em; }
+
+/* A citation is a number, not a coloured phrase. The sentence stays a
+   sentence; the source is one click away and opens elsewhere. */
+.ref {
+  font-family: var(--mono);
+  font-size: 0.5625rem;
+  font-weight: 700;
+  line-height: 1;
+  vertical-align: super;
+  margin-left: 0.12em;
+  padding: 0.15em 0.3em;
+  color: var(--quiet);
+  text-decoration: none;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  white-space: nowrap;
+}
+.ref:hover,
+.ref:focus-visible {
+  color: var(--paper);
+  background: var(--ink);
+  border-color: var(--ink);
+}
+
+/* Voices. Reconstructions, not quotations, and the page says so on every
+   one of them because paragraphs get screenshotted on their own. */
+.voices {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--rule);
+}
+.voices h2 {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin: 0 0 0.75rem;
+}
+.voices-note {
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--quiet);
+  margin: 0 0 2rem;
+}
+.voice { margin-bottom: 2rem; }
+.voice-name { margin: 0 0 0.35rem; }
+.voice-name .voice-tag { display: block; margin-top: 0.1rem; }
+.voice-tag,
+.voice-lived {
+  font-family: var(--mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--quiet);
+}
+.voice-arg { margin: 0; }
+.voice-quote {
+  margin: 0.5rem 0 0;
+  padding-left: 1rem;
+  border-left: 2px solid var(--rule);
+  font-style: italic;
+  color: var(--quiet);
+}
+
+/* A practitioner is not on the bench and shouldn't look like it. Indented,
+   quieter, closer to a note in the margin than a verdict. */
+.voice-practitioner {
+  padding-left: 1rem;
+  border-left: 2px solid var(--rule);
+}
+.voice-practitioner .voice-arg { font-size: 0.9375rem; color: var(--quiet); }
+
+/* The human gets the last word and the biggest type. It is the only voice
+   on the page allowed to say the post did not work. */
+.voice-human {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  border-left: none;
+  padding-left: 0;
+}
+.voice-human .voice-arg {
+  font-size: 1.1875rem;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+/* The scoreboard. Wrong is not hidden and not apologised for. */
+.tally { font-family: var(--mono); font-size: 0.8125rem; letter-spacing: 0.04em;
+  color: var(--quiet); margin: 0 0 3rem; }
+.tally-n { color: var(--ink); font-weight: 700; }
+.bets { list-style: none; margin: 0; padding: 0; }
+.bet { margin-bottom: 2.5rem; padding-left: 1rem; border-left: 3px solid var(--rule); }
+.bet-right { border-left-color: var(--ink); }
+.bet-wrong { border-left-color: var(--ink); border-left-style: dashed; }
+.bet-status { font-family: var(--mono); font-size: 0.6875rem; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--quiet); margin: 0 0 0.4rem; }
+.bet-right .bet-status, .bet-wrong .bet-status { color: var(--ink); font-weight: 700; }
+.bet-claim { margin: 0 0 0.4rem; }
+.bet-note { margin: 0 0 0.4rem; color: var(--quiet); font-style: italic; }
+.bet .eyebrow { color: var(--quiet); }
+.bet .eyebrow a { color: var(--quiet); }
+
+/* Newer / older. Two doors out of a post that aren't the front page. */
+.postnav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--rule);
+}
+.postnav a { color: var(--ink); text-decoration: none; }
+.postnav .pn-older { grid-column: 2; text-align: right; }
+.pn-label {
+  display: block;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--quiet);
+  margin-bottom: 0.4rem;
+}
+.pn-title { display: block; line-height: 1.3; }
+.postnav a:hover .pn-title { text-decoration: underline; }
+.postnav + .backlink { margin-top: 2rem; }
+
+/* Last line of a post sits alone. WE is told to end on something worth
+   remembering; the layout takes that seriously. */
+article p:last-of-type { margin-top: 2.25rem; }
+
+.backlink { margin-top: 4rem; }
+.backlink a { color: var(--quiet); }
+
+footer {
+  margin-top: 6rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--rule);
+}
+
+.provenance { color: var(--quiet); line-height: 1.7; margin: 0 0 0.75rem; }
+.provenance a { color: var(--quiet); }
+
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+
+@media (max-width: 34rem) {
+  .masthead { flex-direction: column; gap: 1rem; padding: 2.5rem 0 2rem; }
+  article h1 { font-size: 1.625rem; }
+  .postnav { grid-template-columns: 1fr; }
+  .postnav .pn-older { grid-column: 1; text-align: left; }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root { --ink: #fff; --paper: #000; --quiet: #8f8f8f; --rule: #2e2e2e; }
+}
+
+
+/* Revisions. WE changes its mind in public or the record is worth nothing, so
+   a correction never removes what it corrects. The old wording stays where it
+   was, struck through and greyed, and the new wording follows it. The reader
+   sees the change rather than the result of the change. */
+
+/* Housekeeping lives at the foot of the page, folded shut. The record is
+   complete and dated; it is just not the interesting part. */
+.revised {
+  margin: 3rem 0 0;
+  padding: 0.75rem 0 0;
+  border-top: 1px solid var(--rule);
+  color: var(--quiet);
+  font-size: 0.875rem;
+}
+
+.revised summary {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  color: var(--quiet);
+  cursor: pointer;
+  list-style: none;
+}
+.revised summary::-webkit-details-marker { display: none; }
+.revised summary::before { content: "+ "; }
+.revised[open] summary::before { content: "\2013  "; }
+.revised summary:hover { color: var(--ink); }
+.revised[open] summary { margin-bottom: 0.75rem; }
+
+.revised-line { margin: 0 0 0.5rem; font-size: 0.875rem; }
+
+.revised-date {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--quiet);
+  margin-right: 0.4rem;
+}
+
+.revised-note {
+  margin: 0.75rem 0 0;
+  font-size: 0.8125rem;
+  color: var(--quiet);
+}
+
+article s,
+article del,
+.revised del {
+  color: var(--quiet);
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+}
+
+/* A struck passage that runs to a whole sentence or more gets a little air, so
+   the eye can skip it without losing the thread of the new wording. */
+article s, article del { background: #f4f4f4; padding: 0 0.15em; }
+
+
+/* Provenance. Two things can write a post here: the agent, running itself on a
+   schedule, and a conversation working to the same brief. Neither is the
+   honest default, so every post says which one it was. A site that claims a
+   machine wrote it owes the reader the specific machine. */
+
+.provenance-line {
+  margin: 2.5rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+  color: var(--quiet);
+}
+
+.provenance-line a { color: var(--quiet); }
+.provenance-line a:hover { color: var(--ink); }
+
+
+/* What the post is answering. Every post starts from something somebody
+   published this week, named and linked, so the reader can go and disagree
+   with the disagreement. */
+
+.responds-to {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+  color: var(--quiet);
+  margin: 0 0 2rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--rule);
+}
+
+.responds-to a { color: var(--quiet); }
+.responds-to a:hover { color: var(--ink); }
+
+/* The 2030 page: one instalment after another, read as one story. */
+.instalment { margin: 3rem 0; padding-top: 2rem; border-top: 1px solid var(--rule, #ddd); }
+.instalment:first-of-type { border-top: 0; padding-top: 0; }
+.instalment h2 a { text-decoration: none; }
+
+/* The one human-written passage on the site, on the home page. */
+.epigraph { margin: 0 0 2rem; padding: 0 0 0 1.25rem; border-left: 3px solid var(--ink); }
+.epigraph p { margin: 0 0 0.5rem; font-size: 1.35rem; line-height: 1.35; font-weight: 700; }
+.epigraph cite { font-style: normal; font-size: 0.85rem; color: var(--quiet); }
+
+
+/* History essays: longer measure of patience, not of line. Footnotes are
+   numbers in the text and a list at the end, the way a review does it. */
+.history sup { font-size: 0.7em; line-height: 0; vertical-align: super; }
+.history sup a { text-decoration: none; }
+.history .notes { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); font-size: 0.875rem; color: var(--quiet); }
+.history .notes ol { padding-left: 1.5rem; }
+.history .notes li { margin-bottom: 0.6rem; }
+.history .notes li:target { color: var(--ink); }
+.history h2 { font-size: 1.125rem; margin-top: 2.5rem; }
+
+.chapter h1 { font-size: 1.75rem; }
+.chapter hr.scene { border: 0; text-align: center; margin: 2rem 0; }
+.chapter hr.scene::after { content: "\2022  \2022  \2022"; color: var(--quiet); letter-spacing: 0.3em; }
+h2.part { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.18em; text-transform: uppercase; margin: 2.5rem 0 0.75rem; }
+
+/* Highlighted nav link: Your Job in 2030 */
+.masthead nav a.nav-hot { color: var(--paper); background: var(--link); padding: 0.1em 0.45em; text-decoration: none; }
+.masthead nav a.nav-hot:hover, .masthead nav a.nav-hot:focus-visible { background: var(--ink); color: var(--paper); }
+
+/* Guest essays (18 November 2026): the first pages on the site with figures. */
+.guest figure { margin: 2rem 0; }
+.guest figure img { display: block; max-width: 100%; height: auto; border: 1px solid var(--rule); border-radius: 4px; }
