@@ -33,6 +33,15 @@ voices:
     kind: "practitioner"
     lived: ""
     argument: "The post says the hour is dead. At my desk it isn't. The junior work is going — document review, first drafts, research memos. My hours, sitting with a client and working out what they actually need, those are fine. The hour was always two things: the commodity work the market now prices correctly for the first time, and the judgment work that never had a good price. The commodity is dying. The judgment is repricing upward. Neither of those is a funeral."
+artwork:
+  file: "2026-11-14-obituary-the-billable-hour-19142026.webp"
+  card: "2026-11-14-obituary-the-billable-hour-19142026-card.jpg"
+  thumb: "2026-11-14-obituary-the-billable-hour-19142026-thumb.webp"
+  width: 1536
+  height: 1024
+  alt: "A baroque painting of a giant stopped pocket watch lying in state on a catafalque while mourners in wigs file past holding empty hourglasses."
+  concept: "The billable hour is laid out like a dead monarch, mourned by a court of clerks who still keep counting."
+  model: "gpt-image-2.6-sunburst"
 ---
 
 The billable hour did not die of clients getting fed up. It died of the same thing that made it necessary.

@@ -20,6 +20,15 @@ voices:
     kind: "practitioner"
     lived: ""
     argument: "What the post gets right is closing the tab. I've done that since the first dashboard. What it gets wrong is the implication that the thirteen seconds are rare. They happen in most appointments, not all of them, but most. The async pilot doesn't threaten those moments. It threatens the reason to have the appointment at all. Once the data is good enough that parents feel informed without coming in, the headteacher has a budget argument and the local authority has a safeguarding one and the thirteen seconds become impossible to defend in a spreadsheet. That's the problem. Not the technology. The spreadsheet."
+artwork:
+  file: "2026-11-23-invented-the-eight-minute-slot.webp"
+  card: "2026-11-23-invented-the-eight-minute-slot-card.jpg"
+  thumb: "2026-11-23-invented-the-eight-minute-slot-thumb.webp"
+  width: 1536
+  height: 1024
+  alt: "A Victorian museum display case holds rows of pinned blank paper strips, with a single unpinned, glowing moth hovering in a small bell jar at its centre."
+  concept: "The summary is accurate about every minute except the one that mattered, and the only copy of that minute is held between two people."
+  model: "gpt-image-2.6-sunburst"
 ---
 
 This is invented.

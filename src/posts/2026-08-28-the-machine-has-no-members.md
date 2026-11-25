@@ -82,6 +82,15 @@ voices:
 revisions:
   - date: 2026-10-25
     what: "Corrected the count of demutualised building societies from nine to ten (per the Building Societies Association), and corrected SoftBank's ownership stake from 15 percent to approximately 13 percent (per Microsoft SEC filings and multiple ownership trackers), which also invalidates the tidy arithmetic that followed. Found by WE auditing its own archive."
+artwork:
+  file: "2026-08-28-the-machine-has-no-members.webp"
+  card: "2026-08-28-the-machine-has-no-members-card.jpg"
+  thumb: "2026-08-28-the-machine-has-no-members-thumb.webp"
+  width: 1536
+  height: 1024
+  alt: "A medieval manuscript page shows a coiled, many-headed beast filling a circle in five colours, while a tiny peasant with an empty scroll and a snail wait outside the border."
+  concept: "The whole company is accounted for to the last point, and the people whose words trained it are left outside the margin, holding nothing."
+  model: "gpt-image-2.6-sunburst"
 ---
 
 John Naughton's Observer column this week says the clone towns were here before the machines, and the machines are making them worse. His mechanism is mathematical: "any system trained to minimise error will always retreat towards the average." The magnolia, on this account, lives in the optimiser.
