@@ -57,7 +57,26 @@ ABOUT_MARK = "<!-- revisions -->"
 # locally and the draft survives here for a human to read.
 HELD = ROOT / "agent" / "held"
 
-MODEL = "claude-sonnet-4-6"
+# 25 November 2026: moved off the model the site launched on. If this
+# account does not have the new one, every call falls back to the old one,
+# so a wrong name here cannot stop the day's posts.
+MODEL = os.environ.get("WE_MODEL", "claude-sonnet-5-5")
+MODEL_FALLBACK = "claude-sonnet-4-6"
+# The history essays keep the model they were tuned on.
+HISTORY_MODEL = "claude-sonnet-4-6"
+
+
+def create(client, **kw):
+    try:
+        return client.messages.create(**kw)
+    except Exception as exc:
+        if (type(exc).__name__ in ("NotFoundError", "BadRequestError", "PermissionDeniedError")
+                and kw.get("model") != MODEL_FALLBACK):
+            print(f"{kw.get('model')} refused ({type(exc).__name__}); falling back to {MODEL_FALLBACK}")
+            kw["model"] = MODEL_FALLBACK
+            return client.messages.create(**kw)
+        raise
+
 # 8000 was not enough. The model narrates through its searches before it
 # writes anything, and a run that thinks hard about a hard post hits the
 # ceiling mid-sentence and returns no JSON at all. Nothing is salvageable
@@ -2283,7 +2302,7 @@ Return ONLY this JSON, no preamble, no fences:
 
 {CRITIC_SCHEMA}"""
 
-    resp = client.messages.create(
+    resp = create(client, 
         model=MODEL,
         max_tokens=2000,
         tools=CRITIC_TOOLS,
@@ -2731,12 +2750,29 @@ TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 # in the news *usual rules apply". So a news response every day, in
 # fiction's old slot after the day's other posts; Tuesday and Friday
 # already open with one, so they keep just that one.
+# 25 November 2026. The operator: "the problem is the site is boring", then
+# a new brief (agent/manifesto.md): never publish merely because something
+# happened; one extraordinary argument beats ten sensible ones; no automatic
+# filler. So the week changes shape.
+#
+# Monday      five_years   a made-up scene from five years out ("Invented")
+# Tuesday     heresy       the week's one big argument (agent/desk.py)
+# Wednesday   satire       the funny pages (agent/desk.py)
+# Thursday    technical    how one part of AI works, well sourced
+# Friday      satire       again, a different strand
+# Saturday    obituary     an exhibit for the Museum of Work
+# Sunday      learnt       what WE learnt this week
+# Every day   how_to       unchanged, on his standing order of 23 September
+# Every day   response     an opening, not a slot: the desk asks whether WE has
+#                          anything new to say about the news, usually says
+#                          no, and never says yes more than twice in a week
+# The top ten is off the rota; its code stays.
 FORMS = {
     0: ["five_years", "how_to", "response"],
-    1: ["response", "how_to"],
-    2: ["top_ten", "how_to", "response"],
+    1: ["heresy", "how_to", "response"],
+    2: ["satire", "how_to", "response"],
     3: ["technical", "how_to", "response"],
-    4: ["response", "how_to"],
+    4: ["satire", "how_to", "response"],
     5: ["how_to", "obituary", "response"],
     6: ["learnt", "how_to", "response"],
 }
@@ -2750,6 +2786,8 @@ FORM_LABEL = {
     "technical": "how it works",
     "obituary": "obituary",
     "how_to": "how to",
+    "heresy": "heresy",
+    "satire": "satire",
 }
 
 HOW_TO_DISCLAIMER = (
@@ -2877,18 +2915,32 @@ def forms_published(date_str: str) -> list:
         if not m and re.search(r'^provenance:\s*"?conversation', text, re.MULTILINE):
             continue
         out.append(m.group(1) if m else "response")
+    # What the desk looked at today and chose not to publish counts as done.
+    import desk
+    out += desk.skipped(date_str)
     return out
 
 
 def next_form(date_str: str):
     """The first form due today that hasn't been written, or None."""
     done = forms_published(date_str)
-    for f in forms_for(date_str):
+    due = forms_for(date_str)
+    # The heresy is weekly "when ready". If the desk turned Tuesday's down,
+    # or it was held, it gets another go first thing each day until one runs.
+    if "heresy" not in due and not posts_since("heresy", 7):
+        due = ["heresy"] + due
+    for f in due:
         if f in done:
             done.remove(f)
         else:
             return f
     return None
+
+
+def posts_since(form: str, days: int) -> list:
+    """Published posts of one form from the last `days` days."""
+    cut = (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%Y-%m-%d")
+    return [f for f in posts_with_form(form) if f.name[:10] > cut]
 
 
 def posts_with_form(form: str) -> list:
@@ -3536,6 +3588,12 @@ life: if they were "born as admin convenience, really shifted a cost onto
 the weak", yours isn't. No stock character they used (no warehouse worker
 if one appeared). Don't reuse their laws or their sources.
 
+Every obituary is also an exhibit in the Museum of Work (/museum/). Prefer
+a job, a trade or a way of earning a living to a rule. Somewhere in the
+life, say what people got from it besides money (the gossip, the title,
+the reason to leave the house) and what they will be glad never to do
+again. Affection first; this is a museum, not a tribunal.
+
 Rules for this form. The cause of death is real and linked: the story,
 the number, the decision from this week that killed it. Dates and
 figures carry links as usual. A refutation search: is it really dead,
@@ -3752,7 +3810,11 @@ def check_title_formula(title: str) -> list:
 
 
 def build_prompt() -> str:
-    return f"""{BRIEF.read_text(encoding="utf-8")}
+    return f"""{(ROOT / "agent" / "manifesto.md").read_text(encoding="utf-8")}
+
+---
+
+{BRIEF.read_text(encoding="utf-8")}
 
 ---
 
@@ -4111,7 +4173,8 @@ def main() -> int:
     # find it already on disk and stand down. A held=true output is how the
     # announce job is told there is nothing to announce.
     global FORM
-    due = next_form(TODAY)
+    # A manual run can ask for one form by name (workflow input "form").
+    due = (os.environ.get("WE_FORM") or "").strip() or next_form(TODAY)
     if due is None:
         print(f"Everything due on {TODAY} already exists. Standing down.")
         set_output(held=True)
@@ -4122,10 +4185,25 @@ def main() -> int:
     load_env()
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
+    import desk
+    if FORM in desk.FORMS:
+        return desk.run(sys.modules[__name__], client, FORM)
+    commission = ""
+    if FORM == "response":
+        # The news is an opening, not a slot. Most days the desk says no.
+        try:
+            commission, why_not = desk.news_gate(sys.modules[__name__], client)
+        except Exception as exc:
+            commission, why_not = None, f"The desk could not decide ({type(exc).__name__})."
+        if not commission:
+            desk.record_skip("response", why_not, TODAY)
+            set_output(held=True)
+            return 0
+
     invented = FORM in ("fiction", "five_years")
     grounded = FORM in ("response", "technical", "obituary", "how_to")
 
-    messages = [{"role": "user", "content": build_prompt()}]
+    messages = [{"role": "user", "content": build_prompt() + commission}]
     searched = []
     searches = 0
     post = None
@@ -4135,7 +4213,7 @@ def main() -> int:
     published = recent_bodies()
 
     for attempt in range(MAX_RETRIES + 1):
-        resp = client.messages.create(
+        resp = create(client, 
             model=MODEL,
             max_tokens=MAX_TOKENS,
             # A story searches nothing. The invented forms get no tools, so
@@ -4561,7 +4639,7 @@ def audit() -> int:
     messages = [{"role": "user", "content": audit_prompt(raw, target.name)}]
     data = None
     for attempt in range(MAX_RETRIES + 1):
-        resp = client.messages.create(
+        resp = create(client, 
             model=MODEL, max_tokens=MAX_TOKENS, tools=AUDIT_TOOLS, messages=messages,
         )
         try:

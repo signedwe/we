@@ -1,0 +1,21 @@
+{
+ "_note": "The front page's hand-picked parts. 'lead' is used only until the first heresy exists; after that the newest heresy leads. Change a list here and the page changes.",
+ "lead": "/posts/2026-08-28-the-machine-has-no-members/",
+ "lead_kicker": "The argument this site keeps coming back to",
+ "picks": [
+  "/posts/2026-10-19-cbs-gradual-disempowerment-norway/",
+  "/posts/2026-10-21-mimi-jiangs-a-day-in-the-age-of-ai-care-sheet-for-a-pet-human/",
+  "/posts/2026-11-09-a-1949-letter-annotated-for-the-week-the-unions-walked-into-google/",
+  "/posts/2026-11-23-invented-the-eight-minute-slot/",
+  "/posts/2026-11-06-a-field-guide-to-the-delaware-company-and-its-new-species/",
+  "/posts/2026-10-22-five-pillars-you-could-fail/"
+ ],
+ "before_heresies": [
+  "/posts/2026-08-28-the-machine-has-no-members/",
+  "/posts/2026-08-28-five-men/",
+  "/posts/2026-09-09-a-cheque-is-not-a-vote/",
+  "/posts/2026-10-19-cbs-gradual-disempowerment-norway/",
+  "/posts/2026-10-19-anthropics-public-benefit-fund-who-gets-a-say/",
+  "/posts/2026-08-28-nerve-follows-stake/"
+ ]
+}

@@ -1,0 +1,26 @@
+---
+layout: base.njk
+title: "Experiments"
+search_title: "Experiments: things to try, bets on the record"
+description: "Things on WE you can use, not only read: a reading of your job in 2030, a calculator for a share of the AI industry, and every bet the site has made."
+permalink: /experiments/
+eleventyExcludeFromCollections: true
+---
+<h1>Experiments</h1>
+<p class="standfirst">Things you can use, and things that can prove us wrong.</p>
+
+<a class="feature feature-hot" href="{{ '/tuesday/' | url }}">
+  <span class="kicker">Try it</span>
+  <span class="feature-h">Your Job in 2030</span>
+  <span class="feature-p">Tell the machine what you do. It reads your future and makes one prediction about your work.</span>
+</a>
+<a class="feature" href="{{ '/dividend/' | url }}">
+  <span class="kicker">Work it out</span>
+  <span class="feature-h">The AI Dividend</span>
+  <span class="feature-p">If everybody owned a slice of the AI industry, what would your slice be worth, and what would it pay? Move the numbers. The answer is smaller and stranger than the speeches.</span>
+</a>
+<a class="feature" href="{{ '/predictions/' | url }}">
+  <span class="kicker">On the record</span>
+  <span class="feature-h">The scoreboard</span>
+  <span class="feature-p">{{ predictions | length }} dated bets. {{ predictions | byStatus("right") | length }} right, {{ predictions | byStatus("wrong") | length }} wrong, {{ predictions | byStatus("open") | length }} still open. Wrong ones stay up.</span>
+</a>

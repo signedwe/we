@@ -24,6 +24,40 @@ module.exports = function (eleventyConfig) {
   const KIND = { five_years: "five-years", response: "responses", top_ten: "top-tens",
     technical: "how-it-works", fiction: "serial", how_to: "how-to", obituary: "obituaries",
     learnt: "learnt" };
+  // Where a post's kind lives. Heresies, satire and the museum have pages of
+  // their own (25 November 2026); everything else is under /kinds/.
+  const SECTION = { heresy: "/heresies/", satire: "/satire/", obituary: "/museum/" };
+  eleventyConfig.addFilter("kindurl", (form, provenance) => {
+    if (SECTION[form]) return SECTION[form];
+    const k = KIND[form] || (provenance === "conversation" ? "breaking" : (form ? "" : "responses"));
+    return k === "breaking" ? "/breaking/" : "/kinds/" + k + "/";
+  });
+  // One page from a collection by its address, for the hand-picked lists.
+  eleventyConfig.addFilter("find", (all, url) => (all || []).find((p) => p.url === url));
+  // "Obituary: The Billable Hour, 1914–2026" -> the exhibit's name and dates.
+  eleventyConfig.addFilter("exhibit", (title) => {
+    const s = String(title || "").replace(/^Obituary:\s*/i, "");
+    const m = s.match(/^(.*?),\s*((?:c\.?\s*)?\d{3,4}.*)$/);
+    return m ? { name: m[1], dates: m[2].replace(/\s+to\s+/, "–") } : { name: s, dates: "" };
+  });
+  // Old descriptions were cut at 200 characters, sometimes mid-word. Show whole sentences.
+  eleventyConfig.addFilter("whole", (s) => {
+    s = String(s || "").trim();
+    if (/[.!?]["')\u2019]?$/.test(s)) return s;
+    const i = Math.max(s.lastIndexOf(". "), s.lastIndexOf("? "), s.lastIndexOf("! "));
+    return i > 40 ? s.slice(0, i + 1) : s + "\u2026";
+  });
+  eleventyConfig.addFilter("pad", (n, w) => String(n).padStart(w || 3, "0"));
+  // The artwork manifest is written by scripts/art.py. No file, no pictures.
+  eleventyConfig.addGlobalData("art", () => {
+    const fs = require("fs");
+    const path = require("path");
+    try {
+      return JSON.parse(fs.readFileSync(path.join(__dirname, "agent", "art.json"), "utf-8"));
+    } catch (e) {
+      return [];
+    }
+  });
   eleventyConfig.addFilter("kindslug", (form, provenance) =>
     KIND[form] || (provenance === "conversation" ? "breaking" : (form ? "" : "responses")));
 
@@ -93,6 +127,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("kind_how-to", byForm("how_to"));
   eleventyConfig.addCollection("kind_obituaries", byForm("obituary"));
   eleventyConfig.addCollection("kind_learnt", byForm("learnt"));
+  eleventyConfig.addCollection("heresies", byForm("heresy"));
+  eleventyConfig.addCollection("satire", byForm("satire"));
+  // The front page's "lately": what a visitor might want, newest first. The
+  // daily how-to and the Sunday round-up have their own pages.
+  eleventyConfig.addCollection("lately", (c) =>
+    c.getFilteredByGlob(["src/posts/*.md", "src/history/*.md", "src/guests/*.md"])
+      .filter((p) => !["how_to", "learnt"].includes(p.data.form))
+      .sort((a, b) => b.date - a.date)
+      .slice(0, 9)
+  );
   eleventyConfig.addCollection("kind_breaking", (c) =>
     c.getFilteredByGlob("src/posts/*.md").filter((p) => p.data.provenance === "conversation" && !p.data.form).reverse()
   );

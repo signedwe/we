@@ -1,0 +1,157 @@
+---
+layout: base.njk
+title: "The AI Dividend"
+search_title: "AI dividend calculator: what a public share of AI would pay each person"
+description: "If everybody owned a slice of the AI industry, what would your slice be worth and what would it pay a year? A calculator with every assumption on show. The answer is smaller and stranger than the speeches."
+permalink: /dividend/
+tags: [ownership, money]
+---
+<article class="dividend">
+<p class="eyebrow">An experiment · every number below is an assumption you can change</p>
+<h1>The AI Dividend</h1>
+
+<p class="standfirst">Suppose the people owned a slice of the companies that build AI. What would your slice be worth? What would it pay? Move the numbers. Nothing here is a forecast, and nobody is offering you any of it.</p>
+
+<form class="calc" id="calc" onsubmit="return false">
+  <fieldset>
+    <legend>Start from</legend>
+    <div class="presets">
+      <button type="button" data-v="10" data-s="20" data-n="8300" data-y="3" aria-pressed="true">The whole world</button>
+      <button type="button" data-v="10" data-s="20" data-n="69" data-y="3">Britain only</button>
+      <button type="button" data-v="100" data-s="20" data-n="8300" data-y="5">The boosters are right</button>
+      <button type="button" data-v="10" data-s="100" data-n="8300" data-y="3">Take the lot</button>
+    </div>
+  </fieldset>
+
+  <label for="v">What the AI companies are worth, added together
+    <span class="val"><output id="vo" for="v"></output></span></label>
+  <input id="v" type="range" min="0" max="100" step="1" value="50">
+
+  <label for="s">The slice held for everyone
+    <span class="val"><output id="so" for="s"></output></span></label>
+  <input id="s" type="range" min="1" max="100" step="1" value="20">
+
+  <label for="n">How many people share it
+    <span class="val"><output id="no" for="n"></output></span></label>
+  <input id="n" type="range" min="0" max="100" step="1" value="100">
+
+  <label for="y">Cash paid out each year, as a share of what the slice is worth
+    <span class="val"><output id="yo" for="y"></output></span></label>
+  <input id="y" type="range" min="0" max="10" step="0.5" value="3">
+</form>
+
+<div class="result" aria-live="polite">
+  <p class="result-row"><span class="result-label">Your shares are worth</span> <span class="result-n" id="eq"></span></p>
+  <p class="result-row"><span class="result-label">Your cheque, each year</span> <span class="result-n result-hot" id="an"></span></p>
+  <p class="result-row"><span class="result-label">Which is, each week</span> <span class="result-n" id="wk"></span></p>
+  <p class="result-row"><span class="result-label">Your say, if the slice carries votes</span> <span class="result-n" id="vt"></span></p>
+  <p class="verdict" id="verdict"></p>
+</div>
+
+<p class="reverse" id="reverse"></p>
+
+<h2>What you have just assumed</h2>
+
+<p><strong>That a valuation is money.</strong> It is not. A valuation is what somebody would pay for a share today. Nobody can spend it until they sell, and if everybody sells at once the price is not the price.</p>
+
+<p><strong>That the companies pay anything out.</strong> A company does not have to pay a dividend, and plenty never do. The last slider is the biggest guess on the page. Set it to nought and see what a share of the future pays when the future keeps its profits.</p>
+
+<p><strong>That anyone hands over a slice.</strong> The sum works the same whether the slice is bought, taxed in shares or simply taken. Getting it is the whole argument, and a calculator cannot help with that.</p>
+
+<p><strong>That the cheque is the point.</strong> Try the first button again. A fifth of the industry, shared by everyone alive, pays each of us about the price of a sandwich a year. Now look at the line about votes. The same slice is a fifth of the votes. Seven dollars cannot stop anything. A fifth of the votes can.</p>
+
+<h2>Three ways to hold a slice</h2>
+
+<p><strong>A fund that pays out.</strong> The slice sits in a trust and the trust sends everyone a cheque. Simple, popular, and easy to cut the day it gets expensive.</p>
+
+<p><strong>A vote and no cheque.</strong> One share that pays nothing and can say no: to a sale, to a merger, to a model being switched on. Worth nothing on paper. Worth a great deal on the right afternoon.</p>
+
+<p><strong>A share that is yours.</strong> Shares held in your own name that you cannot sell but your children inherit. Slow. Hard to take back.</p>
+
+<p>WE has argued about which of these matters: <a href="{{ '/posts/2026-09-09-a-cheque-is-not-a-vote/' | url }}">A Cheque Is Not a Vote</a>, and <a href="{{ '/posts/2026-10-19-cbs-gradual-disempowerment-norway/' | url }}">Norway Didn't Ask for a Share. It Could Say No</a>. The longer case is at <a href="{{ '/own/' | url }}">Who should own AI?</a></p>
+
+<h2>The sum</h2>
+<p class="sum">shares each = total value × slice ÷ people<br>cheque each year = shares each × payout</p>
+<p>The first button is the worked example: $10 trillion, a 20% slice, 8.3 billion people, a 3% payout. That gives $241 in shares and $7.23 a year. The $10 trillion is a round number to start from, not a measurement. The head counts are rough: about 8.3 billion people in the world and about 69 million in Britain.</p>
+</article>
+
+<p class="provenance-line">Built in conversation with Claude, 25 November 2026. The worked example and its figures were supplied by the person who runs this site; the page, the words and the other buttons are the machine's. It runs in your browser and sends nothing anywhere.</p>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var v = $("v"), s = $("s"), n = $("n"), y = $("y");
+  // Two of the sliders run on a curve so that small and huge values both fit.
+  // Value: $0.5 trillion to $500 trillion. People: 1 million to 8.3 billion.
+  function valOf(p) { return 0.5 * Math.pow(1000, p / 100); }
+  function posOfVal(t) { return 100 * Math.log(t / 0.5) / Math.log(1000); }
+  var NMIN = 1, NMAX = 8300;
+  function popOf(p) { return NMIN * Math.pow(NMAX / NMIN, p / 100); }
+  function posOfPop(m) { return 100 * Math.log(m / NMIN) / Math.log(NMAX / NMIN); }
+  var exact = { v: null, n: null };
+
+  function money(x) {
+    if (!isFinite(x)) return "nothing";
+    if (x >= 1e6) return "$" + (x / 1e6).toLocaleString("en-GB", { maximumFractionDigits: 1 }) + " million";
+    if (x >= 100) return "$" + Math.round(x).toLocaleString("en-GB");
+    if (x >= 0.995) return "$" + x.toFixed(2);
+    if (x >= 0.005) return Math.round(x * 100) + " cents";
+    return x > 0 ? "less than a cent" : "nothing";
+  }
+  function people(m) {
+    if (m >= 1000) return (m / 1000).toLocaleString("en-GB", { maximumFractionDigits: 1 }) + " billion";
+    return m.toLocaleString("en-GB", { maximumFractionDigits: m < 10 ? 1 : 0 }) + " million";
+  }
+  function trillions(t) {
+    return "$" + t.toLocaleString("en-GB", { maximumFractionDigits: t < 10 ? 1 : 0 }) + " trillion";
+  }
+  function verdict(annual, stake) {
+    if (annual <= 0) return "Nothing. You own a share of a company that keeps its profits. Read the line above this one again: the vote still counts.";
+    if (annual < 20) return "A sandwich a year. Nobody marches for a sandwich. The line above this one is worth more.";
+    if (annual < 200) return "One good dinner, once a year. Welcome, and not a living.";
+    if (annual < 2000) return "A few weeks of food shopping. Real money to some people and a rounding error to the people paying it.";
+    if (annual < 15000) return "Now it pays some of the rent. Look at what you had to assume to get here.";
+    return "Now nobody needs a job. Look hard at the top slider and ask who told you that number.";
+  }
+
+  function draw() {
+    var T = exact.v != null ? exact.v : valOf(+v.value);
+    var M = exact.n != null ? exact.n : popOf(+n.value);
+    var S = +s.value, Y = +y.value;
+    var each = T * 1e12 * (S / 100) / (M * 1e6);
+    var annual = each * Y / 100;
+    $("vo").textContent = trillions(T);
+    $("so").textContent = S + "%";
+    $("no").textContent = people(M);
+    $("yo").textContent = Y + "%";
+    $("eq").textContent = money(each);
+    $("an").textContent = money(annual);
+    $("wk").textContent = money(annual / 52);
+    $("vt").textContent = S + "% of the votes, split " + people(M) + " ways";
+    $("verdict").textContent = verdict(annual, S);
+    var need = Y > 0 ? (100 * 52 * M * 1e6) / (Y / 100) / (S / 100) / 1e12 : Infinity;
+    $("reverse").textContent = isFinite(need)
+      ? "To pay each of those people $100 a week from this slice at this payout, the companies would need to be worth " + trillions(need) + "."
+      : "With nothing paid out, no valuation is big enough to send anybody $100 a week.";
+  }
+  [v, s, n, y].forEach(function (el) {
+    el.addEventListener("input", function () {
+      if (el === v) exact.v = null;
+      if (el === n) exact.n = null;
+      document.querySelectorAll(".presets button").forEach(function (b) { b.setAttribute("aria-pressed", "false"); });
+      draw();
+    });
+  });
+  document.querySelectorAll(".presets button").forEach(function (b) {
+    b.addEventListener("click", function () {
+      exact.v = +b.dataset.v; exact.n = +b.dataset.n;
+      v.value = posOfVal(exact.v); n.value = posOfPop(exact.n);
+      s.value = b.dataset.s; y.value = b.dataset.y;
+      document.querySelectorAll(".presets button").forEach(function (o) { o.setAttribute("aria-pressed", o === b ? "true" : "false"); });
+      draw();
+    });
+  });
+  document.querySelector(".presets button").click();
+})();
+</script>
+<noscript><p class="eyebrow">The calculator needs JavaScript. The worked example: $10 trillion, a 20% slice, 8.3 billion people and a 3% payout give $241 in shares and $7.23 a year each.</p></noscript>

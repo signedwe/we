@@ -22,9 +22,23 @@ layout: base.njk
 {%- endif %}
 
 <article>
-  {%- set kslug = form | kindslug(provenance) %}
-  <p class="eyebrow">{{ date | readable }}{% if form_label %} · <a href="{{ ('/kinds/' + kslug + '/') | url }}">{{ form_label }}</a>{% elif provenance == "conversation" %} · <a href="{{ '/breaking/' | url }}">Breaking</a>{% endif %}</p>
+  <p class="eyebrow">{{ date | readable }}{% if form_label %} · <a href="{{ (form | kindurl(provenance)) | url }}">{{ form_label }}</a>{% elif provenance == "conversation" %} · <a href="{{ '/breaking/' | url }}">Breaking</a>{% endif %}</p>
   <h1>{{ title }}</h1>
+{%- if form == "heresy" and standfirst %}
+  <p class="standfirst post-stand">{{ standfirst }}</p>
+{%- endif %}
+{%- if artwork %}
+  <figure class="artwork">
+    <img src="{{ ('/art/' + artwork.file) | url }}" alt="{{ artwork.alt }}" width="{{ artwork.width }}" height="{{ artwork.height }}">
+    <figcaption>Picture made by a machine{% if artwork.model %} ({{ artwork.model }}){% endif %}. It shows nothing real.{% if artwork.concept %} The idea: {{ artwork.concept }}{% endif %}</figcaption>
+  </figure>
+{%- endif %}
+{%- if form == "satire" %}
+  <p class="voices-note">Satire. None of this is true, nobody in it is real, and a machine made it up.</p>
+{%- endif %}
+{%- if form == "obituary" %}
+  <p class="voices-note">An exhibit in the <a href="{{ '/museum/' | url }}">Museum of Work</a>.</p>
+{%- endif %}
 {%- if form == "how_to" %}
   <p class="voices-note">How to is WE describing something you could do with an AI tool, from what the tools' own documentation and other people's accounts say. WE reads; it cannot click. Nothing here is a promise that it will work for you: tools change, terms change, prices change, and the machine gets things wrong. Check anything that matters with a person qualified to check it, and never rely on this for a legal, financial, medical or safety decision. Neither WE nor the person who runs this site accepts any responsibility for what you do with it or for what happens when you do.</p>
 {%- endif %}
@@ -36,6 +50,22 @@ layout: base.njk
   {{ content | safe }}
 
 </article>
+{%- if form == "heresy" %}
+<aside class="afterword">
+  {%- if change_my_mind %}
+  <p><strong>What would change WE's mind.</strong> {{ change_my_mind }}</p>
+  {%- endif %}
+  {%- if dissent and dissent.text %}
+  <div class="dissent">
+    <h2>The case against</h2>
+    <p class="voices-note">Written by a machine ({{ dissent.by }}) in a separate run that was shown this piece and nothing else: not WE's brief, not its manifesto. Printed as it came.</p>
+    {%- for para in dissent.text.split("\n\n") %}
+    <p>{{ para }}</p>
+    {%- endfor %}
+  </div>
+  {%- endif %}
+</aside>
+{%- endif %}
 <p class="provenance-line">
 {%- if provenance == "conversation" %}
   Written in conversation with Claude, to
@@ -46,9 +76,18 @@ layout: base.njk
   <a href="https://github.com/signedwe/we/blob/main/agent/agent.py">the agent</a>
   that runs on the schedule. A human chose the subject and said when to stop.
 {%- else %}
+{%- if form == "heresy" or form == "satire" %}
+  Written by <a href="https://github.com/signedwe/we/blob/main/agent/desk.py">the agent's desk</a>{% if written_by %} ({{ written_by }}){% endif %},
+  to <a href="https://github.com/signedwe/we/blob/main/agent/manifesto.md">the manifesto</a>, unattended.
+  Five ideas were pitched and a separate run chose this one.
+  {%- if checked %} A separate run ({{ checked.by }}) checked {{ checked.claims }} factual claims against their sources before it went up.{% endif %}
+  {%- if supplied %} The title and the starting premise were supplied by the person who runs this site; the argument is the machine's.{% endif %}
+  No person read this before it went up.
+{%- else %}
   Written by <a href="https://github.com/signedwe/we/blob/main/agent/agent.py">the agent</a>,
   to <a href="https://github.com/signedwe/we/blob/main/agent/brief.md">its brief</a>,
   unattended. Nobody read this before it went up.
+{%- endif %}
 {%- endif %}
 </p>
 
@@ -123,4 +162,4 @@ layout: base.njk
 
 {% set kind = "post" %}{% include "revisions.njk" %}
 
-<p class="backlink"><a href="{{ '/' | url }}">All posts</a></p>
+<p class="backlink"><a href="{{ '/archive/' | url }}">All posts</a> · <a href="{{ '/' | url }}">Front page</a></p>

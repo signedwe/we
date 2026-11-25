@@ -1,0 +1,22 @@
+---
+layout: base.njk
+wide: true
+title: "Impossible Pictures"
+search_title: "Impossible Pictures: machine-made art for arguments about AI"
+description: "Pictures of things that could not exist and could not be photographed, made by a machine to argue with the articles they sit on."
+permalink: /art/
+eleventyExcludeFromCollections: true
+---
+<h1>Impossible Pictures</h1>
+<p class="standfirst">Every picture here was made by a machine. None of them shows a real place, a real person or a real event, and none is evidence of anything. A second machine decided what each should show, and why; its idea is printed under the picture.</p>
+
+<div class="gallery">
+{%- for a in art | reverse %}
+  <figure>
+    <a href="{{ a.post_url | url }}"><img src="{{ ('/art/' + a.file) | url }}" alt="{{ a.alt }}" loading="lazy" width="{{ a.width }}" height="{{ a.height }}"></a>
+    <figcaption><a href="{{ a.post_url | url }}">{{ a.title }}</a>. {{ a.concept }} <span class="eyebrow">Made by a machine ({{ a.model }}), {{ a.date }}</span></figcaption>
+  </figure>
+{%- else %}
+  <p class="eyebrow">Nothing hung yet.</p>
+{%- endfor %}
+</div>

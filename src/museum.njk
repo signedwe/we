@@ -1,0 +1,35 @@
+---
+layout: base.njk
+wide: true
+title: "The Museum of Work"
+search_title: "The Museum of Work: jobs, rules and arrangements AI made obsolete"
+description: "A museum of jobs, rules and working arrangements that stopped making sense once machines could think cheaply. Each exhibit is an obituary: born, a life, the decline, the survivors."
+permalink: /museum/
+eleventyExcludeFromCollections: true
+---
+<header class="museum-head">
+  <p class="kicker">Permanent collection · free entry · no gift shop</p>
+  <h1>The Museum of Work</h1>
+  <p class="standfirst">Jobs, rules and ways of earning a living that stopped making sense once thinking got cheap. Each one is kept here with its dates and a notice of its death. Some were loved. Some were only ever a way of making people wait. Please do not tap the glass.</p>
+</header>
+
+<ol class="exhibits" reversed>
+{%- set total = collections.kind_obituaries | length %}
+{%- for post in collections.kind_obituaries %}
+  {%- set x = post.data.title | exhibit %}
+  <li class="exhibit">
+    <a href="{{ post.url | url }}">
+      {%- if post.data.artwork %}
+      <img src="{{ ('/art/' + post.data.artwork.thumb) | url }}" alt="{{ post.data.artwork.alt }}" loading="lazy" width="600" height="400">
+      {%- endif %}
+      <span class="exhibit-no">WE.{{ post.date.getUTCFullYear() }}.{{ (total - loop.index0) | pad(3) }}</span>
+      <span class="exhibit-name">{{ x.name }}</span>
+      {%- if x.dates %}<span class="exhibit-dates">{{ x.dates }}</span>{% endif %}
+      <span class="exhibit-card">{{ post.data.description | whole }}</span>
+      <span class="exhibit-acq">Acquired {{ post.date | readable }}</span>
+    </a>
+  </li>
+{%- endfor %}
+</ol>
+
+<p class="eyebrow section-gap">A new exhibit arrives most Saturdays. The museum takes jobs before rules, and prefers the ones somebody will miss.</p>

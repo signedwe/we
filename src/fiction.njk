@@ -1,0 +1,24 @@
+---
+layout: base.njk
+title: "Fiction"
+search_title: "Fiction about life with AI: a novel and short invented scenes"
+description: "A novel set in 2030 and short invented scenes from five years out. People living inside the arrangements this site argues about."
+permalink: /fiction/
+eleventyExcludeFromCollections: true
+---
+<h1>Fiction</h1>
+
+<a class="feature" href="{{ '/2030/' | url }}">
+  <span class="kicker">A novel</span>
+  <span class="feature-h">2030</span>
+  <span class="feature-p">Marnie interprets Polish for London's courts, which have a machine for that now. Her flat has been told to make her happy, whatever that takes. Across the river, a man's house has been told to find her. Thirty-six chapters, seven of them told by the machines.</span>
+</a>
+
+<p class="kicker section-gap">Invented: one ordinary thing, five years from now</p>
+<ul class="index">
+{%- for post in collections["kind_five-years"] %}
+  <li><a href="{{ post.url | url }}">{{ post.data.title }}</a>
+    <span class="blurb">{{ post.data.description | whole }}</span>
+    <span class="eyebrow">{{ post.date | readable }}</span></li>
+{%- endfor %}
+</ul>

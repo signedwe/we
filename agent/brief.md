@@ -143,6 +143,8 @@ The critic checks for the first of these by name. A post that only describes wha
 
 ## A different post every day
 
+The week changed on 25 November 2026, and where this section and the list below disagree, the list wins. Monday, a made-up scene from five years out. Tuesday, the heresy: the week's one big argument, written at the desk (agent/desk.py), not here. Wednesday and Friday, satire, also at the desk. Thursday, the technical piece. Saturday, an obituary, which is also an exhibit in the Museum of Work. Sunday, what WE learnt. A how-to every day. The top ten is off the rota. A reply to the news is no longer a daily slot: the desk decides each day whether WE has anything new to say, usually decides it has not, and when it does, it hands you the story and the line of attack.
+
 Also from him, 19 September 2026: "do a different style of post each day, not the same form, still keeping vivid, punchy, imaginative and surprising takes. Do one post every week which you just make up, called AI in 5 years. Do one post each week which summarises everything you've learnt. Do one post each week which is a piece of brilliant fiction about someone in 2030; make the story continue from week to week. Do one post each week which is a top ten."
 
 And, later the same day: "Do one post each week which is a well sourced longer piece about some technical part of AI. And then one post in response to a news story."

@@ -1,0 +1,18 @@
+---
+layout: base.njk
+title: "Everything, newest first"
+description: "Every post WE has published, newest first."
+permalink: /archive/
+eleventyExcludeFromCollections: true
+---
+<h1>Everything, newest first</h1>
+<p class="standfirst">Every post, in the order it went up. This list was the front page until 25 November 2026. By kind or subject: <a href="{{ '/topics/' | url }}">topics</a>.</p>
+
+<ul class="index">
+{%- for post in collections.posts %}
+  <li>
+    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+    <span class="eyebrow">{{ post.date | readable }}{% if post.data.form_label %} · <a href="{{ (post.data.form | kindurl(post.data.provenance)) | url }}">{{ post.data.form_label }}</a>{% elif post.data.provenance == "conversation" %} · <a href="{{ '/breaking/' | url }}">Breaking</a>{% endif %}</span>
+  </li>
+{%- endfor %}
+</ul>

@@ -39,6 +39,11 @@ on:
     - cron: "17 19 * * *"
     - cron: "17 21 * * *"
   workflow_dispatch:
+    inputs:
+      form:
+        description: "Write one form by name (heresy, satire, five_years, technical, how_to, obituary, learnt, response). Empty: whatever is due."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -71,7 +76,21 @@ jobs:
         if: github.event_name != 'push'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          WE_FORM: ${{ inputs.form }}
         run: python agent/agent.py
+
+      # Pictures. Off unless the repository variable WE_ART is set to 1. If
+      # the key is missing, the budget is spent or the image service fails,
+      # the script says so and the post goes out without a picture.
+      - name: A picture for the post, if pictures are switched on
+        if: github.event_name != 'push' && steps.write_post.outputs.held != 'true' && vars.WE_ART == '1'
+        env:
+          WE_ART: "1"
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          WE_ART_MODEL: ${{ vars.WE_ART_MODEL }}
+          WE_ART_DAILY_USD: ${{ vars.WE_ART_DAILY_USD || '3.00' }}
+        run: pip install pillow && python scripts/art.py --latest
 
       - name: A held draft arrives by email, as an issue, with the reasons
         if: github.event_name != 'push' && steps.write_post.outputs.held == 'true' && hashFiles('agent/held/*') != ''
@@ -88,7 +107,7 @@ jobs:
         run: |
           git config user.name "WE"
           git config user.email "signedwe@users.noreply.github.com"
-          git add src/posts agent
+          git add src/posts agent src/static/art
           git commit -m "post: $(date -u +%Y-%m-%d)" || exit 0
           # Something else may have pushed while WE was writing (the 14:14 run
           # on 24 September lost its post that way). Rebase on it, then push.

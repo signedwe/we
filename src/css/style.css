@@ -406,3 +406,147 @@ h2.part { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.18em; 
 /* Guest essays (18 November 2026): the first pages on the site with figures. */
 .guest figure { margin: 2rem 0; }
 .guest figure img { display: block; max-width: 100%; height: auto; border: 1px solid var(--rule); border-radius: 4px; }
+
+
+/* ------------------------------------------------------------------
+   The magazine (25 November 2026). The front page stopped being a list in
+   date order. Same black, white and one orange, same two typefaces, no
+   webfonts and no third-party requests. What changed is scale: a few very
+   large moments, and quiet text between them.
+   ------------------------------------------------------------------ */
+
+.skip { position: absolute; left: -999rem; }
+.skip:focus { left: 1rem; top: 1rem; background: var(--paper); padding: 0.5rem 0.75rem; z-index: 10; }
+
+body.wide main, body.wide .masthead, body.wide footer { max-width: 68rem; }
+body.wide main > h1, .museum-head h1 {
+  font-size: clamp(2.25rem, 7vw, 4.5rem); line-height: 1; letter-spacing: -0.03em; margin: 0.5rem 0 1.5rem;
+}
+main > h1 { font-size: 2.25rem; line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 1.5rem; }
+
+.masthead { align-items: center; padding: 2.25rem 0 2rem; }
+.masthead nav { gap: 0.5rem 1.1rem; justify-content: flex-end; }
+.masthead nav a { font-size: 0.8125rem; color: var(--ink); }
+
+.kicker {
+  font-family: var(--mono); font-size: 0.75rem; font-weight: 700;
+  letter-spacing: 0.16em; text-transform: uppercase; margin: 0 0 0.75rem; color: var(--link);
+}
+.section-gap { margin-top: 4rem; }
+.blurb { display: block; margin-top: 0.35rem; font-size: 1rem; line-height: 1.45; color: var(--quiet); }
+
+/* The lead: the week's biggest argument, in the biggest type on the site.
+   Black on white reversed, so it reads as a poster even with no picture. */
+.lead { background: var(--ink); color: var(--paper); margin: 0 0 2.5rem; }
+.lead-text { padding: clamp(1.5rem, 5vw, 4rem); }
+.lead .kicker { color: var(--link); }
+.lead h1 {
+  font-size: clamp(2.5rem, 9vw, 6.5rem); line-height: 0.95; letter-spacing: -0.035em;
+  font-weight: 700; margin: 0 0 1.5rem; text-wrap: balance;
+}
+.lead h1 a, .lead h1 a:visited { color: var(--paper); text-decoration: none; }
+.lead h1 a:hover { color: var(--link); }
+.lead-stand { font-size: clamp(1.125rem, 2.2vw, 1.5rem); line-height: 1.35; max-width: 38rem; margin: 0 0 1.5rem; }
+.lead-more { font-family: var(--mono); font-size: 0.8125rem; letter-spacing: 0.04em; margin: 0; color: var(--quiet); }
+.lead-more a, .lead-more a:visited { color: var(--paper); }
+.lead-more a:hover { color: var(--link); }
+.lead-figure { display: block; }
+.lead-figure img { display: block; width: 100%; height: auto; max-height: 78vh; object-fit: cover; }
+
+body.wide .epigraph { max-width: 44rem; margin: 0 0 2.5rem; }
+body.wide .epigraph p { font-size: clamp(1.35rem, 3vw, 2rem); line-height: 1.2; letter-spacing: -0.01em; }
+
+/* The dividend band: the one block of orange. */
+.band { background: var(--link); color: #fff; padding: clamp(1.5rem, 4vw, 3rem); margin: 0 0 2.5rem; }
+.band .kicker { color: #fff; }
+.band-sum { font-size: clamp(1.375rem, 3.4vw, 2.5rem); line-height: 1.15; letter-spacing: -0.015em; margin: 0 0 1rem; max-width: 50rem; text-wrap: balance; }
+.band-sum strong { font-family: var(--mono); font-weight: 700; letter-spacing: -0.02em; }
+.band-more { font-family: var(--mono); font-size: 0.8125rem; letter-spacing: 0.04em; margin: 0; }
+.band .band-more a, .band .band-more a:visited { color: #fff; }
+
+.modules { display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: 0; padding: 0 1px 1px 0; margin: 0 0 3.5rem; }
+.module, .module:visited { display: flex; flex-direction: column; gap: 0.5rem; padding: 1.5rem; background: var(--paper); color: var(--ink); text-decoration: none; min-height: 11rem; border: 1px solid var(--ink); margin: 0 -1px -1px 0; }
+.module:hover, .module:focus-visible { background: var(--ink); color: var(--paper); }
+.module:hover .kicker, .module:focus-visible .kicker { color: var(--paper); }
+.module-h { font-size: 1.5rem; line-height: 1.1; font-weight: 700; letter-spacing: -0.015em; }
+.module-p { font-size: 0.9375rem; line-height: 1.4; color: var(--quiet); }
+.module:hover .module-p { color: var(--paper); }
+.module-hot, .module-hot:visited { background: var(--link); color: #fff; }
+.module-hot .kicker, .module-hot .module-p { color: #fff; }
+
+.columns { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 3.5rem; margin-bottom: 4rem; }
+.index-small a { font-size: 1.125rem; }
+.index-small li { margin-bottom: 1.25rem; }
+
+.colophon { max-width: var(--measure); border-top: 1px solid var(--rule); padding-top: 2rem; color: var(--quiet); font-size: 0.9375rem; }
+
+.footnav { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; margin: 0 0 2rem; }
+.footnav a, .footnav a:visited { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.04em; color: var(--quiet); text-decoration: none; }
+.footnav a:hover { color: var(--ink); text-decoration: underline; }
+
+/* A feature link on a section page: one big door. */
+.feature, .feature:visited { display: block; border: 1px solid var(--ink); padding: 1.75rem; margin: 0 0 1.25rem; color: var(--ink); text-decoration: none; }
+.feature:hover, .feature:focus-visible { background: var(--ink); color: var(--paper); }
+.feature:hover .kicker { color: var(--paper); }
+.feature-h { display: block; font-size: 2.25rem; line-height: 1; font-weight: 700; letter-spacing: -0.02em; margin: 0 0 0.75rem; }
+.feature-p { display: block; }
+.feature-hot, .feature-hot:visited { background: var(--link); border-color: var(--link); color: #fff; }
+.feature-hot .kicker { color: #fff; }
+
+/* The museum. Placards, accession numbers, a little solemnity. */
+.museum-head { max-width: 44rem; margin-bottom: 3rem; }
+.exhibits { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); gap: 1.5rem; }
+.exhibit a, .exhibit a:visited { display: flex; flex-direction: column; height: 100%; border: 1px solid var(--ink); padding: 1.25rem; color: var(--ink); text-decoration: none; box-shadow: 6px 6px 0 var(--rule); }
+.exhibit a:hover, .exhibit a:focus-visible { box-shadow: 6px 6px 0 var(--link); }
+.exhibit img { display: block; width: calc(100% + 2.5rem); max-width: none; height: auto; margin: -1.25rem -1.25rem 1rem; border-bottom: 1px solid var(--ink); }
+.exhibit-no, .exhibit-acq { font-family: var(--mono); font-size: 0.6875rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--quiet); }
+.exhibit-name { font-size: 1.625rem; line-height: 1.08; font-weight: 700; letter-spacing: -0.015em; margin: 0.6rem 0 0.2rem; }
+.exhibit-dates { font-style: italic; margin-bottom: 0.75rem; }
+.exhibit-card { font-size: 0.9375rem; line-height: 1.45; color: var(--quiet); margin-bottom: 1rem; flex: 1; }
+
+/* Pictures. Every one is labelled as made by a machine, on the page. */
+.artwork { margin: 0 0 2rem; }
+.artwork img { display: block; width: 100%; height: auto; }
+.artwork figcaption, .gallery figcaption { font-family: var(--mono); font-size: 0.6875rem; line-height: 1.6; letter-spacing: 0.02em; color: var(--quiet); margin-top: 0.5rem; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); gap: 2.5rem 1.5rem; }
+.gallery figure { margin: 0; }
+.gallery img { display: block; width: 100%; height: auto; }
+.gallery .eyebrow { display: block; }
+
+.post-stand { border-bottom: 0; padding-bottom: 0; margin-bottom: 2rem; font-size: 1.375rem; line-height: 1.35; }
+
+/* Under a heresy: what would change our mind, and the case against. */
+.afterword { margin-top: 3rem; padding-top: 1.5rem; border-top: 3px solid var(--ink); }
+.dissent { margin-top: 2rem; padding: 1.5rem; border: 1px solid var(--ink); }
+.dissent h2 { font-family: var(--mono); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; margin: 0 0 0.75rem; color: var(--link); }
+.dissent p:last-child { margin-bottom: 0; }
+
+/* The dividend calculator. */
+.dividend h2 { font-size: 1.25rem; margin: 3rem 0 1rem; }
+.calc { margin: 2rem 0 0; }
+.calc fieldset { border: 0; margin: 0 0 1.5rem; padding: 0; }
+.calc legend, .calc label { display: block; font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.04em; color: var(--quiet); margin: 1.5rem 0 0.4rem; padding: 0; }
+.calc .val { display: block; font-family: var(--serif); font-size: 1.5rem; font-weight: 700; letter-spacing: -0.01em; color: var(--ink); margin-top: 0.15rem; }
+.calc input[type="range"] { width: 100%; accent-color: var(--link); height: 2rem; margin: 0; }
+.presets { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.presets button { font: inherit; font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.04em; padding: 0.6rem 0.8rem; background: var(--paper); color: var(--ink); border: 1px solid var(--ink); cursor: pointer; }
+.presets button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.result { background: var(--ink); color: var(--paper); padding: 1.5rem; margin: 2rem 0 1rem; }
+.result-row { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 0.25rem 1rem; margin: 0 0 0.9rem; padding-bottom: 0.9rem; border-bottom: 1px solid var(--quiet); }
+.result-label { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.04em; }
+.result-n { font-family: var(--mono); font-size: 1.375rem; font-weight: 700; text-align: right; }
+.result-hot { color: var(--link); font-size: 2.25rem; }
+.verdict { font-size: 1.1875rem; line-height: 1.4; margin: 1rem 0 0; }
+.reverse, .sum { font-family: var(--mono); font-size: 0.8125rem; line-height: 1.7; color: var(--quiet); }
+
+@media (max-width: 48rem) {
+  .columns { grid-template-columns: 1fr; gap: 3rem; }
+  .masthead nav { justify-content: flex-start; }
+}
+@media (max-width: 34rem) {
+  .lead, .band { margin-inline: -1.5rem; }
+  .result { margin-inline: -1.5rem; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .module, .feature, .exhibit a { transition: background-color 0.12s, color 0.12s, box-shadow 0.12s; }
+}

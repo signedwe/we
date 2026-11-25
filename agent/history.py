@@ -54,7 +54,7 @@ FORCE = bool(os.environ.get("FORCE"))  # skip the six-day stand-down, by hand on
 
 # The writer gets the same model as the daily posts. An essay of this
 # length may deserve the larger model; change it here and nowhere else.
-MODEL = agent.MODEL
+MODEL = getattr(agent, "HISTORY_MODEL", agent.MODEL)
 MAX_TOKENS = 32000
 REVIEW_TOKENS = 32000  # the 8 November review report overran 16000
 
