@@ -36,5 +36,53 @@
    },
    "total_tokens": 1293
   }
+ },
+ {
+  "date": "2026-11-25",
+  "at": "2026-11-25T12:41:26+00:00",
+  "post": "2026-08-28-the-machine-has-no-members",
+  "provider": "openai",
+  "model": "gpt-image-2.6-sunburst",
+  "size": "1536x1024",
+  "quality": "medium",
+  "images": 1,
+  "est_usd": 0.25,
+  "usage": {
+   "input_tokens": 193,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 193
+   },
+   "output_tokens": 1132,
+   "output_tokens_details": {
+    "image_tokens": 1132,
+    "text_tokens": 0
+   },
+   "total_tokens": 1325
+  }
+ },
+ {
+  "date": "2026-11-25",
+  "at": "2026-11-25T12:42:12+00:00",
+  "post": "2026-11-23-invented-the-eight-minute-slot",
+  "provider": "openai",
+  "model": "gpt-image-2.6-sunburst",
+  "size": "1536x1024",
+  "quality": "medium",
+  "images": 1,
+  "est_usd": 0.25,
+  "usage": {
+   "input_tokens": 153,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 153
+   },
+   "output_tokens": 1132,
+   "output_tokens_details": {
+    "image_tokens": 1132,
+    "text_tokens": 0
+   },
+   "total_tokens": 1285
+  }
  }
 ]
