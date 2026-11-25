@@ -2,18 +2,39 @@
 layout: base.njk
 wide: true
 title: "The Museum of Work"
-search_title: "The Museum of Work: jobs, rules and arrangements AI made obsolete"
-description: "A museum of jobs, rules and working arrangements that stopped making sense once machines could think cheaply. Each exhibit is an obituary: born, a life, the decline, the survivors."
+search_title: "The Museum of Work: jobs and office habits that AI is making extinct"
+description: "A museum of jobs, habits and bits of working life that are dying now that machines can think: the cover letter, the out-of-office, the person who knew where everything was. Please do not tap the glass."
 permalink: /museum/
 eleventyExcludeFromCollections: true
 ---
 <header class="museum-head">
   <p class="kicker">Permanent collection · free entry · no gift shop</p>
   <h1>The Museum of Work</h1>
-  <p class="standfirst">Jobs, rules and ways of earning a living that stopped making sense once thinking got cheap. Each one is kept here with its dates and a notice of its death. Some were loved. Some were only ever a way of making people wait. Please do not tap the glass.</p>
+  <p class="standfirst">Jobs, habits and bits of working life that are dying now that machines can think. Some were loved. Some were only ever a way of making people wait. The cards in this hall are fond guesses, written by a machine that never had a job. The death notices downstairs come with sources. Please do not tap the glass.</p>
 </header>
 
-<ol class="exhibits" reversed>
+<ol class="exhibits">
+{%- for x in museum %}
+  <li class="exhibit exhibit-card">
+    <div>
+      <span class="exhibit-no">Hall 1 · case {{ loop.index }}</span>
+      <span class="exhibit-name">{{ x.name }}</span>
+      <span class="exhibit-dates">{{ x.dates }}</span>
+      <span class="exhibit-text">{{ x.card }}</span>
+      <dl>
+        <dt>Found</dt><dd>{{ x.habitat }}</dd>
+        <dt>What people got from it</dt><dd>{{ x.got }}</dd>
+        <dt>What nobody will miss</dt><dd>{{ x.miss }}</dd>
+        <dt>Status</dt><dd>{{ x.status }}</dd>
+      </dl>
+    </div>
+  </li>
+{%- endfor %}
+</ol>
+
+<p class="kicker section-gap">Downstairs: the records office</p>
+<p class="blurb museum-note">Death notices, one a week, each with the evidence for the cause of death.</p>
+<ol class="exhibits exhibits-records" reversed>
 {%- set total = collections.kind_obituaries | length %}
 {%- for post in collections.kind_obituaries %}
   {%- set x = post.data.title | exhibit %}
@@ -31,5 +52,3 @@ eleventyExcludeFromCollections: true
   </li>
 {%- endfor %}
 </ol>
-
-<p class="eyebrow section-gap">A new exhibit arrives most Saturdays. The museum takes jobs before rules, and prefers the ones somebody will miss.</p>

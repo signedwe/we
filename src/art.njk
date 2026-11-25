@@ -2,19 +2,26 @@
 layout: base.njk
 wide: true
 title: "Impossible Pictures"
-search_title: "Impossible Pictures: machine-made art for arguments about AI"
-description: "Pictures of things that could not exist and could not be photographed, made by a machine to argue with the articles they sit on."
+search_title: "Impossible Pictures: a gallery of machine-made art about a world with AI"
+description: "A gallery of things that could not exist and could not be photographed: adverts from 2050, banknotes from nowhere, courtrooms run by fruit machines. All made by a machine. None of it is evidence of anything."
 permalink: /art/
 eleventyExcludeFromCollections: true
 ---
-<h1>Impossible Pictures</h1>
-<p class="standfirst">Every picture here was made by a machine. None of them shows a real place, a real person or a real event, and none is evidence of anything. A second machine decided what each should show, and why; its idea is printed under the picture.</p>
+<header class="museum-head">
+  <p class="kicker">A gallery · {{ art.length }} pictures · new ones most weeks</p>
+  <h1>Impossible Pictures</h1>
+  <p class="standfirst">Things that could not exist and could not be photographed. Some hang beside an article and argue with it. Some belong to nothing and are here for their own sake. Every one was made by a machine, to an idea written by another machine. None shows a real place, person or event.</p>
+</header>
 
-<div class="gallery">
+<div class="hang">
 {%- for a in art | reverse %}
-  <figure>
-    <a href="{{ a.post_url | url }}"><img src="{{ ('/art/' + a.file) | url }}" alt="{{ a.alt }}" loading="lazy" width="{{ a.width }}" height="{{ a.height }}"></a>
-    <figcaption><a href="{{ a.post_url | url }}">{{ a.title }}</a>. {{ a.concept }} <span class="eyebrow">Made by a machine ({{ a.model }}), {{ a.date }}</span></figcaption>
+  <figure id="{{ a.slug }}">
+    <img src="{{ ('/art/' + a.file) | url }}" alt="{{ a.alt }}" loading="lazy" width="{{ a.width }}" height="{{ a.height }}">
+    <figcaption>
+      <span class="hang-title">{% if a.standalone %}{{ a.title }}{% else %}{{ a.concept }}{% endif %}</span>
+      {%- if a.standalone %}<span class="hang-idea">{{ a.caption or a.concept }}</span>{% endif %}
+      <span class="eyebrow">{{ a.tradition }}{% if a.post_url %} · made for <a href="{{ a.post_url | url }}">{{ a.title }}</a>{% endif %} · {{ a.date }}</span>
+    </figcaption>
   </figure>
 {%- else %}
   <p class="eyebrow">Nothing hung yet.</p>

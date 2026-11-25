@@ -64,16 +64,31 @@ PILOT_MANIFEST = PILOT / "art.json"
 # the director model: {slug: {title, form, post, idea, tradition, prompt, alt}}.
 COMMISSIONS = PILOT / "commissions.json"
 
+# The switch and the caps. agent/art-config.json is the standing setting;
+# an environment variable, where set, wins for that run.
+CONFIG = {}
+try:
+    CONFIG = json.loads((ROOT / "agent" / "art-config.json").read_text(encoding="utf-8"))
+except Exception:
+    pass
+
+
+def setting(env: str, key: str, default):
+    return os.environ.get(env) or CONFIG.get(key) or default
+
+
+ON = os.environ.get("WE_ART") == "1" or (os.environ.get("WE_ART") != "0" and CONFIG.get("on") is True)
 PROVIDER = os.environ.get("WE_ART_PROVIDER", "openai")
 # Tried in order until the service accepts one. Names move; set WE_ART_MODEL
 # to pin one once the pilot shows which this account has.
-MODELS = [m for m in [os.environ.get("WE_ART_MODEL", "").strip()] if m] or [
+MODELS = [m for m in [str(setting("WE_ART_MODEL", "model", "")).strip()] if m] or [
     "gpt-image-2.6-flare", "gpt-image-2.5-flare", "gpt-image-2", "gpt-image-1.5", "gpt-image-1"]
 SIZE = os.environ.get("WE_ART_SIZE", "1536x1024")
 QUALITY = os.environ.get("WE_ART_QUALITY", "medium")
-DAILY_USD = float(os.environ.get("WE_ART_DAILY_USD", "3.00"))
-EST_USD = float(os.environ.get("WE_ART_EST_USD", "0.25"))
-DAILY_IMAGES = int(os.environ.get("WE_ART_DAILY_IMAGES") or "8")
+DAILY_USD = float(setting("WE_ART_DAILY_USD", "daily_usd", "3.00"))
+EST_USD = float(setting("WE_ART_EST_USD", "est_usd", "0.25"))
+DAILY_IMAGES = int(setting("WE_ART_DAILY_IMAGES", "daily_images", "8"))
+MONTHLY_IMAGES = int(setting("WE_ART_MONTHLY_IMAGES", "monthly_images", "60"))
 FORMS = [f.strip() for f in os.environ.get("WE_ART_FORMS", "heresy,satire,five_years,obituary").split(",")]
 DIRECTOR = os.environ.get("WE_ART_DIRECTOR", "claude-sonnet-5-5")
 DIRECTOR_FALLBACK = "claude-sonnet-4-6"
@@ -140,7 +155,8 @@ def allowance(ledger: list) -> int:
     """How many more pictures today's budget allows."""
     usd, n = spent_today(ledger)
     by_money = int((DAILY_USD - usd + 1e-9) // EST_USD) if EST_USD > 0 else DAILY_IMAGES
-    return max(0, min(by_money, DAILY_IMAGES - n))
+    month = sum(int(r.get("images") or 0) for r in ledger if str(r.get("date", "")).startswith(today()[:7]))
+    return max(0, min(by_money, DAILY_IMAGES - n, MONTHLY_IMAGES - month))
 
 
 # ----------------------------------------------------------------------
@@ -371,8 +387,8 @@ def set_artwork(path: pathlib.Path, art: dict) -> None:
 
 def make(path: pathlib.Path, force: bool = False, candidates: int = 0, pilot: bool = False,
          commission: dict = None) -> int:
-    if os.environ.get("WE_ART") != "1":
-        return stop("switched off (WE_ART is not 1).")
+    if not ON:
+        return stop("switched off (agent/art-config.json).")
     if commission:
         # The idea was written in conversation. The post may not be up yet;
         # a commission is always a pilot, hung later with --promote.
@@ -445,7 +461,10 @@ def make(path: pathlib.Path, force: bool = False, candidates: int = 0, pilot: bo
 
     art = dict(files, alt=chosen["alt"] or chosen["idea"], concept=chosen["idea"], model=state.get("model") or PROVIDER)
     date = field(front, "date")[:10] or today()
-    entry = dict(art, slug=slug, title=title, post_url=f"/posts/{slug}/", date=date, tradition=chosen.get("tradition", ""),
+    standalone = bool(commission and commission.get("standalone"))
+    entry = dict(art, slug=slug, title=title, post_url="" if standalone else f"/posts/{slug}/", date=date,
+                 standalone=standalone, caption=(commission or {}).get("caption", ""),
+                 tradition=chosen.get("tradition", ""),
                  prompt=chosen["prompt"], considered=len(shots), provider=PROVIDER,
                  post=str(path.relative_to(ROOT)))
     target = PILOT_MANIFEST if pilot else MANIFEST
@@ -461,6 +480,57 @@ def make(path: pathlib.Path, force: bool = False, candidates: int = 0, pilot: bo
     return 0
 
 
+def gallery() -> int:
+    """A picture for its own sake, with no article behind it: a fictional
+    advert, a banknote from a country that does not exist, a museum piece, a
+    visual joke. At most one every three days, inside the same caps."""
+    if not ON:
+        return stop("switched off (agent/art-config.json).")
+    rows = load(MANIFEST, [])
+    alone = [r for r in rows if r.get("standalone")]
+    if alone and (datetime.now(timezone.utc).date() - datetime.fromisoformat(alone[-1]["date"]).date()).days < int(CONFIG.get("gallery_every_days", 3)):
+        return 0
+    if not os.environ.get("OPENAI_API_KEY") or not os.environ.get("ANTHROPIC_API_KEY"):
+        return stop("no keys for a gallery picture.")
+    if allowance(load(LEDGER, [])) < 1:
+        return stop("today's budget is spent.")
+    recent = "; ".join(f"{r.get('title')} ({r.get('tradition')})" for r in rows[-10:]) or "nothing yet"
+    prompt = f"""{VISUAL}
+
+---
+
+This one is for the gallery, Impossible Pictures, and belongs to no article. It has to stand alone and be worth sending to a friend with no explanation.
+
+Kinds of thing the gallery wants: an advert from 2050; a banknote, stamp or passport from a country that does not exist; an exhibit from a museum of the future; a public information poster for a problem we do not have yet; a seaside postcard from somewhere impossible; a page from an instruction manual for being human; a class photograph of something that has no class; a visual joke with nothing to say.
+
+Already hanging, so do none of these again and borrow none of their looks: {recent}.
+
+Propose three, each a different kind and a different medium, then choose the one you would be nervous to show.
+
+Answer with the tool, in this shape:
+
+{{"concepts": [{{"title": "the title on the gallery wall, a few words",
+               "idea": "one plain sentence for the caption",
+               "tradition": "the medium and look",
+               "prompt": "the full instruction for the image model, 80 to 160 words, landscape. Give any lettering exactly, in capitals, and say no other text",
+               "alt": "what is in the picture, plainly, for someone who cannot see it"}}],
+  "chosen": [the number of the chosen one]}}"""
+    schema = json.loads(json.dumps(CONCEPT_SCHEMA))
+    schema["properties"]["concepts"]["items"]["properties"]["title"] = {"type": "string"}
+    try:
+        plan = director_json([{"role": "user", "content": prompt}], max_tokens=5000, schema=schema)
+        ideas = [c for c in plan.get("concepts") or [] if c.get("prompt")]
+        pick = [int(i) - 1 for i in plan.get("chosen") or [1] if 0 < int(i) <= len(ideas)] or [0]
+        c = dict(ideas[pick[0]], standalone=True, form="picture")
+        c["title"] = str(c.get("title") or c["idea"])[:80]
+        c["caption"] = c["idea"]
+    except Exception as exc:
+        return stop(f"no gallery idea ({type(exc).__name__}: {str(exc)[:200]}).")
+    slug = today() + "-picture-" + re.sub(r"[^a-z0-9]+", "-", c["title"].lower()).strip("-")[:50]
+    make(ROOT / "pilot" / f"{slug}.md", commission=c)
+    return promote([slug])
+
+
 def promote(slugs: list) -> int:
     """Hang pilot pictures that a person has approved. Draws nothing and
     costs nothing: it moves the files and writes the front matter."""
@@ -473,9 +543,15 @@ def promote(slugs: list) -> int:
             keep.append(r)
             continue
         post = ROOT / r["post"]
-        if not post.exists():
+        if not r.get("standalone") and not post.exists():
             say(f"no such post, left in the pilot: {r['post']}")
             keep.append(r)
+            continue
+        if r.get("standalone"):
+            for k in ("file", "card", "thumb"):
+                shutil.move(str(PILOT_OUT / r[k]), str(OUT / r[k]))
+            hung = [m for m in hung if m.get("slug") != r["slug"]] + [r]
+            say(f"hung {r['file']} in the gallery")
             continue
         for k in ("file", "card", "thumb"):
             shutil.move(str(PILOT_OUT / r[k]), str(OUT / r[k]))
@@ -496,11 +572,14 @@ def main() -> int:
     ap.add_argument("--pilot", action="store_true", help="draw, but hang nothing: files go to pilot/art/")
     ap.add_argument("--commissions", action="store_true",
                     help="draw every picture in pilot/commissions.json that has not been drawn yet")
+    ap.add_argument("--gallery", action="store_true", help="make one picture for the gallery, if one is due")
     ap.add_argument("--promote", nargs="*", default=None, metavar="SLUG",
                     help="hang approved pilot pictures (all of them, or the slugs named)")
     a = ap.parse_args()
     if a.promote is not None:
         return promote(a.promote)
+    if a.gallery:
+        return gallery()
     if a.commissions:
         done = {r.get("slug") for r in load(PILOT_MANIFEST, []) + load(MANIFEST, [])}
         for slug, c in load(COMMISSIONS, {}).items():

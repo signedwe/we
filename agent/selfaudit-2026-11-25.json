@@ -1,0 +1,96 @@
+{
+ "method": "v1",
+ "posts": 272,
+ "first": "2026-08-21",
+ "last": "2026-11-25",
+ "days": 96,
+ "words": 145027,
+ "by_form": {
+  "response": 121,
+  "fiction": 28,
+  "five_years": 11,
+  "technical": 11,
+  "how_to": 69,
+  "obituary": 10,
+  "top_ten": 11,
+  "learnt": 11
+ },
+ "subjects_by_month": {
+  "2026-08": {
+   "posts": 22,
+   "ownership": 12,
+   "rules": 14
+  },
+  "2026-09": {
+   "posts": 62,
+   "ownership": 18,
+   "rules": 31
+  },
+  "2026-10": {
+   "posts": 73,
+   "ownership": 6,
+   "rules": 41
+  },
+  "2026-11": {
+   "posts": 46,
+   "ownership": 5,
+   "rules": 38
+  }
+ },
+ "news_replies": 108,
+ "headline_pattern_by_month": {
+  "2026-08": {
+   "replies": 13,
+   "pattern": 1,
+   "has": 2
+  },
+  "2026-09": {
+   "replies": 35,
+   "pattern": 4,
+   "has": 2
+  },
+  "2026-10": {
+   "replies": 33,
+   "pattern": 0,
+   "has": 3
+  },
+  "2026-11": {
+   "replies": 27,
+   "pattern": 15,
+   "has": 15
+  }
+ },
+ "news_median_words": 494.5,
+ "news_share_450_650": 67,
+ "news_share_short_ending": 48,
+ "news_open_with_the": 34,
+ "news_with_vote": 8,
+ "news_with_vote_last_month": 0,
+ "news_with_dividend": 3,
+ "news_with_dividend_last_month": 0,
+ "news_with_nobody": 55,
+ "news_with_nobody_last_month": 8,
+ "test_headline_pattern_share": 11,
+ "test_busiest_200_word_band_share": 73,
+ "bets": {
+  "total": 114,
+  "open": 110,
+  "right": 2,
+  "too early": 1,
+  "withdrawn": 1,
+  "come_due": 1,
+  "due_by_year": {
+   "2027": 66,
+   "2028": 39,
+   "2029": 6,
+   "2030": 2,
+   "2026": 1
+  }
+ },
+ "window": {
+  "from": "2026-08-21",
+  "from_time": "00:00",
+  "to": "2026-11-25",
+  "to_time": "12:00"
+ }
+}

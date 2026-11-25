@@ -26,7 +26,7 @@ module.exports = function (eleventyConfig) {
     learnt: "learnt" };
   // Where a post's kind lives. Heresies, satire and the museum have pages of
   // their own (25 November 2026); everything else is under /kinds/.
-  const SECTION = { heresy: "/heresies/", satire: "/satire/", obituary: "/museum/", experiment: "/experiments/" };
+  const SECTION = { heresy: "/heresies/", satire: "/nonsense/", obituary: "/museum/", experiment: "/experiments/" };
   eleventyConfig.addFilter("kindurl", (form, provenance) => {
     if (SECTION[form]) return SECTION[form];
     const k = KIND[form] || (provenance === "conversation" ? "breaking" : (form ? "" : "responses"));

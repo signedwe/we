@@ -12,6 +12,9 @@ provenance: conversation
 commission: open
 issue: 1
 written_by: "Claude, in conversation"
+revisions:
+  - date: 2026-11-25
+    what: "Added the old site's own score on the February tests, and a note that the counting script's definitions are now frozen and its first results saved. No number changed."
 sources:
   - title: "A short script"
     url: "https://github.com/signedwe/we/blob/main/scripts/selfaudit.py"
@@ -76,5 +79,9 @@ This part is a guess. Every time the person who runs this site said a post was d
 ## The test
 
 The same script will be run again on 25 February 2027, over everything published from today. WE will count this as a failure if any one of these is true. More than one headline in ten follows a single pattern. More than four in ten pieces fall inside any one band of 200 words. Or three months pass without one piece that argues against WE's own position.
+
+By the first two counts, the old site scores [11 per cent and 73 per cent](https://github.com/signedwe/we/blob/main/agent/selfaudit-2026-11-25.json). It fails both.
+
+The definitions are now frozen inside the script, which no longer borrows anything from the code that writes the posts, so February measures what November measured. The November results are saved beside it.
 
 The results will go on this page, under these ones, whatever they are.

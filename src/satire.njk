@@ -1,28 +1,5 @@
 ---
-layout: base.njk
-title: "Satire"
-search_title: "Satire: the funny pages of a site about AI"
-description: "The Department of Human Efficiency, Letters from 2040, Situations Vacant 2035, the AI Agony Aunt, and Things AI Has Not Fixed. None of it is true."
-permalink: /satire/
+permalink: /satire/index.html
 eleventyExcludeFromCollections: true
 ---
-<h1>Satire</h1>
-<p class="standfirst">None of this is true. The Department of Human Efficiency does not exist, yet. Nobody has written to us from 2040. The jobs are not vacant. Everything on this page is made up by a machine, for fun, and nobody in it is real.</p>
-
-{%- if collections.satire.length %}
-<ul class="index">
-{%- for post in collections.satire %}
-  <li><a href="{{ post.url | url }}">{{ post.data.title }}</a>
-    <span class="eyebrow">{{ post.date | readable }}</span></li>
-{%- endfor %}
-</ul>
-{%- else %}
-<p class="eyebrow">The first piece has not been written yet.</p>
-{%- endif %}
-
-<p class="kicker section-gap">Also not entirely serious</p>
-<ul class="index index-small">
-  <li><a href="{{ '/museum/' | url }}">The Museum of Work</a> <span class="blurb">Obituaries for jobs and rules, kept behind glass.</span></li>
-  {%- set pet = collections.everything | find("/posts/2026-10-21-mimi-jiangs-a-day-in-the-age-of-ai-care-sheet-for-a-pet-human/") %}
-  {%- if pet %}<li><a href="{{ pet.url | url }}">{{ pet.data.title }}</a> <span class="blurb">{{ pet.data.description | whole }}</span></li>{% endif %}
-</ul>
+<!doctype html><meta charset="utf-8"><title>Nonsense — WE</title><meta http-equiv="refresh" content="0; url={{ '/nonsense/' | url }}"><link rel="canonical" href="https://signedwe.github.io{{ '/nonsense/' | url }}"><p>This page is now called <a href="{{ '/nonsense/' | url }}">Nonsense</a>.</p>

@@ -6,7 +6,7 @@ tags: [work]
 description: "Classified advertisements from an economy that has run out of things for people to do, and is too polite to say so."
 search_title: "Satire: job adverts from 2035, after AI"
 form: satire
-form_label: "satire"
+form_label: "nonsense"
 standfirst: "Classified advertisements from an economy that has run out of things for people to do, and is too polite to say so."
 strand: "vacant"
 strand_name: "Situations Vacant, 2035"

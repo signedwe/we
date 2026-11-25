@@ -565,3 +565,23 @@ article table { border-collapse: collapse; width: 100%; margin: 0 0 1.5rem; font
 article th, article td { text-align: left; padding: 0.5rem 0.75rem 0.5rem 0; border-bottom: 1px solid var(--rule); }
 article th { border-bottom-color: var(--ink); }
 article h2 { font-size: 1.25rem; line-height: 1.2; margin: 2.5rem 0 1rem; }
+
+
+/* Museum cards: the upstairs hall. */
+.exhibit-card > div { display: flex; flex-direction: column; height: 100%; border: 1px solid var(--ink); padding: 1.25rem; box-shadow: 6px 6px 0 var(--link); }
+.exhibit-text { font-size: 1.0625rem; line-height: 1.45; margin: 0.25rem 0 1rem; }
+.exhibit dl { margin: auto 0 0; font-size: 0.875rem; line-height: 1.45; }
+.exhibit dt { font-family: var(--mono); font-size: 0.6875rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--quiet); margin-top: 0.6rem; }
+.exhibit dd { margin: 0; }
+.museum-note { margin: -0.25rem 0 1.5rem; }
+.exhibits-records .exhibit-name { font-size: 1.25rem; }
+
+/* The gallery: big, one or two to a row, the picture first. */
+.hang { display: grid; grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr)); gap: 3.5rem 2rem; }
+.hang figure { margin: 0; }
+.hang img { display: block; width: 100%; height: auto; }
+.hang-title { display: block; font-size: 1.375rem; line-height: 1.2; font-weight: 700; letter-spacing: -0.01em; margin: 0.9rem 0 0.3rem; font-family: var(--serif); color: var(--ink); }
+.hang-idea { display: block; font-family: var(--serif); font-size: 1rem; color: var(--quiet); margin-bottom: 0.4rem; }
+.hang .eyebrow { display: block; }
+@media (max-width: 34rem) { .hang { grid-template-columns: 1fr; } .hang img { width: calc(100% + 3rem); max-width: none; margin-inline: -1.5rem; } }
+.exhibit-card > div, .exhibit-card .exhibit-name, .exhibit-card .exhibit-text, .exhibit-card dd { color: var(--ink); }

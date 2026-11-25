@@ -34,10 +34,10 @@ on:
         default: false
       max_images:
         description: "Most pictures to draw today, counting those already drawn"
-        default: "8"
+        default: ""
       budget:
-        description: "Most to spend in this run's day, in dollars (estimated at $0.25 a picture)"
-        default: "3.00"
+        description: "Most to spend in this run's day, in dollars. Empty: the cap in agent/art-config.json"
+        default: ""
       model:
         description: "Image model name. Empty: try the list in scripts/art.py"
         required: false

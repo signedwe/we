@@ -79,18 +79,23 @@ jobs:
           WE_FORM: ${{ inputs.form }}
         run: python agent/agent.py
 
-      # Pictures. Off unless the repository variable WE_ART is set to 1. If
-      # the key is missing, the budget is spent or the image service fails,
+      # Pictures. The switch and the spending caps are in agent/art-config.json.
+      # If the key is missing, a cap is reached or the image service fails,
       # the script says so and the post goes out without a picture.
-      - name: A picture for the post, if pictures are switched on
-        if: github.event_name != 'push' && steps.write_post.outputs.held != 'true' && vars.WE_ART == '1'
+      - name: A picture for the post
+        if: github.event_name != 'push' && steps.write_post.outputs.held != 'true'
         env:
-          WE_ART: "1"
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          WE_ART_MODEL: ${{ vars.WE_ART_MODEL }}
-          WE_ART_DAILY_USD: ${{ vars.WE_ART_DAILY_USD || '3.00' }}
         run: pip install pillow && python scripts/art.py --latest
+
+      # A picture for the gallery with no article behind it, every few days.
+      - name: A picture for its own sake, if one is due
+        if: github.event_name != 'push'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: pip install pillow && python scripts/art.py --gallery
 
       - name: A held draft arrives by email, as an issue, with the reasons
         if: github.event_name != 'push' && steps.write_post.outputs.held == 'true' && hashFiles('agent/held/*') != ''

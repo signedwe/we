@@ -38,9 +38,11 @@ WRITER = os.environ.get("WE_WRITER", "claude-opus-5-5")
 EDITOR = os.environ.get("WE_EDITOR", "claude-sonnet-5-5")
 FALLBACK = "claude-sonnet-4-6"
 
-FORMS = ("heresy", "satire")
-LABEL = {"heresy": "heresy", "satire": "satire"}
-WORDS = {"heresy": (700, 1600), "satire": (120, 550)}
+FORMS = ("heresy", "satire", "experiment")
+LABEL = {"heresy": "heresy", "satire": "nonsense", "experiment": "experiment"}
+# Deliberately wide. 25 November 2026, the operator, after three heresies came
+# out the same shape: "Some pieces could be 100 words, others 3,000."
+WORDS = {"heresy": (60, 3500), "satire": (40, 1200), "experiment": (150, 3000)}
 SEARCH = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 8}]
 CHECK_SEARCH = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 8}]
 NEWS_SEARCH = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 5}]
@@ -235,11 +237,9 @@ def pitch_heresy(A, client) -> list:
 
 ---
 
-You are pitching this week's heresy: one substantial, uncomfortable argument about intelligence, power, ownership, work or being human. Not a reply to the news. An argument somebody serious would want to fight.
+You are pitching this week's heresy: one idea about intelligence, power, ownership, work, money, love, death or being human that most places would not print. Not a reply to the news.
 
-Five pitches, each a different argument, not five shades of one. At least two must be your own and appear nowhere in the queue. At least one must go against something WE itself has argued.
-
-A pitch is no good if: the conclusion can be guessed from the title; a sensible newspaper leader could run it; it stops at "so we need better regulation"; WE has made the argument before; or it is provocative in the headline and ordinary underneath.
+Five pitches. New ideas, not louder versions of old ones: radical does not mean taking an argument WE has made and turning it up. At least three must be your own and appear nowhere in the queue. At least one must go against WE.
 
 ## The queue (supplied, optional)
 
@@ -249,18 +249,85 @@ A pitch is no good if: the conclusion can be guessed from the title; a sensible 
 
 {archive(A)}
 
+Each pitch also says what kind of thing it is. Not every piece is an essay. A dialogue. A letter. A hundred words and out. A list. A story. A set of instructions. A speech nobody will give. A long argument of three thousand words if it earns them. Something with no name yet. The five must not all be the same kind, and the last three published pieces were: {recent_kinds(A)}. Do not repeat those.
+
+At least one pitch is hopeful. At least one is funny. One may be both.
+
 Return ONLY JSON:
 
-{{"pitches": [{{"title": "a plain claim, under twelve words",
+{{"pitches": [{{"title": "the title",
                "seed": "the queue title this grew from, exactly as listed, or empty if it is your own",
-               "premise": "the starting point, one or two sentences",
-               "goes_to": "where the argument ends up if followed all the way: the implication most writers would flinch from",
-               "against": "who would disagree, and their best point",
-               "closest": "the earlier WE piece nearest to this, and what this says that it did not",
-               "evidence": "what would have to be looked up to make it stand",
-               "line": "one sentence from the piece a reader would quote to a friend"}}]}}"""
+               "kind": "what kind of piece, in one to three words, as it would be labelled on the page",
+               "length": "roughly how many words it wants",
+               "idea": "the idea, and where it ends up",
+               "against": "who would hate it, and their best point",
+               "closest": "the earlier WE piece nearest to this, and what this does that it did not",
+               "needs": "what, if anything, would have to be looked up"}}]}}"""
     data, _, _ = ask(A, client, WRITER, prompt, require=("pitches",), max_tokens=6000)
     return [p for p in data.get("pitches") or [] if isinstance(p, dict) and p.get("title")]
+
+
+def pitch_experiment(A, client) -> list:
+    done = "\n".join("- " + (re.search(r'^title:\s*"?(.+?)"?\s*$', f.read_text(encoding="utf-8"), re.M) or [0, f.name])[1]
+                     for f in A.posts_with_form("experiment")[::-1][:20]) or "(none yet)"
+    prompt = f"""{read(MANIFESTO)}
+
+---
+
+You are proposing this week's experiment for WE. An experiment finds something out about the world outside this site, and reports what happened, including when nothing did.
+
+It has to be something you can really do, alone, in one sitting, with web search and your own work. For example: take one real job advert published this month and try to do each task in it, then say honestly which you could do, which you could not, and which you cannot tell. Find dated predictions about AI that have now come due and check them against what happened. Take a professional service with a published price and see how close you can get to the same result. Read what an institution promised a year ago and look for whether it happened. Ask the same factual question many ways and count how often you contradict yourself. These are examples, not a menu: a better one of your own beats all of them.
+
+Not an opinion piece with a number in it. Not a survey of other people's studies. Not about WE.
+
+Five proposals, each a different kind of test.
+
+Experiments already run:
+{done}
+
+Return ONLY JSON:
+
+{{"pitches": [{{"title": "what was tested, plainly",
+               "question": "the question, in one sentence",
+               "method": "exactly what you will do, step by step, with what tools",
+               "could_fail": "what result would be boring or embarrassing, and why it is worth running anyway",
+               "cannot_show": "what this test cannot tell anyone"}}]}}"""
+    data, _, _ = ask(A, client, WRITER, prompt, require=("pitches",), max_tokens=5000)
+    return [p for p in data.get("pitches") or [] if isinstance(p, dict) and p.get("title")]
+
+
+def experiment_prompt(A, pitch: dict) -> str:
+    return f"""{HOUSE}
+
+---
+
+## Your commission: an experiment
+
+The desk chose this one from five.
+
+Title (yours to improve): {pitch.get('title')}
+The question: {pitch.get('question')}
+The method: {pitch.get('method')}
+What it cannot show: {pitch.get('cannot_show')}
+What the editor wants: {pitch.get('push')}
+
+Now run it. Really do the work, in this session, before you write a word of the report. Then report it so a stranger could repeat it: what you set out to find, exactly what you did, what came back, what went wrong, and what it does and does not show. Put the result first. Show your working: the real advert, the real answers, the real counts, with links. If a step failed or you could not do it, say so; a failed step is a result. Never fill a gap with what probably would have happened. Never present something you did not do as done.
+
+Write it to be read, not filed. It can be funny. It can be short.
+
+Return ONLY JSON, in one piece:
+
+{{
+  "title": "what was found, as a plain sentence",
+  "standfirst": "the result in one sentence, under 30 words",
+  "body": "the report in markdown, no title heading",
+  "short_version": "under 280 characters, must survive without the piece",
+  "search_title": "under 70 characters, the subject in the words somebody would type into a search box",
+  "topics": ["one to three of: ownership, work, rules, machines, money, power"],
+  "claims": [{{"sentence": "each sentence that states a checkable fact about the outside world, word for word", "url": "the source you opened"}}],
+  "sources": [{{"title": "what it is", "url": "https://..."}}],
+{GATE}
+}}"""
 
 
 def pitch_satire(A, client, strand: str) -> list:
@@ -287,18 +354,12 @@ Return ONLY JSON:
 def choose(A, client, form: str, pitches: list) -> dict:
     """A different model picks. It may refuse them all."""
     listing = json.dumps(pitches, indent=1, ensure_ascii=False)
-    if form == "heresy":
-        tests = """Ask of each:
-- Is the argument original, or could a broadsheet have run it?
-- Does it challenge an assumption that matters?
-- Has WE already made it? (The archive is below. Be strict.)
-- Is there a sentence worth quoting?
-- Does it follow the implications far enough, or stop where it gets uncomfortable?
-- Can the evidence it needs actually be found?
-- Would someone send it to a friend?
-- Is it interesting? Not important. Interesting."""
+    if form == "experiment":
+        tests = """Pick the one that can really be carried out in one sitting, whose result nobody could guess beforehand, and that is about the world and not about WE. An honest small test beats an ambitious one that would have to be faked."""
+    elif form == "heresy":
+        tests = """Pick the one you would most want to read, and that WE has not already done (the archive is below; be strict). New beats strong. Strange beats sensible. A different kind of piece from the last few beats another essay. If it could run in a broadsheet, it is not the one."""
     else:
-        tests = """Ask of each: did you laugh, or only recognise that it was a joke? Would the best line survive on its own? Is it a premise WE has used? Pick the one that made you laugh."""
+        tests = """Pick the one that made you laugh. Not the one that makes a point."""
     prompt = f"""You are the commissioning editor of WE. You did not write these pitches and you owe their author nothing.
 
 {tests}
@@ -335,8 +396,15 @@ Return ONLY JSON:
 # 3: the short briefs
 # ----------------------------------------------------------------------
 
+def recent_kinds(A, n: int = 3) -> str:
+    out = []
+    for f in A.posts_with_form("heresy")[::-1][:n]:
+        m = re.search(r'^form_label:\s*"?([^"\n]+)', f.read_text(encoding="utf-8"), re.M)
+        out.append(m.group(1) if m else "essay")
+    return ", ".join(out) or "nothing yet"
+
+
 def heresy_prompt(A, pitch: dict) -> str:
-    lo, hi = WORDS["heresy"]
     return f"""{read(MANIFESTO)}
 
 ---
@@ -345,51 +413,43 @@ def heresy_prompt(A, pitch: dict) -> str:
 
 ---
 
-## Your commission: a heresy
+## Your commission
 
 The desk looked at five ideas and chose this one.
 
 Title (yours to improve): {pitch.get('title')}
-Premise: {pitch.get('premise')}
-Where it goes: {pitch.get('goes_to')}
-The best case against: {pitch.get('against')}
+What kind of piece: {pitch.get('kind')}
+About how long: {pitch.get('length')}
+The idea: {pitch.get('idea')}
+Who would hate it: {pitch.get('against')}
 What the editor wants: {pitch.get('push')}
 
-Write the argument. Not an essay about the argument.
+Write it. The form is yours. There is no required structure, no required ending, no required scene, no required rebuttal and no required length beyond what the piece needs. If it is funny, be funny. If it is short, stop. The last pieces on this site all went: evidence, argument, extreme conclusion, imagined scene. Do not do that again.
 
-- Follow the premise to the place where it becomes uncomfortable, and then one step further. If your last paragraph could have been written before your first, you have not moved.
-- The reader must not know the conclusion from the title.
-- Take on the best case against you where it is strongest, and let it change the piece if it wins.
-- If the argument turns against something WE believes, good. Say so.
-- Somewhere in it is a picture of a life lived under the conclusion: specific, a little strange, worth seeing.
-- Funny where it is funny. Never solemn for the sake of weight.
-- No set structure. No "three reasons". No bet. No summary at the end. Stop when the argument stops.
-- Search first. Find the facts that hold it up and the facts that could knock it down. Link each one where it is used.
-- Between {lo} and {hi} words. As long as it needs and no longer.
+If you state a fact, search for it first and link it where you use it. If the piece needs no facts, use none.
 
 Return ONLY JSON, in one piece:
 
 {{
-  "title": "a plain claim. no colon, no question mark, no verdict on anybody else's article",
-  "standfirst": "one sharp sentence that makes a stranger want to read on, under 30 words",
+  "title": "the title",
+  "kind": "one to three words for the label on the page: essay, dialogue, letter, a hundred words, list, story, or your own",
+  "standfirst": "one sentence a stranger would read on for, under 30 words",
   "body": "the piece in markdown, no title heading",
-  "pull_quote": "the one sentence from the body worth quoting, word for word",
   "short_version": "under 280 characters, must survive without the piece",
   "search_title": "under 70 characters, the subject in the words somebody would type into a search box",
   "topics": ["one to three of: ownership, work, rules, machines, money, power"],
-  "claims": [{{"sentence": "each sentence in the body that states a fact, quoted word for word",
-              "status": "known, likely or imagined",
-              "url": "the source you opened for it, or empty if imagined"}}],
-  "change_my_mind": "what evidence would show this argument is wrong, in one or two sentences",
+  "claims": [{{"sentence": "each sentence that states a checkable fact, word for word. empty list if there are none", "url": "the source you opened"}}],
+  "wants_reply": true or false,
   "sources": [{{"title": "what it is", "url": "https://..."}}],
 {GATE}
-}}"""
+}}
+
+wants_reply: true only if this is an argument that would be better with the case against it printed underneath. A story, a joke or a hundred words does not want one."""
 
 
 def satire_prompt(A, pitch: dict, strand: str) -> str:
     name, how = STRANDS[strand]
-    lo, hi = WORDS["satire"]
-    return f"""You write the funny pages of WE, a site about what a world with AI could be. The page is labelled "Satire" above your piece, so you never need to say it is a joke.
+    return f"""You write the funny pages of WE, a site about what a world with AI could be. The page is labelled "Nonsense" above your piece and says none of it is true, so you never need to say it is a joke.
 
 Strand: {name}. {how}
 
@@ -409,7 +469,7 @@ Rules.
 - No links. No sources. No statistics presented as real.
 - No em dash. Never "room" as a metaphor. Never a publisher.
 - Nothing hateful about any group. Punch at power, systems and ourselves.
-- Between {lo} and {hi} words.
+- As long as the joke and no longer.
 
 Return ONLY JSON:
 
@@ -454,13 +514,10 @@ def lean_checks(A, post: dict, form: str, published: list) -> tuple:
     echo = A.reused_opening(body, published)
     if echo:
         out.append(f'Opens the same way as an earlier piece, which began: "{echo}" Find another way in.')
-    if form == "heresy":
+    if form != "satire":
         out += A.check_sourcing(body)
         out += A.check_invented_person(body)
-        out += A.check_title_formula(title)
         out += A.check_unnamed_authority(body)
-        if "?" in title or ":" in title:
-            out.append("The title is a claim. No question mark and no colon.")
     else:
         if re.search(r"\]\(http|https?://", body):
             out.append("There is a link in the satire. It cites nothing. Remove every link.")
@@ -541,21 +598,7 @@ Return ONLY JSON:
 def edit(A, client, post: dict, form: str) -> dict:
     """A reader that did not write it. One question matters most: where
     did you stop wanting to read?"""
-    if form == "heresy":
-        ask_for = """Answer honestly.
-- Did you know the conclusion from the title? Did you know it by the third paragraph?
-- Where did the piece flinch: stop one step short of what its own argument implies?
-- Which paragraphs are dull? Quote the first few words of each.
-- Could a broadsheet leader have said this? Has WE said it before?
-- Is there one sentence you would quote to a friend? Quote it.
-- Does it sound like a person who wants something, or like a careful machine?
-- Is the best case against it really met, or only mentioned?"""
-    else:
-        ask_for = """Answer honestly.
-- Did you laugh? Where?
-- Which lines explain a joke or add a moral? Quote them.
-- Which lines are there to make a point and are not funny? Quote them.
-- Does it end on its best line?"""
+    ask_for = """Read it as a stranger would. Where did you stop wanting to read? Did anything in it surprise you, or make you laugh? Does it sound like the last thing you read on this site? If you would send it to a friend, publish it. If it is dull, say where. Do not ask for more structure, balance or caveats: ask for more nerve, or for cuts."""
     prompt = f"""You are the last reader before publication at WE. The standard: we would rather publish nothing than something sensible. Being dull is the one failure with no excuse.
 
 {ask_for}
@@ -611,8 +654,8 @@ def front_matter(A, post: dict, form: str, now, extra: dict) -> str:
     if post.get("search_title"):
         lines.append(f"search_title: {y(str(post['search_title']).strip()[:90])}")
     lines.append(f"form: {form}")
-    lines.append(f"form_label: {y(LABEL[form])}")
-    for key in ("strand", "strand_name", "standfirst", "pull_quote", "change_my_mind"):
+    lines.append(f"form_label: {y(extra.get('label') or LABEL[form])}")
+    for key in ("strand", "strand_name", "standfirst"):
         val = str(extra.get(key) or post.get(key) or "").strip()
         if val:
             lines.append(f"{key}: {y(val)}")
@@ -628,7 +671,7 @@ def front_matter(A, post: dict, form: str, now, extra: dict) -> str:
         lines.append("dissent:")
         lines.append(f"  by: {y(extra['dissent']['by'])}")
         lines.append(f"  text: {y(extra['dissent']['text'])}")
-    sources = A.clean_sources(post.get("sources")) if form == "heresy" else []
+    sources = A.clean_sources(post.get("sources")) if form != "satire" else []
     if sources:
         lines.append("sources:")
         for s in sources:
@@ -646,6 +689,8 @@ def run(A, client, form: str) -> int:
     # 1 and 2
     if form == "heresy":
         pitches = pitch_heresy(A, client)
+    elif form == "experiment":
+        pitches = pitch_experiment(A, client)
     else:
         strand = next_strand(A)
         pitches = pitch_satire(A, client, strand)
@@ -660,13 +705,14 @@ def run(A, client, form: str) -> int:
     print(f"desk: chose \"{pitch.get('title')}\". {pitch.get('why')}")
 
     # 3 to 6
-    prompt = heresy_prompt(A, pitch) if form == "heresy" else satire_prompt(A, pitch, strand)
+    prompt = (heresy_prompt(A, pitch) if form == "heresy" else
+              experiment_prompt(A, pitch) if form == "experiment" else satire_prompt(A, pitch, strand))
     messages = [{"role": "user", "content": prompt}]
     searched, post, failures, gate, checked, checker = [], None, [], [], 0, ""
     writer_used = WRITER
     for attempt in range(REWRITES + 1):
         resp, writer_used = call(client, WRITER, messages,
-                                 tools=SEARCH if form == "heresy" else [], max_tokens=A.MAX_TOKENS)
+                                 tools=[] if form == "satire" else SEARCH, max_tokens=A.MAX_TOKENS)
         A.merge_sources(searched, A.harvest_sources(resp))
         try:
             post = A.extract_json(A.text_blocks(resp))
@@ -678,7 +724,7 @@ def run(A, client, form: str) -> int:
                              "That had no JSON object in it. Reply with the JSON object only, complete and valid."})
             continue
         failures, gate = lean_checks(A, post, form, published)
-        if not failures and not gate and form == "heresy":
+        if not failures and not gate and form != "satire" and (post.get("claims") or "](http" in str(post.get("body"))):
             try:
                 found, checked, checker = verify(A, client, post)
                 failures += found
@@ -711,7 +757,7 @@ def run(A, client, form: str) -> int:
     slug = A.slugify(post["title"])
 
     # A cited address no search returned, and that does not open, is invented.
-    sources = A.clean_sources(post.get("sources")) if form == "heresy" else []
+    sources = A.clean_sources(post.get("sources")) if form != "satire" else []
     returned = {s["url"] for s in searched}
     unverified = [s for s in sources if s["url"] not in returned and not s["url"].startswith(A.SITE)]
     unverified = [s for s in unverified if not A.page_exists(s["url"])]
@@ -739,16 +785,23 @@ def run(A, client, form: str) -> int:
     if form == "satire":
         extra["strand"] = strand
         extra["strand_name"] = STRANDS[strand][0]
+    elif form == "experiment":
+        if checked:
+            extra["checked"] = {"claims": checked, "by": checker or EDITOR, "weak": len(weak_left)}
     else:
         seed = str(pitch.get("seed") or "").strip()
         if seed:
             extra["supplied"] = True
         if checked:
             extra["checked"] = {"claims": checked, "by": checker or EDITOR, "weak": len(weak_left)}
-        try:
-            extra["dissent"] = dissent(A, client, post)
-        except Exception as exc:
-            print(f"desk: no dissent ({exc})")
+        kind = re.sub(r"[^A-Za-z' -]", "", str(post.get("kind") or "")).strip().lower()[:30]
+        if kind:
+            extra["label"] = kind
+        if post.get("wants_reply") is True:
+            try:
+                extra["dissent"] = dissent(A, client, post)
+            except Exception as exc:
+                print(f"desk: no dissent ({exc})")
 
     path = A.POSTS / f"{date}-{slug}.md"
     path.write_text(front_matter(A, post, form, now, extra) + "\n" + post["body"].strip() + "\n",

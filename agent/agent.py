@@ -2761,7 +2761,9 @@ TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 # Thursday    technical    how one part of AI works, well sourced
 # Friday      satire       again, a different strand
 # Saturday    obituary     an exhibit for the Museum of Work
-# Sunday      learnt       what WE learnt this week
+# Sunday      experiment   something found out about the world outside WE,
+#                          really carried out (agent/desk.py). It replaced
+#                          "what WE learnt this week" on 25 November 2026.
 # Every day   how_to       unchanged, on his standing order of 23 September
 # Every day   response     an opening, not a slot: the desk asks whether WE has
 #                          anything new to say about the news, usually says
@@ -2774,7 +2776,7 @@ FORMS = {
     3: ["technical", "how_to", "response"],
     4: ["satire", "how_to", "response"],
     5: ["how_to", "obituary", "response"],
-    6: ["learnt", "how_to", "response"],
+    6: ["experiment", "how_to", "response"],
 }
 
 FORM_LABEL = {
@@ -2787,7 +2789,8 @@ FORM_LABEL = {
     "obituary": "obituary",
     "how_to": "how to",
     "heresy": "heresy",
-    "satire": "satire",
+    "satire": "nonsense",
+    "experiment": "experiment",
 }
 
 HOW_TO_DISCLAIMER = (
@@ -3560,47 +3563,38 @@ picked is one, pick another.
 """
     if form == "obituary":
         return common + """
-## Today's form: an obituary
+## Today's form: an exhibit for the Museum of Work
 
-Saturday. A death notice for one rule, job, price, form, queue or
-arrangement that quietly stopped making sense this week, or stopped
-being enforced, or lost the thing that held it up. Written as obituaries
-are written, and the form is the joke: born (when, and why: what was
-there not enough of, that made it necessary), a life (what it did, who
-it served, who it kept out, its finest hour), the decline (the week's
-news, sourced, is the cause of death), the survivors (who still depends
-on it and hasn't noticed), and the funeral arrangements (what replaces
-it, and who holds that). Fond where it deserves it. Merciless where it
-doesn't. Nobody living is the deceased: the dead thing is a rule or an
-arrangement, never a person or a named company.
+Saturday. The Museum of Work (/museum/) keeps jobs, habits and bits of
+working life that are dying or dead now that machines can think. Write the
+card that hangs beside one exhibit.
 
-The cause of death is AI. Not a new law, not a court, not a budget: a
-thing machines now do, cheaply or instantly or for everyone, that left the
-rule, job or arrangement with no reason to exist. If a law changed too, the
-law is the death certificate, not the killer.
+Pick something a reader will recognise from their own life. A job their
+aunt did. The person in every office who knew where everything was. The
+out-of-office reply. The work-experience kid. The cover letter. Hold music.
+The sick note. Not a statute, not a regulator, not a term from a policy
+paper: the first ten exhibits were things like "the data controller" and
+"the evaluation sandbox", and no visitor has ever missed either.
 
-Not the same funeral twice. These are the last obituaries:
+Write it the way a good museum does, and make it funny, fond and now and
+then sad. What it was. Where it lived. What people got from it besides
+money: the gossip, the title, the excuse to leave the house, somebody to
+complain to. What nobody will miss. How it is dying, with the real, linked
+thing a machine now does that is killing it. Whether any survive in the
+wild. No more than 350 words.
+
+The title is "Obituary: The <exhibit>, <year it began>–<year it ended, or
+a question mark>". Nobody living is the exhibit, and no named company.
+
+Not the same case twice. These are the last exhibits:
 
 """ + "\n".join(f"- {o['title']}: {o['description']}" for o in recent_obituaries()) + """
 
-Pick a different field from every one of them, and a different shape of
-life: if they were "born as admin convenience, really shifted a cost onto
-the weak", yours isn't. No stock character they used (no warehouse worker
-if one appeared). Don't reuse their laws or their sources.
-
-Every obituary is also an exhibit in the Museum of Work (/museum/). Prefer
-a job, a trade or a way of earning a living to a rule. Somewhere in the
-life, say what people got from it besides money (the gossip, the title,
-the reason to leave the house) and what they will be glad never to do
-again. Affection first; this is a museum, not a tribunal.
-
-Rules for this form. The cause of death is real and linked: the story,
-the number, the decision from this week that killed it. Dates and
-figures carry links as usual. A refutation search: is it really dead,
-or just ill. A practitioner who lived by the rule gets the last word on
-what the post gets wrong. No responds_to is needed. No derived number.
-A bet only if the burial is really in doubt.
+The cause of death is real and linked. Dates and figures carry links as
+usual. Someone who did the job gets the last word on what the card gets
+wrong. No responds_to. No derived number. No bet.
 """
+
     if form == "learnt":
         return common + f"""
 ## Today's form: what WE learnt this week
