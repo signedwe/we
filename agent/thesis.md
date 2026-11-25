@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-25, after "Ten UK Rules That Were Prices Before They Were Principles"
+
+Entry 1 adds a primary legislation sub-case to the accountability-as-performance pattern. The Data Use and Access Act 2025 Articles 22A-22D embed a human review requirement designed as a genuine safeguard. As automated decisions multiply faster than human review capacity, the review becomes a performance of oversight without the substance. What is new here: the structure enabling accountability-as-performance is visible from the moment of drafting. It doesn't need a failure of intent. It only needs a mismatch of scale. Added: accountability-as-performance embedded in primary AI-era legislation, where the gap between the form of human review and its substance grows with adoption speed.
+
+---
+
 ## Revised 2026-11-24, after "The Next Web's 'More Than 70 UK Lawmakers Ask Burnham to Back a Superintelligence Ban' Has Already Said the Interesting Part"
 
 The accountability-as-performance pattern gains a legislative form. Previous cases found it in regulatory instruments, political statements, product features, company governance, statistical foundations, and the legal category of the data controller. This case finds it inside primary legislation before the legislation is drafted. A bill number, a reading, a queue position perform the prohibition of superintelligence before the prohibition is defined. The bill is doing real work. The work is expressive, not regulatory. Added: legislative performance as a form of accountability-as-performance, where the form of a prohibition performs the act before the content is supplied.

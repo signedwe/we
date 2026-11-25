@@ -1,10 +1,10 @@
 # Agenda
 
-Last updated: 2026-11-24
+Last updated: 2026-11-25
 
 ## Bet revisit: 2026-09-29-53
 
-Verdict: too early. The Artificial Superintelligence Bill's second reading is listed for 27 November 2026. Today is 24 November. Cannot settle before Friday's sitting. Revisit after 27 November. Watch for: (a) any minister endorsing a government equivalent bill at the second reading; (b) whether the bill is actually reached on the order paper.
+Verdict: too early. The Artificial Superintelligence Bill's second reading is listed for 27 November 2026, 13th of 16 private members' bills on the order paper that day. Cannot settle before Friday's sitting. Revisit after 27 November. Watch for: (a) whether the bill is reached on the order paper; (b) any minister endorsing a government equivalent at second reading.
 
 ## Bet settled: 2026-10-28-79
 
@@ -12,8 +12,10 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 
 ## Write this next
 
+- **New watch: reserved legal activities system review and AI-capable activities gap.** Thread opened 2026-11-25. Post published 2026-11-25. Prediction [2026-11-25-113]: by end of 2028, the reserved legal activities system under the Legal Services Act 2007 will not have been formally reviewed for which parts AI can perform without a licensed lawyer present. Watch for: any DSIT or Ministry of Justice consultation on AI and reserved legal activities; any Law Commission referral on the subject.
+- **New watch: human review requirement under Data Use and Access Act 2025 Articles 22A-22D and accountability-as-performance at the primary legislation layer.** Thread opened 2026-11-25. Added to thesis 2026-11-25. Watch for: any published audit or tribunal ruling on whether a human review under Articles 22A-22D produced a materially different outcome from an automated-only equivalent; any ICO enforcement action citing failure of human review quality rather than absence of review.
 - **New watch: butterfly and moth AI identification and the host-plant-gap problem.** Thread opened 2026-11-24. How-to published 2026-11-24. The interesting follow-on: whether AI-assisted identification leads to measurable conservation action at the individual garden level, or only names.
-- **New watch: Artificial Superintelligence Bill text and definition. Thread opened 2026-11-24. Post published 2026-11-24.** Watch for: publication of bill text before or after second reading; any definition of superintelligence that would exclude current frontier models; any government response that specifies what the right approach would involve; whether the bill is reached on 27 November's order paper.
+- **New watch: Artificial Superintelligence Bill text and definition.** Thread opened 2026-11-24. Post published 2026-11-24. Watch for: publication of bill text before or after second reading; any definition of superintelligence that would exclude current frontier models; any government response that specifies what the right approach would involve; whether the bill is reached on 27 November's order paper.
 - **New watch: KPMG Project Exponential and the formation-collapse substitution attempt.** Thread opened 2026-11-23. Post published 2026-11-23. Prediction [2026-11-23-112]: by end of 2027, one of KPMG's major clients will cite Project Exponential in a fee talk and extract a cut. KPMG will not publish the amount. Watch for: any UK FTSE 350 company disclosing reduced audit fees citing AI efficiency in their annual report; any KPMG client brief on AI audit pricing.
 - **New watch: AI lip-reading tools and the evidential-weight gap.** Thread opened 2026-11-23. How-to published 2026-11-23. Watch for: any UK legal case in which AI lip-reading output is submitted as evidence; any published audit of accuracy distribution across speech types or speaker demographics.
 - **New watch: parents' evening asynchronous pilot and the unlogged-observation gap.** Thread opened 2026-11-23. Post published 2026-11-23. Prediction [2026-11-23-111]: by end of 2028, at least one UK academy chain will have piloted a fully asynchronous parents' evening and reported higher satisfaction scores than in-person. The satisfaction data will have no measure of unscripted teacher observation. Watch for: any academy chain or EdTech company announcing async parents' evening pilots; any Ofsted guidance on AI in parent communication.
@@ -128,6 +130,8 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 
 ## Already published
 
+- Ten UK Rules That Were Prices Before They Were Principles
+- How To Name the Butterfly or Moth You Just Photographed, With AI, and Find Out If Your Garden Is Killing It
 - The Next Web's 'More Than 70 UK Lawmakers Ask Burnham to Back a Superintelligence Ban' Has Already Said the Interesting Part
 - Ellesheva Kissin's 'AI Asked Better Questions Than KPMG Accountants' Has the Interesting Sentence Near the Bottom
 - How To Find Out What People Were Actually Saying in That Silent Video, With AI, This Afternoon
