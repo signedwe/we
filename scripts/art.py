@@ -83,6 +83,16 @@ The picture is not an illustration of the article. It makes a statement of its o
 
 Ask for things that could not exist, could not be photographed, and would cost a fortune to stage. Borrow from anywhere: surrealism, Dada, political caricature, Renaissance painting, absurd photography, medieval manuscripts, propaganda posters, Victorian engraving, collage, natural-history dioramas, altarpieces, tapestries, banknotes, museum cases. Mix periods, scales and materials. Invent impossible objects, ridiculous institutions, strange rituals, odd versions of ordinary life. Beautiful, grotesque, funny, unsettling or absurd are all fine. Tasteful is not required.
 
+Go further than feels safe. The operator, 25 November 2026, on the first three pictures: "they're not bad, they should be even crazier". Those three were each a handsome copy of one old style with one tidy metaphor in the middle. That is the failure to avoid.
+
+- Collide things. Two worlds that have no business in one frame: an altarpiece with a self-checkout in it, a royal procession through a call centre, a whale beached in a spreadsheet. One style on its own, done well, is a pastiche and is not enough.
+- Something is happening, and it is going wrong. A moment, not a display. Somebody is falling, fleeing, eating, signing, auctioning, drowning in something.
+- Break scale. A banker the size of a cathedral. A parliament in a teacup.
+- Put jokes in the corners. A second and third thing to find after the first.
+- It should make a stranger laugh or wince before they understand it. If it would hang quietly in a nice hotel, start again.
+- For each idea, write it, then ask what the braver version is, and use that one.
+- One of your three must be the picture you would be nervous to show. Choose it unless it breaks a hard limit.
+
 Never: glowing brains, humanoid robots, blue circuitry, holograms, people staring at screens, handshakes between a human and a machine, a lightbulb, a chess piece.
 
 Hard limits.
@@ -260,7 +270,7 @@ Propose three pictures that are really different from each other: different idea
 
 Return ONLY JSON:
 
-{{"concepts": [{{"idea": "what the picture argues, in one sentence a reader could be shown under it",
+{{"concepts": [{{"idea": "what the picture argues, in one plain sentence a reader could be shown under it. never the word room, never an em dash",
                "tradition": "the visual tradition it borrows",
                "prompt": "the full instruction for the image model: subject, composition, medium, period, lighting, palette, what is in the foreground and background. 80 to 160 words. Landscape format.",
                "alt": "alt text: what is in the picture, plainly, for someone who cannot see it. One sentence."}}],
@@ -279,7 +289,7 @@ def judge(title: str, shots: list) -> dict:
 
 These pictures were made for the piece "{title}". Judge what is actually in them, not what was asked for.
 
-Pick the strongest for originality, wit, composition, and whether the details that matter came out. Refuse any picture that: shows a recognisable real person or logo; could be mistaken for a photograph or document of a real event; has garbled or wrong lettering that a reader would notice; has mangled hands or faces that spoil it; or falls back on a cliché from the never-list.
+Pick the strangest one that works: the one a stranger would stop on and send to a friend. Wit and nerve first, then composition, then whether the details that matter came out. A handsome, calm picture loses to an odd one. Refuse any picture that: shows a recognisable real person or logo; could be mistaken for a photograph or document of a real event; has garbled or wrong lettering that a reader would notice; has mangled hands or faces that spoil it; or falls back on a cliché from the never-list.
 
 Return ONLY JSON:
 
