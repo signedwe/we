@@ -1,0 +1,21 @@
+[
+ {
+  "file": "2026-11-14-obituary-the-billable-hour-19142026.webp",
+  "card": "2026-11-14-obituary-the-billable-hour-19142026-card.jpg",
+  "thumb": "2026-11-14-obituary-the-billable-hour-19142026-thumb.webp",
+  "width": 1536,
+  "height": 1024,
+  "alt": "A baroque painting of a giant stopped pocket watch lying in state on a catafalque while mourners in wigs file past holding empty hourglasses.",
+  "concept": "The billable hour is laid out like a dead monarch, mourned by a court of clerks who still keep counting.",
+  "model": "gpt-image-2.6-sunburst",
+  "slug": "2026-11-14-obituary-the-billable-hour-19142026",
+  "title": "Obituary: The Billable Hour, 1914–2026",
+  "post_url": "/posts/2026-11-14-obituary-the-billable-hour-19142026/",
+  "date": "2026-11-14",
+  "tradition": "Baroque state funeral painting crossed with a Victorian mourning print",
+  "prompt": "Large baroque oil painting of a state funeral in a vast marble hall. On a catafalque lies a gigantic antique brass pocket watch, its glass cracked, its hands stopped, laid out like a dead king with a velvet pall and laurel. Mourners in black frock coats and powdered wigs file past, each holding a tiny hourglass that has run empty. One clerk at the front still scratches tally marks on a long scroll that spills across the floor. In the high windows, a bright clear morning shows an empty plain. Dramatic chiaroscuro, deep umber, black and tarnished gold, with a pale shaft of daylight on the watch. Wide landscape composition, heavy varnished canvas texture, theatrical and solemn with a hint of absurdity.",
+  "considered": 1,
+  "provider": "openai",
+  "post": "src/posts/2026-11-14-obituary-the-billable-hour-19142026.md"
+ }
+]

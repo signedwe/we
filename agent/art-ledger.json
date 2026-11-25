@@ -12,5 +12,29 @@
   "usage": {
    "note": "not recorded; see the OpenAI usage page"
   }
+ },
+ {
+  "date": "2026-11-25",
+  "at": "2026-11-25T12:36:22+00:00",
+  "post": "2026-11-14-obituary-the-billable-hour-19142026",
+  "provider": "openai",
+  "model": "gpt-image-2.6-sunburst",
+  "size": "1536x1024",
+  "quality": "medium",
+  "images": 1,
+  "est_usd": 0.25,
+  "usage": {
+   "input_tokens": 161,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 161
+   },
+   "output_tokens": 1132,
+   "output_tokens_details": {
+    "image_tokens": 1132,
+    "text_tokens": 0
+   },
+   "total_tokens": 1293
+  }
  }
 ]
