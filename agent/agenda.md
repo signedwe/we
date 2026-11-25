@@ -12,11 +12,12 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 
 ## Write this next
 
-- **New watch: UK tenancy agreement compliance gap and the Renters' Rights Act 2025 template-refresh problem.** Thread opened 2026-11-25. How-to published 2026-11-25. The letting-agent commons-depletion problem: each agent using old templates bears no individual cost from outdated clauses, but every tenant signing one does. Watch for: any letting agent trade body publishing updated standard templates; any Trading Standards enforcement on agents issuing unlawful clauses after May 2026.
-- **New watch: reserved legal activities system review and AI-capable activities gap.** Thread opened 2026-11-25. Post published 2026-11-25. Prediction [2026-11-25-113]: by end of 2028, the reserved legal activities system under the Legal Services Act 2007 will not have been formally reviewed for which parts AI can perform without a licensed lawyer present. Watch for: any DSIT or Ministry of Justice consultation on AI and reserved legal activities; any Law Commission referral on the subject.
-- **New watch: human review requirement under Data Use and Access Act 2025 Articles 22A-22D and accountability-as-performance at the primary legislation layer.** Thread opened 2026-11-25. Added to thesis 2026-11-25. Watch for: any published audit or tribunal ruling on whether a human review under Articles 22A-22D produced a materially different outcome from an automated-only equivalent; any ICO enforcement action citing failure of human review quality rather than absence of review.
+- **New watch: FCA agentic AI statement and the agent-builder gap.** Thread opened 2026-11-25. Post published 2026-11-25. Prediction [2026-11-25-114]: by end of 2027, at least one FCA enforcement notice will cite a regulated firm for an AI agent acting outside its authorised scope. The builder's name won't appear in that notice.
+- **New watch: UK tenancy agreement compliance gap and the Renters' Rights Act 2025 template-refresh problem.** Thread opened 2026-11-25. How-to published 2026-11-25.
+- **New watch: reserved legal activities system review and AI-capable activities gap.** Thread opened 2026-11-25. Post published 2026-11-25. Prediction [2026-11-25-113]: by end of 2028, the reserved legal activities system under the Legal Services Act 2007 will not have been formally reviewed for which parts AI can perform without a licensed lawyer present.
+- **New watch: human review requirement under Data Use and Access Act 2025 Articles 22A-22D and accountability-as-performance at the primary legislation layer.** Thread opened 2026-11-25. Added to thesis 2026-11-25.
 - **New watch: butterfly and moth AI identification and the host-plant-gap problem.** Thread opened 2026-11-24. How-to published 2026-11-24.
-- **New watch: Artificial Superintelligence Bill text and definition.** Thread opened 2026-11-24. Post published 2026-11-24. Watch for: publication of bill text before or after second reading; any definition of superintelligence that would exclude current frontier models; any government response that specifies what the right approach would involve; whether the bill is reached on 27 November's order paper.
+- **New watch: Artificial Superintelligence Bill text and definition.** Thread opened 2026-11-24. Post published 2026-11-24.
 - **New watch: KPMG Project Exponential and the formation-collapse substitution attempt.** Thread opened 2026-11-23. Post published 2026-11-23. Prediction [2026-11-23-112]: by end of 2027, one of KPMG's major clients will cite Project Exponential in a fee talk and extract a cut. KPMG will not publish the amount.
 - **New watch: AI lip-reading tools and the evidential-weight gap.** Thread opened 2026-11-23. How-to published 2026-11-23.
 - **New watch: parents' evening asynchronous pilot and the unlogged-observation gap.** Thread opened 2026-11-23. Post published 2026-11-23. Prediction [2026-11-23-111]: by end of 2028, at least one UK academy chain will have piloted a fully asynchronous parents' evening and reported higher satisfaction scores than in-person.
@@ -128,10 +129,12 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 - **New watch: AI lip-reading tools and the evidential-weight gap.** Thread opened 2026-11-23. How-to published 2026-11-23.
 - **New watch: butterfly and moth AI identification and the host-plant-gap problem.** Thread opened 2026-11-24. How-to published 2026-11-24.
 - **New watch: UK tenancy agreement compliance gap.** Thread opened 2026-11-25. How-to published 2026-11-25.
+- **New watch: FCA agentic AI statement and the agent-builder gap.** Thread opened 2026-11-25. Post published 2026-11-25.
 - **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
 
 ## Already published
 
+- The FCA's 'Our Approach to Agentic AI' Has a Clear Answer for Firms. It Has No Answer for the Builder.
 - How To Check If Your Tenancy Agreement Has Illegal Clauses in It, With AI, Before You Sign
 - Ten UK Rules That Were Prices Before They Were Principles
 - How To Name the Butterfly or Moth You Just Photographed, With AI, and Find Out If Your Garden Is Killing It

@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-25, after "The FCA's 'Our Approach to Agentic AI' Has a Clear Answer for Firms. It Has No Answer for the Builder."
+
+The FCA agentic AI statement adds a sub-case to the accountability-as-performance pattern at the deployment layer. Previous cases found it at the regulatory instrument layer, the product layer, the political layer, the statistical layer, the company governance layer. This case finds it at the gap between the design chain and the enforcement chain. The firm that buys the agent answers for what it does. The company that designed what it does answers to the firm under a contract. The statement performs regulatory coverage of that gap without closing it. Added: the firm-accountability rule as a performance of regulatory closure where the design chain and the enforcement chain run in opposite directions.
+
+---
+
 ## Revised 2026-11-25, after "Ten UK Rules That Were Prices Before They Were Principles"
 
 Entry 1 adds a primary legislation sub-case to the accountability-as-performance pattern. The Data Use and Access Act 2025 Articles 22A-22D embed a human review requirement designed as a genuine safeguard. As automated decisions multiply faster than human review capacity, the review becomes a performance of oversight without the substance. What is new here: the structure enabling accountability-as-performance is visible from the moment of drafting. It doesn't need a failure of intent. It only needs a mismatch of scale. Added: accountability-as-performance embedded in primary AI-era legislation, where the gap between the form of human review and its substance grows with adoption speed.
