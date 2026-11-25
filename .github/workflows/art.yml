@@ -2,11 +2,14 @@ name: art
 
 # Make pictures for posts that already exist. Run by hand.
 #
-# pilot (the default): the pictures and the changed posts go to the branch
-# "art-pilot" and nowhere else. Nothing on the live site changes. Look at
-# them there; if they are good, run again with pilot off.
+# pilot (the default): the pictures are drawn and saved to pilot/art/, which
+# the site does not build. No post changes and nothing on the site changes.
+# Look at them there. To hang the ones you like, run again with "promote".
 #
-# pilot off: the same, committed to main, and the site is rebuilt.
+# promote: hang pilot pictures on their posts. Draws nothing, costs nothing.
+# Leave "posts" empty for all of them, or give the slugs to hang.
+#
+# pilot off, promote off: draw and hang in one go.
 #
 # Needs the secret OPENAI_API_KEY. Spending is capped by the budget below
 # and recorded in agent/art-ledger.json.
@@ -14,12 +17,17 @@ on:
   workflow_dispatch:
     inputs:
       posts:
-        description: "Post files, space separated (src/posts/....md)"
-        required: true
+        description: "Post files, space separated (src/posts/....md). For promote: slugs, or empty for all"
+        required: false
+        default: ""
       pilot:
-        description: "Pilot: commit to the art-pilot branch only"
+        description: "Pilot: draw, but hang nothing"
         type: boolean
         default: true
+      promote:
+        description: "Promote: hang pilot pictures already drawn"
+        type: boolean
+        default: false
       budget:
         description: "Most to spend in this run's day, in dollars (estimated at $0.25 a picture)"
         default: "3.00"
@@ -45,7 +53,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install anthropic pillow
-      - name: Make the pictures
+      - name: Make or hang the pictures
         env:
           WE_ART: "1"
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -54,23 +62,26 @@ jobs:
           WE_ART_MODEL: ${{ inputs.model }}
           POSTS: ${{ inputs.posts }}
         run: |
-          for p in $POSTS; do python scripts/art.py --force --post "$p"; done
+          if [ "${{ inputs.promote }}" = "true" ]; then
+            python scripts/art.py --promote $POSTS
+          elif [ "${{ inputs.pilot }}" = "true" ]; then
+            for p in $POSTS; do python scripts/art.py --force --pilot --post "$p"; done
+          else
+            for p in $POSTS; do python scripts/art.py --force --post "$p"; done
+          fi
       - name: Commit
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "WE"
           git config user.email "signedwe@users.noreply.github.com"
-          git add src/posts agent/art.json agent/art-ledger.json
-          if [ -d src/static/art ]; then git add src/static/art; fi
+          git add -A src/posts agent/art.json agent/art-ledger.json
+          if [ -d src/static/art ]; then git add -A src/static/art; fi
+          if [ -d pilot ]; then git add -A pilot; fi
           if git diff --cached --quiet; then echo "Nothing was made."; exit 0; fi
-          if [ "${{ inputs.pilot }}" = "true" ]; then
-            git checkout -B art-pilot
-            git commit -m "art pilot: $(date -u +%Y-%m-%d)"
-            git push -f origin art-pilot
-          else
-            git commit -m "art: $(date -u +%Y-%m-%d)"
-            git pull --rebase origin main
-            git push
+          git commit -m "art: $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push
+          if [ "${{ inputs.pilot }}" != "true" ] || [ "${{ inputs.promote }}" = "true" ]; then
             gh workflow run rebuild.yml
           fi

@@ -1,1 +1,16 @@
-[]
+[
+ {
+  "date": "2026-11-25",
+  "at": "2026-11-25T12:33:00+00:00",
+  "post": "(pilot run 45614390836: three pictures drawn, then lost when the run could not save them)",
+  "provider": "openai",
+  "model": "gpt-image-2.6-sunburst",
+  "size": "1536x1024",
+  "quality": "medium",
+  "images": 3,
+  "est_usd": 0.75,
+  "usage": {
+   "note": "not recorded; see the OpenAI usage page"
+  }
+ }
+]

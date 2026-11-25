@@ -55,6 +55,11 @@ OUT = ROOT / "src" / "static" / "art"
 MANIFEST = ROOT / "agent" / "art.json"
 LEDGER = ROOT / "agent" / "art-ledger.json"
 LATEST = ROOT / "agent" / "latest.json"
+# A pilot draws the pictures but hangs nothing: files go to pilot/art/, which
+# the site does not build, and the post is left alone. --promote hangs them.
+PILOT = ROOT / "pilot"
+PILOT_OUT = PILOT / "art"
+PILOT_MANIFEST = PILOT / "art.json"
 
 PROVIDER = os.environ.get("WE_ART_PROVIDER", "openai")
 # Tried in order until the service accepts one. Names move; set WE_ART_MODEL
@@ -218,6 +223,11 @@ def as_json(text: str) -> dict:
     return json.loads(text[a:b + 1])
 
 
+def recent_traditions(n: int = 8) -> list:
+    rows = load(MANIFEST, []) + load(PILOT_MANIFEST, [])
+    return [str(r.get("tradition")) for r in rows[-n:] if r.get("tradition")]
+
+
 def concepts(title: str, form: str, body: str, want: int) -> dict:
     if os.environ.get("WE_ART_DIRECTOR") == "stub":
         return {"concepts": [{"idea": "A test card.", "tradition": "test", "prompt": "a test card", "alt": "A test card."}],
@@ -230,7 +240,7 @@ The piece ({form}): {title}
 
 {body[:9000]}
 
-Propose three pictures that are really different from each other: different idea, different tradition, different joke. Then choose the {'two strongest' if want > 1 else 'strongest'}.
+Propose three pictures that are really different from each other: different idea, different tradition, different joke. The last pictures on this site borrowed from: {"; ".join(recent_traditions()) or "nothing yet"}. Use none of those traditions again, and nothing close to them: the site must not settle into one look. Then choose the {'two strongest' if want > 1 else 'strongest'}.
 
 Return ONLY JSON:
 
@@ -284,7 +294,7 @@ def cover(img, w: int, h: int):
     return r.crop((x, y, x + w, y + h))
 
 
-def write_images(slug: str, png: bytes) -> dict:
+def write_images(slug: str, png: bytes, OUT=OUT) -> dict:
     from PIL import Image
     OUT.mkdir(parents=True, exist_ok=True)
     img = Image.open(io.BytesIO(png)).convert("RGB")
@@ -326,7 +336,7 @@ def set_artwork(path: pathlib.Path, art: dict) -> None:
 # one post
 # ----------------------------------------------------------------------
 
-def make(path: pathlib.Path, force: bool = False, candidates: int = 0) -> int:
+def make(path: pathlib.Path, force: bool = False, candidates: int = 0, pilot: bool = False) -> int:
     if os.environ.get("WE_ART") != "1":
         return stop("switched off (WE_ART is not 1).")
     if not path.exists():
@@ -358,7 +368,8 @@ def make(path: pathlib.Path, force: bool = False, candidates: int = 0) -> int:
 
     def draw(idea: dict) -> None:
         png, usage = generate(idea["prompt"], state)
-        shots.append({"idea": idea["idea"], "prompt": idea["prompt"], "alt": idea.get("alt", ""), "png": png})
+        shots.append({"idea": idea["idea"], "prompt": idea["prompt"], "alt": idea.get("alt", ""),
+                      "tradition": idea.get("tradition", ""), "png": png})
         used.append(usage)
         ledger.append({"date": today(), "at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                        "post": slug, "provider": PROVIDER, "model": state.get("model"), "size": SIZE,
@@ -386,19 +397,51 @@ def make(path: pathlib.Path, force: bool = False, candidates: int = 0) -> int:
         if pick < 1 or pick > len(shots):
             return stop(f"none of the {len(shots)} pictures was good enough. {verdict.get('why') or ''}")
         chosen = shots[pick - 1]
-        files = write_images(slug, chosen["png"])
+        files = write_images(slug, chosen["png"], PILOT_OUT if pilot else OUT)
     except Exception as exc:
         return stop(f"failed ({type(exc).__name__}: {str(exc)[:300]}).")
 
     art = dict(files, alt=chosen["alt"] or chosen["idea"], concept=chosen["idea"], model=state.get("model") or PROVIDER)
-    set_artwork(path, art)
     date = field(front, "date")[:10] or today()
-    manifest = [m for m in load(MANIFEST, []) if m.get("slug") != slug]
-    manifest.append(dict(art, slug=slug, title=title, post_url=f"/posts/{slug}/", date=date,
-                         prompt=chosen["prompt"], considered=len(shots), provider=PROVIDER))
-    save(MANIFEST, manifest)
+    entry = dict(art, slug=slug, title=title, post_url=f"/posts/{slug}/", date=date, tradition=chosen.get("tradition", ""),
+                 prompt=chosen["prompt"], considered=len(shots), provider=PROVIDER,
+                 post=str(path.relative_to(ROOT)))
+    target = PILOT_MANIFEST if pilot else MANIFEST
+    if pilot:
+        PILOT.mkdir(exist_ok=True)
+    else:
+        set_artwork(path, art)
+    manifest = [m for m in load(target, []) if m.get("slug") != slug]
+    manifest.append(entry)
+    save(target, manifest)
     usd, n = spent_today(ledger)
     say(f"hung {files['file']} ({state.get('model')}, {len(shots)} drawn; today {n} pictures, about ${usd:.2f}). {verdict.get('why') or ''}")
+    return 0
+
+
+def promote(slugs: list) -> int:
+    """Hang pilot pictures that a person has approved. Draws nothing and
+    costs nothing: it moves the files and writes the front matter."""
+    import shutil
+    rows = load(PILOT_MANIFEST, [])
+    keep, hung = [], load(MANIFEST, [])
+    OUT.mkdir(parents=True, exist_ok=True)
+    for r in rows:
+        if slugs and r.get("slug") not in slugs:
+            keep.append(r)
+            continue
+        post = ROOT / r["post"]
+        if not post.exists():
+            say(f"no such post, left in the pilot: {r['post']}")
+            keep.append(r)
+            continue
+        for k in ("file", "card", "thumb"):
+            shutil.move(str(PILOT_OUT / r[k]), str(OUT / r[k]))
+        set_artwork(post, r)
+        hung = [m for m in hung if m.get("slug") != r["slug"]] + [r]
+        say(f"hung {r['file']} on {r['post']}")
+    save(MANIFEST, hung)
+    save(PILOT_MANIFEST, keep)
     return 0
 
 
@@ -408,7 +451,12 @@ def main() -> int:
     ap.add_argument("--latest", action="store_true")
     ap.add_argument("--force", action="store_true", help="ignore the form list and replace an existing picture")
     ap.add_argument("--candidates", type=int, default=0)
+    ap.add_argument("--pilot", action="store_true", help="draw, but hang nothing: files go to pilot/art/")
+    ap.add_argument("--promote", nargs="*", default=None, metavar="SLUG",
+                    help="hang approved pilot pictures (all of them, or the slugs named)")
     a = ap.parse_args()
+    if a.promote is not None:
+        return promote(a.promote)
     posts = [pathlib.Path(p) if os.path.isabs(p) else ROOT / p for p in a.post]
     if a.latest:
         latest = load(LATEST, {})
@@ -418,7 +466,7 @@ def main() -> int:
     if not posts:
         return stop("no post named.")
     for p in posts:
-        make(p, force=a.force, candidates=a.candidates)
+        make(p, force=a.force, candidates=a.candidates, pilot=a.pilot)
     return 0
 
 
