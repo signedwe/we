@@ -217,6 +217,22 @@ def director(messages: list, max_tokens: int = 2500) -> str:
     raise last
 
 
+def director_json(messages: list, max_tokens: int = 2500) -> dict:
+    """The director's answer as JSON. A reply that does not parse (a stray
+    quote inside a prompt, usually) is sent back once to be repaired."""
+    messages = list(messages)
+    for attempt in range(3):
+        text = director(messages, max_tokens)
+        try:
+            return as_json(text)
+        except Exception as exc:
+            if attempt == 2:
+                raise
+            messages += [{"role": "assistant", "content": text or "(nothing)"},
+                         {"role": "user", "content": f"That was not valid JSON ({str(exc)[:80]}). Send the whole "
+                          "object again, valid, with every double quote inside a string escaped. JSON only."}]
+
+
 def as_json(text: str) -> dict:
     text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip())
     a, b = text.find("{"), text.rfind("}")
@@ -249,7 +265,7 @@ Return ONLY JSON:
                "prompt": "the full instruction for the image model: subject, composition, medium, period, lighting, palette, what is in the foreground and background. 80 to 160 words. Landscape format.",
                "alt": "alt text: what is in the picture, plainly, for someone who cannot see it. One sentence."}}],
   "chosen": [the numbers of the chosen concepts, counting from 1]}}"""
-    return as_json(director([{"role": "user", "content": prompt}]))
+    return director_json([{"role": "user", "content": prompt}])
 
 
 def judge(title: str, shots: list) -> dict:
@@ -278,7 +294,7 @@ Return ONLY JSON:
         content.append({"type": "text", "text": f"Picture {i}. The idea was: {s['idea']}"})
         content.append({"type": "image", "source": {"type": "base64", "media_type": "image/jpeg",
                                                     "data": base64.b64encode(buf.getvalue()).decode()}})
-    return as_json(director([{"role": "user", "content": content}], max_tokens=1200))
+    return director_json([{"role": "user", "content": content}], max_tokens=1200)
 
 
 # ----------------------------------------------------------------------
