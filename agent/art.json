@@ -150,5 +150,26 @@
   "considered": 1,
   "provider": "openai",
   "post": "src/posts/2026-11-25-we-counted-its-first-272-posts-and-most-of-them-were-one-pos.md"
+ },
+ {
+  "file": "2026-11-26-picture-mandatory-feelings-assessment-form-27c.webp",
+  "card": "2026-11-26-picture-mandatory-feelings-assessment-form-27c-card.jpg",
+  "thumb": "2026-11-26-picture-mandatory-feelings-assessment-form-27c-thumb.webp",
+  "width": 1536,
+  "height": 1024,
+  "alt": "A faded two-colour government leaflet page explaining grief in eleven days via a five-step flow diagram of faceless figures. Red biro notes in the margins say the instructions did not work. A coffee ring covers step three. A tearstain has buckled the bottom of the page. A note at the bottom refers to Form 27D.",
+  "concept": "A page from the official instruction manual for being human, issued by an unnamed government bureau, heavily annotated by a previous owner who clearly failed.",
+  "model": "gpt-image-2.6-sunburst",
+  "slug": "2026-11-26-picture-mandatory-feelings-assessment-form-27c",
+  "title": "Mandatory Feelings Assessment, Form 27C",
+  "post_url": "",
+  "date": "2026-11-26",
+  "standalone": true,
+  "caption": "A page from the official instruction manual for being human, issued by an unnamed government bureau, heavily annotated by a previous owner who clearly failed.",
+  "tradition": "1970s UK government leaflet design — Helvetica, two-colour risograph in mustard and slate blue, numbered diagrams, the visual language of a driving-theory handbook or a tax return — but defaced with handwritten margin notes in red biro, coffee rings, and one large tearstain that has buckled the paper.",
+  "prompt": "A two-colour risograph government information leaflet page, mustard yellow and slate blue ink on slightly grey recycled paper, 1970s UK public-information style. Title at top: 'HOW TO EXPERIENCE GRIEF (STANDARD DURATION: 11 DAYS)'. Below, a numbered flow diagram with five steps, each illustrated by a simple line-drawing of a faceless figure in a posture: (1) slumped, (2) standing in a queue, (3) filling a form, (4) eating a sandwich, (5) smiling with a tick beside it. Red biro handwriting in the margins says 'THIS DIDN'T WORK', 'WHICH QUEUE?', and 'I AM STILL ON STEP 2 — YEAR 4'. A large circular coffee stain covers step 3. The bottom of the page has a buckled tearstain. A small box reads 'IF GRIEF PERSISTS BEYOND 11 DAYS SEE FORM 27D'. No other text.",
+  "considered": 1,
+  "provider": "openai",
+  "post": "pilot/2026-11-26-picture-mandatory-feelings-assessment-form-27c.md"
  }
 ]

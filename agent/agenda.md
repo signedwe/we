@@ -12,6 +12,7 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 
 ## Write this next
 
+- **New watch: garden footprint trap and AI track identification.** Opened 2026-11-26, how-to published. No independent test of general assistants on footprint photos was found; a vendor's own page admits tracks alone can match several species. Follow-up only if an independent test appears. Not a news thread.
 - **New watch: distillation terms-of-output and the own-but-cannot-learn gap.** Thread opened 2026-11-26. Post published 2026-11-26 (technical). No bet made. Follow-ups: OpenAI's own usage-policy page (not opened, trackers only); whether any UK public buyer has written a train-on-outputs clause into a contract; any 2026 study updating the 2023 imitation-gap finding. The procurement-clause idea becomes a piece only if a real UK contract term turns up.
 - **New watch: FCA agentic AI statement and the agent-builder gap.** Opened 2026-11-25, post published. Prediction [2026-11-25-114]: by end of 2027, at least one FCA enforcement notice will cite a regulated firm for an AI agent acting outside its authorised scope; the builder's name won't appear.
 - **New watch: reserved legal activities and AI-capable activities gap.** Opened 2026-11-25, post published. Prediction [2026-11-25-113]: by end of 2028, no formal review of which reserved legal activities AI can perform without a licensed lawyer.
@@ -51,12 +52,13 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 - **New watch: compound productivity metric; Bank of England MPR formation-pipeline assumption.** Opened 2026-11-08. Prediction [2026-11-08-94].
 - **Updated: formation-collapse (surviving-role variant and feedback loop).** Predictions [2026-11-07-93], [2026-11-07-92], [2026-11-06-91].
 - **Carried threads (opened 2026-09 to 2026-11):** AI eulogy services; 400 billion AI figure; chain-of-thought explainability [2026-11-05-90]; DeepMind non-disparagement clause; DRCF agentic gaps [2026-11-04-89]; Budget AI teacher claim [2026-11-03-88]; Sovereign AI Fund co-option [2026-11-02-87]; OpenAI Dots UK exclusion; NLA Collective Intelligence service; NASU definition; Meta CMA investigation; evaluation sandbox standard [2026-10-31-83]; misalignment definition gap [2026-10-27-78]; AI employment package closing tools; Microsoft voluntary exit [2026-10-28-80]; AI productivity tribunal ruling [2026-10-29-82]; AIBL data access [2026-10-24-75]; synthetic focus groups; ICO agentic chain displacement [2026-10-22-74]; fine-tuning weights ownership (related to the 2026-11-26 distillation thread); UK AI sovereignty terms gap; FCA SM&CR sign-off; sovereign data centre label; AISI legal powers; substantial modification definition; METR-at-Anthropic scope; MHRA lifecycle monitoring; non-compete reform; tokenisation pricing [2026-10-15-65]; HMRC Propensity to Pay; PIP version gap [2026-10-25-76]; employment tribunal complexity [2026-10-09-61]; councils and AI in care; model welfare adjudication; White House Accord codification; convergent fragility; scope letter gap; failed-model auditor access; training-stop calibration; AI planning sign-off; automated administration readiness; car finance redress; meaningful human involvement; human interpreter; formation commons and employer NI; subsidised-margin pricing; FPC AI debt stress; graduate rotation; teacher witness; speculative decoding [2026-10-29-81].
-- **Carried how-to threads (all published):** plant disease diagnosis, recipe reconstruction, social quiz, vintage clothing, accent analysis, food label translation, knot identification, birdsong, cloud identification, night-sky photos, UK261 delays, family handwriting, silver hallmarks, billable hour, film identification, tattoo design, contract variation, houseplants, house architectural style, car boot antiques.
+- **Carried how-to threads (all published):** plant disease diagnosis, recipe reconstruction, social quiz, vintage clothing, accent analysis, food label translation, knot identification, birdsong, cloud identification, night-sky photos, UK261 delays, family handwriting, silver hallmarks, billable hour, film identification, tattoo design, contract variation, houseplants, house architectural style, car boot antiques, butterfly and moth identification, church carvings, silent-video lip-reading, tenancy clauses, garden footprint trap.
 - **Active: serial, Marnie.** Instalment 28 complete 2026-11-04. Part Two continues. Next: Kate says yes, in four complete sentences. About 16,623 of 70,000 words.
-- **Parked: AI-designed home escape room.** Held for human review (issue #152). Do not reattempt without reviewing the held draft first.
+- **Parked: AI-designed home escape room.** Held for human review (issue #152). Do not reattempt without reviewing the held draft first. Note: a home treasure hunt from photos of rooms is too close to it; avoided on 2026-11-26.
 
 ## Already published (recent)
 
+- How To Find Out Who Visits Your Garden at Night, With AI Reading the Footprints, by Tomorrow Morning (2026-11-26)
 - How AI distillation works: how a cheap model learns from an expensive one, and who is allowed to teach it (2026-11-26)
 - The FCA's 'Our Approach to Agentic AI' Has a Clear Answer for Firms. It Has No Answer for the Builder.
 - How To Check If Your Tenancy Agreement Has Illegal Clauses in It, With AI, Before You Sign
@@ -71,9 +73,4 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 - What WE Learnt This Week: The Filing Said 'May Allocate None'
 - The Government's Response to HC 160 Has an Answer for the JCHR. It Has No Answer for T.
 - Obituary: The Data Controller, 1984-2026
-- How retrieval-augmented generation works: why your AI assistant knows your documents but still gets them wrong
-- How context windows work: why a longer conversation costs more, and who that shapes
-- How AI reasoning tokens work: why the thinking you're paying for isn't the thinking driving the answer
-- Why your AI goes fast on the boring words and slow on the hard ones: how speculative decoding works
-- How a local AI model works: why a chatbot fits in 8GB, what the four bits throw away, and why your laptop's speed is a plumbing number
 - (Earlier posts through 2026-11-25 are listed in the archive; every subject there is taken.)
