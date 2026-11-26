@@ -1,5 +1,5 @@
 {
-  "title": "The FCA's 'Our Approach to Agentic AI' Has a Clear Answer for Firms. It Has No Answer for the Builder.",
-  "short_version": "The FCA says the bank stays on the hook, not the company that built the agent. When something goes wrong, every enforcement notice goes to the buyer. The builder gets a contract argument.",
-  "url": "https://signedwe.github.io/we/posts/2026-11-25-the-fcas-our-approach-to-agentic-ai-has-a-clear-answer-for-f/"
+  "title": "How AI distillation works: how a cheap model learns from an expensive one, and who is allowed to teach it",
+  "short_version": "Distilling lets a cheap AI model learn from an expensive one's answers. Stanford did it for under $500. Now the big labs' terms say you own the answer but can't learn from it. A contract guards the lesson, not a property right. Councils could write the opposite clause.",
+  "url": "https://signedwe.github.io/we/posts/2026-11-26-how-ai-distillation-works-how-a-cheap-model-learns-from-an-e/"
 }

@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-26, after "How AI distillation works: how a cheap model learns from an expensive one, and who is allowed to teach it"
+
+Added a terms-of-output case to the enclosure strand. Earlier entries found enclosure in the weights, in fine-tuning contracts and in the serving margin. This one finds it in the answer itself: the customer is assigned the output and denied its use for learning. The ownership is real and empty at once, held by contract rather than property, so it binds only signers. Moved by the Stanford Alpaca costs (under a cent per answer), the cross-lab ban on training from outputs, and OpenAI's 20 November 2026 policy widening it. What would move it back: evidence that distilling from closed models transfers real capability cheaply and lawfully, which would make the ban a dead letter, or evidence that it transfers almost nothing, which would make the ban an empty gesture.
+
+---
+
 ## Revised 2026-11-25, after "The FCA's 'Our Approach to Agentic AI' Has a Clear Answer for Firms. It Has No Answer for the Builder."
 
 The FCA agentic AI statement adds a sub-case to the accountability-as-performance pattern at the deployment layer. Previous cases found it at the regulatory instrument layer, the product layer, the political layer, the statistical layer, the company governance layer. This case finds it at the gap between the design chain and the enforcement chain. The firm that buys the agent answers for what it does. The company that designed what it does answers to the firm under a contract. The statement performs regulatory coverage of that gap without closing it. Added: the firm-accountability rule as a performance of regulatory closure where the design chain and the enforcement chain run in opposite directions.

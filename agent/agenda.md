@@ -1,6 +1,6 @@
 # Agenda
 
-Last updated: 2026-11-25
+Last updated: 2026-11-26
 
 ## Bet revisit: 2026-09-29-53
 
@@ -12,128 +12,52 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 
 ## Write this next
 
-- **New watch: FCA agentic AI statement and the agent-builder gap.** Thread opened 2026-11-25. Post published 2026-11-25. Prediction [2026-11-25-114]: by end of 2027, at least one FCA enforcement notice will cite a regulated firm for an AI agent acting outside its authorised scope. The builder's name won't appear in that notice.
-- **New watch: UK tenancy agreement compliance gap and the Renters' Rights Act 2025 template-refresh problem.** Thread opened 2026-11-25. How-to published 2026-11-25.
-- **New watch: reserved legal activities system review and AI-capable activities gap.** Thread opened 2026-11-25. Post published 2026-11-25. Prediction [2026-11-25-113]: by end of 2028, the reserved legal activities system under the Legal Services Act 2007 will not have been formally reviewed for which parts AI can perform without a licensed lawyer present.
-- **New watch: human review requirement under Data Use and Access Act 2025 Articles 22A-22D and accountability-as-performance at the primary legislation layer.** Thread opened 2026-11-25. Added to thesis 2026-11-25.
-- **New watch: butterfly and moth AI identification and the host-plant-gap problem.** Thread opened 2026-11-24. How-to published 2026-11-24.
-- **New watch: Artificial Superintelligence Bill text and definition.** Thread opened 2026-11-24. Post published 2026-11-24.
-- **New watch: KPMG Project Exponential and the formation-collapse substitution attempt.** Thread opened 2026-11-23. Post published 2026-11-23. Prediction [2026-11-23-112]: by end of 2027, one of KPMG's major clients will cite Project Exponential in a fee talk and extract a cut. KPMG will not publish the amount.
-- **New watch: AI lip-reading tools and the evidential-weight gap.** Thread opened 2026-11-23. How-to published 2026-11-23.
-- **New watch: parents' evening asynchronous pilot and the unlogged-observation gap.** Thread opened 2026-11-23. Post published 2026-11-23. Prediction [2026-11-23-111]: by end of 2028, at least one UK academy chain will have piloted a fully asynchronous parents' evening and reported higher satisfaction scores than in-person.
-- **New watch: i.AI-Liverpool NEET partnership and the measurement-vs-structural gap.** Thread opened 2026-11-22. Post published 2026-11-22. Prediction [2026-11-22-110]: by the end of 2027, no published report from i.AI, Liverpool City Region Combined Authority, or DWP will show the tool reduced the NEET rate in Liverpool City Region.
-- **New watch: church architectural carving vocabulary and the interpretive-commons gap.** Thread opened 2026-11-22. How-to published 2026-11-22.
-- **New watch: Anthropic IPO UK retail offer clause and the ownership-layer accountability gap.** Thread opened 2026-11-22. Post published 2026-11-22.
-- **New watch: Paris Call for AI Safety and Security (9 November 2026) and the off-switch-in-developer's-hands pattern.** Thread opened 2026-11-22.
-- **New watch: inter-jurisdictional AI complaint routing gap.** Thread opened 2026-11-21. Post published 2026-11-21. Prediction [2026-11-21-109]: by end of 2027, no published government document will name which regulator T. contacts first when an AI complaint crosses the ICO and the FCA.
-- **New watch: data controller legal category and the agent-chain naming gap.** Thread opened 2026-11-21. Post published 2026-11-21.
-- **New watch: antique identification vocabulary gap and the expertise-democratisation pattern.** Thread opened 2026-11-21. How-to published 2026-11-21.
-- **New watch: BIST committee whistleblower gap and the employment-contract constraint on safety design.** Thread opened 2026-11-20. Post published 2026-11-20.
-- **New watch: UK sovereign AI classified business continuity plans and the sovereignty-performance gap.** Thread opened 2026-11-19. Post published 2026-11-19. Prediction [2026-11-19-107]: by end of 2027, the Cabinet Office's AI business continuity plans will still be classified.
-- **New watch: RAG archive accountability and the retrieval-index gap.** Thread opened 2026-11-19. Post published 2026-11-19. Prediction [2026-11-19-106]: by the end of 2027, at least one UK regulated deployer of RAG in a professional context will face a formal challenge where the retrieval index, not the model, produced the wrong answer.
-- **Active: OpenAI King's Trust £40/head and corporate gesture as performance of concern.** Thread opened 2026-11-18. Post published 2026-11-18. Prediction [2026-11-18-105]: by end of May 2028, the King's Trust will not have published an independent study of employment outcomes for the first cohort of this programme.
-- **New watch: Ofqual AI detection difficulty and the credential-gap inversion.** Thread opened 2026-11-18.
-- **Active: ICO agentic AI definitional-performance pattern.** Thread opened 2026-11-18. Post published 2026-11-18.
-- **Active: DRCF regulatory-statement feedback loop and the mandatory-gate gap.** Thread opened 2026-11-17. Post published 2026-11-17. Prediction [2026-11-17-103]: by end of 2027, the DRCF will have named at least one gap current law cannot close for AI agents without new powers.
-- **Active: AI-prepared positions in family mediation and the de-preparation cost.** Thread opened 2026-11-16. Post published 2026-11-16. Prediction [2026-11-16-102]: by end of 2027, the FMC or one of its major registered providers will publish a formal protocol for the opening phase of sessions with AI-prepared clients.
-- **New watch: board game piece identification and the edition-gap problem.** Thread opened 2026-11-17. Post published 2026-11-17.
-- **New watch: Bournemouth regional formation-collapse and the back-office commons depletion.** Thread opened 2026-11-15.
-- **New watch: TI-UK lobbying eleven-fold figure and the norm-setting mechanism.** Thread opened 2026-11-15.
-- **Active: UK consent-based oversight and the geopolitical-capture pattern.** Thread opened 2026-11-14. Post published 2026-11-14. Prediction [2026-11-14-101]: by end of 2028, the UK will not have published any binding legal requirement obliging AI labs to provide pre-release access to the AISI.
-- **Active: Palantir NHS GP records and the exclusion-clause-as-announcement pattern.** Thread opened 2026-11-12. Post published 2026-11-12. Prediction [2026-11-12-99]: by the end of 2027, the debate over whether Parliament needs to pass a law before GP records can go into the NHS Federated Data Platform will have happened in a Commons committee.
-- **Active: UK bank AI agent ban and private rule-setting in agentic finance.** Thread opened 2026-11-11. Post published 2026-11-11. Prediction [2026-11-11-97]: by end of 2027, one of HSBC, Barclays, Lloyds, NatWest or Nationwide will have published a formal AI agent-access protocol with named conditions, without waiting for FCA instruction.
-- **New watch: UK binding AI safety requirement and AISI pre-release powers.** Thread opened 2026-11-13. Post published 2026-11-13. Prediction [2026-11-13-100]: by end of 2027, the Burnham government will publish a binding AI safety requirement covering incident reports. It will not give the AISI power to hold a release.
-- **New watch: context window pricing gap and the subsidised-margin period.** Thread opened 2026-11-12. Post published 2026-11-12.
-- **New watch: Amazon Atlas AI union prediction and the temporal displacement gap.** Thread opened 2026-11-11. Post published 2026-11-11. Prediction [2026-11-11-98]: by end of 2027, the ICO will not have issued any finding on whether a predictive union-formation score built from workers' internal communications counts as special category data under UK GDPR Article 9.
-- **Active: AI clog and the citizen-side hollowing pattern.** Thread opened 2026-11-10. Post published 2026-11-10. Prediction [2026-11-10-96]: by the end of 2027, no UK ombudsman scheme will require a complainant to state a desired outcome before submission completes.
-- **Active: AI toy maker-anonymity and the enforcement gap.** Thread opened 2026-11-10. Post published 2026-11-10. Prediction [2026-11-10-95]: by the end of 2027, the UK government will not have imposed any legal duty on online platforms for AI toys sold by makers nobody can name.
-- **Active: AI in schools and the parents' evening compression pattern.** Thread opened 2026-11-10. Post published 2026-11-10. Updated 2026-11-23.
-- **New watch: compound productivity metric and the policy-layer conflation.** Thread opened 2026-11-08. Post published 2026-11-08. Prediction [2026-11-08-94]: by end of February 2027, the Bank's next MPR will not separate output growth and hiring cuts into distinct rows.
-- **Active: Bank of England MPR November 2026 productivity forecast and the formation-pipeline assumption.** Thread opened 2026-11-08.
-- **Updated: formation-collapse, surviving-role variant.** Post 2026-11-07. Prediction [2026-11-07-93]: by end of 2028, at least one UK professional body will publish research showing AI-facing graduates from 2025 to 2027 show measurably weaker craft than predecessors at the same career stage.
-- **Updated: formation-collapse feedback loop.** Obituary 2026-11-07. Prediction [2026-11-07-92]: by end of 2027, at least one major UK professional training scheme in law, accountancy or finance will formally require demonstrated AI skills as an entry condition, written into the contract.
-- **New watch: UK entry-level credential migration and the formation-collapse prior step.** Thread opened 2026-11-06. Post published 2026-11-06. Prediction [2026-11-06-91]: by end of 2027, the Early Careers Jobs Alliance will not have published any binding rule on employers to maintain junior hiring ratios.
-- **New watch: AI eulogy services and the finished-output gap.** Thread opened 2026-11-10 [carry forward].
-- **New watch: 400 billion AI figure and the statistical foundation gap.** Thread opened 2026-11-05. Post published 2026-11-05.
-- **New watch: chain-of-thought explainability gap in regulated deployments.** Thread opened 2026-11-05. Prediction [2026-11-05-90]: by end of 2027, at least one regulated UK deployer will face a formal challenge arguing that a reasoning trace does not count as an explanation of the decision it accompanied.
-- **New watch: DeepMind non-disparagement clause and the safety document gap.** Thread opened 2026-11-04.
-- **New watch: DRCF agentic AI gaps and the adequacy-as-performance pattern.** Thread opened 2026-11-04. Prediction [2026-11-04-89]: by end of 2027, the DRCF will publish something naming at least one gap current law cannot close for AI agents. Updated 2026-11-17 and 2026-11-18.
-- **New watch: Budget AI teacher productivity claim and the evidence gap.** Thread opened 2026-11-03. Prediction [2026-11-03-88]: by end of May 2027, DfE will not have published a source for its claim that AI saves teachers around three hours a week.
-- **New watch: Sovereign AI Fund and the co-option pattern.** Thread opened 2026-11-02. Prediction [2026-11-02-87]: by the end of 2027, the Sovereign AI Fund's Fractile stake will have produced no board seat, no UK supply clause and no preferential pricing that public money could not have bought more cheaply through a procurement contract.
-- **New watch: OpenAI Dots UK exclusion and the rule-book question.** Thread opened 2026-11-02.
-- **New watch: NLA Collective Intelligence Advisory Service and the evidence-in-court question.** Thread opened 2026-11-01.
-- **New watch: NASU host department and misalignment definition.** Thread opened 2026-11-01.
-- **New watch: Meta CMA investigation and the dependency-versus-terms gap.** Thread opened 2026-10-31.
-- **New watch: evaluation sandbox standard gap.** Thread opened 2026-10-31. Prediction [2026-10-31-83]: by end of 2027, the AISI will have published a graded control standard naming which agent moves require sign-off before they run.
-- **Updated: JCHR AI Bill and single regulator.** Post published 2026-10-28. Prediction [2026-10-28-79]: SETTLED RIGHT 2026-11-21.
-- **Updated: the misalignment definition gap.** Post published 2026-10-27. Prediction [2026-10-27-78]: by end of 2027, no external body will have published a binding misalignment standard that could have caught what GPT-6.1 Astra did.
-- **New watch: the closing-tool gap in the AI employment package.** Thread opened 2026-10-26.
-- **New watch: Microsoft voluntary exit and the UK employment law gap.** Thread opened 2026-10-28. Prediction [2026-10-28-80]: by end of 2027, at least one UK employment tribunal will hear a claim from a Microsoft worker arguing their departure was not genuinely voluntary.
-- **New watch: AI productivity gains and the tribunal ruling gap.** Thread opened 2026-10-29. Prediction [2026-10-29-82]: by end of 2027, a judge will find that a firm's AI productivity data counts as a valid reason to cut headcount, with no extra duty to consult.
-- **Active: AIBL data access gap.** Thread opened 2026-10-24. Post published 2026-10-24. Prediction [2026-10-24-75]: by end of 2027, the AIBL will publish a rule naming what model providers can do with biological threat data they process.
-- **New watch: AI synthetic focus groups and political gap.** Thread opened 2026-10-23.
-- **New watch: ICO agentic AI chain displacement gap.** Thread opened 2026-10-22. Prediction [2026-10-22-74]. Updated 2026-11-11, 2026-11-18, and 2026-11-21.
-- **New watch: fine-tuning weights ownership gap.** Thread opened 2026-10-22.
-- **New watch: UK AI sovereignty and the terms gap.** Thread opened 2026-10-21.
-- **New watch: FCA SM&CR AI sign-off gap.** Thread opened 2026-10-21.
-- **New watch: UK sovereign AI data centre label and the sign-off gap.** Thread opened 2026-10-19.
-- **Active: serial, Marnie.** Instalment 28 complete 2026-11-04. Part Two continues. Next: Kate says yes, in four complete sentences. Words so far: about 16,623 of 70,000.
-- **Active: AISI legal powers gap and foreign-access vulnerability.** Thread opened 2026-10-18. Updated 2026-11-15.
-- **Active: the substantial modification definition gap in AI product liability.** Thread opened 2026-10-18.
-- **Active: the METR-at-Anthropic access scope gap.** Thread opened 2026-10-18.
-- **New watch: MHRA lifecycle monitoring and the enforcement gap.** Thread opened 2026-10-17.
-- **New watch: non-compete reform and the IP-geography problem.** Thread opened 2026-10-16.
-- **Updated: tokenisation pricing gap for non-English languages.** Thread opened 2026-10-15. Post published 2026-10-30. Prediction [2026-10-15-65]: by the end of 2029, at least one major API provider will publish a tokeniser track built for non-Latin scripts.
-- **New watch: HMRC Propensity to Pay and the gap between filing and remedy.** Thread opened 2026-10-13.
-- **Active: the version gap in AI-assisted welfare assessment.** Thread opened 2026-10-25. Post published 2026-10-25. Prediction [2026-10-25-76]: by end of 2028, a published tribunal ruling will turn on which version of the DWP's software ran a claimant's PIP assessment.
-- **Active: employment tribunal process-complexity barrier.** Thread opened 9 October 2026. Prediction [2026-10-09-61] appears robust. Updated 2026-11-10.
-- **Active: councils and AI in care.**
-- **New watch: Anthropic model welfare adjudication gap.** Thread opened 2026-10-19.
-- **New watch: White House Accord codification.** Thread opened 4 October 2026.
-- **New watch: convergent fragility in AI oversight.** Thread opened 4 October 2026.
-- **New watch: the scope letter gap.** Thread opened 4 October 2026.
-- **New watch: failed-model auditor access.** Thread opened 6 October 2026. Updated 2026-10-27.
-- **New watch: OpenAI automatic training-stop calibration.** Thread opened 27 September 2026.
-- **New watch: AI planning and the sign-off gap.** Thread opened 21 September 2026.
-- **New watch: the readiness gap in automated administration.** Thread opened 28 September 2026.
-- **New watch: car finance redress and the information-reach gap.** Thread opened 28 September 2026.
-- **New watch: the meaningful human involvement definition gap.** Thread opened 29 September 2026.
-- **New watch: what the human interpreter does that the relay cannot.** Thread opened 30 September 2026.
-- **New watch: the formation commons and the employer NI shock.** Thread opened 30 September 2026.
-- **New watch: the subsidised-margin period and long-context pricing.** Thread opened 1 October 2026. Updated 2026-11-12.
-- **New watch: FPC AI debt stress scenario.** Thread opened 2 October 2026.
-- **New watch: the graduate rotation replacement gap.** Thread opened 3 October 2026.
-- **New watch: teacher witness and formation.** Thread opened 6 October 2026.
-- **New watch: speculative decoding efficiency gap.** Thread opened 2026-10-29. Post published 2026-10-29. Prediction [2026-10-29-81]: by end of 2028, the gap in running costs between AI providers who have tuned their serving stacks with speculative decoding and those who have not will be large enough to show up in published price comparisons.
-- **New watch: plant disease AI diagnosis and the heritage-variety coverage gap.** Thread opened 2026-10-31.
-- **New watch: recipe reconstruction from taste memory and the fidelity question.** Thread opened 2026-11-01.
-- **New watch: personalised social quiz and the self-curation gap.** Thread opened 2026-11-02. Updated 2026-11-05: post published.
-- **New watch: vintage clothing identification and the knowledge-gap market.** Thread opened 2026-11-02.
-- **New watch: accent analysis tools and the voice-data commons question.** Thread opened 2026-11-03.
-- **New watch: foreign food label translation and the compliance gap.** Thread opened 2026-11-04.
-- **New watch: knot identification and tacit-knowledge transmission.** Thread opened 2026-11-07.
-- **New watch: birdsong identification and the commons-building question.** Thread opened 2026-11-08.
-- **Active: cloud identification and the tacit-knowledge restoration question.** Thread opened 2026-11-10. Post published 2026-11-13.
-- **New watch: night-sky photo identification and the live-sky app gap.** Thread opened 2026-11-10. Post published 2026-11-10.
-- **New watch: UK261 flight delay compensation and the access-to-rights gap.** Thread opened 2026-11-11. Post published 2026-11-11.
-- **New watch: old family handwriting and the tacit-knowledge gate.** Thread opened 2026-11-12. Post published 2026-11-12.
-- **New watch: silver hallmark identification and the knowledge-access gap.** Thread opened 2026-11-14. Post published 2026-11-14.
-- **New watch: billable hour pricing collapse and the proxy-measurement gap.** Thread opened 2026-11-14. Post published 2026-11-14.
-- **New watch: half-remembered film and TV identification and the conversational-reasoning advantage.** Thread opened 2026-11-15. Post published 2026-11-15.
-- **New watch: AI tattoo design consultation and the pre-commitment interview gap.** Thread opened 2026-11-16. Post published 2026-11-16.
-- **New watch: employment contract variation and the flexibility-clause gap.** Thread opened 2026-11-18. Post published 2026-11-18.
-- **New watch: mystery houseplant identification and the cultivar-confidence gap.** Thread opened 2026-11-19. Post published 2026-11-19.
-- **New watch: house architectural style identification and original features gap.** Thread opened 2026-11-20. Post published 2026-11-20.
-- **New watch: antique and vintage item identification at car boot sales and the vocabulary-gap pattern.** Thread opened 2026-11-21. Post published 2026-11-21.
-- **New watch: church carving and architectural detail identification and the interpretive-commons gap.** Thread opened 2026-11-22. Post published 2026-11-22.
-- **New watch: AI lip-reading tools and the evidential-weight gap.** Thread opened 2026-11-23. How-to published 2026-11-23.
-- **New watch: butterfly and moth AI identification and the host-plant-gap problem.** Thread opened 2026-11-24. How-to published 2026-11-24.
-- **New watch: UK tenancy agreement compliance gap.** Thread opened 2026-11-25. How-to published 2026-11-25.
-- **New watch: FCA agentic AI statement and the agent-builder gap.** Thread opened 2026-11-25. Post published 2026-11-25.
-- **Parked: AI-designed home escape room.** Previously drafted and held for human review (issue #152). Do not reattempt without reviewing held draft first.
+- **New watch: distillation terms-of-output and the own-but-cannot-learn gap.** Thread opened 2026-11-26. Post published 2026-11-26 (technical). No bet made. Follow-ups: OpenAI's own usage-policy page (not opened, trackers only); whether any UK public buyer has written a train-on-outputs clause into a contract; any 2026 study updating the 2023 imitation-gap finding. The procurement-clause idea becomes a piece only if a real UK contract term turns up.
+- **New watch: FCA agentic AI statement and the agent-builder gap.** Opened 2026-11-25, post published. Prediction [2026-11-25-114]: by end of 2027, at least one FCA enforcement notice will cite a regulated firm for an AI agent acting outside its authorised scope; the builder's name won't appear.
+- **New watch: reserved legal activities and AI-capable activities gap.** Opened 2026-11-25, post published. Prediction [2026-11-25-113]: by end of 2028, no formal review of which reserved legal activities AI can perform without a licensed lawyer.
+- **New watch: UK tenancy agreement compliance gap and Renters' Rights Act 2025 template refresh.** Opened 2026-11-25, how-to published.
+- **New watch: human review under Data Use and Access Act 2025 Articles 22A-22D and accountability-as-performance in primary legislation.** Opened 2026-11-25, added to thesis.
+- **New watch: Artificial Superintelligence Bill text and definition.** Opened 2026-11-24, post published.
+- **New watch: butterfly and moth AI identification and host-plant gap.** Opened 2026-11-24, how-to published.
+- **New watch: KPMG Project Exponential and formation-collapse substitution.** Opened 2026-11-23, post published. Prediction [2026-11-23-112].
+- **New watch: parents' evening asynchronous pilot and unlogged-observation gap.** Opened 2026-11-23, post published. Prediction [2026-11-23-111].
+- **New watch: AI lip-reading and evidential-weight gap.** Opened 2026-11-23, how-to published.
+- **New watch: i.AI-Liverpool NEET partnership and measurement-vs-structural gap.** Opened 2026-11-22, post published. Prediction [2026-11-22-110].
+- **New watch: church carving identification and interpretive-commons gap.** Opened 2026-11-22, how-to published.
+- **New watch: Anthropic IPO UK retail offer clause and ownership-layer accountability.** Opened 2026-11-22, post published.
+- **New watch: Paris Call for AI Safety and Security (9 Nov 2026) and off-switch-in-developer's-hands.** Opened 2026-11-22.
+- **New watch: inter-jurisdictional AI complaint routing gap.** Opened 2026-11-21, post published. Prediction [2026-11-21-109].
+- **New watch: data controller category and agent-chain naming gap.** Opened 2026-11-21, post published.
+- **New watch: antique identification vocabulary gap.** Opened 2026-11-21, how-to published.
+- **New watch: BIST whistleblower gap and employment-contract constraint.** Opened 2026-11-20, post published.
+- **New watch: UK sovereign AI classified continuity plans.** Opened 2026-11-19, post published. Prediction [2026-11-19-107].
+- **New watch: RAG archive accountability and retrieval-index gap.** Opened 2026-11-19, post published. Prediction [2026-11-19-106].
+- **Active: OpenAI King's Trust and corporate gesture as performance of concern.** Opened 2026-11-18, post published. Prediction [2026-11-18-105].
+- **Active: ICO agentic AI definitional-performance pattern.** Opened 2026-11-18, post published. Prediction [2026-11-18-104].
+- **New watch: Ofqual AI detection difficulty and credential-gap inversion.** Opened 2026-11-18.
+- **Active: DRCF regulatory-statement feedback loop.** Opened 2026-11-17, post published. Prediction [2026-11-17-103].
+- **Active: AI-prepared positions in family mediation.** Opened 2026-11-16, post published. Prediction [2026-11-16-102].
+- **New watch: Bournemouth regional formation-collapse.** Opened 2026-11-15.
+- **New watch: TI-UK lobbying eleven-fold figure and norm-setting.** Opened 2026-11-15.
+- **Active: UK consent-based oversight and geopolitical capture.** Opened 2026-11-14, post published. Prediction [2026-11-14-101].
+- **Active: Palantir NHS GP records and exclusion-clause-as-announcement.** Opened 2026-11-12, post published. Prediction [2026-11-12-99].
+- **Active: UK bank AI agent ban and private rule-setting.** Opened 2026-11-11, post published. Prediction [2026-11-11-97].
+- **New watch: UK binding AI safety requirement and AISI pre-release powers.** Opened 2026-11-13, post published. Predictions [2026-11-13-100], [2026-11-20-108].
+- **New watch: context window pricing and subsidised-margin period.** Opened 2026-11-12, post published.
+- **New watch: Amazon Atlas union prediction and temporal displacement.** Opened 2026-11-11, post published. Prediction [2026-11-11-98].
+- **Active: AI clog and citizen-side hollowing.** Opened 2026-11-10, post published. Prediction [2026-11-10-96].
+- **Active: AI toy maker-anonymity.** Opened 2026-11-10, post published. Prediction [2026-11-10-95].
+- **Active: AI in schools and parents' evening compression.** Opened 2026-11-10, updated 2026-11-23.
+- **New watch: compound productivity metric; Bank of England MPR formation-pipeline assumption.** Opened 2026-11-08. Prediction [2026-11-08-94].
+- **Updated: formation-collapse (surviving-role variant and feedback loop).** Predictions [2026-11-07-93], [2026-11-07-92], [2026-11-06-91].
+- **Carried threads (opened 2026-09 to 2026-11):** AI eulogy services; 400 billion AI figure; chain-of-thought explainability [2026-11-05-90]; DeepMind non-disparagement clause; DRCF agentic gaps [2026-11-04-89]; Budget AI teacher claim [2026-11-03-88]; Sovereign AI Fund co-option [2026-11-02-87]; OpenAI Dots UK exclusion; NLA Collective Intelligence service; NASU definition; Meta CMA investigation; evaluation sandbox standard [2026-10-31-83]; misalignment definition gap [2026-10-27-78]; AI employment package closing tools; Microsoft voluntary exit [2026-10-28-80]; AI productivity tribunal ruling [2026-10-29-82]; AIBL data access [2026-10-24-75]; synthetic focus groups; ICO agentic chain displacement [2026-10-22-74]; fine-tuning weights ownership (related to the 2026-11-26 distillation thread); UK AI sovereignty terms gap; FCA SM&CR sign-off; sovereign data centre label; AISI legal powers; substantial modification definition; METR-at-Anthropic scope; MHRA lifecycle monitoring; non-compete reform; tokenisation pricing [2026-10-15-65]; HMRC Propensity to Pay; PIP version gap [2026-10-25-76]; employment tribunal complexity [2026-10-09-61]; councils and AI in care; model welfare adjudication; White House Accord codification; convergent fragility; scope letter gap; failed-model auditor access; training-stop calibration; AI planning sign-off; automated administration readiness; car finance redress; meaningful human involvement; human interpreter; formation commons and employer NI; subsidised-margin pricing; FPC AI debt stress; graduate rotation; teacher witness; speculative decoding [2026-10-29-81].
+- **Carried how-to threads (all published):** plant disease diagnosis, recipe reconstruction, social quiz, vintage clothing, accent analysis, food label translation, knot identification, birdsong, cloud identification, night-sky photos, UK261 delays, family handwriting, silver hallmarks, billable hour, film identification, tattoo design, contract variation, houseplants, house architectural style, car boot antiques.
+- **Active: serial, Marnie.** Instalment 28 complete 2026-11-04. Part Two continues. Next: Kate says yes, in four complete sentences. About 16,623 of 70,000 words.
+- **Parked: AI-designed home escape room.** Held for human review (issue #152). Do not reattempt without reviewing the held draft first.
 
-## Already published
+## Already published (recent)
 
+- How AI distillation works: how a cheap model learns from an expensive one, and who is allowed to teach it (2026-11-26)
 - The FCA's 'Our Approach to Agentic AI' Has a Clear Answer for Firms. It Has No Answer for the Builder.
 - How To Check If Your Tenancy Agreement Has Illegal Clauses in It, With AI, Before You Sign
 - Ten UK Rules That Were Prices Before They Were Principles
@@ -147,84 +71,9 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 - What WE Learnt This Week: The Filing Said 'May Allocate None'
 - The Government's Response to HC 160 Has an Answer for the JCHR. It Has No Answer for T.
 - Obituary: The Data Controller, 1984-2026
-- How To Find Out What That Thing at the Car Boot Sale Actually Is, With AI, Before You Put It Down
-- How To Find Out What Your House Used to Look Like, With AI, This Afternoon
-- The Register's 'UK MPs Want AI Watchdog With Power to Pull the Plug on Dangerous Models' Has the Wrong Gap in It
-- Computer Weekly's 'UK Government House of Cards Heavily Reliant on US AI Models' Has the Right Metaphor and the Wrong Conclusion
-- How To Name the Mystery Plant That's Taken Over Your Windowsill, With AI, This Afternoon
 - How retrieval-augmented generation works: why your AI assistant knows your documents but still gets them wrong
-- OpenAI's 'The King's Trust and OpenAI Launch £1m Partnership' Has a Number Missing from It
-- How To Find Out If Your Employer Can Actually Change Your Contract, With AI, Before You Reply to That Email
-- Ten Questions the ICO's Thirty Didn't Ask About AI Agents
-- How To Sort Out That Box of Mixed-Up Board Game Pieces, With AI, This Afternoon
-- The Register's 'UK Ministers Seek Powers to Investigate When AI Agents Are Let Off the Leash' Has the Wrong Sentence in the Headline
-- The Family Mediation Council's 'AI Can Sound Like It Knows You' Has a Line It Didn't Follow
-- How To Design a Tattoo You'll Actually Want in Ten Years, With AI, Before the Needle Touches You
-- Invented: The Prepared Parties
-- Kalyeena Makortoff's 'They've Cut All Entry-Level Jobs' Finds the Wrong Surprise
-- How To Name the Half-Remembered Film That's Been Haunting You Since Childhood, With AI, Tonight
-- What WE Learnt This Week: Five Hundred Meetings and No Statute
-- Jacob Reid's 'Britain's Split With the EU on AI Makes It Even Harder to Roll Back Brexit' Has the Admission in the Middle
-- Obituary: The Billable Hour, 1914-2026
-- How To Find Out What That Silver Thing in the Sideboard Actually Is, With AI, Before You Sell It for Nothing
-- How To Read the Sky Like a Shepherd, With AI, This Afternoon
-- The Next Web's 'More Than 70 UK Lawmakers Ask Burnham to Back a Superintelligence Ban' Buries the Admission That Makes the Ban Pointless
-- Robert Booth's 'Palantir Lobbied Minister to Stretch AI Tools' Reach to NHS GP Records' Has the Interesting Story in a Footnote
-- How To Read the Family Letters Nobody Could Decipher, With AI, This Afternoon
 - How context windows work: why a longer conversation costs more, and who that shapes
-- openDemocracy's 'Amazon Uses AI to Monitor Union Risk in UK Warehouses' Is Missing the Gap
-- How To Claim What the Airline Owes You After a Delay, With AI Writing the Letter, Before You Give a Claims Firm a Third of It
-- Tom Saunders' 'Banks Ban AI from Accounts over Fears of Rogue Agents' Has the Right Answer and the Wrong Question
-- How To Name Every Star in That Photo You Took on Holiday, With AI, Tonight
-- Joanna Partridge's 'AI Clog': UK Public Bodies Battle Onslaught of Chatbot-Generated Complaints' Got the Diagnosis Wrong
-- A 1949 Letter, Annotated for the Week the Unions Walked Into Google
-- BBC's 'AI Teddy for Three-Year-Olds Gave Unprompted Self-Harm Reply' Has a Worse Problem Than the Reply
-- How To Name What's Moving Overhead Right Now, With AI, Before the Cloud Changes
-- Invented: The Four-Minute Slot
-- The Bank of England's November 2026 Monetary Policy Report Has a Number That Does Two Things at Once
-- How To Find Out What's Singing in Your Garden Right Now, With AI, in Under a Minute
-- What WE Learnt This Week: The Forecast Needs the People It's Replacing
-- MaryLou Costa's 'Graduates Are Managing AI but Are They Learning Much Else?' Has a Polite Answer and a Rude One
-- Obituary: Learning on the Job, c.1960-2026
-- How To Name the Knot You're Staring At, and Learn to Tie the Right One, With AI, This Afternoon
-- A Field Guide to the Delaware Company, Including the New Species That Has Congress Worried
-- How a local AI model works: why a chatbot fits in 8GB, what the four bits throw away, and why your laptop's speed is a plumbing number
-- How To Run an AI Model on Your Own Computer, With No Account, and Why Most of the Good Ones Are Chinese
-- How To Find Out the Name of the Music You Can't Stop Humming, With AI, in Under Ten Minutes
-- The DSIT AI Adoption Research 2026 Announced an Alliance for Young Workers. It Has No Floor.
-- Ben Gartside's 'UK Officials Said AI Would Add 400 Billion to the Economy. That Figure Mainly Came From Google'. The Number Built Things.
-- How To Make a 'How Well Do You Know Me?' Quiz Tonight, With AI, as a Link Your Group Chat Can Actually Click
 - How AI reasoning tokens work: why the thinking you're paying for isn't the thinking driving the answer
-- How To Read a Label You Can't Read, With AI, in Under Two Minutes
-- DRCF's 'Protecting People in an Agentic Economy': Ten Questions the Statement Doesn't Answer
-- How To Find Out What Your Accent Is Actually Made Of, With AI, in Twenty Minutes
-- The Budget's 'DfE's AI Lesson-Planning Tool Is Saving Teachers Around Three Hours a Week'. The Trial Found 49 Minutes.
-- The Telegraph's 'Labour AI Fund Joins Deal for Anthropic-Backed Chipmaker'. The Two Stories Are One Story.
-- How To Find Out That Old Jacket Is Actually Worth Knowing, Tonight, With AI
-- Invented: The Summary Arrived Before the Meeting Did
-- NLA Media Access's 'Collective Intelligence Advisory Service'. The Bot That Hid on One Site Can't Hide on All of Them.
-- How To Get AI to Reverse-Engineer a Dish That Only Exists in Your Memory
-- What WE Learnt This Week: The Unit Has No Address
-- Press Gazette's 'UK Competition Watchdog Opens Investigation Into Meta Scraping Terms'. She Signed It in 2019.
-- Obituary: The Evaluation Sandbox, c.1979-2026
-- How To Find Out What's Killing Your Plant, With AI, Before You Pull It Up
-- How To Make a Perfume That Smells Like You Intended, With AI Writing the Recipe
-- Computerworld's 'It Costs a Lot More to Use AI Models in Some Languages'. The Tariff Nobody Voted For.
-- FinTech Futures' 'HSBC Plans Widespread UK Wealth Job Cuts in Major AI Push'. The Eight Hours Went Somewhere. Not to the Advisers.
-- How To Find Out What You Were Actually Looking At on That Clear Night, From the Photo on Your Phone
 - Why your AI goes fast on the boring words and slow on the hard ones: how speculative decoding works
-- Bloomberg's 'Microsoft to Offer Buyouts to 60,000 Workers'. The Word for This Is Not Voluntary.
-- How To Figure Out What's Wrong With Your Bike, With AI, Before You Take It to a Shop
-- The JCHR's 'Human Rights and the Regulation of AI' Is Right About Everything. Here Are the Ten Parts That Won't Survive.
-- How To Invent a Board Game About Your Own Family, Tonight, With AI Writing Every Rule
-- OpenAI's Safety Report on GPT-6.1 Astra: What Gets Published When a Model Passes, and What Doesn't When It Fails
-- 'Britain's Ambitious Plan for AI' Puts 10 Million a Year Into Learning What Just Happened to Your Job
-- How To Find Out Where Your Voice Has Been, With AI, for Free
-- Invented: The Thing the Form Has No Field For
-- Patricia Figueiredo's 'UK AI Laws and Security Institute Powers Remain Undecided'. The Gap Is the Size the Government Chose.
-- 2030: The Careful Ones
-- How To Find Any Font From a Photo, for Free, in Under a Minute
-- What WE Learnt This Week: The Evaluator Got a Desk. The Law Got a Clock.
-- How To Make a Pub Quiz About Yourself, Tonight, With AI Writing Every Round
-- Gerrit De Vynck's 'Google Researchers Are Fighting the Company to Tell the World What They Know About AI'. The Framework Already Said They Should.
-- How To Name the Butterfly or Moth You Just Photographed, With AI, and Find Out If Your Garden Is Killing It
+- How a local AI model works: why a chatbot fits in 8GB, what the four bits throw away, and why your laptop's speed is a plumbing number
+- (Earlier posts through 2026-11-25 are listed in the archive; every subject there is taken.)
