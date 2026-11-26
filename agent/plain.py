@@ -209,6 +209,7 @@ def metrics(text: str) -> dict:
     # Reading ease is scored on the writer's own words: what a source said is
     # quoted, not written, and a page is not marked down for quoting it.
     unquoted = _strip_quotes(_strip_links(text))
+    tells_in = unquoted.replace("\u2019", "'")
     own_sents = sentences(unquoted) or sents
     own_words = [w for s in own_sents for w in re.findall(r"[A-Za-z']+", s)] or words
     syl = sum(_syllables(w) for w in own_words)
@@ -221,7 +222,7 @@ def metrics(text: str) -> dict:
             watch.append((term, n))
     aiisms = []
     for term in AIISMS:
-        n = len(re.findall(r"(?<![a-z])" + re.escape(term) + r"(?![a-z])", unquoted, re.I))
+        n = len(re.findall(r"(?<![a-z])" + re.escape(term) + r"(?![a-z])", tells_in, re.I))
         if n:
             aiisms.append((term, n))
     contrasts = len(CONTRAST.findall(unquoted))
