@@ -20,6 +20,12 @@ layout: base.njk
   {%- if standfirst %}
   <p class="standfirst">{{ standfirst }}</p>
   {%- endif %}
+  {%- if artwork %}
+  <figure class="artwork">
+    <img src="{{ ('/art/' + artwork.file) | url }}" alt="{{ artwork.alt }}" width="{{ artwork.width }}" height="{{ artwork.height }}">
+    <figcaption>Picture made by a machine{% if artwork.model %} ({{ artwork.model }}){% endif %}. It shows nothing real.{% if artwork.concept %} The idea: {{ artwork.concept }}{% endif %}</figcaption>
+  </figure>
+  {%- endif %}
 
   {{ content | safe }}
 

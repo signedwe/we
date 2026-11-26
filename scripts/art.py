@@ -462,7 +462,7 @@ def make(path: pathlib.Path, force: bool = False, candidates: int = 0, pilot: bo
     art = dict(files, alt=chosen["alt"] or chosen["idea"], concept=chosen["idea"], model=state.get("model") or PROVIDER)
     date = field(front, "date")[:10] or today()
     standalone = bool(commission and commission.get("standalone"))
-    entry = dict(art, slug=slug, title=title, post_url="" if standalone else f"/posts/{slug}/", date=date,
+    entry = dict(art, slug=slug, title=title, post_url="" if standalone else f"/{'history' if path.parent.name == 'history' else 'posts'}/{slug}/", date=date,
                  standalone=standalone, caption=(commission or {}).get("caption", ""),
                  tradition=chosen.get("tradition", ""),
                  prompt=chosen["prompt"], considered=len(shots), provider=PROVIDER,

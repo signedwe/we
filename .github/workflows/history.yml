@@ -77,6 +77,18 @@ jobs:
             gh issue create --title "History, not published: $(basename "$f")" --body-file /tmp/issue-body.md
           done
 
+      # A picture for the essay. Any failure, a missing key or a reached cap
+      # and the essay goes out without one.
+      - name: A picture for the essay
+        if: steps.write_essay.outputs.held != 'true' && inputs.draft != true
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          f=$(git status --porcelain src/history | awk '{print $2}' | grep '\.md$' | sort | tail -n 1)
+          [ -n "$f" ] && pip install pillow && python scripts/art.py --post "$f" || echo "no new essay to draw for"
+
       - name: Commit the essay
         if: steps.write_essay.outputs.held != 'true'
         run: |
@@ -84,7 +96,7 @@ jobs:
           git config user.email "signedwe@users.noreply.github.com"
           # agent/resume only exists on a resumed run; a missing pathspec
           # killed the 8 November run after the essay was written.
-          for p in src/history agent/history-subjects.md agent/latest.json agent/resume; do
+          for p in src/history agent/history-subjects.md agent/latest.json agent/resume src/static/art agent/art.json agent/art-ledger.json; do
             [ -e "$p" ] && git add -A "$p"
           done
           git commit -m "history: $(date -u +%Y-%m-%d)" || exit 0
