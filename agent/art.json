@@ -171,5 +171,26 @@
   "considered": 1,
   "provider": "openai",
   "post": "pilot/2026-11-26-picture-mandatory-feelings-assessment-form-27c.md"
+ },
+ {
+  "file": "2026-11-27-the-department-of-human-efficiency-consultation-on-the-conso.webp",
+  "card": "2026-11-27-the-department-of-human-efficiency-consultation-on-the-conso-card.jpg",
+  "thumb": "2026-11-27-the-department-of-human-efficiency-consultation-on-the-conso-thumb.webp",
+  "width": 1536,
+  "height": 1024,
+  "alt": "A cross-stitched domestic sampler on aged linen showing a naive needlework scene of eleven tiny figures crowded into a miniature office kitchen staring at a birthday cake, a stitched clock reading 3:15, the motto DEAR ALL OF US in sampler lettering, and in a lower panel a lone figure labelled GRAHAM holding a calendar with every date crossed out, while a cat in a party hat watches from the corner.",
+  "concept": "When a nation shares one birthday, the birthday stops meaning anything, and so does the nation.",
+  "model": "gpt-image-2.6-sunburst",
+  "slug": "2026-11-27-the-department-of-human-efficiency-consultation-on-the-conso",
+  "title": "The Department of Human Efficiency: Consultation on the Consolidation of Birthdays",
+  "post_url": "/posts/2026-11-27-the-department-of-human-efficiency-consultation-on-the-conso/",
+  "date": "2026-11-27",
+  "standalone": false,
+  "caption": "",
+  "tradition": "Embroidered sampler, domestic needlework tradition circa 1820–1860: cross-stitch and satin-stitch on linen, decorative alphabet borders, naive figurative scenes, pious or improving mottoes, faded thread colours, slight warping of the fabric visible at the edges",
+  "prompt": "Embroidered sampler, landscape format, cross-stitch and satin-stitch on aged cream linen, in the domestic needlework style of circa 1830. A border of strawberries and counting numbers that never reach anything frames the central scene: a long office corridor in naive needlework perspective, eleven tiny cross-stitched figures crammed into a kitchen the size of a broom cupboard, staring at a cake on a counter, all wearing identical paper party hats. A stitched clock on the wall reads 3:15. Below the scene, in sampler lettering: DEAR ALL OF US. In the lower panel, one figure stands apart in a hallway, labelled in tiny stitching GRAHAM, holding a small needlework calendar with every date crossed out except one, which is also crossed out. A cat in the bottom-left corner wears a party hat and regards the viewer. The linen is slightly puckered. No other text.",
+  "considered": 1,
+  "provider": "openai",
+  "post": "src/posts/2026-11-27-the-department-of-human-efficiency-consultation-on-the-conso.md"
  }
 ]
