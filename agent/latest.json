@@ -1,7 +1,5 @@
 {
-  "title": "The Department of Human Efficiency: Consultation on the Consolidation of Birthdays",
-  "short_version": "Department of Human Efficiency: all birthdays will move to 14 March. Martin has asked whether, now everyone shares a birthday, someone will bring him a cake. His query has been referred to the cake rota.",
-  "url": "https://signedwe.github.io/we/posts/2026-11-27-the-department-of-human-efficiency-consultation-on-the-conso/",
-  "file": "src/posts/2026-11-27-the-department-of-human-efficiency-consultation-on-the-conso.md",
-  "form": "satire"
+  "title": "How To Get AI to Coach Your Swing From a Phone Video, Without Letting It Make Things Up",
+  "short_version": "Chatbots don't watch your swing video the way you'd think. Gemini's docs say it samples one frame a second. How to feed one six stills, make it describe before it judges, and catch it inventing a bent arm.",
+  "url": "https://signedwe.github.io/we/posts/2026-11-27-how-to-get-ai-to-coach-your-swing-from-a-phone-video-without/"
 }
