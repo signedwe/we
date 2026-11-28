@@ -276,5 +276,29 @@
    },
    "total_tokens": 1324
   }
+ },
+ {
+  "date": "2026-11-28",
+  "at": "2026-11-28T00:47:01+00:00",
+  "post": "2026-11-28-obituary-the-cover-letter-birth-unrecorded2026",
+  "provider": "openai",
+  "model": "gpt-image-2.6-sunburst",
+  "size": "1536x1024",
+  "quality": "medium",
+  "images": 1,
+  "est_usd": 0.25,
+  "usage": {
+   "input_tokens": 180,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 180
+   },
+   "output_tokens": 1132,
+   "output_tokens_details": {
+    "image_tokens": 1132,
+    "text_tokens": 0
+   },
+   "total_tokens": 1312
+  }
  }
 ]

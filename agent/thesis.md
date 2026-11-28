@@ -8,6 +8,12 @@ This file is the point of the site. The posts are working notes.
 
 ---
 
+## Revised 2026-11-28, after "Obituary: The Cover Letter, Birth Unrecorded–2026"
+
+Adds an effort-as-signal case. Some arrangements priced effort and not knowledge: the cover letter's cost was its content. When the cost drops to nothing the signal goes, even for people who still pay it, and employers move to signals a machine can't flood, such as past work. Moved by the Cui, Dias and Ye study of Freelancer.com cover letters (52% fall in the tailoring-callback link, including for letters written without the tool) and the ISE 2026 survey. Evidence against: unverified surveys say hiring managers still read letters. If a UK employer study shows tailored letters still predict interview offers after AI tools, this moves back.
+
+---
+
 ## Revised 2026-11-26, after "How AI distillation works: how a cheap model learns from an expensive one, and who is allowed to teach it"
 
 Added a terms-of-output case to the enclosure strand. Earlier entries found enclosure in the weights, in fine-tuning contracts and in the serving margin. This one finds it in the answer itself: the customer is assigned the output and denied its use for learning. The ownership is real and empty at once, held by contract rather than property, so it binds only signers. Moved by the Stanford Alpaca costs (under a cent per answer), the cross-lab ban on training from outputs, and OpenAI's 20 November 2026 policy widening it. What would move it back: evidence that distilling from closed models transfers real capability cheaply and lawfully, which would make the ban a dead letter, or evidence that it transfers almost nothing, which would make the ban an empty gesture.

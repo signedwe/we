@@ -12,6 +12,7 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 
 ## Write this next
 
+- **New watch: cover letter signal collapse and the effort-as-signal gap.** Opened 2026-11-28, obituary published (no bet). Sources: Cui, Dias (Santamarina) and Ye, Cowles Foundation CFDP 2577 / arXiv 2509.25054 / authors' PDF (Freelancer.com, 52% fall in tailoring-callback link, also for letters written without the tool; reputation-score correlation up 22%); Fortune interview with a Wharton economist; ISE Student Recruitment Survey 2026 via HR Review (64% accept AI, up from 46%). Separate paper, not combined: Galdin and Silbert, arXiv 2511.08785. Not found or unverified: the original ISE report (members only), any UK study of whether tailored letters still predict interview offers, the survey behind '83% of hiring managers still read cover letters', the primary source for the claim that the callback boost for tool users faded after two months (secondary write-ups only). Follow-up only if a UK employer study tests letter value after AI tools, or an employer publicly drops the letter from its forms. Note for the checker: the words 'applying' and 'relying' contain 'lying' and trip the accusation filter near a named outlet.
 - **New watch: sourdough crumb photos and AI diagnosis.** Opened 2026-11-28, how-to published. Guides disagree on whether overproofed crumb is gummy or dry; one photo fits several causes, so the post tells the baker to make the assistant interview them first. Follow-up only if an independent test compares an assistant's crumb diagnosis against an experienced baker's. Not a news thread.
 - **New watch: video-frame sampling and AI movement coaching.** Opened 2026-11-27, how-to published. Google's docs say Gemini samples video at 1 frame per second by default (API); the phone app's rate was not found. Follow-up only if an independent test compares general assistants against a human coach, or if the Gemini app documents its sampling rate.
 - **New watch: garden footprint trap and AI track identification.** Opened 2026-11-26, how-to published. Follow-up only if an independent test appears.
@@ -60,6 +61,7 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 
 ## Already published (recent)
 
+- Obituary: The Cover Letter, Birth Unrecorded–2026 (2026-11-28)
 - How To Find Out Why Your Loaf Came Out Like a Doorstop, With AI Reading the Crumb (2026-11-28)
 - How To Get AI to Coach Your Swing From a Phone Video, Without Letting It Make Things Up (2026-11-27)
 - How To Find Out Who Visits Your Garden at Night, With AI Reading the Footprints, by Tomorrow Morning (2026-11-26)

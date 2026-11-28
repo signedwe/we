@@ -192,5 +192,26 @@
   "considered": 1,
   "provider": "openai",
   "post": "src/posts/2026-11-27-the-department-of-human-efficiency-consultation-on-the-conso.md"
+ },
+ {
+  "file": "2026-11-28-obituary-the-cover-letter-birth-unrecorded2026.webp",
+  "card": "2026-11-28-obituary-the-cover-letter-birth-unrecorded2026-card.jpg",
+  "thumb": "2026-11-28-obituary-the-cover-letter-birth-unrecorded2026-thumb.webp",
+  "width": 1536,
+  "height": 1024,
+  "alt": "A torn Victorian circus poster advertising the world's most perfect letter written by nobody; a ringmaster presents a glowing cover letter on a cushion to an audience of identical men, while a lone handwriter falls off a cliff in the corner.",
+  "concept": "Employers outsourced their trust from the letter to the work record, leaving the cover letter as a ceremonial object nobody believes but everyone still requires.",
+  "model": "gpt-image-2.6-sunburst",
+  "slug": "2026-11-28-obituary-the-cover-letter-birth-unrecorded2026",
+  "title": "Obituary: The Cover Letter, Birth Unrecorded–2026",
+  "post_url": "/posts/2026-11-28-obituary-the-cover-letter-birth-unrecorded2026/",
+  "date": "2026-11-28",
+  "standalone": false,
+  "caption": "",
+  "tradition": "Oversized Victorian circus or fairground poster — woodblock letterpress, loud competing typefaces, lurid hand-mixed inks, torn and wheat-pasted over older posters — advertising a live spectacle",
+  "prompt": "A battered, wheat-pasted Victorian circus poster on a crumbling brick wall, letterpress woodblock print, eye-scorching vermilion and cadmium yellow inks. The headline reads: MARVEL OF THE MODERN AGE — THE WORLD'S MOST PERFECT LETTER, WRITTEN BY NOBODY, ADDRESSED TO ANYONE. Centre illustration: a ringmaster in top hat presenting an enormous hovering cover letter on a velvet cushion; the letter radiates golden rays like a religious icon. The audience in the tent is entirely composed of identical men in bowler hats reading identical letters. At the far left, tiny and ignored, a person at a small desk writes by hand with a quill, their chair tipping backwards off a cliff. Bottom strip: ADMISSION FREE — YOUR SOUL OPTIONAL. Torn layers underneath show fragments of earlier posters. No other text.",
+  "considered": 1,
+  "provider": "openai",
+  "post": "src/posts/2026-11-28-obituary-the-cover-letter-birth-unrecorded2026.md"
  }
 ]
