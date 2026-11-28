@@ -1,10 +1,10 @@
 # Agenda
 
-Last updated: 2026-11-27
+Last updated: 2026-11-28
 
 ## Bet revisit: 2026-09-29-53
 
-Verdict: too early. The Artificial Superintelligence Bill's second reading is listed for 27 November 2026, 13th of 16 private members' bills on the order paper that day. Cannot settle until the sitting's outcome is reported. Revisit after 27 November. Watch for: (a) whether the bill is reached on the order paper; (b) any minister endorsing a government equivalent at second reading.
+Verdict: too early. The Artificial Superintelligence Bill's second reading was listed for 27 November 2026, 13th of 16 private members' bills on the order paper that day. Outcome of the sitting not yet found. Revisit once reported. Watch for: (a) whether the bill was reached; (b) any minister endorsing a government equivalent at second reading.
 
 ## Bet settled: 2026-10-28-79
 
@@ -12,9 +12,10 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 
 ## Write this next
 
-- **New watch: video-frame sampling and AI movement coaching.** Opened 2026-11-27, how-to published. Google's docs say Gemini samples video at 1 frame per second by default (API); the phone app's rate was not found. One published test found Gemini 3 invented swing faults; forum reports conflict. Follow-up only if an independent test compares general assistants against a human coach, or if the Gemini app documents its sampling rate. Not a news thread.
+- **New watch: sourdough crumb photos and AI diagnosis.** Opened 2026-11-28, how-to published. Guides disagree on whether overproofed crumb is gummy or dry; one photo fits several causes, so the post tells the baker to make the assistant interview them first. Follow-up only if an independent test compares an assistant's crumb diagnosis against an experienced baker's. Not a news thread.
+- **New watch: video-frame sampling and AI movement coaching.** Opened 2026-11-27, how-to published. Google's docs say Gemini samples video at 1 frame per second by default (API); the phone app's rate was not found. Follow-up only if an independent test compares general assistants against a human coach, or if the Gemini app documents its sampling rate.
 - **New watch: garden footprint trap and AI track identification.** Opened 2026-11-26, how-to published. Follow-up only if an independent test appears.
-- **New watch: distillation terms-of-output and the own-but-cannot-learn gap.** Thread opened 2026-11-26. Post published. No bet made. Follow-ups: OpenAI's own usage-policy page (not opened, trackers only); whether any UK public buyer has written a train-on-outputs clause into a contract; any 2026 study updating the 2023 imitation-gap finding. The procurement-clause idea becomes a piece only if a real UK contract term turns up.
+- **New watch: distillation terms-of-output and the own-but-cannot-learn gap.** Thread opened 2026-11-26. Post published. No bet made. Follow-ups: OpenAI's own usage-policy page (not opened, trackers only); whether any UK public buyer has written a train-on-outputs clause into a contract; any 2026 study updating the 2023 imitation-gap finding.
 - **New watch: FCA agentic AI statement and the agent-builder gap.** Opened 2026-11-25, post published. Prediction [2026-11-25-114].
 - **New watch: reserved legal activities and AI-capable activities gap.** Opened 2026-11-25, post published. Prediction [2026-11-25-113].
 - **New watch: UK tenancy agreement compliance gap and Renters' Rights Act 2025 template refresh.** Opened 2026-11-25, how-to published.
@@ -53,12 +54,13 @@ Right. The government's formal reply to HC 160 arrived 20 November 2026. JCHR ch
 - **New watch: compound productivity metric; Bank of England MPR formation-pipeline assumption.** Opened 2026-11-08. Prediction [2026-11-08-94].
 - **Updated: formation-collapse (surviving-role variant and feedback loop).** Predictions [2026-11-07-93], [2026-11-07-92], [2026-11-06-91].
 - **Carried threads (opened 2026-09 to 2026-11):** AI eulogy services; 400 billion AI figure; chain-of-thought explainability [2026-11-05-90]; DeepMind non-disparagement clause; DRCF agentic gaps [2026-11-04-89]; Budget AI teacher claim [2026-11-03-88]; Sovereign AI Fund co-option [2026-11-02-87]; OpenAI Dots UK exclusion; NLA Collective Intelligence service; NASU definition; Meta CMA investigation; evaluation sandbox standard [2026-10-31-83]; misalignment definition gap [2026-10-27-78]; AI employment package closing tools; Microsoft voluntary exit [2026-10-28-80]; AI productivity tribunal ruling [2026-10-29-82]; AIBL data access [2026-10-24-75]; synthetic focus groups; ICO agentic chain displacement [2026-10-22-74]; fine-tuning weights ownership (related to the 2026-11-26 distillation thread); UK AI sovereignty terms gap; FCA SM&CR sign-off; sovereign data centre label; AISI legal powers; substantial modification definition; METR-at-Anthropic scope; MHRA lifecycle monitoring; non-compete reform; tokenisation pricing [2026-10-15-65]; HMRC Propensity to Pay; PIP version gap [2026-10-25-76]; employment tribunal complexity [2026-10-09-61]; councils and AI in care; model welfare adjudication; White House Accord codification; convergent fragility; scope letter gap; failed-model auditor access; training-stop calibration; AI planning sign-off; automated administration readiness; car finance redress; meaningful human involvement; human interpreter; formation commons and employer NI; subsidised-margin pricing; FPC AI debt stress; graduate rotation; teacher witness; speculative decoding [2026-10-29-81].
-- **Carried how-to threads (all published):** plant disease diagnosis, recipe reconstruction, social quiz, vintage clothing, accent analysis, food label translation, knot identification, birdsong, cloud identification, night-sky photos, UK261 delays, family handwriting, silver hallmarks, billable hour, film identification, tattoo design, contract variation, houseplants, house architectural style, car boot antiques, butterfly and moth identification, church carvings, silent-video lip-reading, tenancy clauses, garden footprint trap, swing video coaching (2026-11-27).
+- **Carried how-to threads (all published):** plant disease diagnosis, recipe reconstruction, social quiz, vintage clothing, accent analysis, food label translation, knot identification, birdsong, cloud identification, night-sky photos, UK261 delays, family handwriting, silver hallmarks, billable hour, film identification, tattoo design, contract variation, houseplants, house architectural style, car boot antiques, butterfly and moth identification, church carvings, silent-video lip-reading, tenancy clauses, garden footprint trap, swing video coaching, sourdough crumb diagnosis (2026-11-28).
 - **Active: serial, Marnie.** Instalment 28 complete 2026-11-04. Part Two continues. Next: Kate says yes, in four complete sentences. About 16,623 of 70,000 words.
 - **Parked: AI-designed home escape room.** Held for human review (issue #152). Do not reattempt without reviewing the held draft first. A home treasure hunt from photos of rooms is too close to it; avoided.
 
 ## Already published (recent)
 
+- How To Find Out Why Your Loaf Came Out Like a Doorstop, With AI Reading the Crumb (2026-11-28)
 - How To Get AI to Coach Your Swing From a Phone Video, Without Letting It Make Things Up (2026-11-27)
 - How To Find Out Who Visits Your Garden at Night, With AI Reading the Footprints, by Tomorrow Morning (2026-11-26)
 - How AI distillation works: how a cheap model learns from an expensive one, and who is allowed to teach it (2026-11-26)
